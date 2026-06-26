@@ -15,6 +15,24 @@ data/results/<task>/<version>/
 
 The six `*_info` / `results` / `quality_control` files are the results_v4 outputs.
 
+## Validation
+
+Every release is validated in CI against the canonical **results_v4** JSON Schemas,
+which live in the [`common_resources`](https://github.com/openproblems-bio/common_resources)
+repository under `schemas/results_v4/` and are vendored here as the `common/` submodule.
+`metric_info.json` is optional; the other five files are required and each is checked
+against its matching sub-schema.
+
+Run it locally:
+
+```sh
+git submodule update --init --recursive   # fetch the schemas
+pip install jsonschema
+python scripts/validate_results.py
+```
+
+See [`.github/workflows/validate.yml`](.github/workflows/validate.yml).
+
 ## config.json (optional)
 
 A maintainer-editable file that lives next to the results, so task owners can tune how
