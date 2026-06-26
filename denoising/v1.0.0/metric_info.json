@@ -1,0 +1,42 @@
+[
+  {
+    "name": "mse",
+    "label": "Mean-squared error",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The mean squared error between the denoised counts of the training dataset and the true counts of the test dataset after reweighting by the train/test ratio.",
+    "description": "The mean squared error between the denoised counts of the training dataset and the true counts of the test dataset after reweighting by the train/test ratio.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/metrics/mse.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{batson2019molecular,\n\ttitle = {Molecular cross-validation for single-cell RNA-seq},\n\tauthor = {Batson, Joshua and Royer, Loı̈c and Webber, James},\n\tyear = {2019},\n\tdoi = {10.1101/786269},\n\turl = {https://www.biorxiv.org/content/early/2019/09/30/786269}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "poisson",
+    "label": "Poisson loss",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The Poisson log likelihood of observing the true counts of the test dataset given the distribution given in the denoised dataset.",
+    "description": "The Poisson log likelihood of observing the true counts of the test dataset given the distribution given in the denoised dataset.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/metrics/poisson.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "component_name": "poisson",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{batson2019molecular,\n\ttitle = {Molecular cross-validation for single-cell RNA-seq},\n\tauthor = {Batson, Joshua and Royer, Loı̈c and Webber, James},\n\tyear = {2019},\n\tdoi = {10.1101/786269},\n\turl = {https://www.biorxiv.org/content/early/2019/09/30/786269}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

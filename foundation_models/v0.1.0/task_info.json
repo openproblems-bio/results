@@ -1,0 +1,31 @@
+{
+  "name": "foundation_models",
+  "label": "Foundation models",
+  "commit": null,
+  "summary": "Modelling of single-cells to perform multiple tasks using",
+  "description": "Recent developments in deep-learning have led to the creation of several 'foundation models' for single-cell data. These are large models that have been trained on data from millions of cells and am to fully capture the variability in the single-cell landscape. Typically, they use a transformer architecture [@szalata2024transformers] and undergo self-supervised pre-training using masking of parts of the input data. Trained foundation models can then be applied to a variety of downstream tasks, either by directly feeding new data into the model or by fine-tuning to better fit a new dataset or to produce a specific output. The general nature of single-cell foundation models and the large amount of data they have been trained on makes them potentially powerful tools for single-cell analysis but their performance is yet to be fully established.\n\nOpen Problems builds on existing evaluations [@boiarsky2023foundationmodels; @liu2024foundationmodels] of foundation models by incorporating them into our continuous benchmarking framework.\n\nThis overview combines results from the following benchmarks for individual tasks:\n\n- [Label projection](../label_projection)\n- [Batch Integration](../batch_integration)",
+  "repository": "https://github.com/openproblems-bio/task_foundation_models",
+  "authors": [
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {
+        "github": "rcannood",
+        "orcid": "0000-0003-3641-729X"
+      }
+    }
+  ],
+  "license": "MIT",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "v0.1.0",
+  "is_prerelease": false,
+  "timestamp": "2025-02-11T14:26:00Z"
+}

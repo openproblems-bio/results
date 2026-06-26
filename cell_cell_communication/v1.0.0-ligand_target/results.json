@@ -1,0 +1,542 @@
+[
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "random_events",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      477
+    ],
+    "run_cpu_pct": [
+      37.1
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.24117674611812784,
+      0.3269435569755058
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "true_events",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      505
+    ],
+    "run_cpu_pct": [
+      34.8
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "singlecellsignalr",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      990
+    ],
+    "run_cpu_pct": [
+      97.1
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.23291764229542827,
+      0.5523273050696709
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "connectome",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1257
+    ],
+    "run_cpu_pct": [
+      89.6
+    ],
+    "run_peak_memory_mb": [
+      20600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.2186673231529983,
+      0.5233960443801254
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "connectome",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1218
+    ],
+    "run_cpu_pct": [
+      96.2
+    ],
+    "run_peak_memory_mb": [
+      20600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.2241773250496788,
+      0.46234413965087273
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "natmi",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1329
+    ],
+    "run_cpu_pct": [
+      94.8
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.20249286656532944,
+      0.25233644859813076
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "natmi",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1450
+    ],
+    "run_cpu_pct": [
+      98
+    ],
+    "run_peak_memory_mb": [
+      20800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.21093078930064907,
+      0.4301831780439881
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "log2fc",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1510
+    ],
+    "run_cpu_pct": [
+      91
+    ],
+    "run_peak_memory_mb": [
+      20600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.22691836613523286,
+      0.5523273050696709
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "singlecellsignalr",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1767
+    ],
+    "run_cpu_pct": [
+      93.2
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.21609265158255384,
+      0.21326352530541004
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "log2fc",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2059
+    ],
+    "run_cpu_pct": [
+      90.6
+    ],
+    "run_peak_memory_mb": [
+      20600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.24378650330128923,
+      0.5233960443801254
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "cellphonedb",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7279
+    ],
+    "run_cpu_pct": [
+      99.8
+    ],
+    "run_peak_memory_mb": [
+      101700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.2213468612403545,
+      0.3969072164948453
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "specificity_rank_aggregate",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7561
+    ],
+    "run_cpu_pct": [
+      102.9
+    ],
+    "run_peak_memory_mb": [
+      101800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.24046081848965734,
+      0.5523273050696709
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "magnitude_rank_aggregate",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      9450
+    ],
+    "run_cpu_pct": [
+      100.7
+    ],
+    "run_peak_memory_mb": [
+      98200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.22933647045717395,
+      0.5523273050696709
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "specificity_rank_aggregate",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8000
+    ],
+    "run_cpu_pct": [
+      100.6
+    ],
+    "run_peak_memory_mb": [
+      98200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.21989826172389476,
+      0.3969072164948453
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "cellphonedb",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7071
+    ],
+    "run_cpu_pct": [
+      99.8
+    ],
+    "run_peak_memory_mb": [
+      95600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.2317529688986895,
+      0.580223880597015
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tnbc_data",
+    "method_name": "magnitude_rank_aggregate",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7680
+    ],
+    "run_cpu_pct": [
+      99.9
+    ],
+    "run_peak_memory_mb": [
+      101800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.21803706201078665,
+      0.46234413965087273
+    ],
+    "metric_components": []
+  }
+]

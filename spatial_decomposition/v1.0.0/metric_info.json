@@ -1,0 +1,22 @@
+[
+  {
+    "name": "r2",
+    "label": "r2",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "R2, or the “coefficient of determination”, reports the fraction of the true proportion values’ variance that can be explained by the predicted proportion values. The best score, and upper bound, is 1.0. There is no fixed lower bound for the metric. The uniform/non-weighted average across all cell types/states is used to summarise performance.",
+    "description": "R2, or the “coefficient of determination”, reports the fraction of the true proportion values’ variance that can be explained by the predicted proportion values. The best score, and upper bound, is 1.0. There is no fixed lower bound for the metric. The uniform/non-weighted average across all cell types/states is used to summarise performance.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/metrics/r2.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "r2",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@inbook{miles2005rsquared,\n\ttitle = {Encyclopedia of statistics in behavioral science},\n\tauthor = {Miles, Jeremy},\n\tyear = {2005},\n\tdoi = {10.1002/0470013192.bsa526},\n\turl = {https://doi.org/10.1002/0470013192.bsa526}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

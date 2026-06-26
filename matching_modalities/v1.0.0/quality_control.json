@@ -1,0 +1,596 @@
+[
+  {
+    "category": "Task info",
+    "label": "Pct 'task_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing([task_info], field)",
+    "message": "Task metadata field 'task_id' should be defined\n  Task id: matching_modalities\n  Field: task_id\n"
+  },
+  {
+    "category": "Task info",
+    "label": "Pct 'commit_sha' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing([task_info], field)",
+    "message": "Task metadata field 'commit_sha' should be defined\n  Task id: matching_modalities\n  Field: commit_sha\n"
+  },
+  {
+    "category": "Task info",
+    "label": "Pct 'task_name' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing([task_info], field)",
+    "message": "Task metadata field 'task_name' should be defined\n  Task id: matching_modalities\n  Field: task_name\n"
+  },
+  {
+    "category": "Task info",
+    "label": "Pct 'task_summary' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing([task_info], field)",
+    "message": "Task metadata field 'task_summary' should be defined\n  Task id: matching_modalities\n  Field: task_summary\n"
+  },
+  {
+    "category": "Task info",
+    "label": "Pct 'task_description' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing([task_info], field)",
+    "message": "Task metadata field 'task_description' should be defined\n  Task id: matching_modalities\n  Field: task_description\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'task_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'task_id' should be defined\n  Task id: matching_modalities\n  Field: task_id\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'commit_sha' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'commit_sha' should be defined\n  Task id: matching_modalities\n  Field: commit_sha\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'method_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'method_id' should be defined\n  Task id: matching_modalities\n  Field: method_id\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'method_name' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'method_name' should be defined\n  Task id: matching_modalities\n  Field: method_name\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'method_summary' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'method_summary' should be defined\n  Task id: matching_modalities\n  Field: method_summary\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'paper_reference' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'paper_reference' should be defined\n  Task id: matching_modalities\n  Field: paper_reference\n"
+  },
+  {
+    "category": "Method info",
+    "label": "Pct 'is_baseline' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(method_info, field)",
+    "message": "Method metadata field 'is_baseline' should be defined\n  Task id: matching_modalities\n  Field: is_baseline\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'task_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'task_id' should be defined\n  Task id: matching_modalities\n  Field: task_id\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'commit_sha' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'commit_sha' should be defined\n  Task id: matching_modalities\n  Field: commit_sha\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'metric_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'metric_id' should be defined\n  Task id: matching_modalities\n  Field: metric_id\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'metric_name' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'metric_name' should be defined\n  Task id: matching_modalities\n  Field: metric_name\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'metric_summary' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'metric_summary' should be defined\n  Task id: matching_modalities\n  Field: metric_summary\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'paper_reference' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'paper_reference' should be defined\n  Task id: matching_modalities\n  Field: paper_reference\n"
+  },
+  {
+    "category": "Metric info",
+    "label": "Pct 'maximize' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(metric_info, field)",
+    "message": "Metric metadata field 'maximize' should be defined\n  Task id: matching_modalities\n  Field: maximize\n"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Pct 'task_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(dataset_info, field)",
+    "message": "Dataset metadata field 'task_id' should be defined\n  Task id: matching_modalities\n  Field: task_id\n"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Pct 'commit_sha' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(dataset_info, field)",
+    "message": "Dataset metadata field 'commit_sha' should be defined\n  Task id: matching_modalities\n  Field: commit_sha\n"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Pct 'dataset_id' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(dataset_info, field)",
+    "message": "Dataset metadata field 'dataset_id' should be defined\n  Task id: matching_modalities\n  Field: dataset_id\n"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Pct 'dataset_name' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(dataset_info, field)",
+    "message": "Dataset metadata field 'dataset_name' should be defined\n  Task id: matching_modalities\n  Field: dataset_name\n"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Pct 'dataset_summary' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(dataset_info, field)",
+    "message": "Dataset metadata field 'dataset_summary' should be defined\n  Task id: matching_modalities\n  Field: dataset_summary\n"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Pct 'data_reference' missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "percent_missing(dataset_info, field)",
+    "message": "Dataset metadata field 'data_reference' should be defined\n  Task id: matching_modalities\n  Field: data_reference\n"
+  },
+  {
+    "category": "Raw data",
+    "label": "Number of results",
+    "value": 21,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "len(results) == len(method_info) * len(metric_info) * len(dataset_info)",
+    "message": "Number of results should be equal to #methods × #metrics × #datasets.\n  Task id: matching_modalities\n  Number of results: 21\n  Number of methods: 7\n  Number of metrics: 2\n  Number of datasets: 3\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_auc' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  Metric id: knn_auc\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mse' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  Metric id: mse\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonic_alignment_log_scran_pooling' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: harmonic_alignment_log_scran_pooling\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonic_alignment_sqrt_cp10k' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: harmonic_alignment_sqrt_cp10k\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn_log_cp10k' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: mnn_log_cp10k\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn_log_scran_pooling' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: mnn_log_scran_pooling\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'procrustes' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: procrustes\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_features' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: random_features\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_features' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  method id: true_features\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'citeseq_cbmc' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  dataset id: citeseq_cbmc\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'scicar_cell_lines' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  dataset id: scicar_cell_lines\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'scicar_mouse_kidney' %missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= .1",
+    "message": "Percentage of missing results should be less than 10%.\n  Task id: matching_modalities\n  dataset id: scicar_mouse_kidney\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score harmonic_alignment_log_scran_pooling knn_auc",
+    "value": 0.013650181246076077,
+    "severity": 0,
+    "severity_value": -0.013650181246076077,
+    "condition": "worst_score >= -1",
+    "message": "Method harmonic_alignment_log_scran_pooling performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_log_scran_pooling\n  Metric id: knn_auc\n  Worst score: 0.013650181246076077%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score harmonic_alignment_log_scran_pooling knn_auc",
+    "value": 0.02693737142214102,
+    "severity": 0,
+    "severity_value": 0.01346868571107051,
+    "condition": "best_score <= 2",
+    "message": "Method harmonic_alignment_log_scran_pooling performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_log_scran_pooling\n  Metric id: knn_auc\n  Best score: 0.02693737142214102%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score harmonic_alignment_sqrt_cp10k knn_auc",
+    "value": -0.007718136452076273,
+    "severity": 0,
+    "severity_value": 0.007718136452076273,
+    "condition": "worst_score >= -1",
+    "message": "Method harmonic_alignment_sqrt_cp10k performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_sqrt_cp10k\n  Metric id: knn_auc\n  Worst score: -0.007718136452076273%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score harmonic_alignment_sqrt_cp10k knn_auc",
+    "value": 0.008048361486095518,
+    "severity": 0,
+    "severity_value": 0.004024180743047759,
+    "condition": "best_score <= 2",
+    "message": "Method harmonic_alignment_sqrt_cp10k performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_sqrt_cp10k\n  Metric id: knn_auc\n  Best score: 0.008048361486095518%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score mnn_log_cp10k knn_auc",
+    "value": -0.045073857496674405,
+    "severity": 0,
+    "severity_value": 0.045073857496674405,
+    "condition": "worst_score >= -1",
+    "message": "Method mnn_log_cp10k performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_cp10k\n  Metric id: knn_auc\n  Worst score: -0.045073857496674405%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score mnn_log_cp10k knn_auc",
+    "value": 0.13574548653413956,
+    "severity": 0,
+    "severity_value": 0.06787274326706978,
+    "condition": "best_score <= 2",
+    "message": "Method mnn_log_cp10k performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_cp10k\n  Metric id: knn_auc\n  Best score: 0.13574548653413956%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score mnn_log_scran_pooling knn_auc",
+    "value": -0.01880946613770593,
+    "severity": 0,
+    "severity_value": 0.01880946613770593,
+    "condition": "worst_score >= -1",
+    "message": "Method mnn_log_scran_pooling performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_scran_pooling\n  Metric id: knn_auc\n  Worst score: -0.01880946613770593%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score mnn_log_scran_pooling knn_auc",
+    "value": 0.06533138842384231,
+    "severity": 0,
+    "severity_value": 0.032665694211921156,
+    "condition": "best_score <= 2",
+    "message": "Method mnn_log_scran_pooling performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_scran_pooling\n  Metric id: knn_auc\n  Best score: 0.06533138842384231%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score procrustes knn_auc",
+    "value": 0.05705698937347893,
+    "severity": 0,
+    "severity_value": -0.05705698937347893,
+    "condition": "worst_score >= -1",
+    "message": "Method procrustes performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: procrustes\n  Metric id: knn_auc\n  Worst score: 0.05705698937347893%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score procrustes knn_auc",
+    "value": 0.3108150404865038,
+    "severity": 0,
+    "severity_value": 0.1554075202432519,
+    "condition": "best_score <= 2",
+    "message": "Method procrustes performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: procrustes\n  Metric id: knn_auc\n  Best score: 0.3108150404865038%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score random_features knn_auc",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score >= -1",
+    "message": "Method random_features performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: random_features\n  Metric id: knn_auc\n  Worst score: 0.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score random_features knn_auc",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score <= 2",
+    "message": "Method random_features performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: random_features\n  Metric id: knn_auc\n  Best score: 0.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score true_features knn_auc",
+    "value": 1,
+    "severity": 0,
+    "severity_value": -1,
+    "condition": "worst_score >= -1",
+    "message": "Method true_features performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: true_features\n  Metric id: knn_auc\n  Worst score: 1.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score true_features knn_auc",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0.5,
+    "condition": "best_score <= 2",
+    "message": "Method true_features performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: true_features\n  Metric id: knn_auc\n  Best score: 1.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score harmonic_alignment_log_scran_pooling mse",
+    "value": -0.006160570533860987,
+    "severity": 0,
+    "severity_value": 0.006160570533860987,
+    "condition": "worst_score >= -1",
+    "message": "Method harmonic_alignment_log_scran_pooling performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_log_scran_pooling\n  Metric id: mse\n  Worst score: -0.006160570533860987%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score harmonic_alignment_log_scran_pooling mse",
+    "value": 0.01539225216374196,
+    "severity": 0,
+    "severity_value": 0.00769612608187098,
+    "condition": "best_score <= 2",
+    "message": "Method harmonic_alignment_log_scran_pooling performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_log_scran_pooling\n  Metric id: mse\n  Best score: 0.01539225216374196%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score harmonic_alignment_sqrt_cp10k mse",
+    "value": -0.006538532325927271,
+    "severity": 0,
+    "severity_value": 0.006538532325927271,
+    "condition": "worst_score >= -1",
+    "message": "Method harmonic_alignment_sqrt_cp10k performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_sqrt_cp10k\n  Metric id: mse\n  Worst score: -0.006538532325927271%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score harmonic_alignment_sqrt_cp10k mse",
+    "value": 0.016096476784697722,
+    "severity": 0,
+    "severity_value": 0.008048238392348861,
+    "condition": "best_score <= 2",
+    "message": "Method harmonic_alignment_sqrt_cp10k performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: harmonic_alignment_sqrt_cp10k\n  Metric id: mse\n  Best score: 0.016096476784697722%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score mnn_log_cp10k mse",
+    "value": -0.1744304443286302,
+    "severity": 0,
+    "severity_value": 0.1744304443286302,
+    "condition": "worst_score >= -1",
+    "message": "Method mnn_log_cp10k performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_cp10k\n  Metric id: mse\n  Worst score: -0.1744304443286302%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score mnn_log_cp10k mse",
+    "value": 0.32117421366700694,
+    "severity": 0,
+    "severity_value": 0.16058710683350347,
+    "condition": "best_score <= 2",
+    "message": "Method mnn_log_cp10k performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_cp10k\n  Metric id: mse\n  Best score: 0.32117421366700694%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score mnn_log_scran_pooling mse",
+    "value": -0.02618801427707118,
+    "severity": 0,
+    "severity_value": 0.02618801427707118,
+    "condition": "worst_score >= -1",
+    "message": "Method mnn_log_scran_pooling performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_scran_pooling\n  Metric id: mse\n  Worst score: -0.02618801427707118%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score mnn_log_scran_pooling mse",
+    "value": 0.2803566688566542,
+    "severity": 0,
+    "severity_value": 0.1401783344283271,
+    "condition": "best_score <= 2",
+    "message": "Method mnn_log_scran_pooling performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: mnn_log_scran_pooling\n  Metric id: mse\n  Best score: 0.2803566688566542%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score procrustes mse",
+    "value": 0.07392331619971682,
+    "severity": 0,
+    "severity_value": -0.07392331619971682,
+    "condition": "worst_score >= -1",
+    "message": "Method procrustes performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: procrustes\n  Metric id: mse\n  Worst score: 0.07392331619971682%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score procrustes mse",
+    "value": 0.5607972733684712,
+    "severity": 0,
+    "severity_value": 0.2803986366842356,
+    "condition": "best_score <= 2",
+    "message": "Method procrustes performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: procrustes\n  Metric id: mse\n  Best score: 0.5607972733684712%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score random_features mse",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score >= -1",
+    "message": "Method random_features performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: random_features\n  Metric id: mse\n  Worst score: 0.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score random_features mse",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score <= 2",
+    "message": "Method random_features performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: random_features\n  Metric id: mse\n  Best score: 0.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst score true_features mse",
+    "value": 1,
+    "severity": 0,
+    "severity_value": -1,
+    "condition": "worst_score >= -1",
+    "message": "Method true_features performs much worse than baselines.\n  Task id: matching_modalities\n  Method id: true_features\n  Metric id: mse\n  Worst score: 1.0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best score true_features mse",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0.5,
+    "condition": "best_score <= 2",
+    "message": "Method true_features performs a lot better than baselines.\n  Task id: matching_modalities\n  Method id: true_features\n  Metric id: mse\n  Best score: 1.0%\n"
+  }
+]

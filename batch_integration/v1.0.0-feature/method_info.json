@@ -1,0 +1,366 @@
+[
+  {
+    "name": "random_integration_by_batch",
+    "label": "Random Integration by Batch",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Feature values, embedding coordinates, and graph connectivity are all randomly permuted within each batch label",
+    "description": "Feature values, embedding coordinates, and graph connectivity are all randomly permuted within each batch label",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/_common/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_embedding_by_celltype",
+    "label": "Random Embedding by Celltype",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Cells are embedded as a one-hot encoding of celltype labels",
+    "description": "Cells are embedded as a one-hot encoding of celltype labels",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_graph_by_celltype",
+    "label": "Random Graph by Celltype",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Cells are embedded as a one-hot encoding of celltype labels. A graph is then built on this embedding",
+    "description": "Cells are embedded as a one-hot encoding of celltype labels. A graph is then built on this embedding",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_graph/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_integration_by_celltype",
+    "label": "Random Integration by Celltype",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Feature values, embedding coordinates, and graph connectivity are all randomly permuted within each celltype label",
+    "description": "Feature values, embedding coordinates, and graph connectivity are all randomly permuted within each celltype label",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/_common/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "combat",
+    "label": "Combat",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "ComBat uses an Empirical Bayes (EB) approach to correct for batch effects. It estimates batch-specific parameters by pooling information across genes in each batch and shrinks the estimates towards the overall mean of the batch effect estimates across all genes. These parameters are then used to adjust the data for batch effects, leading to more accurate and reproducible results.",
+    "description": "ComBat uses an Empirical Bayes (EB) approach to correct for batch effects. It estimates batch-specific parameters by pooling information across genes in each batch and shrinks the estimates towards the overall mean of the batch effect estimates across all genes. These parameters are then used to adjust the data for batch effects, leading to more accurate and reproducible results.",
+    "type": "method",
+    "link_code": "https://scanpy.readthedocs.io/en/stable/api/scanpy.pp.combat.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_graph/methods/combat.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{hansen2012removing,\n\ttitle = {Adjusting batch effects in microarray expression data using empirical bayes methods},\n\tauthor = {Johnson, W. Evan and Li, Cheng and Rabinovic, Ariel},\n\tyear = {2006},\n\tdoi = {10.1093/biostatistics/kxj037},\n\turl = {https://doi.org/10.1093/biostatistics/kxj037}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+      "paper_year": 2007,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "full/scaled"
+        },
+        {
+          "name": "full/unscaled"
+        },
+        {
+          "name": "hvg/scaled"
+        },
+        {
+          "name": "hvg/unscaled"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "fastmnn_feature",
+    "label": "FastMNN feature",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "fastMNN performs a multi-sample PCA to reduce dimensionality, identifying MNN paris in the low-dimensional space, and then correcting the target batch towards the reference using locally weighted correction vectors. The corrected target batch is then merged with the reference. The process is repeated with the next target batch except for the PCA step.",
+    "description": "fastMNN performs a multi-sample PCA to reduce dimensionality, identifying MNN paris in the low-dimensional space, and then correcting the target batch towards the reference using locally weighted correction vectors. The corrected target batch is then merged with the reference. The process is repeated with the next target batch except for the PCA step.",
+    "type": "method",
+    "link_code": "https://doi.org/doi:10.18129/B9.bioc.batchelor/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_graph/methods/fastmnn.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{lun2019fastmnn,\n\ttitle = {A description of the theory behind the fastMNN algorithm},\n\tauthor = {Lun, Aaron},\n\tyear = {2019},\n\turl = {https://marionilab.github.io/FurtherMNN2018/theory/description.html}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "A description of the theory behind the fastMNN algorithm",
+      "paper_year": 2019,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "full/scaled"
+        },
+        {
+          "name": "full/unscaled"
+        },
+        {
+          "name": "hvg/scaled"
+        },
+        {
+          "name": "hvg/unscaled"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "mnn",
+    "label": "MNN",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "MNN first detects mutual nearest neighbours in two of the batches and infers a projection of the second onto the first batch. After that, additional batches are added iteratively.",
+    "description": "MNN first detects mutual nearest neighbours in two of the batches and infers a projection of the second onto the first batch. After that, additional batches are added iteratively.",
+    "type": "method",
+    "link_code": "https://github.com/chriscainx/mnnpy/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_graph/methods/mnn.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{haghverdi2018batch,\n\ttitle = {Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors},\n\tauthor = {Haghverdi, Laleh and Lun, Aaron T L and Morgan, Michael D and Marioni, John C},\n\tyear = {2018},\n\tdoi = {10.1038/nbt.4091},\n\turl = {https://doi.org/10.1038/nbt.4091}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors",
+      "paper_year": 2018,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "full/scaled"
+        },
+        {
+          "name": "full/unscaled"
+        },
+        {
+          "name": "hvg/scaled"
+        },
+        {
+          "name": "hvg/unscaled"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "no_integration",
+    "label": "No Integration",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Cells are embedded by PCA on the unintegrated data. A graph is built on this PCA embedding.",
+    "description": "Cells are embedded by PCA on the unintegrated data. A graph is built on this PCA embedding.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/_common/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "no_integration_by_batch",
+    "label": "No Integration by Batch",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Cells are embedded by computing PCA independently on each batch",
+    "description": "Cells are embedded by computing PCA independently on each batch",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_integration",
+    "label": "Random Integration",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Feature values, embedding coordinates, and graph connectivity are all randomly permuted",
+    "description": "Feature values, embedding coordinates, and graph connectivity are all randomly permuted",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/_common/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "scalex",
+    "label": "SCALEX",
+    "commit": "7455e35cbee06267e6a5f977e020a816f98168f5",
+    "summary": "SCALEX is a method for integrating heterogeneous single-cell data online using a VAE framework. Its generalised encoder disentangles batch-related components from batch-invariant biological components, which are then projected into a common cell-embedding space.",
+    "description": "SCALEX is a method for integrating heterogeneous single-cell data online using a VAE framework. Its generalised encoder disentangles batch-related components from batch-invariant biological components, which are then projected into a common cell-embedding space.",
+    "type": "method",
+    "link_code": "https://github.com/jsxlei/SCALEX/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_feature/methods/scalex.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{xiong2021online,\n\ttitle = {Online single-cell data integration through projecting heterogeneous datasets into a common cell-embedding space},\n\tauthor = {Xiong, Lei and Tian, Kang and Li, Yuzhe and Ning, Weixi and Gao, Xin and Zhang, Qiangfeng Cliff},\n\tyear = {2022},\n\tdoi = {10.1038/s41467-022-33758-z},\n\turl = {https://doi.org/10.1038/s41467-022-33758-z}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Online single-cell data integration through projecting heterogeneous datasets into a common cell-embedding space",
+      "paper_year": 2022,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "full"
+        },
+        {
+          "name": "hvg"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "scanorama_gene_output",
+    "label": "Scanorama gene output",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Scanorama is an extension of the MNN method. Other then MNN, it finds mutual nearest neighbours over all batches and embeds observations into a joint hyperplane.",
+    "description": "Scanorama is an extension of the MNN method. Other then MNN, it finds mutual nearest neighbours over all batches and embeds observations into a joint hyperplane.",
+    "type": "method",
+    "link_code": "https://github.com/brianhie/scanorama/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_graph/methods/scanorama.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{hie2019efficient,\n\ttitle = {Efficient integration of heterogeneous single-cell transcriptomes using scanorama},\n\tauthor = {Hie, Brian and Bryson, Bryan and Berger, Bonnie},\n\tyear = {2019},\n\tdoi = {10.1038/s41587-019-0113-3},\n\turl = {https://doi.org/10.1038/s41587-019-0113-3}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Efficient integration of heterogeneous single-cell transcriptomes using Scanorama",
+      "paper_year": 2019,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "full/scaled"
+        },
+        {
+          "name": "full/unscaled"
+        },
+        {
+          "name": "hvg/scaled"
+        },
+        {
+          "name": "hvg/unscaled"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  }
+]

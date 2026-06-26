@@ -1,0 +1,299 @@
+[
+  {
+    "name": "cell2location",
+    "label": "Cell2location",
+    "commit": "154ccb9fd99113f3d28d9c3f139194539a0290f9",
+    "summary": "Cell2location is a decomposition method based on Negative Binomial regression that is able to account for batch effects in estimating the single-cell gene expression signature used for the spatial decomposition step. Note that since batch information is unavailable in this task, here we use either a hard-coded reference, or a negative-binomial learned reference without batch labels. The parameter alpha refers to the detection efficiency prior.",
+    "description": "Cell2location is a decomposition method based on Negative Binomial regression that is able to account for batch effects in estimating the single-cell gene expression signature used for the spatial decomposition step. Note that since batch information is unavailable in this task, here we use either a hard-coded reference, or a negative-binomial learned reference without batch labels. The parameter alpha refers to the detection efficiency prior.",
+    "type": "method",
+    "link_code": "https://github.com/BayraktarLab/cell2location/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/cell2location.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{kleshchevnikov2022cell2location,\n\ttitle = {Cell2location maps fine-grained cell types in spatial transcriptomics},\n\tauthor = {Kleshchevnikov, Vitalii and Shmatko, Artem and Dann, Emma and Aivazidis, Alexander and King, Hamish W. and Li, Tong and Elmentaite, Rasa and Lomakin, Artem and Kedlian, Veronika and Gayoso, Adam and Jain, Mika Sarkin and Park, Jun Sung and Ramona, Lauma and Tuck, Elizabeth and Arutyunyan, Anna and Vento-Tormo, Roser and Gerstung, Moritz and James, Louisa and Stegle, Oliver and Bayraktar, Omer Ali},\n\tyear = {2022},\n\tdoi = {10.1038/s41587-021-01139-4},\n\turl = {https://doi.org/10.1038/s41587-021-01139-4}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Cell2location maps fine-grained cell types in spatial transcriptomics",
+      "paper_year": 2022,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "alpha=20, amortised, hard-coded"
+        },
+        {
+          "name": "alpha=1, reference hard-coded"
+        },
+        {
+          "name": "alpha=20, reference hard-coded"
+        },
+        {
+          "name": "alpha=200, reference hard-coded"
+        },
+        {
+          "name": "alpha=20, NB reference"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "destvi",
+    "label": "DestVI",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "destVI is a decomposition method that leverages a conditional generative model of spatial transcriptomics down to the sub-cell-type variation level, which is then used to decompose the cell-type proportions determining the spatial organization of a tissue.",
+    "description": "destVI is a decomposition method that leverages a conditional generative model of spatial transcriptomics down to the sub-cell-type variation level, which is then used to decompose the cell-type proportions determining the spatial organization of a tissue.",
+    "type": "method",
+    "link_code": "https://github.com/YosefLab/scvi-tools/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/destvi.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{lopez2022destvi,\n\ttitle = {DestVI identifies continuums of cell types in spatial transcriptomics data},\n\tauthor = {Lopez, Romain and Li, Baoguo and Keren-Shaul, Hadas and Boyeau, Pierre and Kedmi, Merav and Pilzer, David and Jelinski, Adam and Yofe, Ido and David, Eyal and Wagner, Allon and Ergen, Can and Addadi, Yoseph and Golani, Ofra and Ronchese, Franca and Jordan, Michael I. and Amit, Ido and Yosef, Nir},\n\tyear = {2022},\n\tdoi = {10.1038/s41587-022-01272-8},\n\turl = {https://doi.org/10.1038/s41587-022-01272-8}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "DestVI identifies continuums of cell types in spatial transcriptomics data",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "non_negative_matrix_factorization",
+    "label": "Non-Negative Matrix Factorization",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "NMF is a decomposition method based on Non-negative Matrix Factorization (NMF) that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It is a simpler baseline than NMFreg as it only performs the NMF step based on mean expression signatures of cell types, returning the weights loading of the NMF as (normalized) cell type proportions, without the regression step.",
+    "description": "NMF is a decomposition method based on Non-negative Matrix Factorization (NMF) that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It is a simpler baseline than NMFreg as it only performs the NMF step based on mean expression signatures of cell types, returning the weights loading of the NMF as (normalized) cell type proportions, without the regression step.",
+    "type": "method",
+    "link_code": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/vanillanmf.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{cichocki2009fast,\n\ttitle = {Fast local algorithms for large scale nonnegative matrix and tensor factorizations},\n\tauthor = {Cichocki, Andrzej and Phan, Anh-Huy},\n\tyear = {2009},\n\tdoi = {10.1587/transfun.e92.a.708},\n\turl = {https://doi.org/10.1587/transfun.e92.a.708}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Fast local algorithms for large scale nonnegative matrix and tensor factorizations",
+      "paper_year": 2009,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "NMF"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "nmf_reg",
+    "label": "NMF-reg",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "NMFreg is a decomposition method based on Non-negative Matrix Factorization Regression (NMFreg) that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It was originally developed for Slide-seq data.",
+    "description": "NMFreg is a decomposition method based on Non-negative Matrix Factorization Regression (NMFreg) that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It was originally developed for Slide-seq data.",
+    "type": "method",
+    "link_code": "https://github.com/tudaga/NMFreg_tutorial/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/nmfreg.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{rodriques2019slide,\n\ttitle = {Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution},\n\tauthor = {Rodriques, Samuel G. and Stickels, Robert R. and Goeva, Aleksandrina and Martin, Carly A. and Murray, Evan and Vanderburg, Charles R. and Welch, Joshua and Chen, Linlin M. and Chen, Fei and Macosko, Evan Z.},\n\tyear = {2019},\n\tdoi = {10.1126/science.aaw1219},\n\turl = {https://doi.org/10.1126/science.aaw1219}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Slide-seq: A scalable technology for measuring genome-wide expression at high spatial resolution",
+      "paper_year": 2019,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "non_negative_least_squares",
+    "label": "Non-Negative Least Squares",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "NNLS13 is a decomposition method based on Non-Negative Least Square Regression (NNLS). It was originally introduced by the method AutoGenes",
+    "description": "NNLS13 is a decomposition method based on Non-Negative Least Square Regression (NNLS). It was originally introduced by the method AutoGenes",
+    "type": "method",
+    "link_code": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.nnls.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/nnls.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{aliee2021autogenes,\n\ttitle = {AutoGeneS: Automatic gene selection using multi-objective optimization for RNA-seq deconvolution},\n\tauthor = {Aliee, Hananeh and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1016/j.cels.2021.05.006},\n\turl = {https://doi.org/10.1016/j.cels.2021.05.006}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "AutoGeneS: Automatic gene selection using multi-objective optimization for RNA-seq deconvolution",
+      "paper_year": 2021,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_proportions",
+    "label": "Random Proportions",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Random assignment of predicted celltype proportions from a Dirichlet distribution.",
+    "description": "Random assignment of predicted celltype proportions from a Dirichlet distribution.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "rctd",
+    "label": "RCTD",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "RCTD (Robust Cell Type Decomposition) is a decomposition method that uses signatures learnt from single-cell data to decompose spatial expression of tissues.  It is able to platform effect normalization step, which normalizes the scRNA-seq cell type profiles to match the platform effects of the spatial transcriptomics dataset.",
+    "description": "RCTD (Robust Cell Type Decomposition) is a decomposition method that uses signatures learnt from single-cell data to decompose spatial expression of tissues.  It is able to platform effect normalization step, which normalizes the scRNA-seq cell type profiles to match the platform effects of the spatial transcriptomics dataset.",
+    "type": "method",
+    "link_code": "https://github.com/dmcable/spacexr/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/rctd.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{cable2021robust,\n\ttitle = {Robust decomposition of cell type mixtures in spatial transcriptomics},\n\tauthor = {Cable, Dylan M. and Murray, Evan and Zou, Luli S. and Goeva, Aleksandrina and Macosko, Evan Z. and Chen, Fei and Irizarry, Rafael A.},\n\tyear = {2021},\n\tdoi = {10.1038/s41587-021-00830-w},\n\turl = {https://doi.org/10.1038/s41587-021-00830-w}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Robust decomposition of cell type mixtures in spatial transcriptomics",
+      "paper_year": 2020,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "seuratv3",
+    "label": "SeuratV3",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "SeuratV3 is a decomposition method that is based on Canonical Correlation Analysis (CCA).",
+    "description": "SeuratV3 is a decomposition method that is based on Canonical Correlation Analysis (CCA).",
+    "type": "method",
+    "link_code": "https://satijalab.org/seurat/archive/v3.2/spatial_vignette.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/seuratv3.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{stuart2019comprehensive,\n\ttitle = {Comprehensive integration of single-cell data},\n\tauthor = {Stuart, T. and Butler, A. and Hoffman, P. and Hafemeister, C. and Papalexi, E. and Mauck, W. M. and Hao, Y. and Stoeckius, M. and Smibert, P. and Satija, R.},\n\tyear = {2019},\n\tdoi = {10.1016/j.cell.2019.05.031},\n\turl = {https://doi.org/10.1016/j.cell.2019.05.031}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Comprehensive Integration of Single-Cell Data",
+      "paper_year": 2019,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "stereoscope",
+    "label": "Stereoscope",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Stereoscope is a decomposition method based on Negative Binomial regression. It is similar in scope and implementation to cell2location but less flexible to incorporate additional covariates such as batch effects and other type of experimental design annotations.",
+    "description": "Stereoscope is a decomposition method based on Negative Binomial regression. It is similar in scope and implementation to cell2location but less flexible to incorporate additional covariates such as batch effects and other type of experimental design annotations.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/stereoscope.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{andersson2020single,\n\ttitle = {Single-cell and spatial transcriptomics enables probabilistic inference of cell type topography},\n\tauthor = {Andersson, Alma and Bergenstråhle, Joseph and Asp, Michaela and Bergenstråhle, Ludvig and Jurek, Aleksandra and Navarro, José Fernández and Lundeberg, Joakim},\n\tyear = {2020},\n\tdoi = {10.1038/s42003-020-01247-y},\n\turl = {https://doi.org/10.1038/s42003-020-01247-y}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Single-cell and spatial transcriptomics enables probabilistic inference of cell type topography",
+      "paper_year": 2020,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "tangram",
+    "label": "Tangram",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Tangram is a method to map gene expression signatures from scRNA-seq data to spatial data. It performs the cell type mapping by learning a similarity matrix between single-cell and spatial locations based on gene expression profiles.",
+    "description": "Tangram is a method to map gene expression signatures from scRNA-seq data to spatial data. It performs the cell type mapping by learning a similarity matrix between single-cell and spatial locations based on gene expression profiles.",
+    "type": "method",
+    "link_code": "https://github.com/broadinstitute/Tangram/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/tangram.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{biancalani2021deep,\n\ttitle = {Deep learning and alignment of spatially resolved single-cell transcriptomes with tangram},\n\tauthor = {Biancalani, Tommaso and Scalia, Gabriele and Buffoni, Lorenzo and Avasthi, Raghav and Lu, Ziqing and Sanger, Aman and Tokcan, Neriman and Vanderburg, Charles R. and Segerstolpe and Zhang, Meng and Avraham-Davidi, Inbal and Vickovic, Sanja and Nitzan, Mor and Ma, Sai and Subramanian, Ayshwarya and Lipinski, Michal and Buenrostro, Jason and Brown, Nik Bear and Fanelli, Duccio and Zhuang, Xiaowei and Macosko, Evan Z. and Regev, Aviv},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01264-7},\n\turl = {https://doi.org/10.1038/s41592-021-01264-7}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Deep learning and alignment of spatially resolved single-cell transcriptomes with Tangram",
+      "paper_year": 2021,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "true_proportions",
+    "label": "True Proportions",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Perfect assignment of predicted celltype proportions from the ground truth.",
+    "description": "Perfect assignment of predicted celltype proportions from the ground truth.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/spatial_decomposition/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  }
+]

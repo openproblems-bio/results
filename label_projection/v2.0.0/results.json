@@ -1,0 +1,4122 @@
+[
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      14.4
+    ],
+    "run_cpu_pct": [
+      157.2
+    ],
+    "run_peak_memory_mb": [
+      5530
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.949,
+      0.9487,
+      0.9286,
+      0.949
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      16.2
+    ],
+    "run_cpu_pct": [
+      2179.4
+    ],
+    "run_peak_memory_mb": [
+      6964
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9572,
+      0.9567,
+      0.9413,
+      0.9572
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      9.9
+    ],
+    "run_cpu_pct": [
+      148.1
+    ],
+    "run_peak_memory_mb": [
+      6861
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.2954,
+      0.1347,
+      0.0351,
+      0.2954
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "multilayer_perceptron",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      29
+    ],
+    "run_cpu_pct": [
+      603.7
+    ],
+    "run_peak_memory_mb": [
+      2970
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.954,
+      0.9529,
+      0.9245,
+      0.954
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "naive_bayesian_classifier",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      13.3
+    ],
+    "run_cpu_pct": [
+      125.8
+    ],
+    "run_peak_memory_mb": [
+      5530
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9269,
+      0.9296,
+      0.9181,
+      0.9269
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      9.7
+    ],
+    "run_cpu_pct": [
+      160.3
+    ],
+    "run_peak_memory_mb": [
+      6144
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1808,
+      0.1801,
+      0.0774,
+      0.1808
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      146
+    ],
+    "run_cpu_pct": [
+      102.8
+    ],
+    "run_peak_memory_mb": [
+      25191
+    ],
+    "run_disk_read_mb": [
+      1434
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.957,
+      0.9579,
+      0.936,
+      0.957
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1055
+    ],
+    "run_cpu_pct": [
+      97.4
+    ],
+    "run_peak_memory_mb": [
+      22016
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.957,
+      0.9567,
+      0.9366,
+      0.957
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scgpt",
+    "paramset_name": "zero shot",
+    "paramset": {
+      "raw": "zero shot"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      383
+    ],
+    "run_cpu_pct": [
+      105.9
+    ],
+    "run_peak_memory_mb": [
+      1572864
+    ],
+    "run_disk_read_mb": [
+      1946
+    ],
+    "run_disk_write_mb": [
+      200
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8486,
+      0.8339,
+      0.5239,
+      0.8486
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scimilarity",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      465
+    ],
+    "run_cpu_pct": [
+      150
+    ],
+    "run_peak_memory_mb": [
+      31847
+    ],
+    "run_disk_read_mb": [
+      40141
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8869,
+      0.8655,
+      0.6233,
+      0.8869
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scimilarity",
+    "paramset_name": "kNN",
+    "paramset": {
+      "raw": "kNN"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      522
+    ],
+    "run_cpu_pct": [
+      123.8
+    ],
+    "run_peak_memory_mb": [
+      29184
+    ],
+    "run_disk_read_mb": [
+      40141
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9553,
+      0.9556,
+      0.9292,
+      0.9553
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      130
+    ],
+    "run_cpu_pct": [
+      108.8
+    ],
+    "run_peak_memory_mb": [
+      11981
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9541,
+      0.9544,
+      0.9344,
+      0.9541
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      620
+    ],
+    "run_cpu_pct": [
+      101.5
+    ],
+    "run_peak_memory_mb": [
+      7578
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9147,
+      0.9192,
+      0.9027,
+      0.9147
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      9.1
+    ],
+    "run_cpu_pct": [
+      156.4
+    ],
+    "run_peak_memory_mb": [
+      5632
+    ],
+    "run_disk_read_mb": [
+      321
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "uce",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1764
+    ],
+    "run_cpu_pct": [
+      564.2
+    ],
+    "run_peak_memory_mb": [
+      476775
+    ],
+    "run_disk_read_mb": [
+      42292
+    ],
+    "run_disk_write_mb": [
+      22733
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1813,
+      0.179,
+      0.0743,
+      0.1813
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      197
+    ],
+    "run_cpu_pct": [
+      2596.6
+    ],
+    "run_peak_memory_mb": [
+      24679
+    ],
+    "run_disk_read_mb": [
+      1332
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9644,
+      0.9634,
+      0.9225,
+      0.9644
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      17.5
+    ],
+    "run_cpu_pct": [
+      480.9
+    ],
+    "run_peak_memory_mb": [
+      11981
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8523,
+      0.8582,
+      0.3913,
+      0.8523
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      55.5
+    ],
+    "run_cpu_pct": [
+      1681
+    ],
+    "run_peak_memory_mb": [
+      7578
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8829,
+      0.8851,
+      0.4437,
+      0.8829
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      11
+    ],
+    "run_cpu_pct": [
+      158.9
+    ],
+    "run_peak_memory_mb": [
+      8500
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0799,
+      0.0118,
+      0.0082,
+      0.0799
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "multilayer_perceptron",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      369
+    ],
+    "run_cpu_pct": [
+      681.1
+    ],
+    "run_peak_memory_mb": [
+      4711
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.7784,
+      0.7896,
+      0.2948,
+      0.7784
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "naive_bayesian_classifier",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      9.1
+    ],
+    "run_cpu_pct": [
+      90.3
+    ],
+    "run_peak_memory_mb": [
+      4608
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.7599,
+      0.7937,
+      0.3363,
+      0.7599
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      11
+    ],
+    "run_cpu_pct": [
+      151.8
+    ],
+    "run_peak_memory_mb": [
+      8500
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0324,
+      0.0397,
+      0.0071,
+      0.0324
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      661
+    ],
+    "run_cpu_pct": [
+      97.2
+    ],
+    "run_peak_memory_mb": [
+      43008
+    ],
+    "run_disk_read_mb": [
+      3072
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8899,
+      0.9019,
+      0.4083,
+      0.8899
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1553
+    ],
+    "run_cpu_pct": [
+      103.1
+    ],
+    "run_peak_memory_mb": [
+      42189
+    ],
+    "run_disk_read_mb": [
+      3072
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8797,
+      0.8908,
+      0.4555,
+      0.8797
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scgpt",
+    "paramset_name": "zero shot",
+    "paramset": {
+      "raw": "zero shot"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2118
+    ],
+    "run_cpu_pct": [
+      106.2
+    ],
+    "run_peak_memory_mb": [
+      1677722
+    ],
+    "run_disk_read_mb": [
+      3584
+    ],
+    "run_disk_write_mb": [
+      205
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.6234,
+      0.6375,
+      0.2534,
+      0.6234
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scimilarity",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      793
+    ],
+    "run_cpu_pct": [
+      158.1
+    ],
+    "run_peak_memory_mb": [
+      27341
+    ],
+    "run_disk_read_mb": [
+      41882
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.6665,
+      0.6504,
+      0.3254,
+      0.6665
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scimilarity",
+    "paramset_name": "kNN",
+    "paramset": {
+      "raw": "kNN"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1124
+    ],
+    "run_cpu_pct": [
+      188.4
+    ],
+    "run_peak_memory_mb": [
+      34714
+    ],
+    "run_disk_read_mb": [
+      41882
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8253,
+      0.8386,
+      0.4563,
+      0.8253
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      416
+    ],
+    "run_cpu_pct": [
+      104.2
+    ],
+    "run_peak_memory_mb": [
+      23552
+    ],
+    "run_disk_read_mb": [
+      3072
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.841,
+      0.8457,
+      0.4186,
+      0.841
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      5642
+    ],
+    "run_cpu_pct": [
+      100.2
+    ],
+    "run_peak_memory_mb": [
+      16487
+    ],
+    "run_disk_read_mb": [
+      3072
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.7903,
+      0.823,
+      0.3753,
+      0.7903
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      9.5
+    ],
+    "run_cpu_pct": [
+      165.2
+    ],
+    "run_peak_memory_mb": [
+      5530
+    ],
+    "run_disk_read_mb": [
+      411
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "uce",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      8344
+    ],
+    "run_cpu_pct": [
+      626.6
+    ],
+    "run_peak_memory_mb": [
+      524084
+    ],
+    "run_disk_read_mb": [
+      49562
+    ],
+    "run_disk_write_mb": [
+      30618
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0054,
+      0.0082,
+      0.0037,
+      0.0054
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      947
+    ],
+    "run_cpu_pct": [
+      3304.3
+    ],
+    "run_peak_memory_mb": [
+      34816
+    ],
+    "run_disk_read_mb": [
+      2970
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8328,
+      0.8408,
+      0.3251,
+      0.8328
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      23.7
+    ],
+    "run_cpu_pct": [
+      196.9
+    ],
+    "run_peak_memory_mb": [
+      21812
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9954,
+      0.9954,
+      0.973,
+      0.9954
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      52.3
+    ],
+    "run_cpu_pct": [
+      1665.2
+    ],
+    "run_peak_memory_mb": [
+      18740
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9964,
+      0.9963,
+      0.9767,
+      0.9964
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      58.1
+    ],
+    "run_cpu_pct": [
+      43.8
+    ],
+    "run_peak_memory_mb": [
+      18330
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.4516,
+      0.281,
+      0.0778,
+      0.4516
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "multilayer_perceptron",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      403
+    ],
+    "run_cpu_pct": [
+      670
+    ],
+    "run_peak_memory_mb": [
+      18535
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9973,
+      0.9972,
+      0.9833,
+      0.9973
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "naive_bayesian_classifier",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      26.2
+    ],
+    "run_cpu_pct": [
+      134
+    ],
+    "run_peak_memory_mb": [
+      18330
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9945,
+      0.9946,
+      0.9626,
+      0.9945
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      48
+    ],
+    "run_cpu_pct": [
+      85
+    ],
+    "run_peak_memory_mb": [
+      18228
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.3157,
+      0.3175,
+      0.0707,
+      0.3157
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      945
+    ],
+    "run_cpu_pct": [
+      102.9
+    ],
+    "run_peak_memory_mb": [
+      92570
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9973,
+      0.9972,
+      0.9926,
+      0.9973
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2498
+    ],
+    "run_cpu_pct": [
+      100.5
+    ],
+    "run_peak_memory_mb": [
+      92570
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9964,
+      0.9964,
+      0.9783,
+      0.9964
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scgpt",
+    "paramset_name": "zero shot",
+    "paramset": {
+      "raw": "zero shot"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      230
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scimilarity",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      700
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scimilarity",
+    "paramset_name": "kNN",
+    "paramset": {
+      "raw": "kNN"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      700
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      984
+    ],
+    "run_cpu_pct": [
+      102.3
+    ],
+    "run_peak_memory_mb": [
+      69530
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9964,
+      0.9964,
+      0.9898,
+      0.9964
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      5651
+    ],
+    "run_cpu_pct": [
+      100.8
+    ],
+    "run_peak_memory_mb": [
+      47616
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9927,
+      0.9927,
+      0.9567,
+      0.9927
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      4.7
+    ],
+    "run_cpu_pct": [
+      276.3
+    ],
+    "run_peak_memory_mb": [
+      5530
+    ],
+    "run_disk_read_mb": [
+      87
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "uce",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      15624
+    ],
+    "run_cpu_pct": [
+      584.9
+    ],
+    "run_peak_memory_mb": [
+      645940
+    ],
+    "run_disk_read_mb": [
+      88884
+    ],
+    "run_disk_write_mb": [
+      74138
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.3841,
+      0.3397,
+      0.0979,
+      0.3841
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1009
+    ],
+    "run_cpu_pct": [
+      2918.1
+    ],
+    "run_peak_memory_mb": [
+      77927
+    ],
+    "run_disk_read_mb": [
+      12800
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9973,
+      0.9972,
+      0.9815,
+      0.9973
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      24.7
+    ],
+    "run_cpu_pct": [
+      397.3
+    ],
+    "run_peak_memory_mb": [
+      15668
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8144,
+      0.8109,
+      0.651,
+      0.8144
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      66
+    ],
+    "run_cpu_pct": [
+      1718.5
+    ],
+    "run_peak_memory_mb": [
+      15872
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.885,
+      0.8832,
+      0.7793,
+      0.885
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.3
+    ],
+    "run_cpu_pct": [
+      159.5
+    ],
+    "run_peak_memory_mb": [
+      15258
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0058,
+      0.0001,
+      0.0004,
+      0.0058
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "multilayer_perceptron",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1801
+    ],
+    "run_cpu_pct": [
+      689
+    ],
+    "run_peak_memory_mb": [
+      15668
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8676,
+      0.8666,
+      0.6998,
+      0.8676
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "naive_bayesian_classifier",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      21.5
+    ],
+    "run_cpu_pct": [
+      106.3
+    ],
+    "run_peak_memory_mb": [
+      15668
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.6389,
+      0.6612,
+      0.5209,
+      0.6389
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      8.3
+    ],
+    "run_cpu_pct": [
+      258
+    ],
+    "run_peak_memory_mb": [
+      15258
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0481,
+      0.0568,
+      0.0223,
+      0.0481
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      783
+    ],
+    "run_cpu_pct": [
+      103.5
+    ],
+    "run_peak_memory_mb": [
+      66970
+    ],
+    "run_disk_read_mb": [
+      9933
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8926,
+      0.8888,
+      0.7967,
+      0.8926
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1862
+    ],
+    "run_cpu_pct": [
+      101.2
+    ],
+    "run_peak_memory_mb": [
+      64205
+    ],
+    "run_disk_read_mb": [
+      9933
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9035,
+      0.9012,
+      0.7255,
+      0.9035
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scgpt",
+    "paramset_name": "zero shot",
+    "paramset": {
+      "raw": "zero shot"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2236
+    ],
+    "run_cpu_pct": [
+      108.5
+    ],
+    "run_peak_memory_mb": [
+      1363149
+    ],
+    "run_disk_read_mb": [
+      10445
+    ],
+    "run_disk_write_mb": [
+      205
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.6787,
+      0.658,
+      0.4735,
+      0.6787
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scimilarity",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1751
+    ],
+    "run_cpu_pct": [
+      261.4
+    ],
+    "run_peak_memory_mb": [
+      56730
+    ],
+    "run_disk_read_mb": [
+      48640
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8354,
+      0.8455,
+      0.6367,
+      0.8354
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scimilarity",
+    "paramset_name": "kNN",
+    "paramset": {
+      "raw": "kNN"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1391
+    ],
+    "run_cpu_pct": [
+      219.4
+    ],
+    "run_peak_memory_mb": [
+      56730
+    ],
+    "run_disk_read_mb": [
+      48640
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8752,
+      0.8701,
+      0.7403,
+      0.8752
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      911
+    ],
+    "run_cpu_pct": [
+      101.8
+    ],
+    "run_peak_memory_mb": [
+      54580
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8269,
+      0.8156,
+      0.6783,
+      0.8269
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      14410
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      143
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      6.7
+    ],
+    "run_cpu_pct": [
+      165.5
+    ],
+    "run_peak_memory_mb": [
+      5735
+    ],
+    "run_disk_read_mb": [
+      253
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "uce",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      13768
+    ],
+    "run_cpu_pct": [
+      341.9
+    ],
+    "run_peak_memory_mb": [
+      527872
+    ],
+    "run_disk_read_mb": [
+      77210
+    ],
+    "run_disk_write_mb": [
+      61543
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0366,
+      0.0221,
+      0.0131,
+      0.0366
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2766
+    ],
+    "run_cpu_pct": [
+      2529.3
+    ],
+    "run_peak_memory_mb": [
+      61031
+    ],
+    "run_disk_read_mb": [
+      9831
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.8192,
+      0.8176,
+      0.6453,
+      0.8192
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      16.8
+    ],
+    "run_cpu_pct": [
+      597.1
+    ],
+    "run_peak_memory_mb": [
+      22324
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9756,
+      0.9744,
+      0.8426,
+      0.9756
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      36.4
+    ],
+    "run_cpu_pct": [
+      2501.8
+    ],
+    "run_peak_memory_mb": [
+      19252
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.978,
+      0.977,
+      0.8801,
+      0.978
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      54.4
+    ],
+    "run_cpu_pct": [
+      49.3
+    ],
+    "run_peak_memory_mb": [
+      18432
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.3239,
+      0.1585,
+      0.0376,
+      0.3239
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "multilayer_perceptron",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      777
+    ],
+    "run_cpu_pct": [
+      691.8
+    ],
+    "run_peak_memory_mb": [
+      19047
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9703,
+      0.9707,
+      0.8381,
+      0.9703
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "naive_bayesian_classifier",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      13.4
+    ],
+    "run_cpu_pct": [
+      189.8
+    ],
+    "run_peak_memory_mb": [
+      18432
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9502,
+      0.9522,
+      0.7794,
+      0.9502
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      51.2
+    ],
+    "run_cpu_pct": [
+      47.8
+    ],
+    "run_peak_memory_mb": [
+      18330
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.172,
+      0.1755,
+      0.0714,
+      0.172
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      680
+    ],
+    "run_cpu_pct": [
+      100.9
+    ],
+    "run_peak_memory_mb": [
+      58061
+    ],
+    "run_disk_read_mb": [
+      13415
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9768,
+      0.9768,
+      0.8758,
+      0.9768
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1720
+    ],
+    "run_cpu_pct": [
+      103.6
+    ],
+    "run_peak_memory_mb": [
+      59700
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9781,
+      0.9774,
+      0.9051,
+      0.9781
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scgpt",
+    "paramset_name": "zero shot",
+    "paramset": {
+      "raw": "zero shot"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      440
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scimilarity",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      1120
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scimilarity",
+    "paramset_name": "kNN",
+    "paramset": {
+      "raw": "kNN"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      1120
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      803
+    ],
+    "run_cpu_pct": [
+      102.3
+    ],
+    "run_peak_memory_mb": [
+      70656
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9659,
+      0.9607,
+      0.7819,
+      0.9659
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      16351
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      143
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2.9
+    ],
+    "run_cpu_pct": [
+      422.5
+    ],
+    "run_peak_memory_mb": [
+      5940
+    ],
+    "run_disk_read_mb": [
+      882
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "uce",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12152
+    ],
+    "run_cpu_pct": [
+      339.6
+    ],
+    "run_peak_memory_mb": [
+      536167
+    ],
+    "run_disk_read_mb": [
+      91341
+    ],
+    "run_disk_write_mb": [
+      77517
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1666,
+      0.1702,
+      0.0698,
+      0.1666
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      569
+    ],
+    "run_cpu_pct": [
+      3642.5
+    ],
+    "run_peak_memory_mb": [
+      66970
+    ],
+    "run_disk_read_mb": [
+      13312
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.9752,
+      0.9735,
+      0.8453,
+      0.9752
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      16.2
+    ],
+    "run_cpu_pct": [
+      200.2
+    ],
+    "run_peak_memory_mb": [
+      29389
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1725,
+      0.2218,
+      0.1029,
+      0.1725
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      230
+    ],
+    "run_cpu_pct": [
+      1208.1
+    ],
+    "run_peak_memory_mb": [
+      26624
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1831,
+      0.2039,
+      0.1244,
+      0.1831
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      157
+    ],
+    "run_cpu_pct": [
+      25.9
+    ],
+    "run_peak_memory_mb": [
+      24986
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0211,
+      0.0009,
+      0.002,
+      0.0211
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "multilayer_perceptron",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3102
+    ],
+    "run_cpu_pct": [
+      1183.6
+    ],
+    "run_peak_memory_mb": [
+      25805
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.2887,
+      0.3723,
+      0.1214,
+      0.2887
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "naive_bayesian_classifier",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      23.2
+    ],
+    "run_cpu_pct": [
+      119.8
+    ],
+    "run_peak_memory_mb": [
+      25293
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1585,
+      0.1899,
+      0.1622,
+      0.1585
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      142
+    ],
+    "run_cpu_pct": [
+      34.5
+    ],
+    "run_peak_memory_mb": [
+      24884
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0176,
+      0.019,
+      0.0039,
+      0.0176
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1477
+    ],
+    "run_cpu_pct": [
+      101
+    ],
+    "run_peak_memory_mb": [
+      133940
+    ],
+    "run_disk_read_mb": [
+      19559
+    ],
+    "run_disk_write_mb": [
+      3
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1725,
+      0.1981,
+      0.1083,
+      0.1725
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3510
+    ],
+    "run_cpu_pct": [
+      100.4
+    ],
+    "run_peak_memory_mb": [
+      141824
+    ],
+    "run_disk_read_mb": [
+      19559
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.2711,
+      0.2911,
+      0.1427,
+      0.2711
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scgpt",
+    "paramset_name": "zero shot",
+    "paramset": {
+      "raw": "zero shot"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1258
+    ],
+    "run_cpu_pct": [
+      118.3
+    ],
+    "run_peak_memory_mb": [
+      1782580
+    ],
+    "run_disk_read_mb": [
+      20071
+    ],
+    "run_disk_write_mb": [
+      206
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.162,
+      0.1876,
+      0.1074,
+      0.162
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scimilarity",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2415
+    ],
+    "run_cpu_pct": [
+      192
+    ],
+    "run_peak_memory_mb": [
+      85300
+    ],
+    "run_disk_read_mb": [
+      58368
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.2007,
+      0.247,
+      0.1318,
+      0.2007
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scimilarity",
+    "paramset_name": "kNN",
+    "paramset": {
+      "raw": "kNN"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      799
+    ],
+    "run_cpu_pct": [
+      369.2
+    ],
+    "run_peak_memory_mb": [
+      85402
+    ],
+    "run_disk_read_mb": [
+      58368
+    ],
+    "run_disk_write_mb": [
+      41882
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1866,
+      0.2341,
+      0.1392,
+      0.1866
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2042
+    ],
+    "run_cpu_pct": [
+      101.3
+    ],
+    "run_peak_memory_mb": [
+      103015
+    ],
+    "run_disk_read_mb": [
+      19559
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.3768,
+      0.3838,
+      0.1672,
+      0.3768
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      6012
+    ],
+    "run_cpu_pct": [
+      100.4
+    ],
+    "run_peak_memory_mb": [
+      90112
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.1725,
+      0.1843,
+      0.1296,
+      0.1725
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      5.7
+    ],
+    "run_cpu_pct": [
+      168.4
+    ],
+    "run_peak_memory_mb": [
+      5530
+    ],
+    "run_disk_read_mb": [
+      68
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "uce",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      19879
+    ],
+    "run_cpu_pct": [
+      659.6
+    ],
+    "run_peak_memory_mb": [
+      702464
+    ],
+    "run_disk_read_mb": [
+      115303
+    ],
+    "run_disk_write_mb": [
+      103220
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.0106,
+      0.0008,
+      0.0015,
+      0.0106
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      11352
+    ],
+    "run_cpu_pct": [
+      3201.9
+    ],
+    "run_peak_memory_mb": [
+      100967
+    ],
+    "run_disk_read_mb": [
+      19456
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "accuracy",
+      "f1_weighted",
+      "f1_macro",
+      "f1_micro"
+    ],
+    "metric_values": [
+      0.243,
+      0.302,
+      0.1044,
+      0.243
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "geneformer",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      1981
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scgpt",
+    "paramset_name": "fine-tuned",
+    "paramset": {
+      "raw": "fine-tuned"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      14410
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      143
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scprint",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      450
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "geneformer",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      12321
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scgpt",
+    "paramset_name": "fine-tuned",
+    "paramset": {
+      "raw": "fine-tuned"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      12301
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scprint",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      13501
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "geneformer",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      240
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scgpt",
+    "paramset_name": "fine-tuned",
+    "paramset": {
+      "raw": "fine-tuned"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      120
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scprint",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      6970
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "geneformer",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      104033
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      143
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scgpt",
+    "paramset_name": "fine-tuned",
+    "paramset": {
+      "raw": "fine-tuned"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      14421
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      143
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scprint",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      1851
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "geneformer",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      240
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scgpt",
+    "paramset_name": "fine-tuned",
+    "paramset": {
+      "raw": "fine-tuned"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      130
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      99
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scprint",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      161
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "geneformer",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      5761
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scgpt",
+    "paramset_name": "fine-tuned",
+    "paramset": {
+      "raw": "fine-tuned"
+    },
+    "succeeded": false,
+    "run_duration_secs": [
+      14430
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      143
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scprint",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_duration_secs": [
+      12401
+    ],
+    "run_cpu_pct": [
+      null
+    ],
+    "run_peak_memory_mb": [
+      null
+    ],
+    "run_disk_read_mb": [
+      null
+    ],
+    "run_disk_write_mb": [
+      null
+    ],
+    "run_exit_code": [
+      1
+    ],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  }
+]

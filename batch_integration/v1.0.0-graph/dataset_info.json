@@ -1,0 +1,68 @@
+[
+  {
+    "name": "immune_batch",
+    "label": "Immune (by batch)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human immune cells from peripheral blood and bone marrow taken from 5 datasets comprising 10 batches across technologies (10X, Smart-seq2).",
+    "description": "Human immune cells from peripheral blood and bone marrow taken from 5 datasets comprising 10 batches across technologies (10X, Smart-seq2).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086786"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/immune_cells"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "lung_batch",
+    "label": "Lung (Viera Braga et al.)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human lung scRNA-seq data from 3 datasets with 32,472 cells. From Vieira Braga et al. Technologies: 10X and Drop-seq.",
+    "description": "Human lung scRNA-seq data from 3 datasets with 32,472 cells. From Vieira Braga et al. Technologies: 10X and Drop-seq.",
+    "source_urls": [
+      "https://figshare.com/ndownloader/files/24539942"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tabula_muris_senis_droplet_lung"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_batch",
+    "label": "Pancreas (by batch)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq).",
+    "description": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

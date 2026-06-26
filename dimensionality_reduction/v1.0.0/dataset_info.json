@@ -1,0 +1,90 @@
+[
+  {
+    "name": "mouse_hspc_nestorowa2016",
+    "label": "Mouse hematopoietic stem cell differentiation",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "1.6k hematopoietic stem and progenitor cells from mouse bone marrow. Sequenced by Smart-seq2. 1920 cells x 43258 features with 3 cell type labels",
+    "description": "1.6k hematopoietic stem and progenitor cells from mouse bone marrow. Sequenced by Smart-seq2. 1920 cells x 43258 features with 3 cell type labels",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36088649"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/mouse_hspc_nestorowa2016"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "olsson_2016_mouse_blood",
+    "label": "Mouse myeloid lineage differentiation",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "Myeloid lineage differentiation from mouse blood. Sequenced by SMARTseq in 2016 by Olsson et al. 660 cells x 112815 features with 4 cell type labels",
+    "description": "Myeloid lineage differentiation from mouse blood. Sequenced by SMARTseq in 2016 by Olsson et al. 660 cells x 112815 features with 4 cell type labels",
+    "source_urls": [
+      "https://figshare.com/ndownloader/files/36872214"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/mouse_blood_olsson_labelled"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "tenx_5k_pbmc",
+    "label": "5k Peripheral blood mononuclear cells",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "5k Peripheral Blood Mononuclear Cells (PBMCs) from a healthy donor. Sequenced on 10X v3 chemistry in July 2019 by 10X Genomics. 5247 cells x 20822 features with no cell type labels",
+    "description": "5k Peripheral Blood Mononuclear Cells (PBMCs) from a healthy donor. Sequenced on 10X v3 chemistry in July 2019 by 10X Genomics. 5247 cells x 20822 features with no cell type labels",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/25555739"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tenx_5k_pbmc"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "zebrafish_labs",
+    "label": "Zebrafish",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene. Dimensions: 26022 cells, 25258 genes. 24 cell types (avg. 1084±1156 cells per cell type).",
+    "description": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene. Dimensions: 26022 cells, 25258 genes. 24 cell types (avg. 1084±1156 cells per cell type).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/24566651?private_link=e3921450ec1bd0587870"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/zebrafish"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

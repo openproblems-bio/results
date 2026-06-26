@@ -1,0 +1,202 @@
+[
+  {
+    "name": "ari",
+    "label": "ARI",
+    "commit": "ee7836251c4c6c371471e95eb7aa6a3e9f133b43",
+    "summary": "ARI (Adjusted Rand Index) compares the overlap of two clusterings. It considers both correct clustering overlaps while also counting correct disagreements between two clustering.",
+    "description": "ARI (Adjusted Rand Index) compares the overlap of two clusterings. It considers both correct clustering overlaps while also counting correct disagreements between two clustering.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/ari.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "ari",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "cc_score",
+    "label": "Cell Cycle Score",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The cell-cycle conservation score evaluates how well the cell-cycle effect can be captured before and after integration.",
+    "description": "The cell-cycle conservation score evaluates how well the cell-cycle effect can be captured before and after integration.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/cc_score.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "cc_score",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "graph_connectivity",
+    "label": "Graph connectivity",
+    "commit": "ee7836251c4c6c371471e95eb7aa6a3e9f133b43",
+    "summary": "The graph connectivity metric assesses whether the kNN graph representation, G, of the integrated data connects all cells with the same cell identity label.",
+    "description": "The graph connectivity metric assesses whether the kNN graph representation, G, of the integrated data connects all cells with the same cell identity label.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/graph_connectivity.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "graph_connectivity",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "isolated_labels_f1",
+    "label": "Isolated label F1",
+    "commit": "ee7836251c4c6c371471e95eb7aa6a3e9f133b43",
+    "summary": "Isolated cell labels are identified as the labels present in the least number of batches in the integration task. The score evaluates how well these isolated labels separate from other cell identities based on clustering.",
+    "description": "Isolated cell labels are identified as the labels present in the least number of batches in the integration task. The score evaluates how well these isolated labels separate from other cell identities based on clustering.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/iso_label_f1.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "isolated_labels_f1",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "isolated_labels_sil",
+    "label": "Isolated label Silhouette",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "This score evaluates the compactness for the label(s) that is(are) shared by fewest batches. It indicates how well rare cell types can be preserved after integration.",
+    "description": "This score evaluates the compactness for the label(s) that is(are) shared by fewest batches. It indicates how well rare cell types can be preserved after integration.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/iso_label_sil.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "isolated_labels_sil",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "kBET",
+    "label": "kBET",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "kBET determines whether the label composition of a k nearest neighborhood of a cell is similar to the expected (global) label composition. The test is repeated for a random subset of cells, and the results are summarized as a rejection rate over all tested neighborhoods.",
+    "description": "kBET determines whether the label composition of a k nearest neighborhood of a cell is similar to the expected (global) label composition. The test is repeated for a random subset of cells, and the results are summarized as a rejection rate over all tested neighborhoods.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/kBET.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "component_name": "kBET",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{bttner2018test,\n\ttitle = {A test metric for assessing single-cell RNA-seq batch correction},\n\tauthor = {Büttner, Maren and Miao, Zhichao and Wolf, F. Alexander and Teichmann, Sarah A. and Theis, Fabian J.},\n\tyear = {2018},\n\tdoi = {10.1038/s41592-018-0254-1},\n\turl = {https://doi.org/10.1038/s41592-018-0254-1}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "nmi",
+    "label": "NMI",
+    "commit": "ee7836251c4c6c371471e95eb7aa6a3e9f133b43",
+    "summary": "NMI compares the overlap of two clusterings. We used NMI to compare the cell-type labels with Louvain clusters computed on the integrated dataset.",
+    "description": "NMI compares the overlap of two clusterings. We used NMI to compare the cell-type labels with Louvain clusters computed on the integrated dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/nmi.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "nmi",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "pcr",
+    "label": "PC Regression",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "This compares the explained variance by batch before and after integration. It returns a score between 0 and 1 (scaled=True) with 0 if the variance contribution hasn’t changed. The larger the score, the more different the variance contributions are before and after integration.",
+    "description": "This compares the explained variance by batch before and after integration. It returns a score between 0 and 1 (scaled=True) with 0 if the variance contribution hasn’t changed. The larger the score, the more different the variance contributions are before and after integration.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/pcr.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "pcr",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "silhouette",
+    "label": "Silhouette",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The absolute silhouette with is computed on cell identity labels, measuring their compactness.",
+    "description": "The absolute silhouette with is computed on cell identity labels, measuring their compactness.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/silhouette.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "silhouette",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "silhouette_batch",
+    "label": "Batch ASW",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The absolute silhouette width is computed over batch labels per cell. As 0 then indicates that batches are well mixed and any deviation from 0 indicates a batch effect, we use the 1-abs(ASW) to map the score to the scale [0;1].",
+    "description": "The absolute silhouette width is computed over batch labels per cell. As 0 then indicates that batches are well mixed and any deviation from 0 indicates a batch effect, we use the 1-abs(ASW) to map the score to the scale [0;1].",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_batch_integration/batch_integration_embed/metrics/sil_batch.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-pytorch",
+    "component_name": "silhouette_batch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{luecken2022benchmarking,\n\ttitle = {Benchmarking atlas-level data integration in single-cell genomics},\n\tauthor = {Luecken, Malte D. and Büttner, M. and Chaichoompu, K. and Danese, A. and Interlandi, M. and Mueller, M. F. and Strobl, D. C. and Zappia, L. and Dugas, M. and Colomé-Tatché, M. and Theis, Fabian J.},\n\tyear = {2021},\n\tdoi = {10.1038/s41592-021-01336-8},\n\turl = {https://doi.org/10.1038/s41592-021-01336-8}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

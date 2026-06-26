@@ -1,0 +1,2210 @@
+[
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "guanlab_dengkw",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      588
+    ],
+    "run_cpu_pct": [
+      406
+    ],
+    "run_peak_memory_mb": [
+      46285
+    ],
+    "run_disk_read_mb": [
+      715
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.787,
+      0.686,
+      0.6418,
+      0.5039,
+      0.7518,
+      0.6366,
+      0.7305,
+      0.5442
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "knnr",
+    "paramset_name": "Py",
+    "paramset": {
+      "raw": "Py"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      51.4
+    ],
+    "run_cpu_pct": [
+      315.1
+    ],
+    "run_peak_memory_mb": [
+      10138
+    ],
+    "run_disk_read_mb": [
+      715
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.7772,
+      0.6911,
+      0.5946,
+      0.4891,
+      0.7122,
+      0.6237,
+      0.7245,
+      0.5223
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "knnr",
+    "paramset_name": "R",
+    "paramset": {
+      "raw": "R"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      80
+    ],
+    "run_cpu_pct": [
+      105.3
+    ],
+    "run_peak_memory_mb": [
+      11981
+    ],
+    "run_disk_read_mb": [
+      718
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.7563,
+      0.6708,
+      0.5367,
+      0.4309,
+      0.67,
+      0.5816,
+      0.7776,
+      0.5593
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "linear_model",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      125
+    ],
+    "run_cpu_pct": [
+      106.5
+    ],
+    "run_peak_memory_mb": [
+      11162
+    ],
+    "run_disk_read_mb": [
+      719
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.7078,
+      0.6098,
+      0.5188,
+      0.4288,
+      0.6589,
+      0.5528,
+      0.7754,
+      0.566
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      7
+    ],
+    "run_cpu_pct": [
+      136
+    ],
+    "run_peak_memory_mb": [
+      5632
+    ],
+    "run_disk_read_mb": [
+      69
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1661,
+      0.1574,
+      0,
+      0,
+      0.1411,
+      0.1229,
+      0.9598,
+      0.6606
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "random_predictions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.5
+    ],
+    "run_cpu_pct": [
+      93.9
+    ],
+    "run_peak_memory_mb": [
+      3175
+    ],
+    "run_disk_read_mb": [
+      78
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.021,
+      0.0723,
+      -0.016,
+      -0.0197,
+      0.0138,
+      0.0353,
+      1.1688,
+      0.8256
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "solution",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      11.1
+    ],
+    "run_cpu_pct": [
+      98.1
+    ],
+    "run_peak_memory_mb": [
+      3175
+    ],
+    "run_disk_read_mb": [
+      28
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/normal",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      5.9
+    ],
+    "run_cpu_pct": [
+      126.5
+    ],
+    "run_peak_memory_mb": [
+      2868
+    ],
+    "run_disk_read_mb": [
+      69
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0,
+      0,
+      0,
+      0,
+      1.3399,
+      1.0191
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "guanlab_dengkw",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      314
+    ],
+    "run_cpu_pct": [
+      669.1
+    ],
+    "run_peak_memory_mb": [
+      46080
+    ],
+    "run_disk_read_mb": [
+      703
+    ],
+    "run_disk_write_mb": [
+      51
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.7444,
+      0.4099,
+      0.2093,
+      0.2081,
+      0.7419,
+      0.4276,
+      0.3421,
+      0.1664
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "knnr",
+    "paramset_name": "Py",
+    "paramset": {
+      "raw": "Py"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      40.9
+    ],
+    "run_cpu_pct": [
+      186.7
+    ],
+    "run_peak_memory_mb": [
+      29287
+    ],
+    "run_disk_read_mb": [
+      703
+    ],
+    "run_disk_write_mb": [
+      58
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.7362,
+      0.4034,
+      0.1745,
+      0.1608,
+      0.7318,
+      0.409,
+      0.3477,
+      0.1666
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "knnr",
+    "paramset_name": "R",
+    "paramset": {
+      "raw": "R"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      94
+    ],
+    "run_cpu_pct": [
+      103
+    ],
+    "run_peak_memory_mb": [
+      13517
+    ],
+    "run_disk_read_mb": [
+      706
+    ],
+    "run_disk_write_mb": [
+      42
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.725,
+      0.3916,
+      0.1458,
+      0.1528,
+      0.7227,
+      0.402,
+      0.3529,
+      0.1682
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "linear_model",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      4248
+    ],
+    "run_cpu_pct": [
+      100.2
+    ],
+    "run_peak_memory_mb": [
+      8602
+    ],
+    "run_disk_read_mb": [
+      706
+    ],
+    "run_disk_write_mb": [
+      105
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.616,
+      0.33,
+      0.1074,
+      0.0645,
+      0.6095,
+      0.2786,
+      0.4098,
+      0.1787
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      23.8
+    ],
+    "run_cpu_pct": [
+      84.4
+    ],
+    "run_peak_memory_mb": [
+      9626
+    ],
+    "run_disk_read_mb": [
+      653
+    ],
+    "run_disk_write_mb": [
+      3
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.6681,
+      0.3705,
+      0,
+      0,
+      0.6679,
+      0.3669,
+      0.3801,
+      0.1853
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "random_predictions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      19.5
+    ],
+    "run_cpu_pct": [
+      90.2
+    ],
+    "run_peak_memory_mb": [
+      4916
+    ],
+    "run_disk_read_mb": [
+      663
+    ],
+    "run_disk_write_mb": [
+      7
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.4271,
+      0.2433,
+      0.0001,
+      0.0009,
+      0.4277,
+      0.2257,
+      0.5449,
+      0.2051
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "solution",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.3
+    ],
+    "run_cpu_pct": [
+      83.3
+    ],
+    "run_peak_memory_mb": [
+      3175
+    ],
+    "run_disk_read_mb": [
+      40
+    ],
+    "run_disk_write_mb": [
+      13
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.9986,
+      0.9986,
+      1,
+      1,
+      0,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_cite/swap",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.6
+    ],
+    "run_cpu_pct": [
+      93.7
+    ],
+    "run_peak_memory_mb": [
+      4608
+    ],
+    "run_disk_read_mb": [
+      653
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0,
+      0,
+      0,
+      0,
+      0.5347,
+      0.1608
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "guanlab_dengkw",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      21050
+    ],
+    "run_cpu_pct": [
+      3007.6
+    ],
+    "run_peak_memory_mb": [
+      23143
+    ],
+    "run_disk_read_mb": [
+      1127
+    ],
+    "run_disk_write_mb": [
+      37
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1841,
+      0.214,
+      0.0875,
+      0.0908,
+      0.1679,
+      0.2199,
+      0.512,
+      0.1236
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "knnr",
+    "paramset_name": "Py",
+    "paramset": {
+      "raw": "Py"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      45.8
+    ],
+    "run_cpu_pct": [
+      491.9
+    ],
+    "run_peak_memory_mb": [
+      22221
+    ],
+    "run_disk_read_mb": [
+      1127
+    ],
+    "run_disk_write_mb": [
+      32
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1656,
+      0.2072,
+      0.0798,
+      0.0811,
+      0.1648,
+      0.2169,
+      0.5116,
+      0.1328
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "knnr",
+    "paramset_name": "R",
+    "paramset": {
+      "raw": "R"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      44.9
+    ],
+    "run_cpu_pct": [
+      111.8
+    ],
+    "run_peak_memory_mb": [
+      9728
+    ],
+    "run_disk_read_mb": [
+      1127
+    ],
+    "run_disk_write_mb": [
+      17
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1163,
+      0.1966,
+      0.0485,
+      0.0552,
+      0.115,
+      0.2018,
+      0.5213,
+      0.1341
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "linear_model",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1189
+    ],
+    "run_cpu_pct": [
+      100.6
+    ],
+    "run_peak_memory_mb": [
+      7271
+    ],
+    "run_disk_read_mb": [
+      1127
+    ],
+    "run_disk_write_mb": [
+      75
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1804,
+      0.2039,
+      0.0892,
+      0.089,
+      0.1739,
+      0.2157,
+      0.5109,
+      0.1351
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      13.4
+    ],
+    "run_cpu_pct": [
+      109.1
+    ],
+    "run_peak_memory_mb": [
+      4608
+    ],
+    "run_disk_read_mb": [
+      824
+    ],
+    "run_disk_write_mb": [
+      3
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1425,
+      0.1936,
+      0,
+      0,
+      0.1366,
+      0.1968,
+      0.5135,
+      0.1381
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "random_predictions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      15.2
+    ],
+    "run_cpu_pct": [
+      164.6
+    ],
+    "run_peak_memory_mb": [
+      7066
+    ],
+    "run_disk_read_mb": [
+      833
+    ],
+    "run_disk_write_mb": [
+      3
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.0203,
+      0.0896,
+      -0.0005,
+      -0.0006,
+      0.0186,
+      0.0886,
+      0.7121,
+      0.1417
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "solution",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      11.8
+    ],
+    "run_cpu_pct": [
+      107.5
+    ],
+    "run_peak_memory_mb": [
+      3277
+    ],
+    "run_disk_read_mb": [
+      57
+    ],
+    "run_disk_write_mb": [
+      30
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.9984,
+      0.9984,
+      1,
+      1,
+      0,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      14.4
+    ],
+    "run_cpu_pct": [
+      118.3
+    ],
+    "run_peak_memory_mb": [
+      6759
+    ],
+    "run_disk_read_mb": [
+      824
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0,
+      0,
+      0,
+      0,
+      0.5247,
+      0.0825
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "guanlab_dengkw",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      353
+    ],
+    "run_cpu_pct": [
+      590.8
+    ],
+    "run_peak_memory_mb": [
+      22119
+    ],
+    "run_disk_read_mb": [
+      1946
+    ],
+    "run_disk_write_mb": [
+      49
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.4629,
+      0.3016,
+      0.1552,
+      0.1477,
+      0.4691,
+      0.3188,
+      0.5178,
+      0.2482
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "knnr",
+    "paramset_name": "Py",
+    "paramset": {
+      "raw": "Py"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      100
+    ],
+    "run_cpu_pct": [
+      165.5
+    ],
+    "run_peak_memory_mb": [
+      30208
+    ],
+    "run_disk_read_mb": [
+      1946
+    ],
+    "run_disk_write_mb": [
+      59
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.4598,
+      0.3001,
+      0.1409,
+      0.1309,
+      0.4648,
+      0.3148,
+      0.5204,
+      0.2508
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "knnr",
+    "paramset_name": "R",
+    "paramset": {
+      "raw": "R"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      101
+    ],
+    "run_cpu_pct": [
+      100.7
+    ],
+    "run_peak_memory_mb": [
+      10343
+    ],
+    "run_disk_read_mb": [
+      2048
+    ],
+    "run_disk_write_mb": [
+      43
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.3783,
+      0.2574,
+      0.0328,
+      0.0397,
+      0.3809,
+      0.2663,
+      0.5475,
+      0.2679
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "linear_model",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1714
+    ],
+    "run_cpu_pct": [
+      100.3
+    ],
+    "run_peak_memory_mb": [
+      12391
+    ],
+    "run_disk_read_mb": [
+      2048
+    ],
+    "run_disk_write_mb": [
+      100
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.4392,
+      0.293,
+      0.107,
+      0.1125,
+      0.439,
+      0.3033,
+      0.5279,
+      0.2554
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.3
+    ],
+    "run_cpu_pct": [
+      137.8
+    ],
+    "run_peak_memory_mb": [
+      6554
+    ],
+    "run_disk_read_mb": [
+      347
+    ],
+    "run_disk_write_mb": [
+      3
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.3926,
+      0.2762,
+      0,
+      0,
+      0.3931,
+      0.28,
+      0.5381,
+      0.2639
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "random_predictions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      17.1
+    ],
+    "run_cpu_pct": [
+      90.9
+    ],
+    "run_peak_memory_mb": [
+      3687
+    ],
+    "run_disk_read_mb": [
+      357
+    ],
+    "run_disk_write_mb": [
+      7
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1809,
+      0.1505,
+      -0.0003,
+      -0.0001,
+      0.1809,
+      0.1466,
+      0.7505,
+      0.2724
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "solution",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      7.6
+    ],
+    "run_cpu_pct": [
+      139.6
+    ],
+    "run_peak_memory_mb": [
+      3175
+    ],
+    "run_disk_read_mb": [
+      35
+    ],
+    "run_disk_write_mb": [
+      8
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.9995,
+      0.9995,
+      1,
+      1,
+      0,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.2
+    ],
+    "run_cpu_pct": [
+      86.8
+    ],
+    "run_peak_memory_mb": [
+      2560
+    ],
+    "run_disk_read_mb": [
+      347
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0,
+      0,
+      0,
+      0,
+      0.6039,
+      0.1593
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "guanlab_dengkw",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2614
+    ],
+    "run_cpu_pct": [
+      2090.5
+    ],
+    "run_peak_memory_mb": [
+      65536
+    ],
+    "run_disk_read_mb": [
+      3380
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.6017,
+      0.5123,
+      0.5,
+      0.4332,
+      0.68,
+      0.5456,
+      0.3819,
+      0.2864
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "knnr",
+    "paramset_name": "Py",
+    "paramset": {
+      "raw": "Py"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      441
+    ],
+    "run_cpu_pct": [
+      108.5
+    ],
+    "run_peak_memory_mb": [
+      36557
+    ],
+    "run_disk_read_mb": [
+      3380
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.5932,
+      0.513,
+      0.4528,
+      0.3894,
+      0.6524,
+      0.5258,
+      0.3758,
+      0.278
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "knnr",
+    "paramset_name": "R",
+    "paramset": {
+      "raw": "R"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      295
+    ],
+    "run_cpu_pct": [
+      101.1
+    ],
+    "run_peak_memory_mb": [
+      32768
+    ],
+    "run_disk_read_mb": [
+      3380
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.5852,
+      0.5012,
+      0.4306,
+      0.3627,
+      0.6443,
+      0.5081,
+      0.3866,
+      0.2859
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "linear_model",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1093
+    ],
+    "run_cpu_pct": [
+      101.5
+    ],
+    "run_peak_memory_mb": [
+      39424
+    ],
+    "run_disk_read_mb": [
+      3380
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.5354,
+      0.4539,
+      0.3609,
+      0.3513,
+      0.5511,
+      0.4652,
+      0.4172,
+      0.3071
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12
+    ],
+    "run_cpu_pct": [
+      107.6
+    ],
+    "run_peak_memory_mb": [
+      5530
+    ],
+    "run_disk_read_mb": [
+      103
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.2697,
+      0.219,
+      0,
+      0,
+      0.2118,
+      0.1996,
+      0.482,
+      0.3344
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "random_predictions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      14.6
+    ],
+    "run_cpu_pct": [
+      137.9
+    ],
+    "run_peak_memory_mb": [
+      3175
+    ],
+    "run_disk_read_mb": [
+      113
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.1143,
+      0.1291,
+      0.0034,
+      -0.001,
+      0.0831,
+      0.1133,
+      0.6318,
+      0.4352
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "solution",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12.6
+    ],
+    "run_cpu_pct": [
+      157.1
+    ],
+    "run_peak_memory_mb": [
+      3175
+    ],
+    "run_disk_read_mb": [
+      28
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1,
+      1,
+      1,
+      0,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/normal",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      7.8
+    ],
+    "run_cpu_pct": [
+      75
+    ],
+    "run_peak_memory_mb": [
+      1844
+    ],
+    "run_disk_read_mb": [
+      103
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0,
+      0,
+      0,
+      0,
+      0.7637,
+      0.5874
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "guanlab_dengkw",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      21011
+    ],
+    "run_cpu_pct": [
+      3220.7
+    ],
+    "run_peak_memory_mb": [
+      65332
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      77
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.8843,
+      0.6144,
+      0.149,
+      0.1402,
+      0.8834,
+      0.6151,
+      0.1926,
+      0.0984
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "knnr",
+    "paramset_name": "Py",
+    "paramset": {
+      "raw": "Py"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      78
+    ],
+    "run_cpu_pct": [
+      127.8
+    ],
+    "run_peak_memory_mb": [
+      48128
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      82
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.8764,
+      0.6173,
+      0.1169,
+      0.1074,
+      0.8753,
+      0.6171,
+      0.199,
+      0.1012
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "knnr",
+    "paramset_name": "R",
+    "paramset": {
+      "raw": "R"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      360
+    ],
+    "run_cpu_pct": [
+      100.5
+    ],
+    "run_peak_memory_mb": [
+      35840
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      62
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.8737,
+      0.6252,
+      0.0957,
+      0.0889,
+      0.8726,
+      0.6251,
+      0.2011,
+      0.1017
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "linear_model",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      14491
+    ],
+    "run_cpu_pct": [
+      100.1
+    ],
+    "run_peak_memory_mb": [
+      31949
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      162
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.6058,
+      0.4077,
+      0.075,
+      0.0795,
+      0.6015,
+      0.3941,
+      0.345,
+      0.1335
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      43.3
+    ],
+    "run_cpu_pct": [
+      105.2
+    ],
+    "run_peak_memory_mb": [
+      26215
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.849,
+      0.5996,
+      0,
+      0,
+      0.8471,
+      0.5988,
+      0.2192,
+      0.1094
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "random_predictions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      65
+    ],
+    "run_cpu_pct": [
+      98.8
+    ],
+    "run_peak_memory_mb": [
+      25908
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      23
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0.7556,
+      0.5185,
+      0.0001,
+      -0.0001,
+      0.7533,
+      0.5133,
+      0.2893,
+      0.1307
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "solution",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      14
+    ],
+    "run_cpu_pct": [
+      150.3
+    ],
+    "run_peak_memory_mb": [
+      5837
+    ],
+    "run_disk_read_mb": [
+      59
+    ],
+    "run_disk_write_mb": [
+      32
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "overall_pearson",
+      "overall_spearman",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.9041,
+      0.9041,
+      1,
+      1,
+      0,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_neurips2022/pbmc_cite/swap",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      34.2
+    ],
+    "run_cpu_pct": [
+      103.8
+    ],
+    "run_peak_memory_mb": [
+      13210
+    ],
+    "run_disk_read_mb": [
+      3277
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_pearson_per_cell",
+      "mean_spearman_per_cell",
+      "mean_pearson_per_gene",
+      "mean_spearman_per_gene",
+      "rmse",
+      "mae"
+    ],
+    "metric_values": [
+      0,
+      0,
+      0,
+      0,
+      0.4388,
+      0.1538
+    ],
+    "metric_components": []
+  }
+]

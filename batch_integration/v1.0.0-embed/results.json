@@ -1,0 +1,5966 @@
+[
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      360
+    ],
+    "run_cpu_pct": [
+      16.7
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.21901127516122,
+      0.7557763605539514,
+      0.8354449173453213,
+      0.7311654823541844,
+      0.5865516280755401,
+      0.08853648936170211,
+      0.5946021120331669,
+      0,
+      0.5284764152020216,
+      0.7581780806521627
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      369
+    ],
+    "run_cpu_pct": [
+      80.9
+    ],
+    "run_peak_memory_mb": [
+      6800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      -0.000027558320909903973,
+      0.1214568467991741,
+      0.19862319557474836,
+      0.07210981871305316,
+      0.49092246235037845,
+      0.3718776087777599,
+      0.0048619586381918505,
+      0.9993543789588456,
+      0.48673139978200197,
+      0.9074306911013899
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      380
+    ],
+    "run_cpu_pct": [
+      90.1
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.011467094847039342,
+      0.09017873986139534,
+      0.2555119254384325,
+      0.10320316113823023,
+      0.46710583722839755,
+      0.00027207909761872706,
+      0.05075446933732671,
+      0.00003433011803380945,
+      0.4523317255079746,
+      0.8562189608346952
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_graph_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      399
+    ],
+    "run_cpu_pct": [
+      70.2
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      1,
+      0.47815805929549643,
+      1,
+      1,
+      0.9909480299093758,
+      0.9433484734063036,
+      1,
+      0.8864403196937469,
+      0.9909886048994171,
+      0.9411686395405209
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      469
+    ],
+    "run_cpu_pct": [
+      114.7
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      253.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9063437757169007,
+      0.7103504919972428,
+      0.985521988309458,
+      0.8167195638837538,
+      0.6672260041038195,
+      0.5114316535737166,
+      0.8761913714223534,
+      0.8850615772292638,
+      0.6562397330999374,
+      0.8805921491135281
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      499
+    ],
+    "run_cpu_pct": [
+      113.5
+    ],
+    "run_peak_memory_mb": [
+      2100
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      177.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9447696780209103,
+      0.8787925086817683,
+      0.9937686661117136,
+      0.9304065454893676,
+      0.6738689144452413,
+      0.42903851165591766,
+      0.9173337273220342,
+      0.7393465080494986,
+      0.6509966552257538,
+      0.8877876654208116
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      136.2
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      502.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9475807142920909,
+      0.7028732123977331,
+      0.995237347137488,
+      0.9578708557948525,
+      0.6346057044963042,
+      0.1802291327396871,
+      0.9188695688000531,
+      1,
+      0.625304639339447,
+      0.8817652963633499
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_integration_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      82.1
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.21729128560473532,
+      0.2147682665810706,
+      0.8354449173453213,
+      0.7169128516739428,
+      0.586551632421712,
+      0.9370685265387556,
+      0.5959381872778471,
+      0.9581053719148775,
+      0.5284764133393764,
+      0.8864373476400436
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "no_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      539
+    ],
+    "run_cpu_pct": [
+      226.2
+    ],
+    "run_peak_memory_mb": [
+      2600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.14354092341599023,
+      0.999999870543626,
+      0.7555365030684273,
+      0.4798303701311904,
+      0.49004348164973494,
+      0.09322566489361717,
+      0.4167711817007959,
+      1,
+      0.5014300323605166,
+      0.7853103349343584
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      691.1
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      390.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6588471961705326,
+      0.14328005893770554,
+      0.9874264877802588,
+      0.9243914319574525,
+      0.7173567563295364,
+      0.18126948455852931,
+      0.8340622407329048,
+      0.5325875078283708,
+      0.6512614488601685,
+      0.8541050868826889
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_embedding_by_celltype",
+    "paramset_name": "with jitter",
+    "paramset": {
+      "raw": "with jitter"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      590
+    ],
+    "run_cpu_pct": [
+      8.8
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      1,
+      0.47798855824123243,
+      1,
+      1,
+      0.9910221384385777,
+      0.9412736216558829,
+      1,
+      0.8865201060459623,
+      0.9910004265484144,
+      0.9373830460540974
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_embedding_by_celltype",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      599
+    ],
+    "run_cpu_pct": [
+      9.7
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9994139155224832,
+      0.47907016091835053,
+      0.9924050632911392,
+      0.9921849201686211,
+      1,
+      0.9169446530868577,
+      0.9981978809715895,
+      0.886456300635725,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      599
+    ],
+    "run_cpu_pct": [
+      638.8
+    ],
+    "run_peak_memory_mb": [
+      4900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      391
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8913834783728238,
+      0.13364692684892582,
+      0.9905612610870765,
+      0.9516091586020852,
+      0.7838097487886747,
+      0.24172831079242196,
+      0.8854343533657117,
+      0.734883998089955,
+      0.6641740053892136,
+      0.8063144185205736
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      609
+    ],
+    "run_cpu_pct": [
+      140.6
+    ],
+    "run_peak_memory_mb": [
+      7500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      2000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8246121994879938,
+      0.5133864979241234,
+      0.9874583396700425,
+      0.9317284509261002,
+      0.6487110275775194,
+      0.4467941694096563,
+      0.8068243835141469,
+      0.96782085760858,
+      0.5945104360580444,
+      0.8803570251391705
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      649
+    ],
+    "run_cpu_pct": [
+      93.6
+    ],
+    "run_peak_memory_mb": [
+      3100
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      155.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9268188977441686,
+      0.6752517430338876,
+      0.954374874998648,
+      0.8558087450569632,
+      0.6182182656619127,
+      0.35000282501723234,
+      0.8762490060600874,
+      0.7001810268890807,
+      0.7582772502845372,
+      0.8005653724632735
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      648
+    ],
+    "run_cpu_pct": [
+      94.2
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      231.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8426576966521182,
+      0.6752523802606256,
+      0.951351136298813,
+      0.8558907231869478,
+      0.6182164054501197,
+      0.35036176913111794,
+      0.8422772402988551,
+      0.7001618381947938,
+      0.7582772365629279,
+      0.8005657363596915
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      708
+    ],
+    "run_cpu_pct": [
+      273
+    ],
+    "run_peak_memory_mb": [
+      4900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      399.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9502671490162761,
+      0.1266574109061969,
+      0.9955324867629882,
+      0.9557196179661877,
+      0.7136834206225925,
+      0.2891857759276373,
+      0.9213048825460775,
+      0.8054915499395341,
+      0.6242621586895534,
+      0.9110250936323695
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      708
+    ],
+    "run_cpu_pct": [
+      150.3
+    ],
+    "run_peak_memory_mb": [
+      4700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      399.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9556279666509447,
+      0.13497298682887401,
+      0.9953017306796305,
+      0.9565204694506635,
+      0.6700681979482259,
+      0.20439797761899592,
+      0.9306941408791858,
+      0.5821329794391821,
+      0.6266950512250611,
+      0.9309227321472561
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      762
+    ],
+    "run_cpu_pct": [
+      180.8
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      507.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9443860666873539,
+      0.875581037128778,
+      0.9950160505966628,
+      0.9309270277306289,
+      0.6551880290110906,
+      0.1091157057354527,
+      0.9091265506754824,
+      0.9999561615493999,
+      0.6191973015666008,
+      0.9069727824110302
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      771
+    ],
+    "run_cpu_pct": [
+      141.4
+    ],
+    "run_peak_memory_mb": [
+      13800
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      4300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9483148072693753,
+      0.6162815478477432,
+      0.9936730459584087,
+      0.953086284560853,
+      0.6520076890786489,
+      0.13382781027321644,
+      0.9191863068815436,
+      0.9999757592784292,
+      0.6088824272155762,
+      0.9144192429412108
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      801
+    ],
+    "run_cpu_pct": [
+      86
+    ],
+    "run_peak_memory_mb": [
+      6500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.883886116448264,
+      0.3936120461564801,
+      0.9584312336161684,
+      0.7895257317988245,
+      0.5867940075864012,
+      0.31721564627004406,
+      0.8329918724999344,
+      0.8642270170997669,
+      0.7248321081974372,
+      0.819314608344753
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      886
+    ],
+    "run_cpu_pct": [
+      93.7
+    ],
+    "run_peak_memory_mb": [
+      12700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      2000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8828841133530689,
+      0.3936092897971878,
+      0.9574522983025812,
+      0.760431505495862,
+      0.5867966007860782,
+      0.31691583306014104,
+      0.8320153539547086,
+      0.8642184432906904,
+      0.7248281677728038,
+      0.8193177373311172
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      980
+    ],
+    "run_cpu_pct": [
+      163.9
+    ],
+    "run_peak_memory_mb": [
+      2500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9041728165045527,
+      0.7417425701336402,
+      0.9910184894879105,
+      0.8354732581750982,
+      0.6240674493213495,
+      0.427878035088582,
+      0.863086654073577,
+      0.9170497331282502,
+      0.5893010422587395,
+      0.9040230663345925
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1189
+    ],
+    "run_cpu_pct": [
+      419.4
+    ],
+    "run_peak_memory_mb": [
+      13700
+    ],
+    "run_disk_read_mb": [
+      2100
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9447816343590872,
+      0.908194686131201,
+      0.994517771856172,
+      0.9560452220741528,
+      0.7226128404339155,
+      0.13089306961851344,
+      0.9153085540267588,
+      0.8408923162279704,
+      0.6253174841403961,
+      0.914026995376555
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1437
+    ],
+    "run_cpu_pct": [
+      312.8
+    ],
+    "run_peak_memory_mb": [
+      28200
+    ],
+    "run_disk_read_mb": [
+      2100
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8474535537495956,
+      0.8584102221368162,
+      0.9953274710588493,
+      0.9314971362938332,
+      0.6855642360945543,
+      0.13235117140643182,
+      0.8800272778512946,
+      0.6704731378100253,
+      0.6331914514303207,
+      0.9139148582843438
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      949
+    ],
+    "run_cpu_pct": [
+      173.3
+    ],
+    "run_peak_memory_mb": [
+      18600
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      4300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.3251565497223119,
+      0.5027935159599443,
+      0.9452042104420875,
+      0.7466139637705447,
+      0.49953778786584735,
+      0.4628010570554879,
+      0.4733650180087064,
+      1,
+      0.5092367064207792,
+      0.9137260742702871
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scalex",
+    "paramset_name": "hvg",
+    "paramset": {
+      "raw": "hvg"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1907
+    ],
+    "run_cpu_pct": [
+      314
+    ],
+    "run_peak_memory_mb": [
+      19900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      618.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9423490023650245,
+      0.7486496352816181,
+      0.9938745225250812,
+      0.8295193937733044,
+      0.6278966407160137,
+      0.2484207946497924,
+      0.9077235752725499,
+      0.9988151608524342,
+      0.6460460837776079,
+      0.9049694490549307
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1838
+    ],
+    "run_cpu_pct": [
+      532.4
+    ],
+    "run_peak_memory_mb": [
+      33500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9126181067667711,
+      0.11908295862512643,
+      0.9943342192712074,
+      0.9588996529138307,
+      0.6582992554180503,
+      0.22009313622964566,
+      0.8642448948903295,
+      0.8561300872575691,
+      0.5735958606230642,
+      0.9267469638748593
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1660
+    ],
+    "run_cpu_pct": [
+      580.6
+    ],
+    "run_peak_memory_mb": [
+      18100
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6466213557150173,
+      0.16077595501732192,
+      0.9856447730153526,
+      0.8043503854657699,
+      0.6669895264009634,
+      0.14807578550222666,
+      0.8040371928196114,
+      0.6129435460903061,
+      0.6205727234482765,
+      0.8576501062075936
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1477
+    ],
+    "run_cpu_pct": [
+      899
+    ],
+    "run_peak_memory_mb": [
+      26400
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.601079996865592,
+      0.13485644143620112,
+      0.9897292383883922,
+      0.8597945541362746,
+      0.6229168519973194,
+      0.19008528512539313,
+      0.7763024588233897,
+      0.4611493947863293,
+      0.5686359360538058,
+      0.9085832511242437
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "liger",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2659
+    ],
+    "run_cpu_pct": [
+      96.6
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      151.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.37578387902590477,
+      0.31714628394147265,
+      0.7523102909356267,
+      0.639631382315596,
+      0.4592470037044159,
+      0.2618194579278147,
+      0.37950613448200043,
+      0.8802770858816219,
+      0.5211705369033274,
+      0.8281561597232541
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3599
+    ],
+    "run_cpu_pct": [
+      986.9
+    ],
+    "run_peak_memory_mb": [
+      3900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      176.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9449660657447677,
+      0.4419516571292521,
+      0.995760768503987,
+      0.9514935512028994,
+      0.6621009434262911,
+      0.2631466808158922,
+      0.9128877845347821,
+      0.8193177089224674,
+      0.5793309956789017,
+      0.8829440956710138
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4501
+    ],
+    "run_cpu_pct": [
+      1009.6
+    ],
+    "run_peak_memory_mb": [
+      32400
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.646291018762583,
+      0.10290319042970592,
+      0.9836069163149727,
+      0.9320911158667825,
+      0.6906155621012052,
+      0.20525346678003908,
+      0.7450167529194734,
+      0.7650217569915373,
+      0.5739346966147423,
+      0.8313870386639497
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8018
+    ],
+    "run_cpu_pct": [
+      836.3
+    ],
+    "run_peak_memory_mb": [
+      135500
+    ],
+    "run_disk_read_mb": [
+      8199.999999
+    ],
+    "run_disk_write_mb": [
+      9900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5137769118169931,
+      0.6881543451519913,
+      0.9822864375274983,
+      0.7529791722626333,
+      0.5656503001227975,
+      0.3950619351388063,
+      0.5431064685543233,
+      0.9800858500105228,
+      0.4974237128626555,
+      0.9279402558443293
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7249
+    ],
+    "run_cpu_pct": [
+      1163.3
+    ],
+    "run_peak_memory_mb": [
+      329400
+    ],
+    "run_disk_read_mb": [
+      8199.999999
+    ],
+    "run_disk_write_mb": [
+      9600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8419783301790509,
+      0.5839945767961185,
+      0.9886072621895547,
+      0.8930046692830218,
+      0.6400062907487154,
+      0.16125337056998412,
+      0.8684149816409654,
+      0.8509786148922587,
+      0.6010869964957237,
+      0.9107219872673591
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scalex",
+    "paramset_name": "full",
+    "paramset": {
+      "raw": "full"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8540
+    ],
+    "run_cpu_pct": [
+      2443.3
+    ],
+    "run_peak_memory_mb": [
+      29500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9185467660622566,
+      0.6694217828602841,
+      0.9901564877938718,
+      0.7114561772104264,
+      0.5688782513818552,
+      0.25420298857893553,
+      0.8643066959254668,
+      0.9999446013877559,
+      0.594464819100558,
+      0.8864480978941112
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10819
+    ],
+    "run_cpu_pct": [
+      2555.1
+    ],
+    "run_peak_memory_mb": [
+      4900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9485424935580034,
+      0.6413018033373795,
+      0.9960909917330489,
+      0.9451322327684691,
+      0.6673361510038376,
+      0.2440536188357273,
+      0.9211342239760751,
+      0.8873311400217856,
+      0.5895519703626633,
+      0.8786711544454613
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      15630
+    ],
+    "run_cpu_pct": [
+      2279.1
+    ],
+    "run_peak_memory_mb": [
+      6900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      176.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9536202372189387,
+      0.48733008225902846,
+      0.9958026560905816,
+      0.9543835886507074,
+      0.6951643663148085,
+      0.2724241302174292,
+      0.9247355133675169,
+      0.7907208937573803,
+      0.6025406569242477,
+      0.8821921877493801
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      19860
+    ],
+    "run_cpu_pct": [
+      2598.5
+    ],
+    "run_peak_memory_mb": [
+      3800
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9447712141579547,
+      0.6462338183503218,
+      0.9966950440204114,
+      0.9430607333611492,
+      0.6573230400681496,
+      0.2495387388558613,
+      0.9133008218503369,
+      0.8983913140915705,
+      0.579348124563694,
+      0.8803919790681194
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "liger",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      27639
+    ],
+    "run_cpu_pct": [
+      99.7
+    ],
+    "run_peak_memory_mb": [
+      13500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.36507261514396877,
+      0.4877274803419953,
+      0.7664786492320295,
+      0.6059681108095165,
+      0.5027876346050152,
+      0.22869384524555414,
+      0.36259810582867685,
+      0.9452332756851185,
+      0.5196674663033285,
+      0.8568139216745448
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      370
+    ],
+    "run_cpu_pct": [
+      33.5
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.3933036407181999,
+      0.6810638218802686,
+      0.7887880158848574,
+      0.6972656249999999,
+      0.6974566876888275,
+      0.17864803964995746,
+      0.6979737129651519,
+      0,
+      0.5114259338006377,
+      0.8449534355967052
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_embedding_by_celltype",
+    "paramset_name": "with jitter",
+    "paramset": {
+      "raw": "with jitter"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      381
+    ],
+    "run_cpu_pct": [
+      15.4
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      1,
+      0.7745180875181976,
+      1,
+      1,
+      0.9885979929731719,
+      0.9011258740298034,
+      0.9999999999999998,
+      0.6445749009969146,
+      0.9885300130534066,
+      0.9099477934479143
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_embedding_by_celltype",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      381
+    ],
+    "run_cpu_pct": [
+      27
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9998040765110003,
+      0.7738207696364512,
+      0.9992570737132926,
+      0.9976359338061466,
+      1,
+      0.9050831368704086,
+      0.9994976209592201,
+      0.644371946193558,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_graph_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      411
+    ],
+    "run_cpu_pct": [
+      95.1
+    ],
+    "run_peak_memory_mb": [
+      2000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      1,
+      0.7739362389174811,
+      1,
+      1,
+      0.9885139881748011,
+      0.9137869085569955,
+      0.9999999999999998,
+      0.6445900649289404,
+      0.9885382608935546,
+      0.920177775748015
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      470
+    ],
+    "run_cpu_pct": [
+      289
+    ],
+    "run_peak_memory_mb": [
+      2500
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      257.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5207391749281249,
+      0.8307743205260507,
+      0.9337061694521459,
+      0.6816846229187071,
+      0.5364452116191387,
+      0.40190857404551483,
+      0.6708075580006934,
+      0.5589503232887781,
+      0.5568129755556583,
+      0.8970191839611599
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      470
+    ],
+    "run_cpu_pct": [
+      84.9
+    ],
+    "run_peak_memory_mb": [
+      9500
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      -0.0002950997269032797,
+      0.06288570644078564,
+      0.04805688143799432,
+      0.028954423592493294,
+      0.49260863941162825,
+      0.33530626388400975,
+      0.004062212736848761,
+      0.9993241201937557,
+      0.4937767651863396,
+      0.8193940383032233
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      480
+    ],
+    "run_cpu_pct": [
+      248.4
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      432.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.48014627491457695,
+      0.7171858478839185,
+      0.9037624843253218,
+      0.31406463359126074,
+      0.5781288146972656,
+      0.5224244301061485,
+      0.6268806936557915,
+      0.7689216929371016,
+      0.5417627580463886,
+      0.8974360002836941
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      540
+    ],
+    "run_cpu_pct": [
+      434.1
+    ],
+    "run_peak_memory_mb": [
+      10800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.39974615028410665,
+      0.5349464796433788,
+      0.9073113907626784,
+      0.350821409644939,
+      0.6256470382213593,
+      0.5029812634315047,
+      0.5569745007428967,
+      0.9037714194902517,
+      0.5093673327937722,
+      0.914316190764701
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_integration_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      552
+    ],
+    "run_cpu_pct": [
+      91.1
+    ],
+    "run_peak_memory_mb": [
+      4000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.35555983592834417,
+      0.5450477670087998,
+      0.7887880158848574,
+      0.7841409691629957,
+      0.6974566876888275,
+      0.9075303286034777,
+      0.6962965836449545,
+      0.6460534740157693,
+      0.51142593100667,
+      0.7789475212390026
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      581
+    ],
+    "run_cpu_pct": [
+      90.2
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.13332032916188002,
+      0.0773270981587216,
+      0.467858590938939,
+      0.09969230769230769,
+      0.5503782592713833,
+      0.21033010184943257,
+      0.3074655033607553,
+      0.000002737765743620697,
+      0.4152734652161598,
+      0.8852526846578135
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "no_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      590
+    ],
+    "run_cpu_pct": [
+      244.3
+    ],
+    "run_peak_memory_mb": [
+      2700
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.16728017491430253,
+      0.9999996000453635,
+      0.7786206616058985,
+      0.4379358437935844,
+      0.535910182865848,
+      0.1968272820324859,
+      0.4401785278533695,
+      0.9999999998977874,
+      0.47791157898597425,
+      0.8525197170771198
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      650
+    ],
+    "run_cpu_pct": [
+      98.5
+    ],
+    "run_peak_memory_mb": [
+      3600
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      238
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.625894826327046,
+      0.8258590951133444,
+      0.975153974487333,
+      0.727699530516432,
+      0.506491569758175,
+      0.29391666359406154,
+      0.7314265380668149,
+      0.4519188895923742,
+      0.5840567510720956,
+      0.8570018572625226
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      660
+    ],
+    "run_cpu_pct": [
+      185.6
+    ],
+    "run_peak_memory_mb": [
+      5000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      938.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.550293510821563,
+      0.7731236336740281,
+      0.9829386597317535,
+      0.7261484098939929,
+      0.6296496093273163,
+      0.21879239965308073,
+      0.7092252496346619,
+      0.9999548128867595,
+      0.5620751045644283,
+      0.9062376018419678
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      680
+    ],
+    "run_cpu_pct": [
+      161.8
+    ],
+    "run_peak_memory_mb": [
+      2800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4607436981939685,
+      0.7638185785044673,
+      0.9184614657813186,
+      0.8716707021791769,
+      0.675410807132721,
+      0.25879089145188183,
+      0.6765290599152562,
+      0.32250355753080895,
+      0.4918867303058505,
+      0.907812738576171
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      699
+    ],
+    "run_cpu_pct": [
+      96.8
+    ],
+    "run_peak_memory_mb": [
+      4400
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      412.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5760735611058557,
+      0.8255159492984073,
+      0.9740701698965955,
+      0.749003984063745,
+      0.5063412974502689,
+      0.2927482241432031,
+      0.7203955400432924,
+      0.45241397296770014,
+      0.5840847527234051,
+      0.8570752060122167
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      814
+    ],
+    "run_cpu_pct": [
+      184.6
+    ],
+    "run_peak_memory_mb": [
+      5800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      928.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.46576303479334924,
+      0.6071868268826166,
+      0.981782506982803,
+      0.7094535993061578,
+      0.6769904494285583,
+      0.22575311618523686,
+      0.709886967863827,
+      1,
+      0.566997803747654,
+      0.8808486031733747
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      813
+    ],
+    "run_cpu_pct": [
+      246.6
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      723
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5011919498918562,
+      0.3393451382115437,
+      0.9083826243967017,
+      0.740200546946217,
+      0.6367819199585492,
+      0.25101858405144317,
+      0.7336292778496749,
+      0.30251273299366754,
+      0.5659121694853027,
+      0.9336724756501283
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      930
+    ],
+    "run_cpu_pct": [
+      191.1
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      705.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4807111693736364,
+      0.3567098490494004,
+      0.8576987435579818,
+      0.8309278350515464,
+      0.7181496769189835,
+      0.22631637251689563,
+      0.7254447361702079,
+      0.30017774875516795,
+      0.5832040309906006,
+      0.8541812471119836
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1006
+    ],
+    "run_cpu_pct": [
+      171.1
+    ],
+    "run_peak_memory_mb": [
+      7800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      723.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6034282993554535,
+      0.2919553999946777,
+      0.9506722713228654,
+      0.8924122310305775,
+      0.6051443057450455,
+      0.312702883772463,
+      0.7283747873405567,
+      0.8878501121721114,
+      0.553940875455774,
+      0.9427961522736934
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1018
+    ],
+    "run_cpu_pct": [
+      185.2
+    ],
+    "run_peak_memory_mb": [
+      7800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      705.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.43278224006785915,
+      0.31176830648579035,
+      0.853736519752769,
+      0.8474204171240395,
+      0.6720170080661774,
+      0.281514612748635,
+      0.6817657405372486,
+      0.64209080555648,
+      0.5612511709332466,
+      0.8585726472943065
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1019
+    ],
+    "run_cpu_pct": [
+      96.3
+    ],
+    "run_peak_memory_mb": [
+      8000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4916321274347688,
+      0.6992699088662756,
+      0.9716140636986055,
+      0.6439482961222093,
+      0.48946370813860474,
+      0.28931172170294417,
+      0.6982950899706367,
+      0.6373380295708007,
+      0.5202295359672868,
+      0.8474553575845178
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1224
+    ],
+    "run_cpu_pct": [
+      180.6
+    ],
+    "run_peak_memory_mb": [
+      21000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      6500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5626222307504702,
+      0.8139862073007518,
+      0.9821563288472545,
+      0.7162872154115586,
+      0.6151703894138336,
+      0.23606289523759738,
+      0.7205748069734811,
+      0.9999178873589071,
+      0.5585879497230053,
+      0.9121218348967386
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scalex",
+    "paramset_name": "hvg",
+    "paramset": {
+      "raw": "hvg"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1999
+    ],
+    "run_cpu_pct": [
+      213.6
+    ],
+    "run_peak_memory_mb": [
+      22000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      707.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.592388976079472,
+      0.8674196504152996,
+      0.9624822235260073,
+      0.20338983050847462,
+      0.606021854317172,
+      0.3989239354680486,
+      0.7663917971428701,
+      0.9969149259902124,
+      0.578800355642676,
+      0.8853253854528426
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1467
+    ],
+    "run_cpu_pct": [
+      223.4
+    ],
+    "run_peak_memory_mb": [
+      28200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      6500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4614298609740738,
+      0.6499209223988285,
+      0.9608299940578724,
+      0.24515674533286366,
+      0.5436743088066578,
+      0.3649612613551545,
+      0.6315899732744067,
+      0.9999999984606249,
+      0.521716520190239,
+      0.9442725370701732
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1687
+    ],
+    "run_cpu_pct": [
+      98.5
+    ],
+    "run_peak_memory_mb": [
+      16399.999999
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4904116849171056,
+      0.6993998809695741,
+      0.9738281055438622,
+      0.642691415313225,
+      0.48960074613132976,
+      0.2897760377701891,
+      0.7007761828760894,
+      0.6373284654649951,
+      0.5202406970569836,
+      0.847465268344997
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1488
+    ],
+    "run_cpu_pct": [
+      1339.5
+    ],
+    "run_peak_memory_mb": [
+      25800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4774211125211178,
+      0.3231378497243924,
+      0.8263146446190943,
+      0.8706467661691543,
+      0.6089542772261499,
+      0.23904305966841288,
+      0.7173199989892671,
+      0.2240984101737259,
+      0.5224725399469862,
+      0.9273159923779405
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1579
+    ],
+    "run_cpu_pct": [
+      889.5
+    ],
+    "run_peak_memory_mb": [
+      24300
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5066204696855264,
+      0.3523030227739866,
+      0.9339120234892152,
+      0.8125854993160054,
+      0.6925625056028366,
+      0.2328415200790669,
+      0.7233204840994601,
+      0.4304002394414154,
+      0.5738668590784073,
+      0.8650943574936495
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3390
+    ],
+    "run_cpu_pct": [
+      1053.3
+    ],
+    "run_peak_memory_mb": [
+      41200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4344099719214416,
+      0.2763482613087469,
+      0.876113012742147,
+      0.8173690932311621,
+      0.6684550493955612,
+      0.2633516225440695,
+      0.6668910717119599,
+      0.7534094919561727,
+      0.5242516417056322,
+      0.8433009741026156
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2369
+    ],
+    "run_cpu_pct": [
+      743.9
+    ],
+    "run_peak_memory_mb": [
+      70000
+    ],
+    "run_disk_read_mb": [
+      3000
+    ],
+    "run_disk_write_mb": [
+      2100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4766651290183285,
+      0.7912233431724762,
+      0.9886529528569031,
+      0.7525486561631141,
+      0.6334585398435593,
+      0.21866591175806271,
+      0.7400625497757798,
+      0.5312692141371804,
+      0.5832446217536926,
+      0.9106750646861984
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3408
+    ],
+    "run_cpu_pct": [
+      447.1
+    ],
+    "run_peak_memory_mb": [
+      30700
+    ],
+    "run_disk_read_mb": [
+      3000
+    ],
+    "run_disk_write_mb": [
+      2100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.515382058311188,
+      0.5758883056601611,
+      0.9763029110538393,
+      0.8007928642220019,
+      0.6555435210466385,
+      0.24106460716031353,
+      0.7220640796574885,
+      0.8491680681422666,
+      0.5687229409813881,
+      0.9198522688905528
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3530
+    ],
+    "run_cpu_pct": [
+      1489.9
+    ],
+    "run_peak_memory_mb": [
+      5300
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      254.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7647317360058736,
+      0.686301443148531,
+      0.9882271850759564,
+      0.8543689320388349,
+      0.6505808085203171,
+      0.3100268601768317,
+      0.838112614447389,
+      0.7311473672236755,
+      0.6043892130255699,
+      0.8874659416945266
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3951
+    ],
+    "run_cpu_pct": [
+      303.9
+    ],
+    "run_peak_memory_mb": [
+      2700
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      254.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5744145487922712,
+      0.6626114435986582,
+      0.9817965356534857,
+      0.8487584650112867,
+      0.6196548342704773,
+      0.351297215590725,
+      0.7382333791577116,
+      0.8767042469061397,
+      0.5415299646556377,
+      0.904066240714226
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "liger",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4848
+    ],
+    "run_cpu_pct": [
+      100.6
+    ],
+    "run_peak_memory_mb": [
+      5100
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      230.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.08726698749219426,
+      0.22223154292936195,
+      0.3711215615887148,
+      0.13207547169811318,
+      0.571170945649492,
+      0.33225178967725144,
+      0.2008949600114019,
+      0.8241451213121219,
+      0.42077956522819177,
+      0.7802571922331945
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4800
+    ],
+    "run_cpu_pct": [
+      1157.1
+    ],
+    "run_peak_memory_mb": [
+      41000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.46023490850606713,
+      0.28961778412123795,
+      0.9502534520366214,
+      0.8723667905824041,
+      0.6136534306470677,
+      0.29839449070103585,
+      0.7164586245164,
+      0.8883666830068218,
+      0.5382148073948164,
+      0.9468996654632476
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7130
+    ],
+    "run_cpu_pct": [
+      4626.5
+    ],
+    "run_peak_memory_mb": [
+      455900
+    ],
+    "run_disk_read_mb": [
+      12500
+    ],
+    "run_disk_write_mb": [
+      15500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4919962029401361,
+      0.7976885961762128,
+      0.9862653004271213,
+      0.7140319715808171,
+      0.5654449537396431,
+      0.23381717104147481,
+      0.7248211801577554,
+      0.7061983328533249,
+      0.55103450268507,
+      0.9118327612809625
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scalex",
+    "paramset_name": "full",
+    "paramset": {
+      "raw": "full"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      9148
+    ],
+    "run_cpu_pct": [
+      2353.2
+    ],
+    "run_peak_memory_mb": [
+      30800
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5810999255079885,
+      0.645746361215737,
+      0.9688501513041812,
+      0.2,
+      0.5810867764695001,
+      0.4023440157262983,
+      0.743010260706442,
+      0.9994911753853759,
+      0.5466806473266188,
+      0.8904905725754528
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      11950
+    ],
+    "run_cpu_pct": [
+      2636.4
+    ],
+    "run_peak_memory_mb": [
+      4099.999999
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.589042732334262,
+      0.5210636603141412,
+      0.9825897566369752,
+      0.857142857142857,
+      0.619015209376812,
+      0.33345963988193317,
+      0.7498405948660342,
+      0.9261222669947087,
+      0.5370811335742474,
+      0.901668350529312
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21420
+    ],
+    "run_cpu_pct": [
+      2372.7
+    ],
+    "run_peak_memory_mb": [
+      7300
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7044971585629318,
+      0.5601035024953815,
+      0.9832692471524833,
+      0.89749430523918,
+      0.6475720107555389,
+      0.33217795540118256,
+      0.8024543403443154,
+      0.8767238289045051,
+      0.5694206431508064,
+      0.8950866997407046
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      32589
+    ],
+    "run_cpu_pct": [
+      3100.5
+    ],
+    "run_peak_memory_mb": [
+      720100
+    ],
+    "run_disk_read_mb": [
+      12500
+    ],
+    "run_disk_write_mb": [
+      15600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.41712292561480596,
+      0.8115985144364334,
+      0.9742504784927,
+      0.35169491525423735,
+      0.5783361941576004,
+      0.32007808869703,
+      0.6291353319715575,
+      0.9550704586670895,
+      0.5027941728476435,
+      0.9368202928996304
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "liger",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      30480
+    ],
+    "run_cpu_pct": [
+      100.6
+    ],
+    "run_peak_memory_mb": [
+      19400
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.05163362305296624,
+      0.18338222092682008,
+      0.4810990850227499,
+      0.16486486486486485,
+      0.5762272858670442,
+      0.26978149308244914,
+      0.1949024710225664,
+      0.8479334234498361,
+      0.41760037126429944,
+      0.8172835307946777
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_embedding_by_celltype",
+    "paramset_name": "with jitter",
+    "paramset": {
+      "raw": "with jitter"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      341
+    ],
+    "run_cpu_pct": [
+      47.8
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      1,
+      0.6112145087630038,
+      1,
+      1,
+      0.9885716046549275,
+      0.9529108275605536,
+      1,
+      0.9017132921995231,
+      0.9885354081860038,
+      0.976361007639757
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      381
+    ],
+    "run_cpu_pct": [
+      87.6
+    ],
+    "run_peak_memory_mb": [
+      3900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.05804694681150738,
+      0.019201388235122886,
+      0.24906853510956883,
+      0.14000259671158738,
+      0.48208668641746044,
+      0.0234984219535308,
+      0.1232863742520181,
+      0.000002430572709008408,
+      0.43221208453178406,
+      0.8554602903080042
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_embedding_by_celltype",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      420
+    ],
+    "run_cpu_pct": [
+      22.7
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.9993025370886076,
+      0.6116490748541172,
+      0.9889555948769801,
+      0.9957002457002457,
+      1,
+      0.92372464660087,
+      0.9975658823737625,
+      0.9016472576482031,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_graph_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      420
+    ],
+    "run_cpu_pct": [
+      91.1
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      1,
+      0.6114096856668334,
+      1,
+      1,
+      0.9884987671415201,
+      0.955525703951001,
+      1,
+      0.9016844155706055,
+      0.9885147098776854,
+      0.9782530350974068
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_integration_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      471
+    ],
+    "run_cpu_pct": [
+      94
+    ],
+    "run_peak_memory_mb": [
+      3900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.2514613453269035,
+      0.3030418928648909,
+      0.8056819334047614,
+      0.7650204490556923,
+      0.639101124368608,
+      0.9573961381313173,
+      0.6314116086998642,
+      0.854719022695734,
+      0.532086756080389,
+      0.8999399340603313
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      570
+    ],
+    "run_cpu_pct": [
+      136.8
+    ],
+    "run_peak_memory_mb": [
+      3000
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      446.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7228316416946474,
+      0.7980730654774809,
+      0.9440694941884644,
+      0.7531147877061196,
+      0.5737782358191907,
+      0.34293046294375573,
+      0.754688025169384,
+      0.9392356210209267,
+      0.5580766722559929,
+      0.895114427469188
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      590
+    ],
+    "run_cpu_pct": [
+      170.5
+    ],
+    "run_peak_memory_mb": [
+      5900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      958.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6590714512589523,
+      0.7742260717286491,
+      0.9384742210041475,
+      0.8070770671719292,
+      0.6039372814702801,
+      0.06086181212446995,
+      0.7536912192601752,
+      1,
+      0.5677013918757439,
+      0.860272040760865
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      610
+    ],
+    "run_cpu_pct": [
+      6.8
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.26077276168047714,
+      0.7510950362878953,
+      0.8056819334047614,
+      0.7596316496561842,
+      0.6391011234372854,
+      0.10133948857385389,
+      0.6333406148683445,
+      5.22405366082003e-7,
+      0.5320867523550987,
+      0.7666339206165897
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      619
+    ],
+    "run_cpu_pct": [
+      43.2
+    ],
+    "run_peak_memory_mb": [
+      8000
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.00018132012372306554,
+      0.014206129935800315,
+      0.12135512583442831,
+      0.039678116520142234,
+      0.46195295825600624,
+      0.2569096082782353,
+      0.00405782408035276,
+      0.9996760958573464,
+      0.4473973698914051,
+      0.8751109590095103
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      619
+    ],
+    "run_cpu_pct": [
+      616.7
+    ],
+    "run_peak_memory_mb": [
+      8800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      747.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7858210131802484,
+      0.45432480253665153,
+      0.9766313299800291,
+      0.8455765398191533,
+      0.5979706224115684,
+      0.301001201937809,
+      0.8186158737190689,
+      0.913593558809358,
+      0.5632650215220423,
+      0.9212577764734026
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      630
+    ],
+    "run_cpu_pct": [
+      204.3
+    ],
+    "run_peak_memory_mb": [
+      8900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      2400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5953242874481215,
+      0.8864355188072712,
+      0.9036625465438408,
+      0.7022097313672758,
+      0.543479991145432,
+      0.3278278933662795,
+      0.718331452452082,
+      0.9643291831513345,
+      0.5607825927436352,
+      0.887581837359689
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      683
+    ],
+    "run_cpu_pct": [
+      101.5
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      247.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7581053707832404,
+      0.744816644549714,
+      0.9611784174442088,
+      0.7342153337001344,
+      0.5848578768121114,
+      0.25751221193875473,
+      0.800109322579416,
+      0.8598799346000668,
+      0.5881347422425212,
+      0.8461541524139911
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      704
+    ],
+    "run_cpu_pct": [
+      136.4
+    ],
+    "run_peak_memory_mb": [
+      4800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      970.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6444888517360469,
+      0.8569052356440705,
+      0.9542861808732411,
+      0.7736139153416721,
+      0.5798769099055789,
+      0.03506329020876087,
+      0.7531129503539888,
+      0.9999917034513377,
+      0.5582710355520248,
+      0.8603851718966042
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      703
+    ],
+    "run_cpu_pct": [
+      96.6
+    ],
+    "run_peak_memory_mb": [
+      7100
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5029724301443841,
+      0.9088968458109967,
+      0.9529019645371628,
+      0.7327625913059801,
+      0.5756542807524849,
+      0.3199852302375923,
+      0.6703754699455398,
+      0.8111265336635869,
+      0.529741357222692,
+      0.8472885741581639
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      817
+    ],
+    "run_cpu_pct": [
+      362.9
+    ],
+    "run_peak_memory_mb": [
+      7800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      736.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.799762165545625,
+      0.43564815616404956,
+      0.911273311955015,
+      0.8177880953397695,
+      0.610345886720437,
+      0.1890789643693387,
+      0.8363099345688931,
+      0.8054985738038336,
+      0.581306129835551,
+      0.9037573031923828
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      890
+    ],
+    "run_cpu_pct": [
+      202.4
+    ],
+    "run_peak_memory_mb": [
+      2200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      266.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7455945370917291,
+      0.6906410189576093,
+      0.9429912451264885,
+      0.7266780539474608,
+      0.5479945852421224,
+      0.1354623738779117,
+      0.7652179128563396,
+      0.8818483367344745,
+      0.5598119162023067,
+      0.8541946181626374
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1008
+    ],
+    "run_cpu_pct": [
+      83.5
+    ],
+    "run_peak_memory_mb": [
+      4200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      427.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6921872056783812,
+      0.7447964501757282,
+      0.9606921536627163,
+      0.7347054986490216,
+      0.5848610718929188,
+      0.25421809997900635,
+      0.7593569667632011,
+      0.859897662122878,
+      0.5881293473244662,
+      0.8461456777954418
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1019
+    ],
+    "run_cpu_pct": [
+      218.3
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6834217629432472,
+      0.7081978158393863,
+      0.9604515927962207,
+      0.7448825860114627,
+      0.567765761166811,
+      0.12209970937127035,
+      0.716572939663139,
+      0.9402446013901102,
+      0.5376141890883446,
+      0.8528687660955326
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1498
+    ],
+    "run_cpu_pct": [
+      90.8
+    ],
+    "run_peak_memory_mb": [
+      13800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      2300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4938665696979681,
+      0.908934480160647,
+      0.9528479806206067,
+      0.7439940356932422,
+      0.5756776071719217,
+      0.3228460900874859,
+      0.6666495629390512,
+      0.8111071512079028,
+      0.5297451539699223,
+      0.8472745259519423
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1518
+    ],
+    "run_cpu_pct": [
+      219.9
+    ],
+    "run_peak_memory_mb": [
+      7800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      717.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7222696963707,
+      0.39035761299745836,
+      0.9082340431383387,
+      0.8399462257410191,
+      0.6397201991640031,
+      0.13502442930923164,
+      0.7898114961296155,
+      0.8019842507849452,
+      0.6061823666095734,
+      0.836554732026835
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1668
+    ],
+    "run_cpu_pct": [
+      959.1
+    ],
+    "run_peak_memory_mb": [
+      19800
+    ],
+    "run_disk_read_mb": [
+      2800
+    ],
+    "run_disk_write_mb": [
+      2200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7804140395949817,
+      0.6391487730718428,
+      0.9756879286274704,
+      0.8524008675384606,
+      0.6031474266201258,
+      0.14541263384840464,
+      0.809407553898889,
+      0.924642707081335,
+      0.578453928232193,
+      0.8979502662729423
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1708
+    ],
+    "run_cpu_pct": [
+      237
+    ],
+    "run_peak_memory_mb": [
+      7900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      729
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7319105845565581,
+      0.43585688980881576,
+      0.9236204224618447,
+      0.8279007490666542,
+      0.6002306034788489,
+      0.18805573920750585,
+      0.7967773447408032,
+      0.8945259380784768,
+      0.5917446836829185,
+      0.8464388893943545
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1214
+    ],
+    "run_cpu_pct": [
+      382.4
+    ],
+    "run_peak_memory_mb": [
+      23600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      5400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6986253934390207,
+      0.7956998459117858,
+      0.9786514212441377,
+      0.7437139476189198,
+      0.5620974751655012,
+      0.14213356839909308,
+      0.7475999789655514,
+      1,
+      0.534461323171854,
+      0.9153837553708957
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "no_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1998
+    ],
+    "run_cpu_pct": [
+      312
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.39899523446002527,
+      0.9999998088118731,
+      0.6154979922379867,
+      0.5029111089079545,
+      0.518934848264006,
+      0.02296385175282234,
+      0.5614454574366214,
+      1,
+      0.49353125482057464,
+      0.7149145823676297
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1211
+    ],
+    "run_cpu_pct": [
+      240.6
+    ],
+    "run_peak_memory_mb": [
+      17600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      5500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7491390366759538,
+      0.7418492402332152,
+      0.9426956349131279,
+      0.7928313327726818,
+      0.5622028121724725,
+      0.0517581699796823,
+      0.7678242192634146,
+      0.999996498594849,
+      0.5479537136852741,
+      0.8771945167022859
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1599
+    ],
+    "run_cpu_pct": [
+      1497.2
+    ],
+    "run_peak_memory_mb": [
+      18200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4387007059758562,
+      0.3994310614095609,
+      0.7984833276707003,
+      0.857706722650106,
+      0.6082898369058967,
+      0.19249838175877987,
+      0.7053486042721687,
+      0.6444311440669424,
+      0.5612626187503338,
+      0.8928987980405343
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1577
+    ],
+    "run_cpu_pct": [
+      504.5
+    ],
+    "run_peak_memory_mb": [
+      19500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.4792185963928106,
+      0.415499964295914,
+      0.9288634967943659,
+      0.8584770281791894,
+      0.619849765240664,
+      0.1614366652053688,
+      0.7033668338085374,
+      0.6891613056319892,
+      0.5560494637188979,
+      0.9047288921192163
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scalex",
+    "paramset_name": "hvg",
+    "paramset": {
+      "raw": "hvg"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3479
+    ],
+    "run_cpu_pct": [
+      2033.8
+    ],
+    "run_peak_memory_mb": [
+      18800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      637.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7332802383728987,
+      0.7966332645393254,
+      0.9671218321070337,
+      0.7286481391518534,
+      0.5711620983332863,
+      0.09565252504294786,
+      0.7717816329539895,
+      0.9992008350460084,
+      0.5759902465040935,
+      0.8741253303024977
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3908
+    ],
+    "run_cpu_pct": [
+      591
+    ],
+    "run_peak_memory_mb": [
+      39300
+    ],
+    "run_disk_read_mb": [
+      2800
+    ],
+    "run_disk_write_mb": [
+      2100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6972067347483561,
+      0.751513844666557,
+      0.9815209226724892,
+      0.8628245735105776,
+      0.6294912844896317,
+      0.15085774855276735,
+      0.7874859423719371,
+      0.8646850272271368,
+      0.5864914059638977,
+      0.8955866899698368
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "liger",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4369
+    ],
+    "run_cpu_pct": [
+      100.4
+    ],
+    "run_peak_memory_mb": [
+      4900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      239.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6951500201471174,
+      0.5949263964028209,
+      0.8836246615803149,
+      0.6010281237225923,
+      0.4381623590319521,
+      0.49890373456701,
+      0.7435547035033736,
+      0.9332409846894152,
+      0.5646487463905357,
+      0.8219193205816042
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3849
+    ],
+    "run_cpu_pct": [
+      1198.6
+    ],
+    "run_peak_memory_mb": [
+      43400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6978579120742123,
+      0.4649856846378773,
+      0.9474031278098058,
+      0.8107529131837994,
+      0.5773623657878488,
+      0.1938590494132646,
+      0.7468842043412921,
+      0.9274255207755092,
+      0.565151184797287,
+      0.8487221883463263
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4230
+    ],
+    "run_cpu_pct": [
+      1543.5
+    ],
+    "run_peak_memory_mb": [
+      43400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7445967290611981,
+      0.45774616133642854,
+      0.9889371179139211,
+      0.8469339116445144,
+      0.5821692950436517,
+      0.2351019093853901,
+      0.7951057128450691,
+      0.9375115310230269,
+      0.5543193358701,
+      0.9210374185617628
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8279
+    ],
+    "run_cpu_pct": [
+      1981.5
+    ],
+    "run_peak_memory_mb": [
+      194700
+    ],
+    "run_disk_read_mb": [
+      10500
+    ],
+    "run_disk_write_mb": [
+      12300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7143711965191982,
+      0.815939945603773,
+      0.9918555031681304,
+      0.8588294903606438,
+      0.5905467740958557,
+      0.1447489105487907,
+      0.7920591364519991,
+      0.88235082726562,
+      0.5780489593744278,
+      0.8922266773672392
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10769
+    ],
+    "run_cpu_pct": [
+      2194.2
+    ],
+    "run_peak_memory_mb": [
+      14500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      263.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8847824152286433,
+      0.686892543968691,
+      0.9811742091094018,
+      0.859510390633439,
+      0.6468474064022303,
+      0.22093414606637385,
+      0.8524219123152977,
+      0.9139698223763517,
+      0.6116132736206055,
+      0.8742559606298516
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10170
+    ],
+    "run_cpu_pct": [
+      1692.7
+    ],
+    "run_peak_memory_mb": [
+      600000
+    ],
+    "run_disk_read_mb": [
+      10500
+    ],
+    "run_disk_write_mb": [
+      13100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7168002135984647,
+      0.8700537972435212,
+      0.9652892496713775,
+      0.8405250328433,
+      0.558781223371625,
+      0.2667686796011076,
+      0.7787957923776327,
+      0.9585956499325159,
+      0.5455439798533916,
+      0.9335321137252295
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scalex",
+    "paramset_name": "full",
+    "paramset": {
+      "raw": "full"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7570
+    ],
+    "run_cpu_pct": [
+      2429.5
+    ],
+    "run_peak_memory_mb": [
+      25500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.6044969627727493,
+      0.775070045197549,
+      0.9611837951439195,
+      0.7717763919979859,
+      0.5641551276287614,
+      0.1116784275441417,
+      0.7345228306821029,
+      0.9998428320651952,
+      0.5605501940531201,
+      0.8632047317829821
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      16509
+    ],
+    "run_cpu_pct": [
+      2334.9
+    ],
+    "run_peak_memory_mb": [
+      12100
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      263.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8153674185220707,
+      0.6819691916837618,
+      0.9857759634710273,
+      0.8374046842254048,
+      0.6361857615411282,
+      0.22824468075132875,
+      0.8029081728553754,
+      0.9321819676156279,
+      0.5638993456959724,
+      0.8832478461172704
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      22720
+    ],
+    "run_cpu_pct": [
+      2636.6
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.7934207647402701,
+      0.6502375075240024,
+      0.9814009971412305,
+      0.8186976882779751,
+      0.622445598244667,
+      0.23892395127311672,
+      0.7940121293842466,
+      0.9360251166219536,
+      0.5622876510024071,
+      0.8801184852108173
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      25658
+    ],
+    "run_cpu_pct": [
+      2632
+    ],
+    "run_peak_memory_mb": [
+      5800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.8790939190604296,
+      0.7418773758723269,
+      0.9860145995265497,
+      0.7732992497676616,
+      0.6258395658805966,
+      0.23867439300938287,
+      0.840450281712705,
+      0.9186149714166956,
+      0.5968017876148224,
+      0.8760993633581582
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "liger",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      27500
+    ],
+    "run_cpu_pct": [
+      101
+    ],
+    "run_peak_memory_mb": [
+      15500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "cc_score",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "isolated_labels_sil",
+      "kBET",
+      "nmi",
+      "pcr",
+      "silhouette",
+      "silhouette_batch"
+    ],
+    "metric_values": [
+      0.5064890120869285,
+      0.6212653730890075,
+      0.8898116560473041,
+      0.45733233506950977,
+      0.383213460062463,
+      0.41347353846849844,
+      0.6608254925962389,
+      0.9450275018022423,
+      0.5252890444786977,
+      0.7965815254656071
+    ],
+    "metric_components": []
+  }
+]

@@ -1,0 +1,3236 @@
+[
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      159
+    ],
+    "run_cpu_pct": [
+      58.7
+    ],
+    "run_peak_memory_mb": [
+      267.5
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.6725510350137964
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      180
+    ],
+    "run_cpu_pct": [
+      29.6
+    ],
+    "run_peak_memory_mb": [
+      137.6
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.7586323741531706
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      180
+    ],
+    "run_cpu_pct": [
+      278.1
+    ],
+    "run_peak_memory_mb": [
+      658.8
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.36350799618859575
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      279
+    ],
+    "run_cpu_pct": [
+      10.8
+    ],
+    "run_peak_memory_mb": [
+      658.8
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      319
+    ],
+    "run_cpu_pct": [
+      369
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      215.7
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.13173574042239503
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      529
+    ],
+    "run_cpu_pct": [
+      176.1
+    ],
+    "run_peak_memory_mb": [
+      1000
+    ],
+    "run_disk_read_mb": [
+      229
+    ],
+    "run_disk_write_mb": [
+      4.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.101045973606621
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      538
+    ],
+    "run_cpu_pct": [
+      51.2
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      644.2
+    ],
+    "run_disk_write_mb": [
+      4.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.2903002397814603
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      114.4
+    ],
+    "run_peak_memory_mb": [
+      13500
+    ],
+    "run_disk_read_mb": [
+      439.5
+    ],
+    "run_disk_write_mb": [
+      137.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.9505696555450878
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1027
+    ],
+    "run_cpu_pct": [
+      693.1
+    ],
+    "run_peak_memory_mb": [
+      1200
+    ],
+    "run_disk_read_mb": [
+      237.2
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.15972377629022472
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3738
+    ],
+    "run_cpu_pct": [
+      1326.8
+    ],
+    "run_peak_memory_mb": [
+      1200
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      14.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8255229018687685
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3959
+    ],
+    "run_cpu_pct": [
+      1272.7
+    ],
+    "run_peak_memory_mb": [
+      4700
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      15
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8257661429009254
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4501
+    ],
+    "run_cpu_pct": [
+      1461.6
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      15.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8375905223286515
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4669
+    ],
+    "run_cpu_pct": [
+      1951.5
+    ],
+    "run_peak_memory_mb": [
+      18100
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      47.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8476392540121584
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      7421
+    ],
+    "run_cpu_pct": [
+      2176.3
+    ],
+    "run_peak_memory_mb": [
+      17500
+    ],
+    "run_disk_read_mb": [
+      237.2
+    ],
+    "run_disk_write_mb": [
+      7.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.4200536311539451
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      9880
+    ],
+    "run_cpu_pct": [
+      1342.5
+    ],
+    "run_peak_memory_mb": [
+      4900
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      15
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8248909658601526
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      319
+    ],
+    "run_cpu_pct": [
+      65.6
+    ],
+    "run_peak_memory_mb": [
+      146.2
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.10261698548173868
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      319
+    ],
+    "run_cpu_pct": [
+      58.8
+    ],
+    "run_peak_memory_mb": [
+      140.8
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.343145014034729
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      330
+    ],
+    "run_cpu_pct": [
+      1143.7
+    ],
+    "run_peak_memory_mb": [
+      845.3
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.33336175043503596
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      448
+    ],
+    "run_cpu_pct": [
+      16.7
+    ],
+    "run_peak_memory_mb": [
+      211.6
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      469
+    ],
+    "run_cpu_pct": [
+      358.4
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      298.8
+    ],
+    "run_disk_write_mb": [
+      5.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.7592798690350302
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      708
+    ],
+    "run_cpu_pct": [
+      350.7
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      285.6
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -2.784139246751888
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      798
+    ],
+    "run_cpu_pct": [
+      121.6
+    ],
+    "run_peak_memory_mb": [
+      19300
+    ],
+    "run_disk_read_mb": [
+      710.7
+    ],
+    "run_disk_write_mb": [
+      339.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.7182059926727573
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1267
+    ],
+    "run_cpu_pct": [
+      30.6
+    ],
+    "run_peak_memory_mb": [
+      4300
+    ],
+    "run_disk_read_mb": [
+      714.6
+    ],
+    "run_disk_write_mb": [
+      5.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.16885015200580444
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3048
+    ],
+    "run_cpu_pct": [
+      489.7
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      307
+    ],
+    "run_disk_write_mb": [
+      4.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.009428033679160725
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10149
+    ],
+    "run_cpu_pct": [
+      1492.4
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      17.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.43773548324671624
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      14780
+    ],
+    "run_cpu_pct": [
+      2321
+    ],
+    "run_peak_memory_mb": [
+      16100
+    ],
+    "run_disk_read_mb": [
+      307.1
+    ],
+    "run_disk_write_mb": [
+      7.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.342256513351454
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      19539
+    ],
+    "run_cpu_pct": [
+      1299.9
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      16
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.43144219144553786
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      20899
+    ],
+    "run_cpu_pct": [
+      1544.6
+    ],
+    "run_peak_memory_mb": [
+      5900
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      16
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.39771880714818886
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21339
+    ],
+    "run_cpu_pct": [
+      1916.5
+    ],
+    "run_peak_memory_mb": [
+      16500
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      51.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.37266091882957325
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_1",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      25460
+    ],
+    "run_cpu_pct": [
+      1393.3
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      15.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.4443393582901012
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      339
+    ],
+    "run_cpu_pct": [
+      30.5
+    ],
+    "run_peak_memory_mb": [
+      635
+    ],
+    "run_disk_read_mb": [
+      215.7
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      359
+    ],
+    "run_cpu_pct": [
+      20.7
+    ],
+    "run_peak_memory_mb": [
+      224.9
+    ],
+    "run_disk_read_mb": [
+      215.7
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.6788678218288058
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      429
+    ],
+    "run_cpu_pct": [
+      14.4
+    ],
+    "run_peak_memory_mb": [
+      237
+    ],
+    "run_disk_read_mb": [
+      215.7
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8173625631217027
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      439
+    ],
+    "run_cpu_pct": [
+      87.1
+    ],
+    "run_peak_memory_mb": [
+      658.5
+    ],
+    "run_disk_read_mb": [
+      215.7
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.29515643384923823
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      480
+    ],
+    "run_cpu_pct": [
+      372.3
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      215.7
+    ],
+    "run_disk_write_mb": [
+      4.099999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.009115963663603491
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      679
+    ],
+    "run_cpu_pct": [
+      134.7
+    ],
+    "run_peak_memory_mb": [
+      22200
+    ],
+    "run_disk_read_mb": [
+      439.6
+    ],
+    "run_disk_write_mb": [
+      138
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.1273708605624777
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      699
+    ],
+    "run_cpu_pct": [
+      190.6
+    ],
+    "run_peak_memory_mb": [
+      1000
+    ],
+    "run_disk_read_mb": [
+      229
+    ],
+    "run_disk_write_mb": [
+      4.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.026672422946978
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1032
+    ],
+    "run_cpu_pct": [
+      28.4
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      644.7
+    ],
+    "run_disk_write_mb": [
+      4.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.2850966455673833
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1340
+    ],
+    "run_cpu_pct": [
+      657.4
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      237.2
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.15075650262675666
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      6178
+    ],
+    "run_cpu_pct": [
+      1892.2
+    ],
+    "run_peak_memory_mb": [
+      15900
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      47.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8819433113741667
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      6733
+    ],
+    "run_cpu_pct": [
+      1242.4
+    ],
+    "run_peak_memory_mb": [
+      1200
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      14.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8733171361506876
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      6904
+    ],
+    "run_cpu_pct": [
+      1393
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      15.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8755567099709268
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      11990
+    ],
+    "run_cpu_pct": [
+      1369
+    ],
+    "run_peak_memory_mb": [
+      1200
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      15.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8750255158101483
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      16729
+    ],
+    "run_cpu_pct": [
+      2171.5
+    ],
+    "run_peak_memory_mb": [
+      17100
+    ],
+    "run_disk_read_mb": [
+      237.3
+    ],
+    "run_disk_write_mb": [
+      7.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.4246885929535422
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21590
+    ],
+    "run_cpu_pct": [
+      1345.2
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      240.1
+    ],
+    "run_disk_write_mb": [
+      15
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.872510918761717
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      310
+    ],
+    "run_cpu_pct": [
+      41.8
+    ],
+    "run_peak_memory_mb": [
+      844.3
+    ],
+    "run_disk_read_mb": [
+      285.4
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      390
+    ],
+    "run_cpu_pct": [
+      19.3
+    ],
+    "run_peak_memory_mb": [
+      233.1
+    ],
+    "run_disk_read_mb": [
+      285.4
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.6997749044765091
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      420
+    ],
+    "run_cpu_pct": [
+      28.3
+    ],
+    "run_peak_memory_mb": [
+      844.2
+    ],
+    "run_disk_read_mb": [
+      285.4
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.21573107550895285
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      439
+    ],
+    "run_cpu_pct": [
+      219.5
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      298.7
+    ],
+    "run_disk_write_mb": [
+      5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -2.230206915224445
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      450
+    ],
+    "run_cpu_pct": [
+      139.7
+    ],
+    "run_peak_memory_mb": [
+      845.6
+    ],
+    "run_disk_read_mb": [
+      285.4
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.049867688942457904
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      669
+    ],
+    "run_cpu_pct": [
+      274.4
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.5069802848034444
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      699
+    ],
+    "run_cpu_pct": [
+      135.2
+    ],
+    "run_peak_memory_mb": [
+      24900
+    ],
+    "run_disk_read_mb": [
+      710.5
+    ],
+    "run_disk_write_mb": [
+      338.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.4540498145350127
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      987
+    ],
+    "run_cpu_pct": [
+      41.4
+    ],
+    "run_peak_memory_mb": [
+      4300
+    ],
+    "run_disk_read_mb": [
+      714.1
+    ],
+    "run_disk_write_mb": [
+      4.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.22132611678913217
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3807
+    ],
+    "run_cpu_pct": [
+      424.2
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      306.9
+    ],
+    "run_disk_write_mb": [
+      4.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.00658134561921141
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8338
+    ],
+    "run_cpu_pct": [
+      1480.7
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      309.9
+    ],
+    "run_disk_write_mb": [
+      17.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.5703817274549663
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      9040
+    ],
+    "run_cpu_pct": [
+      1241.7
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      309.9
+    ],
+    "run_disk_write_mb": [
+      15.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.5728543404075948
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      9709
+    ],
+    "run_cpu_pct": [
+      1297.2
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      309.9
+    ],
+    "run_disk_write_mb": [
+      15.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.5731468767196805
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      11129
+    ],
+    "run_cpu_pct": [
+      1549.1
+    ],
+    "run_peak_memory_mb": [
+      6200
+    ],
+    "run_disk_read_mb": [
+      309.9
+    ],
+    "run_disk_write_mb": [
+      15.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.5415333252062493
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      11930
+    ],
+    "run_cpu_pct": [
+      1889.6
+    ],
+    "run_peak_memory_mb": [
+      17600
+    ],
+    "run_disk_read_mb": [
+      309.9
+    ],
+    "run_disk_write_mb": [
+      51.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.5365943537638295
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_0_5",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      13145
+    ],
+    "run_cpu_pct": [
+      2316.3
+    ],
+    "run_peak_memory_mb": [
+      16399.999999
+    ],
+    "run_disk_read_mb": [
+      307
+    ],
+    "run_disk_write_mb": [
+      7.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.4775678626963948
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      489
+    ],
+    "run_cpu_pct": [
+      36.2
+    ],
+    "run_peak_memory_mb": [
+      224.9
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -2.123637053724888
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      8.4
+    ],
+    "run_peak_memory_mb": [
+      233.5
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      529
+    ],
+    "run_cpu_pct": [
+      524.4
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      298.9
+    ],
+    "run_disk_write_mb": [
+      5.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -2.6330378865410045
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      569
+    ],
+    "run_cpu_pct": [
+      17
+    ],
+    "run_peak_memory_mb": [
+      845.8
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.5101386294823858
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      579
+    ],
+    "run_cpu_pct": [
+      382.4
+    ],
+    "run_peak_memory_mb": [
+      844.9
+    ],
+    "run_disk_read_mb": [
+      285.5
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.3725477367867464
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      759
+    ],
+    "run_cpu_pct": [
+      369.1
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      285.6
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -2.772659959591405
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      923
+    ],
+    "run_cpu_pct": [
+      136.9
+    ],
+    "run_peak_memory_mb": [
+      26500
+    ],
+    "run_disk_read_mb": [
+      710.8
+    ],
+    "run_disk_write_mb": [
+      339.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.9140587049769946
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1138
+    ],
+    "run_cpu_pct": [
+      39.8
+    ],
+    "run_peak_memory_mb": [
+      4300
+    ],
+    "run_disk_read_mb": [
+      714.3
+    ],
+    "run_disk_write_mb": [
+      5.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.14733452360153512
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1258
+    ],
+    "run_cpu_pct": [
+      729.8
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      307.1
+    ],
+    "run_disk_write_mb": [
+      4.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.012448158131061517
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8942
+    ],
+    "run_cpu_pct": [
+      1920.5
+    ],
+    "run_peak_memory_mb": [
+      16800
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      51.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.16819668130937404
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10238
+    ],
+    "run_cpu_pct": [
+      1263.7
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      15.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.26524130129571694
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      15177
+    ],
+    "run_cpu_pct": [
+      1565.6
+    ],
+    "run_peak_memory_mb": [
+      6000
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      16.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.21475313989059847
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      18869
+    ],
+    "run_cpu_pct": [
+      1315
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      15.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.26726636845573154
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      19360
+    ],
+    "run_cpu_pct": [
+      1319.4
+    ],
+    "run_peak_memory_mb": [
+      1600
+    ],
+    "run_disk_read_mb": [
+      310
+    ],
+    "run_disk_write_mb": [
+      16
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.26463040796770465
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tabula_muris_senis_alpha_5",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      25819
+    ],
+    "run_cpu_pct": [
+      2293.2
+    ],
+    "run_peak_memory_mb": [
+      16100
+    ],
+    "run_disk_read_mb": [
+      307.1
+    ],
+    "run_disk_write_mb": [
+      7.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.1825519677141374
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      460
+    ],
+    "run_cpu_pct": [
+      11.7
+    ],
+    "run_peak_memory_mb": [
+      225.4
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.5048844077651864
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      460
+    ],
+    "run_cpu_pct": [
+      10.6
+    ],
+    "run_peak_memory_mb": [
+      226.7
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.28550643716174523
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      460
+    ],
+    "run_cpu_pct": [
+      11.9
+    ],
+    "run_peak_memory_mb": [
+      225.6
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      470
+    ],
+    "run_cpu_pct": [
+      112.1
+    ],
+    "run_peak_memory_mb": [
+      658.7
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.083444172106386
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      540
+    ],
+    "run_cpu_pct": [
+      581.8
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      215.6
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.33816912836317026
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      591
+    ],
+    "run_cpu_pct": [
+      491.3
+    ],
+    "run_peak_memory_mb": [
+      1000
+    ],
+    "run_disk_read_mb": [
+      229
+    ],
+    "run_disk_write_mb": [
+      4.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -1.8624860868216642
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      649
+    ],
+    "run_cpu_pct": [
+      144.8
+    ],
+    "run_peak_memory_mb": [
+      72000
+    ],
+    "run_disk_read_mb": [
+      440.3
+    ],
+    "run_disk_write_mb": [
+      137.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -2.778652178337191
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1460
+    ],
+    "run_cpu_pct": [
+      588.1
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      237.1
+    ],
+    "run_disk_write_mb": [
+      4.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.17389604990595645
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2619
+    ],
+    "run_cpu_pct": [
+      26
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      644.6
+    ],
+    "run_disk_write_mb": [
+      4.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.20661257377402853
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      6605
+    ],
+    "run_cpu_pct": [
+      1312.7
+    ],
+    "run_peak_memory_mb": [
+      1900
+    ],
+    "run_disk_read_mb": [
+      240
+    ],
+    "run_disk_write_mb": [
+      15.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.6763858442002704
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      12289
+    ],
+    "run_cpu_pct": [
+      2164.3
+    ],
+    "run_peak_memory_mb": [
+      17200
+    ],
+    "run_disk_read_mb": [
+      237.2
+    ],
+    "run_disk_write_mb": [
+      7.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.29962619465676177
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      16090
+    ],
+    "run_cpu_pct": [
+      1367.1
+    ],
+    "run_peak_memory_mb": [
+      1200
+    ],
+    "run_disk_read_mb": [
+      240
+    ],
+    "run_disk_write_mb": [
+      15
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.6728021897688164
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      17769
+    ],
+    "run_cpu_pct": [
+      1502
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      240
+    ],
+    "run_disk_write_mb": [
+      15
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.6726500694644983
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      19219
+    ],
+    "run_cpu_pct": [
+      1287
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      240
+    ],
+    "run_disk_write_mb": [
+      14.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.6656370580556353
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_alpha_5",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      25550
+    ],
+    "run_cpu_pct": [
+      1904.8
+    ],
+    "run_peak_memory_mb": [
+      17900
+    ],
+    "run_disk_read_mb": [
+      240
+    ],
+    "run_disk_write_mb": [
+      47.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.6453329013682804
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "non_negative_least_squares",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      530
+    ],
+    "run_cpu_pct": [
+      72.3
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      472.2
+    ],
+    "run_disk_write_mb": [
+      25.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.3955919390431558
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "random_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      540
+    ],
+    "run_cpu_pct": [
+      67.8
+    ],
+    "run_peak_memory_mb": [
+      235.1
+    ],
+    "run_disk_read_mb": [
+      472.2
+    ],
+    "run_disk_write_mb": [
+      25.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.23129973539975293
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "non_negative_matrix_factorization",
+    "paramset_name": "NMF",
+    "paramset": {
+      "raw": "NMF"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      540
+    ],
+    "run_cpu_pct": [
+      185.5
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      472.2
+    ],
+    "run_disk_write_mb": [
+      25.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.18038559654428302
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "nmf_reg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      644
+    ],
+    "run_cpu_pct": [
+      336.6
+    ],
+    "run_peak_memory_mb": [
+      2300
+    ],
+    "run_disk_read_mb": [
+      472.2
+    ],
+    "run_disk_write_mb": [
+      25.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.5604023484563492
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "true_proportions",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      644
+    ],
+    "run_cpu_pct": [
+      14
+    ],
+    "run_peak_memory_mb": [
+      232.9
+    ],
+    "run_disk_read_mb": [
+      472.2
+    ],
+    "run_disk_write_mb": [
+      25.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "seuratv3",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      939
+    ],
+    "run_cpu_pct": [
+      117.6
+    ],
+    "run_peak_memory_mb": [
+      68800
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      784.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -6.200264912090775
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "rctd",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1039
+    ],
+    "run_cpu_pct": [
+      50
+    ],
+    "run_peak_memory_mb": [
+      4300
+    ],
+    "run_disk_read_mb": [
+      900.8
+    ],
+    "run_disk_write_mb": [
+      31.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -0.09115811984833537
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "stereoscope",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1990
+    ],
+    "run_cpu_pct": [
+      186.3
+    ],
+    "run_peak_memory_mb": [
+      1600
+    ],
+    "run_disk_read_mb": [
+      493.6
+    ],
+    "run_disk_write_mb": [
+      25.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.18538189734684662
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "tangram",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3349
+    ],
+    "run_cpu_pct": [
+      475.6
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      485.4
+    ],
+    "run_disk_write_mb": [
+      25.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      -3.4798774666342758
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=20, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      22909
+    ],
+    "run_cpu_pct": [
+      2072
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      496.4
+    ],
+    "run_disk_write_mb": [
+      38.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.891920786279696
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=200, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=200, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      23159
+    ],
+    "run_cpu_pct": [
+      2039.5
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      496.4
+    ],
+    "run_disk_write_mb": [
+      38.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8919090128569765
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, NB reference",
+    "paramset": {
+      "raw": "alpha=20, NB reference"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      24710
+    ],
+    "run_cpu_pct": [
+      1887.7
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      496.4
+    ],
+    "run_disk_write_mb": [
+      38.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8923773569843789
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=20, amortised, hard-coded",
+    "paramset": {
+      "raw": "alpha=20, amortised, hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      26560
+    ],
+    "run_cpu_pct": [
+      1909
+    ],
+    "run_peak_memory_mb": [
+      41300
+    ],
+    "run_disk_read_mb": [
+      496.4
+    ],
+    "run_disk_write_mb": [
+      65.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8927061509087052
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "cell2location",
+    "paramset_name": "alpha=1, reference hard-coded",
+    "paramset": {
+      "raw": "alpha=1, reference hard-coded"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      28349
+    ],
+    "run_cpu_pct": [
+      2009.5
+    ],
+    "run_peak_memory_mb": [
+      5300
+    ],
+    "run_disk_read_mb": [
+      496.4
+    ],
+    "run_disk_write_mb": [
+      38.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8919692943402945
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "destvi",
+    "method_name": "destvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      23700
+    ],
+    "run_cpu_pct": [
+      2259.9
+    ],
+    "run_peak_memory_mb": [
+      22200
+    ],
+    "run_disk_read_mb": [
+      493.8
+    ],
+    "run_disk_write_mb": [
+      28.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "r2"
+    ],
+    "metric_values": [
+      0.8903302043092818
+    ],
+    "metric_components": []
+  }
+]

@@ -1,0 +1,163 @@
+[
+  {
+    "name": "mean_per_gene",
+    "label": "Mean per gene",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "Returns the mean expression value per gene.",
+    "description": "Returns the mean expression value per gene.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/control_methods/mean_per_gene",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/mean_per_gene:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "random_predictions",
+    "label": "Random predictions",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "Returns random training profiles.",
+    "description": "Returns random training profiles.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/control_methods/random_predict",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/random_predict:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "zeros",
+    "label": "Zeros",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "Returns a prediction consisting of all zeros.",
+    "description": "Returns a prediction consisting of all zeros.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/control_methods/zeros",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/zeros:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "solution",
+    "label": "Solution",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "Returns the ground-truth solution.",
+    "description": "Returns the ground-truth solution.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/control_methods/solution",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/solution:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "knnr",
+    "label": "KNNR",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "K-nearest neighbor regression in Python.",
+    "description": "K-nearest neighbor regression in Python.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/methods/knnr_py",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/knnr_py:build_main",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.2307/1403797"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main",
+      "paramsets": [
+        {
+          "name": "Py"
+        },
+        {
+          "name": "R"
+        }
+      ]
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "linear_model",
+    "label": "Linear Model",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "Linear model regression.",
+    "description": "A linear model regression method.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/methods/lm",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/lm:build_main",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.2307/2346786"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "guanlab_dengkw",
+    "label": "Guanlab-dengkw",
+    "commit": "0bd597e201b39fbcbc1fcd7047f7654a9713a197",
+    "summary": "A kernel ridge regression method with RBF kernel.",
+    "description": "This is a solution developed by Team Guanlab - dengkw in the Neurips 2021 competition to predict one modality\nfrom another using kernel ridge regression (KRR) with RBF kernel. Truncated SVD is applied on the combined\ntraining and test data from modality 1 followed by row-wise z-score normalization on the reduced matrix. The\ntruncated SVD of modality 2 is predicted by training a KRR model on the normalized training matrix of modality 1.\nPredictions on the normalized test matrix are then re-mapped to the modality 2 feature space via the right\nsingular vectors.\n",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/0bd597e201b39fbcbc1fcd7047f7654a9713a197/src/methods/guanlab_dengkw_pm",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/guanlab_dengkw_pm:build_main",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2022.04.11.487796"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {
+      "code_version": "build_main"
+    },
+    "version": "build_main"
+  }
+]

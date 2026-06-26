@@ -1,0 +1,42 @@
+[
+  {
+    "name": "auprc",
+    "label": "Precision-recall AUC",
+    "commit": "154ccb9fd99113f3d28d9c3f139194539a0290f9",
+    "summary": "Area under the precision-recall curve for the binary classification task predicting interactions.",
+    "description": "Area under the precision-recall curve for the binary classification task predicting interactions.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_cell_cell_communication/_common/metrics/auprc.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "auprc",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@inproceedings{davis2006prauc,\n\ttitle = {The relationship between precision-recall and ROC curves},\n\tauthor = {Davis, Jesse and Goadrich, Mark},\n\tyear = {2006},\n\tdoi = {10.1145/1143844.1143874},\n\turl = {https://doi.org/10.1145/1143844.1143874}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "odds_ratio",
+    "label": "Odds Ratio",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The odds ratio represents the ratio of true and false positives within a set of prioritized interactions (top ranked hits) versus the same ratio for the remainder of the interactions. Thus, in this scenario odds ratios quantify the strength of association between the ability of methods to prioritize interactions and those interactions assigned to the positive class.",
+    "description": "The odds ratio represents the ratio of true and false positives within a set of prioritized interactions (top ranked hits) versus the same ratio for the remainder of the interactions. Thus, in this scenario odds ratios quantify the strength of association between the ability of methods to prioritize interactions and those interactions assigned to the positive class.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/_cell_cell_communication/_common/metrics/odds_ratio.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "odds_ratio",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{bland2000odds,\n\ttitle = {Statistics notes: The odds ratio},\n\tauthor = {Bland, J. M.},\n\tyear = {2000},\n\tdoi = {10.1136/bmj.320.7247.1468},\n\turl = {https://doi.org/10.1136/bmj.320.7247.1468}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

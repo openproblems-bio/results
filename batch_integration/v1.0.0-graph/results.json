@@ -1,0 +1,5102 @@
+[
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_graph_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      86.1
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      459
+    ],
+    "run_cpu_pct": [
+      30.7
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.26077276168047714,
+      0.8056819334047614,
+      0.7596316496561842,
+      0.6333406148683445
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "bbknn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      540
+    ],
+    "run_cpu_pct": [
+      137.7
+    ],
+    "run_peak_memory_mb": [
+      2900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5440508880994838,
+      0.9894772818563113,
+      0.782154923309692,
+      0.688820220336625
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      538
+    ],
+    "run_cpu_pct": [
+      72
+    ],
+    "run_peak_memory_mb": [
+      8000
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      -0.00008075559148394287,
+      0.12842311868494408,
+      0.04113687506272235,
+      0.003833422846645635
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      92.7
+    ],
+    "run_peak_memory_mb": [
+      3900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.05919954487476071,
+      0.25718578052320207,
+      0.13314379719208536,
+      0.12382522382480617
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "bbknn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      122.7
+    ],
+    "run_peak_memory_mb": [
+      3000
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      451.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6056680665379794,
+      0.9872979621456404,
+      0.7884557351364685,
+      0.7020851488282487
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "bbknn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      112.3
+    ],
+    "run_peak_memory_mb": [
+      2100
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      268.399999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7441133478427552,
+      0.9819941894893424,
+      0.8216203078948724,
+      0.7603207123266492
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "random_integration_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      663
+    ],
+    "run_cpu_pct": [
+      88.6
+    ],
+    "run_peak_memory_mb": [
+      3900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.2614227356395363,
+      0.8056819334047614,
+      0.7574484754539834,
+      0.6312464350803062
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      672
+    ],
+    "run_cpu_pct": [
+      323.5
+    ],
+    "run_peak_memory_mb": [
+      8900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      2400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7343986747910042,
+      0.9193716090206194,
+      0.7147446973323851,
+      0.7497349939478792
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      703
+    ],
+    "run_cpu_pct": [
+      147.3
+    ],
+    "run_peak_memory_mb": [
+      4800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      970
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6444888517360469,
+      0.9542861808732411,
+      0.7721662804077987,
+      0.7531129503539888
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "bbknn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      712
+    ],
+    "run_cpu_pct": [
+      176.6
+    ],
+    "run_peak_memory_mb": [
+      8900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      2400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5786764747246629,
+      0.9561362232339344,
+      0.8205062552825282,
+      0.6609161236259403
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      712
+    ],
+    "run_cpu_pct": [
+      99.9
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      247.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6870734541526833,
+      0.9570703062605403,
+      0.6694958767439334,
+      0.7557866904784398
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      772
+    ],
+    "run_cpu_pct": [
+      186.6
+    ],
+    "run_peak_memory_mb": [
+      5900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      958.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6594213115602254,
+      0.9384742210041475,
+      0.8383637209697455,
+      0.7537269524600022
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      817
+    ],
+    "run_cpu_pct": [
+      110.9
+    ],
+    "run_peak_memory_mb": [
+      8900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      933.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.692833624861014,
+      0.9580450705734291,
+      0.7057209741384267,
+      0.7620682489720864
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      857
+    ],
+    "run_cpu_pct": [
+      97.2
+    ],
+    "run_peak_memory_mb": [
+      7100
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4940962060507565,
+      0.953480085981592,
+      0.7311508496962724,
+      0.6677579685676818
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      857
+    ],
+    "run_cpu_pct": [
+      132.7
+    ],
+    "run_peak_memory_mb": [
+      8100
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      944.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7447634463673554,
+      0.9613248934349031,
+      0.6748142190675399,
+      0.7973482909391498
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      867
+    ],
+    "run_cpu_pct": [
+      225.1
+    ],
+    "run_peak_memory_mb": [
+      7800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      736.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7801441246644797,
+      0.9127779027677538,
+      0.8600426263625565,
+      0.8254745598416061
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      923
+    ],
+    "run_cpu_pct": [
+      100.3
+    ],
+    "run_peak_memory_mb": [
+      4200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      427.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7491234117244525,
+      0.9611657973274911,
+      0.6765918625038815,
+      0.7928780236334738
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      935
+    ],
+    "run_cpu_pct": [
+      273.7
+    ],
+    "run_peak_memory_mb": [
+      7700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      717.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7830238916722109,
+      0.9116737428582377,
+      0.860052109608221,
+      0.8232344449171627
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1008
+    ],
+    "run_cpu_pct": [
+      225
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6834217629432472,
+      0.9604515927962207,
+      0.7448825860114627,
+      0.716572939663139
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1068
+    ],
+    "run_cpu_pct": [
+      223.5
+    ],
+    "run_peak_memory_mb": [
+      8800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      729
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7082841352361245,
+      0.9128895561483583,
+      0.8436092115642473,
+      0.7692519640698813
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1119
+    ],
+    "run_cpu_pct": [
+      292.5
+    ],
+    "run_peak_memory_mb": [
+      2200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      266.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7429593727719108,
+      0.9532734536597689,
+      0.7269065770937698,
+      0.7646500247416887
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1158
+    ],
+    "run_cpu_pct": [
+      99
+    ],
+    "run_peak_memory_mb": [
+      13800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      2300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4942246055127487,
+      0.9533936757354147,
+      0.74535687063215,
+      0.667245552436314
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1177
+    ],
+    "run_cpu_pct": [
+      241.8
+    ],
+    "run_peak_memory_mb": [
+      8900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      747.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7673940596303636,
+      0.9525020524315791,
+      0.8351258830295438,
+      0.8074617920330258
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1238
+    ],
+    "run_cpu_pct": [
+      176.2
+    ],
+    "run_peak_memory_mb": [
+      17600
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      5500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7491390366759538,
+      0.9426728662428182,
+      0.7928313327726818,
+      0.7921482461286042
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2047
+    ],
+    "run_cpu_pct": [
+      235.8
+    ],
+    "run_peak_memory_mb": [
+      3000
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      446.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7306370121039302,
+      0.9434458531629484,
+      0.7561507094665936,
+      0.7564050764271918
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "combat",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1395
+    ],
+    "run_cpu_pct": [
+      217.1
+    ],
+    "run_peak_memory_mb": [
+      21800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      5400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7036849702507235,
+      0.9785544629817815,
+      0.7437139476189198,
+      0.7475999789655514
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1558
+    ],
+    "run_cpu_pct": [
+      197.3
+    ],
+    "run_peak_memory_mb": [
+      24000
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      5400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5067018102127393,
+      0.9434696100636075,
+      0.6549043140165935,
+      0.6266691748630223
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1659
+    ],
+    "run_cpu_pct": [
+      978.8
+    ],
+    "run_peak_memory_mb": [
+      18200
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5115840049549298,
+      0.9337748586323339,
+      0.860313690167326,
+      0.7068693530563576
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2180
+    ],
+    "run_cpu_pct": [
+      118.7
+    ],
+    "run_peak_memory_mb": [
+      30700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      5400
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5148424376403912,
+      0.9425094169532745,
+      0.6568709373642663,
+      0.6252526471639334
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scalex",
+    "paramset_name": "hvg",
+    "paramset": {
+      "raw": "hvg"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1588
+    ],
+    "run_cpu_pct": [
+      1238.2
+    ],
+    "run_peak_memory_mb": [
+      18900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      649.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7428395602511553,
+      0.9666976821589592,
+      0.7432576863544891,
+      0.7833084942514067
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3050
+    ],
+    "run_cpu_pct": [
+      463.5
+    ],
+    "run_peak_memory_mb": [
+      26200
+    ],
+    "run_disk_read_mb": [
+      2800
+    ],
+    "run_disk_write_mb": [
+      2200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7620531710999723,
+      0.9754233755992412,
+      0.852751985005044,
+      0.8043289320313921
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "liger",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3018
+    ],
+    "run_cpu_pct": [
+      101.9
+    ],
+    "run_peak_memory_mb": [
+      5000
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      239.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6951500201471174,
+      0.8836246615803149,
+      0.6010281237225923,
+      0.7435547035033736
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3618
+    ],
+    "run_cpu_pct": [
+      700
+    ],
+    "run_peak_memory_mb": [
+      16399.999999
+    ],
+    "run_disk_read_mb": [
+      2800
+    ],
+    "run_disk_write_mb": [
+      2100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6999774797761472,
+      0.9815209226724892,
+      0.8389400566217802,
+      0.7877359712581915
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3669
+    ],
+    "run_cpu_pct": [
+      1079.1
+    ],
+    "run_peak_memory_mb": [
+      43400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7445967290611981,
+      0.9889371179139211,
+      0.8469339116445144,
+      0.7951057128450691
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4810
+    ],
+    "run_cpu_pct": [
+      1196.3
+    ],
+    "run_peak_memory_mb": [
+      43400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6978579120742123,
+      0.9474031278098058,
+      0.8107529131837994,
+      0.7468842043412921
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      5220
+    ],
+    "run_cpu_pct": [
+      1649.4
+    ],
+    "run_peak_memory_mb": [
+      19300
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      3900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.44500195238109486,
+      0.7984833276707003,
+      0.857706722650106,
+      0.7053486042721687
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7980
+    ],
+    "run_cpu_pct": [
+      2607.4
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7934207647402701,
+      0.9814009971412305,
+      0.8186976882779751,
+      0.7940121293842466
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8180
+    ],
+    "run_cpu_pct": [
+      2403.5
+    ],
+    "run_peak_memory_mb": [
+      601200
+    ],
+    "run_disk_read_mb": [
+      10500
+    ],
+    "run_disk_write_mb": [
+      13100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7168002135984647,
+      0.9652892496713775,
+      0.8405250328433,
+      0.7787957923776327
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10679
+    ],
+    "run_cpu_pct": [
+      1142.6
+    ],
+    "run_peak_memory_mb": [
+      372000
+    ],
+    "run_disk_read_mb": [
+      10500
+    ],
+    "run_disk_write_mb": [
+      12300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7520919055423338,
+      0.9798641613197251,
+      0.8394347759531418,
+      0.8076045956871524
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      18061
+    ],
+    "run_cpu_pct": [
+      2314.9
+    ],
+    "run_peak_memory_mb": [
+      14400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      263.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8847824152286433,
+      0.9811742091094018,
+      0.859510390633439,
+      0.8524219123152977
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "liger",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      20629
+    ],
+    "run_cpu_pct": [
+      101
+    ],
+    "run_peak_memory_mb": [
+      15500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5064890120869285,
+      0.8898116560473041,
+      0.45733233506950977,
+      0.6608254925962389
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scalex",
+    "paramset_name": "full",
+    "paramset": {
+      "raw": "full"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      20350
+    ],
+    "run_cpu_pct": [
+      2406.4
+    ],
+    "run_peak_memory_mb": [
+      25400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6044969627727493,
+      0.9611837951439195,
+      0.7717763919979859,
+      0.7345228306821029
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      24909
+    ],
+    "run_cpu_pct": [
+      2321.1
+    ],
+    "run_peak_memory_mb": [
+      12300
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      263.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8153674185220707,
+      0.9857759634710273,
+      0.8374046842254048,
+      0.8029081728553754
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "immune_batch",
+    "method_name": "scanvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      25350
+    ],
+    "run_cpu_pct": [
+      2610.4
+    ],
+    "run_peak_memory_mb": [
+      5900
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8790939190604296,
+      0.9860145995265497,
+      0.7732992497676616,
+      0.840450281712705
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      529
+    ],
+    "run_cpu_pct": [
+      35.5
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.2216820208136791,
+      0.8352146736350265,
+      0.7314521119276122,
+      0.5938264336421122
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      569
+    ],
+    "run_cpu_pct": [
+      76.7
+    ],
+    "run_peak_memory_mb": [
+      6800
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.00007489280299577866,
+      0.2077716314201025,
+      0.07220988540376469,
+      0.004680618626952241
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      610
+    ],
+    "run_cpu_pct": [
+      93.7
+    ],
+    "run_peak_memory_mb": [
+      3100
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      155.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9266962078467131,
+      0.9545497466486467,
+      0.8574505118341968,
+      0.8758790086877115
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      621
+    ],
+    "run_cpu_pct": [
+      91.8
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.012354210529345147,
+      0.2644831658782171,
+      0.10116415578992605,
+      0.05072336074368395
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "bbknn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      621
+    ],
+    "run_cpu_pct": [
+      106.7
+    ],
+    "run_peak_memory_mb": [
+      2000
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      177.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9512722555235659,
+      0.9923874291411329,
+      0.8444768626402904,
+      0.9154530961055557
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_graph_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      621
+    ],
+    "run_cpu_pct": [
+      77
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "random_integration_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      621
+    ],
+    "run_cpu_pct": [
+      79.2
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.21482120051524348,
+      0.8352146736350265,
+      0.7172704214343605,
+      0.5930258447618546
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      621
+    ],
+    "run_cpu_pct": [
+      96.7
+    ],
+    "run_peak_memory_mb": [
+      3600
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      231.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8409441977879347,
+      0.952786519453435,
+      0.8561899117930328,
+      0.8419954527505445
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "bbknn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      635
+    ],
+    "run_cpu_pct": [
+      142.6
+    ],
+    "run_peak_memory_mb": [
+      2900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9048348108296864,
+      0.9960030146702262,
+      0.8498384535163739,
+      0.8472703095706374
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      663
+    ],
+    "run_cpu_pct": [
+      234.7
+    ],
+    "run_peak_memory_mb": [
+      7500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      2000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8334950223500803,
+      0.9871602682774163,
+      0.9214687088353887,
+      0.8104443524822438
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "bbknn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      683
+    ],
+    "run_cpu_pct": [
+      110.8
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      254.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.916771680932651,
+      0.9975768074479159,
+      0.9454160626622108,
+      0.8651357309126417
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      703
+    ],
+    "run_cpu_pct": [
+      164.5
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      507.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9442402404842523,
+      0.9950160505966628,
+      0.9309270277306289,
+      0.9091265506754824
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      713
+    ],
+    "run_cpu_pct": [
+      365.8
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      399.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9578070752749196,
+      0.9950772843934663,
+      0.9548518088998575,
+      0.9322875823721206
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      764
+    ],
+    "run_cpu_pct": [
+      183
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      502.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9475807142920909,
+      0.995237347137488,
+      0.9578708557948525,
+      0.9188695688000531
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "bbknn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      808
+    ],
+    "run_cpu_pct": [
+      167.4
+    ],
+    "run_peak_memory_mb": [
+      7500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      2000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8309660253827071,
+      0.9972744265514326,
+      0.955329180957018,
+      0.7746819975268656
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      817
+    ],
+    "run_cpu_pct": [
+      86.2
+    ],
+    "run_peak_memory_mb": [
+      6500
+    ],
+    "run_disk_read_mb": [
+      1300
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8829243392833206,
+      0.9582232692730779,
+      0.8044354998048079,
+      0.8331205770480147
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      850
+    ],
+    "run_cpu_pct": [
+      212.1
+    ],
+    "run_peak_memory_mb": [
+      13800
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      4300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9485397506521621,
+      0.9936730459584087,
+      0.953086284560853,
+      0.9195320101259996
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      849
+    ],
+    "run_cpu_pct": [
+      173
+    ],
+    "run_peak_memory_mb": [
+      4700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      391.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6532506751134237,
+      0.9924423069650589,
+      0.923199387699233,
+      0.8254852451536252
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      894
+    ],
+    "run_cpu_pct": [
+      155.7
+    ],
+    "run_peak_memory_mb": [
+      5400
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      482.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8409302675719147,
+      0.9531344886239624,
+      0.8558523895385975,
+      0.841730996181855
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      906
+    ],
+    "run_cpu_pct": [
+      157.9
+    ],
+    "run_peak_memory_mb": [
+      5700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      477.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7660177434672876,
+      0.9508140273231526,
+      0.854816173173273,
+      0.8250768785807291
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      948
+    ],
+    "run_cpu_pct": [
+      178.6
+    ],
+    "run_peak_memory_mb": [
+      5000
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      399.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9523842068007683,
+      0.9936465620384448,
+      0.9557828109971697,
+      0.9259883852293738
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1199
+    ],
+    "run_cpu_pct": [
+      94.9
+    ],
+    "run_peak_memory_mb": [
+      10000
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      2000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8842538146559935,
+      0.957729715746081,
+      0.7903981223959432,
+      0.8341912992185969
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1398
+    ],
+    "run_cpu_pct": [
+      173.9
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      391
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9433391173799115,
+      0.9858084845786982,
+      0.9467815203769888,
+      0.9117360422385645
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1678
+    ],
+    "run_cpu_pct": [
+      267.6
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      2100
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9448462631932858,
+      0.9944937852886497,
+      0.9555873291981576,
+      0.915017416246648
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1778
+    ],
+    "run_cpu_pct": [
+      312.9
+    ],
+    "run_peak_memory_mb": [
+      4000
+    ],
+    "run_disk_read_mb": [
+      2100
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.806471048336638,
+      0.9953092660706826,
+      0.9314971362938332,
+      0.8399215173825033
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2128
+    ],
+    "run_cpu_pct": [
+      176.5
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      253.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9063441803949763,
+      0.9857851137179306,
+      0.8167195638837538,
+      0.8737056090438263
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scalex",
+    "paramset_name": "hvg",
+    "paramset": {
+      "raw": "hvg"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2189
+    ],
+    "run_cpu_pct": [
+      226.5
+    ],
+    "run_peak_memory_mb": [
+      19800
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      625.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9414939688362348,
+      0.9946693609955787,
+      0.8357096919024715,
+      0.9069935065632313
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "combat",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1340
+    ],
+    "run_cpu_pct": [
+      443.5
+    ],
+    "run_peak_memory_mb": [
+      18600
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      4300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.3251565497223119,
+      0.9449319769481266,
+      0.7458440082199539,
+      0.43832663855496823
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1375
+    ],
+    "run_cpu_pct": [
+      204
+    ],
+    "run_peak_memory_mb": [
+      18100
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      4300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8910982059812222,
+      0.960239435592341,
+      0.7110933251462347,
+      0.8413941371292888
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1267
+    ],
+    "run_cpu_pct": [
+      827.1
+    ],
+    "run_peak_memory_mb": [
+      19600
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3000
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6691108433076489,
+      0.9915264266648608,
+      0.8641434559026644,
+      0.7881312434805732
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1167
+    ],
+    "run_cpu_pct": [
+      112.6
+    ],
+    "run_peak_memory_mb": [
+      22500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      4300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8938721663195187,
+      0.9637647050157924,
+      0.7127542109217809,
+      0.8417167356221124
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1811
+    ],
+    "run_cpu_pct": [
+      441.1
+    ],
+    "run_peak_memory_mb": [
+      32299.999999
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6541065133296443,
+      0.9787454820512111,
+      0.9215185289514105,
+      0.7479822152610823
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2158
+    ],
+    "run_cpu_pct": [
+      379.9
+    ],
+    "run_peak_memory_mb": [
+      33500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3200
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9197778253963526,
+      0.9929610658324679,
+      0.9586785796799316,
+      0.8796161772027785
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1119
+    ],
+    "run_cpu_pct": [
+      198.7
+    ],
+    "run_peak_memory_mb": [
+      2100
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      177.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9444545991610535,
+      0.9907154001554387,
+      0.9285282949808074,
+      0.9171794886382079
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1249
+    ],
+    "run_cpu_pct": [
+      303.7
+    ],
+    "run_peak_memory_mb": [
+      2500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9145584947976919,
+      0.9916533887868846,
+      0.8397615620603572,
+      0.8715986206205723
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2796
+    ],
+    "run_cpu_pct": [
+      829.5
+    ],
+    "run_peak_memory_mb": [
+      26500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      3100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6094553330112048,
+      0.9916518939681482,
+      0.801264924065184,
+      0.763578222701477
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "liger",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2800
+    ],
+    "run_cpu_pct": [
+      99.4
+    ],
+    "run_peak_memory_mb": [
+      3700
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      151.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.37578387902590477,
+      0.7523102909356267,
+      0.639631382315596,
+      0.37950613448200043
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3990
+    ],
+    "run_cpu_pct": [
+      333
+    ],
+    "run_peak_memory_mb": [
+      2300
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      176.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9495853028365249,
+      0.9972904407035383,
+      0.9376263219018731,
+      0.9154166867228031
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4059
+    ],
+    "run_cpu_pct": [
+      940.9
+    ],
+    "run_peak_memory_mb": [
+      90900
+    ],
+    "run_disk_read_mb": [
+      8199.999999
+    ],
+    "run_disk_write_mb": [
+      9600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.8418138087329998,
+      0.9885124754596968,
+      0.8924549944603918,
+      0.8696835388159474
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8480
+    ],
+    "run_cpu_pct": [
+      968.1
+    ],
+    "run_peak_memory_mb": [
+      499800
+    ],
+    "run_disk_read_mb": [
+      8199.999999
+    ],
+    "run_disk_write_mb": [
+      9900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5168530898600745,
+      0.9821928739131385,
+      0.6994241589377735,
+      0.5432179860884129
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      20428
+    ],
+    "run_cpu_pct": [
+      2613
+    ],
+    "run_peak_memory_mb": [
+      4900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9485424935580034,
+      0.9960909917330489,
+      0.9451322327684691,
+      0.9211342239760751
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scalex",
+    "paramset_name": "full",
+    "paramset": {
+      "raw": "full"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21090
+    ],
+    "run_cpu_pct": [
+      2410.1
+    ],
+    "run_peak_memory_mb": [
+      29500
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9185467660622566,
+      0.9901564877938718,
+      0.7114561772104264,
+      0.8643066959254668
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21919
+    ],
+    "run_cpu_pct": [
+      2545
+    ],
+    "run_peak_memory_mb": [
+      3800
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9447712141579547,
+      0.9966950440204114,
+      0.9430607333611492,
+      0.9133008218503369
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "scanvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      22250
+    ],
+    "run_cpu_pct": [
+      2140.9
+    ],
+    "run_peak_memory_mb": [
+      6900
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      176.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.9536202372189387,
+      0.9958026560905816,
+      0.9543835886507074,
+      0.9247355133675169
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "pancreas_batch",
+    "method_name": "liger",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      27779
+    ],
+    "run_cpu_pct": [
+      100.5
+    ],
+    "run_peak_memory_mb": [
+      13600
+    ],
+    "run_disk_read_mb": [
+      1400
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.36507261514396877,
+      0.7664786492320295,
+      0.6059681108095165,
+      0.36259810582867685
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      531
+    ],
+    "run_cpu_pct": [
+      47.8
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.35395882479149626,
+      0.78865560063062,
+      0.7841409691629957,
+      0.6950524214428938
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_graph_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      550
+    ],
+    "run_cpu_pct": [
+      76.3
+    ],
+    "run_peak_memory_mb": [
+      2000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      1,
+      1,
+      1,
+      0.9999999999999998
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "bbknn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      644
+    ],
+    "run_cpu_pct": [
+      106
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5323630919459407,
+      0.9891536453695804,
+      0.8883435582822085,
+      0.7003833625733401
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "bbknn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      644
+    ],
+    "run_cpu_pct": [
+      151.8
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      448.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5120950390401964,
+      0.9904184385389496,
+      0.8322981366459627,
+      0.6092047205716633
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      653
+    ],
+    "run_cpu_pct": [
+      89
+    ],
+    "run_peak_memory_mb": [
+      3600
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      238
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6165991870657687,
+      0.9746884535986244,
+      0.7389830508474576,
+      0.7256718324338665
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      664
+    ],
+    "run_cpu_pct": [
+      155.8
+    ],
+    "run_peak_memory_mb": [
+      10800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.39953514619282876,
+      0.9188730683212737,
+      0.35325506937033085,
+      0.5568659764606608
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_integration_by_celltype",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      673
+    ],
+    "run_cpu_pct": [
+      94
+    ],
+    "run_peak_memory_mb": [
+      4000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.3549000120633731,
+      0.78865560063062,
+      0.7995495495495496,
+      0.6917523368433669
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      673
+    ],
+    "run_cpu_pct": [
+      67.1
+    ],
+    "run_peak_memory_mb": [
+      9500
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.0001949590570109074,
+      0.0485743529908816,
+      0.02961918194640338,
+      0.004045973128870823
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "bbknn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      713
+    ],
+    "run_cpu_pct": [
+      85.6
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      269.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5919864243718843,
+      0.9924643841311112,
+      0.879368658399098,
+      0.7284734021190199
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "random_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      724
+    ],
+    "run_cpu_pct": [
+      81.9
+    ],
+    "run_peak_memory_mb": [
+      3500
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.12199402381633337,
+      0.46687868510998404,
+      0.10567010309278353,
+      0.3053096876478011
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      735
+    ],
+    "run_cpu_pct": [
+      274.7
+    ],
+    "run_peak_memory_mb": [
+      5000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      938.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.46570916429489645,
+      0.9829386597317535,
+      0.7261484098939929,
+      0.7092252496346619
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      745
+    ],
+    "run_cpu_pct": [
+      142.4
+    ],
+    "run_peak_memory_mb": [
+      2800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4607436981939685,
+      0.9184614657813186,
+      0.8716707021791769,
+      0.6765290599152562
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      778
+    ],
+    "run_cpu_pct": [
+      135
+    ],
+    "run_peak_memory_mb": [
+      5700
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      928.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4663350813066948,
+      0.981782506982803,
+      0.7100694444444444,
+      0.709886967863827
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      778
+    ],
+    "run_cpu_pct": [
+      92.1
+    ],
+    "run_peak_memory_mb": [
+      4400
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      412.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6219417388972471,
+      0.9754659881576122,
+      0.7257876312718787,
+      0.7294673491765237
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "bbknn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      809
+    ],
+    "run_cpu_pct": [
+      164.7
+    ],
+    "run_peak_memory_mb": [
+      10800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      2900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.3867303767758642,
+      0.9888896558301588,
+      0.8375451263537906,
+      0.5487540764831448
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      896
+    ],
+    "run_cpu_pct": [
+      121.5
+    ],
+    "run_peak_memory_mb": [
+      8500
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      902.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5692564150754267,
+      0.974960664157174,
+      0.7304147465437788,
+      0.7222337740236747
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      896
+    ],
+    "run_cpu_pct": [
+      106.7
+    ],
+    "run_peak_memory_mb": [
+      8400
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      913.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6056562543618855,
+      0.9749991744674604,
+      0.738391845979615,
+      0.721100979327886
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1079
+    ],
+    "run_cpu_pct": [
+      251.4
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      722.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5075795093673813,
+      0.8645855531782375,
+      0.7413479052823316,
+      0.7355601586977235
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1088
+    ],
+    "run_cpu_pct": [
+      277.8
+    ],
+    "run_peak_memory_mb": [
+      7800
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      705.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.48369586281589316,
+      0.8563108068710436,
+      0.8720271800679502,
+      0.6970008318342373
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1198
+    ],
+    "run_cpu_pct": [
+      200
+    ],
+    "run_peak_memory_mb": [
+      7400
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      723.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5561574635716873,
+      0.9606751464504248,
+      0.9037558685446009,
+      0.7275843013663541
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1279
+    ],
+    "run_cpu_pct": [
+      186.8
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      257.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5207391749281249,
+      0.9337061694521459,
+      0.6816846229187071,
+      0.6708075580006934
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1320
+    ],
+    "run_cpu_pct": [
+      97.1
+    ],
+    "run_peak_memory_mb": [
+      7900
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.48751177083117825,
+      0.973747511680424,
+      0.6432748538011697,
+      0.7036199620521256
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1448
+    ],
+    "run_cpu_pct": [
+      439.1
+    ],
+    "run_peak_memory_mb": [
+      5200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      705.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5296038754008974,
+      0.8233470401810992,
+      0.7776708373435995,
+      0.7227626602307576
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "harmony",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1598
+    ],
+    "run_cpu_pct": [
+      202.7
+    ],
+    "run_peak_memory_mb": [
+      3200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      432.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4482338622875967,
+      0.9038310178623656,
+      0.31406463359126074,
+      0.6261780153819495
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1077
+    ],
+    "run_cpu_pct": [
+      199.5
+    ],
+    "run_peak_memory_mb": [
+      21000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      6500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5780408431258708,
+      0.9821563288472545,
+      0.7162872154115586,
+      0.7158104305315004
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "combat",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1261
+    ],
+    "run_cpu_pct": [
+      289.3
+    ],
+    "run_peak_memory_mb": [
+      28200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      6500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4804939114591528,
+      0.9615053552339258,
+      0.2448320413436692,
+      0.631720203378662
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1577
+    ],
+    "run_cpu_pct": [
+      141.5
+    ],
+    "run_peak_memory_mb": [
+      36500
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      6500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.49102320532678106,
+      0.9734353802651065,
+      0.7559055118110236,
+      0.6978623104218082
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_embed",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1656
+    ],
+    "run_cpu_pct": [
+      102.9
+    ],
+    "run_peak_memory_mb": [
+      16399.999999
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4854746913411093,
+      0.9741403854170368,
+      0.6431924882629108,
+      0.6954213607486458
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "fastmnn_feature",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1599
+    ],
+    "run_cpu_pct": [
+      185.1
+    ],
+    "run_peak_memory_mb": [
+      27900
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      6500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4941687070758102,
+      0.9732645686590325,
+      0.7774936061381074,
+      0.6995675032471559
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1689
+    ],
+    "run_cpu_pct": [
+      551.6
+    ],
+    "run_peak_memory_mb": [
+      23100
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.47982362460916744,
+      0.8260482087151526,
+      0.8695652173913043,
+      0.7209177125830942
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1740
+    ],
+    "run_cpu_pct": [
+      1413.7
+    ],
+    "run_peak_memory_mb": [
+      24400
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5281136929360151,
+      0.9129740951268309,
+      0.7223230490018149,
+      0.7222866485240813
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2689
+    ],
+    "run_cpu_pct": [
+      739.1
+    ],
+    "run_peak_memory_mb": [
+      41100
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.45511014155039187,
+      0.9517126469887544,
+      0.8742368742368741,
+      0.7104453440018152
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2206
+    ],
+    "run_cpu_pct": [
+      799.6
+    ],
+    "run_peak_memory_mb": [
+      40800
+    ],
+    "run_disk_read_mb": [
+      3000
+    ],
+    "run_disk_write_mb": [
+      2100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5007653219823739,
+      0.9884261941831537,
+      0.7328519855595668,
+      0.7409541636757471
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scalex",
+    "paramset_name": "hvg",
+    "paramset": {
+      "raw": "hvg"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2347
+    ],
+    "run_cpu_pct": [
+      579.2
+    ],
+    "run_peak_memory_mb": [
+      22000
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      717.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.6059166766043921,
+      0.9740995730316327,
+      0.1778350515463918,
+      0.7676583361730779
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "liger",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3408
+    ],
+    "run_cpu_pct": [
+      101.1
+    ],
+    "run_peak_memory_mb": [
+      5000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      230.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.08726698749219426,
+      0.3711215615887148,
+      0.13207547169811318,
+      0.2008949600114019
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "hvg/scaled",
+    "paramset": {
+      "raw": "hvg/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3969
+    ],
+    "run_cpu_pct": [
+      359.8
+    ],
+    "run_peak_memory_mb": [
+      15400
+    ],
+    "run_disk_read_mb": [
+      3000
+    ],
+    "run_disk_write_mb": [
+      2100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5658587744326106,
+      0.9765227018716944,
+      0.6381322957198443,
+      0.7287682675188207
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      4230
+    ],
+    "run_cpu_pct": [
+      183.4
+    ],
+    "run_peak_memory_mb": [
+      2700
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      254.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5771371434386722,
+      0.9810933750894385,
+      0.8263214670981661,
+      0.7339275057453452
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanorama_gene_output",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      3790
+    ],
+    "run_cpu_pct": [
+      1282.5
+    ],
+    "run_peak_memory_mb": [
+      41000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      4700
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4327624187185085,
+      0.8750985137319846,
+      0.835,
+      0.6630220058880628
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/scaled",
+    "paramset": {
+      "raw": "full/scaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8290
+    ],
+    "run_cpu_pct": [
+      3102.2
+    ],
+    "run_peak_memory_mb": [
+      714000
+    ],
+    "run_disk_read_mb": [
+      12500
+    ],
+    "run_disk_write_mb": [
+      15600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.41712292561480596,
+      0.9742504784927,
+      0.35169491525423735,
+      0.6291353319715575
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanvi",
+    "paramset_name": "hvg/unscaled",
+    "paramset": {
+      "raw": "hvg/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      19159
+    ],
+    "run_cpu_pct": [
+      2343.1
+    ],
+    "run_peak_memory_mb": [
+      11400
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      254.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7717487125126574,
+      0.9871906196097772,
+      0.8540305010893247,
+      0.829216444847133
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "mnn",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      19380
+    ],
+    "run_cpu_pct": [
+      4404.5
+    ],
+    "run_peak_memory_mb": [
+      453900
+    ],
+    "run_disk_read_mb": [
+      12500
+    ],
+    "run_disk_write_mb": [
+      15500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.4919962029401361,
+      0.9862653004271213,
+      0.7140319715808171,
+      0.7248211801577554
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scalex",
+    "paramset_name": "full",
+    "paramset": {
+      "raw": "full"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21050
+    ],
+    "run_cpu_pct": [
+      2351.6
+    ],
+    "run_peak_memory_mb": [
+      30900
+    ],
+    "run_disk_read_mb": [
+      1500
+    ],
+    "run_disk_write_mb": [
+      1900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.5810999255079885,
+      0.9688501513041812,
+      0.2,
+      0.743010260706442
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scanvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      21140
+    ],
+    "run_cpu_pct": [
+      2554.8
+    ],
+    "run_peak_memory_mb": [
+      7200
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.7044971585629318,
+      0.9832692471524833,
+      0.89749430523918,
+      0.8024543403443154
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "scvi",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      22350
+    ],
+    "run_cpu_pct": [
+      2521.4
+    ],
+    "run_peak_memory_mb": [
+      4000
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.589042732334262,
+      0.9825897566369752,
+      0.857142857142857,
+      0.7498405948660342
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "lung_batch",
+    "method_name": "liger",
+    "paramset_name": "full/unscaled",
+    "paramset": {
+      "raw": "full/unscaled"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      15500
+    ],
+    "run_cpu_pct": [
+      100.8
+    ],
+    "run_peak_memory_mb": [
+      19500
+    ],
+    "run_disk_read_mb": [
+      1600
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "ari",
+      "graph_connectivity",
+      "isolated_labels_f1",
+      "nmi"
+    ],
+    "metric_values": [
+      0.05163362305296624,
+      0.4810990850227499,
+      0.16486486486486485,
+      0.1949024710225664
+    ],
+    "metric_components": []
+  }
+]

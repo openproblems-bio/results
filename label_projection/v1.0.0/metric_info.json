@@ -1,0 +1,62 @@
+[
+  {
+    "name": "accuracy",
+    "label": "Accuracy",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Average number of correctly applied labels.",
+    "description": "Average number of correctly applied labels.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/metrics/accuracy.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "accuracy",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{grandini2020metrics,\n\ttitle = {Metrics for multi-class classification: An overview},\n\tauthor = {Grandini, Margherita and Bagli, Enrico and Visani, Giorgio},\n\tyear = {2020},\n\tdoi = {10.48550/arxiv.2008.05756},\n\turl = {https://arxiv.org/abs/2008.05756}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "f1",
+    "label": "F1 score",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The [F1 score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) is a weighted average of the precision and recall over all class labels, where an F1 score reaches its best value at 1 and worst score at 0, where each class contributes to the score relative to its frequency in the dataset.",
+    "description": "The [F1 score](https://scikit-learn.org/stable/modules/generated/sklearn.metrics.f1_score.html) is a weighted average of the precision and recall over all class labels, where an F1 score reaches its best value at 1 and worst score at 0, where each class contributes to the score relative to its frequency in the dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/metrics/f1.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "f1",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{grandini2020metrics,\n\ttitle = {Metrics for multi-class classification: An overview},\n\tauthor = {Grandini, Margherita and Bagli, Enrico and Visani, Giorgio},\n\tyear = {2020},\n\tdoi = {10.48550/arxiv.2008.05756},\n\turl = {https://arxiv.org/abs/2008.05756}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "f1_macro",
+    "label": "Macro F1 score",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "The macro F1 score is an unweighted F1 score, where each class contributes equally, regardless of its frequency.",
+    "description": "The macro F1 score is an unweighted F1 score, where each class contributes equally, regardless of its frequency.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/metrics/f1.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "f1_macro",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{grandini2020metrics,\n\ttitle = {Metrics for multi-class classification: An overview},\n\tauthor = {Grandini, Margherita and Bagli, Enrico and Visani, Giorgio},\n\tyear = {2020},\n\tdoi = {10.48550/arxiv.2008.05756},\n\turl = {https://arxiv.org/abs/2008.05756}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

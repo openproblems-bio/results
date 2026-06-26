@@ -1,0 +1,202 @@
+[
+  {
+    "name": "continuity",
+    "label": "continuity",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "Continuity measures error of hard extrusions based on nearest neighbor coranking",
+    "description": "Continuity measures error of hard extrusions based on nearest neighbor coranking",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/nn_ranking.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "continuity",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{zhang2021pydrmetrics,\n\ttitle = {pyDRMetrics - a python toolkit for dimensionality reduction quality assessment},\n\tauthor = {Zhang, Yinsheng and Shang, Qian and Zhang, Guoming},\n\tyear = {2021},\n\tdoi = {10.1016/j.heliyon.2021.e06199},\n\turl = {https://doi.org/10.1016/j.heliyon.2021.e06199}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "density_preservation",
+    "label": "Density preservation",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Similarity between local densities in the high-dimensional data and the reduced data.",
+    "description": "Similarity between local densities in the high-dimensional data and the reduced data.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/density.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "density_preservation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{narayan2021assessing,\n\ttitle = {Assessing single-cell transcriptomic variability through density-preserving data visualization},\n\tauthor = {Narayan, Ashwin and Berger, Bonnie and Cho, Hyunghoon},\n\tyear = {2021},\n\tdoi = {10.1038/s41587-020-00801-7},\n\turl = {https://doi.org/10.1038/s41587-020-00801-7}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "distance_correlation",
+    "label": "Distance correlation",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Spearman correlation between all pairwise Euclidean distances in the original and dimension-reduced data",
+    "description": "Spearman correlation between all pairwise Euclidean distances in the original and dimension-reduced data",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/distance_correlation.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "distance_correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{schober2018correlation,\n\ttitle = {Correlation coefficients},\n\tauthor = {Schober, Patrick and Boer, Christa and Schwarte, Lothar A.},\n\tyear = {2018},\n\tdoi = {10.1213/ane.0000000000002864},\n\turl = {https://doi.org/10.1213/ane.0000000000002864}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "distance_correlation_spectral",
+    "label": "Distance correlation (spectral)",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Spearman correlation between all pairwise diffusion distances in the original and dimension-reduced data",
+    "description": "Spearman correlation between all pairwise diffusion distances in the original and dimension-reduced data",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/distance_correlation.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "distance_correlation_spectral",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{coifman2006diffusion,\n\ttitle = {Diffusion maps},\n\tauthor = {Coifman, Ronald R. and Lafon, Stéphane},\n\tyear = {2006},\n\tdoi = {10.1016/j.acha.2006.04.006},\n\turl = {https://doi.org/10.1016/j.acha.2006.04.006}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "lcmc",
+    "label": "local continuity meta criterion",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "The local continuity meta criterion is the co-KNN size with baseline removal which favors locality",
+    "description": "The local continuity meta criterion is the co-KNN size with baseline removal which favors locality",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/nn_ranking.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "lcmc",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{zhang2021pydrmetrics,\n\ttitle = {pyDRMetrics - a python toolkit for dimensionality reduction quality assessment},\n\tauthor = {Zhang, Yinsheng and Shang, Qian and Zhang, Guoming},\n\tyear = {2021},\n\tdoi = {10.1016/j.heliyon.2021.e06199},\n\turl = {https://doi.org/10.1016/j.heliyon.2021.e06199}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "qglobal",
+    "label": "global property",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "The global property metric is a summary of the global co-KNN",
+    "description": "The global property metric is a summary of the global co-KNN",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/nn_ranking.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "qglobal",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{zhang2021pydrmetrics,\n\ttitle = {pyDRMetrics - a python toolkit for dimensionality reduction quality assessment},\n\tauthor = {Zhang, Yinsheng and Shang, Qian and Zhang, Guoming},\n\tyear = {2021},\n\tdoi = {10.1016/j.heliyon.2021.e06199},\n\turl = {https://doi.org/10.1016/j.heliyon.2021.e06199}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "qlocal",
+    "label": "local property",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "The local property metric is a summary of the local co-KNN",
+    "description": "The local property metric is a summary of the local co-KNN",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/nn_ranking.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "qlocal",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{zhang2021pydrmetrics,\n\ttitle = {pyDRMetrics - a python toolkit for dimensionality reduction quality assessment},\n\tauthor = {Zhang, Yinsheng and Shang, Qian and Zhang, Guoming},\n\tyear = {2021},\n\tdoi = {10.1016/j.heliyon.2021.e06199},\n\turl = {https://doi.org/10.1016/j.heliyon.2021.e06199}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "qnn",
+    "label": "co-KNN size",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "co-KNN size counts how many points are in both k-nearest neighbors before and after the dimensionality reduction",
+    "description": "co-KNN size counts how many points are in both k-nearest neighbors before and after the dimensionality reduction",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/nn_ranking.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "qnn",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{zhang2021pydrmetrics,\n\ttitle = {pyDRMetrics - a python toolkit for dimensionality reduction quality assessment},\n\tauthor = {Zhang, Yinsheng and Shang, Qian and Zhang, Guoming},\n\tyear = {2021},\n\tdoi = {10.1016/j.heliyon.2021.e06199},\n\turl = {https://doi.org/10.1016/j.heliyon.2021.e06199}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "qnn_auc",
+    "label": "co-KNN AUC",
+    "commit": "ff1feaf0b741ec05b10084319a1175dfbf5e6faa",
+    "summary": "co-KNN AUC is area under the co-KNN curve",
+    "description": "co-KNN AUC is area under the co-KNN curve",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/nn_ranking.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "qnn_auc",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{zhang2021pydrmetrics,\n\ttitle = {pyDRMetrics - a python toolkit for dimensionality reduction quality assessment},\n\tauthor = {Zhang, Yinsheng and Shang, Qian and Zhang, Guoming},\n\tyear = {2021},\n\tdoi = {10.1016/j.heliyon.2021.e06199},\n\turl = {https://doi.org/10.1016/j.heliyon.2021.e06199}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "trustworthiness",
+    "label": "trustworthiness",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "a measurement of similarity between the rank of each point's nearest neighbors in the high-dimensional data and the reduced data.",
+    "description": "a measurement of similarity between the rank of each point's nearest neighbors in the high-dimensional data and the reduced data.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/dimensionality_reduction/metrics/trustworthiness.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "trustworthiness",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@inproceedings{venna2001neighborhood,\n\ttitle = {Neighborhood preservation in nonlinear projection methods: An experimental study},\n\tauthor = {Venna, Jarkko and Kaski, Samuel},\n\tyear = {2001},\n\tdoi = {{10.1007/3-540-44668-0\\_68}},\n\turl = {{https://doi.org/10.1007/3-540-44668-0\\_68}}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

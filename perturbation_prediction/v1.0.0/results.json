@@ -1,0 +1,482 @@
+[
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "ground_truth",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      9
+    ],
+    "run_cpu_pct": [
+      206.8
+    ],
+    "run_peak_memory_mb": [
+      3482
+    ],
+    "run_disk_read_mb": [
+      135
+    ],
+    "run_disk_write_mb": [
+      6
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0,
+      0,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "jn_ap_op2",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3061
+    ],
+    "run_cpu_pct": [
+      100
+    ],
+    "run_peak_memory_mb": [
+      16077
+    ],
+    "run_disk_read_mb": [
+      228
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.8965,
+      0.6518,
+      0.3267,
+      0.3054,
+      0.3289
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "lstm_gru_cnn_ensemble",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      6026
+    ],
+    "run_cpu_pct": [
+      134.5855
+    ],
+    "run_peak_memory_mb": [
+      50279
+    ],
+    "run_disk_read_mb": [
+      12449
+    ],
+    "run_disk_write_mb": [
+      3592
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.7921,
+      0.5756,
+      0.4514,
+      0.4247,
+      0.4552
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "mean_per_cell_type_and_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3
+    ],
+    "run_cpu_pct": [
+      472.1
+    ],
+    "run_peak_memory_mb": [
+      5735
+    ],
+    "run_disk_read_mb": [
+      193
+    ],
+    "run_disk_write_mb": [
+      2
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.8925,
+      0.6437,
+      0.2972,
+      0.2806,
+      0.3017
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "mean_per_compound_and_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      6.4
+    ],
+    "run_cpu_pct": [
+      213.1
+    ],
+    "run_peak_memory_mb": [
+      5940
+    ],
+    "run_disk_read_mb": [
+      193
+    ],
+    "run_disk_write_mb": [
+      4
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.9428,
+      0.6979,
+      0.2594,
+      0.2425,
+      0.2628
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "mean_per_gene",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      5.3
+    ],
+    "run_cpu_pct": [
+      265.6
+    ],
+    "run_peak_memory_mb": [
+      5632
+    ],
+    "run_disk_read_mb": [
+      193
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.8992,
+      0.6356,
+      0.2198,
+      0.2117,
+      0.2264
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "nn_retraining_with_pseudolabels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      2546
+    ],
+    "run_cpu_pct": [
+      1293.7
+    ],
+    "run_peak_memory_mb": [
+      52736
+    ],
+    "run_disk_read_mb": [
+      247
+    ],
+    "run_disk_write_mb": [
+      8
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.7562,
+      0.5464,
+      0.4909,
+      0.4627,
+      0.4941
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "py_boost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      151
+    ],
+    "run_cpu_pct": [
+      154.1
+    ],
+    "run_peak_memory_mb": [
+      22221
+    ],
+    "run_disk_read_mb": [
+      261
+    ],
+    "run_disk_write_mb": [
+      13
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.7957,
+      0.5609,
+      0.4607,
+      0.439,
+      0.4638
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "sample",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      8.9
+    ],
+    "run_cpu_pct": [
+      216.6
+    ],
+    "run_peak_memory_mb": [
+      3584
+    ],
+    "run_disk_read_mb": [
+      203
+    ],
+    "run_disk_write_mb": [
+      6
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      1.3636,
+      0.9633,
+      0.0524,
+      0.0562,
+      0.0547
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "scape",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      8392
+    ],
+    "run_cpu_pct": [
+      737.4
+    ],
+    "run_peak_memory_mb": [
+      44237
+    ],
+    "run_disk_read_mb": [
+      228
+    ],
+    "run_disk_write_mb": [
+      25088
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.7748,
+      0.5722,
+      0.4728,
+      0.4417,
+      0.4758
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "transformer_ensemble",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      3933
+    ],
+    "run_cpu_pct": [
+      216.4
+    ],
+    "run_peak_memory_mb": [
+      18944
+    ],
+    "run_disk_read_mb": [
+      227
+    ],
+    "run_disk_write_mb": [
+      6
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.8988,
+      0.6339,
+      0.2212,
+      0.2164,
+      0.2267
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "neurips-2023-data",
+    "method_name": "zeros",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      5.8
+    ],
+    "run_cpu_pct": [
+      234.9
+    ],
+    "run_peak_memory_mb": [
+      5837
+    ],
+    "run_disk_read_mb": [
+      193
+    ],
+    "run_disk_write_mb": [
+      1
+    ],
+    "run_exit_code": [
+      0
+    ],
+    "metric_names": [
+      "mean_rowwise_rmse",
+      "mean_rowwise_mae",
+      "mean_rowwise_pearson",
+      "mean_rowwise_spearman",
+      "mean_rowwise_cosine"
+    ],
+    "metric_values": [
+      0.9179,
+      0.6351,
+      0,
+      0,
+      0
+    ],
+    "metric_components": []
+  }
+]

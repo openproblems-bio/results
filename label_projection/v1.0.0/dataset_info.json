@@ -1,0 +1,178 @@
+[
+  {
+    "name": "cengen_batch",
+    "label": "CeNGEN (split by batch)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "100k FACS-isolated C. elegans neurons from 17 experiments sequenced on 10x Genomics. Split into train/test by experimental batch. Dimensions: 100955 cells, 22469 genes. 169 cell types (avg. 597±800 cells per cell type).",
+    "description": "100k FACS-isolated C. elegans neurons from 17 experiments sequenced on 10x Genomics. Split into train/test by experimental batch. Dimensions: 100955 cells, 22469 genes. 169 cell types (avg. 597±800 cells per cell type).",
+    "source_urls": [
+      "https://github.com/Munfred/wormcells-data/releases/download/taylor2020/taylor2020.h5ad"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/cengen"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "cengen_random",
+    "label": "CeNGEN (random split)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "100k FACS-isolated C. elegans neurons from 17 experiments sequenced on 10x Genomics. Split into train/test randomly. Dimensions: 100955 cells, 22469 genes. 169 cell types avg. 597±800 cells per cell type).",
+    "description": "100k FACS-isolated C. elegans neurons from 17 experiments sequenced on 10x Genomics. Split into train/test randomly. Dimensions: 100955 cells, 22469 genes. 169 cell types avg. 597±800 cells per cell type).",
+    "source_urls": [
+      "https://github.com/Munfred/wormcells-data/releases/download/taylor2020/taylor2020.h5ad"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/cengen"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_batch",
+    "label": "Pancreas (by batch)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq). Split into train/test by experimental batch. Dimensions: 16382 cells, 18771 genes. 14 cell types (avg. 1170±1703 cells per cell type).",
+    "description": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq). Split into train/test by experimental batch. Dimensions: 16382 cells, 18771 genes. 14 cell types (avg. 1170±1703 cells per cell type).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_random",
+    "label": "Pancreas (random split)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq). Split into train/test randomly. Dimensions: 16382 cells, 18771 genes. 14 cell types (avg. 1170±1703 cells per cell type).",
+    "description": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq). Split into train/test randomly. Dimensions: 16382 cells, 18771 genes. 14 cell types (avg. 1170±1703 cells per cell type).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_random_label_noise",
+    "label": "Pancreas (random split with label noise)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq). Split into train/test randomly with 20% label noise. Dimensions: 16382 cells, 18771 genes. 14 cell types (avg. 1170±1703 cells per cell type).",
+    "description": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq). Split into train/test randomly with 20% label noise. Dimensions: 16382 cells, 18771 genes. 14 cell types (avg. 1170±1703 cells per cell type).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "tabula_muris_senis_lung_random",
+    "label": "Tabula Muris Senis Lung (random split)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "All lung cells from Tabula Muris Senis, a 500k cell-atlas from 18 organs and tissues across the mouse lifespan. Split into train/test randomly. Dimensions: 24540 cells, 17985 genes. 39 cell types (avg. 629±999 cells per cell type).",
+    "description": "All lung cells from Tabula Muris Senis, a 500k cell-atlas from 18 organs and tissues across the mouse lifespan. Split into train/test randomly. Dimensions: 24540 cells, 17985 genes. 39 cell types (avg. 629±999 cells per cell type).",
+    "source_urls": [
+      "https://tabula-muris-senis.ds.czbiohub.org/"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tabula_muris_senis_droplet_lung"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "zebrafish_labs",
+    "label": "Zebrafish (by laboratory)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene. Split into train/test by laboratory. Dimensions: 26022 cells, 25258 genes. 24 cell types (avg. 1084±1156 cells per cell type).",
+    "description": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene. Split into train/test by laboratory. Dimensions: 26022 cells, 25258 genes. 24 cell types (avg. 1084±1156 cells per cell type).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/24566651?private_link=e3921450ec1bd0587870"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/zebrafish"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "zebrafish_random",
+    "label": "Zebrafish (random split)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene. Split into train/test randomly. Dimensions: 26022 cells, 25258 genes. 24 cell types (avg. 1084±1156 cells per cell type).",
+    "description": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene. Split into train/test randomly. Dimensions: 26022 cells, 25258 genes. 24 cell types (avg. 1084±1156 cells per cell type).",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/24566651?private_link=e3921450ec1bd0587870"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/zebrafish"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

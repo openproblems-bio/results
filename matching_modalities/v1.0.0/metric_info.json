@@ -1,0 +1,42 @@
+[
+  {
+    "name": "knn_auc",
+    "label": "kNN Area Under the Curve",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Let $f(i) ∈ F$ be the scRNA-seq measurement of cell $i$, and $g(i) ∈ G$ be the scATAC- seq measurement of cell $i$. kNN-AUC calculates the average percentage overlap of neighborhoods of $f(i)$ in $F$ with neighborhoods of $g(i)$ in $G$. Higher is better.",
+    "description": "Let $f(i) ∈ F$ be the scRNA-seq measurement of cell $i$, and $g(i) ∈ G$ be the scATAC- seq measurement of cell $i$. kNN-AUC calculates the average percentage overlap of neighborhoods of $f(i)$ in $F$ with neighborhoods of $g(i)$ in $G$. Higher is better.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/metrics/knn_auc.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "knn_auc",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@inproceedings{stanley2020harmonic,\n\ttitle = {Harmonic alignment},\n\tauthor = {Stanley, Jay S. and Gigante, Scott and Wolf, Guy and Krishnaswamy, Smita},\n\tyear = {2020},\n\tdoi = {10.1137/1.9781611976236.36},\n\turl = {https://doi.org/10.1137/1.9781611976236.36}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  },
+  {
+    "name": "mse",
+    "label": "Mean squared error",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Mean squared error (MSE) is the average distance between each pair of matched observations of the same cell in the learned latent space. Lower is better.",
+    "description": "Mean squared error (MSE) is the average distance between each pair of matched observations of the same cell in the learned latent space. Lower is better.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/metrics/mse.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{lance2022multimodal,\n\ttitle = {Multimodal single cell data integration challenge: Results and lessons learned},\n\tauthor = {Lance, Christopher and Luecken, Malte D. and Burkhardt, Daniel B. and Cannoodt, Robrecht and Rautenstrauch, Pia and Laddach, Anna and Ubingazhibov, Aidyn and Cao, Zhi-Jie and Deng, Kaiwen and Khan, Sumeer and Liu, Qiao and Russkikh, Nikolay and Ryazantsev, Gleb and Ohler, Uwe and Pisco, Angela Oliveira and Bloom, Jonathan and Krishnaswamy, Smita and Theis, Fabian J.},\n\tyear = {2022},\n\tdoi = {10.1101/2022.04.11.487796},\n\turl = {https://www.biorxiv.org/content/early/2022/04/12/2022.04.11.487796}\n}\n"
+      ]
+    },
+    "additional_info": {},
+    "version": "v1.0.0"
+  }
+]

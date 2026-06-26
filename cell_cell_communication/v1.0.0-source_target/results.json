@@ -1,0 +1,542 @@
+[
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "true_events",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      344
+    ],
+    "run_cpu_pct": [
+      38.9
+    ],
+    "run_peak_memory_mb": [
+      2200
+    ],
+    "run_disk_read_mb": [
+      1900
+    ],
+    "run_disk_write_mb": [
+      1900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "random_events",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      367
+    ],
+    "run_cpu_pct": [
+      29.7
+    ],
+    "run_peak_memory_mb": [
+      2200
+    ],
+    "run_disk_read_mb": [
+      1900
+    ],
+    "run_disk_write_mb": [
+      1900
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.04334026605274756,
+      0.2753623188405796
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "natmi",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1058
+    ],
+    "run_cpu_pct": [
+      91.6
+    ],
+    "run_peak_memory_mb": [
+      21400
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.11615658120152528,
+      0.6652173913043478
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "connectome",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1239
+    ],
+    "run_cpu_pct": [
+      87.1
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.07019820043784314,
+      0.6652173913043478
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "log2fc",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1368
+    ],
+    "run_cpu_pct": [
+      87.6
+    ],
+    "run_peak_memory_mb": [
+      21400
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.13455868139659094,
+      0.6652173913043478
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "singlecellsignalr",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1300
+    ],
+    "run_cpu_pct": [
+      95.1
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.08940090646903594,
+      0.575859178541492
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "connectome",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1480
+    ],
+    "run_cpu_pct": [
+      96
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.0736346161170013,
+      0.45292368681863227
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "log2fc",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1609
+    ],
+    "run_cpu_pct": [
+      93.7
+    ],
+    "run_peak_memory_mb": [
+      20900
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.11282625965964263,
+      0.575859178541492
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "singlecellsignalr",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1608
+    ],
+    "run_cpu_pct": [
+      86.4
+    ],
+    "run_peak_memory_mb": [
+      21400
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.038580673538771926,
+      0.2753623188405796
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "natmi",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      2099
+    ],
+    "run_cpu_pct": [
+      85
+    ],
+    "run_peak_memory_mb": [
+      21400
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.08897230936214946,
+      0.7324840764331211
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "magnitude_rank_aggregate",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8280
+    ],
+    "run_cpu_pct": [
+      99.6
+    ],
+    "run_peak_memory_mb": [
+      121800
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.04490374596540962,
+      0.2753623188405796
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "specificity_rank_aggregate",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8320
+    ],
+    "run_cpu_pct": [
+      99.7
+    ],
+    "run_peak_memory_mb": [
+      147200
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.09521375967835702,
+      0.6652173913043478
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "specificity_rank_aggregate",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8649
+    ],
+    "run_cpu_pct": [
+      99.7
+    ],
+    "run_peak_memory_mb": [
+      141500
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.0409455506097273,
+      0.2753623188405796
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "magnitude_rank_aggregate",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      10470
+    ],
+    "run_cpu_pct": [
+      100.3
+    ],
+    "run_peak_memory_mb": [
+      121600
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.09449551904620877,
+      0.784458309699376
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "cellphonedb",
+    "paramset_name": "sum",
+    "paramset": {
+      "raw": "sum"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      7550
+    ],
+    "run_cpu_pct": [
+      100.4
+    ],
+    "run_peak_memory_mb": [
+      116100
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.058179060453517256,
+      0.2753623188405796
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_brain_atlas",
+    "method_name": "cellphonedb",
+    "paramset_name": "max",
+    "paramset": {
+      "raw": "max"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      8101
+    ],
+    "run_cpu_pct": [
+      100
+    ],
+    "run_peak_memory_mb": [
+      116900
+    ],
+    "run_disk_read_mb": [
+      2000
+    ],
+    "run_disk_write_mb": [
+      2800
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "auprc",
+      "odds_ratio"
+    ],
+    "metric_values": [
+      0.11013967741211735,
+      0.784458309699376
+    ],
+    "metric_components": []
+  }
+]

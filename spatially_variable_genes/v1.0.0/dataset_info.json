@@ -1,0 +1,1002 @@
+[
+  {
+    "name": "zenodo_spatial/slideseqv2/mouse_cortex",
+    "label": "Slide-seqV2 - Mouse Cortex",
+    "commit": "",
+    "summary": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2.",
+    "description": "Gene expression library of Mouse cortex profiled using Slide-seq V2.",
+    "source_urls": [
+      "https://singlecell.broadinstitute.org/single_cell/study/SCP815/sensitive-spatial-genome-wide-expression-profiling-at-cellular-resolution#study-summary"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.194194
+  },
+  {
+    "name": "tenx_visium/visium/human_breast_cancer_1",
+    "label": "10X Visium - Human Breast Cancer 1",
+    "commit": "",
+    "summary": "Whole transcriptome analysis, Adult Human Breast Cancer (Visium)",
+    "description": "10X Genomics obtained fresh frozen human Invasive Lobular Carcinoma breast tissue from BioIVT Asterand. The tissue was embedded and cryosectioned as described in Visium Spatial Protocols Tissue Preparation Guide Demonstrated Protocol (CG000240). Tissue sections of 10µm were placed on Visium Gene Expression slides and fixed and stained following Methanol Fixation, H&E Staining & Imaging for Visium Spatial Protocols (CG000160).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-breast-cancer-whole-transcriptome-analysis-1-standard-1-2-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.506522
+  },
+  {
+    "name": "zenodo_spatial/stereoseq/drosophila_embryo_e5_6",
+    "label": "Stereo-seq - Drosophila embryo E5_6",
+    "commit": "",
+    "summary": "Stereo-seq faithfully captures Drosophila spatial transcriptomes with high resolution.",
+    "description": "Drosophila has long been a successful model organism in multiple biomedical fields. Spatial gene expression patterns are critical for the understanding of complex pathways and interactions, whereas temporal gene expression changes are vital for studying highly dynamic physiological activities. Systematic studies in Drosophila are still impeded by the lack of spatiotemporal transcriptomic information. Here, utilizing spatial enhanced resolution omics-sequencing (Stereo-seq), we dissected the spatiotemporal transcriptomic changes of developing Drosophila with high resolution and sensitivity. (Data from an embryo collected 14-16 h after egg laying)",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1534580722002465"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.287642
+  },
+  {
+    "name": "tenx_visium/visium/human_skin_melanoma",
+    "label": "10X Visium - Human Skin Melanoma",
+    "commit": "",
+    "summary": "Gene expression library of Human Skin Melanoma (CytAssist FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE Human Melanoma tissue blocks from Avaden Biosciences. The tissue was sectioned as described in Visium CytAssist Spatial Gene Expression for FFPE Tissue Preparation Guide Demonstrated Protocol (CG000518). Tissue sections of 5 µm was placed on a standard glass slide, deparaffinized followed by immunofluorescence (IF) staining. Sections were coverslipped with 85% glycerol, imaged, decoverslipped, followed by dehydration & decrosslinking Demonstrated Protocol (CG000519). The glass slide with tissue section was processed via Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression slide. The probe extension and library construction steps follow the standard Visium for FFPE workflow outside of the instrument.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-melanoma-if-stained-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.460186
+  },
+  {
+    "name": "zenodo_spatial/stereoseq/drosophila_embryo_e6_3",
+    "label": "Stereo-seq - Drosophila embryo E6_3",
+    "commit": "",
+    "summary": "Stereo-seq faithfully captures Drosophila spatial transcriptomes with high resolution.",
+    "description": "Drosophila has long been a successful model organism in multiple biomedical fields. Spatial gene expression patterns are critical for the understanding of complex pathways and interactions, whereas temporal gene expression changes are vital for studying highly dynamic physiological activities. Systematic studies in Drosophila are still impeded by the lack of spatiotemporal transcriptomic information. Here, utilizing spatial enhanced resolution omics-sequencing (Stereo-seq), we dissected the spatiotemporal transcriptomic changes of developing Drosophila with high resolution and sensitivity. (Data from an embryo collected 14-16 h after egg laying)",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1534580722002465"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.287162
+  },
+  {
+    "name": "zenodo_spatial/stereoseq/drosophila_embryo_e9_1",
+    "label": "Stereo-seq - Drosophila embryo E9_1",
+    "commit": "",
+    "summary": "Stereo-seq faithfully captures Drosophila spatial transcriptomes with high resolution.",
+    "description": "Drosophila has long been a successful model organism in multiple biomedical fields. Spatial gene expression patterns are critical for the understanding of complex pathways and interactions, whereas temporal gene expression changes are vital for studying highly dynamic physiological activities. Systematic studies in Drosophila are still impeded by the lack of spatiotemporal transcriptomic information. Here, utilizing spatial enhanced resolution omics-sequencing (Stereo-seq), we dissected the spatiotemporal transcriptomic changes of developing Drosophila with high resolution and sensitivity. (Data from an embryo collected 14-16 h after egg laying)",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1534580722002465"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.298106
+  },
+  {
+    "name": "zenodo_spatial/slideseqv2/mouse_hippocampus_puck",
+    "label": "Slide-seqV2 - Mouse Hippocampus Puck",
+    "commit": "",
+    "summary": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2.",
+    "description": "Gene expression library of mouse hippocampus puck profiled using Slide-seq V2.",
+    "source_urls": [
+      "https://singlecell.broadinstitute.org/single_cell/study/SCP815/sensitive-spatial-genome-wide-expression-profiling-at-cellular-resolution#study-summary"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.93125
+  },
+  {
+    "name": "tenx_visium/visium/human_heart",
+    "label": "10X Visium - Human Heart",
+    "commit": "",
+    "summary": "V1_Human_Heart",
+    "description": "10x Genomics obtained fresh frozen human heart tissue from BioIVT Asterand. The tissue was embedded and cryosectioned as described in Visium Spatial Protocols - Tissue Preparation Guide Demonstrated Protocol (CG000240). Tissue sections of 10 µm thickness were placed on Visium Gene Expression Slides.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-heart-1-standard-1-0-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.505306
+  },
+  {
+    "name": "zenodo_spatial/slideseqv2/mouse_olfactory_bulb_puck",
+    "label": "Slide-seqV2 - Mouse Olfactory Bulb Puck",
+    "commit": "",
+    "summary": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2.",
+    "description": "Gene expression library of mouse olfactory bulk puck profiled using Slide-seq V2.",
+    "source_urls": [
+      "https://singlecell.broadinstitute.org/single_cell/study/SCP815/sensitive-spatial-genome-wide-expression-profiling-at-cellular-resolution#study-summary"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.44773
+  },
+  {
+    "name": "tenx_visium/visium/human_lymph_node",
+    "label": "10X Visium - Human Lymph Node",
+    "commit": "",
+    "summary": "Whole transcriptome analysis, Human Lymph Node",
+    "description": "10x Genomics obtained fresh frozen human lymph node from BioIVT Asterand. The tissue was embedded and cryosectioned as described in Visium Spatial Protocols - Tissue Preparation Guide Demonstrated Protocol (CG000240). Tissue sections of 10 µm thickness were placed on Visium Gene Expression Slides.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-lymph-node-1-standard-1-0-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.491098
+  },
+  {
+    "name": "tenx_visium/post_xenium/mouse_brain",
+    "label": "10X Post Xenium - Mouse Brain",
+    "commit": "",
+    "summary": "Gene expression library of Post Xenium Mouse Brain (CytAssist Fresh Frozen) using the Mouse Whole Transcriptome Probe Set - Replicate 1",
+    "description": "This dataset is provided as part of the Technical Note: Post-Xenium In Situ Applications: Immunofluorescence, H&E, and Visium CytAssist Spatial Gene Expression (CG000709). Post-Xenium samples were compared to controls (samples not processed through the Xenium workflow) using 10 µm fresh-frozen (FF) serial sections.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/visium-cytassist-gene-expression-libraries-of-post-xenium-mouse-brain-ff-using-the-mouse-whole-transcriptome-probe-set-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.58073
+  },
+  {
+    "name": "zenodo_spatial/visium/human_heart_myocardial_infarction_1",
+    "label": "10X Visium - Human Heart MI 1",
+    "commit": "",
+    "summary": "Gene expression library of human heart using 10x Visium.",
+    "description": "Frozen heart samples were embedded in OCT (Tissue-Tek) and cryosectioned (Thermo Cryostar). The 10-µm section was placed on the pre-chilled Optimization slides (Visium, 10X Genomics, PN-1000193) and the optimal lysis time was determined. The tissues were treated as recommended by 10X Genomics and the optimization procedure showed an optimal permeabilization time of 12 or 18 min of digestion and release of RNA from the tissue slide. Spatial gene expression slides (Visium, 10X Genomics, PN-1000187) were used for spatial transcriptomics following the Visium User Guides",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-022-05060-x"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.506714
+  },
+  {
+    "name": "zenodo_spatial/visium/human_heart_myocardial_infarction_2",
+    "label": "10X Visium - Human Heart MI 2",
+    "commit": "",
+    "summary": "Gene expression library of human heart using 10x Visium.",
+    "description": "Frozen heart samples were embedded in OCT (Tissue-Tek) and cryosectioned (Thermo Cryostar). The 10-µm section was placed on the pre-chilled Optimization slides (Visium, 10X Genomics, PN-1000193) and the optimal lysis time was determined. The tissues were treated as recommended by 10X Genomics and the optimization procedure showed an optimal permeabilization time of 12 or 18 min of digestion and release of RNA from the tissue slide. Spatial gene expression slides (Visium, 10X Genomics, PN-1000187) were used for spatial transcriptomics following the Visium User Guides",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-022-05060-x"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.522874
+  },
+  {
+    "name": "zenodo_spatial/merfish/human_cortex_2",
+    "label": "MERFISH - Human Cortex 2",
+    "commit": "",
+    "summary": "Spatially resolved profiling of human cerebral cortex using multiplexed error-robust fluorescence in situ hybridization (MERFISH).",
+    "description": "Spatially resolved profiling of human cerebral cortex (middle temopral gyrus) replicate 1 using multiplexed error-robust fluorescence in situ hybridization (MERFISH) (4000 gene panel).",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.abm1741"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.397914
+  },
+  {
+    "name": "zenodo_spatial/dbitseq/mouse_e10_whole_body",
+    "label": "DBiT-seq - Mouse Whole Body (E10)",
+    "commit": "",
+    "summary": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue.",
+    "description": "Gene expression library of an E10 whole mouse embryo tissue profiled using DBiT-seq.",
+    "source_urls": [
+      "https://www.cell.com/cell/fulltext/S0092-8674(20)31390-8"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.228026
+  },
+  {
+    "name": "tenx_visium/visium/human_brain_cancer",
+    "label": "10X Visium - Human Brain Cancer",
+    "commit": "",
+    "summary": "Gene expression library of Human Glioblastoma (CytAssist FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE human brain cancer tissue from Avaden Biosciences. The tissue was sectioned as described in the Visium CytAssist Spatial Gene Expression for FFPE - Tissue Preparation Guide (CG000518). Tissue section of 5 µm was placed on a standard glass slide, then stained following the Deparaffinization, H&E Staining, Imaging & Decrosslinking Demonstrated Protocol (CG000520). The glass slide with tissue section was processed via Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression Slide v2, with 11 mm capture areas following the Visium CytAssist Spatial Gene Expression Reagent Kits User Guide (CG000495).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-brain-cancer-11-mm-capture-area-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.980026
+  },
+  {
+    "name": "tenx_visium/visium/human_lung_cancer",
+    "label": "10X Visium - Human Lung Cancer",
+    "commit": "",
+    "summary": "Gene expression library of Human Lung Cancer (CytAssist FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE human lung cancer tissue from Avaden Biosciences. The tissue was sectioned as described in the Visium CytAssist Spatial Gene Expression for FFPE Tissue Preparation Guide (CG000518). Tissue section of 5 µm was placed on a standard glass slide, then stained following the Deparaffinization, H&E Staining, Imaging & Decrosslinking Demonstrated Protocol (CG000520). The glass slide with tissue section was processed via Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression Slide v2, with 11 mm capture areas following the Visium CytAssist Spatial Gene Expression Reagent Kits User Guide (CG000495).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-lung-cancer-11-mm-capture-area-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.64617
+  },
+  {
+    "name": "zenodo_spatial/dbitseq/mouse_e11_lower_body",
+    "label": "DBiT-seq - Mouse Lower Body (E11)",
+    "commit": "",
+    "summary": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue.",
+    "description": "Gene expression library of an E11 whole mouse embryo tissue (lower body in early-stage organogenesis) profiled using DBiT-seq.",
+    "source_urls": [
+      "https://www.cell.com/cell/fulltext/S0092-8674(20)31390-8"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.271738
+  },
+  {
+    "name": "tenx_visium/visium/human_cerebellum",
+    "label": "10X Visium - Adult Human Cerebellum",
+    "commit": "",
+    "summary": "Human Cerebellum Whole Transcriptome Analysis",
+    "description": "10X Genomics obtained fresh frozen human cerebellum tissue from BioIVT Asterand. The tissue was embedded and cryosectioned as described in Visium Spatial Protocols Tissue Preparation Guide (Demonstrated Protocol CG000240). Tissue sections of 10µm were placed on Visium Gene Expression slides and fixed and stained following Methanol Fixation, H&E Staining & Imaging for Visium Spatial Protocols (CG000160).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-cerebellum-whole-transcriptome-analysis-1-standard-1-2-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.557562
+  },
+  {
+    "name": "tenx_visium/visium/human_kidney",
+    "label": "10X Visium - Human Kidney",
+    "commit": "",
+    "summary": "Gene expression library of Human Kidney (CytAssist FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE human kidney tissue from Avaden Biosciences. The tissue was sectioned as described in the Visium CytAssist Spatial Gene Expression for FFPE – Tissue Preparation Guide (CG000518). Tissue section of 5 µm was placed on a standard glass slide, then stained following the Deparaffinization, H&E Staining, Imaging & Decrosslinking Demonstrated Protocol (CG000520). The glass slide with tissue section was processed via Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression Slide v2, with 11 mm capture areas following the Visium CytAssist Spatial Gene Expression Reagent Kits User Guide (CG000495).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-kidney-11-mm-capture-area-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.625562
+  },
+  {
+    "name": "tenx_visium/post_xenium/human_colon_cancer",
+    "label": "10X Post Xenium - Human Colon",
+    "commit": "",
+    "summary": "Gene expression library of Post Xenium Human Colon Cancer (CytAssist FFPE) using the Human Whole Transcriptome Probe Set - Replicate 1",
+    "description": "This dataset is provided as part of the Technical Note: Post-Xenium In Situ Applications: Immunofluorescence, H&E, and Visium CytAssist Spatial Gene Expression (CG000709). Post-Xenium samples were compared to controls (samples not processed through the Xenium workflow) using 5 µm (FFPE) serial sections.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/visium-cytassist-gene-expression-libraries-of-post-xenium-human-colon-cancer-ffpe-using-the-human-whole-transcriptome-probe-set-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.601306
+  },
+  {
+    "name": "tenx_visium/visium/human_cervical_cancer",
+    "label": "10X Visium - Human Cervical Cancer",
+    "commit": "",
+    "summary": "Gene expression library of Human Cervical Cancer (Visium FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "5 µm section from squamous cell carcinoma of human cervical cancer. FFPE tissue purchased from Discovery Life Sciences.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-cervical-cancer-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.401754
+  },
+  {
+    "name": "zenodo_spatial/dbitseq/mouse_e10_brain",
+    "label": "DBiT-seq - Mouse Brain (E10)",
+    "commit": "",
+    "summary": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue.",
+    "description": "Gene expression library of an E10 whole mouse embryo tissue (brain in early-stage organogenesis) profiled using DBiT-seq.",
+    "source_urls": [
+      "https://www.cell.com/cell/fulltext/S0092-8674(20)31390-8"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.279898
+  },
+  {
+    "name": "zenodo_spatial/merfish/human_cortex_4",
+    "label": "MERFISH - Human Cortex 4",
+    "commit": "",
+    "summary": "Spatially resolved profiling of human cerebral cortex using multiplexed error-robust fluorescence in situ hybridization (MERFISH).",
+    "description": "Spatially resolved profiling of human cerebral cortex (middle temopral gyrus) replicate 3 using multiplexed error-robust fluorescence in situ hybridization (MERFISH) (4000 gene panel).",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.abm1741"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.47257
+  },
+  {
+    "name": "zenodo_spatial_slidetags/slidetags/human_skin_melanoma",
+    "label": "Slide-tags - Human Skin Melanoma",
+    "commit": "",
+    "summary": "Slide-tags enables single-nucleus barcoding for multimodal spatial genomics.",
+    "description": "A metastatic melanoma sample was profiled by Slide-tags.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-023-06837-4"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.54841
+  },
+  {
+    "name": "zenodo_spatial/stereoseq/drosophila_embryo_e7",
+    "label": "Stereo-seq - Drosophila embryo E7",
+    "commit": "",
+    "summary": "Stereo-seq faithfully captures Drosophila spatial transcriptomes with high resolution.",
+    "description": "Drosophila has long been a successful model organism in multiple biomedical fields. Spatial gene expression patterns are critical for the understanding of complex pathways and interactions, whereas temporal gene expression changes are vital for studying highly dynamic physiological activities. Systematic studies in Drosophila are still impeded by the lack of spatiotemporal transcriptomic information. Here, utilizing spatial enhanced resolution omics-sequencing (Stereo-seq), we dissected the spatiotemporal transcriptomic changes of developing Drosophila with high resolution and sensitivity. (Data from an embryo collected 14-16 h after egg laying)",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1534580722002465"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.26409
+  },
+  {
+    "name": "tenx_visium/visium/human_breast_cancer_2",
+    "label": "10X Visium - Human Breast Cancer 2",
+    "commit": "",
+    "summary": "Gene expression library of Human Breast Cancer (Visium FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE human breast tissue from BioIVT Asterand Human Tissue Specimens. The tissue was annotated with Ductal Carcinoma In Situ, Invasive Carcinoma. The tissue was sectioned as described in Visium Spatial Gene Expression for FFPE - Tissue Preparation Guide Demonstrated Protocol (CG000408). Tissue sections of 5 µm were placed on Visium Gene Expression slides, then stained following Deparaffinization, H&E Staining, Imaging & Decrosslinking Demonstrated Protocol (CG000409).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-breast-cancer-ductal-carcinoma-in-situ-invasive-carcinoma-ffpe-1-standard-1-3-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.38105
+  },
+  {
+    "name": "zenodo_spatial/dbitseq/mouse_e11_2",
+    "label": "DBiT-seq - Mouse Whole Body 2 (E11)",
+    "commit": "",
+    "summary": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue.",
+    "description": "Gene expression library of an E11 whole mouse embryo tissue profiled using DBiT-seq.",
+    "source_urls": [
+      "https://www.cell.com/cell/fulltext/S0092-8674(20)31390-8"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.29833
+  },
+  {
+    "name": "zenodo_spatial/dbitseq/mouse_e11_1",
+    "label": "DBiT-seq - Mouse Whole Body 1 (E11)",
+    "commit": "",
+    "summary": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue.",
+    "description": "Gene expression library of an E11 whole mouse embryo tissue profiled using DBiT-seq.",
+    "source_urls": [
+      "https://www.cell.com/cell/fulltext/S0092-8674(20)31390-8"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.28153
+  },
+  {
+    "name": "tenx_visium/visium/mouse_olfactory_bulb",
+    "label": "10X Visium - Mouse Olfactory Bulb",
+    "commit": "",
+    "summary": "10X Genomics obtained fresh frozen mouse olfactory bulb tissue from BioIVT.",
+    "description": "The tissue was embedded and cryosectioned as described in Visium Spatial Protocols Tissue Preparation Guide (Demonstrated Protocol CG000240). Tissue sections of 10µm were placed on Visium Gene Expression slides, then fixed and stained following Methanol Fixation, H&E Staining & Imaging for Visium Spatial Protocols (CG000160).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/adult-mouse-olfactory-bulb-1-standard-1"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.285114
+  },
+  {
+    "name": "zenodo_spatial_slidetags/slidetags/mouse_embryo",
+    "label": "Slide-tags - Mouse Embryo",
+    "commit": "",
+    "summary": "Slide-tags enables single-nucleus barcoding for multimodal spatial genomics.",
+    "description": "Mouse embryo tonsil was profiled by Slide-tags.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-023-06837-4"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.53445
+  },
+  {
+    "name": "zenodo_spatial_slidetags/slidetags/human_tonsil",
+    "label": "Slide-tags - Human Tonsil",
+    "commit": "",
+    "summary": "Slide-tags enables single-nucleus barcoding for multimodal spatial genomics.",
+    "description": "A human tonsil was profiled by Slide-tags.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-023-06837-4"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.616442
+  },
+  {
+    "name": "tenx_visium/visium/human_intestinal_cancer",
+    "label": "10X Visium - Human Intestine Cancer",
+    "commit": "",
+    "summary": "Gene expression library of Human Intestinal Cancer (Visium FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "5 µm section from Human Intestinal Cancer. FFPE tissue purchased from BioIVT Asterand Human Tissue Specimens. Libraries were prepared following the Visium Spatial Gene Expression Reagent Kits for FFPE User Guide (CG000407 Rev A).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-intestine-cancer-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.38969
+  },
+  {
+    "name": "zenodo_spatial_slidetags/slidetags/human_cortex",
+    "label": "Slide-tags - Human Cortex",
+    "commit": "",
+    "summary": "Slide-tags enables single-nucleus barcoding for multimodal spatial genomics.",
+    "description": "A 100 mm2 region of the human prefrontal cortex from a neurotypical donor aged 78 years was profiled by Slide-tags.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41586-023-06837-4"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.491994
+  },
+  {
+    "name": "zenodo_spatial/dbitseq/mouse_e10_eye",
+    "label": "DBiT-seq - Mouse Eye (E10)",
+    "commit": "",
+    "summary": "High-Spatial-Resolution Multi-Omics Sequencing via Deterministic Barcoding in Tissue.",
+    "description": "Gene expression library of an E10 whole mouse embryo tissue (eye in early-stage organogenesis) profiled using DBiT-seq.",
+    "source_urls": [
+      "https://www.cell.com/cell/fulltext/S0092-8674(20)31390-8"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.327226
+  },
+  {
+    "name": "tenx_visium/visium/mouse_brain_coronal",
+    "label": "10X Visium - Mouse Brain Coronal",
+    "commit": "",
+    "summary": "Gene expression library of Mouse Brain (CytAssist FFPE) using the Mouse Whole Transcriptome Probe Set",
+    "description": "FFPE Mouse Brain tissue blocks sectioned as described in Visium CytAssist Spatial Gene Expression for FFPE - Tissue Preparation Guide Demonstrated Protocol. The H&E stained glass slide with tissue section was processed via Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression slide. The probe extension and library construction steps follow the standard Visium for FFPE workflow outside of the instrument. The H&E image was acquired using Olympus VS200 Slide Scanning Microscope. Sequencing depth was 53,497 reads per spot. Sequencing configuration: 28bp read 1 (16bp Visium spatial barcode, 12bp UMI), 90bp read 2 (transcript), 10bp i7 sample barcode and 10bp i5 sample barcode. Key metrics include: 2,310 spots detected under tissue; 6,736 median genes per spot; 24,862 median UMI counts per spot.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/mouse-brain-coronal-section-1-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.366202
+  },
+  {
+    "name": "zenodo_spatial/merfish/mouse_cortex",
+    "label": "MERFISH - Mouse Cortex",
+    "commit": "",
+    "summary": "Spatially resolved profiling of mouse cerebral cortex using multiplexed error-robust fluorescence in situ hybridization (MERFISH).",
+    "description": "Spatially resolved profiling of mouse cerebral cortex (visual cortex (VIS), auditory cortex (AUD) and temporal association area (TEa) unexpanded sections) using multiplexed error-robust fluorescence in situ hybridization (MERFISH).",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.abm1741"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.049573
+  },
+  {
+    "name": "tenx_visium/visium/human_prostate_cancer",
+    "label": "10X Visium - Human Prostate Cancer",
+    "commit": "",
+    "summary": "Gene expression library of Human Prostate Cancer (Visium FFPE) with an IF image using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE human prostate tissue from Indivumed Human Tissue Specimens. Original diagnosis with adenocarcinoma. The tissue was sectioned as described in Visium Spatial Gene Expression for FFPE Tissue Preparation Guide Demonstrated Protocol (CG000408). Tissue sections of 10 µm were placed on Visium Gene Expression slides, then stained following Deparaffinization, Decrosslinking, Immunofluorescence Staining & Imaging Demonstrated Protocol (CG000410).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-prostate-cancer-adjacent-normal-section-with-if-staining-ffpe-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.448058
+  },
+  {
+    "name": "zenodo_spatial/slideseqv2/mouse_somatosensory_cortex_puck",
+    "label": "Slide-seqV2 - Mouse Somatosensory Cortex Puck",
+    "commit": "",
+    "summary": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2.",
+    "description": "Gene expression library of mouse somatosensory cortex puck profiled using Slide-seq V2.",
+    "source_urls": [
+      "https://singlecell.broadinstitute.org/single_cell/study/SCP815/sensitive-spatial-genome-wide-expression-profiling-at-cellular-resolution#study-summary"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.457874
+  },
+  {
+    "name": "zenodo_spatial/stereoseq/drosophila_embryo_e10",
+    "label": "Stereo-seq - Drosophila embryo E10",
+    "commit": "",
+    "summary": "Stereo-seq faithfully captures Drosophila spatial transcriptomes with high resolution.",
+    "description": "Drosophila has long been a successful model organism in multiple biomedical fields. Spatial gene expression patterns are critical for the understanding of complex pathways and interactions, whereas temporal gene expression changes are vital for studying highly dynamic physiological activities. Systematic studies in Drosophila are still impeded by the lack of spatiotemporal transcriptomic information. Here, utilizing spatial enhanced resolution omics-sequencing (Stereo-seq), we dissected the spatiotemporal transcriptomic changes of developing Drosophila with high resolution and sensitivity. (Data from an embryo collected 14-16 h after egg laying)",
+    "source_urls": [
+      "https://www.sciencedirect.com/science/article/pii/S1534580722002465"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.282746
+  },
+  {
+    "name": "zenodo_spatial/slideseqv2/mouse_cerebellum",
+    "label": "Slide-seqV2 - Mouse Cerebellum",
+    "commit": "",
+    "summary": "Highly sensitive spatial transcriptomics at near-cellular resolution with Slide-seqV2.",
+    "description": "Gene expression library of mouse cerebellum profiled using Slide-seq V2.",
+    "source_urls": [
+      "https://singlecell.broadinstitute.org/single_cell/study/SCP815/sensitive-spatial-genome-wide-expression-profiling-at-cellular-resolution#study-summary"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.670514
+  },
+  {
+    "name": "tenx_visium/visium/mouse_kidney_v1",
+    "label": "10X Visium - Mouse Kidney 1",
+    "commit": "",
+    "summary": "Mouse Kidney Whole Transcriptome Analysis",
+    "description": "10x Genomics obtained fresh frozen mouse kidney tissue from BioIVT Asterand. The tissue was embedded and cryosectioned as described in Visium Spatial Protocols - Tissue Preparation Guide Demonstrated Protocol (CG000240). Tissue sections of 10 µm thickness from a slice of the coronal plane were placed on Visium Gene Expression slides, then stained following the Methanol Fixation, H&E Staining & Imaging Demonstrated Protocol (CG000160).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/mouse-kidney-section-coronal-1-standard-1-1-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.305466
+  },
+  {
+    "name": "tenx_visium/visium/mouse_embryo",
+    "label": "10X Visium - Mouse Embryo",
+    "commit": "",
+    "summary": "Gene expression library of Mouse Embryo (CytAssist FFPE) using the Mouse Whole Transcriptome Probe Set",
+    "description": "The tissue was sectioned as described in Visium CytAssist Spatial Gene Expression for FFPE Tissue Preparation Guide Demonstrated Protocol CG000518. Tissue sections of 5 µm was placed on a standard glass slide, and H&E-stained following deparaffinization. Sections were coverslipped with 85% glycerol, imaged, decoverslipped, followed by dehydration & decrosslinking (Demonstrated Protocol CG000520). The glass slide with the tissue section was processed with the Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression slide (11 mm Capture Area). The probe extension and library construction steps follow the standard Visium for FFPE workflow outside of the instrument.",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/visium-cytassist-mouse-embryo-11-mm-capture-area-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.666106
+  },
+  {
+    "name": "tenx_visium/visium/human_colorectal_cancer",
+    "label": "10X Visium - Human Colorectal Cancer",
+    "commit": "",
+    "summary": "Gene expression library of Human Colorectal Cancer (CytAssist FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "The tissue was sectioned as described in the Visium CytAssist Spatial Gene Expression for FFPE Tissue Preparation Guide (CG000518). Tissue section of 5 µm was placed on a standard glass slide, then stained following the Deparaffinization, H&E Staining, Imaging & Decrosslinking Demonstrated Protocol (CG000520). The glass slide with tissue section was processed via Visium CytAssist instrument to transfer analytes to a Visium CytAssist Spatial Gene Expression Slide v2, with 11 mm capture areas following the Visium CytAssist Spatial Gene Expression Reagent Kits User Guide (CG000495).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-colorectal-cancer-11-mm-capture-area-ffpe-2-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.853146
+  },
+  {
+    "name": "zenodo_spatial/merfish/human_cortex_1",
+    "label": "MERFISH - Human Cortex 1",
+    "commit": "",
+    "summary": "Spatially resolved profiling of human cerebral cortex using multiplexed error-robust fluorescence in situ hybridization (MERFISH).",
+    "description": "Spatially resolved profiling of human cerebral cortex (middle temopral gyrus) replicate 1 using multiplexed error-robust fluorescence in situ hybridization (MERFISH) (250 gene panel).",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.abm1741"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.763077
+  },
+  {
+    "name": "zenodo_spatial/merfish/human_cortex_3",
+    "label": "MERFISH - Human Cortex 3",
+    "commit": "",
+    "summary": "Spatially resolved profiling of human cerebral cortex using multiplexed error-robust fluorescence in situ hybridization (MERFISH).",
+    "description": "Spatially resolved profiling of human cerebral cortex (middle temopral gyrus) replicate 2 using multiplexed error-robust fluorescence in situ hybridization (MERFISH) (4000 gene panel).",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.abm1741"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.47497
+  },
+  {
+    "name": "zenodo_spatial/seqfish/mouse_organogenesis_seqfish",
+    "label": "Seqfish - Mouse Organogenesis",
+    "commit": "",
+    "summary": "Single-cell spatial expression of mouse organogenesis.",
+    "description": "Sagittal sections from mouse embryo at the 8-12 ss was profiled by seqFISH.",
+    "source_urls": [
+      "https://www.nature.com/articles/s41587-021-01006-2"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 1.497221
+  },
+  {
+    "name": "zenodo_spatial/starmap/mouse_brain_2d_zstep10_0",
+    "label": "STARmap - Mouse Brain 1",
+    "commit": "",
+    "summary": "Three-dimensional intact-tissue sequencing of single-cell transcriptional states.",
+    "description": "3D architecture of cell types in visual cortex volumes.",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.aat5691"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.268517
+  },
+  {
+    "name": "zenodo_spatial/starmap/mouse_brain_2d_zstep15_0",
+    "label": "STARmap - Mouse Brain 2",
+    "commit": "",
+    "summary": "Three-dimensional intact-tissue sequencing of single-cell transcriptional states.",
+    "description": "3D architecture of cell types in visual cortex volumes.",
+    "source_urls": [
+      "https://www.science.org/doi/10.1126/science.aat5691"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.390789
+  },
+  {
+    "name": "tenx_visium/visium/human_normal_prostate",
+    "label": "10X Visium - Human Normal Prostate",
+    "commit": "",
+    "summary": "Gene expression library of Human Normal Prostate (Visium FFPE) using the Human Whole Transcriptome Probe Set",
+    "description": "10x Genomics obtained FFPE human prostate tissue from Indivumed Human Tissue Specimens. The tissue was sectioned as described in Visium Spatial Gene Expression for FFPE – Tissue Preparation Guide Demonstrated Protocol (CG000408). Tissue sections of 5 µm were placed on Visium Gene Expression slides, then stained following Deparaffinization, H&E Staining, Imaging & Decrosslinking Demonstrated Protocol (CG000409).",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/normal-human-prostate-ffpe-1-standard-1-3-0"
+    ],
+    "common_dataset_names": null,
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "26-09-2024",
+    "file_size_mb": 0.38185
+  }
+]

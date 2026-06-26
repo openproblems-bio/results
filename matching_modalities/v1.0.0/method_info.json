@@ -1,0 +1,143 @@
+[
+  {
+    "name": "harmonic_alignment",
+    "label": "Harmonic Alignment",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Harmonic alignment embeds cellular data from each modality into a common space by computing a mapping between the 100-dimensional diffusion maps of each modality. This mapping is computed by computing an isometric transformation of the eigenmaps, and concatenating the resulting diffusion maps together into a joint 200-dimensional space. This joint diffusion map space is used as output for the task.",
+    "description": "Harmonic alignment embeds cellular data from each modality into a common space by computing a mapping between the 100-dimensional diffusion maps of each modality. This mapping is computed by computing an isometric transformation of the eigenmaps, and concatenating the resulting diffusion maps together into a joint 200-dimensional space. This joint diffusion map space is used as output for the task.",
+    "type": "method",
+    "link_code": "https://github.com/KrishnaswamyLab/harmonic-alignment/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/methods/harmonic_alignment.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@inproceedings{stanley2020harmonic,\n\ttitle = {Harmonic alignment},\n\tauthor = {Stanley, Jay S. and Gigante, Scott and Wolf, Guy and Krishnaswamy, Smita},\n\tyear = {2020},\n\tdoi = {10.1137/1.9781611976236.36},\n\turl = {https://doi.org/10.1137/1.9781611976236.36}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Harmonic Alignment",
+      "paper_year": 2020,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log scran"
+        },
+        {
+          "name": "sqrt CP10k"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "mutual_nearest_neighbors",
+    "label": "Mutual Nearest Neighbors",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Mutual nearest neighbors (MNN) embeds cellular data from each modality into a common space by computing a mapping between modality-specific 100-dimensional SVD embeddings. The embeddings are integrated using the FastMNN version of the MNN algorithm, which generates an embedding of the second modality mapped to the SVD space of the first. This corrected joint SVD space is used as output for the task.",
+    "description": "Mutual nearest neighbors (MNN) embeds cellular data from each modality into a common space by computing a mapping between modality-specific 100-dimensional SVD embeddings. The embeddings are integrated using the FastMNN version of the MNN algorithm, which generates an embedding of the second modality mapped to the SVD space of the first. This corrected joint SVD space is used as output for the task.",
+    "type": "method",
+    "link_code": "https://github.com/LTLA/batchelor/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/methods/mnn.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{haghverdi2018batch,\n\ttitle = {Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors},\n\tauthor = {Haghverdi, Laleh and Lun, Aaron T L and Morgan, Michael D and Marioni, John C},\n\tyear = {2018},\n\tdoi = {10.1038/nbt.4091},\n\turl = {https://doi.org/10.1038/nbt.4091}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Batch effects in single-cell RNA-sequencing data are corrected by matching mutual nearest neighbors",
+      "paper_year": 2018,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log CP10k"
+        },
+        {
+          "name": "log scran"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "procrustes_superimposition",
+    "label": "Procrustes superimposition",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Procrustes superimposition embeds cellular data from each modality into a common space by aligning the 100-dimensional SVD embeddings to one another by using an isomorphic transformation that minimizes the root mean squared distance between points. The unmodified SVD embedding and the transformed second modality are used as output for the task.",
+    "description": "Procrustes superimposition embeds cellular data from each modality into a common space by aligning the 100-dimensional SVD embeddings to one another by using an isomorphic transformation that minimizes the root mean squared distance between points. The unmodified SVD embedding and the transformed second modality are used as output for the task.",
+    "type": "method",
+    "link_code": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.procrustes.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/methods/procrustes.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{gower1975generalized,\n\ttitle = {Generalized procrustes analysis},\n\tauthor = {Gower, J. C.},\n\tyear = {1975},\n\tdoi = {10.1007/bf02291478},\n\turl = {https://doi.org/10.1007/bf02291478}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Generalized Procrustes analysis",
+      "paper_year": 1975,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_features",
+    "label": "Random Features",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "20-dimensional SVD is computed on the first modality, and is then randomly permuted twice, once for use as the output for each modality, producing random features with no correlation between modalities.",
+    "description": "20-dimensional SVD is computed on the first modality, and is then randomly permuted twice, once for use as the output for each modality, producing random features with no correlation between modalities.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "true_features",
+    "label": "True Features",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "20-dimensional SVD is computed on the first modality, and this same embedding is used as output for both modalities, producing perfectly aligned features from each modality.",
+    "description": "20-dimensional SVD is computed on the first modality, and this same embedding is used as output for both modalities, producing perfectly aligned features from each modality.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/matching_modalities/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  }
+]

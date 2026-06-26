@@ -1,0 +1,68 @@
+[
+  {
+    "name": "citeseq_cbmc",
+    "label": "CITE-seq Cord Blood Mononuclear Cells",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "8k cord blood mononuclear cells sequenced by CITEseq, a multimodal addition to the 10x scRNA-seq platform that allows simultaneous measurement of RNA and protein.",
+    "description": "8k cord blood mononuclear cells sequenced by CITEseq, a multimodal addition to the 10x scRNA-seq platform that allows simultaneous measurement of RNA and protein.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100866"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/citeseq_cbmc"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "scicar_cell_lines",
+    "label": "sciCAR Cell Lines",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "5k cells from a time-series of dexamethasone treatment sequenced by sci-CAR, a combinatorial indexing-based co-assay that jointly profiles chromatin accessibility and mRNA.",
+    "description": "5k cells from a time-series of dexamethasone treatment sequenced by sci-CAR, a combinatorial indexing-based co-assay that jointly profiles chromatin accessibility and mRNA.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117089"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/scicar_cell_lines"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "scicar_mouse_kidney",
+    "label": "sciCAR Mouse Kidney",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "11k cells from adult mouse kidney sequenced by sci-CAR, a combinatorial indexing-based co-assay that jointly profiles chromatin accessibility and mRNA.",
+    "description": "11k cells from adult mouse kidney sequenced by sci-CAR, a combinatorial indexing-based co-assay that jointly profiles chromatin accessibility and mRNA.",
+    "source_urls": [
+      "https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117089"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/scicar_mouse_kidney"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

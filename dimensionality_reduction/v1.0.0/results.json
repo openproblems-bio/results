@@ -1,0 +1,4858 @@
+[
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      280
+    ],
+    "run_cpu_pct": [
+      118.9
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.03645033758101916,
+      0.7266117806252675,
+      -0.015858191645029596,
+      0.7912630138100286
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      348
+    ],
+    "run_cpu_pct": [
+      37.8
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.06707118145615036,
+      0.4386363102597822,
+      0.1710424467369666,
+      0.7042859471900272
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      360
+    ],
+    "run_cpu_pct": [
+      165.4
+    ],
+    "run_peak_memory_mb": [
+      1800
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.08162450821841145,
+      0.5299907342464462,
+      -0.02121837414768316,
+      0.9056031398553867
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      399
+    ],
+    "run_cpu_pct": [
+      13.2
+    ],
+    "run_peak_memory_mb": [
+      3400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      3600
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      1,
+      0.8575264567917553,
+      -0.016329078828423323,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      409
+    ],
+    "run_cpu_pct": [
+      8.6
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.00227465148146574,
+      0.0059794789083215455,
+      0.004993022064087217,
+      0.4994017599988353
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "phate",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      498
+    ],
+    "run_cpu_pct": [
+      248.3
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.03219668832383617,
+      0.5918646839127146,
+      0.16867876098415066,
+      0.8427375774501069
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "umap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      510
+    ],
+    "run_cpu_pct": [
+      174.4
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.020176128354979086,
+      0.49004959819235605,
+      0.11990823769617477,
+      0.8657855187682948
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      579
+    ],
+    "run_cpu_pct": [
+      112.7
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.25263552803355854,
+      0.5710960660363131,
+      0.16472875691271904,
+      0.853650829626246
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      609
+    ],
+    "run_cpu_pct": [
+      128.6
+    ],
+    "run_peak_memory_mb": [
+      1400
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.06258027096228788,
+      0.5202193076761656,
+      0.13291561708718708,
+      0.8870589293981929
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "phate",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      648
+    ],
+    "run_cpu_pct": [
+      178.2
+    ],
+    "run_peak_memory_mb": [
+      1900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.06264228756143621,
+      0.48283913956228103,
+      0.008965405531047806,
+      0.8806154110834628
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      972
+    ],
+    "run_cpu_pct": [
+      110
+    ],
+    "run_peak_memory_mb": [
+      1800
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.4109516704711886,
+      0.4737032586782091,
+      0.03685100955160142,
+      0.8818314473816885
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      982
+    ],
+    "run_cpu_pct": [
+      123.5
+    ],
+    "run_peak_memory_mb": [
+      1600
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.30843103091126667,
+      0.5211791791987841,
+      0.12030388401966464,
+      0.8303484268638034
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "phate",
+    "paramset_name": "gamma=0",
+    "paramset": {
+      "raw": "gamma=0"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1053
+    ],
+    "run_cpu_pct": [
+      297.6
+    ],
+    "run_peak_memory_mb": [
+      1900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.0856558417475703,
+      0.48944428011961905,
+      0.0867590672750964,
+      0.8842764929323597
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "phate",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1073
+    ],
+    "run_cpu_pct": [
+      304.2
+    ],
+    "run_peak_memory_mb": [
+      1500
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.037826637773109476,
+      0.4609175347119762,
+      -0.05847611577352874,
+      0.8654523093871185
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1092
+    ],
+    "run_cpu_pct": [
+      181.4
+    ],
+    "run_peak_memory_mb": [
+      2600
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.01193075431660563,
+      0.4275457916434895,
+      0.08885931182604752,
+      0.8976034248677971
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "diffusion_maps",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1136
+    ],
+    "run_cpu_pct": [
+      343.1
+    ],
+    "run_peak_memory_mb": [
+      5500
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.031004122512121077,
+      0.482988651671645,
+      0.2415910299583503,
+      0.7648013803825564
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1199
+    ],
+    "run_cpu_pct": [
+      192.3
+    ],
+    "run_peak_memory_mb": [
+      2600
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.00219554206372952,
+      0.4728077595763078,
+      0.10145948068375082,
+      0.9203404966513599
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "umap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1437
+    ],
+    "run_cpu_pct": [
+      270.2
+    ],
+    "run_peak_memory_mb": [
+      5500
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.08609219776697857,
+      0.49466206743635044,
+      -0.044501396073423856,
+      0.8343485952012168
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1928
+    ],
+    "run_cpu_pct": [
+      239.8
+    ],
+    "run_peak_memory_mb": [
+      5700
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7826241965224212,
+      0.6622837379214378,
+      -0.02264164646140918,
+      0.8143046342964144
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "spectral_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      1987
+    ],
+    "run_cpu_pct": [
+      340.6
+    ],
+    "run_peak_memory_mb": [
+      5600
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1300
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.02006061056815862,
+      0.12931464407050391,
+      0.9573796805168154,
+      0.8650261967364273
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1690
+    ],
+    "run_cpu_pct": [
+      461.8
+    ],
+    "run_peak_memory_mb": [
+      57800
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.08113922094402438,
+      0.8238160572341533,
+      0.11297522009373108,
+      0.8194753226365348
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1640
+    ],
+    "run_cpu_pct": [
+      470.5
+    ],
+    "run_peak_memory_mb": [
+      57900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.08157741536587937,
+      0.49134545482592046,
+      0.22641004802032716,
+      0.7215634253118961
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1098
+    ],
+    "run_cpu_pct": [
+      268.3
+    ],
+    "run_peak_memory_mb": [
+      1600
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.054014214833648676,
+      0.5319323888424623,
+      0.1438050653957799,
+      0.8804798806051484
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "Default",
+    "paramset": {
+      "raw": "Default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1159
+    ],
+    "run_cpu_pct": [
+      321.7
+    ],
+    "run_peak_memory_mb": [
+      14000
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.12085184011984042,
+      0.5166689231461161,
+      -0.02928418665274654,
+      0.8133571070710979
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1228
+    ],
+    "run_cpu_pct": [
+      308.4
+    ],
+    "run_peak_memory_mb": [
+      1900
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1100
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      -0.07029128143732623,
+      0.5546397986010992,
+      -0.011101083509361244,
+      0.9016957423500738
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "zebrafish_labs",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1869
+    ],
+    "run_cpu_pct": [
+      413.3
+    ],
+    "run_peak_memory_mb": [
+      1700
+    ],
+    "run_disk_read_mb": [
+      1200
+    ],
+    "run_disk_write_mb": [
+      1500
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.06381012600750173,
+      0.5027935935598933,
+      0.16442096207926507,
+      0.7857557454382895
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "phate",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      348
+    ],
+    "run_cpu_pct": [
+      144.7
+    ],
+    "run_peak_memory_mb": [
+      496
+    ],
+    "run_disk_read_mb": [
+      144.3
+    ],
+    "run_disk_write_mb": [
+      98.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9705021555157789,
+      0.167819517666295,
+      0.3169923683210016,
+      -0.07883409836125786,
+      0.38888538419295177,
+      0.6851165567227572,
+      0.47813304800407985,
+      0.4359978461990308,
+      0.6606961635874358,
+      0.9545256330970616
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "phate",
+    "paramset_name": "gamma=0",
+    "paramset": {
+      "raw": "gamma=0"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      358
+    ],
+    "run_cpu_pct": [
+      158
+    ],
+    "run_peak_memory_mb": [
+      549.5
+    ],
+    "run_disk_read_mb": [
+      144.3
+    ],
+    "run_disk_write_mb": [
+      124.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9707780060380008,
+      0.0426776283588126,
+      0.35676866524694634,
+      -0.05802488242925698,
+      0.3787037796112297,
+      0.7079512235817006,
+      0.47315408777472673,
+      0.42581624161730874,
+      0.6801773342763336,
+      0.9536747379604522
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      368
+    ],
+    "run_cpu_pct": [
+      142.5
+    ],
+    "run_peak_memory_mb": [
+      578.5
+    ],
+    "run_disk_read_mb": [
+      151.4
+    ],
+    "run_disk_write_mb": [
+      126.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9592862089080934,
+      0.06619741347882506,
+      0.5337603102375664,
+      0.32261193440836244,
+      0.412234544700074,
+      0.7303450160348378,
+      0.4646754217723275,
+      0.459347006706153,
+      0.7005527243119782,
+      0.9487731316302744
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "phate",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      329
+    ],
+    "run_cpu_pct": [
+      153.9
+    ],
+    "run_peak_memory_mb": [
+      549.4
+    ],
+    "run_disk_read_mb": [
+      144.3
+    ],
+    "run_disk_write_mb": [
+      124.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9692702206461216,
+      0.21755080650743844,
+      0.3212803754618699,
+      -0.16177336574129209,
+      0.3738087774084787,
+      0.6953738049039605,
+      0.4694908393680646,
+      0.4209212394145577,
+      0.668682291530368,
+      0.9530588459159888
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "phate",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      329
+    ],
+    "run_cpu_pct": [
+      190.9
+    ],
+    "run_peak_memory_mb": [
+      404.3
+    ],
+    "run_disk_read_mb": [
+      145.9
+    ],
+    "run_disk_write_mb": [
+      126.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9684069698595695,
+      0.09953702590905986,
+      0.3876599395768561,
+      0.17426569652479404,
+      0.38903223425903427,
+      0.6918617383058531,
+      0.48039676214460797,
+      0.4361446962651133,
+      0.6662604438566478,
+      0.9525438054009483
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "Default",
+    "paramset": {
+      "raw": "Default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      409
+    ],
+    "run_cpu_pct": [
+      152
+    ],
+    "run_peak_memory_mb": [
+      2100
+    ],
+    "run_disk_read_mb": [
+      151.3
+    ],
+    "run_disk_write_mb": [
+      98.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9815053877761506,
+      -0.21191037355441583,
+      0.4060986573874123,
+      0.029900124383106828,
+      0.47479267285123167,
+      0.7130091071216919,
+      0.4838642810688071,
+      0.5219051348573107,
+      0.691429612570016,
+      0.9567868639297211
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      359
+    ],
+    "run_cpu_pct": [
+      36.5
+    ],
+    "run_peak_memory_mb": [
+      420.5
+    ],
+    "run_disk_read_mb": [
+      145.5
+    ],
+    "run_disk_write_mb": [
+      98.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9620494688299043,
+      -0.1500247681380758,
+      0.08645641863832679,
+      -0.318028085011258,
+      0.36749422456692993,
+      0.646863529491731,
+      0.4592497746303246,
+      0.414606686573009,
+      0.6242050645955313,
+      0.8992829392829392
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "umap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      388
+    ],
+    "run_cpu_pct": [
+      61.7
+    ],
+    "run_peak_memory_mb": [
+      469.5
+    ],
+    "run_disk_read_mb": [
+      146.7
+    ],
+    "run_disk_write_mb": [
+      99
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9779192530413708,
+      -0.07152662132029089,
+      0.37744797212724324,
+      0.004701070464788637,
+      0.4586881156041808,
+      0.7098825416811655,
+      0.5236750007750972,
+      0.5058005776102599,
+      0.6879283460621604,
+      0.9610963639535068
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      8.2
+    ],
+    "run_peak_memory_mb": [
+      377.9
+    ],
+    "run_disk_read_mb": [
+      144
+    ],
+    "run_disk_write_mb": [
+      392.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.9611380924779107,
+      0.029549848453613733,
+      0.9544049886767738,
+      1.0015174506828526,
+      1.0015174506828528,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      409
+    ],
+    "run_cpu_pct": [
+      22
+    ],
+    "run_peak_memory_mb": [
+      363.4
+    ],
+    "run_disk_read_mb": [
+      145.5
+    ],
+    "run_disk_write_mb": [
+      126.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9645329809347458,
+      0.3514825346199668,
+      0.3460843200086952,
+      0.3861922431915667,
+      0.42016444826853055,
+      0.704172198881241,
+      0.4845682251537272,
+      0.4672769102746096,
+      0.6785794114412742,
+      0.9467851196422625
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "umap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      400
+    ],
+    "run_cpu_pct": [
+      61.9
+    ],
+    "run_peak_memory_mb": [
+      425.7
+    ],
+    "run_disk_read_mb": [
+      146.8
+    ],
+    "run_disk_write_mb": [
+      127.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9568122062024355,
+      -0.2251886683260934,
+      0.19503525515461018,
+      -0.08239346347121977,
+      0.3995075389729214,
+      0.6573225262114616,
+      0.4295622437588459,
+      0.44662000097900045,
+      0.6350078100711157,
+      0.9432878232878232
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      263.3
+    ],
+    "run_peak_memory_mb": [
+      925.2
+    ],
+    "run_disk_read_mb": [
+      153.1
+    ],
+    "run_disk_write_mb": [
+      187.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8559969856763505,
+      0.26076100076425934,
+      0.2681154789160219,
+      0.09883422450242849,
+      0.23958781700904655,
+      0.6455688270362484,
+      0.294488114087244,
+      0.28670027901512557,
+      0.6074865428456495,
+      0.7725832897261469
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "spectral_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      68.3
+    ],
+    "run_peak_memory_mb": [
+      448.7
+    ],
+    "run_disk_read_mb": [
+      146.7
+    ],
+    "run_disk_write_mb": [
+      102.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.45290516821815374,
+      0.1486816799426257,
+      0.06750575053211745,
+      0.9999999999999999,
+      0.03972487707072355,
+      0.6533477698750155,
+      0.2279697689516882,
+      0.08683733907680258,
+      0.5315450405947634,
+      0.8488823874538161
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      439
+    ],
+    "run_cpu_pct": [
+      32.6
+    ],
+    "run_peak_memory_mb": [
+      468.1
+    ],
+    "run_disk_read_mb": [
+      146.1
+    ],
+    "run_disk_write_mb": [
+      99
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9817076573735414,
+      0.2878757164851881,
+      0.5160227473809443,
+      0.07268284188378797,
+      0.5069528373233058,
+      0.7340475009060694,
+      0.530123515588229,
+      0.5540652993293848,
+      0.7133193781805596,
+      0.9644365158650873
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      490
+    ],
+    "run_cpu_pct": [
+      7.4
+    ],
+    "run_peak_memory_mb": [
+      232.6
+    ],
+    "run_disk_read_mb": [
+      144
+    ],
+    "run_disk_write_mb": [
+      98.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.5372681928057186,
+      -0.010872594460691942,
+      0.010759564817996052,
+      -0.0003312502940998738,
+      -0.0005609910579170985,
+      0.6122092290887652,
+      0.11406789970876863,
+      0.04655147094816193,
+      0.5022631042796226,
+      0.5017918589347161
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      459
+    ],
+    "run_cpu_pct": [
+      35
+    ],
+    "run_peak_memory_mb": [
+      428.6
+    ],
+    "run_disk_read_mb": [
+      146.2
+    ],
+    "run_disk_write_mb": [
+      127.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9601700374109118,
+      0.23165126617754717,
+      0.18956620854512649,
+      -0.12380643743722608,
+      0.40484309137392,
+      0.6555818944280952,
+      0.43497019697805406,
+      0.45195555337999904,
+      0.6339640025232073,
+      0.9449231720660292
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      469
+    ],
+    "run_cpu_pct": [
+      36.8
+    ],
+    "run_peak_memory_mb": [
+      433.2
+    ],
+    "run_disk_read_mb": [
+      146.2
+    ],
+    "run_disk_write_mb": [
+      127.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9719473503540147,
+      0.24713936203972628,
+      0.317068854508422,
+      0.15216118895051725,
+      0.43338095421595824,
+      0.6839939306046984,
+      0.49663267183345444,
+      0.4804934162220373,
+      0.6619345696648167,
+      0.9561340247054533
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      540
+    ],
+    "run_cpu_pct": [
+      28.1
+    ],
+    "run_peak_memory_mb": [
+      426.3
+    ],
+    "run_disk_read_mb": [
+      146.8
+    ],
+    "run_disk_write_mb": [
+      127.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9702181206745875,
+      -0.15319561033061904,
+      0.43442666846421407,
+      0.17932345312640402,
+      0.39843063848831617,
+      0.7051047463720447,
+      0.48864771147970526,
+      0.4455431004943952,
+      0.6785731657846525,
+      0.9527420198848771
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "diffusion_maps",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      314.5
+    ],
+    "run_peak_memory_mb": [
+      451.2
+    ],
+    "run_disk_read_mb": [
+      146.7
+    ],
+    "run_disk_write_mb": [
+      99
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7921179863893997,
+      0.19827402168596175,
+      0.31309691286326935,
+      0.11369685995483236,
+      0.21095205412295323,
+      0.680369256618647,
+      0.35139988354492596,
+      0.25806451612903225,
+      0.6365380836649716,
+      0.9024156795585367
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      519
+    ],
+    "run_cpu_pct": [
+      194
+    ],
+    "run_peak_memory_mb": [
+      568.7
+    ],
+    "run_disk_read_mb": [
+      146.2
+    ],
+    "run_disk_write_mb": [
+      143.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9775268734062013,
+      0.09598382260880152,
+      0.22173344137937634,
+      -0.09863912138905212,
+      0.476652773688277,
+      0.6746526373807565,
+      0.5111512417342459,
+      0.5237652356943561,
+      0.6571608385516521,
+      0.9601937744794887
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      569
+    ],
+    "run_cpu_pct": [
+      233.4
+    ],
+    "run_peak_memory_mb": [
+      573.7
+    ],
+    "run_disk_read_mb": [
+      146.8
+    ],
+    "run_disk_write_mb": [
+      143.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9731326735784929,
+      0.09544728271396066,
+      0.28922312671313494,
+      -0.03884645218362127,
+      0.45085611207977927,
+      0.68734346100184,
+      0.5081839641316577,
+      0.4979685740858583,
+      0.6662549864142312,
+      0.9621208949780379
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      589
+    ],
+    "run_cpu_pct": [
+      65.7
+    ],
+    "run_peak_memory_mb": [
+      598.5
+    ],
+    "run_disk_read_mb": [
+      153.8
+    ],
+    "run_disk_write_mb": [
+      127.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9713914402312437,
+      -0.24187070546966044,
+      0.4300462836840083,
+      0.26632802627214885,
+      0.4191854478279804,
+      0.7075508026110713,
+      0.4889910556928355,
+      0.46629790983405944,
+      0.6817545875500444,
+      0.9542141984999127
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      619
+    ],
+    "run_cpu_pct": [
+      156.6
+    ],
+    "run_peak_memory_mb": [
+      793.2
+    ],
+    "run_disk_read_mb": [
+      153.3
+    ],
+    "run_disk_write_mb": [
+      126.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7448496470453985,
+      0.36891918507473026,
+      0.30993516327981985,
+      0.4332851689855232,
+      0.23175581348464494,
+      0.683611100877959,
+      0.31180466093532383,
+      0.27886827549072396,
+      0.6403406595660729,
+      0.8395677338534482
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      649
+    ],
+    "run_cpu_pct": [
+      379
+    ],
+    "run_peak_memory_mb": [
+      533.299999
+    ],
+    "run_disk_read_mb": [
+      145.1
+    ],
+    "run_disk_write_mb": [
+      98.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9797591658916247,
+      -0.03595764809342259,
+      0.25935996241299325,
+      0.014810040599090085,
+      0.49314893111154784,
+      0.6882848795990967,
+      0.529669462597654,
+      0.5402613931176269,
+      0.6710334280755138,
+      0.9659294673580388
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      759
+    ],
+    "run_cpu_pct": [
+      208
+    ],
+    "run_peak_memory_mb": [
+      834.6
+    ],
+    "run_disk_read_mb": [
+      153.7
+    ],
+    "run_disk_write_mb": [
+      188.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9775383314527587,
+      -0.1349279699906858,
+      0.422856824568288,
+      0.026423646222366756,
+      0.46035241635311624,
+      0.7143292592656475,
+      0.5088054659623971,
+      0.5074648783591953,
+      0.6916254878654029,
+      0.962006882006882
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "olsson_2016_mouse_blood",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      819
+    ],
+    "run_cpu_pct": [
+      157
+    ],
+    "run_peak_memory_mb": [
+      403.5
+    ],
+    "run_disk_read_mb": [
+      145.2
+    ],
+    "run_disk_write_mb": [
+      126.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9722317749246809,
+      -0.1736549125333223,
+      0.4341928330408978,
+      0.287808928428612,
+      0.4400871072337271,
+      0.7179587338114828,
+      0.5031515795339648,
+      0.4871995692398062,
+      0.6926047376588864,
+      0.9563652220795078
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      358
+    ],
+    "run_cpu_pct": [
+      281
+    ],
+    "run_peak_memory_mb": [
+      758.9
+    ],
+    "run_disk_read_mb": [
+      270
+    ],
+    "run_disk_write_mb": [
+      288.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8341442420945051,
+      0.29374576792067136,
+      0.34373880264033396,
+      0.06400742317600898,
+      0.03199867658236505,
+      0.7556705574430214,
+      0.37132649698045556,
+      0.03790906743079212,
+      0.6551500541986007,
+      0.7773791056665453
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      309
+    ],
+    "run_cpu_pct": [
+      78.9
+    ],
+    "run_peak_memory_mb": [
+      472.4
+    ],
+    "run_disk_read_mb": [
+      264.1
+    ],
+    "run_disk_write_mb": [
+      288.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7995459704559605,
+      0.20019715545277286,
+      0.35837919569477433,
+      0.04496090956098165,
+      0.023187047445572657,
+      0.7431814059085498,
+      0.33963091739172707,
+      0.02909743829399973,
+      0.6327933762453487,
+      0.7265982783326538
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "phate",
+    "paramset_name": "gamma=0",
+    "paramset": {
+      "raw": "gamma=0"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      388
+    ],
+    "run_cpu_pct": [
+      247.9
+    ],
+    "run_peak_memory_mb": [
+      775.7
+    ],
+    "run_disk_read_mb": [
+      262.8
+    ],
+    "run_disk_write_mb": [
+      287.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8441658341435712,
+      0.23636062103616096,
+      0.36486337099247246,
+      0.07278042241161194,
+      0.035761912473305,
+      0.7460112347832151,
+      0.37187428162549885,
+      0.04167230332173207,
+      0.6478764013238355,
+      0.8046493205043004
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "phate",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      398
+    ],
+    "run_cpu_pct": [
+      239.5
+    ],
+    "run_peak_memory_mb": [
+      727.6
+    ],
+    "run_disk_read_mb": [
+      262.8
+    ],
+    "run_disk_write_mb": [
+      217.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8564006981815554,
+      0.1285982578129518,
+      0.42034298124408676,
+      0.0500137549990183,
+      0.03951899928599178,
+      0.752345333078702,
+      0.4012532345209592,
+      0.04542939013441885,
+      0.6542956436219146,
+      0.8082295938474967
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      359
+    ],
+    "run_cpu_pct": [
+      100
+    ],
+    "run_peak_memory_mb": [
+      545.7
+    ],
+    "run_disk_read_mb": [
+      264
+    ],
+    "run_disk_write_mb": [
+      217.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8163341237679632,
+      0.4650268586557361,
+      0.7678979166042642,
+      -0.008135516488349533,
+      0.023316178088889222,
+      0.7983089491088567,
+      0.35734733908398836,
+      0.029226568937316295,
+      0.6891914583494676,
+      0.7764486267122864
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      8.1
+    ],
+    "run_peak_memory_mb": [
+      819.1
+    ],
+    "run_disk_read_mb": [
+      262.5
+    ],
+    "run_disk_write_mb": [
+      633.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.9672666868404226,
+      -0.12795788058315677,
+      0.9942802305774212,
+      1.000190621425848,
+      1.0001906214258482,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "phate",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      409
+    ],
+    "run_cpu_pct": [
+      198.9
+    ],
+    "run_peak_memory_mb": [
+      777.3
+    ],
+    "run_disk_read_mb": [
+      262.8
+    ],
+    "run_disk_write_mb": [
+      287.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8239128420805042,
+      0.260741619898854,
+      0.32641151109675237,
+      0.05017648445745504,
+      0.03607551546421666,
+      0.7065107763336869,
+      0.34605164722414716,
+      0.041985906312643734,
+      0.6182955357958898,
+      0.8018499790784457
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      150.8
+    ],
+    "run_peak_memory_mb": [
+      589.5
+    ],
+    "run_disk_read_mb": [
+      264.899999
+    ],
+    "run_disk_write_mb": [
+      227.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8615137493094962,
+      0.6919140830336591,
+      0.4592446336182224,
+      0.08029600404441498,
+      0.04479490842721151,
+      0.7586779995524011,
+      0.40469780310363124,
+      0.050705299275638584,
+      0.6676500783243556,
+      0.8172182786965069
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "Default",
+    "paramset": {
+      "raw": "Default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      498
+    ],
+    "run_cpu_pct": [
+      164.1
+    ],
+    "run_peak_memory_mb": [
+      2700
+    ],
+    "run_disk_read_mb": [
+      269.8
+    ],
+    "run_disk_write_mb": [
+      217.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7456242764147334,
+      -0.03583587071907769,
+      0.4860356499620706,
+      0.07570273489423172,
+      0.0208934412571403,
+      0.7476801919470712,
+      0.36095820699465214,
+      0.026803832105567374,
+      0.6556768909149002,
+      0.7943802958748494
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      490
+    ],
+    "run_cpu_pct": [
+      6.8
+    ],
+    "run_peak_memory_mb": [
+      234.8
+    ],
+    "run_disk_read_mb": [
+      262.5
+    ],
+    "run_disk_write_mb": [
+      217.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.5145321608524822,
+      0.002173369550151451,
+      -0.0002702000012448112,
+      -0.008009217004634707,
+      0.00007266229190719051,
+      0.7621854673283989,
+      0.26251425867981876,
+      0.005983053140334264,
+      0.5005342950149337,
+      0.4998542617463996
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "diffusion_maps",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      459
+    ],
+    "run_cpu_pct": [
+      223.4
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      265.3
+    ],
+    "run_disk_write_mb": [
+      219.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.2779861206283606,
+      0.14003527813472771,
+      0.6999202900439911,
+      0.09567382028735377,
+      0.0051702481637849965,
+      0.8011257712638653,
+      0.3572827899688667,
+      0.01108063901221207,
+      0.6829165458464825,
+      0.7660127939123287
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "umap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      460
+    ],
+    "run_cpu_pct": [
+      92.9
+    ],
+    "run_peak_memory_mb": [
+      602.7
+    ],
+    "run_disk_read_mb": [
+      265.5
+    ],
+    "run_disk_write_mb": [
+      290.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8171909916321952,
+      0.04161782207601367,
+      0.43000233481619354,
+      0.05392684442927117,
+      0.036450609237660025,
+      0.7592766731513855,
+      0.3573657871302471,
+      0.0423610000860871,
+      0.6532436806851721,
+      0.7697395570506611
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "phate",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      315.8
+    ],
+    "run_peak_memory_mb": [
+      760.6
+    ],
+    "run_disk_read_mb": [
+      264.5
+    ],
+    "run_disk_write_mb": [
+      288.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8015175170496017,
+      0.10599281850403282,
+      0.361712790141721,
+      0.07359190863876008,
+      0.03264432979894789,
+      0.755777148408731,
+      0.38203962597712343,
+      0.03855472064737496,
+      0.6514031121586745,
+      0.774057034268251
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      529
+    ],
+    "run_cpu_pct": [
+      69.5
+    ],
+    "run_peak_memory_mb": [
+      588.3
+    ],
+    "run_disk_read_mb": [
+      265
+    ],
+    "run_disk_write_mb": [
+      289.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8260561124437782,
+      0.5164023156969215,
+      0.28923315096806484,
+      0.06834299028830336,
+      0.03849825229596558,
+      0.7263294683246179,
+      0.36398347967688843,
+      0.044408643144392655,
+      0.6341961029088125,
+      0.7918788056822961
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      75.6
+    ],
+    "run_peak_memory_mb": [
+      630.4
+    ],
+    "run_disk_read_mb": [
+      264.899999
+    ],
+    "run_disk_write_mb": [
+      290.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8391240215316077,
+      0.6319219213970072,
+      0.3820318671321483,
+      0.09459332536849739,
+      0.038430612435180714,
+      0.7408711233796053,
+      0.3808583664151692,
+      0.04434100328360779,
+      0.6468559770304433,
+      0.7936702496470187
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      549
+    ],
+    "run_cpu_pct": [
+      206
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      264.7
+    ],
+    "run_disk_write_mb": [
+      219.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8607816222480561,
+      0.850036369323712,
+      0.7530227463329402,
+      -0.0244847847600284,
+      0.0229533824719522,
+      0.796451807630414,
+      0.3925269129363558,
+      0.028863773320379274,
+      0.7021188435563059,
+      0.7717546369139885
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      599
+    ],
+    "run_cpu_pct": [
+      74.4
+    ],
+    "run_peak_memory_mb": [
+      566.3
+    ],
+    "run_disk_read_mb": [
+      265.6
+    ],
+    "run_disk_write_mb": [
+      289.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8199400010321962,
+      0.07969608036437358,
+      0.2972611063973223,
+      0.06045089770169315,
+      0.03738526913214184,
+      0.7173385072261101,
+      0.3441937873611347,
+      0.04329565998056891,
+      0.626302822853167,
+      0.7847531169029912
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "spectral_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      628
+    ],
+    "run_cpu_pct": [
+      282.6
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      265.3
+    ],
+    "run_disk_write_mb": [
+      259.399999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.13093968563105685,
+      -0.08133905380746581,
+      -0.05621033694140466,
+      0.48576405434087655,
+      -0.003426163234146454,
+      0.49014419205291265,
+      0.0028487313085101876,
+      0.0024842276142806193,
+      0.5,
+      0.536554299289426
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      669
+    ],
+    "run_cpu_pct": [
+      262.4
+    ],
+    "run_peak_memory_mb": [
+      972.1
+    ],
+    "run_disk_read_mb": [
+      272.4
+    ],
+    "run_disk_write_mb": [
+      289
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8337126994289634,
+      0.10934455270436676,
+      0.35613259680208403,
+      0.06577985008564416,
+      0.03899017855621917,
+      0.7579076371370325,
+      0.3665400237367447,
+      0.04490056940464624,
+      0.6557011706730486,
+      0.779722093560257
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      669
+    ],
+    "run_cpu_pct": [
+      284.5
+    ],
+    "run_peak_memory_mb": [
+      784
+    ],
+    "run_disk_read_mb": [
+      263.7
+    ],
+    "run_disk_write_mb": [
+      289.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8208599078553254,
+      0.2314088385109042,
+      0.2364329839095001,
+      0.07226561206547084,
+      0.04210776123057629,
+      0.7069576312826993,
+      0.3373192263707476,
+      0.04801815207900336,
+      0.6214330524225248,
+      0.795266003383834
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "umap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      659
+    ],
+    "run_cpu_pct": [
+      181.7
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      265.3
+    ],
+    "run_disk_write_mb": [
+      219.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8686473722229497,
+      -0.035565075538901536,
+      0.7396804727169622,
+      -0.04474541538360272,
+      0.0250748144692958,
+      0.8111731976966192,
+      0.3543757014670658,
+      0.030985205317722874,
+      0.68107418500464,
+      0.7659162633880192
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      699
+    ],
+    "run_cpu_pct": [
+      238.9
+    ],
+    "run_peak_memory_mb": [
+      593.5
+    ],
+    "run_disk_read_mb": [
+      265.5
+    ],
+    "run_disk_write_mb": [
+      227.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8543034545238639,
+      0.10503353410817927,
+      0.4753686572052083,
+      0.03057219834562001,
+      0.042962483107766895,
+      0.770211706669984,
+      0.4105538944188598,
+      0.04887287395619397,
+      0.6675735627235397,
+      0.8187788559115381
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      810
+    ],
+    "run_cpu_pct": [
+      214.1
+    ],
+    "run_peak_memory_mb": [
+      978.6
+    ],
+    "run_disk_read_mb": [
+      272.2
+    ],
+    "run_disk_write_mb": [
+      235.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.860368981955185,
+      0.08063418946577261,
+      0.3480877336748559,
+      0.08776113179192052,
+      0.042765712603665455,
+      0.7417917744276351,
+      0.39286725903754005,
+      0.04867610345209253,
+      0.6506730587913442,
+      0.8162456088327972
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1082
+    ],
+    "run_cpu_pct": [
+      213.9
+    ],
+    "run_peak_memory_mb": [
+      773
+    ],
+    "run_disk_read_mb": [
+      263.7
+    ],
+    "run_disk_write_mb": [
+      218.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8394185358498749,
+      0.1213421031043257,
+      0.5532706355877076,
+      0.049178517180248286,
+      0.04716845263293507,
+      0.7813018028893062,
+      0.35154421003821396,
+      0.053078843481362145,
+      0.6790624554242476,
+      0.82914695268635
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      996
+    ],
+    "run_cpu_pct": [
+      315.2
+    ],
+    "run_peak_memory_mb": [
+      16200
+    ],
+    "run_disk_read_mb": [
+      271.8
+    ],
+    "run_disk_write_mb": [
+      288.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7808171373902998,
+      0.2894531182325858,
+      0.3984216789026784,
+      0.049977488256770175,
+      0.022898040767673673,
+      0.7551563685361228,
+      0.3290451106214162,
+      0.028808431616100746,
+      0.6436305111444732,
+      0.7412917009481487
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "tenx_5k_pbmc",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1366
+    ],
+    "run_cpu_pct": [
+      623.4
+    ],
+    "run_peak_memory_mb": [
+      16200
+    ],
+    "run_disk_read_mb": [
+      271.7
+    ],
+    "run_disk_write_mb": [
+      235
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.8197732566599676,
+      0.5135286488564316,
+      0.7841867626784147,
+      0.016023097322556776,
+      0.027399166048994006,
+      0.8105079812814376,
+      0.35093520848544657,
+      0.03330955689742108,
+      0.7041442285366543,
+      0.7855455092207093
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      391
+    ],
+    "run_cpu_pct": [
+      59.5
+    ],
+    "run_peak_memory_mb": [
+      798
+    ],
+    "run_disk_read_mb": [
+      580.4
+    ],
+    "run_disk_write_mb": [
+      534.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.5203336801191846,
+      -0.034603076287289425,
+      -0.01408376573200678,
+      -0.0009056860891365706,
+      -0.0003782387122470976,
+      0.49919277539565343,
+      0.0028809647882081443,
+      0.015784430735093884,
+      0.5,
+      0.5021958831195454
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      399
+    ],
+    "run_cpu_pct": [
+      41.9
+    ],
+    "run_peak_memory_mb": [
+      946.2
+    ],
+    "run_disk_read_mb": [
+      580.4
+    ],
+    "run_disk_write_mb": [
+      851.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      1,
+      1,
+      0.954792518139094,
+      0.3090035857970462,
+      0.9843584352947122,
+      1.0005211047420528,
+      1.0005211047420532,
+      1,
+      1,
+      1
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      399
+    ],
+    "run_cpu_pct": [
+      104.9
+    ],
+    "run_peak_memory_mb": [
+      972.5
+    ],
+    "run_disk_read_mb": [
+      581.9
+    ],
+    "run_disk_write_mb": [
+      534.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6107849645896649,
+      -0.17222351066902133,
+      0.1259773863768856,
+      -0.22940175053679313,
+      0.05447223784644443,
+      0.5645799631792356,
+      0.14719569752489148,
+      0.07063490729378541,
+      0.524304596585558,
+      0.6196461335149066
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      409
+    ],
+    "run_cpu_pct": [
+      145.9
+    ],
+    "run_peak_memory_mb": [
+      915.9
+    ],
+    "run_disk_read_mb": [
+      587.9
+    ],
+    "run_disk_write_mb": [
+      707
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6733925190129153,
+      0.18080537122544946,
+      0.05942527987504241,
+      -0.1558552736857561,
+      0.051547327358791244,
+      0.5817163403876294,
+      0.15864679590132474,
+      0.06770999680613222,
+      0.5335990974935103,
+      0.6276025010250103
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      409
+    ],
+    "run_cpu_pct": [
+      75.2
+    ],
+    "run_peak_memory_mb": [
+      924.6
+    ],
+    "run_disk_read_mb": [
+      590.2
+    ],
+    "run_disk_write_mb": [
+      707.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.654276144842046,
+      0.22177933341742545,
+      0.054427574260618214,
+      -0.13780379148143376,
+      0.0560691717333815,
+      0.5742167505232803,
+      0.16611642119681,
+      0.07223184118072248,
+      0.5271753499752546,
+      0.641364270339132
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      86.8
+    ],
+    "run_peak_memory_mb": [
+      798.4
+    ],
+    "run_disk_read_mb": [
+      583.3
+    ],
+    "run_disk_write_mb": [
+      707.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6434020454144634,
+      0.12824968132681458,
+      0.02375653277017379,
+      -0.1189855003459163,
+      0.056506227323490595,
+      0.5684960374384782,
+      0.1688484162746183,
+      0.07266889677083158,
+      0.5222239062503852,
+      0.6428286988227025
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      420
+    ],
+    "run_cpu_pct": [
+      146.4
+    ],
+    "run_peak_memory_mb": [
+      796.4
+    ],
+    "run_disk_read_mb": [
+      581.6
+    ],
+    "run_disk_write_mb": [
+      707.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6583684481905357,
+      0.19483817676449044,
+      0.07288326364000602,
+      -0.07936180629988661,
+      0.057296289351764736,
+      0.5861219930491698,
+      0.167098860082565,
+      0.07345895879910572,
+      0.5388999451803659,
+      0.6489684187020441
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      419
+    ],
+    "run_cpu_pct": [
+      27.9
+    ],
+    "run_peak_memory_mb": [
+      797.3
+    ],
+    "run_disk_read_mb": [
+      582
+    ],
+    "run_disk_write_mb": [
+      707
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6117360288228759,
+      0.0336617782910889,
+      -0.05269839389694397,
+      -0.24037185820011087,
+      0.041142042348117004,
+      0.5611869516750958,
+      0.15428139069002217,
+      0.057304711795457985,
+      0.5041144886813559,
+      0.5998460837286944
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      430
+    ],
+    "run_cpu_pct": [
+      393.4
+    ],
+    "run_peak_memory_mb": [
+      2900
+    ],
+    "run_disk_read_mb": [
+      589.7
+    ],
+    "run_disk_write_mb": [
+      707
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6023767372888479,
+      0.1593181993837024,
+      0.1017773909032256,
+      -0.2141231296160475,
+      0.04389885453188207,
+      0.5935199015194768,
+      0.16760765092034047,
+      0.06006152397922305,
+      0.5324210362574024,
+      0.6188148135945646
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "phate",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      440
+    ],
+    "run_cpu_pct": [
+      120.7
+    ],
+    "run_peak_memory_mb": [
+      868
+    ],
+    "run_disk_read_mb": [
+      580.7
+    ],
+    "run_disk_write_mb": [
+      534.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6480471500072225,
+      -0.5311760082734954,
+      -0.017548226074741706,
+      -0.23284489470201714,
+      0.07197127128119707,
+      0.5580546560369117,
+      0.16304326477209202,
+      0.08813394072853804,
+      0.521803978420759,
+      0.6621331561529901
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "phate",
+    "paramset_name": "gamma=0",
+    "paramset": {
+      "raw": "gamma=0"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      439
+    ],
+    "run_cpu_pct": [
+      350.5
+    ],
+    "run_peak_memory_mb": [
+      1000
+    ],
+    "run_disk_read_mb": [
+      580.7
+    ],
+    "run_disk_write_mb": [
+      706.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6029514678828247,
+      -0.2533200247674834,
+      -0.024360769833330662,
+      -0.27521075976629583,
+      0.06802096113982639,
+      0.5507423020588349,
+      0.14924818377582802,
+      0.08418363058716738,
+      0.5195439501703095,
+      0.6609290985767
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      449
+    ],
+    "run_cpu_pct": [
+      83.7
+    ],
+    "run_peak_memory_mb": [
+      796.6
+    ],
+    "run_disk_read_mb": [
+      582.6
+    ],
+    "run_disk_write_mb": [
+      707.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6189751715956033,
+      0.34521511370064095,
+      0.014328170162712246,
+      -0.17601590336747827,
+      0.04949652805135626,
+      0.5717099607469374,
+      0.1604756633978534,
+      0.06565919749869724,
+      0.5238740697689798,
+      0.6362730078193639
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "umap",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      449
+    ],
+    "run_cpu_pct": [
+      49.9
+    ],
+    "run_peak_memory_mb": [
+      798.1
+    ],
+    "run_disk_read_mb": [
+      583.2
+    ],
+    "run_disk_write_mb": [
+      707.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6489957568711606,
+      0.13542673708519534,
+      -0.0058216576447799855,
+      -0.1251182479471081,
+      0.05462352631994372,
+      0.5658145036273977,
+      0.16309991104800964,
+      0.0707861957672847,
+      0.5200263634112712,
+      0.6428296506179347
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      460
+    ],
+    "run_cpu_pct": [
+      94.1
+    ],
+    "run_peak_memory_mb": [
+      795.9
+    ],
+    "run_disk_read_mb": [
+      582.7
+    ],
+    "run_disk_write_mb": [
+      707.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6033636648678249,
+      0.2844998864189746,
+      -0.00616051608510657,
+      -0.1852821123528384,
+      0.04623542095592685,
+      0.5679244786177631,
+      0.16410615219396466,
+      0.06239809040326783,
+      0.521165383087599,
+      0.6357129495402096
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "spectral_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      478
+    ],
+    "run_cpu_pct": [
+      179.1
+    ],
+    "run_peak_memory_mb": [
+      998.7
+    ],
+    "run_disk_read_mb": [
+      583.1
+    ],
+    "run_disk_write_mb": [
+      549.8
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.9166355014073246,
+      0.27502292828550345,
+      0.1773735597633161,
+      0.7538056039138367,
+      0.009909377485705466,
+      0.6794708776569595,
+      0.266487336486209,
+      0.026072046933046447,
+      0.6132577895686779,
+      0.5011813426169975
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "densmap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      489
+    ],
+    "run_cpu_pct": [
+      192.1
+    ],
+    "run_peak_memory_mb": [
+      1015.9
+    ],
+    "run_disk_read_mb": [
+      582.6
+    ],
+    "run_disk_write_mb": [
+      552.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6435076855826644,
+      0.667540955887291,
+      0.23480359610390714,
+      -0.14152306948268983,
+      0.08620919762052032,
+      0.6026092645542567,
+      0.19243082803496653,
+      0.10237186706786129,
+      0.5642859658799794,
+      0.6879495768171967
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "phate",
+    "paramset_name": "default",
+    "paramset": {
+      "raw": "default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      499
+    ],
+    "run_cpu_pct": [
+      162.9
+    ],
+    "run_peak_memory_mb": [
+      1000
+    ],
+    "run_disk_read_mb": [
+      580.7
+    ],
+    "run_disk_write_mb": [
+      706.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6086947405317206,
+      -0.41265076804667883,
+      -0.03732191202459617,
+      -0.2741887943381206,
+      0.06687789267338723,
+      0.5465371997508813,
+      0.145358471567104,
+      0.0830405621207282,
+      0.5149508639546649,
+      0.6594729799976571
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "phate",
+    "paramset_name": "logCP10k, 1kHVG",
+    "paramset": {
+      "raw": "logCP10k, 1kHVG"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      267.7
+    ],
+    "run_peak_memory_mb": [
+      847.7
+    ],
+    "run_disk_read_mb": [
+      582.3
+    ],
+    "run_disk_write_mb": [
+      707
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6474063197412083,
+      -0.31246118106667264,
+      -0.022111737181328202,
+      -0.147737762936909,
+      0.0448233952032667,
+      0.581288343825227,
+      0.1703690954476109,
+      0.06098606465060768,
+      0.5247091193561906,
+      0.6245686903297605
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "umap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      509
+    ],
+    "run_cpu_pct": [
+      65.8
+    ],
+    "run_peak_memory_mb": [
+      998.3
+    ],
+    "run_disk_read_mb": [
+      583.1
+    ],
+    "run_disk_write_mb": [
+      535.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7440961614182482,
+      0.38683120471763527,
+      0.055300943055946655,
+      -0.16292409068413952,
+      0.07165188450380966,
+      0.5584964200882764,
+      0.1747232304037239,
+      0.08781455395115063,
+      0.5156785595482564,
+      0.6018279410472676
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "t_sne",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      519
+    ],
+    "run_cpu_pct": [
+      385.2
+    ],
+    "run_peak_memory_mb": [
+      970.3
+    ],
+    "run_disk_read_mb": [
+      581.6
+    ],
+    "run_disk_write_mb": [
+      534.799999
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6556181889914985,
+      0.3889158169313037,
+      0.17453210018209317,
+      -0.18998056047395676,
+      0.09456368332375956,
+      0.5833286923399452,
+      0.1748484503864728,
+      0.11072635277110054,
+      0.5502906970450281,
+      0.7029566237626662
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "densmap",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      519
+    ],
+    "run_cpu_pct": [
+      96.7
+    ],
+    "run_peak_memory_mb": [
+      994
+    ],
+    "run_disk_read_mb": [
+      582.5
+    ],
+    "run_disk_write_mb": [
+      535.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.7483046555964912,
+      0.6804168724088855,
+      0.2941303799876076,
+      -0.15914438347271687,
+      0.0717359336557537,
+      0.5902125315020653,
+      0.17345318070355473,
+      0.08789860310309469,
+      0.5519329598308843,
+      0.614004111023253
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "diffusion_maps",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      519
+    ],
+    "run_cpu_pct": [
+      87.7
+    ],
+    "run_peak_memory_mb": [
+      1000.9
+    ],
+    "run_disk_read_mb": [
+      583.1
+    ],
+    "run_disk_write_mb": [
+      535.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.37985825466665113,
+      -0.5478407001180856,
+      -0.08060284568108089,
+      -0.2812346955645607,
+      0.025441660764967178,
+      0.5399538245257879,
+      0.12882707148680556,
+      0.04160433021230816,
+      0.5,
+      0.581926012563697
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "umap_pca",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      559
+    ],
+    "run_cpu_pct": [
+      146.5
+    ],
+    "run_peak_memory_mb": [
+      1017.3
+    ],
+    "run_disk_read_mb": [
+      583.2
+    ],
+    "run_disk_write_mb": [
+      552.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.5789527906597745,
+      0.08256604676804714,
+      0.1345593566552109,
+      -0.22001490819390074,
+      0.09032760606577908,
+      0.5853998800185948,
+      0.18046907916622193,
+      0.10649027551312007,
+      0.549061833991428,
+      0.6928826948983775
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "pymde_preserve_neighbors",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      609
+    ],
+    "run_cpu_pct": [
+      188.8
+    ],
+    "run_peak_memory_mb": [
+      1100
+    ],
+    "run_disk_read_mb": [
+      590.1
+    ],
+    "run_disk_write_mb": [
+      569
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6334700621906741,
+      0.17906314557545616,
+      0.11908312556726759,
+      -0.19736690561028464,
+      0.08792380032017907,
+      0.576273214325328,
+      0.17187276141568758,
+      0.10408646976752005,
+      0.5427260288079563,
+      0.6854824503602179
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "pymde_preserve_distances",
+    "paramset_name": "logCP10k",
+    "paramset": {
+      "raw": "logCP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      828
+    ],
+    "run_cpu_pct": [
+      248.2
+    ],
+    "run_peak_memory_mb": [
+      2900
+    ],
+    "run_disk_read_mb": [
+      589.6
+    ],
+    "run_disk_write_mb": [
+      568.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6869267830030392,
+      0.3134220038252496,
+      0.4640401140639293,
+      -0.12419137661493244,
+      0.044419959273935224,
+      0.635694414799899,
+      0.14958750464121923,
+      0.060582628721276205,
+      0.5803567640666999,
+      0.6143815527440988
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_hspc_nestorowa2016",
+    "method_name": "neuralee_cpu",
+    "paramset_name": "Default",
+    "paramset": {
+      "raw": "Default"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      879
+    ],
+    "run_cpu_pct": [
+      158.8
+    ],
+    "run_peak_memory_mb": [
+      2400
+    ],
+    "run_disk_read_mb": [
+      587.8
+    ],
+    "run_disk_write_mb": [
+      534.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "continuity",
+      "density_preservation",
+      "distance_correlation",
+      "distance_correlation_spectral",
+      "lcmc",
+      "qglobal",
+      "qlocal",
+      "qnn",
+      "qnn_auc",
+      "trustworthiness"
+    ],
+    "metric_values": [
+      0.6856403768991903,
+      0.1173995851721911,
+      -0.008244208089518309,
+      -0.1302161149915364,
+      0.03394743494170573,
+      0.5626953350907891,
+      0.14955276647020646,
+      0.050110104389046714,
+      0.5144259048500062,
+      0.6006540846658466
+    ],
+    "metric_components": []
+  }
+]

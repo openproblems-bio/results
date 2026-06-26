@@ -1,0 +1,24 @@
+[
+  {
+    "name": "mouse_brain_atlas",
+    "label": "Mouse brain atlas",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "A murine brain atlas with adjacent cell types as assumed benchmark truth, inferred from deconvolution proportion correlations using matching 10x Visium slides (see Dimitrov et al., 2022). 14249 cells x 34617 features with 23 cell type labels.",
+    "description": "A murine brain atlas with adjacent cell types as assumed benchmark truth, inferred from deconvolution proportion correlations using matching 10x Visium slides (see Dimitrov et al., 2022). 14249 cells x 34617 features with 23 cell type labels.",
+    "source_urls": [
+      "https://figshare.com/ndownloader/files/36509385"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/allen_brain_atlas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

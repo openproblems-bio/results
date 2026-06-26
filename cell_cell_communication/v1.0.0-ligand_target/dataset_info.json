@@ -1,0 +1,24 @@
+[
+  {
+    "name": "tnbc_data",
+    "label": "Triple negative breast cancer atlas",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Human breast cancer atlas (Wu et al., 2021), with cytokine activities, inferred using a multivariate linear model with cytokine-focused signatures, as assumed true cell-cell communication (Dimitrov et al., 2022). 42512 cells x 28078 features with 29 cell types from 10 patients",
+    "description": "Human breast cancer atlas (Wu et al., 2021), with cytokine activities, inferred using a multivariate linear model with cytokine-focused signatures, as assumed true cell-cell communication (Dimitrov et al., 2022). 42512 cells x 28078 features with 29 cell types from 10 patients",
+    "source_urls": [
+      "https://figshare.com/ndownloader/files/37593188"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tnbc_wu2021"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

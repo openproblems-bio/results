@@ -1,0 +1,156 @@
+[
+  {
+    "name": "destvi",
+    "label": "DestVI",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "scRNA-seq is generated based on learn NB parameters from the destVI manuscripts leveraging sparsePCA. Number of cells and cell types present in each spatial spot is computed via combination of kernel-based parametrization of a categorical distribution and the NB model.",
+    "description": "scRNA-seq is generated based on learn NB parameters from the destVI manuscripts leveraging sparsePCA. Number of cells and cell types present in each spatial spot is computed via combination of kernel-based parametrization of a categorical distribution and the NB model.",
+    "source_urls": [
+      "https://github.com/romain-lopez/DestVI-reproducibility/blob/master/simulations/make_dataset.py"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/destvi"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_alpha_0_5",
+    "label": "Pancreas (alpha=0.5)",
+    "commit": "c2470ce02e6f196267cec1c554ba7ae389c0956a",
+    "summary": "Human pancreas cells aggregated from single-cell (Dirichlet alpha=0.5)",
+    "description": "Human pancreas cells aggregated from single-cell (Dirichlet alpha=0.5)",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_alpha_1",
+    "label": "Pancreas (alpha=1)",
+    "commit": "c2470ce02e6f196267cec1c554ba7ae389c0956a",
+    "summary": "Human pancreas cells aggregated from single-cell (Dirichlet alpha=1)",
+    "description": "Human pancreas cells aggregated from single-cell (Dirichlet alpha=1)",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "pancreas_alpha_5",
+    "label": "Pancreas (alpha=5)",
+    "commit": "c2470ce02e6f196267cec1c554ba7ae389c0956a",
+    "summary": "Human pancreas cells aggregated from single-cell (Dirichlet alpha=5)",
+    "description": "Human pancreas cells aggregated from single-cell (Dirichlet alpha=5)",
+    "source_urls": [
+      "https://ndownloader.figshare.com/files/36086813"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/pancreas"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "tabula_muris_senis_alpha_0_5",
+    "label": "Tabula muris senis (alpha=0.5)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Mouse lung cells aggregated from single-cell (Dirichlet alpha=0.5)",
+    "description": "Mouse lung cells aggregated from single-cell (Dirichlet alpha=0.5)",
+    "source_urls": [
+      "https://tabula-muris-senis.ds.czbiohub.org/"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tabula_muris_senis_droplet_lung"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "tabula_muris_senis_alpha_1",
+    "label": "Tabula muris senis (alpha=1)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Mouse lung cells aggregated from single-cell (Dirichlet alpha=1)",
+    "description": "Mouse lung cells aggregated from single-cell (Dirichlet alpha=1)",
+    "source_urls": [
+      "https://tabula-muris-senis.ds.czbiohub.org/"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tabula_muris_senis_droplet_lung"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  },
+  {
+    "name": "tabula_muris_senis_alpha_5",
+    "label": "Tabula muris senis (alpha=5)",
+    "commit": "9d1665076cf6215a31f89ed2be8be20a02502887",
+    "summary": "Mouse lung cells aggregated from single-cell (Dirichlet alpha=5)",
+    "description": "Mouse lung cells aggregated from single-cell (Dirichlet alpha=5)",
+    "source_urls": [
+      "https://tabula-muris-senis.ds.czbiohub.org/"
+    ],
+    "common_dataset_names": [
+      "openproblems_v1/tabula_muris_senis_droplet_lung"
+    ],
+    "modalities": null,
+    "organisms": [],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": null,
+    "file_size_mb": null
+  }
+]

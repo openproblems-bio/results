@@ -1,0 +1,338 @@
+[
+  {
+    "name": "k_neighbors_classifier",
+    "label": "K-neighbors classifier",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "K-neighbors classifier uses the \"k-nearest neighbours\" approach, which is a popular machine learning algorithm for classification and regression tasks. The assumption underlying KNN in this context is that cells with similar gene expression profiles tend to belong to the same cell type. For each unlabelled cell, this method computes the $k$ labelled cells (in this case, 5) with the smallest distance in PCA space, and assigns that cell the most common cell type among its $k$ nearest neighbors.",
+    "description": "K-neighbors classifier uses the \"k-nearest neighbours\" approach, which is a popular machine learning algorithm for classification and regression tasks. The assumption underlying KNN in this context is that cells with similar gene expression profiles tend to belong to the same cell type. For each unlabelled cell, this method computes the $k$ labelled cells (in this case, 5) with the smallest distance in PCA space, and assigns that cell the most common cell type among its $k$ nearest neighbors.",
+    "type": "method",
+    "link_code": "https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/knn_classifier.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{cover1967nearest,\n\ttitle = {Nearest neighbor pattern classification},\n\tauthor = {Cover, T. and Hart, P.},\n\tyear = {1967},\n\tdoi = {10.1109/tit.1967.1053964},\n\turl = {https://doi.org/10.1109/tit.1967.1053964}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Nearest neighbor pattern classification",
+      "paper_year": 1967,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log CP10k"
+        },
+        {
+          "name": "log scran"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "logistic_regression",
+    "label": "Logistic regression",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Logistic Regression estimates parameters of a logistic function for multivariate classification tasks. Here, we use 100-dimensional whitened PCA coordinates as independent variables, and the model minimises the cross entropy loss over all cell type classes. ",
+    "description": "Logistic Regression estimates parameters of a logistic function for multivariate classification tasks. Here, we use 100-dimensional whitened PCA coordinates as independent variables, and the model minimises the cross entropy loss over all cell type classes. ",
+    "type": "method",
+    "link_code": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/logistic_regression.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@book{hosmer2013applied,\n\ttitle = {Applied logistic regression},\n\tauthor = {Hosmer Jr, D. W. and Lemeshow, S. and Sturdivant, R. X.},\n\tyear = {2013}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Applied Logistic Regression",
+      "paper_year": 2013,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log CP10k"
+        },
+        {
+          "name": "log scran"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "majority_vote",
+    "label": "Majority Vote",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Assignment of all predicted labels as the most common label in the training data",
+    "description": "Assignment of all predicted labels as the most common label in the training data",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "multilayer_perceptron",
+    "label": "Multilayer perceptron",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "MLP or \"Multi-Layer Perceptron\" is a type of artificial neural network that consists of multiple layers of interconnected neurons. Each neuron computes a weighted sum of all neurons in the previous layer and transforms it with nonlinear activation function. The output layer provides the final prediction, and network weights are updated by gradient descent to minimize the cross entropy loss. Here, the input data is 100-dimensional whitened PCA coordinates for each cell, and we use two hidden layers of 100 neurons each.",
+    "description": "MLP or \"Multi-Layer Perceptron\" is a type of artificial neural network that consists of multiple layers of interconnected neurons. Each neuron computes a weighted sum of all neurons in the previous layer and transforms it with nonlinear activation function. The output layer provides the final prediction, and network weights are updated by gradient descent to minimize the cross entropy loss. Here, the input data is 100-dimensional whitened PCA coordinates for each cell, and we use two hidden layers of 100 neurons each.",
+    "type": "method",
+    "link_code": "https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/mlp.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{hinton1989connectionist,\n\ttitle = {Connectionist learning procedures},\n\tauthor = {Hinton, Geoffrey E.},\n\tyear = {1989},\n\tdoi = {10.1016/0004-3702(89)90049-0},\n\turl = {https://doi.org/10.1016/0004-3702(89)90049-0}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Connectionist learning procedures",
+      "paper_year": 1990,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log CP10k"
+        },
+        {
+          "name": "log scran"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "random_labels",
+    "label": "Random Labels",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Random assignment of predicted labels proportionate to label abundance in training data",
+    "description": "Random assignment of predicted labels proportionate to label abundance in training data",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "scanvi",
+    "label": "scANVI",
+    "commit": "cef4e5cac0b51d454d45e22e354988e77540c40d",
+    "summary": "scANVI or \"single-cell ANnotation using Variational Inference\" is a semi-supervised variant of the scVI(Lopez et al. 2018) algorithm. Like scVI, scANVI uses deep neural networks and stochastic optimization to model uncertainty caused by technical noise and bias in single - cell transcriptomics measurements. However, scANVI also leverages cell type labels in the generative modelling. In this approach, scANVI is used to predict the cell type labels of the unlabelled test data.",
+    "description": "scANVI or \"single-cell ANnotation using Variational Inference\" is a semi-supervised variant of the scVI(Lopez et al. 2018) algorithm. Like scVI, scANVI uses deep neural networks and stochastic optimization to model uncertainty caused by technical noise and bias in single - cell transcriptomics measurements. However, scANVI also leverages cell type labels in the generative modelling. In this approach, scANVI is used to predict the cell type labels of the unlabelled test data.",
+    "type": "method",
+    "link_code": "https://github.com/YosefLab/scvi-tools/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/scvi_tools.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{xu2021probabilistic,\n\ttitle = {Probabilistic harmonization and annotation of single-cell transcriptomics data with deep generative models},\n\tauthor = {Xu, Chenling and Lopez, Romain and Mehlman, Edouard and Regier, Jeffrey and Jordan, Michael I and Yosef, Nir},\n\tyear = {2021},\n\tdoi = {10.15252/msb.20209620},\n\turl = {https://doi.org/10.15252/msb.20209620}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Probabilistic harmonization and annotation of single-cell transcriptomics data with deep generative models",
+      "paper_year": 2021,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "All genes"
+        },
+        {
+          "name": "Seurat v3 2000 HVG"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "scarches_scanvi",
+    "label": "scArches+scANVI",
+    "commit": "cef4e5cac0b51d454d45e22e354988e77540c40d",
+    "summary": "scArches+scANVI or \"Single-cell architecture surgery\" is a deep learning method for mapping new datasets onto a pre-existing reference model, using transfer learning and parameter optimization. It first uses scANVI to build a reference model from the training data, and then apply scArches to map the test data onto the reference model and make predictions.",
+    "description": "scArches+scANVI or \"Single-cell architecture surgery\" is a deep learning method for mapping new datasets onto a pre-existing reference model, using transfer learning and parameter optimization. It first uses scANVI to build a reference model from the training data, and then apply scArches to map the test data onto the reference model and make predictions.",
+    "type": "method",
+    "link_code": "https://github.com/YosefLab/scvi-tools/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/scvi_tools.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{lotfollahi2020query,\n\ttitle = {Query to reference single-cell integration with transfer learning},\n\tauthor = {Lotfollahi, Mohammad and Naghipourfar, Mohsen and Luecken, Malte D. and Khajavi, Matin and Büttner, Maren and Avsec, Ziga and Misharin, Alexander V. and Theis, Fabian J.},\n\tyear = {2020},\n\tdoi = {10.1101/2020.07.16.205997},\n\turl = {https://doi.org/10.1101/2020.07.16.205997}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Query to reference single-cell integration with transfer learning",
+      "paper_year": 2021,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "All genes"
+        },
+        {
+          "name": "Seurat v3 2000 HVG"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "scarches_scanvi_xgboost",
+    "label": "scArches+scANVI+xgboost",
+    "commit": "cef4e5cac0b51d454d45e22e354988e77540c40d",
+    "summary": "scArches+scANVI or \"Single-cell architecture surgery\" is a deep learning method for mapping new datasets onto a pre-existing reference model, using transfer learning and parameter optimization. It first uses scANVI to build a reference model from the training data, and then apply scArches to map the test data onto the reference model and make predictions.",
+    "description": "scArches+scANVI or \"Single-cell architecture surgery\" is a deep learning method for mapping new datasets onto a pre-existing reference model, using transfer learning and parameter optimization. It first uses scANVI to build a reference model from the training data, and then apply scArches to map the test data onto the reference model and make predictions.",
+    "type": "method",
+    "link_code": "https://github.com/YosefLab/scvi-tools/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/scvi_tools.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-pytorch",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{lotfollahi2020query,\n\ttitle = {Query to reference single-cell integration with transfer learning},\n\tauthor = {Lotfollahi, Mohammad and Naghipourfar, Mohsen and Luecken, Malte D. and Khajavi, Matin and Büttner, Maren and Avsec, Ziga and Misharin, Alexander V. and Theis, Fabian J.},\n\tyear = {2020},\n\tdoi = {10.1101/2020.07.16.205997},\n\turl = {https://doi.org/10.1101/2020.07.16.205997}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Query to reference single-cell integration with transfer learning",
+      "paper_year": 2021,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "All genes"
+        },
+        {
+          "name": "Seurat v3 2000 HVG"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "seurat_reference_mapping",
+    "label": "Seurat reference mapping",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Seurat reference mapping is a cell type label transfer method provided by the Seurat package. Gene expression counts are first normalised by SCTransform before computing PCA. Then it finds mutual nearest neighbours, known as transfer anchors, between the labelled and unlabelled part of the data in PCA space, and computes each cell’s distance to each of the anchor pairs. Finally, it uses the labelled anchors to predict cell types for unlabelled cells based on these distances.",
+    "description": "Seurat reference mapping is a cell type label transfer method provided by the Seurat package. Gene expression counts are first normalised by SCTransform before computing PCA. Then it finds mutual nearest neighbours, known as transfer anchors, between the labelled and unlabelled part of the data in PCA space, and computes each cell’s distance to each of the anchor pairs. Finally, it uses the labelled anchors to predict cell types for unlabelled cells based on these distances.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/seurat.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{hao2021integrated,\n\ttitle = {Integrated analysis of multimodal single-cell data},\n\tauthor = {Hao, Yuhan and Hao, Stephanie and Andersen-Nissen, Erica and Mauck, William M. and Zheng, Shiwei and Butler, Andrew and Lee, Maddie J. and Wilk, Aaron J. and Darby, Charlotte and Zager, Michael and Hoffman, Paul and Stoeckius, Marlon and Papalexi, Efthymia and Mimitou, Eleni P. and Jain, Jaison and Srivastava, Avi and Stuart, Tim and Fleming, Lamar M. and Yeung, Bertrand and Rogers, Angela J. and McElrath, Juliana M. and Blish, Catherine A. and Gottardo, Raphael and Smibert, Peter and Satija, Rahul},\n\tyear = {2021},\n\tdoi = {10.1016/j.cell.2021.04.048},\n\turl = {https://doi.org/10.1016/j.cell.2021.04.048}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Integrated analysis of multimodal single-cell data",
+      "paper_year": 2021,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "SCTransform"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "true_labels",
+    "label": "True Labels",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Perfect assignment of the predicted labels from the test labels",
+    "description": "Perfect assignment of the predicted labels from the test labels",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "xgboost",
+    "label": "XGBoost",
+    "commit": "cef4e5cac0b51d454d45e22e354988e77540c40d",
+    "summary": "XGBoost is a gradient boosting decision tree model that learns multiple tree structures in the form of a series of input features and their values, leading to a prediction decision, and averages predictions from all its trees. Here, input features are normalised gene expression values.",
+    "description": "XGBoost is a gradient boosting decision tree model that learns multiple tree structures in the form of a series of input features and their values, leading to a prediction decision, and averages predictions from all its trees. Here, input features are normalised gene expression values.",
+    "type": "method",
+    "link_code": "https://xgboost.readthedocs.io/en/stable/index.html/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/label_projection/methods/xgboost.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@inproceedings{chen2016xgboost,\n\ttitle = {XGBoost},\n\tauthor = {Chen, Tianqi and Guestrin, Carlos},\n\tyear = {2016},\n\tdoi = {10.1145/2939672.2939785},\n\turl = {https://doi.org/10.1145/2939672.2939785}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "XGBoost: A Scalable Tree Boosting System",
+      "paper_year": 2016,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log CP10k"
+        },
+        {
+          "name": "log scran"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  }
+]

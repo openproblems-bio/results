@@ -1,0 +1,82 @@
+[
+  {
+    "name": "accuracy",
+    "label": "Accuracy",
+    "commit": "f52ca0a9c28a6dc72520871de56ed3102c87c840",
+    "summary": "The percentage of correctly predicted labels.",
+    "description": "The percentage of correctly predicted labels.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/f52ca0a9c28a6dc72520871de56ed3102c87c840/src/metrics/accuracy",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/metrics/accuracy:build_main",
+    "component_name": "accuracy",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.48550/arxiv.2008.05756"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "f1_weighted",
+    "label": "F1 weighted",
+    "commit": "f52ca0a9c28a6dc72520871de56ed3102c87c840",
+    "summary": "Average weigthed support between each labels F1 score",
+    "description": "Calculates the F1 score for each label, and find their average weighted by support (the number of true instances for each label). This alters 'macro' to account for label imbalance; it can result in an F-score that is not between precision and recall.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/f52ca0a9c28a6dc72520871de56ed3102c87c840/src/metrics/f1",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/metrics/f1:build_main",
+    "component_name": "f1_weighted",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.48550/arxiv.2008.05756"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "f1_macro",
+    "label": "F1 macro",
+    "commit": "f52ca0a9c28a6dc72520871de56ed3102c87c840",
+    "summary": "Unweighted mean of each label F1-score",
+    "description": "Calculates the F1 score for each label, and find their unweighted mean. This does not take label imbalance into account.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/f52ca0a9c28a6dc72520871de56ed3102c87c840/src/metrics/f1",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/metrics/f1:build_main",
+    "component_name": "f1_macro",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.48550/arxiv.2008.05756"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "f1_micro",
+    "label": "F1 micro",
+    "commit": "f52ca0a9c28a6dc72520871de56ed3102c87c840",
+    "summary": "Calculation of TP, FN and FP.",
+    "description": "Calculates the F1 score globally by counting the total true positives, false negatives and false positives.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/f52ca0a9c28a6dc72520871de56ed3102c87c840/src/metrics/f1",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/metrics/f1:build_main",
+    "component_name": "f1_micro",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.48550/arxiv.2008.05756"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]

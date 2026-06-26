@@ -1,0 +1,193 @@
+[
+  {
+    "name": "postive_control",
+    "label": "Postive control",
+    "commit": "",
+    "summary": "Baseline positive control",
+    "description": "Baseline positive control constructed by taking the highest mean score by a control method on each dataset for each task.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "negative_control",
+    "label": "Negative control",
+    "commit": "",
+    "summary": "Baseline negative control",
+    "description": "Baseline negative control constructed by taking the lowest mean score by a control method on each dataset for each task.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "best_standard_method",
+    "label": "Best standard method",
+    "commit": "",
+    "summary": "Baseline best standard method",
+    "description": "A combined 'best' standard method constructed by combining scores from the best overall standard method from each task.\n\nThe selected methods are:\n\n- [Label projection](../label_projection): [scANVI+scArches](../label_projection#scanvi+scarches)\n- [Batch Integration](../batch_integration): [scANVI](../batch_integration#scanvi)",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "median_standard_method",
+    "label": "Median standard method",
+    "commit": "",
+    "summary": "Baseline median standard method",
+    "description": "A combined 'median' standard method constructed by combining scores from the standard methods with the median overall score on each task.\n\nThe selected methods are:\n\n- [Label projection](../label_projection): [Multilayer perceptron](../label_projection#multilayer-perceptron)\n- [Batch Integration](../batch_integration): [pyliger](../batch_integration#pyliger)",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "geneformer",
+    "label": "Geneformer",
+    "commit": "",
+    "summary": "Geneformer is a foundational transformer model pretrained on a large-scale corpus of single cell transcriptomes to enable context-aware predictions in settings with limited data in network biology.",
+    "description": "Geneformer is a context-aware, attention-based deep learning model pretrained on a large-scale corpus of single-cell transcriptomes to enable context-specific predictions in settings with limited data in network biology.",
+    "type": "method",
+    "link_code": "https://huggingface.co/ctheodoris/Geneformer",
+    "link_documentation": "https://geneformer.readthedocs.io/en/latest/index.html",
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41586-023-06139-9",
+        "10.1101/2024.08.16.608180"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "scgpt",
+    "label": "scGPT",
+    "commit": "",
+    "summary": "A fine-tuned version of the scGPT foundation model.",
+    "description": "scGPT is a foundation model for single-cell biology based on a generative pre-trained transformer and trained on a repository of over 33 million cells. Here we fine-tune a pre-trained model for each task.",
+    "type": "method",
+    "link_code": "https://github.com/bowang-lab/scGPT",
+    "link_documentation": "https://scgpt.readthedocs.io/en/latest/",
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41592-024-02201-0"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {
+      "paramsets": [
+        {
+          "name": "fine-tuned"
+        },
+        {
+          "name": "zero shot"
+        }
+      ]
+    },
+    "version": "v0.1.0"
+  },
+  {
+    "name": "scimilarity",
+    "label": "SCimilarity",
+    "commit": "",
+    "summary": "SCimilarity provides unifying representation of single cell expression profiles",
+    "description": "SCimilarity is a unifying representation of single cell expression profiles that quantifies similarity between expression states and generalizes to represent new studies without additional training.",
+    "type": "method",
+    "link_code": "https://github.com/Genentech/scimilarity",
+    "link_documentation": "https://genentech.github.io/scimilarity/index.html",
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.07.18.549537"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "scprint",
+    "label": "scPRINT",
+    "commit": "",
+    "summary": "scPRINT is a large transformer model built for the inference of gene networks",
+    "description": "scPRINT is a large transformer model built for the inference of gene networks (connections between genes explaining the cell's expression profile) from\nscRNAseq data. It uses novel encoding and decoding of the cell expression profile and new pre-training methodologies to learn a cell model. scPRINT can be used to perform the following analyses:\n  - expression denoising: increase the resolution of your scRNAseq data\n  - cell embedding: generate a low-dimensional representation of your dataset\n  - label prediction: predict the cell type, disease, sequencer, sex, and\n    ethnicity of your cells\n  - gene network inference: generate a gene network from any cell or cell\n    cluster in your scRNAseq dataset.",
+    "type": "method",
+    "link_code": "https://github.com/cantinilab/scPRINT",
+    "link_documentation": null,
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2024.07.29.605556"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  },
+  {
+    "name": "uce",
+    "label": "UCE",
+    "commit": "",
+    "summary": "UCE offers a unified biological latent space that can represent any cell",
+    "description": "Universal Cell Embedding (UCE) is a single-cell foundation model that offers a unified biological latent space that can represent any cell, regardless of\ntissue or species.",
+    "type": "method",
+    "link_code": "https://github.com/snap-stanford/UCE",
+    "link_documentation": "https://github.com/snap-stanford/UCE/blob/main/README.md",
+    "link_implementation": null,
+    "link_container_image": "",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.11.28.568918"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "v0.1.0"
+  }
+]

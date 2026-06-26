@@ -1,0 +1,205 @@
+[
+  {
+    "name": "alra",
+    "label": "ALRA",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "ALRA (Adaptively-thresholded Low Rank Approximation) is a method for imputation of missing values in single cell RNA-sequencing data. Given a normalised scRNA-seq expression matrix, it first imputes values using rank-k approximation, using singular value decomposition. Next, a symmetric distribution is fitted to the near-zero imputed values for each gene (row) of the matrix. The right “tail” of this distribution is then used to threshold the accepted nonzero entries. This same threshold is then used to rescale the matrix, once the “biological zeros” have been removed.",
+    "description": "ALRA (Adaptively-thresholded Low Rank Approximation) is a method for imputation of missing values in single cell RNA-sequencing data. Given a normalised scRNA-seq expression matrix, it first imputes values using rank-k approximation, using singular value decomposition. Next, a symmetric distribution is fitted to the near-zero imputed values for each gene (row) of the matrix. The right “tail” of this distribution is then used to threshold the accepted nonzero entries. This same threshold is then used to rescale the matrix, once the “biological zeros” have been removed.",
+    "type": "method",
+    "link_code": "https://github.com/KlugerLab/ALRA/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/alra.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-r-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{linderman2018zero,\n\ttitle = {Zero-preserving imputation of scRNA-seq data using low-rank approximation},\n\tauthor = {Linderman, George C. and Zhao, Jun and Kluger, Yuval},\n\tyear = {2018},\n\tdoi = {10.1101/397588},\n\turl = {https://www.biorxiv.org/content/early/2018/08/22/397588}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Zero-preserving imputation of scRNA-seq data using low-rank approximation",
+      "paper_year": 2018,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "log norm"
+        },
+        {
+          "name": "log norm, reversed normalization"
+        },
+        {
+          "name": "sqrt norm"
+        },
+        {
+          "name": "sqrt norm, reversed normalization"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "dca",
+    "label": "DCA",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "DCA (Deep Count Autoencoder) is a method to remove the effect of dropout in scRNA-seq data. DCA takes into account the count structure, overdispersed nature and sparsity of scRNA-seq datatypes using a deep autoencoder with a zero-inflated negative binomial (ZINB) loss. The autoencoder is then applied to the dataset, where the mean of the fitted negative binomial distributions is used to fill each entry of the imputed matrix.",
+    "description": "DCA (Deep Count Autoencoder) is a method to remove the effect of dropout in scRNA-seq data. DCA takes into account the count structure, overdispersed nature and sparsity of scRNA-seq datatypes using a deep autoencoder with a zero-inflated negative binomial (ZINB) loss. The autoencoder is then applied to the dataset, where the mean of the fitted negative binomial distributions is used to fill each entry of the imputed matrix.",
+    "type": "method",
+    "link_code": "https://github.com/theislab/dca/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/dca.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-tensorflow",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{eraslan2019single,\n\ttitle = {Single-cell RNA-seq denoising using a deep count autoencoder},\n\tauthor = {Eraslan, Gökcen and Simon, Lukas M. and Mircea, Maria and Mueller, Nikola S. and Theis, Fabian J.},\n\tyear = {2019},\n\tdoi = {10.1038/s41467-018-07931-2},\n\turl = {https://doi.org/10.1038/s41467-018-07931-2}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Single-cell RNA-seq denoising using a deep count autoencoder",
+      "paper_year": 2019,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "knn_smoothing",
+    "label": "KNN smoothing",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "KNN-smoothing is a method for denoising data based on the k-nearest neighbours. Given a normalised scRNA-seq matrix, KNN-smoothing calculates a k-nearest neighbour matrix using Euclidean distances between cell pairs. Each cell’s denoised expression is then defined as the average expression of each of its neighbours.",
+    "description": "KNN-smoothing is a method for denoising data based on the k-nearest neighbours. Given a normalised scRNA-seq matrix, KNN-smoothing calculates a k-nearest neighbour matrix using Euclidean distances between cell pairs. Each cell’s denoised expression is then defined as the average expression of each of its neighbours.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/magic.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "iterative_knn_smoothing",
+    "label": "Iterative KNN smoothing",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Iterative kNN-smoothing is a method to repair or denoise noisy scRNA-seq expression matrices. Given a scRNA-seq expression matrix, KNN-smoothing first applies initial normalisation and smoothing. Then, a chosen number of principal components is used to calculate Euclidean distances between cells. Minimally sized neighbourhoods are initially determined from these Euclidean distances, and expression profiles are shared between neighbouring cells. Then, the resultant smoothed matrix is used as input to the next step of smoothing, where the size (k) of the considered neighbourhoods is increased, leading to greater smoothing. This process continues until a chosen maximum k value has been reached, at which point the iteratively smoothed object is then optionally scaled to yield a final result.",
+    "description": "Iterative kNN-smoothing is a method to repair or denoise noisy scRNA-seq expression matrices. Given a scRNA-seq expression matrix, KNN-smoothing first applies initial normalisation and smoothing. Then, a chosen number of principal components is used to calculate Euclidean distances between cells. Minimally sized neighbourhoods are initially determined from these Euclidean distances, and expression profiles are shared between neighbouring cells. Then, the resultant smoothed matrix is used as input to the next step of smoothing, where the size (k) of the considered neighbourhoods is increased, leading to greater smoothing. This process continues until a chosen maximum k value has been reached, at which point the iteratively smoothed object is then optionally scaled to yield a final result.",
+    "type": "method",
+    "link_code": "https://github.com/yanailab/knn-smoothing/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/knn_smoothing.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{wagner2018knearest,\n\ttitle = {K-nearest neighbor smoothing for high-throughput single-cell RNA-seq data},\n\tauthor = {Wagner, Florian and Yan, Yun and Yanai, Itai},\n\tyear = {2018},\n\tdoi = {10.1101/217737},\n\turl = {https://www.biorxiv.org/content/early/2018/04/09/217737}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "K-nearest neighbor smoothing for high-throughput single-cell RNA-Seq data",
+      "paper_year": 2018,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "magic",
+    "label": "MAGIC",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "MAGIC (Markov Affinity-based Graph Imputation of Cells) is a method for imputation and denoising of noisy or dropout-prone single cell RNA-sequencing data. Given a normalised scRNA-seq expression matrix, it first calculates Euclidean distances between each pair of cells in the dataset, which is then augmented using a Gaussian kernel (function) and row-normalised to give a normalised affinity matrix. A t-step markov process is then calculated, by powering this affinity matrix t times. Finally, the powered affinity matrix is right-multiplied by the normalised data, causing the final imputed values to take the value of a per-gene average weighted by the affinities of cells. The resultant imputed matrix is then rescaled, to more closely match the magnitude of measurements in the normalised (input) matrix.",
+    "description": "MAGIC (Markov Affinity-based Graph Imputation of Cells) is a method for imputation and denoising of noisy or dropout-prone single cell RNA-sequencing data. Given a normalised scRNA-seq expression matrix, it first calculates Euclidean distances between each pair of cells in the dataset, which is then augmented using a Gaussian kernel (function) and row-normalised to give a normalised affinity matrix. A t-step markov process is then calculated, by powering this affinity matrix t times. Finally, the powered affinity matrix is right-multiplied by the normalised data, causing the final imputed values to take the value of a per-gene average weighted by the affinities of cells. The resultant imputed matrix is then rescaled, to more closely match the magnitude of measurements in the normalised (input) matrix.",
+    "type": "method",
+    "link_code": "https://github.com/KrishnaswamyLab/MAGIC/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/magic.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems-python-extras",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@article{van2018recovering,\n\ttitle = {Recovering gene interactions from single-cell data using data diffusion},\n\tauthor = {Dijk, David and Sharma, Roshan and Nainys, Juozas and Yim, Kristina and Kathail, Pooja and Carr, Ambrose J. and Burdziak, Cassandra and Moon, Kevin R. and Chaffer, Christine L. and Pattabiraman, Diwakar and Bierie, Brian and Mazutis, Linas and Wolf, Guy and Krishnaswamy, Smita and Pe’er, Dana},\n\tyear = {2018},\n\tdoi = {10.1016/j.cell.2018.05.061},\n\turl = {https://doi.org/10.1016/j.cell.2018.05.061}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Recovering Gene Interactions from Single-Cell Data Using Data Diffusion",
+      "paper_year": 2018,
+      "code_version": "v1.0.0",
+      "paramsets": [
+        {
+          "name": "default"
+        },
+        {
+          "name": "approximate"
+        },
+        {
+          "name": "approximate, reversed normalization"
+        },
+        {
+          "name": "reversed normalization"
+        }
+      ]
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "no_denoising",
+    "label": "No denoising",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Denoised outputs are defined from the unmodified input data.",
+    "description": "Denoised outputs are defined from the unmodified input data.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  },
+  {
+    "name": "perfect_denoising",
+    "label": "Perfect denoising",
+    "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32",
+    "summary": "Denoised outputs are defined from the target data.",
+    "description": "Denoised outputs are defined from the target data.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/openproblems/tree/v1.0.0/openproblems/tasks",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/openproblems/blob/v1.0.0/openproblems/tasks/denoising/methods/baseline.py",
+    "link_container_image": "https://github.com/openproblems-bio/openproblems/pkgs/container/openproblems",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": [
+        "@misc{openproblems,\n\ttitle = {Open problems},\n\tauthor = {{Open Problems for Single Cell Analysis Consortium}},\n\tyear = {2022},\n\turl = {https://openproblems.bio}\n}\n"
+      ]
+    },
+    "additional_info": {
+      "paper_name": "Open Problems for Single Cell Analysis",
+      "paper_year": 2022,
+      "code_version": "v1.0.0"
+    },
+    "version": "v1.0.0"
+  }
+]

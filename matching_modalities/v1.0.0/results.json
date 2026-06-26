@@ -1,0 +1,698 @@
+[
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      220
+    ],
+    "run_cpu_pct": [
+      73.6
+    ],
+    "run_peak_memory_mb": [
+      515.7
+    ],
+    "run_disk_read_mb": [
+      272.6
+    ],
+    "run_disk_write_mb": [
+      273
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.6208419863517854,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "procrustes_superimposition",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      279
+    ],
+    "run_cpu_pct": [
+      143.1
+    ],
+    "run_peak_memory_mb": [
+      963.6
+    ],
+    "run_disk_read_mb": [
+      272.6
+    ],
+    "run_disk_write_mb": [
+      319.3
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.09674569704735692,
+      0.9387379116135324
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      319
+    ],
+    "run_cpu_pct": [
+      32.4
+    ],
+    "run_peak_memory_mb": [
+      518.4
+    ],
+    "run_disk_read_mb": [
+      272.6
+    ],
+    "run_disk_write_mb": [
+      273
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.05003502090203344,
+      1.0136719
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "harmonic_alignment",
+    "paramset_name": "sqrt CP10k",
+    "paramset": {
+      "raw": "sqrt CP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      429
+    ],
+    "run_cpu_pct": [
+      193.3
+    ],
+    "run_peak_memory_mb": [
+      1300
+    ],
+    "run_disk_read_mb": [
+      272.9
+    ],
+    "run_disk_write_mb": [
+      319.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.05462908169875428,
+      1.000013512131858
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "mutual_nearest_neighbors",
+    "paramset_name": "log CP10k",
+    "paramset": {
+      "raw": "log CP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      490
+    ],
+    "run_cpu_pct": [
+      99.6
+    ],
+    "run_peak_memory_mb": [
+      2200
+    ],
+    "run_disk_read_mb": [
+      317.4
+    ],
+    "run_disk_write_mb": [
+      423
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.08589789433030783,
+      1.0547959275709011
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "mutual_nearest_neighbors",
+    "paramset_name": "log scran",
+    "paramset": {
+      "raw": "log scran"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      750
+    ],
+    "run_cpu_pct": [
+      99.4
+    ],
+    "run_peak_memory_mb": [
+      4200
+    ],
+    "run_disk_read_mb": [
+      320.3
+    ],
+    "run_disk_write_mb": [
+      423.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.07631922843774054,
+      1.038986769000114
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_mouse_kidney",
+    "method_name": "harmonic_alignment",
+    "paramset_name": "log scran",
+    "paramset": {
+      "raw": "log scran"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      859
+    ],
+    "run_cpu_pct": [
+      120.2
+    ],
+    "run_peak_memory_mb": [
+      4200
+    ],
+    "run_disk_read_mb": [
+      318.6
+    ],
+    "run_disk_write_mb": [
+      364.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.06541106014069863,
+      1.000107517902145
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "procrustes_superimposition",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      340
+    ],
+    "run_cpu_pct": [
+      230.3
+    ],
+    "run_peak_memory_mb": [
+      692.5
+    ],
+    "run_disk_read_mb": [
+      210.8
+    ],
+    "run_disk_write_mb": [
+      234.2
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.08257473591291212,
+      0.8323309514022647
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      430
+    ],
+    "run_cpu_pct": [
+      38.6
+    ],
+    "run_peak_memory_mb": [
+      460.7
+    ],
+    "run_disk_read_mb": [
+      210.8
+    ],
+    "run_disk_write_mb": [
+      221.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.05042255760201557,
+      1.015894
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      430
+    ],
+    "run_cpu_pct": [
+      35.1
+    ],
+    "run_peak_memory_mb": [
+      453.9
+    ],
+    "run_disk_read_mb": [
+      210.8
+    ],
+    "run_disk_write_mb": [
+      221.7
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.6139324564583585,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "harmonic_alignment",
+    "paramset_name": "sqrt CP10k",
+    "paramset": {
+      "raw": "sqrt CP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      701
+    ],
+    "run_cpu_pct": [
+      225.3
+    ],
+    "run_peak_memory_mb": [
+      1023.9
+    ],
+    "run_disk_read_mb": [
+      211.1
+    ],
+    "run_disk_write_mb": [
+      234.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.046073311310546615,
+      0.9995416858132864
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "mutual_nearest_neighbors",
+    "paramset_name": "log scran",
+    "paramset": {
+      "raw": "log scran"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      701
+    ],
+    "run_cpu_pct": [
+      94.5
+    ],
+    "run_peak_memory_mb": [
+      3300
+    ],
+    "run_disk_read_mb": [
+      258.5
+    ],
+    "run_disk_write_mb": [
+      301
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.0872374416848794,
+      0.7310813422485382
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "mutual_nearest_neighbors",
+    "paramset_name": "log CP10k",
+    "paramset": {
+      "raw": "log CP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      750
+    ],
+    "run_cpu_pct": [
+      91.8
+    ],
+    "run_peak_memory_mb": [
+      2000
+    ],
+    "run_disk_read_mb": [
+      255.6
+    ],
+    "run_disk_write_mb": [
+      301
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.12691648298907363,
+      0.6896150433809697
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "scicar_cell_lines",
+    "method_name": "harmonic_alignment",
+    "paramset_name": "log scran",
+    "paramset": {
+      "raw": "log scran"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1013
+    ],
+    "run_cpu_pct": [
+      151.3
+    ],
+    "run_peak_memory_mb": [
+      3300
+    ],
+    "run_disk_read_mb": [
+      256.899999
+    ],
+    "run_disk_write_mb": [
+      290.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.06031383406703828,
+      1.0002571033803676
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      300
+    ],
+    "run_cpu_pct": [
+      62.5
+    ],
+    "run_peak_memory_mb": [
+      487.4
+    ],
+    "run_disk_read_mb": [
+      232.2
+    ],
+    "run_disk_write_mb": [
+      277.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.5117302105076631,
+      0
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      331
+    ],
+    "run_cpu_pct": [
+      64.9
+    ],
+    "run_peak_memory_mb": [
+      488.1
+    ],
+    "run_disk_read_mb": [
+      232.2
+    ],
+    "run_disk_write_mb": [
+      277.4
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.05000744227734146,
+      0.99353725
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "procrustes_superimposition",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_duration_secs": [
+      331
+    ],
+    "run_cpu_pct": [
+      65.2
+    ],
+    "run_peak_memory_mb": [
+      487.7
+    ],
+    "run_disk_read_mb": [
+      232.2
+    ],
+    "run_disk_write_mb": [
+      278.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.1935178231783895,
+      0.436364269209991
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "mutual_nearest_neighbors",
+    "paramset_name": "log CP10k",
+    "paramset": {
+      "raw": "log CP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      490
+    ],
+    "run_cpu_pct": [
+      86.6
+    ],
+    "run_peak_memory_mb": [
+      2000
+    ],
+    "run_disk_read_mb": [
+      277.1
+    ],
+    "run_disk_write_mb": [
+      369.5
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.029195816019157918,
+      1.1668403939745453
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "harmonic_alignment",
+    "paramset_name": "sqrt CP10k",
+    "paramset": {
+      "raw": "sqrt CP10k"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      650
+    ],
+    "run_cpu_pct": [
+      198.6
+    ],
+    "run_peak_memory_mb": [
+      646.4
+    ],
+    "run_disk_read_mb": [
+      232.5
+    ],
+    "run_disk_write_mb": [
+      290.1
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.05061583797299569,
+      1.0000335254261379
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "mutual_nearest_neighbors",
+    "paramset_name": "log scran",
+    "paramset": {
+      "raw": "log scran"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      720
+    ],
+    "run_cpu_pct": [
+      99.7
+    ],
+    "run_peak_memory_mb": [
+      4200
+    ],
+    "run_disk_read_mb": [
+      279.9
+    ],
+    "run_disk_write_mb": [
+      369.6
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.04132268350330538,
+      1.019556017687802
+    ],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "citeseq_cbmc",
+    "method_name": "harmonic_alignment",
+    "paramset_name": "log scran",
+    "paramset": {
+      "raw": "log scran"
+    },
+    "succeeded": true,
+    "run_duration_secs": [
+      1054
+    ],
+    "run_cpu_pct": [
+      140
+    ],
+    "run_peak_memory_mb": [
+      4200
+    ],
+    "run_disk_read_mb": [
+      278.2
+    ],
+    "run_disk_write_mb": [
+      379.9
+    ],
+    "run_exit_code": [],
+    "metric_names": [
+      "knn_auc",
+      "mse"
+    ],
+    "metric_values": [
+      0.05631004174912533,
+      0.9996580063066434
+    ],
+    "metric_components": []
+  }
+]
