@@ -47,8 +47,8 @@ jobs:
         run: |
           set -euo pipefail
           if [ -z "${GH_TOKEN:-}" ]; then
-            echo "::error::OP_BOT_TOKEN secret is not set; cannot open the website preview PR."
-            exit 1
+            echo "::warning::OP_BOT_TOKEN secret is not set; skipping the website preview PR."
+            exit 0
           fi
           BRANCH="bot/results-pr-${PR}"
 
