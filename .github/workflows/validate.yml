@@ -24,16 +24,10 @@ jobs:
       - name: Validate results against results_v4 schemas
         run: python scripts/validate_results.py
 
-  # On a PR (from a branch in this repo), once validation passes, open or update a
-  # PR in the website repo that bumps its `data/results` submodule to this PR's head
-  # commit. Cloudflare then builds a preview of the site with these results, and the
-  # website's `results-preview.yml` workflow posts the preview URL (and links to the
-  # changed result pages) back onto this PR.
+  # Open or update a PR in the website repo that bumps its `data/results` submodule
   preview:
     needs: validate
     runs-on: ubuntu-latest
-    # Fork PRs can't be previewed: their head commit isn't in this repo (so the
-    # submodule can't point at it) and secrets aren't available to them.
     if: >-
       github.event_name == 'pull_request' &&
       github.event.pull_request.head.repo.full_name == github.repository
