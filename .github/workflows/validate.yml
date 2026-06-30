@@ -46,9 +46,6 @@ jobs:
 
           git config --global user.name  "openproblems-bot"
           git config --global user.email "bot@openproblems.bio"
-          # Authenticate git (including the ssh-style submodule URL) with the bot token.
-          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "git@github.com:"
-          git config --global url."https://x-access-token:${GH_TOKEN}@github.com/".insteadOf "https://github.com/"
 
           git clone --quiet "https://x-access-token:${GH_TOKEN}@github.com/${WEBSITE}" site
           cd site
