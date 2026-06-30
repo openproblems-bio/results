@@ -65,10 +65,15 @@ jobs:
           fi
           git push --force --quiet origin "$BRANCH"
 
-          if gh pr view "$BRANCH" -R "$WEBSITE" >/dev/null 2>&1; then
-            echo "Website preview PR already open for $BRANCH (refreshed)."
-          else
-            gh pr create -R "$WEBSITE" --base main --head "$BRANCH" \
+          # The force-push already refreshed any existing preview PR, so create one only
+          # if it's missing. "already exists" is a success, not a failure.
+          if gh pr create -R "$WEBSITE" --base main --head "$BRANCH" \
               --title "Preview: results#${PR}" \
-              --body "Automated preview build for [openproblems-bio/results#${PR}](https://github.com/openproblems-bio/results/pull/${PR}). Bumps the \`data/results\` submodule to that PR's head. **Do not merge** — this is a throwaway preview branch."
+              --body "Automated preview build for [openproblems-bio/results#${PR}](https://github.com/openproblems-bio/results/pull/${PR}). Bumps the \`data/results\` submodule to that PR's head. **Do not merge** — this is a throwaway preview branch." 2> create.err; then
+            echo "Opened website preview PR for $BRANCH."
+          elif grep -q "already exists" create.err; then
+            echo "Website preview PR already open for $BRANCH (refreshed by force-push)."
+          else
+            cat create.err >&2
+            exit 1
           fi
