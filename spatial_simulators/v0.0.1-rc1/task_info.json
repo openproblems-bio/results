@@ -1,0 +1,66 @@
+{
+    "name": "spatial_simulators",
+    "commit": "3d78c563c640709eee81833b9cf0e19ad31549c6",
+    "label": "Spatial Simulators",
+    "summary": "Assessing the quality of spatial transcriptomics simulators",
+    "description": "Computational methods for spatially resolved transcriptomics (SRT) are frequently developed \nand assessed through data simulation. The effectiveness of these evaluations relies on the \nsimulation methods' ability to accurately reflect experimental data. However, a systematic \nevaluation framework for spatial simulators is lacking. Here, we present SpatialSimBench, \na comprehensive evaluation framework that assesses 13 simulation methods using 10 distinct \nSTR datasets.\n\nThe research goal of this benchmark is to systematically evaluate and compare the\nperformance of various simulation methods for spatial transcriptomics (ST) data.\nIt aims to address the lack of a comprehensive evaluation framework for spatial simulators\nand explore the feasibility of leveraging existing single-cell simulators for ST data.\nThe experimental setup involves collecting public spatial transcriptomics datasets and\ncorresponding scRNA-seq datasets.\nThe spatial and scRNA-seq datasets can originate from different study but should consist\nof similar cell types from similar tissues.",
+    "repository": "https://github.com/openproblems-bio/task_spatial_simulators",
+    "authors": [
+        {
+        "name": "Xiaoqi Liang",
+        "roles": [
+            "author"
+        ],
+        "github": "littlecabiria",
+        "orcid": "0009-0004-9625-1441",
+        "info": {}
+        },
+        {
+        "name": "Yue Cao",
+        "roles": [
+            "author",
+            "maintainer"
+        ],
+        "github": "ycao6928",
+        "orcid": "0000-0002-2356-4031",
+        "info": {}
+        },
+        {
+        "name": "Jean Yang",
+        "roles": [
+            "author"
+        ],
+        "github": "jeany21",
+        "orcid": "0000-0002-5271-2603",
+        "info": {}
+        },
+        {
+        "name": "Robrecht Cannoodt",
+        "roles": [
+            "contributor"
+        ],
+        "github": "rcannood",
+        "orcid": "0000-0003-3641-729X",
+        "info": {}
+        },
+        {
+        "name": "Sai Nirmayi Yasa",
+        "roles": [
+            "contributor"
+        ],
+        "github": "sainirmayi",
+        "orcid": "0009-0003-6319-9803",
+        "info": {}
+        }
+    ],
+    "license": "MIT",
+    "references": {
+        "doi": [
+        "10.1101/2024.05.29.596418"
+        ],
+        "bibtex": []
+    },
+    "version": "v0.0.1-rc1",
+    "is_prerelease": true,
+    "timestamp": "2026-06-23T13:12:37Z"
+}
