@@ -21,3 +21,59 @@ jobs:
 
       - name: Validate results against results_v4 schemas
         run: python scripts/validate_results.py
+
+  # Open or update a PR in the website repo that bumps its `data/results` submodule
+  preview:
+    needs: validate
+    runs-on: ubuntu-latest
+    if: >-
+      github.event_name == 'pull_request' &&
+      github.event.pull_request.head.repo.full_name == github.repository
+    steps:
+      - name: Open/update the website preview PR
+        env:
+          GH_TOKEN: ${{ secrets.OP_BOT_TOKEN }}
+          WEBSITE: openproblems-bio/website-v3
+          PR: ${{ github.event.pull_request.number }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          set -euo pipefail
+          if [ -z "${GH_TOKEN:-}" ]; then
+            echo "::warning::OP_BOT_TOKEN secret is not set; skipping the website preview PR."
+            exit 0
+          fi
+          BRANCH="bot/results-pr-${PR}"
+
+          git config --global user.name  "openproblems-bot"
+          git config --global user.email "bot@openproblems.bio"
+
+          git clone --quiet "https://x-access-token:${GH_TOKEN}@github.com/${WEBSITE}" site
+          cd site
+          git checkout -B "$BRANCH" origin/main
+
+          # Point data/results at this PR's head commit.
+          git submodule sync data/results
+          git submodule update --init data/results
+          git -C data/results fetch --quiet origin "$HEAD_SHA"
+          git -C data/results checkout --quiet "$HEAD_SHA"
+          git add data/results
+
+          if git diff --cached --quiet; then
+            echo "data/results already at ${HEAD_SHA}; nothing to update."
+          else
+            git commit --quiet -m "preview: results#${PR} (data/results @ ${HEAD_SHA:0:7})"
+          fi
+          git push --force --quiet origin "$BRANCH"
+
+          # The force-push already refreshed any existing preview PR, so create one only
+          # if it's missing. "already exists" is a success, not a failure.
+          if gh pr create -R "$WEBSITE" --base main --head "$BRANCH" \
+              --title "Preview: results#${PR}" \
+              --body "Automated preview build for [openproblems-bio/results#${PR}](https://github.com/openproblems-bio/results/pull/${PR}). Bumps the \`data/results\` submodule to that PR's head. **Do not merge** — this is a throwaway preview branch." 2> create.err; then
+            echo "Opened website preview PR for $BRANCH."
+          elif grep -q "already exists" create.err; then
+            echo "Website preview PR already open for $BRANCH (refreshed by force-push)."
+          else
+            cat create.err >&2
+            exit 1
+          fi
