@@ -1,0 +1,1613 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: spatial_simulators\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: spatial_simulators\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: spatial_simulators\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: spatial_simulators\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: spatial_simulators\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: spatial_simulators\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: spatial_simulators\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: spatial_simulators\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: spatial_simulators\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: spatial_simulators\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: spatial_simulators\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: spatial_simulators\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: spatial_simulators\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: spatial_simulators\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: spatial_simulators\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: spatial_simulators\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: spatial_simulators\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: spatial_simulators\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: spatial_simulators\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: spatial_simulators\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: spatial_simulators\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 243,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: spatial_simulators\n  Number of results: 243\n  Number of datasets: 10\n  Number of methods: 9\n  Number of metrics: 21\n  Expected number of results: 1890\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'osteosarcoma' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: osteosarcoma\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'gastrulation' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: gastrulation\n  Number of results: 0\n  Expected number of results: 189\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'hindlimbmuscle' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: hindlimbmuscle\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'brain' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: brain\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cortex' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: cortex\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'prostate' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: prostate\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'breast' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: breast\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'olfactorybulb' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: olfactorybulb\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'pdac' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: pdac\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'fibrosarcoma' % missing",
+    "value": 0.8571,
+    "severity": 3,
+    "severity_value": 8.5714,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Dataset: fibrosarcoma\n  Number of results: 27\n  Expected number of results: 189\n  Percentage missing: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scdesign2' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: scdesign2\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scdesign3' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: scdesign3\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'sparsim' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: sparsim\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'splatter' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: splatter\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'srtsim' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: srtsim\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'symsim' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: symsim\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'zinbwave' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: zinbwave\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'positive' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: positive\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'negative' % missing",
+    "value": 0.8714,
+    "severity": 3,
+    "severity_value": 8.7143,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Method: negative\n  Number of results: 27\n  Expected number of results: 210\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_frac_zero_genes' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_frac_zero_genes\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_frac_zero_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_frac_zero_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_lib_size_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_lib_size_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_efflib_size_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_efflib_size_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_tmm_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_tmm_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_var_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_var_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_mean_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_mean_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_lib_fraczero_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_lib_fraczero_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_pearson_cells' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_pearson_cells\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_var_genes' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_var_genes\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_mean_genes' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_mean_genes\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_pearson_genes' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_pearson_genes\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_mean_var_genes' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_mean_var_genes\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_mean_fraczero_genes' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_mean_fraczero_genes\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_L_stats' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_L_stats\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_celltype_interaction' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_celltype_interaction\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_nn_correlation' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_nn_correlation\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_morans_I' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_morans_I\n  Number of results: 0\n  Expected number of results: 90\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_transition_matrix' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_transition_matrix\n  Number of results: 81\n  Expected number of results: 90\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_central_score' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_central_score\n  Number of results: 81\n  Expected number of results: 90\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_enrichment' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_enrichment\n  Number of results: 81\n  Expected number of results: 90\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 314,
+    "severity": 1,
+    "severity_value": 1.2778,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: spatial_simulators\n  Succeeded processes: 314\n  Attempted processes: 360\n  Percentage failed: 13%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'osteosarcoma' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: osteosarcoma\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'gastrulation' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: gastrulation\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'hindlimbmuscle' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: hindlimbmuscle\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'brain' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: brain\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cortex' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: cortex\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'prostate' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: prostate\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'breast' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: breast\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'olfactorybulb' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: olfactorybulb\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'pdac' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: pdac\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'fibrosarcoma' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Dataset: fibrosarcoma\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scdesign2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: scdesign2\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scdesign3' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: scdesign3\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'sparsim' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: sparsim\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'splatter' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: splatter\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'srtsim' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: srtsim\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'symsim' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: symsim\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'zinbwave' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: zinbwave\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'positive' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: positive\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'negative' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Method: negative\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'ks_statistic_gene_cell' % failed",
+    "value": 0.1111,
+    "severity": 1,
+    "severity_value": 1.1111,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Metric component: ks_statistic_gene_cell\n  Succeeded processes: 80\n  Attempted processes: 90\n  Percentage failed: 11%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'ks_statistic_sc_features' % failed",
+    "value": 0.3,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Metric component: ks_statistic_sc_features\n  Succeeded processes: 63\n  Attempted processes: 90\n  Percentage failed: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'ks_statistic_spatial' % failed",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_simulators\n  Metric component: ks_statistic_spatial\n  Succeeded processes: 81\n  Attempted processes: 90\n  Percentage failed: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `osteosarcoma' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: osteosarcoma\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `gastrulation' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: gastrulation\n  Succeeded control_methods: 0\n  Total control methods: 2\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `hindlimbmuscle' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: hindlimbmuscle\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `brain' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: brain\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cortex' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: cortex\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `prostate' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: prostate\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `breast' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: breast\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `olfactorybulb' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: olfactorybulb\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `pdac' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: pdac\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `fibrosarcoma' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_simulators\n  Dataset: fibrosarcoma\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_frac_zero_genes' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_frac_zero_genes\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_frac_zero_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_frac_zero_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_lib_size_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_lib_size_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_efflib_size_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_efflib_size_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_tmm_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_tmm_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_var_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_var_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_mean_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_mean_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_lib_fraczero_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_lib_fraczero_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_pearson_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_pearson_cells\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_var_genes' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_var_genes\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_scaled_mean_genes' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_scaled_mean_genes\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_pearson_genes' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_pearson_genes\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_mean_var_genes' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_mean_var_genes\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_mean_fraczero_genes' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_mean_fraczero_genes\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_L_stats' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_L_stats\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_celltype_interaction' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_celltype_interaction\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_nn_correlation' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_nn_correlation\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_morans_I' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_morans_I\n  Control method scores: 0\n  Expected control method scores: 20\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_transition_matrix' number of control methods",
+    "value": 18,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_transition_matrix\n  Control method scores: 18\n  Expected control method scores: 20\n  Percentage succeeded: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_central_score' number of control methods",
+    "value": 18,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_central_score\n  Control method scores: 18\n  Expected control method scores: 20\n  Percentage succeeded: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ks_statistic_enrichment' number of control methods",
+    "value": 18,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_simulators\n  Metric: ks_statistic_enrichment\n  Control method scores: 18\n  Expected control method scores: 20\n  Percentage succeeded: 90%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_transition_matrix' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_transition_matrix\n  Inside range: 81\n  Scaled scores: 81\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_transition_matrix' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: spatial_simulators\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_transition_matrix' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: spatial_simulators\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'negative'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'negative' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: negative\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'negative'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'negative' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: negative\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'positive'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'positive' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: positive\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'positive'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'positive' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: positive\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'scdesign2'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scdesign2' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: scdesign2\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'scdesign2'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scdesign2' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: scdesign2\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'scdesign3'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scdesign3' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: scdesign3\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'scdesign3'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scdesign3' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: scdesign3\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'sparsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'sparsim' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: sparsim\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'sparsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'sparsim' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: sparsim\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'splatter'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'splatter' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: splatter\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'splatter'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'splatter' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: splatter\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'srtsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'srtsim' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: srtsim\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'srtsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'srtsim' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: srtsim\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'symsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'symsim' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: symsim\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'symsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'symsim' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: symsim\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_transition_matrix' score for 'zinbwave'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zinbwave' performs much worse than controls for metric' ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: zinbwave\n  Metric: ks_statistic_transition_matrix\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_transition_matrix' score for 'zinbwave'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zinbwave' performs much better than controls for metric 'ks_statistic_transition_matrix'\n  Task: spatial_simulators\n  Method: zinbwave\n  Metric: ks_statistic_transition_matrix\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_central_score' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_central_score\n  Inside range: 81\n  Scaled scores: 81\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_central_score' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: spatial_simulators\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_central_score' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: spatial_simulators\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'negative'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'negative' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: negative\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'negative'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'negative' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: negative\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'positive'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'positive' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: positive\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'positive'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'positive' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: positive\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'scdesign2'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scdesign2' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: scdesign2\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'scdesign2'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scdesign2' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: scdesign2\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'scdesign3'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scdesign3' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: scdesign3\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'scdesign3'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scdesign3' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: scdesign3\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'sparsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'sparsim' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: sparsim\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'sparsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'sparsim' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: sparsim\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'splatter'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'splatter' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: splatter\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'splatter'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'splatter' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: splatter\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'srtsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'srtsim' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: srtsim\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'srtsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'srtsim' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: srtsim\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'symsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'symsim' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: symsim\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'symsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'symsim' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: symsim\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_central_score' score for 'zinbwave'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zinbwave' performs much worse than controls for metric' ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: zinbwave\n  Metric: ks_statistic_central_score\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_central_score' score for 'zinbwave'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zinbwave' performs much better than controls for metric 'ks_statistic_central_score'\n  Task: spatial_simulators\n  Method: zinbwave\n  Metric: ks_statistic_central_score\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_enrichment' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: spatial_simulators\n  Metric: ks_statistic_enrichment\n  Inside range: 81\n  Scaled scores: 81\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_enrichment' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: spatial_simulators\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ks_statistic_enrichment' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: spatial_simulators\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'negative'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'negative' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: negative\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'negative'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'negative' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: negative\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'positive'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'positive' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: positive\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'positive'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'positive' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: positive\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'scdesign2'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scdesign2' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: scdesign2\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'scdesign2'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scdesign2' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: scdesign2\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'scdesign3'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scdesign3' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: scdesign3\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'scdesign3'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scdesign3' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: scdesign3\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'sparsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'sparsim' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: sparsim\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'sparsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'sparsim' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: sparsim\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'splatter'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'splatter' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: splatter\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'splatter'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'splatter' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: splatter\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'srtsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'srtsim' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: srtsim\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'srtsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'srtsim' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: srtsim\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'symsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'symsim' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: symsim\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'symsim'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'symsim' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: symsim\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ks_statistic_enrichment' score for 'zinbwave'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zinbwave' performs much worse than controls for metric' ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: zinbwave\n  Metric: ks_statistic_enrichment\n  Worst score: 0\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ks_statistic_enrichment' score for 'zinbwave'",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zinbwave' performs much better than controls for metric 'ks_statistic_enrichment'\n  Task: spatial_simulators\n  Method: zinbwave\n  Metric: ks_statistic_enrichment\n  Best score: 0\n  Percentage outside range: 0%\n"
+  }
+]

@@ -1,0 +1,50 @@
+[
+  {
+    "name": "knn_auc",
+    "label": "KNN AUC",
+    "commit": "missing-sha",
+    "summary": "Compute the kNN Area Under the Curve",
+    "description": "Compute the kNN Area Under the Curve",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "knn_auc",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/metrics/knn_auc.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "mse",
+    "label": "Mean Squared Error",
+    "commit": "missing-sha",
+    "summary": "Compute the mean squared error.",
+    "description": "The mean squared error (MSE) is a measure of the quality of an estimator. It is always non-negative, and values closer to zero are better.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/metrics/mse.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  }
+]

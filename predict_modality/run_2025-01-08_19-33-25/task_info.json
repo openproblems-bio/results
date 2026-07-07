@@ -1,0 +1,134 @@
+{
+  "name": "predict_modality",
+  "commit": null,
+  "label": "Predict Modality",
+  "summary": "Predicting the profiles of one modality (e.g. protein abundance) from another (e.g. mRNA expression).",
+  "description": "Experimental techniques to measure multiple modalities within the same single cell are increasingly becoming available. \nThe demand for these measurements is driven by the promise to provide a deeper insight into the state of a cell. \nYet, the modalities are also intrinsically linked. We know that DNA must be accessible (ATAC data) to produce mRNA \n(expression data), and mRNA in turn is used as a template to produce protein (protein abundance). These processes \nare regulated often by the same molecules that they produce: for example, a protein may bind DNA to prevent the production \nof more mRNA. Understanding these regulatory processes would be transformative for synthetic biology and drug target discovery. \nAny method that can predict a modality from another must have accounted for these regulatory processes, but the demand for \nmulti-modal data shows that this is not trivial.",
+  "repository": "https://github.com/openproblems-bio/task_predict_modality",
+  "authors": [
+    {
+      "name": "Alejandro Granados",
+      "roles": [
+        "author"
+      ],
+      "github": "agranado",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Alex Tong",
+      "roles": [
+        "author"
+      ],
+      "github": "atong01",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Bastian Rieck",
+      "roles": [
+        "author"
+      ],
+      "github": "Pseudomanifold",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Christopher Lance",
+      "roles": [
+        "author"
+      ],
+      "github": "xlancelottx",
+      "orcid": "0000-0002-1275-9802",
+      "info": {}
+    },
+    {
+      "name": "Daniel Burkhardt",
+      "roles": [
+        "author"
+      ],
+      "github": "dburkhardt",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    },
+    {
+      "name": "Kaiwen Deng",
+      "roles": [
+        "contributor"
+      ],
+      "github": "nonztalk",
+      "orcid": null,
+      "info": {
+        "email": [
+          "dengkw@umich.edu"
+        ]
+      }
+    },
+    {
+      "name": "Louise Deconinck",
+      "roles": [
+        "author"
+      ],
+      "github": "LouiseDck",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Xueer Chen",
+      "roles": [
+        "contributor"
+      ],
+      "github": "xuerchen",
+      "orcid": null,
+      "info": {
+        "email": [
+          "xc2579@columbia.edu"
+        ]
+      }
+    },
+    {
+      "name": "Jiwei Liu",
+      "roles": [
+        "contributor"
+      ],
+      "github": "daxiongshu",
+      "orcid": "0000-0002-8799-9763",
+      "info": {
+        "email": [
+          "jiweil@nvidia.com"
+        ]
+      }
+    }
+  ],
+  "license": "MIT",
+  "references": {
+    "doi": [
+      "10.1101/2022.04.11.487796"
+    ],
+    "bibtex": [
+      "@inproceedings{luecken2021sandbox,\n  title={A sandbox for prediction and integration of DNA, RNA, and proteins in single cells},\n  author={Luecken, Malte D and Burkhardt, Daniel Bernard and Cannoodt, Robrecht and Lance, Christopher and Agrawal, Aditi and Aliee, Hananeh and Chen, Ann T and Deconinck, Louise and Detweiler, Angela M and Granados, Alejandro A and others},\n  booktitle={Thirty-fifth conference on neural information processing systems datasets and benchmarks track (Round 2)},\n  year={2021}\n}\n"
+    ]
+  },
+  "version": "run_2025-01-08_19-33-25",
+  "is_prerelease": true,
+  "timestamp": "2025-01-08T19:33:25Z"
+}

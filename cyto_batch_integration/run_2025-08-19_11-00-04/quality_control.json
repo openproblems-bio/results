@@ -1,0 +1,2063 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: cyto_batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: cyto_batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: cyto_batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: cyto_batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: cyto_batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 72,
+    "severity": 3,
+    "severity_value": 8.9565,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: cyto_batch_integration\n  Number of results: 72\n  Number of datasets: 2\n  Number of methods: 23\n  Number of metrics: 15\n  Expected number of results: 690\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'human_blood_mass_cytometry' % missing",
+    "value": 0.9188,
+    "severity": 3,
+    "severity_value": 9.1884,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: human_blood_mass_cytometry\n  Number of results: 28\n  Expected number of results: 345\n  Percentage missing: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'mouse_spleen_flow_cytometry' % missing",
+    "value": 0.8725,
+    "severity": 3,
+    "severity_value": 8.7246,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: mouse_spleen_flow_cytometry\n  Number of results: 44\n  Expected number of results: 345\n  Percentage missing: 87%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonypy' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: harmonypy\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'limma_remove_batch_effect' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: limma_remove_batch_effect\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration' % missing",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: no_integration\n  Number of results: 18\n  Expected number of results: 30\n  Percentage missing: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'perfect_integration' % missing",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Number of results: 18\n  Expected number of results: 30\n  Percentage missing: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % missing",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: combat\n  Number of results: 18\n  Expected number of results: 30\n  Percentage missing: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_mid\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_mid\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_mid\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gaussnorm' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: gaussnorm\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: mnn\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_one_control' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_one_control\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_all_controls' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_all_controls\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_mid' % missing",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Number of results: 18\n  Expected number of results: 30\n  Percentage missing: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_mid\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_mid\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_goal\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_mid\n  Number of results: 0\n  Expected number of results: 30\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_horiz' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_ct_horiz' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_horiz\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_global_horiz' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_horiz\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_global_horiz' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_global_horiz\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_global_vert' % missing",
+    "value": 0.913,
+    "severity": 3,
+    "severity_value": 9.1304,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_vert\n  Number of results: 4\n  Expected number of results: 46\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_global_vert' % missing",
+    "value": 0.913,
+    "severity": 3,
+    "severity_value": 9.1304,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_global_vert\n  Number of results: 4\n  Expected number of results: 46\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_vert' % missing",
+    "value": 0.913,
+    "severity": 3,
+    "severity_value": 9.1304,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Number of results: 4\n  Expected number of results: 46\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_ct_vert' % missing",
+    "value": 0.913,
+    "severity": 3,
+    "severity_value": 9.1304,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_vert\n  Number of results: 4\n  Expected number of results: 46\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks_ct' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_global' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_global\n  Number of results: 0\n  Expected number of results: 46\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_ct' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_ct\n  Number of results: 0\n  Expected number of results: 46\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'flowsom_mean_mapping_similarity' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: flowsom_mean_mapping_similarity\n  Number of results: 0\n  Expected number of results: 46\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cms' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: cms\n  Number of results: 0\n  Expected number of results: 46\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'bras' % missing",
+    "value": 0.8261,
+    "severity": 3,
+    "severity_value": 8.2609,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: bras\n  Number of results: 8\n  Expected number of results: 46\n  Percentage missing: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 32,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: cyto_batch_integration\n  Succeeded processes: 32\n  Attempted processes: 32\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'human_blood_mass_cytometry' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: human_blood_mass_cytometry\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'mouse_spleen_flow_cytometry' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: mouse_spleen_flow_cytometry\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonypy' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: harmonypy\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'limma_remove_batch_effect' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: limma_remove_batch_effect\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: no_integration\n  Succeeded processes: 2\n  Attempted processes: 2\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'perfect_integration' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Succeeded processes: 2\n  Attempted processes: 2\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: combat\n  Succeeded processes: 2\n  Attempted processes: 2\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gaussnorm' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: gaussnorm\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: mnn\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_one_control' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_one_control\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_all_controls' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_all_controls\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_mid' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Succeeded processes: 2\n  Attempted processes: 2\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'bras' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Metric component: bras\n  Succeeded processes: 8\n  Attempted processes: 8\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'emd' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Metric component: emd\n  Succeeded processes: 8\n  Attempted processes: 8\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'n_inconsistent_peaks' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Metric component: n_inconsistent_peaks\n  Succeeded processes: 8\n  Attempted processes: 8\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `human_blood_mass_cytometry' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: cyto_batch_integration\n  Dataset: human_blood_mass_cytometry\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `mouse_spleen_flow_cytometry' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: cyto_batch_integration\n  Dataset: mouse_spleen_flow_cytometry\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_horiz' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_ct_horiz' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_horiz\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_global_horiz' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_horiz\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_global_horiz' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_max_global_horiz\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_global_vert' number of control methods",
+    "value": 2,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_vert\n  Control method scores: 2\n  Expected control method scores: 4\n  Percentage succeeded: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_global_vert' number of control methods",
+    "value": 2,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_max_global_vert\n  Control method scores: 2\n  Expected control method scores: 4\n  Percentage succeeded: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_vert' number of control methods",
+    "value": 2,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Control method scores: 2\n  Expected control method scores: 4\n  Percentage succeeded: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_max_ct_vert' number of control methods",
+    "value": 2,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_vert\n  Control method scores: 2\n  Expected control method scores: 4\n  Percentage succeeded: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks_ct' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_global' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_global\n  Control method scores: 0\n  Expected control method scores: 4\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_ct' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_ct\n  Control method scores: 0\n  Expected control method scores: 4\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'flowsom_mean_mapping_similarity' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: flowsom_mean_mapping_similarity\n  Control method scores: 0\n  Expected control method scores: 4\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cms' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: cms\n  Control method scores: 0\n  Expected control method scores: 4\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'bras' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: bras\n  Control method scores: 4\n  Expected control method scores: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_ct_horiz' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Inside range: 8\n  Scaled scores: 8\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_ct_horiz' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Worst score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_ct_horiz' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Best score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_horiz' score for 'combat'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_ct_horiz\n  Worst score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_horiz' score for 'combat'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_ct_horiz\n  Best score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_ct_horiz\n  Worst score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_ct_horiz\n  Best score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_horiz' score for 'no_integration'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_ct_horiz\n  Worst score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_horiz' score for 'no_integration'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_ct_horiz\n  Best score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_horiz' score for 'perfect_integration'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_ct_horiz\n  Worst score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_horiz' score for 'perfect_integration'",
+    "value": 0.2356,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_mean_ct_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_ct_horiz\n  Best score: 0.23562412342216\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_ct_horiz' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_horiz\n  Inside range: 8\n  Scaled scores: 8\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_ct_horiz' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_horiz\n  Worst score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_ct_horiz' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_horiz\n  Best score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_horiz' score for 'combat'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_ct_horiz\n  Worst score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_horiz' score for 'combat'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_ct_horiz\n  Best score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_ct_horiz\n  Worst score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_ct_horiz\n  Best score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_horiz' score for 'no_integration'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_ct_horiz\n  Worst score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_horiz' score for 'no_integration'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_ct_horiz\n  Best score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_horiz' score for 'perfect_integration'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_ct_horiz\n  Worst score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_horiz' score for 'perfect_integration'",
+    "value": 0.4791,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_max_ct_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_ct_horiz\n  Best score: 0.479088805837337\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_global_horiz' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_horiz\n  Inside range: 8\n  Scaled scores: 8\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_global_horiz' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_horiz\n  Worst score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_global_horiz' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_horiz\n  Best score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_horiz' score for 'combat'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_global_horiz\n  Worst score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_horiz' score for 'combat'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_global_horiz\n  Best score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_global_horiz\n  Worst score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_global_horiz\n  Best score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_horiz' score for 'no_integration'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_global_horiz\n  Worst score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_horiz' score for 'no_integration'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_global_horiz\n  Best score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_horiz' score for 'perfect_integration'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_global_horiz\n  Worst score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_horiz' score for 'perfect_integration'",
+    "value": 0.3678,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_mean_global_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_global_horiz\n  Best score: 0.36783320923306\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_global_horiz' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_global_horiz\n  Inside range: 8\n  Scaled scores: 8\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_global_horiz' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_global_horiz\n  Worst score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_global_horiz' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_global_horiz\n  Best score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_horiz' score for 'combat'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_global_horiz\n  Worst score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_horiz' score for 'combat'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_global_horiz\n  Best score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_global_horiz\n  Worst score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_horiz' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_global_horiz\n  Best score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_horiz' score for 'no_integration'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_global_horiz\n  Worst score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_horiz' score for 'no_integration'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_global_horiz\n  Best score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_horiz' score for 'perfect_integration'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_global_horiz\n  Worst score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_horiz' score for 'perfect_integration'",
+    "value": 0.3987,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_max_global_horiz'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_global_horiz\n  Best score: 0.398723404255319\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_global_vert' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_vert\n  Inside range: 0\n  Scaled scores: 4\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_global_vert' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_vert\n  Worst score: 1.41726618705036\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_global_vert' best score % outside range",
+    "value": 0.4173,
+    "severity": 3,
+    "severity_value": 4.1727,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_global_vert\n  Best score: 1.41726618705036\n  Percentage outside range: 42%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_vert' score for 'combat'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_global_vert\n  Worst score: 1.41726618705036\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_vert' score for 'combat'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_global_vert\n  Best score: 1.41726618705036\n  Percentage outside range: 42%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_global_vert\n  Worst score: 1.41726618705036\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_global_vert\n  Best score: 1.41726618705036\n  Percentage outside range: 42%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_vert' score for 'no_integration'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_global_vert\n  Worst score: 1.41726618705036\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_vert' score for 'no_integration'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_global_vert\n  Best score: 1.41726618705036\n  Percentage outside range: 42%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_global_vert' score for 'perfect_integration'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_global_vert\n  Worst score: 1.41726618705036\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_global_vert' score for 'perfect_integration'",
+    "value": 1.4173,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_mean_global_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_global_vert\n  Best score: 1.41726618705036\n  Percentage outside range: 42%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_global_vert' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_global_vert\n  Inside range: 4\n  Scaled scores: 4\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_global_vert' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_global_vert\n  Worst score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_global_vert' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_global_vert\n  Best score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_vert' score for 'combat'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_global_vert\n  Worst score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_vert' score for 'combat'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_global_vert\n  Best score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_global_vert\n  Worst score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_global_vert\n  Best score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_vert' score for 'no_integration'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_global_vert\n  Worst score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_vert' score for 'no_integration'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_global_vert\n  Best score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_global_vert' score for 'perfect_integration'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_global_vert\n  Worst score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_global_vert' score for 'perfect_integration'",
+    "value": 0.8025,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_max_global_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_global_vert\n  Best score: 0.802521008403361\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_ct_vert' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Inside range: 4\n  Scaled scores: 4\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_ct_vert' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Worst score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_mean_ct_vert' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Best score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_vert' score for 'combat'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_ct_vert\n  Worst score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_vert' score for 'combat'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_mean_ct_vert\n  Best score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_ct_vert\n  Worst score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_mean_ct_vert\n  Best score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_vert' score for 'no_integration'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_ct_vert\n  Worst score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_vert' score for 'no_integration'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_mean_ct_vert\n  Best score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_mean_ct_vert' score for 'perfect_integration'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_ct_vert\n  Worst score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_mean_ct_vert' score for 'perfect_integration'",
+    "value": 0.2748,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_mean_ct_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_mean_ct_vert\n  Best score: 0.274766355140187\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_ct_vert' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_vert\n  Inside range: 4\n  Scaled scores: 4\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_ct_vert' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_vert\n  Worst score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'emd_max_ct_vert' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: emd_max_ct_vert\n  Best score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_vert' score for 'combat'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_ct_vert\n  Worst score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_vert' score for 'combat'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: emd_max_ct_vert\n  Best score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_ct_vert\n  Worst score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_vert' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: emd_max_ct_vert\n  Best score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_vert' score for 'no_integration'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_ct_vert\n  Worst score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_vert' score for 'no_integration'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: emd_max_ct_vert\n  Best score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'emd_max_ct_vert' score for 'perfect_integration'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_ct_vert\n  Worst score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'emd_max_ct_vert' score for 'perfect_integration'",
+    "value": 0.3505,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'emd_max_ct_vert'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: emd_max_ct_vert\n  Best score: 0.350497620077888\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'n_inconsistent_peaks' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Inside range: 0\n  Scaled scores: 8\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'n_inconsistent_peaks' worst score % outside range",
+    "value": 0.1538,
+    "severity": 1,
+    "severity_value": 1.5385,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Worst score: -0.153846153846154\n  Percentage outside range: 15%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'n_inconsistent_peaks' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Best score: -0.153846153846154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks' score for 'combat'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: n_inconsistent_peaks\n  Worst score: -0.153846153846154\n  Percentage outside range: 15%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks' score for 'combat'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: n_inconsistent_peaks\n  Best score: -0.153846153846154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks' score for 'cytonorm_no_controls_to_mid'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: n_inconsistent_peaks\n  Worst score: -0.153846153846154\n  Percentage outside range: 15%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks' score for 'cytonorm_no_controls_to_mid'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: n_inconsistent_peaks\n  Best score: -0.153846153846154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks' score for 'no_integration'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: n_inconsistent_peaks\n  Worst score: -0.153846153846154\n  Percentage outside range: 15%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks' score for 'no_integration'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: n_inconsistent_peaks\n  Best score: -0.153846153846154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks' score for 'perfect_integration'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: n_inconsistent_peaks\n  Worst score: -0.153846153846154\n  Percentage outside range: 15%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks' score for 'perfect_integration'",
+    "value": -0.1538,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'n_inconsistent_peaks'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: n_inconsistent_peaks\n  Best score: -0.153846153846154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'n_inconsistent_peaks_ct' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Inside range: 0\n  Scaled scores: 8\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'n_inconsistent_peaks_ct' worst score % outside range",
+    "value": 0.0103,
+    "severity": 0,
+    "severity_value": 0.1031,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Worst score: -0.0103092783505154\n  Percentage outside range: 1%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'n_inconsistent_peaks_ct' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Best score: -0.0103092783505154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks_ct' score for 'combat'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: n_inconsistent_peaks_ct\n  Worst score: -0.0103092783505154\n  Percentage outside range: 1%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks_ct' score for 'combat'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: n_inconsistent_peaks_ct\n  Best score: -0.0103092783505154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks_ct' score for 'cytonorm_no_controls_to_mid'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: n_inconsistent_peaks_ct\n  Worst score: -0.0103092783505154\n  Percentage outside range: 1%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks_ct' score for 'cytonorm_no_controls_to_mid'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: n_inconsistent_peaks_ct\n  Best score: -0.0103092783505154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks_ct' score for 'no_integration'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: n_inconsistent_peaks_ct\n  Worst score: -0.0103092783505154\n  Percentage outside range: 1%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks_ct' score for 'no_integration'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: n_inconsistent_peaks_ct\n  Best score: -0.0103092783505154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'n_inconsistent_peaks_ct' score for 'perfect_integration'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: n_inconsistent_peaks_ct\n  Worst score: -0.0103092783505154\n  Percentage outside range: 1%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'n_inconsistent_peaks_ct' score for 'perfect_integration'",
+    "value": -0.0103,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'n_inconsistent_peaks_ct'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: n_inconsistent_peaks_ct\n  Best score: -0.0103092783505154\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'bras' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: cyto_batch_integration\n  Metric: bras\n  Inside range: 8\n  Scaled scores: 8\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'bras' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: bras\n  Worst score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'bras' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: cyto_batch_integration\n  Metric: bras\n  Best score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'bras' score for 'combat'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'combat' performs much worse than controls for metric' bras'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: bras\n  Worst score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'bras' score for 'combat'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'combat' performs much better than controls for metric 'bras'\n  Task: cyto_batch_integration\n  Method: combat\n  Metric: bras\n  Best score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'bras' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much worse than controls for metric' bras'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: bras\n  Worst score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'bras' score for 'cytonorm_no_controls_to_mid'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cytonorm_no_controls_to_mid' performs much better than controls for metric 'bras'\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Metric: bras\n  Best score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'bras' score for 'no_integration'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' bras'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: bras\n  Worst score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'bras' score for 'no_integration'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'bras'\n  Task: cyto_batch_integration\n  Method: no_integration\n  Metric: bras\n  Best score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'bras' score for 'perfect_integration'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_integration' performs much worse than controls for metric' bras'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: bras\n  Worst score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'bras' score for 'perfect_integration'",
+    "value": 0.9065,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_integration' performs much better than controls for metric 'bras'\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Metric: bras\n  Best score: 0.906474820143885\n  Percentage outside range: 0%\n"
+  }
+]

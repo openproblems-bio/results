@@ -1,0 +1,338 @@
+[
+  {
+    "name": "random_ranking",
+    "label": "Random Ranking",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Negative control method that randomly rank genes.",
+    "description": "A negative control method with random ranking of genes.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_spatially_variable_genes",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/control_methods/random_ranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/control_methods/random_ranking:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "true_ranking",
+    "label": "True Ranking",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Positive control method that correctly rank genes.",
+    "description": "A positive control method with correct ranking of genes.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_spatially_variable_genes",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/control_methods/true_ranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/control_methods/true_ranking:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "boostgp",
+    "label": "BOOST-GP",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Bayesian modeling of spatial molecular profiling data via Gaussian process",
+    "description": "BOOST-GP a novel Bayesian hierarchical model to analyze spatial transcriptomics data, \nwith several unique characteristics. It models the zero-inflated and over-dispersed \ncounts by deploying a zero-inflated negative binomial model that greatly increases \nmodel stability and robustness. Besides, the Bayesian inference framework allows us \nto borrow strength in parameter estimation in a de novo fashion. As a result, \nthe proposed model shows competitive performances in accuracy and robustness \nover existing methods in both simulation studies and two real data applications.",
+    "type": "method",
+    "link_code": "https://github.com/Minzhe/BOOST-GP",
+    "link_documentation": "https://github.com/Minzhe/BOOST-GP",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/boostgp",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/boostgp:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/bioinformatics/btab455"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "gpcounts",
+    "label": "GPcounts",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "GPcounts is non-parametric modelling of temporal and spatial counts data from RNA-seq experiments.",
+    "description": "The GPcounts package implements GP regression methods for modelling counts data using a \nnegative binomial likelihood function. Computational efficiency is achieved through the use of \nvariational Bayesian inference. The GP function models changes in the mean of the negative binomial \nlikelihood through a logarithmic link function and the dispersion parameter is fitted by maximum \nlikelihood. We validate the method on simulated time course data, showing better performance to identify \nchanges in over-dispersed counts data than methods based on Gaussian or Poisson likelihoods.",
+    "type": "method",
+    "link_code": "https://github.com/ManchesterBioinference/GPcounts",
+    "link_documentation": "https://github.com/ManchesterBioinference/GPcounts/blob/master/demo_notebooks/GPcounts_spatial.ipynb",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/gpcounts",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/gpcounts:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/bioinformatics/btab486"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "moran_i",
+    "label": "Moran's I",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Moran's I is a measurement of spatial autocorrelation.",
+    "description": "The MoranI global spatial auto-correlation statistics evaluates whether features (i.e. genes) \nshows a pattern that is clustered, dispersed or random in the tissue are under consideration.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/squidpy",
+    "link_documentation": "https://squidpy.readthedocs.io/en/stable/api/squidpy.gr.spatial_autocorr.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/moran_i",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/moran_i:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01358-2"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "nnsvg",
+    "label": "nnSVG",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "nnSVG is based on nearest-neighbor Gaussian process (NNGP) models to estimate parameters in GPs",
+    "description": "nnSVG identifies genes that vary in expression continuously across the entire tissue or within a priori defined \nspatial domains. It uses gene-specific estimates of length scale parameters within the Gaussian process models, \nand scales linearly with the number of spatial locations.",
+    "type": "method",
+    "link_code": "https://github.com/lmweber/nnSVG",
+    "link_documentation": "https://bioconductor.org/packages/release/bioc/vignettes/nnSVG/inst/doc/nnSVG.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/nnsvg",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/nnsvg:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-023-39748-z"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scgco",
+    "label": "scGCO",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Identification of spatially variable genes with graph cuts.",
+    "description": "Single-cell gene expression data with positional information is critical to dissect \nmechanisms and architectures of multicellular organisms, but the potential is limited \nby the scalability of current data analysis strategies. Here, we present scGCO, \na method based on fast optimization of hidden Markov Random Fields with graph cuts \nto identify spatially variable genes. Comparing to existing methods, scGCO delivers \na superior performance with lower false positive rate and improved specificity, \nwhile demonstrates a more robust performance in the presence of noises. \nCritically, scGCO scales near linearly with inputs and demonstrates orders of \nmagnitude better running time and memory requirement than existing methods, \nand could represent a valuable solution when spatial transcriptomics data grows \ninto millions of data points and beyond..",
+    "type": "method",
+    "link_code": "https://github.com/WangPeng-Lab/scGCO",
+    "link_documentation": "https://github.com/WangPeng-Lab/scGCO/blob/master/code/Tutorial/scGCO_tutorial.ipynb",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/scgco",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/scgco:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-33182-3"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "sepal",
+    "label": "Sepal",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Sepal simulates diffusion of individual transcripts to extract genes with spatial patterns.",
+    "description": "This method assesses the degree of randomness exhibited by each transcript profile and rank them accordingly.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/squidpy",
+    "link_documentation": "https://squidpy.readthedocs.io/en/stable/api/squidpy.gr.sepal.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/sepal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/sepal:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/bioinformatics/btab164"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "somde",
+    "label": "SOMDE",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "SOMDE is a scalable method for identifying spatially variable genes with self-organizing map.",
+    "description": "SOMDE uses self-organizing map to cluster neighboring cells into nodes, and then uses a Gaussian process \nto fit the node-level spatial gene expression to identify SVgenes. Experiments show that SOMDE is about \n5 to 50 times faster than existing methods with comparable results. \nThe adjustable resolution of SOMDE makes it the only method that can give results in about \n5 min in large datasets of more than 20 000 sequencing sites.",
+    "type": "method",
+    "link_code": "https://github.com/XuegongLab/somde",
+    "link_documentation": "https://github.com/WhirlFirst/somde/blob/master/slide_seq0819_11_SOM.ipynb",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/somde",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/somde:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/bioinformatics/btab471"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spagcn",
+    "label": "SpaGCN",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Integrating gene expression, spatial location and histology to identify spatial domains and spatially variable genes by graph convolutional network.",
+    "description": "To elucidate spatial gene expression variation, we present SpaGCN, a graph convolutional \nnetwork approach that integrates gene expression, spatial location and histology in SRT data analysis. \nThrough graph convolution, SpaGCN aggregates gene expression of each spot from its neighboring spots, \nwhich enables the identification of spatial domains with coherent expression and histology. \nThe subsequent domain guided differential expression (DE) analysis then detects genes with \nenriched expression patterns in the identified domains. Analyzing seven SRT datasets using \nSpaGCN, we show it can detect genes with much more enriched spatial expression patterns than competing methods. Furthermore, genes detected by SpaGCN are transferrable and can be utilized to study spatial variation of gene expression in other datasets. SpaGCN is computationally \nfast, platform independent, making it a desirable tool for diverse SRT studies.",
+    "type": "method",
+    "link_code": "https://github.com/jianhuupenn/SpaGCN",
+    "link_documentation": "https://github.com/jianhuupenn/SpaGCN/blob/master/tutorial/tutorial.ipynb",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spagcn",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spagcn:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01255-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spagft",
+    "label": "SpaGFT",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "SpaGFT is a graph Fourier transform for tissue module identification from spatially resolved transcriptomics",
+    "description": "The tissue module (TM) was defined as an architectural area containing recurrent cellular \ncommunities executing specific biological functions at different tissue sites. \nHowever, the computational identification of TMs poses challenges owing to their various \nlength scales, convoluted biological processes, not well-defined molecular features, and \nirregular spatial patterns. Here, we present a hypothesis-free graph Fourier transform model, \nSpaGFT, to characterize TMs. For the first time, SpaGFT transforms complex gene expression \npatterns into simple, but informative signals, leading to the accurate identification of \nspatially variable genes (SVGs) at a fast computational speed. Based on clustering the \ntransformed signals of the SVGs, SpaGFT provides a novel computational framework for TM \ncharacterization. Three case studies were used to illustrate TM identities, the biological \nprocesses of convoluted TMs in the lymph node, and conserved TMs across multiple samples constituting \nthe complex organ. The superior accuracy, scalability, and interpretability of SpaGFT indicate \nthat it is a novel and powerful tool for the investigation of TMs to gain new insights into a variety \nof biological questions.",
+    "type": "method",
+    "link_code": "https://github.com/jxLiu-bio/SpaGFT",
+    "link_documentation": "https://spagft.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spagft",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spagft:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2022.12.10.519929"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spanve",
+    "label": "Spanve",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Spanve is a non-parametric statistical approach based on modeling space dependence as a distance of two distributions for detecting SV genes.",
+    "description": "The depiction of in situ gene expression through spatial transcriptomics facilitates the inference of cell \nfunction mechanisms. To build spatial maps of transcriptomes, the first and crucial step is to \nidentify spatially variable (SV) genes. However, current methods fall short in dealing with \nlarge-scale spatial transcriptomics data and may result in a high false positive rate due to the \nmodeling of gene expression into parametric distributions. \nThis paper introduces Spanve (https://github.com/zjupgx/Spanve), a non-parametric statistical approach \nbased on modeling space dependence as a distance of two distributions for detecting SV genes. \nThe high computing efficiency and accuracy of Spanve is demonstrated through comprehensive benchmarking. \nAdditionally, Spanve can detect clustering-friendly SV genes and spatially variable co-expression, \nfacilitating the identification of spatial tissue domains by an imputation.",
+    "type": "method",
+    "link_code": "https://github.com/zjupgx/Spanve",
+    "link_documentation": "https://github.com/zjupgx/Spanve/blob/main/tutorial.ipynb",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spanve",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spanve:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.02.08.527623"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spark",
+    "label": "SPARK",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "Spatial PAttern Recognition via Kernels",
+    "description": "SPARK builds upon a generalized linear spatial model (GLSM) with a variety of spatial kernels to accommodate count data.\nWith a newly developed penalized quasi-likelihood (PQL) algorithm, SPARK is scalable to analyzing tens of \nthousands of genes across tens of thousands spatial locations.",
+    "type": "method",
+    "link_code": "https://github.com/xzhoulab/SPARK",
+    "link_documentation": "https://xzhoulab.github.io/SPARK/02_SPARK_Example/",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spark",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spark:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0701-7"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spark_x",
+    "label": "SPARK-X",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "SPARK-X is a non-parametric method for rapid and effective detection of spatially expressed genes in large spatial transcriptomic studies.",
+    "description": "Spatial transcriptomic studies are becoming increasingly common and large, posing important \nstatistical and computational challenges for many analytic tasks. Here, we present SPARK-X, \na non-parametric method for rapid and effective detection of spatially expressed genes in large \nspatial transcriptomic studies. SPARK-X not only produces effective type I error control and \nhigh power but also brings orders of magnitude computational savings. We apply SPARK-X to \nanalyze three large datasets, one of which is only analyzable by SPARK-X. In these data, \nSPARK-X identifies many spatially expressed genes including those that are spatially \nexpressed within the same cell type, revealing new biological insights.",
+    "type": "method",
+    "link_code": "https://github.com/xzhoulab/SPARK",
+    "link_documentation": "https://xzhoulab.github.io/SPARK/02_SPARK_Example/",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spark_x",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spark_x:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1186/s13059-021-02404-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spatialde",
+    "label": "SpatialDE",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "SpatialDE is a method for identify spatially variable genes based on Gaussian Process model",
+    "description": "SpatialDE decomposes expression variability into spatial and nonspatial components using two random effect terms: a spatial variance term that parametrizes gene expression covariance by pairwise distances of samples, and a noise term that models nonspatial variability.",
+    "type": "method",
+    "link_code": "https://github.com/Teichlab/SpatialDE",
+    "link_documentation": "https://github.com/Teichlab/SpatialDE",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spatialde",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spatialde:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/nmeth.4636"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "spatialde2",
+    "label": "SpatialDE2",
+    "commit": "a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce",
+    "summary": "SpatialDE2: Fast and localized variance component analysis of spatial transcriptomics",
+    "description": "Spatial transcriptomics is now a mature technology, allowing to assay gene expression changes \nin the histological context of complex tissues. A canonical analysis workflow starts with the \nidentification of tissue zones that share similar expression profiles, followed by the detection \nof highly variable or spatially variable genes. Rapid increases in the scale and complexity of \nspatial transcriptomic datasets demand that these analysis steps are conducted in a consistent \nand integrated manner, a requirement that is not met by current methods. To address this, we \nhere present SpatialDE2, which unifies the mapping of tissue zones and spatial variable gene \ndetection as integrated software framework, while at the same time advancing current algorithms \nfor both of these steps. Formulated in a Bayesian framework, the model accounts for the Poisson \ncount noise, while simultaneously offering superior computational speed compared to previous methods. \nWe validate SpatialDE2 using simulated data and illustrate its utility in the context of two real-world \napplications to the spatial transcriptomics profiles of the mouse brain and human endometrium.",
+    "type": "method",
+    "link_code": "https://github.com/PMBio/SpatialDE",
+    "link_documentation": "https://pmbio.github.io/SpatialDE/",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatially_variable_genes/blob/a2cb02e6b6054ee0566843f2fd34fa6f63dc96ce/src/methods/spatialde2",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatially_variable_genes/methods/spatialde2:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2021.10.27.466045"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  }
+]

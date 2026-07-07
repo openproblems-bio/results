@@ -1,0 +1,50 @@
+[
+  {
+    "name": "mse",
+    "label": "Mean-squared error",
+    "commit": "8675eced559ab4f5f4445216e9b3355e7c54043f",
+    "summary": "The mean squared error between the denoised counts and the true counts.",
+    "description": "The mean squared error between the denoised counts of the training dataset and the true counts of the test dataset after reweighing by the train/test ratio",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/8675eced559ab4f5f4445216e9b3355e7c54043f/src/metrics/mse",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/metrics/mse:build_feature_ref_2_fix_benchmark_results",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "batson2019molecular",
+      "v1": {
+        "path": "openproblems/tasks/denoising/metrics/mse.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "build_feature_ref_2_fix_benchmark_results"
+  },
+  {
+    "name": "poisson",
+    "label": "Poisson Loss",
+    "commit": "8675eced559ab4f5f4445216e9b3355e7c54043f",
+    "summary": "The Poisson log likelihood of the true counts observed in the distribution of denoised counts",
+    "description": "The Poisson log likelihood of observing the true counts of the test dataset given the distribution given in the denoised dataset.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/8675eced559ab4f5f4445216e9b3355e7c54043f/src/metrics/poisson",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/metrics/poisson:build_feature_ref_2_fix_benchmark_results",
+    "component_name": "poisson",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "batson2019molecular",
+      "v1": {
+        "path": "openproblems/tasks/denoising/metrics/poisson.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "build_feature_ref_2_fix_benchmark_results"
+  }
+]

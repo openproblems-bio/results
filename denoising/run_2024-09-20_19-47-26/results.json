@@ -1,0 +1,3980 @@
+[
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [818],
+    "run_cpu_pct": [111.5],
+    "run_peak_memory_mb": [25191],
+    "run_disk_read_mb": [288],
+    "run_disk_write_mb": [772],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2283, 0.8195],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 30.4],
+        "run_cpu_pct": [580.8, 162.5],
+        "run_peak_memory_mb": [1434, 6964],
+        "run_disk_read_mb": [18, 867],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 22.9],
+        "run_cpu_pct": [344.6, 213.3],
+        "run_peak_memory_mb": [2868, 12186],
+        "run_disk_read_mb": [18, 850],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [419],
+    "run_cpu_pct": [2410.2],
+    "run_peak_memory_mb": [18535],
+    "run_disk_read_mb": [322],
+    "run_disk_write_mb": [894],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1934, 0.2291],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 22.3],
+        "run_cpu_pct": [594.7, 141],
+        "run_peak_memory_mb": [5530, 10650],
+        "run_disk_read_mb": [19, 989],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 29.2],
+        "run_cpu_pct": [603.2, 90.4],
+        "run_peak_memory_mb": [1434, 14029],
+        "run_disk_read_mb": [18, 973],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [133],
+    "run_cpu_pct": [1327],
+    "run_peak_memory_mb": [17818],
+    "run_disk_read_mb": [290],
+    "run_disk_write_mb": [139],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2014, 2.0693],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 30.8],
+        "run_cpu_pct": [757.7, 89.4],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [19, 234],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 16.9],
+        "run_cpu_pct": [744.5, 159.1],
+        "run_peak_memory_mb": [2765, 14848],
+        "run_disk_read_mb": [19, 217],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [140],
+    "run_cpu_pct": [914.7],
+    "run_peak_memory_mb": [11981],
+    "run_disk_read_mb": [302],
+    "run_disk_write_mb": [1434],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1933, 0.2307],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 30.4],
+        "run_cpu_pct": [456.8, 96.5],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [19, 1536],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 28.8],
+        "run_cpu_pct": [443.7, 103.5],
+        "run_peak_memory_mb": [2765, 14848],
+        "run_disk_read_mb": [19, 1536],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [13.2],
+    "run_cpu_pct": [302.4],
+    "run_peak_memory_mb": [3175],
+    "run_disk_read_mb": [278],
+    "run_disk_write_mb": [102],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2321, 0.2182],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 12.6],
+        "run_cpu_pct": [636.5, 146.6],
+        "run_peak_memory_mb": [2765, 10343],
+        "run_disk_read_mb": [19, 198],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 24.9],
+        "run_cpu_pct": [346, 78.7],
+        "run_peak_memory_mb": [2765, 13517],
+        "run_disk_read_mb": [19, 181],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.7],
+    "run_cpu_pct": [224.8],
+    "run_peak_memory_mb": [3175],
+    "run_disk_read_mb": [327],
+    "run_disk_write_mb": [61],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0208],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 12.4],
+        "run_cpu_pct": [604.4, 175.5],
+        "run_peak_memory_mb": [2765, 11776],
+        "run_disk_read_mb": [19, 156],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 17.1],
+        "run_cpu_pct": [545.9, 278.4],
+        "run_peak_memory_mb": [2765, 10548],
+        "run_disk_read_mb": [19, 140],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1581],
+    "run_cpu_pct": [108.7],
+    "run_peak_memory_mb": [56832],
+    "run_disk_read_mb": [230],
+    "run_disk_write_mb": [1229],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2399, 0.4625],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 43.3],
+        "run_cpu_pct": [330.2, 189.1],
+        "run_peak_memory_mb": [2868, 11162],
+        "run_disk_read_mb": [18, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 43.6],
+        "run_cpu_pct": [574.4, 185.7],
+        "run_peak_memory_mb": [1434, 22836],
+        "run_disk_read_mb": [18, 1332],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [926],
+    "run_cpu_pct": [3398.3],
+    "run_peak_memory_mb": [20173],
+    "run_disk_read_mb": [265],
+    "run_disk_write_mb": [1844],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1792, 0.0709],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 43.9],
+        "run_cpu_pct": [545.7, 170.2],
+        "run_peak_memory_mb": [1434, 13312],
+        "run_disk_read_mb": [18, 1946],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 40.7],
+        "run_cpu_pct": [399.5, 150.3],
+        "run_peak_memory_mb": [2868, 20992],
+        "run_disk_read_mb": [18, 1946],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [477],
+    "run_cpu_pct": [454.3],
+    "run_peak_memory_mb": [35328],
+    "run_disk_read_mb": [233],
+    "run_disk_write_mb": [183],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2031, 0.6407],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 36.7],
+        "run_cpu_pct": [561.6, 136.9],
+        "run_peak_memory_mb": [1434, 15156],
+        "run_disk_read_mb": [18, 263],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 34],
+        "run_cpu_pct": [439.3, 166.9],
+        "run_peak_memory_mb": [1434, 22836],
+        "run_disk_read_mb": [18, 246],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [344],
+    "run_cpu_pct": [2049.5],
+    "run_peak_memory_mb": [19047],
+    "run_disk_read_mb": [245],
+    "run_disk_write_mb": [2765],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1816, 0.0688],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 49.6],
+        "run_cpu_pct": [366.8, 137.3],
+        "run_peak_memory_mb": [2868, 15156],
+        "run_disk_read_mb": [18, 2868],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 52],
+        "run_cpu_pct": [435.9, 145.9],
+        "run_peak_memory_mb": [2868, 22836],
+        "run_disk_read_mb": [18, 2868],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [11.7],
+    "run_cpu_pct": [184.8],
+    "run_peak_memory_mb": [3072],
+    "run_disk_read_mb": [221],
+    "run_disk_write_mb": [80],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.202, 0.0663],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 22.4],
+        "run_cpu_pct": [543.1, 143.2],
+        "run_peak_memory_mb": [2765, 15770],
+        "run_disk_read_mb": [19, 160],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 25.6],
+        "run_cpu_pct": [604.2, 214.5],
+        "run_peak_memory_mb": [5530, 19252],
+        "run_disk_read_mb": [19, 143],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [7.2],
+    "run_cpu_pct": [299.9],
+    "run_peak_memory_mb": [3072],
+    "run_disk_read_mb": [253],
+    "run_disk_write_mb": [47],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0062],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 27.3],
+        "run_cpu_pct": [570, 90.5],
+        "run_peak_memory_mb": [2765, 14132],
+        "run_disk_read_mb": [19, 127],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 29.9],
+        "run_cpu_pct": [561.5, 110.4],
+        "run_peak_memory_mb": [5530, 21709],
+        "run_disk_read_mb": [19, 110],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1183],
+    "run_cpu_pct": [101.3],
+    "run_peak_memory_mb": [34304],
+    "run_disk_read_mb": [379],
+    "run_disk_write_mb": [953],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2233, 0.7062],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 34.4],
+        "run_cpu_pct": [594.9, 205.3],
+        "run_peak_memory_mb": [1434, 9421],
+        "run_disk_read_mb": [18, 1024],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 35],
+        "run_cpu_pct": [512.5, 136.6],
+        "run_peak_memory_mb": [1434, 18228],
+        "run_disk_read_mb": [18, 1024],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [877],
+    "run_cpu_pct": [3463.3],
+    "run_peak_memory_mb": [19456],
+    "run_disk_read_mb": [413],
+    "run_disk_write_mb": [1434],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1462, 0.1832],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 33.9],
+        "run_cpu_pct": [643.8, 178.2],
+        "run_peak_memory_mb": [1434, 11162],
+        "run_disk_read_mb": [18, 1639],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 29.8],
+        "run_cpu_pct": [444.4, 163.3],
+        "run_peak_memory_mb": [2868, 16896],
+        "run_disk_read_mb": [18, 1536],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [262],
+    "run_cpu_pct": [707.7],
+    "run_peak_memory_mb": [27956],
+    "run_disk_read_mb": [381],
+    "run_disk_write_mb": [194],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1566, 1.6794],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 26],
+        "run_cpu_pct": [573.4, 132.7],
+        "run_peak_memory_mb": [1434, 15156],
+        "run_disk_read_mb": [18, 315],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 25.2],
+        "run_cpu_pct": [439.9, 124.1],
+        "run_peak_memory_mb": [2868, 20890],
+        "run_disk_read_mb": [18, 298],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [263],
+    "run_cpu_pct": [1305.3],
+    "run_peak_memory_mb": [15770],
+    "run_disk_read_mb": [393],
+    "run_disk_write_mb": [2253],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1468, 0.1844],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 42.5],
+        "run_cpu_pct": [315.4, 131.7],
+        "run_peak_memory_mb": [2868, 12493],
+        "run_disk_read_mb": [18, 2356],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 42.9],
+        "run_cpu_pct": [602, 127],
+        "run_peak_memory_mb": [1434, 18228],
+        "run_disk_read_mb": [18, 2356],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [15.5],
+    "run_cpu_pct": [151.3],
+    "run_peak_memory_mb": [5940],
+    "run_disk_read_mb": [369],
+    "run_disk_write_mb": [138],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1747, 0.1733],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 20.1],
+        "run_cpu_pct": [539.4, 177.4],
+        "run_peak_memory_mb": [5530, 10445],
+        "run_disk_read_mb": [19, 259],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 27.1],
+        "run_cpu_pct": [440.1, 183.7],
+        "run_peak_memory_mb": [1434, 15872],
+        "run_disk_read_mb": [18, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [11.5],
+    "run_cpu_pct": [317.9],
+    "run_peak_memory_mb": [3277],
+    "run_disk_read_mb": [443],
+    "run_disk_write_mb": [84],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0246],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 18.7],
+        "run_cpu_pct": [452.1, 182.7],
+        "run_peak_memory_mb": [5530, 12903],
+        "run_disk_read_mb": [19, 205],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 30.3],
+        "run_cpu_pct": [440.8, 141.4],
+        "run_peak_memory_mb": [5530, 18228],
+        "run_disk_read_mb": [19, 188],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [327],
+    "run_cpu_pct": [112.6],
+    "run_peak_memory_mb": [13210],
+    "run_disk_read_mb": [108],
+    "run_disk_write_mb": [171],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2679, 0.4097],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 11.3],
+        "run_cpu_pct": [459.8, 157.4],
+        "run_peak_memory_mb": [2765, 8090],
+        "run_disk_read_mb": [19, 233],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 15.4],
+        "run_cpu_pct": [441.8, 134.8],
+        "run_peak_memory_mb": [2765, 6349],
+        "run_disk_read_mb": [19, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [140],
+    "run_cpu_pct": [3125.1],
+    "run_peak_memory_mb": [16794],
+    "run_disk_read_mb": [143],
+    "run_disk_write_mb": [363],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2054, 0.1641],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 13],
+        "run_cpu_pct": [605.8, 210],
+        "run_peak_memory_mb": [2765, 3687],
+        "run_disk_read_mb": [19, 425],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 10.1],
+        "run_cpu_pct": [557.9, 197.7],
+        "run_peak_memory_mb": [2765, 6349],
+        "run_disk_read_mb": [19, 409],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [54.1],
+    "run_cpu_pct": [2048.3],
+    "run_peak_memory_mb": [10445],
+    "run_disk_read_mb": [110],
+    "run_disk_write_mb": [52],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2187, 1.4981],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 12.5],
+        "run_cpu_pct": [726.8, 153.8],
+        "run_peak_memory_mb": [2765, 4711],
+        "run_disk_read_mb": [19, 114],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 32.1],
+        "run_cpu_pct": [333.6, 52.8],
+        "run_peak_memory_mb": [5530, 6349],
+        "run_disk_read_mb": [19, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [52.3],
+    "run_cpu_pct": [1314.1],
+    "run_peak_memory_mb": [8295],
+    "run_disk_read_mb": [122],
+    "run_disk_write_mb": [518],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2066, 0.1637],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 24.4],
+        "run_cpu_pct": [751.3, 76.8],
+        "run_peak_memory_mb": [2765, 7373],
+        "run_disk_read_mb": [19, 580],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 22.4],
+        "run_cpu_pct": [465.4, 78.2],
+        "run_peak_memory_mb": [1434, 6349],
+        "run_disk_read_mb": [18, 564],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [6.4],
+    "run_cpu_pct": [261.8],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [98],
+    "run_disk_write_mb": [33],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2479, 0.1593],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 8.9],
+        "run_cpu_pct": [541.3, 207.6],
+        "run_peak_memory_mb": [5530, 8397],
+        "run_disk_read_mb": [19, 95],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.3, 16.4],
+        "run_cpu_pct": [434.6, 108.5],
+        "run_peak_memory_mb": [2765, 8807],
+        "run_disk_read_mb": [19, 78],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4.4],
+    "run_cpu_pct": [258.1],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [114],
+    "run_disk_write_mb": [20],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0148],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.1, 7.9],
+        "run_cpu_pct": [436.4, 203.2],
+        "run_peak_memory_mb": [2765, 8192],
+        "run_disk_read_mb": [19, 82],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 8.8],
+        "run_cpu_pct": [558, 219.4],
+        "run_peak_memory_mb": [2765, 6042],
+        "run_disk_read_mb": [19, 66],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1942],
+    "run_cpu_pct": [184.4],
+    "run_peak_memory_mb": [48333],
+    "run_disk_read_mb": [341],
+    "run_disk_write_mb": [1229],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2004, 0.6209],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 38.3],
+        "run_cpu_pct": [452.2, 200.1],
+        "run_peak_memory_mb": [2868, 13415],
+        "run_disk_read_mb": [18, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 36.1],
+        "run_cpu_pct": [473.6, 254.4],
+        "run_peak_memory_mb": [1434, 19968],
+        "run_disk_read_mb": [18, 1332],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [557],
+    "run_cpu_pct": [3209.3],
+    "run_peak_memory_mb": [19764],
+    "run_disk_read_mb": [376],
+    "run_disk_write_mb": [1639],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1282, 0.1457],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 43.4],
+        "run_cpu_pct": [589.5, 155.8],
+        "run_peak_memory_mb": [2868, 8602],
+        "run_disk_read_mb": [18, 1741],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 34.9],
+        "run_cpu_pct": [437.7, 147.7],
+        "run_peak_memory_mb": [1434, 18432],
+        "run_disk_read_mb": [18, 1741],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [291],
+    "run_cpu_pct": [884.3],
+    "run_peak_memory_mb": [30516],
+    "run_disk_read_mb": [344],
+    "run_disk_write_mb": [195],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1353, 1.3915],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 34.1],
+        "run_cpu_pct": [562, 135.8],
+        "run_peak_memory_mb": [2868, 13415],
+        "run_disk_read_mb": [18, 308],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 27.1],
+        "run_cpu_pct": [347.7, 153.1],
+        "run_peak_memory_mb": [2868, 22631],
+        "run_disk_read_mb": [18, 291],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [321],
+    "run_cpu_pct": [1815.7],
+    "run_peak_memory_mb": [16896],
+    "run_disk_read_mb": [356],
+    "run_disk_write_mb": [2356],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1292, 0.1487],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 44.2],
+        "run_cpu_pct": [585.6, 102.1],
+        "run_peak_memory_mb": [2765, 16180],
+        "run_disk_read_mb": [19, 2458],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.7, 46.4],
+        "run_cpu_pct": [156, 131.7],
+        "run_peak_memory_mb": [5530, 19968],
+        "run_disk_read_mb": [19, 2458],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [15.1],
+    "run_cpu_pct": [248.7],
+    "run_peak_memory_mb": [3175],
+    "run_disk_read_mb": [332],
+    "run_disk_write_mb": [123],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1589, 0.1316],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 25.5],
+        "run_cpu_pct": [593.6, 110.4],
+        "run_peak_memory_mb": [2765, 13722],
+        "run_disk_read_mb": [19, 236],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 34.5],
+        "run_cpu_pct": [412.1, 85.3],
+        "run_peak_memory_mb": [2868, 19866],
+        "run_disk_read_mb": [18, 219],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [10.8],
+    "run_cpu_pct": [193.2],
+    "run_peak_memory_mb": [3277],
+    "run_disk_read_mb": [398],
+    "run_disk_write_mb": [74],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0197],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 23.1],
+        "run_cpu_pct": [614.7, 111.6],
+        "run_peak_memory_mb": [2765, 16589],
+        "run_disk_read_mb": [19, 187],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 28.3],
+        "run_cpu_pct": [640.8, 114.6],
+        "run_peak_memory_mb": [1434, 19559],
+        "run_disk_read_mb": [18, 170],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1445],
+    "run_cpu_pct": [119.3],
+    "run_peak_memory_mb": [49460],
+    "run_disk_read_mb": [540],
+    "run_disk_write_mb": [955],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1639, 0.2911],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 36.8],
+        "run_cpu_pct": [354, 205.7],
+        "run_peak_memory_mb": [2868, 13517],
+        "run_disk_read_mb": [18, 1127],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 41.2],
+        "run_cpu_pct": [507.5, 129.5],
+        "run_peak_memory_mb": [2868, 19968],
+        "run_disk_read_mb": [18, 1127],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [633],
+    "run_cpu_pct": [2926.6],
+    "run_peak_memory_mb": [20890],
+    "run_disk_read_mb": [575],
+    "run_disk_write_mb": [1639],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1136, 0.0685],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 38.1],
+        "run_cpu_pct": [434.6, 229.9],
+        "run_peak_memory_mb": [1434, 8807],
+        "run_disk_read_mb": [18, 1844],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 38.1],
+        "run_cpu_pct": [425.7, 140.5],
+        "run_peak_memory_mb": [2868, 18535],
+        "run_disk_read_mb": [18, 1844],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [348],
+    "run_cpu_pct": [679.5],
+    "run_peak_memory_mb": [31949],
+    "run_disk_read_mb": [542],
+    "run_disk_write_mb": [276],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1187, -0.3087],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 43.3],
+        "run_cpu_pct": [458.1, 78.7],
+        "run_peak_memory_mb": [5530, 16282],
+        "run_disk_read_mb": [19, 433],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 30.7],
+        "run_cpu_pct": [533.4, 229.9],
+        "run_peak_memory_mb": [2765, 19968],
+        "run_disk_read_mb": [19, 417],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [292],
+    "run_cpu_pct": [1836.2],
+    "run_peak_memory_mb": [19559],
+    "run_disk_read_mb": [554],
+    "run_disk_write_mb": [2356],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1132, 0.023],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 43.4],
+        "run_cpu_pct": [426.7, 122.5],
+        "run_peak_memory_mb": [5530, 12903],
+        "run_disk_read_mb": [19, 2458],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 38.2],
+        "run_cpu_pct": [599, 126.3],
+        "run_peak_memory_mb": [2765, 22631],
+        "run_disk_read_mb": [19, 2458],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [27.2],
+    "run_cpu_pct": [168.3],
+    "run_peak_memory_mb": [3380],
+    "run_disk_read_mb": [530],
+    "run_disk_write_mb": [206],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1366, 0.0106],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 43.9],
+        "run_cpu_pct": [439.1, 68.1],
+        "run_peak_memory_mb": [2765, 17716],
+        "run_disk_read_mb": [19, 363],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 31.5],
+        "run_cpu_pct": [563.8, 107.2],
+        "run_peak_memory_mb": [5530, 20276],
+        "run_disk_read_mb": [19, 346],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [16.3],
+    "run_cpu_pct": [254.6],
+    "run_peak_memory_mb": [3482],
+    "run_disk_read_mb": [640],
+    "run_disk_write_mb": [125],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0407],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 25.2],
+        "run_cpu_pct": [408.9, 104.5],
+        "run_peak_memory_mb": [2765, 13517],
+        "run_disk_read_mb": [19, 282],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 29.9],
+        "run_cpu_pct": [356.4, 98.6],
+        "run_peak_memory_mb": [2868, 19866],
+        "run_disk_read_mb": [18, 266],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2091],
+    "run_cpu_pct": [100.7],
+    "run_peak_memory_mb": [68096],
+    "run_disk_read_mb": [565],
+    "run_disk_write_mb": [1332],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1158, 0.4732],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 46.9],
+        "run_cpu_pct": [486.1, 154.8],
+        "run_peak_memory_mb": [2868, 18944],
+        "run_disk_read_mb": [18, 1434],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 53.7],
+        "run_cpu_pct": [504.2, 191.8],
+        "run_peak_memory_mb": [2868, 28877],
+        "run_disk_read_mb": [18, 1434],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1210],
+    "run_cpu_pct": [3744],
+    "run_peak_memory_mb": [22836],
+    "run_disk_read_mb": [600],
+    "run_disk_write_mb": [2458],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0819, 0.1669],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 52.8],
+        "run_cpu_pct": [476.7, 219.6],
+        "run_peak_memory_mb": [1434, 16692],
+        "run_disk_read_mb": [18, 2663],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 47.2],
+        "run_cpu_pct": [475, 120.8],
+        "run_peak_memory_mb": [2868, 26727],
+        "run_disk_read_mb": [18, 2663],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [532],
+    "run_cpu_pct": [514],
+    "run_peak_memory_mb": [41370],
+    "run_disk_read_mb": [567],
+    "run_disk_write_mb": [284],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0847, 1.5087],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 43.7],
+        "run_cpu_pct": [442.2, 159.1],
+        "run_peak_memory_mb": [2868, 18944],
+        "run_disk_read_mb": [18, 454],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 46.7],
+        "run_cpu_pct": [384.7, 192.9],
+        "run_peak_memory_mb": [2868, 28877],
+        "run_disk_read_mb": [18, 437],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [373],
+    "run_cpu_pct": [1033.1],
+    "run_peak_memory_mb": [22631],
+    "run_disk_read_mb": [579],
+    "run_disk_write_mb": [3277],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0829, 0.1717],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 60],
+        "run_cpu_pct": [435.4, 194],
+        "run_peak_memory_mb": [1434, 18944],
+        "run_disk_read_mb": [18, 3482],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 61],
+        "run_cpu_pct": [368.3, 150.2],
+        "run_peak_memory_mb": [2868, 28980],
+        "run_disk_read_mb": [18, 3482],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [26.4],
+    "run_cpu_pct": [162.3],
+    "run_peak_memory_mb": [3380],
+    "run_disk_read_mb": [555],
+    "run_disk_write_mb": [214],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0967, 0.1494],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 27.4],
+        "run_cpu_pct": [372.8, 126.5],
+        "run_peak_memory_mb": [2868, 23245],
+        "run_disk_read_mb": [18, 384],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.6, 36.5],
+        "run_cpu_pct": [144.6, 110.4],
+        "run_peak_memory_mb": [5530, 27444],
+        "run_disk_read_mb": [19, 368],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [18.8],
+    "run_cpu_pct": [219.4],
+    "run_peak_memory_mb": [3584],
+    "run_disk_read_mb": [679],
+    "run_disk_write_mb": [132],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0274],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.9, 24.3],
+        "run_cpu_pct": [513.8, 141.3],
+        "run_peak_memory_mb": [5530, 22324],
+        "run_disk_read_mb": [19, 302],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 32.2],
+        "run_cpu_pct": [481.6, 112.3],
+        "run_peak_memory_mb": [2868, 27034],
+        "run_disk_read_mb": [18, 285],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/allen_brain_atlas",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2313],
+    "run_cpu_pct": [101.6],
+    "run_peak_memory_mb": [45568],
+    "run_disk_read_mb": [1434],
+    "run_disk_write_mb": [1434],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0333, -4.5411],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 51.7],
+        "run_cpu_pct": [548.3, 180.1],
+        "run_peak_memory_mb": [2868, 16794],
+        "run_disk_read_mb": [18, 2560],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 45.1],
+        "run_cpu_pct": [477.5, 202.8],
+        "run_peak_memory_mb": [1434, 22938],
+        "run_disk_read_mb": [18, 2560],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/allen_brain_atlas",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1369],
+    "run_cpu_pct": [3681.6],
+    "run_peak_memory_mb": [25703],
+    "run_disk_read_mb": [1434],
+    "run_disk_write_mb": [2151],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.029, -4.6108],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 53.8],
+        "run_cpu_pct": [447.7, 176.3],
+        "run_peak_memory_mb": [1434, 15872],
+        "run_disk_read_mb": [18, 3380],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 45],
+        "run_cpu_pct": [518.3, 189.7],
+        "run_peak_memory_mb": [2868, 22016],
+        "run_disk_read_mb": [18, 3277],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/allen_brain_atlas",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [296],
+    "run_cpu_pct": [575],
+    "run_peak_memory_mb": [31437],
+    "run_disk_read_mb": [1434],
+    "run_disk_write_mb": [589],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0259, -100.6294],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 44],
+        "run_cpu_pct": [333.6, 96.7],
+        "run_peak_memory_mb": [2868, 19559],
+        "run_disk_read_mb": [18, 1741],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 39],
+        "run_cpu_pct": [448.1, 100.3],
+        "run_peak_memory_mb": [1434, 25703],
+        "run_disk_read_mb": [18, 1741],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/allen_brain_atlas",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [383],
+    "run_cpu_pct": [864.4],
+    "run_peak_memory_mb": [20583],
+    "run_disk_read_mb": [1434],
+    "run_disk_write_mb": [3175],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0263, -5.739],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 61],
+        "run_cpu_pct": [389.4, 170.9],
+        "run_peak_memory_mb": [2868, 16794],
+        "run_disk_read_mb": [18, 4404],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 50.9],
+        "run_cpu_pct": [399, 162.3],
+        "run_peak_memory_mb": [2868, 22938],
+        "run_disk_read_mb": [18, 4301],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/allen_brain_atlas",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [97],
+    "run_cpu_pct": [145.3],
+    "run_peak_memory_mb": [4301],
+    "run_disk_read_mb": [1434],
+    "run_disk_write_mb": [747],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.003, -13.9177],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 44.9],
+        "run_cpu_pct": [555.5, 102.3],
+        "run_peak_memory_mb": [2868, 23757],
+        "run_disk_read_mb": [18, 1946],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 45.1],
+        "run_cpu_pct": [394.4, 92.9],
+        "run_peak_memory_mb": [1434, 24679],
+        "run_disk_read_mb": [18, 1946],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/allen_brain_atlas",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [83],
+    "run_cpu_pct": [188.9],
+    "run_peak_memory_mb": [5428],
+    "run_disk_read_mb": [2560],
+    "run_disk_write_mb": [626],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 2.4902],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 40.9],
+        "run_cpu_pct": [419.6, 105.8],
+        "run_peak_memory_mb": [1434, 23245],
+        "run_disk_read_mb": [18, 1844],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 40.6],
+        "run_cpu_pct": [374.4, 108.8],
+        "run_peak_memory_mb": [2868, 24474],
+        "run_disk_read_mb": [18, 1844],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [805],
+    "run_cpu_pct": [102.5],
+    "run_peak_memory_mb": [25805],
+    "run_disk_read_mb": [99],
+    "run_disk_write_mb": [243],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2711, 0.2414],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 19.1],
+        "run_cpu_pct": [585.8, 170.9],
+        "run_peak_memory_mb": [2868, 6964],
+        "run_disk_read_mb": [18, 306],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 20],
+        "run_cpu_pct": [542.7, 277.5],
+        "run_peak_memory_mb": [2868, 12493],
+        "run_disk_read_mb": [18, 289],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [236],
+    "run_cpu_pct": [2586.9],
+    "run_peak_memory_mb": [17818],
+    "run_disk_read_mb": [134],
+    "run_disk_write_mb": [889],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1596, 8.1016],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 23.8],
+        "run_cpu_pct": [437.9, 141.8],
+        "run_peak_memory_mb": [1434, 7988],
+        "run_disk_read_mb": [18, 952],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 21.7],
+        "run_cpu_pct": [578.4, 158],
+        "run_peak_memory_mb": [2868, 11469],
+        "run_disk_read_mb": [18, 935],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [164],
+    "run_cpu_pct": [855.7],
+    "run_peak_memory_mb": [19661],
+    "run_disk_read_mb": [101],
+    "run_disk_write_mb": [71],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1747, 0.5477],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 16.2],
+        "run_cpu_pct": [575, 138.1],
+        "run_peak_memory_mb": [1434, 11572],
+        "run_disk_read_mb": [18, 133],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 16],
+        "run_cpu_pct": [583.2, 150],
+        "run_peak_memory_mb": [2868, 15156],
+        "run_disk_read_mb": [18, 117],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [210],
+    "run_cpu_pct": [1246],
+    "run_peak_memory_mb": [11879],
+    "run_disk_read_mb": [113],
+    "run_disk_write_mb": [1127],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1626, 0.0586],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 30],
+        "run_cpu_pct": [623.1, 175.3],
+        "run_peak_memory_mb": [1434, 6964],
+        "run_disk_read_mb": [18, 1127],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 28.7],
+        "run_cpu_pct": [560.1, 125.7],
+        "run_peak_memory_mb": [1434, 12493],
+        "run_disk_read_mb": [18, 1127],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.1],
+    "run_cpu_pct": [122.4],
+    "run_peak_memory_mb": [5632],
+    "run_disk_read_mb": [89],
+    "run_disk_write_mb": [31],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1554, 0.0526],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [21.1, 30.5],
+        "run_cpu_pct": [70.4, 66.1],
+        "run_peak_memory_mb": [5530, 7988],
+        "run_disk_read_mb": [19, 93],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 12.3],
+        "run_cpu_pct": [396.1, 144],
+        "run_peak_memory_mb": [2765, 13312],
+        "run_disk_read_mb": [19, 77],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4.1],
+    "run_cpu_pct": [307.2],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [105],
+    "run_disk_write_mb": [19],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0078],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 12.2],
+        "run_cpu_pct": [397.6, 205.6],
+        "run_peak_memory_mb": [2765, 9012],
+        "run_disk_read_mb": [19, 82],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 12.3],
+        "run_cpu_pct": [592.1, 193.2],
+        "run_peak_memory_mb": [5530, 13312],
+        "run_disk_read_mb": [19, 65],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [368],
+    "run_cpu_pct": [123.4],
+    "run_peak_memory_mb": [14746],
+    "run_disk_read_mb": [256],
+    "run_disk_write_mb": [662],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.382, 1.2291],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 22.3],
+        "run_cpu_pct": [410.9, 101.6],
+        "run_peak_memory_mb": [2868, 7988],
+        "run_disk_read_mb": [18, 757],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 20.1],
+        "run_cpu_pct": [455.3, 94.7],
+        "run_peak_memory_mb": [2765, 7680],
+        "run_disk_read_mb": [19, 741],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [312],
+    "run_cpu_pct": [2695.6],
+    "run_peak_memory_mb": [17408],
+    "run_disk_read_mb": [291],
+    "run_disk_write_mb": [514],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2528, 0.343],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 15.9],
+        "run_cpu_pct": [438.7, 269.8],
+        "run_peak_memory_mb": [2868, 5940],
+        "run_disk_read_mb": [18, 610],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 14.1],
+        "run_cpu_pct": [591.5, 224.1],
+        "run_peak_memory_mb": [2868, 6656],
+        "run_disk_read_mb": [18, 593],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [104],
+    "run_cpu_pct": [1030.6],
+    "run_peak_memory_mb": [13517],
+    "run_disk_read_mb": [258],
+    "run_disk_write_mb": [107],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2613, 2.9776],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 13.4],
+        "run_cpu_pct": [590.8, 182.2],
+        "run_peak_memory_mb": [5530, 7066],
+        "run_disk_read_mb": [19, 202],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 14.3],
+        "run_cpu_pct": [643.8, 179.4],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [19, 186],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [109],
+    "run_cpu_pct": [1287.9],
+    "run_peak_memory_mb": [10036],
+    "run_disk_read_mb": [270],
+    "run_disk_write_mb": [910],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2509, 0.3442],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 20.6],
+        "run_cpu_pct": [607.1, 200.3],
+        "run_peak_memory_mb": [2765, 4199],
+        "run_disk_read_mb": [19, 1005],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 18.4],
+        "run_cpu_pct": [597, 147.7],
+        "run_peak_memory_mb": [2765, 7988],
+        "run_disk_read_mb": [19, 989],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14.2],
+    "run_cpu_pct": [208.7],
+    "run_peak_memory_mb": [3072],
+    "run_disk_read_mb": [246],
+    "run_disk_write_mb": [92],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.3144, 0.3345],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 13.1],
+        "run_cpu_pct": [537.3, 192.6],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [19, 187],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 12.5],
+        "run_cpu_pct": [469.4, 286],
+        "run_peak_memory_mb": [5530, 7476],
+        "run_disk_read_mb": [19, 171],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [10.3],
+    "run_cpu_pct": [175],
+    "run_peak_memory_mb": [5837],
+    "run_disk_read_mb": [295],
+    "run_disk_write_mb": [56],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0502],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 9.3],
+        "run_cpu_pct": [612.5, 180.9],
+        "run_peak_memory_mb": [5530, 9319],
+        "run_disk_read_mb": [19, 151],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 9.1],
+        "run_cpu_pct": [743.1, 224.6],
+        "run_peak_memory_mb": [2765, 9933],
+        "run_disk_read_mb": [19, 135],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [376],
+    "run_cpu_pct": [109],
+    "run_peak_memory_mb": [11264],
+    "run_disk_read_mb": [68],
+    "run_disk_write_mb": [54],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0497, 0.4089],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 9.8],
+        "run_cpu_pct": [436.3, 239.1],
+        "run_peak_memory_mb": [1434, 5018],
+        "run_disk_read_mb": [18, 120],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.3, 7.9],
+        "run_cpu_pct": [346.4, 296.1],
+        "run_peak_memory_mb": [2868, 5837],
+        "run_disk_read_mb": [18, 103],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [292],
+    "run_cpu_pct": [3512.1],
+    "run_peak_memory_mb": [25600],
+    "run_disk_read_mb": [103],
+    "run_disk_write_mb": [268],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0448, 0.2157],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 10.2],
+        "run_cpu_pct": [547.4, 173.4],
+        "run_peak_memory_mb": [1434, 7373],
+        "run_disk_read_mb": [18, 333],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 8.5],
+        "run_cpu_pct": [572.3, 274.9],
+        "run_peak_memory_mb": [1434, 5632],
+        "run_disk_read_mb": [18, 317],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [60],
+    "run_cpu_pct": [3729],
+    "run_peak_memory_mb": [9216],
+    "run_disk_read_mb": [70],
+    "run_disk_write_mb": [15],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0452, 1.9903],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 20.4],
+        "run_cpu_pct": [352.1, 81.2],
+        "run_peak_memory_mb": [1434, 6452],
+        "run_disk_read_mb": [18, 81],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 23.8],
+        "run_cpu_pct": [399.4, 72.6],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [19, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [21.2],
+    "run_cpu_pct": [717.5],
+    "run_peak_memory_mb": [7783],
+    "run_disk_read_mb": [82],
+    "run_disk_write_mb": [66],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0448, 0.2626],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.8, 10.3],
+        "run_cpu_pct": [418.6, 175.9],
+        "run_peak_memory_mb": [1434, 7066],
+        "run_disk_read_mb": [18, 131],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 7.7],
+        "run_cpu_pct": [728, 237.9],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [19, 115],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3.2],
+    "run_cpu_pct": [389.3],
+    "run_peak_memory_mb": [5632],
+    "run_disk_read_mb": [58],
+    "run_disk_write_mb": [17],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0402, 0.1587],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [36.8, 7.4],
+        "run_cpu_pct": [37.7, 202.1],
+        "run_peak_memory_mb": [2765, 4506],
+        "run_disk_read_mb": [19, 83],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 6.9],
+        "run_cpu_pct": [612.8, 289.1],
+        "run_peak_memory_mb": [5530, 5325],
+        "run_disk_read_mb": [19, 66],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3.2],
+    "run_cpu_pct": [404.9],
+    "run_peak_memory_mb": [5632],
+    "run_disk_read_mb": [77],
+    "run_disk_write_mb": [13],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0221],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.3, 7.8],
+        "run_cpu_pct": [241.3, 218.8],
+        "run_peak_memory_mb": [5530, 5018],
+        "run_disk_read_mb": [19, 79],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 7.2],
+        "run_cpu_pct": [518.3, 200.4],
+        "run_peak_memory_mb": [2765, 5325],
+        "run_disk_read_mb": [19, 62],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [304],
+    "run_cpu_pct": [104.1],
+    "run_peak_memory_mb": [13210],
+    "run_disk_read_mb": [279],
+    "run_disk_write_mb": [164],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0487, -5.0847],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 13.7],
+        "run_cpu_pct": [455.8, 181.1],
+        "run_peak_memory_mb": [1434, 4199],
+        "run_disk_read_mb": [18, 345],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 9.5],
+        "run_cpu_pct": [396.2, 207.1],
+        "run_peak_memory_mb": [2868, 6247],
+        "run_disk_read_mb": [18, 328],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [107],
+    "run_cpu_pct": [2777.1],
+    "run_peak_memory_mb": [18125],
+    "run_disk_read_mb": [314],
+    "run_disk_write_mb": [358],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0476, -2.6147],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 13.4],
+        "run_cpu_pct": [529.1, 144.9],
+        "run_peak_memory_mb": [2868, 6656],
+        "run_disk_read_mb": [18, 539],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 10.8],
+        "run_cpu_pct": [456.2, 301.5],
+        "run_peak_memory_mb": [1434, 6144],
+        "run_disk_read_mb": [18, 522],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [54.7],
+    "run_cpu_pct": [2477.3],
+    "run_peak_memory_mb": [9626],
+    "run_disk_read_mb": [282],
+    "run_disk_write_mb": [100],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0451, -54.8468],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 11.8],
+        "run_cpu_pct": [426.2, 229.4],
+        "run_peak_memory_mb": [5530, 4711],
+        "run_disk_read_mb": [19, 280],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 9.3],
+        "run_cpu_pct": [518.9, 200.5],
+        "run_peak_memory_mb": [2765, 6247],
+        "run_disk_read_mb": [19, 264],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [96],
+    "run_cpu_pct": [300.9],
+    "run_peak_memory_mb": [8295],
+    "run_disk_read_mb": [294],
+    "run_disk_write_mb": [569],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.046, -2.5968],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 36.9],
+        "run_cpu_pct": [470.8, 58],
+        "run_peak_memory_mb": [2868, 6452],
+        "run_disk_read_mb": [18, 749],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 10.6],
+        "run_cpu_pct": [486.1, 189.4],
+        "run_peak_memory_mb": [2765, 8909],
+        "run_disk_read_mb": [19, 733],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [15.5],
+    "run_cpu_pct": [154],
+    "run_peak_memory_mb": [5837],
+    "run_disk_read_mb": [270],
+    "run_disk_write_mb": [118],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.0112, -13.653],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 11.3],
+        "run_cpu_pct": [532.7, 234.9],
+        "run_peak_memory_mb": [5530, 6042],
+        "run_disk_read_mb": [19, 299],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 15.3],
+        "run_cpu_pct": [433.9, 125.3],
+        "run_peak_memory_mb": [2868, 6042],
+        "run_disk_read_mb": [19, 282],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14.7],
+    "run_cpu_pct": [176.3],
+    "run_peak_memory_mb": [3277],
+    "run_disk_read_mb": [403],
+    "run_disk_write_mb": [90],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 1.6704],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 10.1],
+        "run_cpu_pct": [680.2, 148.6],
+        "run_peak_memory_mb": [2765, 8500],
+        "run_disk_read_mb": [19, 270],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 12.3],
+        "run_cpu_pct": [403.5, 185.5],
+        "run_peak_memory_mb": [2765, 8704],
+        "run_disk_read_mb": [19, 254],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1062],
+    "run_cpu_pct": [101.6],
+    "run_peak_memory_mb": [38605],
+    "run_disk_read_mb": [632],
+    "run_disk_write_mb": [831],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2348, 2.6636],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3, 32.2],
+        "run_cpu_pct": [314, 144.9],
+        "run_peak_memory_mb": [1536, 10752],
+        "run_disk_read_mb": [18, 1127],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 27.4],
+        "run_cpu_pct": [455, 199.2],
+        "run_peak_memory_mb": [2868, 14951],
+        "run_disk_read_mb": [18, 1127],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [314],
+    "run_cpu_pct": [2518.7],
+    "run_peak_memory_mb": [19354],
+    "run_disk_read_mb": [667],
+    "run_disk_write_mb": [1229],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1842, 0.7471],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 32.4],
+        "run_cpu_pct": [532.5, 121.8],
+        "run_peak_memory_mb": [1434, 9933],
+        "run_disk_read_mb": [18, 1536],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 29.1],
+        "run_cpu_pct": [463, 144.7],
+        "run_peak_memory_mb": [2868, 14132],
+        "run_disk_read_mb": [18, 1536],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [222],
+    "run_cpu_pct": [616.6],
+    "run_peak_memory_mb": [23860],
+    "run_disk_read_mb": [635],
+    "run_disk_write_mb": [261],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1849, -11.6639],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 26.3],
+        "run_cpu_pct": [400.7, 150.3],
+        "run_peak_memory_mb": [1434, 10752],
+        "run_disk_read_mb": [18, 568],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 24.7],
+        "run_cpu_pct": [555.2, 210.7],
+        "run_peak_memory_mb": [1434, 14951],
+        "run_disk_read_mb": [18, 552],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [242],
+    "run_cpu_pct": [1239.9],
+    "run_peak_memory_mb": [15770],
+    "run_disk_read_mb": [647],
+    "run_disk_write_mb": [1946],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1828, -0.2842],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 47.9],
+        "run_cpu_pct": [614.5, 113.3],
+        "run_peak_memory_mb": [1434, 13415],
+        "run_disk_read_mb": [18, 2253],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 30.1],
+        "run_cpu_pct": [576.1, 109.1],
+        "run_peak_memory_mb": [1434, 17613],
+        "run_disk_read_mb": [18, 2151],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [30.1],
+    "run_cpu_pct": [228.1],
+    "run_peak_memory_mb": [3482],
+    "run_disk_read_mb": [623],
+    "run_disk_write_mb": [257],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1859, -3.08],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 30.2],
+        "run_cpu_pct": [558.9, 136.3],
+        "run_peak_memory_mb": [2765, 12903],
+        "run_disk_read_mb": [19, 564],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 24.6],
+        "run_cpu_pct": [565.4, 93.8],
+        "run_peak_memory_mb": [2765, 13722],
+        "run_disk_read_mb": [19, 548],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [22.9],
+    "run_cpu_pct": [169.3],
+    "run_peak_memory_mb": [3789],
+    "run_disk_read_mb": [883],
+    "run_disk_write_mb": [183],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.3786],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 21.4],
+        "run_cpu_pct": [475.7, 89.1],
+        "run_peak_memory_mb": [5530, 11879],
+        "run_disk_read_mb": [19, 490],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 18.5],
+        "run_cpu_pct": [344.3, 133.8],
+        "run_peak_memory_mb": [2868, 16077],
+        "run_disk_read_mb": [18, 474],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_1k_pbmc",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [62],
+    "run_cpu_pct": [128.8],
+    "run_peak_memory_mb": [7168],
+    "run_disk_read_mb": [54],
+    "run_disk_write_mb": [40],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.3031, 0.6013],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.7, 14.6],
+        "run_cpu_pct": [399.8, 77.1],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [19, 93],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 9],
+        "run_cpu_pct": [545.1, 175.5],
+        "run_peak_memory_mb": [1434, 6042],
+        "run_disk_read_mb": [18, 76],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_1k_pbmc",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [52],
+    "run_cpu_pct": [2417.5],
+    "run_peak_memory_mb": [15872],
+    "run_disk_read_mb": [89],
+    "run_disk_write_mb": [65],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2174, 0.3101],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 5.5],
+        "run_cpu_pct": [496.6, 263.8],
+        "run_peak_memory_mb": [5530, 6247],
+        "run_disk_read_mb": [19, 117],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 3.9],
+        "run_cpu_pct": [490.9, 297.5],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [19, 101],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_1k_pbmc",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [17.9],
+    "run_cpu_pct": [3560.4],
+    "run_peak_memory_mb": [6452],
+    "run_disk_read_mb": [57],
+    "run_disk_write_mb": [13],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2234, 2.7261],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.7, 5.8],
+        "run_cpu_pct": [414.2, 187],
+        "run_peak_memory_mb": [5530, 6042],
+        "run_disk_read_mb": [19, 66],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.7, 7.7],
+        "run_cpu_pct": [395.3, 136.2],
+        "run_peak_memory_mb": [5530, 6247],
+        "run_disk_read_mb": [19, 49],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_1k_pbmc",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [12.9],
+    "run_cpu_pct": [787.1],
+    "run_peak_memory_mb": [6247],
+    "run_disk_read_mb": [69],
+    "run_disk_write_mb": [110],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2158, 0.3145],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.7, 10.2],
+        "run_cpu_pct": [404.3, 180.6],
+        "run_peak_memory_mb": [5530, 6247],
+        "run_disk_read_mb": [19, 162],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.4, 4.5],
+        "run_cpu_pct": [315.2, 199.4],
+        "run_peak_memory_mb": [5530, 6247],
+        "run_disk_read_mb": [19, 146],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_1k_pbmc",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3.5],
+    "run_cpu_pct": [411.4],
+    "run_peak_memory_mb": [2868],
+    "run_disk_read_mb": [45],
+    "run_disk_write_mb": [11],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2709, 0.3009],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 5.9],
+        "run_cpu_pct": [432.3, 239.8],
+        "run_peak_memory_mb": [5530, 6042],
+        "run_disk_read_mb": [19, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 4.7],
+        "run_cpu_pct": [460.6, 237.5],
+        "run_peak_memory_mb": [5530, 3482],
+        "run_disk_read_mb": [19, 47],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_1k_pbmc",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3],
+    "run_cpu_pct": [396.8],
+    "run_peak_memory_mb": [2868],
+    "run_disk_read_mb": [51],
+    "run_disk_write_mb": [7],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0436],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 5.4],
+        "run_cpu_pct": [674.7, 246.8],
+        "run_peak_memory_mb": [2765, 6247],
+        "run_disk_read_mb": [19, 60],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 3.6],
+        "run_cpu_pct": [579.9, 387.9],
+        "run_peak_memory_mb": [5530, 6144],
+        "run_disk_read_mb": [19, 43],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_5k_pbmc",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [522],
+    "run_cpu_pct": [109.6],
+    "run_peak_memory_mb": [14951],
+    "run_disk_read_mb": [128],
+    "run_disk_write_mb": [205],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2245, 0.457],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.3, 13.5],
+        "run_cpu_pct": [295.5, 174.8],
+        "run_peak_memory_mb": [2868, 4096],
+        "run_disk_read_mb": [18, 273],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 11.8],
+        "run_cpu_pct": [546.7, 297.6],
+        "run_peak_memory_mb": [2868, 7066],
+        "run_disk_read_mb": [18, 257],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_5k_pbmc",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [222],
+    "run_cpu_pct": [2616.7],
+    "run_peak_memory_mb": [16794],
+    "run_disk_read_mb": [162],
+    "run_disk_write_mb": [407],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1441, 0.178],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 14.4],
+        "run_cpu_pct": [546.7, 187.2],
+        "run_peak_memory_mb": [2868, 3687],
+        "run_disk_read_mb": [18, 475],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 11],
+        "run_cpu_pct": [387.5, 189.1],
+        "run_peak_memory_mb": [1434, 6759],
+        "run_disk_read_mb": [18, 459],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_5k_pbmc",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [65],
+    "run_cpu_pct": [1625.5],
+    "run_peak_memory_mb": [11060],
+    "run_disk_read_mb": [130],
+    "run_disk_write_mb": [64],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1532, 1.576],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 18.8],
+        "run_cpu_pct": [359.7, 105],
+        "run_peak_memory_mb": [1434, 6759],
+        "run_disk_read_mb": [18, 132],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 14],
+        "run_cpu_pct": [423.2, 126.1],
+        "run_peak_memory_mb": [2868, 6452],
+        "run_disk_read_mb": [18, 115],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_5k_pbmc",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [59.7],
+    "run_cpu_pct": [1090.5],
+    "run_peak_memory_mb": [8602],
+    "run_disk_read_mb": [142],
+    "run_disk_write_mb": [612],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1443, 0.1808],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 27.4],
+        "run_cpu_pct": [432.8, 75.5],
+        "run_peak_memory_mb": [5530, 6656],
+        "run_disk_read_mb": [19, 680],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 21.6],
+        "run_cpu_pct": [355.8, 103.3],
+        "run_peak_memory_mb": [2765, 6452],
+        "run_disk_read_mb": [19, 663],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_5k_pbmc",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [7.8],
+    "run_cpu_pct": [241.1],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [118],
+    "run_disk_write_mb": [41],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1806, 0.1742],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 10.9],
+        "run_cpu_pct": [378.4, 194.3],
+        "run_peak_memory_mb": [2765, 8704],
+        "run_disk_read_mb": [19, 110],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 7.8],
+        "run_cpu_pct": [421, 138.8],
+        "run_peak_memory_mb": [5530, 9114],
+        "run_disk_read_mb": [19, 93],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tenx_5k_pbmc",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [6.1],
+    "run_cpu_pct": [296.6],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [140],
+    "run_disk_write_mb": [25],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0263],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 9.6],
+        "run_cpu_pct": [449, 286.3],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [19, 94],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 7.8],
+        "run_cpu_pct": [682.1, 241.4],
+        "run_peak_memory_mb": [2765, 9114],
+        "run_disk_read_mb": [19, 77],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tnbc_wu2021",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1912],
+    "run_cpu_pct": [101],
+    "run_peak_memory_mb": [57037],
+    "run_disk_read_mb": [416],
+    "run_disk_write_mb": [1229],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2029, 0.7032],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 40.7],
+        "run_cpu_pct": [456.2, 157.5],
+        "run_peak_memory_mb": [1434, 11572],
+        "run_disk_read_mb": [18, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 41],
+        "run_cpu_pct": [456.2, 205.9],
+        "run_peak_memory_mb": [2868, 23552],
+        "run_disk_read_mb": [18, 1332],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tnbc_wu2021",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [814],
+    "run_cpu_pct": [3442.5],
+    "run_peak_memory_mb": [20480],
+    "run_disk_read_mb": [451],
+    "run_disk_write_mb": [1946],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1331, 0.162],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 42.9],
+        "run_cpu_pct": [374.9, 194.4],
+        "run_peak_memory_mb": [2868, 9831],
+        "run_disk_read_mb": [18, 2151],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 42.4],
+        "run_cpu_pct": [443.4, 135.7],
+        "run_peak_memory_mb": [2868, 21709],
+        "run_disk_read_mb": [18, 2048],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tnbc_wu2021",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [502],
+    "run_cpu_pct": [455.3],
+    "run_peak_memory_mb": [36352],
+    "run_disk_read_mb": [419],
+    "run_disk_write_mb": [243],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1398, 1.4912],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 48.1],
+        "run_cpu_pct": [347, 125],
+        "run_peak_memory_mb": [2868, 18330],
+        "run_disk_read_mb": [18, 377],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 31.8],
+        "run_cpu_pct": [426, 118.2],
+        "run_peak_memory_mb": [1434, 26215],
+        "run_disk_read_mb": [18, 361],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tnbc_wu2021",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [381],
+    "run_cpu_pct": [1440.8],
+    "run_peak_memory_mb": [20071],
+    "run_disk_read_mb": [431],
+    "run_disk_write_mb": [2560],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1335, 0.1576],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 53.7],
+        "run_cpu_pct": [412.8, 223.4],
+        "run_peak_memory_mb": [1434, 15668],
+        "run_disk_read_mb": [18, 2765],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 49.3],
+        "run_cpu_pct": [501.8, 201.6],
+        "run_peak_memory_mb": [2765, 23552],
+        "run_disk_read_mb": [19, 2765],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tnbc_wu2021",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [22.1],
+    "run_cpu_pct": [153.7],
+    "run_peak_memory_mb": [3277],
+    "run_disk_read_mb": [407],
+    "run_disk_write_mb": [162],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1531, 0.1366],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 27.4],
+        "run_cpu_pct": [462.1, 120.5],
+        "run_peak_memory_mb": [5530, 19456],
+        "run_disk_read_mb": [19, 296],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 27.4],
+        "run_cpu_pct": [750.8, 122.8],
+        "run_peak_memory_mb": [2765, 22836],
+        "run_disk_read_mb": [19, 279],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/tnbc_wu2021",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14.2],
+    "run_cpu_pct": [220.8],
+    "run_peak_memory_mb": [3380],
+    "run_disk_read_mb": [494],
+    "run_disk_write_mb": [99],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.023],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3, 24.8],
+        "run_cpu_pct": [390.5, 115.4],
+        "run_peak_memory_mb": [1434, 14848],
+        "run_disk_read_mb": [18, 233],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 32.1],
+        "run_cpu_pct": [463.2, 108.5],
+        "run_peak_memory_mb": [1434, 22528],
+        "run_disk_read_mb": [18, 217],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "alra",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1249],
+    "run_cpu_pct": [101.1],
+    "run_peak_memory_mb": [43520],
+    "run_disk_read_mb": [367],
+    "run_disk_write_mb": [1127],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.2168, 0.6528],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 38.1],
+        "run_cpu_pct": [419.6, 226.1],
+        "run_peak_memory_mb": [1434, 12288],
+        "run_disk_read_mb": [18, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 32.4],
+        "run_cpu_pct": [473.6, 211.6],
+        "run_peak_memory_mb": [2868, 17920],
+        "run_disk_read_mb": [18, 1229],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "dca",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [732],
+    "run_cpu_pct": [3259.2],
+    "run_peak_memory_mb": [19354],
+    "run_disk_read_mb": [402],
+    "run_disk_write_mb": [1434],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1599, 0.1956],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 29.9],
+        "run_cpu_pct": [442.7, 103.8],
+        "run_peak_memory_mb": [1434, 10957],
+        "run_disk_read_mb": [18, 1536],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 33.1],
+        "run_cpu_pct": [410.6, 191.1],
+        "run_peak_memory_mb": [1434, 16589],
+        "run_disk_read_mb": [18, 1536],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "knn_smoothing",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [241],
+    "run_cpu_pct": [749.4],
+    "run_peak_memory_mb": [27136],
+    "run_disk_read_mb": [370],
+    "run_disk_write_mb": [208],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1659, 1.7876],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.8, 29.2],
+        "run_cpu_pct": [535.2, 253.4],
+        "run_peak_memory_mb": [5530, 12186],
+        "run_disk_read_mb": [19, 329],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 26.2],
+        "run_cpu_pct": [569.4, 232],
+        "run_peak_memory_mb": [1434, 17818],
+        "run_disk_read_mb": [18, 313],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "magic",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [482],
+    "run_cpu_pct": [789.9],
+    "run_peak_memory_mb": [15565],
+    "run_disk_read_mb": [382],
+    "run_disk_write_mb": [2560],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1599, 0.1976],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 44.4],
+        "run_cpu_pct": [582.1, 175.3],
+        "run_peak_memory_mb": [1434, 12288],
+        "run_disk_read_mb": [18, 2663],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 43.9],
+        "run_cpu_pct": [550.5, 220.9],
+        "run_peak_memory_mb": [1434, 17920],
+        "run_disk_read_mb": [18, 2663],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "no_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14.5],
+    "run_cpu_pct": [172.8],
+    "run_peak_memory_mb": [5940],
+    "run_disk_read_mb": [358],
+    "run_disk_write_mb": [136],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0.1913, 0.1911],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.3, 20.4],
+        "run_cpu_pct": [286.1, 139],
+        "run_peak_memory_mb": [5530, 12903],
+        "run_disk_read_mb": [19, 258],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 22.8],
+        "run_cpu_pct": [536.2, 137],
+        "run_peak_memory_mb": [2765, 18228],
+        "run_disk_read_mb": [19, 241],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "perfect_denoising",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [11.1],
+    "run_cpu_pct": [252.4],
+    "run_peak_memory_mb": [3277],
+    "run_disk_read_mb": [432],
+    "run_disk_write_mb": [83],
+    "metric_names": ["mse", "poisson"],
+    "metric_values": [0, 0.0216],
+    "metric_components": [
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 16.1],
+        "run_cpu_pct": [288.5, 138.3],
+        "run_peak_memory_mb": [2765, 15360],
+        "run_disk_read_mb": [19, 204],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "poisson",
+        "metric_names": ["poisson"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 35.6],
+        "run_cpu_pct": [456.3, 94.9],
+        "run_peak_memory_mb": [2765, 17920],
+        "run_disk_read_mb": [19, 188],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  }
+]

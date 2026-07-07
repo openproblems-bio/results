@@ -1,0 +1,1100 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: denoising\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: denoising\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: denoising\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: denoising\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: denoising\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: denoising\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: denoising\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: denoising\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: denoising\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: denoising\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: denoising\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: denoising\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: denoising\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: denoising\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.6667,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: denoising\n  Field: references\n  Percentage missing: 67"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: denoising\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: denoising\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: denoising\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: denoising\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: denoising\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: denoising\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 147,
+    "severity": 2,
+    "severity_value": 2.7941,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: denoising\n  Number of results: 147\n  Number of datasets: 17\n  Number of methods: 6\n  Number of metrics: 2\n  Expected number of results: 204\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % missing",
+    "value": 0.6667,
+    "severity": 3,
+    "severity_value": 6.6667,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/immune_cell_atlas\n  Number of results: 4\n  Expected number of results: 12\n  Percentage missing: 67%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/allen_brain_atlas' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/allen_brain_atlas\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/zebrafish\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/tenx_5k_pbmc' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/tenx_5k_pbmc\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/mouse_hspc_nestorowa2016' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/mouse_hspc_nestorowa2016\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/hypomap\n  Number of results: 0\n  Expected number of results: 12\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/tenx_1k_pbmc' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/tenx_1k_pbmc\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/mouse_blood_olsson_labelled' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/mouse_blood_olsson_labelled\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hcla' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/hcla\n  Number of results: 0\n  Expected number of results: 12\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % missing",
+    "value": 0.5833,
+    "severity": 3,
+    "severity_value": 5.8333,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Number of results: 5\n  Expected number of results: 12\n  Percentage missing: 58%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/cengen\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/tnbc_wu2021' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/tnbc_wu2021\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % missing",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/gtex_v9\n  Number of results: 6\n  Expected number of results: 12\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/immune_cells\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/dkd\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/pancreas\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/tabula_sapiens\n  Number of results: 0\n  Expected number of results: 12\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_denoising' % missing",
+    "value": 0.2353,
+    "severity": 2,
+    "severity_value": 2.3529,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Method: no_denoising\n  Number of results: 26\n  Expected number of results: 34\n  Percentage missing: 24%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'perfect_denoising' % missing",
+    "value": 0.1765,
+    "severity": 1,
+    "severity_value": 1.7647,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Method: perfect_denoising\n  Number of results: 28\n  Expected number of results: 34\n  Percentage missing: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'alra' % missing",
+    "value": 0.3529,
+    "severity": 3,
+    "severity_value": 3.5294,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Method: alra\n  Number of results: 22\n  Expected number of results: 34\n  Percentage missing: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'dca' % missing",
+    "value": 0.2059,
+    "severity": 2,
+    "severity_value": 2.0588,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Method: dca\n  Number of results: 27\n  Expected number of results: 34\n  Percentage missing: 21%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knn_smoothing' % missing",
+    "value": 0.3529,
+    "severity": 3,
+    "severity_value": 3.5294,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Method: knn_smoothing\n  Number of results: 22\n  Expected number of results: 34\n  Percentage missing: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'magic' % missing",
+    "value": 0.3529,
+    "severity": 3,
+    "severity_value": 3.5294,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Method: magic\n  Number of results: 22\n  Expected number of results: 34\n  Percentage missing: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mse' % missing",
+    "value": 0.2745,
+    "severity": 2,
+    "severity_value": 2.7451,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Metric: mse\n  Number of results: 74\n  Expected number of results: 102\n  Percentage missing: 27%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'poisson' % missing",
+    "value": 0.2843,
+    "severity": 2,
+    "severity_value": 2.8431,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: denoising\n  Metric: poisson\n  Number of results: 73\n  Expected number of results: 102\n  Percentage missing: 28%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 230,
+    "severity": 1,
+    "severity_value": 1.4179,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: denoising\n  Succeeded processes: 230\n  Attempted processes: 268\n  Percentage failed: 14%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded processes: 3\n  Attempted processes: 6\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/allen_brain_atlas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/allen_brain_atlas\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/zebrafish\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/tenx_5k_pbmc' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/tenx_5k_pbmc\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/mouse_hspc_nestorowa2016' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/mouse_hspc_nestorowa2016\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/hypomap\n  Succeeded processes: 3\n  Attempted processes: 6\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/tenx_1k_pbmc' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/tenx_1k_pbmc\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/mouse_blood_olsson_labelled' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/mouse_blood_olsson_labelled\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hcla' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/hcla\n  Succeeded processes: 3\n  Attempted processes: 6\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded processes: 3\n  Attempted processes: 6\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/cengen\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/tnbc_wu2021' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/tnbc_wu2021\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded processes: 3\n  Attempted processes: 6\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/immune_cells\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/dkd\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: openproblems_v1/pancreas\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % failed",
+    "value": 0.6667,
+    "severity": 3,
+    "severity_value": 6.6667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded processes: 2\n  Attempted processes: 6\n  Percentage failed: 67%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_denoising' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Method: no_denoising\n  Succeeded processes: 17\n  Attempted processes: 17\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'perfect_denoising' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Method: perfect_denoising\n  Succeeded processes: 17\n  Attempted processes: 17\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'alra' % failed",
+    "value": 0.3529,
+    "severity": 3,
+    "severity_value": 3.5294,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Method: alra\n  Succeeded processes: 11\n  Attempted processes: 17\n  Percentage failed: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'dca' % failed",
+    "value": 0.0588,
+    "severity": 0,
+    "severity_value": 0.5882,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Method: dca\n  Succeeded processes: 16\n  Attempted processes: 17\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knn_smoothing' % failed",
+    "value": 0.3529,
+    "severity": 3,
+    "severity_value": 3.5294,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Method: knn_smoothing\n  Succeeded processes: 11\n  Attempted processes: 17\n  Percentage failed: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'magic' % failed",
+    "value": 0.3529,
+    "severity": 3,
+    "severity_value": 3.5294,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Method: magic\n  Succeeded processes: 11\n  Attempted processes: 17\n  Percentage failed: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'mse' % failed",
+    "value": 0.1084,
+    "severity": 1,
+    "severity_value": 1.0843,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Metric component: mse\n  Succeeded processes: 74\n  Attempted processes: 83\n  Percentage failed: 11%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'poisson' % failed",
+    "value": 0.1205,
+    "severity": 1,
+    "severity_value": 1.2048,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: denoising\n  Metric component: poisson\n  Succeeded processes: 73\n  Attempted processes: 83\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/immune_cell_atlas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/allen_brain_atlas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/allen_brain_atlas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/zebrafish' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/zebrafish\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/tenx_5k_pbmc' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/tenx_5k_pbmc\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/mouse_hspc_nestorowa2016' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/mouse_hspc_nestorowa2016\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hypomap' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/hypomap\n  Succeeded control_methods: 0\n  Total control methods: 2\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/tenx_1k_pbmc' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/tenx_1k_pbmc\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/mouse_blood_olsson_labelled' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/mouse_blood_olsson_labelled\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hcla' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/hcla\n  Succeeded control_methods: 0\n  Total control methods: 2\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/mouse_pancreas_atlas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/cengen' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/cengen\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/tnbc_wu2021' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/tnbc_wu2021\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/gtex_v9' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/immune_cells' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/immune_cells\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/dkd' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/dkd\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/pancreas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: openproblems_v1/pancreas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/tabula_sapiens' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: denoising\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded control_methods: 0\n  Total control methods: 2\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mse' number of control methods",
+    "value": 27,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: denoising\n  Metric: mse\n  Control method scores: 27\n  Expected control method scores: 34\n  Percentage succeeded: 79%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'poisson' number of control methods",
+    "value": 27,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: denoising\n  Metric: poisson\n  Control method scores: 27\n  Expected control method scores: 34\n  Percentage succeeded: 79%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mse' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: denoising\n  Metric: mse\n  Inside range: 0\n  Scaled scores: 74\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mse' worst score % outside range",
+    "value": 0.0696,
+    "severity": 0,
+    "severity_value": 0.6963,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: denoising\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mse' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: denoising\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'alra'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'alra' performs much worse than controls for metric' mse'\n  Task: denoising\n  Method: alra\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'alra'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'alra' performs much better than controls for metric 'mse'\n  Task: denoising\n  Method: alra\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'dca'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'dca' performs much worse than controls for metric' mse'\n  Task: denoising\n  Method: dca\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'dca'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'dca' performs much better than controls for metric 'mse'\n  Task: denoising\n  Method: dca\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'knn_smoothing'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knn_smoothing' performs much worse than controls for metric' mse'\n  Task: denoising\n  Method: knn_smoothing\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'knn_smoothing'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knn_smoothing' performs much better than controls for metric 'mse'\n  Task: denoising\n  Method: knn_smoothing\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'magic'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'magic' performs much worse than controls for metric' mse'\n  Task: denoising\n  Method: magic\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'magic'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'magic' performs much better than controls for metric 'mse'\n  Task: denoising\n  Method: magic\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'no_denoising'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_denoising' performs much worse than controls for metric' mse'\n  Task: denoising\n  Method: no_denoising\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'no_denoising'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_denoising' performs much better than controls for metric 'mse'\n  Task: denoising\n  Method: no_denoising\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'perfect_denoising'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_denoising' performs much worse than controls for metric' mse'\n  Task: denoising\n  Method: perfect_denoising\n  Metric: mse\n  Worst score: -0.0696261682242991\n  Percentage outside range: 7%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'perfect_denoising'",
+    "value": -0.0696,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_denoising' performs much better than controls for metric 'mse'\n  Task: denoising\n  Method: perfect_denoising\n  Metric: mse\n  Best score: -0.0696261682242991\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'poisson' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: denoising\n  Metric: poisson\n  Inside range: 0\n  Scaled scores: 73\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'poisson' worst score % outside range",
+    "value": 4.3674,
+    "severity": 3,
+    "severity_value": 43.6741,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: denoising\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'poisson' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: denoising\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'poisson' score for 'alra'",
+    "value": -4.3674,
+    "severity": 3,
+    "severity_value": 4.3674,
+    "condition": "worst_score < -1",
+    "message": "Method 'alra' performs much worse than controls for metric' poisson'\n  Task: denoising\n  Method: alra\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'poisson' score for 'alra'",
+    "value": -4.3674,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'alra' performs much better than controls for metric 'poisson'\n  Task: denoising\n  Method: alra\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'poisson' score for 'dca'",
+    "value": -4.3674,
+    "severity": 3,
+    "severity_value": 4.3674,
+    "condition": "worst_score < -1",
+    "message": "Method 'dca' performs much worse than controls for metric' poisson'\n  Task: denoising\n  Method: dca\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'poisson' score for 'dca'",
+    "value": -4.3674,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'dca' performs much better than controls for metric 'poisson'\n  Task: denoising\n  Method: dca\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'poisson' score for 'knn_smoothing'",
+    "value": -4.3674,
+    "severity": 3,
+    "severity_value": 4.3674,
+    "condition": "worst_score < -1",
+    "message": "Method 'knn_smoothing' performs much worse than controls for metric' poisson'\n  Task: denoising\n  Method: knn_smoothing\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'poisson' score for 'knn_smoothing'",
+    "value": -4.3674,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knn_smoothing' performs much better than controls for metric 'poisson'\n  Task: denoising\n  Method: knn_smoothing\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'poisson' score for 'magic'",
+    "value": -4.3674,
+    "severity": 3,
+    "severity_value": 4.3674,
+    "condition": "worst_score < -1",
+    "message": "Method 'magic' performs much worse than controls for metric' poisson'\n  Task: denoising\n  Method: magic\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'poisson' score for 'magic'",
+    "value": -4.3674,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'magic' performs much better than controls for metric 'poisson'\n  Task: denoising\n  Method: magic\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'poisson' score for 'no_denoising'",
+    "value": -4.3674,
+    "severity": 3,
+    "severity_value": 4.3674,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_denoising' performs much worse than controls for metric' poisson'\n  Task: denoising\n  Method: no_denoising\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'poisson' score for 'no_denoising'",
+    "value": -4.3674,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_denoising' performs much better than controls for metric 'poisson'\n  Task: denoising\n  Method: no_denoising\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'poisson' score for 'perfect_denoising'",
+    "value": -4.3674,
+    "severity": 3,
+    "severity_value": 4.3674,
+    "condition": "worst_score < -1",
+    "message": "Method 'perfect_denoising' performs much worse than controls for metric' poisson'\n  Task: denoising\n  Method: perfect_denoising\n  Metric: poisson\n  Worst score: -4.36741424802111\n  Percentage outside range: 437%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'poisson' score for 'perfect_denoising'",
+    "value": -4.3674,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'perfect_denoising' performs much better than controls for metric 'poisson'\n  Task: denoising\n  Method: perfect_denoising\n  Metric: poisson\n  Best score: -4.36741424802111\n  Percentage outside range: 0%\n"
+  }
+]

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "mouse_spleen_flow_cytometry",
+    "label": "Mouse Spleen Flow Cytometry",
+    "commit": "missing-sha",
+    "summary": "Flow cytometry data of spleens of 8 mice. For each mouse, aliquotes of the same original sample were divided into 2 batches and measured with 2 different instrument settings to allow the creation of sample-paired replicates for benchmarking purposes.",
+    "description": "Flow cytometry data of spleens from 4 WT (IKK2 fl/fl CD11c-cre +/+) and 4 KO (IKK2 fl/fl CD11c-cre Tg/+) B6 mice, measured with a 22-color panel and 2 different instrument settings. Data has been preprocessed (compensated with a batch-specific compensation matrix, logicle transformed, cleaned with PeacoQC and pregated on live single CD45+ cells).",
+    "source_urls": ["https://github.com/openproblems-bio/task_cyto_batch_integration"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["Mus musculus"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@article{leomazzi2025biorxiv,  title={Benchmarking batch integration methods for mass cytometry data},  author={Leomazzi, Luca and Putri, Givanna and Cannoodt, Robrecht and Quintelier, Katrien and Van Gassen, Sofie},  journal={bioRxiv -- in preparation},  year={2025}}"]
+    },
+    "date_created": "20-08-2025",
+    "file_size_mb": 770.5096
+  },
+  {
+    "name": "human_blood_mass_cytometry",
+    "label": "Human Blood Mass Cytometry",
+    "commit": "missing-sha",
+    "summary": "Mass cytometry dataset of whole blood from 2 human donors. For each donor, 2 samples are included: one unstimulated and one stimulated. For each of these, aliquotes of the same original sample were divided into 2 batches to allow the creation of sample-paired replicates for benchmarking purposes.",
+    "description": "CyTOF data (whole blood) from 2 human donors, each with unstimulated and stimulated samples. The stimulated samples were treated with Interferonα (IFNα) and Lipopolysaccharide (LPS). The mass cytometry cytometry panel includes 21 surface markers for cell phenotyping and 14 markers for functional analysis of the signaling responses. The data has been arcsinh transformed with cofactor 5 and pregated to only include events which fall either in the CD66-CD45+ or CD66+ gates.",
+    "source_urls": ["http://flowrepository.org/id/FR-FCM-Z247"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["Homo Sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@article{vangassen2020cytonorm,title={CytoNorm: a normalization algorithm for cytometry data},author={Van Gassen, Sofie and Gaudilliere, Brice and Angst, Martin S and Saeys, Yvan and Aghaeepour, Nima},journal={Cytometry Part A},volume={97},number={3},pages={268--278},year={2020},publisher={Wiley Online Library}}"]
+    },
+    "date_created": "20-08-2025",
+    "file_size_mb": 149.1244
+  }
+]

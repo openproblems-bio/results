@@ -1,0 +1,82 @@
+{
+  "name": "predict_modality",
+  "commit": null,
+  "label": "Predict Modality",
+  "summary": "Predicting the profiles of one modality (e.g. protein abundance) from another (e.g. mRNA expression).",
+  "description": "In this task, the goal is to take one modality and predict the other modality for all\nfeatures in each cell. This task requires translating information between multiple layers of\ngene regulation. In some ways, this is similar to the task of machine translation. In machine translation, the same\nsentiment is expressed in multiple languages and the goal is to train a model to represent the same meaning in a different\nlanguage. In this context, the same cellular state is measured in two different feature sets and the goal of this task\nis to translate the information about cellular state from one modality to the other.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    },
+    {
+      "name": "Louise Deconinck",
+      "roles": [
+        "author"
+      ],
+      "github": "LouiseDck",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Alex Tong",
+      "roles": [
+        "author"
+      ],
+      "github": "atong01",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Bastian Rieck",
+      "roles": [
+        "author"
+      ],
+      "github": "Pseudomanifold",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Daniel Burkhardt",
+      "roles": [
+        "author"
+      ],
+      "github": "dburkhardt",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Alejandro Granados",
+      "roles": [
+        "author"
+      ],
+      "github": "agranado",
+      "orcid": null,
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-03-15_14-24-05",
+  "is_prerelease": true,
+  "timestamp": "2024-03-15T14:24:05Z"
+}

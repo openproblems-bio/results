@@ -1,0 +1,173 @@
+[
+  {
+    "name": "scdesign2",
+    "label": "scDesign2",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "A transparent simulator that generates high-fidelity single-cell gene expression count data with gene correlations captured",
+    "description": "scDesign2 is a transparent simulator that achieves all three goals (preserving genes, capturing gene correlations, and generating any \nnumber of cells with varying sequencing depths) and generates high-fidelity synthetic data for multiple single-cell gene expression \ncount-based technologies.",
+    "type": "method",
+    "link_code": "https://github.com/JSB-UCLA/scDesign2",
+    "link_documentation": "https://htmlpreview.github.io/?https://github.com/JSB-UCLA/scDesign2/blob/master/vignettes/scDesign2.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/scdesign2",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/scdesign2:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1186/s13059-021-02367-2"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "scdesign3",
+    "label": "scDesign3",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "A probabilistic model that unifies the generation and inference for single-cell and spatial omics data",
+    "description": "scDesign3 offers a probabilistic model that unifies the generation and inference\nfor single-cell and spatial omics data. The model's interpretable parameters and\nlikelihood enable scDesign3 to generate customized in silico data and unsupervisedly\nassess the goodness-of-fit of inferred cell latent structures (for example, clusters,\ntrajectories and spatial locations).",
+    "type": "method",
+    "link_code": "https://github.com/SONGDONGYUAN1994/scDesign3",
+    "link_documentation": "https://www.bioconductor.org/packages/release/bioc/html/scDesign3.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/scdesign3",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/scdesign3:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-023-01772-1"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "sparsim",
+    "label": "SPARsim",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "SPARSim single cell is a count data simulator for scRNA-seq data.",
+    "description": "SPARSim is a scRNA-seq count data simulator based on a Gamma-Multivariate Hypergeometric model. \nIt allows to generate count data that resemble real data in terms of count intensity, variability and sparsity.",
+    "type": "method",
+    "link_code": "https://gitlab.com/sysbiobig/sparsim",
+    "link_documentation": "https://gitlab.com/sysbiobig/sparsim/-/blob/master/vignettes/sparsim.Rmd",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/sparsim",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/sparsim:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/bioinformatics/btz752"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "splatter",
+    "label": "Splatter",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "A single cell RNA-seq data simulator based on a gamma-Poisson distribution.",
+    "description": "The Splat model is a gamma-Poisson distribution used to generate a gene by cell matrix of counts. Mean expression levels for each gene are simulated from a gamma distribution and the Biological Coefficient of Variation is used to enforce a mean-variance trend before counts are simulated from a Poisson distribution.",
+    "type": "method",
+    "link_code": "https://github.com/Oshlack/splatter",
+    "link_documentation": "https://bioconductor.org/packages/devel/bioc/vignettes/splatter/inst/doc/splatter.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/splatter",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/splatter:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1186/s13059-017-1305-0"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "srtsim",
+    "label": "SRTsim",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "An SRT-specific simulator for scalable, reproducible, and realistic SRT simulations.",
+    "description": "A key benefit of srtsim is its ability to maintain location-wise and gene-wise SRT count properties and \npreserve spatial expression patterns, enabling evaluation of SRT method performance using synthetic data.",
+    "type": "method",
+    "link_code": "https://github.com/xzhoulab/srtsim",
+    "link_documentation": "https://xzhoulab.github.io/SRTsim",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/srtsim",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/srtsim:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1186/s13059-023-02879-z"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "symsim",
+    "label": "symsim",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "Simulating multiple faceted variability in single cell RNA sequencing",
+    "description": "SymSim is a simulator for modeling single-cell RNA-Seq data, accounting for three primary sources of variation: intrinsic transcription noise, extrinsic variation from different cell states, \nand technical variation from measurement noise and bias.",
+    "type": "method",
+    "link_code": "https://github.com/YosefLab/SymSim",
+    "link_documentation": "https://github.com/YosefLab/SymSim/blob/master/vignettes/SymSimTutorial.Rmd",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/symsim",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/symsim:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-019-10500-w"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "zinbwave",
+    "label": "zinbwave",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "A general and flexible method for signal extraction from single-cell RNA-seq data",
+    "description": "ZINB-WaVE is a general and flexible zero-inflated negative binomial model, which leads to low-dimensional representations \nof the data that account for zero inflation (dropouts), over-dispersion, and the count nature of the data.",
+    "type": "method",
+    "link_code": "https://github.com/drisso/zinbwave",
+    "link_documentation": "https://bioconductor.org/packages/release/bioc/html/zinbwave.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/methods/zinbwave",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/methods/zinbwave:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-017-02554-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "positive",
+    "label": "positive",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "A positive control method.",
+    "description": "A positive control method.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_spatial_simulators",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/control_methods/positive",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/control_methods/positive:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "negative",
+    "label": "negative",
+    "commit": "f4d2d74acc7720098e608e8e2746a568b7de65b5",
+    "summary": "A negative control method.",
+    "description": "A negative control method.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_spatial_simulators",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/f4d2d74acc7720098e608e8e2746a568b7de65b5/src/control_methods/negative",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/control_methods/negative:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]

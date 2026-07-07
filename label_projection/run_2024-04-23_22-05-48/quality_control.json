@@ -1,0 +1,740 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: label_projection\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: label_projection\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.625,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: label_projection\n  Field: references\n  Percentage missing: 62"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: label_projection\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: label_projection\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 36,
+    "severity": 3,
+    "severity_value": 8.9773,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: label_projection\n  Number of results: 36\n  Number of datasets: 11\n  Number of methods: 8\n  Number of metrics: 4\n  Expected number of results: 352\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/hypomap\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/pancreas\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/dkd\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/gtex_v9\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hcla' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/hcla\n  Number of results: 0\n  Expected number of results: 32\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/immune_cells\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/cengen\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/immune_cell_atlas\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/zebrafish\n  Number of results: 4\n  Expected number of results: 32\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/tabula_sapiens\n  Number of results: 0\n  Expected number of results: 32\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_labels' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: true_labels\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'majority_vote' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: majority_vote\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_labels' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: random_labels\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knn' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: knn\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'logistic_regression' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: logistic_regression\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mlp' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: mlp\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi_scarches' % missing",
+    "value": 0.1818,
+    "severity": 1,
+    "severity_value": 1.8182,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scanvi_scarches\n  Number of results: 36\n  Expected number of results: 44\n  Percentage missing: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'xgboost' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: xgboost\n  Number of results: 0\n  Expected number of results: 44\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'accuracy' % missing",
+    "value": 0.8977,
+    "severity": 3,
+    "severity_value": 8.9773,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: accuracy\n  Number of results: 9\n  Expected number of results: 88\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_weighted' % missing",
+    "value": 0.8977,
+    "severity": 3,
+    "severity_value": 8.9773,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: f1_weighted\n  Number of results: 9\n  Expected number of results: 88\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_macro' % missing",
+    "value": 0.8977,
+    "severity": 3,
+    "severity_value": 8.9773,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: f1_macro\n  Number of results: 9\n  Expected number of results: 88\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_micro' % missing",
+    "value": 0.8977,
+    "severity": 3,
+    "severity_value": 8.9773,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: f1_micro\n  Number of results: 9\n  Expected number of results: 88\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 27,
+    "severity": 0,
+    "severity_value": 0.6897,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: label_projection\n  Succeeded processes: 27\n  Attempted processes: 29\n  Percentage failed: 7%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/hypomap\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/pancreas\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/dkd\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hcla' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/hcla\n  Succeeded processes: 0\n  Attempted processes: 1\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/immune_cells\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/cengen\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: openproblems_v1/zebrafish\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded processes: 0\n  Attempted processes: 1\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_labels' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: true_labels\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'majority_vote' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: majority_vote\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_labels' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: random_labels\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knn' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: knn\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'logistic_regression' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: logistic_regression\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mlp' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: mlp\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi_scarches' % failed",
+    "value": 0.1818,
+    "severity": 1,
+    "severity_value": 1.8182,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scanvi_scarches\n  Succeeded processes: 9\n  Attempted processes: 11\n  Percentage failed: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'xgboost' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: xgboost\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'accuracy' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Metric component: accuracy\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'f1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Metric component: f1\n  Succeeded processes: 9\n  Attempted processes: 9\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hypomap' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/hypomap\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/pancreas' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: openproblems_v1/pancreas\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/dkd' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/dkd\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/gtex_v9' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/mouse_pancreas_atlas' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hcla' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/hcla\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/immune_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: openproblems_v1/immune_cells\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/cengen' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: openproblems_v1/cengen\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/immune_cell_atlas' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/zebrafish' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: openproblems_v1/zebrafish\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/tabula_sapiens' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded control_methods: 0\n  Total control methods: 3\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'accuracy' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: accuracy\n  Control method scores: 0\n  Expected control method scores: 33\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_weighted' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: f1_weighted\n  Control method scores: 0\n  Expected control method scores: 33\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_macro' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: f1_macro\n  Control method scores: 0\n  Expected control method scores: 33\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_micro' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: f1_micro\n  Control method scores: 0\n  Expected control method scores: 33\n  Percentage succeeded: 0%\n"
+  }
+]

@@ -1,0 +1,201 @@
+[
+  {
+    "name": "mean_per_gene",
+    "label": "Mean per gene",
+    "commit": "missing-sha",
+    "summary": "Returns the mean expression value per gene.",
+    "description": "Returns the mean expression value per gene.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "random_predict",
+    "label": "Random predictions",
+    "commit": "missing-sha",
+    "summary": "Returns random training profiles.",
+    "description": "Returns random training profiles.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "zeros",
+    "label": "Zeros",
+    "commit": "missing-sha",
+    "summary": "Returns a prediction consisting of all zeros.",
+    "description": "Returns a prediction consisting of all zeros.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "solution",
+    "label": "Solution",
+    "commit": "missing-sha",
+    "summary": "Returns the ground-truth solution.",
+    "description": "Returns the ground-truth solution.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "knnr_py",
+    "label": "KNNR (Py)",
+    "commit": "missing-sha",
+    "summary": "K-nearest neighbor regression in Python.",
+    "description": "K-nearest neighbor regression in Python.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "fix1989discriminatory",
+      "repository_url": "https://github.com/scikit-learn/scikit-learn",
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "knnr_r",
+    "label": "KNNR (R)",
+    "commit": "missing-sha",
+    "summary": "K-nearest neighbor regression in R.",
+    "description": "K-nearest neighbor regression in R.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://cran.r-project.org/package=FNN",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "fix1989discriminatory",
+      "repository_url": "https://github.com/cran/FNN",
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "lm",
+    "label": "Linear Model",
+    "commit": "missing-sha",
+    "summary": "Linear model regression.",
+    "description": "A linear model regression method.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://cran.r-project.org/package=RcppArmadillo",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "wilkinson1973symbolic",
+      "repository_url": "https://github.com/RcppCore/RcppArmadillo",
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "newwave_knnr",
+    "label": "NewWave+KNNR",
+    "commit": "missing-sha",
+    "summary": "Perform DR with NewWave, predict modality with KNN regression.",
+    "description": "Perform DR with NewWave, predict modality with KNN regression.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://bioconductor.org/packages/release/bioc/html/NewWave.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "agostinis2022newwave",
+      "repository_url": "https://github.com/fedeago/NewWave",
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "random_forest",
+    "label": "Random Forests",
+    "commit": "missing-sha",
+    "summary": "Random forest regression.",
+    "description": "A random forest regression method.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://www.stat.berkeley.edu/~breiman/RandomForests/reg_home.htm",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "breiman2001random",
+      "repository_url": "https://github.com/cran/randomForest",
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  }
+]

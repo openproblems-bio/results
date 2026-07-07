@@ -1,0 +1,122 @@
+[
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "batchadjust_all_controls",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [240, 247],
+    "run_cpu_pct": [100.1, 100.1],
+    "run_peak_memory_mb": [11162, 11776],
+    "run_disk_read_mb": [2458, 2560],
+    "run_disk_write_mb": [2253, 2356],
+    "metric_names": ["emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert"],
+    "metric_values": [1.2071, 1.2124, 0.4554, 1.0137, 0.1668, 0.1697, 0.0847, 0.1815],
+    "metric_components": [
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.7, 245],
+        "run_cpu_pct": [151.1, 99.5],
+        "run_peak_memory_mb": [1639, 9012],
+        "run_disk_read_mb": [33, 1844],
+        "run_disk_write_mb": [1, 12]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "batchadjust_one_control",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [247, 257],
+    "run_cpu_pct": [99.9, 100],
+    "run_peak_memory_mb": [11162, 11572],
+    "run_disk_read_mb": [2356, 2458],
+    "run_disk_write_mb": [2253, 2356],
+    "metric_names": ["emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert"],
+    "metric_values": [1.2064, 1.1012, 0.3758, 0.9335, 0.1648, 0.1676, 0.0777, 0.1767],
+    "metric_components": [
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.7, 248],
+        "run_cpu_pct": [151.2, 99.5],
+        "run_peak_memory_mb": [1639, 9012],
+        "run_disk_read_mb": [33, 1844],
+        "run_disk_write_mb": [1, 12]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "batchadjust_all_controls",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [20.7],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "batchadjust_one_control",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [11.2],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "mnn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [14401],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "mnn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [14400],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  }
+]

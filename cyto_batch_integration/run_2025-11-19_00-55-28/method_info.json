@@ -1,0 +1,496 @@
+[
+  {
+    "name": "shuffle_integration",
+    "label": "Shuffle Integration",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Randomly shuffle cells in the whole dataset.",
+    "description": "This negative control randomly permutes cell-to-sample (hence batch)\nassignments while keeping each cell's measured markers unchanged. \nThis destroys any biological and batch specific structure but preserves marker expression.\n\nPurpose:\n- Provide a baseline to verify that integration methods outperform\n  random assignment of cells to batches.\n\nExample:\n  - A cell from a KO sample in batch 1 may be reassigned to any sample in the whole data.\n  It may be reassigned to another KO sample in batch 1 or 2, or to a WT sample in batch 1 or 2.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/control_methods/shuffle_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/shuffle_integration:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "shuffle_integration_by_batch",
+    "label": "Shuffle Integration — within batches",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Randomly reassign cells to any samples within the same batch.",
+    "description": "This negative-control method randomly permutes cell-to-cell type assignments.\nCells remain assigned to their original batch (batch effects preserved).\nWithin each batch, cells are reassigned to random samples, destroying\nbiological/sample-specific structure (e.g., KO vs WT differences).\n\nPurpose:\n- Evaluate whether an integration method preserves differences between samples\n  and biological groups while removing batch effects.\n\nExample:\n- A cell from a KO sample in batch 1 may be reassigned to any sample in batch 1\n  (KO or WT), but it will never be moved to batch 2.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/control_methods/shuffle_integration_by_batch",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/shuffle_integration_by_batch:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "shuffle_integration_by_cell_type",
+    "label": "Shuffle Integration — within cell type",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Randomly reassign cells to any cell types",
+    "description": "This negative-control method randomly permutes cell-to-cell type assignments.\nCells will be assigned to any cell types, regardless of their original cell type\nor sample of origin or batch of origin.\n\nPurpose:\n- Evaluate whether an integration method preserves differences between cell types\nwhile removing batch effects.\n\nExample:\n- A Neutrophil from a KO sample in batch 1 may be reassigned to any cell type\n  (B cell, T cell, Monocyte, etc.) from any sample in any batch.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/control_methods/shuffle_integration_by_cell_type",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/shuffle_integration_by_cell_type:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "harmonypy",
+    "label": "Harmonypy",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Harmonypy is a port of the harmony R package",
+    "description": "Harmony is a general-purpose R package with an efficient algorithm for integrating multiple data sets. \nIt is especially useful for large single-cell datasets such as single-cell RNA-seq.",
+    "type": "method",
+    "link_code": "https://github.com/slowkow/harmonypy",
+    "link_documentation": "https://portals.broadinstitute.org/harmony",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/harmonypy",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/harmonypy:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0619-0"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "limma_remove_batch_effect",
+    "label": "Limma removeBatchEffect",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Uses a linear model and matrix decomposition to remove batch effects from a dataset",
+    "description": "Limma removeBatchEffect is a method that uses a linear model and matrix\ndecomposition to remove batch effects from a dataset. It first fits a linear\nmodel to the data, then decomposes the model matrix into a set of orthogonal\ncomponents. The batch effect is then removed by subtracting the component\ncorresponding to the batch effect from the data.",
+    "type": "method",
+    "link_code": "https://github.com/bioc/limma",
+    "link_documentation": "https://bioinf.wehi.edu.au/limma",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/limma_remove_batch_effect",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/limma_remove_batch_effect:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/nar/gkv007"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "no_integration",
+    "label": "No Integration",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Control method returning the unintegrated data without performing batch correction.",
+    "description": "The component works by reading and writing back the 'unintegrated' data without performing any operation.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/control_methods/no_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/no_integration:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "perfect_integration",
+    "label": "Perfect Integration",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Act as a positive control by returning samples from the same batch (batch 1) for both splits.",
+    "description": "The method returns only samples from one batch (batch 1), for both the splits.\nThis act as a positive control method for the metrics that compare technical replicates between runs ('horizontal' metrics), as the difference between a sample compared\nto itself should be zero. It also acts as a positive control for 'vertical' metrics, as the samples being returned are from the same batch.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/control_methods/perfect_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/perfect_integration:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "combat",
+    "label": "Combat",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "ComBat batch correction for single-cell data, implemented in the scanpy package",
+    "description": "Corrects for batch effects by fitting linear models, gains statistical power via an EB framework where information is borrowed across genes. \nThis uses the implementation combat.py",
+    "type": "method",
+    "link_code": "https://github.com/brentp/combat.py",
+    "link_documentation": "https://scanpy.readthedocs.io/en/latest/api/generated/scanpy.pp.combat.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/combat",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/combat:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/biostatistics/kxj037"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cycombine_no_controls_to_mid",
+    "label": "cyCombine (no-controls, to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "cyCombine run without control samples, correcting to a midpoint",
+    "description": "cyCombine perform batch integration using self-organizing maps and ComBat.\nIt first uses self-organizing maps (SOM) to group similar cells into clusters, \nthen applies a ComBat-based method to correct batch effects within \neach cluster. \nHere, we run cyCombine without any control samples (replicates, in cyCombine terms), \nwith a square SOM grid and correct the batches to a midpoint derived from all batches.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 8\nfollowing the default value in create_som function in cyCombine.\nRlen, which is the number of times data is presented to the SOM network and can impact\nclustering quality. \nIt is varied linearly between value of 10-20 with default set to 10.",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cycombine_no_controls_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_no_controls_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cycombine_no_controls_to_goal",
+    "label": "cyCombine (no-controls, to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "cyCombine run without control samples, correcting to a goal batch",
+    "description": "cyCombine perform batch integration using self-organizing maps and ComBat.\nIt first uses self-organizing maps (SOM) to group similar cells into clusters, \nthen applies a ComBat-based method to correct batch effects within \neach cluster. \nHere, we run cyCombine without any control samples (replicates, in cyCombine terms), \nwith a square SOM grid and correct the batches to batch 1.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 8\nfollowing the default value in create_som function in cyCombine.\nRlen, which is the number of times data is presented to the SOM network and can impact\nclustering quality. \nIt is varied linearly between value of 10-20 with default set to 10.",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cycombine_no_controls_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_no_controls_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cycombine_one_control_to_mid",
+    "label": "cyCombine (one-control, to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "cyCombine run with control sample from one group only, correcting to a midpoint",
+    "description": "cyCombine perform batch integration using self-organizing maps and ComBat.\nIt first uses self-organizing maps (SOM) to group similar cells into clusters, \nthen applies a ComBat-based method to correct batch effects within \neach cluster. \nHere, we run cyCombine using control samples only from one biological group (replicates, in cyCombine terms), \nwith a square SOM grid and correct the batches to a midpoint derived from all batches.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 8\nfollowing the default value in create_som function in cyCombine.\nRlen, which is the number of times data is presented to the SOM network and can impact\nclustering quality. \nIt is varied linearly between value of 10-20 with default set to 10.",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cycombine_one_control_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_one_control_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cycombine_one_control_to_goal",
+    "label": "cyCombine (one-control, to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "cyCombine run with control sample from one group only, correcting to a goal batch",
+    "description": "cyCombine perform batch integration using self-organizing maps and ComBat.\nIt first uses self-organizing maps (SOM) to group similar cells into clusters, \nthen applies a ComBat-based method to correct batch effects within \neach cluster. \nHere, we run cyCombine using control samples only from one biological group (replicates, in cyCombine terms), \nwith a square SOM grid and correct the batches to batch 1.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 8\nfollowing the default value in create_som function in cyCombine.\nRlen, which is the number of times data is presented to the SOM network and can impact\nclustering quality. \nIt is varied linearly between value of 10-20 with default set to 10.",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cycombine_one_control_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_one_control_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cycombine_all_controls_to_mid",
+    "label": "cyCombine (all-controls, to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "cyCombine run with all control samples, correcting to a midpoint",
+    "description": "cyCombine perform batch integration using self-organizing maps and ComBat.\nIt first uses self-organizing maps (SOM) to group similar cells into clusters, \nthen applies a ComBat-based method to correct batch effects within \neach cluster. \nHere, we run cyCombine using all control samples (replicates, in cyCombine terms), \nwith a square SOM grid and correct the batches to a midpoint derived from all batches.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 8\nfollowing the default value in create_som function in cyCombine.\nRlen, which is the number of times data is presented to the SOM network and can impact\nclustering quality. \nIt is varied linearly between value of 10-20 with default set to 10.",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cycombine_all_controls_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_all_controls_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cycombine_all_controls_to_goal",
+    "label": "cyCombine (all-controls, to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "cyCombine run with all control samples, correcting to a goal batch",
+    "description": "cyCombine perform batch integration using self-organizing maps and ComBat.\nIt first uses self-organizing maps (SOM) to group similar cells into clusters, \nthen applies a ComBat-based method to correct batch effects within \neach cluster. \nHere, we run cyCombine using all control samples (replicates, in cyCombine terms), \nwith a square SOM grid and correct the batches to batch 1.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 8\nfollowing the default value in create_som function in cyCombine.\nRlen, which is the number of times data is presented to the SOM network and can impact\nclustering quality. \nIt is varied linearly between value of 10-20 with default set to 10.",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cycombine_all_controls_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_all_controls_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "gaussnorm",
+    "label": "GaussNorm",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Batch effect correction using a per‐channel basis normalization method (gaussNorm)",
+    "description": "This method batch-normalizes a set of cytometry data samples by identifying and aligning the high density regions (landmarks or peaks) for each channel.\nThe data of each channel is shifted in such a way that the identified high density regions are moved to fixed locations called base landmarks.\nNormalization is achieved in three phases:\n1. identifying high-density regions (landmarks) for each flowFrame in the flowSet for a single channel\n2. computing the best matching between the landmarks and a set of fixed reference landmarks for each channel called base landmarks\n3. manipulating the data of each channel in such a way that each landmark is moved to its matching base landmark. Please note that this normalization is on a channel-by-channel basis\n\nNOTE: The default implementation uses `max.lms=2`, although for some channels it is not possible to compute 2 landmarks, resulting in an error.\nIn order to fully automate the batch normalization process, this implementation checks whether it is possible to compute 2 landmarks, and if not, it sets `max.lms=1` for that channel.",
+    "type": "method",
+    "link_code": "https://github.com/RGLab/flowStats",
+    "link_documentation": "https://rdrr.io/bioc/flowStats/src/R/gaussNorm.R",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/gaussnorm",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/gaussnorm:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.20823"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "batchadjust_one_control",
+    "label": "Batchadjust with one control",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Batchadjust with all control sample.",
+    "description": "CytofBatchadjust corrects batch effects across cytometry data by aligning signal intensity peaks for each channel across batches.\nThe algorithm uses technical replicates included in each barcode set as reference points to anchor each batch. \nAdjustments factors are calibrated using anchor samples representing each barcode set, then applied to all samples composing a batch. \n\nThis implementation uses samples only from one group as control samples.",
+    "type": "method",
+    "link_code": "https://github.com/CUHIMSR/CytofBatchAdjust",
+    "link_documentation": "https://github.com/CUHIMSR/CytofBatchAdjust",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/batchadjust_one_control",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/batchadjust_one_control:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.3389/fimmu.2019.02367"],
+      "bibtex": ["@article{schuyler2019minimizing,\n  title={Minimizing batch effects in mass cytometry data},\n  author={Schuyler, Ronald P and Jackson, Conner and Garcia-Perez, Josselyn E and Baxter, Ryan M and Ogolla, Sidney and Rochford, Rosemary and Ghosh, Debashis and Rudra, Pratyaydipta and Hsieh, Elena WY},\n  journal={Frontiers in immunology},\n  volume={10},\n  pages={2367},\n  year={2019},\n  publisher={Frontiers Media SA}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "batchadjust_all_controls",
+    "label": "Batchadjust with all controls",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Batchadjust with all control sample.",
+    "description": "CytofBatchadjust corrects batch effects across cytometry data by aligning signal intensity peaks for each channel across batches.\nThe algorithm uses technical replicates included in each barcode set as reference points to anchor each batch. \nAdjustments factors are calibrated using anchor samples representing each barcode set, then applied to all samples composing a batch. \n\nThis implementation uses samples from each group as control samples.",
+    "type": "method",
+    "link_code": "https://github.com/CUHIMSR/CytofBatchAdjust",
+    "link_documentation": "https://github.com/CUHIMSR/CytofBatchAdjust",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/batchadjust_all_controls",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/batchadjust_all_controls:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.3389/fimmu.2019.02367"],
+      "bibtex": ["@article{schuyler2019minimizing,\n  title={Minimizing batch effects in mass cytometry data},\n  author={Schuyler, Ronald P and Jackson, Conner and Garcia-Perez, Josselyn E and Baxter, Ryan M and Ogolla, Sidney and Rochford, Rosemary and Ghosh, Debashis and Rudra, Pratyaydipta and Hsieh, Elena WY},\n  journal={Frontiers in immunology},\n  volume={10},\n  pages={2367},\n  year={2019},\n  publisher={Frontiers Media SA}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytonorm_no_controls_to_mid",
+    "label": "CytoNorm (no-controls, to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "CytoNorm run without control samples, correcting to a midpoint.",
+    "description": "CytoNorm corrects batch effects by using reference control samples (aliquots of one sample, \ntechnical replicates) included with each batch. \nIt clusters cells using FlowSOM, then trains a model on the control samples to learn how marker \nexpression distributions differ across batches for each population.\nIt then uses splines to align these distributions to a common reference (either a midpoint\nderived from all batches or to a single batch).\n\nIn this CytoNorm version, an aggregate of each batch is created and subsequently used as a \nproxy for the control samples, aligning to a midpoint derived from all batches.\n\nThe number of cells used to create an aggregate is set as the number of cells in the smallest \nsample or 1,000,000, whichever is the smaller, multiplied by how many samples there are in the batch.\nClustering was performed by FlowSOM.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 15\nfollowing the default value provided by CytoNorm.\nThe number of metaclusters is varied linearly between value of 8-20, with default set to 10\nfollowing the default value provided by CytoNorm.\nThe number of cells clustered by FlowSOM is set as the number of cells in the smallest \naggregate or 1,000,000, whichever is the smaller, multiplied by how many batches there are in the data\n(because 1 aggregate = 1 batch).",
+    "type": "method",
+    "link_code": "https://github.com/saeyslab/CytoNorm",
+    "link_documentation": "https://github.com/saeyslab/CytoNorm",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytonorm_no_controls_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytonorm_no_controls_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.23904"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytonorm_all_controls_to_mid",
+    "label": "CytoNorm (all-controls, to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "CytoNorm run with all control samples, correcting to a midpoint.",
+    "description": "CytoNorm corrects batch effects by using reference control samples (aliquots of one sample, \ntechnical replicates) included with each batch. \nIt clusters cells using FlowSOM, then trains a model on the control samples to learn how marker \nexpression distributions differ across batches for each population.\nIt then uses splines to align these distributions to a common reference (either a midpoint\nderived from all batches or to a single batch).\n\nHere, we run CytoNorm using all control samples available, aligning to a midpoint derived from all batches.\n\nThe parameter nQ, which specifies the number of quantiles used when computing the splines\nis varied linearly between value of 80-120, with default set to 99 following the default value provided by CytoNorm.\nClustering was performed by FlowSOM.\nThe number of cells clustered by FlowSOM is set to be number of cells in the smallest\ncontrol samples or 1,000,000, whichever is the smaller, multiplied by how many control samples\nthere are in the data.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 15\nfollowing the default value provided by CytoNorm.\nThe number of metaclusters is varied linearly between value of 8-20, with default set to 10\nfollowing the default value provided by CytoNorm.",
+    "type": "method",
+    "link_code": "https://github.com/saeyslab/CytoNorm",
+    "link_documentation": "https://github.com/saeyslab/CytoNorm",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytonorm_all_controls_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytonorm_all_controls_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.23904"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytonorm_one_control_to_mid",
+    "label": "CytoNorm (one-control, to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "CytoNorm run with control sample from one group only, correcting to a midpoint",
+    "description": "CytoNorm corrects batch effects by using reference control samples (aliquots of one sample, \ntechnical replicates) included with each batch. \nIt clusters cells using FlowSOM, then trains a model on the control samples to learn how marker \nexpression distributions differ across batches for each population.\nIt then uses splines to align these distributions to a common reference (either a midpoint\nderived from all batches or to a single batch).\n\nHere, we run CytoNorm using only control samples from one donor, aligning to a \nmidpoint derived from all batches.\n\nThe parameter nQ, which specifies the number of quantiles used when computing the splines\nis varied linearly between value of 80-120, with default set to 99 following the default value provided by CytoNorm.\nClustering was performed by FlowSOM.\nThe number of cells clustered by FlowSOM is set to be number of cells in the smallest\ncontrol samples or 1,000,000, whichever is the smaller, multiplied by how many control samples\nthere are in the data.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 15\nfollowing the default value provided by CytoNorm.\nThe number of metaclusters is varied linearly between value of 8-20, with default set to 10\nfollowing the default value provided by CytoNorm.",
+    "type": "method",
+    "link_code": "https://github.com/saeyslab/CytoNorm",
+    "link_documentation": "https://github.com/saeyslab/CytoNorm",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytonorm_one_control_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytonorm_one_control_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.23904"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytonorm_no_controls_to_goal",
+    "label": "CytoNorm (no-controls, to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "CytoNorm run without control samples, correcting to a goal batch.",
+    "description": "CytoNorm corrects batch effects by using reference control samples (aliquots of one sample, \ntechnical replicates) included with each batch. \nIt clusters cells using FlowSOM, then trains a model on the control samples to learn how marker \nexpression distributions differ across batches for each population.\nIt then uses splines to align these distributions to a common reference (either a midpoint\nderived from all batches or to a single batch).\n\nIn this CytoNorm version, an aggregate of each batch is created and subsequently used as a \nproxy for the control samples, aligning the batches to batch 1.\n\nThe number of cells used to create an aggregate is set as the number of cells in the smallest \nsample or 1,000,000, whichever is the smaller, multiplied by how many samples there are in the batch.\nClustering was performed by FlowSOM.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 15\nfollowing the default value provided by CytoNorm.\nThe number of metaclusters is varied linearly between value of 8-20, with default set to 10\nfollowing the default value provided by CytoNorm.\nThe number of cells clustered by FlowSOM is set as the number of cells in the smallest \naggregate or 1,000,000, whichever is the smaller, multiplied by how many batches there are in the data\n(because 1 aggregate = 1 batch).",
+    "type": "method",
+    "link_code": "https://github.com/saeyslab/CytoNorm",
+    "link_documentation": "https://github.com/saeyslab/CytoNorm",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytonorm_no_controls_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytonorm_no_controls_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.23904"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytonorm_all_controls_to_goal",
+    "label": "CytoNorm (all-controls, to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "CytoNorm run with all control samples, correcting to a goal batch.",
+    "description": "CytoNorm corrects batch effects by using reference control samples (aliquots of one sample, \ntechnical replicates) included with each batch. \nIt clusters cells using FlowSOM, then trains a model on the control samples to learn how marker \nexpression distributions differ across batches for each population.\nIt then uses splines to align these distributions to a common reference (either a midpoint\nderived from all batches or to a single batch).\n\nHere, we run CytoNorm using all control samples available, aligning the batches to batch 1.\n\nThe parameter nQ, which specifies the number of quantiles used when computing the splines\nis varied linearly between value of 80-120, with default set to 99 following the default value provided by CytoNorm.\nClustering was performed by FlowSOM.\nThe number of cells clustered by FlowSOM is set to be number of cells in the smallest\ncontrol samples or 1,000,000, whichever is the smaller, multiplied by how many control samples\nthere are in the data.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 15\nfollowing the default value provided by CytoNorm.\nThe number of metaclusters is varied linearly between value of 8-20, with default set to 10\nfollowing the default value provided by CytoNorm.",
+    "type": "method",
+    "link_code": "https://github.com/saeyslab/CytoNorm",
+    "link_documentation": "https://github.com/saeyslab/CytoNorm",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytonorm_all_controls_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytonorm_all_controls_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.23904"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytonorm_one_control_to_goal",
+    "label": "CytoNorm (one-control, to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "CytoNorm run with control sample from one group only, correcting to a goal batch",
+    "description": "CytoNorm corrects batch effects by using reference control samples (aliquots of one sample, \ntechnical replicates) included with each batch. \nIt clusters cells using FlowSOM, then trains a model on the control samples to learn how marker \nexpression distributions differ across batches for each population.\nIt then uses splines to align these distributions to a common reference (either a midpoint\nderived from all batches or to a single batch).\n\nHere, we run CytoNorm using only control samples from one donor, aligning the batches to batch 1.\n\nThe parameter nQ, which specifies the number of quantiles used when computing the splines\nis varied linearly between value of 80-120, with default set to 99 following the default value provided by CytoNorm.\nClustering was performed by FlowSOM.\nThe number of cells clustered by FlowSOM is set to be number of cells in the smallest\ncontrol samples or 1,000,000, whichever is the smaller, multiplied by how many control samples\nthere are in the data.\nThe size of the SOM grid is varied linearly between value of 6-16, with default set to 15\nfollowing the default value provided by CytoNorm.\nThe number of metaclusters is varied linearly between value of 8-20, with default set to 10\nfollowing the default value provided by CytoNorm.",
+    "type": "method",
+    "link_code": "https://github.com/saeyslab/CytoNorm",
+    "link_documentation": "https://github.com/saeyslab/CytoNorm",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytonorm_one_control_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytonorm_one_control_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/cyto.a.23904"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "rpca_to_goal",
+    "label": "Seurat RPCA (to-goal)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Batch integrate data to a goal batch using mutual nearest neighbors identified via Seurat reciprocal PCA.",
+    "description": "Seurat RPCA performs batch integration by projecting each query dataset into the PCA space \nof a goal batch, and identifying anchors using reciprocal PCA (RPCA). \nRPCA identifies mutual nearest neighbors between the goal batch and the remaining batches \nin their shared low-dimensional space (PCA), which are used to align \nand integrate the batches into the goal batch. \n\nWe ran Seurat RPCA implemented in Seurat v4.4.0, available on their github.\nThis is because subsequent version (>= v5) does not support getting corrected\ncount matrix, only corrected PC space.\nSee: https://github.com/satijalab/seurat/issues/8551.\n\nWe varied the number of PCs and nearest neighbours considered when running RPCA.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat",
+    "link_documentation": "https://satijalab.org/seurat/articles/integration_rpca.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/rpca_to_goal",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/rpca_to_goal:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2021.04.048"],
+      "bibtex": ["@article{hao2021integrated,\n  title={Integrated analysis of multimodal single-cell data},\n  author={Hao, Yuhan and Hao, Stephanie and Andersen-Nissen, Erica and Mauck, William M and Zheng, Shiwei and Butler, Andrew and Lee, Madison J and Wilk, Aaron J and Darby, Charlotte and Zager, Michael and others},\n  journal={Cell},\n  volume={184},\n  number={13},\n  pages={3573--3587},\n  year={2021},\n  publisher={Elsevier}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "rpca_to_mid",
+    "label": "Seurat RPCA (to-middle)",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "Batch integrate data to a midpoint using mutual nearest neighbors identified via Seurat reciprocal PCA.",
+    "description": "Seurat RPCA performs batch integration by identifying mutual nearest neighbors (anchors) \nbetween all batches using reciprocal PCA (RPCA). \nInstead of merging batches into a single PCA space, each batch is projected into the \nPCA space of the others, and anchors are found where cells are mutual nearest neighbors \nacross these projections. \nThese anchors are then used to compute batch correction vectors, \naligning the batches into a shared corrected space. \n\nWe ran Seurat RPCA implemented in Seurat v4.4.0, available on their github.\nThis is because subsequent version (>= v5) does not support getting corrected\ncount matrix, only corrected PC space.\nSee: https://github.com/satijalab/seurat/issues/8551\n\nWe varied the number of PCs and nearest neighbours considered when running RPCA.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat",
+    "link_documentation": "https://satijalab.org/seurat/articles/integration_rpca.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/rpca_to_mid",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/rpca_to_mid:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2021.04.048"],
+      "bibtex": ["@article{hao2021integrated,\n  title={Integrated analysis of multimodal single-cell data},\n  author={Hao, Yuhan and Hao, Stephanie and Andersen-Nissen, Erica and Mauck, William M and Zheng, Shiwei and Butler, Andrew and Lee, Madison J and Wilk, Aaron J and Darby, Charlotte and Zager, Michael and others},\n  journal={Cell},\n  volume={184},\n  number={13},\n  pages={3573--3587},\n  year={2021},\n  publisher={Elsevier}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  },
+  {
+    "name": "cytovi",
+    "label": "CytoVI",
+    "commit": "956325241c42f6de1c87cfcf51ad68fe6ac9b3e2",
+    "summary": "A deep generative model for correcting batch effects",
+    "description": "CytoVI is a deep generative model that utilizes antibody-based single-cell profiles to \nlearn a biologically meaningful latent representation of each cell. \nIt is part of the scvi-tools framework and is built upon the variational autoencoder (VAE) architecture.",
+    "type": "method",
+    "link_code": "https://github.com/YosefLab/cytovi-reference-implementation",
+    "link_documentation": "https://docs.scvi-tools.org/en/latest/user_guide/models/cytovi.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/956325241c42f6de1c87cfcf51ad68fe6ac9b3e2/src/methods/cytovi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cytovi:build_update_n_inconsistent_peak",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2025.09.07.674699"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_update_n_inconsistent_peak"
+  }
+]

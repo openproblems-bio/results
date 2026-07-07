@@ -1,0 +1,20 @@
+[
+  {
+    "name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "label": "10X Visium - Mouse Olfactory Bulb",
+    "commit": "missing-sha",
+    "summary": "10X Genomics obtained fresh frozen mouse olfactory bulb tissue from BioIVT.",
+    "description": "The tissue was embedded and cryosectioned as described in Visium Spatial Protocols Tissue Preparation Guide (Demonstrated Protocol CG000240). Tissue sections of 10µm were placed on Visium Gene Expression slides, then fixed and stained following Methanol Fixation, H&E Staining & Imaging for Visium Spatial Protocols (CG000160).",
+    "source_urls": ["https://www.10xgenomics.com/datasets/adult-mouse-olfactory-bulb-1-standard-1"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["Mus musculus"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@Misc{10x2022olfactory,\n  title = {Adult Mouse Olfactory Bulb},\n  author = {{10x Genomics}},\n  year = {2022},\n  url = {https://www.10xgenomics.com/datasets/adult-mouse-olfactory-bulb-1-standard-1},\n}"]
+    },
+    "date_created": "17-08-2024",
+    "file_size_mb": 0.2532
+  }
+]

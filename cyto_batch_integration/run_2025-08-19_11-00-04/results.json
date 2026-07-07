@@ -1,0 +1,402 @@
+[
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "combat",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [23.8, 35.7],
+    "run_cpu_pct": [342.9, 217.8],
+    "run_peak_memory_mb": [5735, 5837],
+    "run_disk_read_mb": [153, 161],
+    "run_disk_write_mb": [173, 185],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.1853, 0.5854, 0.4239, 0.109, 0.0849, 15, 98],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 244],
+        "run_cpu_pct": [326.6, 656.1],
+        "run_peak_memory_mb": [2151, 24986],
+        "run_disk_read_mb": [19, 571],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 32.8],
+        "run_cpu_pct": [550.6, 111.4],
+        "run_peak_memory_mb": [5530, 7168],
+        "run_disk_read_mb": [20, 533],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 258],
+        "run_cpu_pct": [605.7, 2081.7],
+        "run_peak_memory_mb": [2868, 5530],
+        "run_disk_read_mb": [19, 535],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "cytonorm_no_controls_to_mid",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [266, 275],
+    "run_cpu_pct": [102.9, 103.4],
+    "run_peak_memory_mb": [5632, 6042],
+    "run_disk_read_mb": [780, 828],
+    "run_disk_write_mb": [826, 875],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.1972, 0.6928, 0.4023, 0.0767, 0.0727, 18, 105],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 195],
+        "run_cpu_pct": [440.5, 550.7],
+        "run_peak_memory_mb": [4199, 16692],
+        "run_disk_read_mb": [19, 465],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 22.7],
+        "run_cpu_pct": [584.4, 138.4],
+        "run_peak_memory_mb": [2151, 5837],
+        "run_disk_read_mb": [20, 427],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 163],
+        "run_cpu_pct": [424.5, 4317.7],
+        "run_peak_memory_mb": [4199, 6861],
+        "run_disk_read_mb": [19, 428],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [18],
+    "run_cpu_pct": [120.4],
+    "run_peak_memory_mb": [2868],
+    "run_disk_read_mb": [167],
+    "run_disk_write_mb": [220],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.1866, 1.1238, 0.705, 0.1426, 0.1343, 13, 97],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 174],
+        "run_cpu_pct": [504.5, 582.7],
+        "run_peak_memory_mb": [5530, 16384],
+        "run_disk_read_mb": [19, 433],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 29],
+        "run_cpu_pct": [492, 102.7],
+        "run_peak_memory_mb": [2151, 5223],
+        "run_disk_read_mb": [20, 395],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 258],
+        "run_cpu_pct": [312.5, 2238.1],
+        "run_peak_memory_mb": [2151, 5120],
+        "run_disk_read_mb": [19, 397],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "perfect_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [19],
+    "run_cpu_pct": [114.6],
+    "run_peak_memory_mb": [2663],
+    "run_disk_read_mb": [167],
+    "run_disk_write_mb": [232],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.1727, 0, 0, 0, 0, 0, 0],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 290],
+        "run_cpu_pct": [557.1, 683.1],
+        "run_peak_memory_mb": [2868, 24884],
+        "run_disk_read_mb": [19, 445],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 33.2],
+        "run_cpu_pct": [562.4, 109.7],
+        "run_peak_memory_mb": [2151, 6656],
+        "run_disk_read_mb": [20, 408],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 194],
+        "run_cpu_pct": [447.9, 4240.3],
+        "run_peak_memory_mb": [5530, 6554],
+        "run_disk_read_mb": [19, 409],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "combat",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [92, 94],
+    "run_cpu_pct": [213.8, 215.5],
+    "run_peak_memory_mb": [9421, 9831],
+    "run_disk_read_mb": [513, 537],
+    "run_disk_write_mb": [808, 849],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.2013, 1.1476, 1.1224, 0.1517, 0.6112, 0.1357, 0.1477, 0.0513, 0.1566, 12, 124],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 10681],
+        "run_cpu_pct": [538.2, 676.1],
+        "run_peak_memory_mb": [2151, 22938],
+        "run_disk_read_mb": [19, 2458],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.1, 294],
+        "run_cpu_pct": [233.7, 102.3],
+        "run_peak_memory_mb": [4301, 13108],
+        "run_disk_read_mb": [33, 2458],
+        "run_disk_write_mb": [1, 12]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 783],
+        "run_cpu_pct": [508.4, 2729.2],
+        "run_peak_memory_mb": [2151, 12288],
+        "run_disk_read_mb": [19, 2458],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "cytonorm_no_controls_to_mid",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [1032, 1173],
+    "run_cpu_pct": [100.5, 100.6],
+    "run_peak_memory_mb": [12288, 12186],
+    "run_disk_read_mb": [2560, 2663],
+    "run_disk_write_mb": [2868, 3072],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.2029, 0.6866, 1.0181, 0.1173, 0.6283, 0.0696, 0.1093, 0.0331, 0.1489, 6, 127],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 11102],
+        "run_cpu_pct": [660.7, 645.2],
+        "run_peak_memory_mb": [2151, 23143],
+        "run_disk_read_mb": [19, 1946],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.1, 275],
+        "run_cpu_pct": [258, 101.9],
+        "run_peak_memory_mb": [4301, 11264],
+        "run_disk_read_mb": [33, 1844],
+        "run_disk_write_mb": [1, 12]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 942],
+        "run_cpu_pct": [451, 2093.9],
+        "run_peak_memory_mb": [4199, 10957],
+        "run_disk_read_mb": [19, 1946],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [106],
+    "run_cpu_pct": [92.7],
+    "run_peak_memory_mb": [5223],
+    "run_disk_read_mb": [789],
+    "run_disk_write_mb": [955],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.201, 1.2375, 1.2034, 0.5152, 0.7831, 0.1538, 0.1624, 0.1201, 0.196, 12, 124],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 9979],
+        "run_cpu_pct": [521.5, 683.4],
+        "run_peak_memory_mb": [2151, 22528],
+        "run_disk_read_mb": [19, 1741],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.4, 258],
+        "run_cpu_pct": [201.6, 100.9],
+        "run_peak_memory_mb": [4301, 9421],
+        "run_disk_read_mb": [33, 1741],
+        "run_disk_write_mb": [1, 12]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 952],
+        "run_cpu_pct": [479.4, 2123.4],
+        "run_peak_memory_mb": [2151, 8807],
+        "run_disk_read_mb": [19, 1741],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "perfect_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [90],
+    "run_cpu_pct": [101.8],
+    "run_peak_memory_mb": [4608],
+    "run_disk_read_mb": [789],
+    "run_disk_write_mb": [999],
+    "metric_names": ["bras", "emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.2096, 0, 0.9723, 0, 0.5689, 0, 0.1089, 0, 0.1682, 0, 0],
+    "metric_components": [
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 12058],
+        "run_cpu_pct": [637.1, 1130.7],
+        "run_peak_memory_mb": [2151, 30925],
+        "run_disk_read_mb": [19, 1844],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6, 328],
+        "run_cpu_pct": [212.6, 101.1],
+        "run_peak_memory_mb": [4301, 10650],
+        "run_disk_read_mb": [33, 1844],
+        "run_disk_write_mb": [1, 12]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 853],
+        "run_cpu_pct": [543.2, 1603.4],
+        "run_peak_memory_mb": [2151, 8704],
+        "run_disk_read_mb": [19, 1844],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  }
+]

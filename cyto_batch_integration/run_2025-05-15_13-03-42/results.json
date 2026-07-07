@@ -1,0 +1,552 @@
+[
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "combat",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [100],
+    "run_cpu_pct": [238.2],
+    "run_peak_memory_mb": [10752],
+    "run_disk_read_mb": [512],
+    "run_disk_write_mb": [808],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.0523, 0.008, 1.2193, 0.3177, 0.1348, 0.0749, 3, 39],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 96],
+        "run_cpu_pct": [469.3, 422.4],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [19, 1639],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 122],
+        "run_cpu_pct": [499.1, 101.8],
+        "run_peak_memory_mb": [2765, 10445],
+        "run_disk_read_mb": [19, 1639],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.8, 1085],
+        "run_cpu_pct": [314, 2227.8],
+        "run_peak_memory_mb": [5530, 9524],
+        "run_disk_read_mb": [19, 1639],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "cycombine_nocontrols",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [363],
+    "run_cpu_pct": [103.3],
+    "run_peak_memory_mb": [15156],
+    "run_disk_read_mb": [520],
+    "run_disk_write_mb": [816],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.5186, 0.3526, 2.9856, 2.4106, 1.1746, 1.2999, 2, 51],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 107],
+        "run_cpu_pct": [247.4, 378.6],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [19, 1639],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 125],
+        "run_cpu_pct": [608.7, 101.8],
+        "run_peak_memory_mb": [2765, 10445],
+        "run_disk_read_mb": [19, 1639],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 919],
+        "run_cpu_pct": [317.1, 3022.1],
+        "run_peak_memory_mb": [5530, 9421],
+        "run_disk_read_mb": [19, 1639],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "cytonorm_controls",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [835],
+    "run_cpu_pct": [101.4],
+    "run_peak_memory_mb": [13312],
+    "run_disk_read_mb": [2151],
+    "run_disk_write_mb": [2356],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.0295, 0.0077, 0.8521, 0.2538, 0.101, 0.0669, 2, 35],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 114],
+        "run_cpu_pct": [190.3, 283.7],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 127],
+        "run_cpu_pct": [263.1, 102],
+        "run_peak_memory_mb": [2765, 10343],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 925],
+        "run_cpu_pct": [715.7, 2815.2],
+        "run_peak_memory_mb": [2765, 9421],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "gaussnorm",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [429],
+    "run_cpu_pct": [98.7],
+    "run_peak_memory_mb": [12391],
+    "run_disk_read_mb": [957],
+    "run_disk_write_mb": [1127],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.06, 0.015, 1.2303, 0.3556, 0.1555, 0.1021, 3, 34],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 110],
+        "run_cpu_pct": [460.2, 274.3],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [19, 1434],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 117],
+        "run_cpu_pct": [224, 105.4],
+        "run_peak_memory_mb": [5530, 10445],
+        "run_disk_read_mb": [19, 1434],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 1090],
+        "run_cpu_pct": [583.6, 1892.7],
+        "run_peak_memory_mb": [2765, 9421],
+        "run_disk_read_mb": [19, 1434],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "harmonypy",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4939],
+    "run_cpu_pct": [484.8],
+    "run_peak_memory_mb": [30823],
+    "run_disk_read_mb": [498],
+    "run_disk_write_mb": [466],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.044, 0.0079, 1.1795, 0.2796, 0.129, 0.0752, 2, 37],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 100],
+        "run_cpu_pct": [605.7, 408.9],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 114],
+        "run_cpu_pct": [533.1, 107.1],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 661],
+        "run_cpu_pct": [785.5, 3551.4],
+        "run_peak_memory_mb": [2765, 8500],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "limma_remove_batch_effect",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [102],
+    "run_cpu_pct": [110.9],
+    "run_peak_memory_mb": [11572],
+    "run_disk_read_mb": [495],
+    "run_disk_write_mb": [554],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.0533, 0.0078, 1.1958, 0.2889, 0.1375, 0.0772, 2, 38],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 100],
+        "run_cpu_pct": [597, 391.8],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 113],
+        "run_cpu_pct": [455.9, 106],
+        "run_peak_memory_mb": [2765, 10445],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 700],
+        "run_cpu_pct": [339.8, 2885.9],
+        "run_peak_memory_mb": [2765, 9524],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "no_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [48.4],
+    "run_cpu_pct": [116.7],
+    "run_peak_memory_mb": [6656],
+    "run_disk_read_mb": [486],
+    "run_disk_write_mb": [466],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.0637, 0.0256, 1.2375, 0.5152, 0.1538, 0.1201, 2, 38],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 98],
+        "run_cpu_pct": [550.2, 410.6],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 114],
+        "run_cpu_pct": [584.4, 102],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 1084],
+        "run_cpu_pct": [197.4, 2291.6],
+        "run_peak_memory_mb": [5530, 8500],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "perfect_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [35.1],
+    "run_cpu_pct": [109.9],
+    "run_peak_memory_mb": [6247],
+    "run_disk_read_mb": [321],
+    "run_disk_write_mb": [302],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [-3.7381e-19, 0, 0, 0, 0, 0, 0, 0],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 125],
+        "run_cpu_pct": [592.5, 465.5],
+        "run_peak_memory_mb": [2765, 8397],
+        "run_disk_read_mb": [19, 1127],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 102],
+        "run_cpu_pct": [267.5, 106.3],
+        "run_peak_memory_mb": [2765, 9319],
+        "run_disk_read_mb": [19, 1127],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.9, 1243],
+        "run_cpu_pct": [229.7, 2042],
+        "run_peak_memory_mb": [5530, 8295],
+        "run_disk_read_mb": [19, 1127],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "shuffle_integration",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [54.8],
+    "run_cpu_pct": [98],
+    "run_peak_memory_mb": [7783],
+    "run_disk_read_mb": [486],
+    "run_disk_write_mb": [481],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.2038, 0.0156, 2.5607, 0.5874, 0.5893, 0.1505, 8, 286],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 105],
+        "run_cpu_pct": [280, 398.9],
+        "run_peak_memory_mb": [5530, 8602],
+        "run_disk_read_mb": [19, 1332],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 136],
+        "run_cpu_pct": [495.9, 103.9],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 827],
+        "run_cpu_pct": [236.3, 3033.8],
+        "run_peak_memory_mb": [5530, 8500],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "shuffle_integration_by_batch",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [54],
+    "run_cpu_pct": [96.9],
+    "run_peak_memory_mb": [7476],
+    "run_disk_read_mb": [486],
+    "run_disk_write_mb": [480],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.2175, 0.0327, 2.6817, 0.6753, 0.6039, 0.188, 8, 294],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 101],
+        "run_cpu_pct": [677.3, 396.9],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 108],
+        "run_cpu_pct": [688.1, 106.9],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.3, 817],
+        "run_cpu_pct": [253.5, 2856.4],
+        "run_peak_memory_mb": [5530, 8500],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "leomazzi_cyto_spleen",
+    "method_name": "shuffle_integration_by_cell_type",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [58.3],
+    "run_cpu_pct": [105.1],
+    "run_peak_memory_mb": [7476],
+    "run_disk_read_mb": [486],
+    "run_disk_write_mb": [480],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "emd_max_ct", "emd_max_global", "emd_mean_ct", "emd_mean_global", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.0344, 0.0093, 1.232, 0.279, 0.1335, 0.0907, 4, 68],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 102],
+        "run_cpu_pct": [346.9, 386.4],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct", "emd_max_ct", "emd_mean_global", "emd_max_global"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.6, 122],
+        "run_cpu_pct": [215.7, 104.9],
+        "run_peak_memory_mb": [5530, 9626],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.7, 1253],
+        "run_cpu_pct": [501.1, 2001.9],
+        "run_peak_memory_mb": [5530, 8500],
+        "run_disk_read_mb": [19, 1229],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  }
+]

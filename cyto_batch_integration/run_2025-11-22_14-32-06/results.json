@@ -1,0 +1,218 @@
+[
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "cytovi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [531, 593],
+    "run_cpu_pct": [164.7, 169],
+    "run_peak_memory_mb": [18125, 18228],
+    "run_disk_read_mb": [221, 228],
+    "run_disk_write_mb": [115, 123],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "clisi", "emd_mean_ct_horiz", "flowsom_mean_mapping_similarity", "ilisi", "ratio_inconsistent_peaks"],
+    "metric_values": [0.0095, 0.0095, 1, 0.1162, 93.0591, 0.5066, 0.0911],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 28.3],
+        "run_cpu_pct": [163.6, 109.3],
+        "run_peak_memory_mb": [808, 2151],
+        "run_disk_read_mb": [19, 418],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_mean_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 17.3],
+        "run_cpu_pct": [185.8, 115.7],
+        "run_peak_memory_mb": [811, 2560],
+        "run_disk_read_mb": [19, 413],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "flowsom_mapping_similarity",
+        "metric_names": ["flowsom_mean_mapping_similarity"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 125],
+        "run_cpu_pct": [181.9, 102.2],
+        "run_peak_memory_mb": [808, 2970],
+        "run_disk_read_mb": [18, 583],
+        "run_disk_write_mb": [1, 154]
+      },
+      {
+        "component_name": "lisi",
+        "metric_names": ["iLisi", "cLisi"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 1147],
+        "run_cpu_pct": [157.8, 105.4],
+        "run_peak_memory_mb": [808, 14439],
+        "run_disk_read_mb": [24, 451],
+        "run_disk_write_mb": [1, 8]
+      },
+      {
+        "component_name": "ratio_inconsistent_peaks",
+        "metric_names": ["ratio_inconsistent_peaks"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 178],
+        "run_cpu_pct": [183, 3603.6],
+        "run_peak_memory_mb": [808, 5120],
+        "run_disk_read_mb": [18, 430],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_cll_mass_cytometry",
+    "method_name": "cytovi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [2849, 697],
+    "run_cpu_pct": [111.5, 111.6],
+    "run_peak_memory_mb": [31949, 29696],
+    "run_disk_read_mb": [879, 781],
+    "run_disk_write_mb": [836, 722],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "clisi", "emd_mean_ct_horiz", "emd_mean_ct_vert", "flowsom_mean_mapping_similarity", "ilisi", "ratio_inconsistent_peaks"],
+    "metric_values": [0.0295, 0.0266, 0.9739, 0.2583, 0.1938, 95.7861, 0.1536, 0.3135],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.9, 203],
+        "run_cpu_pct": [326.4, 460],
+        "run_peak_memory_mb": [2868, 10343],
+        "run_disk_read_mb": [20, 2765],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_mean_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 262],
+        "run_cpu_pct": [457.2, 103],
+        "run_peak_memory_mb": [2868, 16282],
+        "run_disk_read_mb": [19, 2765],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "flowsom_mapping_similarity",
+        "metric_names": ["flowsom_mean_mapping_similarity"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 725],
+        "run_cpu_pct": [183.9, 100.1],
+        "run_peak_memory_mb": [809, 14746],
+        "run_disk_read_mb": [18, 3584],
+        "run_disk_write_mb": [1, 769]
+      },
+      {
+        "component_name": "lisi",
+        "metric_names": ["iLisi", "cLisi"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.2, 8261],
+        "run_cpu_pct": [123.6, 105.4],
+        "run_peak_memory_mb": [944, 47104],
+        "run_disk_read_mb": [66, 2765],
+        "run_disk_write_mb": [1, 50]
+      },
+      {
+        "component_name": "ratio_inconsistent_peaks",
+        "metric_names": ["ratio_inconsistent_peaks"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 1481],
+        "run_cpu_pct": [186.1, 701.2],
+        "run_peak_memory_mb": [810, 11776],
+        "run_disk_read_mb": [19, 2765],
+        "run_disk_write_mb": [1, 2]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "cytovi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [3742, 3679],
+    "run_cpu_pct": [116.1, 117.1],
+    "run_peak_memory_mb": [25600, 26215],
+    "run_disk_read_mb": [581, 604],
+    "run_disk_write_mb": [462, 485],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "clisi", "emd_mean_ct_horiz", "emd_mean_ct_vert", "flowsom_mean_mapping_similarity", "ilisi", "ratio_inconsistent_peaks"],
+    "metric_values": [0.0015, 0.0012, 1, 0.0644, 0.0723, 97.3644, 0.8059, 0.035],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 260],
+        "run_cpu_pct": [138.8, 126.7],
+        "run_peak_memory_mb": [846, 4916],
+        "run_disk_read_mb": [20, 1741],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_mean_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 187],
+        "run_cpu_pct": [179.8, 98.4],
+        "run_peak_memory_mb": [808, 6759],
+        "run_disk_read_mb": [19, 1741],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "flowsom_mapping_similarity",
+        "metric_names": ["flowsom_mean_mapping_similarity"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 852],
+        "run_cpu_pct": [174.7, 100.1],
+        "run_peak_memory_mb": [805, 8909],
+        "run_disk_read_mb": [18, 2458],
+        "run_disk_write_mb": [1, 697]
+      },
+      {
+        "component_name": "lisi",
+        "metric_names": ["iLisi", "cLisi"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.3, 8323],
+        "run_cpu_pct": [125.5, 105.6],
+        "run_peak_memory_mb": [949, 43930],
+        "run_disk_read_mb": [61, 1741],
+        "run_disk_write_mb": [1, 44]
+      },
+      {
+        "component_name": "ratio_inconsistent_peaks",
+        "metric_names": ["ratio_inconsistent_peaks"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 818],
+        "run_cpu_pct": [181.5, 876.9],
+        "run_peak_memory_mb": [808, 5940],
+        "run_disk_read_mb": [19, 1741],
+        "run_disk_write_mb": [1, 2]
+      }
+    ]
+  }
+]

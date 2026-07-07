@@ -1,0 +1,122 @@
+[
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "cytovi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [13946, 16161],
+    "run_cpu_pct": [101.2, 101.2],
+    "run_peak_memory_mb": [16794, 17101],
+    "run_disk_read_mb": [220, 227],
+    "run_disk_write_mb": [115, 123],
+    "metric_names": ["average_batch_r2_ct", "average_batch_r2_global", "bras", "emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz", "flowsom_mean_mapping_similarity", "n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+    "metric_values": [0.0103, 0.0103, 0.7234, 0.2729, 0.067, 0.023, 0.0195, 90.4742, 27, 98],
+    "metric_components": [
+      {
+        "component_name": "average_batch_r2",
+        "metric_names": ["average_batch_r2_global", "average_batch_r2_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.9, 64],
+        "run_cpu_pct": [116.3, 104.4],
+        "run_peak_memory_mb": [2868, 6247],
+        "run_disk_read_mb": [19, 418],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "bras",
+        "metric_names": ["bras"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.9, 4398],
+        "run_cpu_pct": [139.3, 355.3],
+        "run_peak_memory_mb": [2868, 25088],
+        "run_disk_read_mb": [18, 451],
+        "run_disk_write_mb": [1, 2]
+      },
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 20.1],
+        "run_cpu_pct": [186.8, 114.1],
+        "run_peak_memory_mb": [810, 2560],
+        "run_disk_read_mb": [19, 413],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "flowsom_mapping_similarity",
+        "metric_names": ["flowsom_mean_mapping_similarity"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 125],
+        "run_cpu_pct": [180.4, 102.1],
+        "run_peak_memory_mb": [806, 2970],
+        "run_disk_read_mb": [18, 583],
+        "run_disk_write_mb": [1, 155]
+      },
+      {
+        "component_name": "n_inconsistent_peaks",
+        "metric_names": ["n_inconsistent_peaks", "n_inconsistent_peaks_ct"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 434],
+        "run_cpu_pct": [176.9, 2035.5],
+        "run_peak_memory_mb": [2868, 6452],
+        "run_disk_read_mb": [18, 414],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "mnnpy",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [137],
+    "run_duration_secs": [12412],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "cytovi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [86403],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "mnnpy",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [42841],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  }
+]

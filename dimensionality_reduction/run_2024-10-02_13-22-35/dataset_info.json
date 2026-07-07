@@ -1,0 +1,146 @@
+[
+  {
+    "name": "openproblems_v1/tnbc_wu2021",
+    "label": "Triple-Negative Breast Cancer",
+    "commit": "missing-sha",
+    "summary": "1535 cells from six fresh triple-negative breast cancer tumors.",
+    "description": "1535 cells from six TNBC donors by (Wu et al., 2021). This dataset includes cytokine activities, inferred using a multivariate linear model with cytokine-focused signatures, as assumed true cell-cell communication (Dimitrov et al., 2022).",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE118389"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41588-021-00911-1"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 1178.9487
+  },
+  {
+    "name": "openproblems_v1/immune_cells",
+    "label": "Human immune",
+    "commit": "missing-sha",
+    "summary": "Human immune cells dataset from the scIB benchmarks",
+    "description": "Human immune cells from peripheral blood and bone marrow taken from 5 datasets comprising 10 batches across technologies (10X, Smart-seq2).",
+    "source_urls": ["https://theislab.github.io/scib-reproducibility/dataset_immune_cell_hum.html"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 788.4838
+  },
+  {
+    "name": "openproblems_v1/pancreas",
+    "label": "Human pancreas",
+    "commit": "missing-sha",
+    "summary": "Human pancreas cells dataset from the scIB benchmarks",
+    "description": "Human pancreatic islet scRNA-seq data from 6 datasets across technologies (CEL-seq, CEL-seq2, Smart-seq2, inDrop, Fluidigm C1, and SMARTER-seq).",
+    "source_urls": ["https://theislab.github.io/scib-reproducibility/dataset_pancreas.html"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 851.3016
+  },
+  {
+    "name": "openproblems_v1/allen_brain_atlas",
+    "label": "Mouse Brain Atlas",
+    "commit": "missing-sha",
+    "summary": "Adult mouse primary visual cortex",
+    "description": "A murine brain atlas with adjacent cell types as assumed benchmark truth, inferred from deconvolution proportion correlations using matching 10x Visium slides (see Dimitrov et al., 2022).",
+    "source_urls": ["http://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE71585"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/nn.4216"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 1910.1516
+  },
+  {
+    "name": "openproblems_v1/cengen",
+    "label": "CeNGEN",
+    "commit": "missing-sha",
+    "summary": "Complete Gene Expression Map of an Entire Nervous System",
+    "description": "100k FACS-isolated C. elegans neurons from 17 experiments sequenced on 10x Genomics.",
+    "source_urls": ["https://www.cengen.org"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["caenorhabditis_elegans"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.neuron.2018.07.042"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 716.0953
+  },
+  {
+    "name": "openproblems_v1/mouse_hspc_nestorowa2016",
+    "label": "Mouse HSPC",
+    "commit": "missing-sha",
+    "summary": "Haematopoeitic stem and progenitor cells from mouse bone marrow",
+    "description": "1656 hematopoietic stem and progenitor cells from mouse bone marrow. Sequenced by Smart-seq2.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE81682"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1182/blood-2016-05-716480"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 345.7172
+  },
+  {
+    "name": "openproblems_v1/zebrafish",
+    "label": "Zebrafish embryonic cells",
+    "commit": "missing-sha",
+    "summary": "Single-cell mRNA sequencing of zebrafish embryonic cells.",
+    "description": "90k cells from zebrafish embryos throughout the first day of development, with and without a knockout of chordin, an important developmental gene.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE112294"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["danio_rerio"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1126/science.aar4362"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 756.2776
+  },
+  {
+    "name": "openproblems_v1/mouse_blood_olsson_labelled",
+    "label": "Mouse myeloid",
+    "commit": "missing-sha",
+    "summary": "Myeloid lineage differentiation from mouse blood",
+    "description": "660 FACS-isolated myeloid cells from 9 experiments sequenced using C1 Fluidigm and SMARTseq in 2016 by Olsson et al.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE70245"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/nature19348"],
+      "bibtex": []
+    },
+    "date_created": "02-10-2024",
+    "file_size_mb": 57.7925
+  }
+]

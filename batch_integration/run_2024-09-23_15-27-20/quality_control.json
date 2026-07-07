@@ -1,0 +1,3611 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 832,
+    "severity": 3,
+    "severity_value": 6.4444,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: batch_integration\n  Number of results: 832\n  Number of datasets: 10\n  Number of methods: 18\n  Number of metrics: 13\n  Expected number of results: 2340\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % missing",
+    "value": 0.8077,
+    "severity": 3,
+    "severity_value": 8.0769,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/hypomap\n  Number of results: 45\n  Expected number of results: 234\n  Percentage missing: 81%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % missing",
+    "value": 0.4957,
+    "severity": 3,
+    "severity_value": 4.9573,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/pancreas\n  Number of results: 118\n  Expected number of results: 234\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % missing",
+    "value": 0.7137,
+    "severity": 3,
+    "severity_value": 7.1368,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/immune_cell_atlas\n  Number of results: 67\n  Expected number of results: 234\n  Percentage missing: 71%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % missing",
+    "value": 0.7692,
+    "severity": 3,
+    "severity_value": 7.6923,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Number of results: 54\n  Expected number of results: 234\n  Percentage missing: 77%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % missing",
+    "value": 0.8248,
+    "severity": 3,
+    "severity_value": 8.2479,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/tabula_sapiens\n  Number of results: 41\n  Expected number of results: 234\n  Percentage missing: 82%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % missing",
+    "value": 0.547,
+    "severity": 3,
+    "severity_value": 5.4701,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/zebrafish\n  Number of results: 106\n  Expected number of results: 234\n  Percentage missing: 55%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % missing",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/dkd\n  Number of results: 117\n  Expected number of results: 234\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % missing",
+    "value": 0.6282,
+    "severity": 3,
+    "severity_value": 6.2821,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/cengen\n  Number of results: 87\n  Expected number of results: 234\n  Percentage missing: 63%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % missing",
+    "value": 0.6624,
+    "severity": 3,
+    "severity_value": 6.6239,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/gtex_v9\n  Number of results: 79\n  Expected number of results: 234\n  Percentage missing: 66%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % missing",
+    "value": 0.4957,
+    "severity": 3,
+    "severity_value": 4.9573,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/immune_cells\n  Number of results: 118\n  Expected number of results: 234\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'embed_cell_types' % missing",
+    "value": 0.1615,
+    "severity": 1,
+    "severity_value": 1.6154,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: embed_cell_types\n  Number of results: 109\n  Expected number of results: 130\n  Percentage missing: 16%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'embed_cell_types_jittered' % missing",
+    "value": 0.1538,
+    "severity": 1,
+    "severity_value": 1.5385,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Number of results: 110\n  Expected number of results: 130\n  Percentage missing: 15%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration' % missing",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: no_integration\n  Number of results: 78\n  Expected number of results: 130\n  Percentage missing: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration_batch' % missing",
+    "value": 0.2077,
+    "severity": 2,
+    "severity_value": 2.0769,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: no_integration_batch\n  Number of results: 103\n  Expected number of results: 130\n  Percentage missing: 21%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration' % missing",
+    "value": 0.7,
+    "severity": 3,
+    "severity_value": 7,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: shuffle_integration\n  Number of results: 39\n  Expected number of results: 130\n  Percentage missing: 70%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_batch' % missing",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Number of results: 65\n  Expected number of results: 130\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_cell_type' % missing",
+    "value": 0.4769,
+    "severity": 3,
+    "severity_value": 4.7692,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Number of results: 68\n  Expected number of results: 130\n  Percentage missing: 48%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'bbknn' % missing",
+    "value": 0.6462,
+    "severity": 3,
+    "severity_value": 6.4615,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: bbknn\n  Number of results: 46\n  Expected number of results: 130\n  Percentage missing: 65%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: combat\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn' % missing",
+    "value": 0.6077,
+    "severity": 3,
+    "severity_value": 6.0769,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: fastmnn\n  Number of results: 51\n  Expected number of results: 130\n  Percentage missing: 61%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'liger' % missing",
+    "value": 0.2769,
+    "severity": 2,
+    "severity_value": 2.7692,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: liger\n  Number of results: 94\n  Expected number of results: 130\n  Percentage missing: 28%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn_correct' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: mnn_correct\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnnpy' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: mnnpy\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'pyliger' % missing",
+    "value": 0.4692,
+    "severity": 3,
+    "severity_value": 4.6923,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: pyliger\n  Number of results: 69\n  Expected number of results: 130\n  Percentage missing: 47%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scalex' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scalex\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanorama' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scanorama\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scanvi\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scvi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scvi\n  Number of results: 0\n  Expected number of results: 130\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_batch' % missing",
+    "value": 0.7333,
+    "severity": 3,
+    "severity_value": 7.3333,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: asw_batch\n  Number of results: 48\n  Expected number of results: 180\n  Percentage missing: 73%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_label' % missing",
+    "value": 0.7333,
+    "severity": 3,
+    "severity_value": 7.3333,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: asw_label\n  Number of results: 48\n  Expected number of results: 180\n  Percentage missing: 73%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cell_cycle_conservation' % missing",
+    "value": 0.6778,
+    "severity": 3,
+    "severity_value": 6.7778,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Number of results: 58\n  Expected number of results: 180\n  Percentage missing: 68%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ari' % missing",
+    "value": 0.5889,
+    "severity": 3,
+    "severity_value": 5.8889,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: ari\n  Number of results: 74\n  Expected number of results: 180\n  Percentage missing: 59%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'nmi' % missing",
+    "value": 0.5889,
+    "severity": 3,
+    "severity_value": 5.8889,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: nmi\n  Number of results: 74\n  Expected number of results: 180\n  Percentage missing: 59%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'graph_connectivity' % missing",
+    "value": 0.5222,
+    "severity": 3,
+    "severity_value": 5.2222,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: graph_connectivity\n  Number of results: 86\n  Expected number of results: 180\n  Percentage missing: 52%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'hvg_overlap' % missing",
+    "value": 0.8778,
+    "severity": 3,
+    "severity_value": 8.7778,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: hvg_overlap\n  Number of results: 22\n  Expected number of results: 180\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_asw' % missing",
+    "value": 0.7333,
+    "severity": 3,
+    "severity_value": 7.3333,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Number of results: 48\n  Expected number of results: 180\n  Percentage missing: 73%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_f1' % missing",
+    "value": 0.6222,
+    "severity": 3,
+    "severity_value": 6.2222,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Number of results: 68\n  Expected number of results: 180\n  Percentage missing: 62%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'kbet' % missing",
+    "value": 0.6389,
+    "severity": 3,
+    "severity_value": 6.3889,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: kbet\n  Number of results: 65\n  Expected number of results: 180\n  Percentage missing: 64%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ilisi' % missing",
+    "value": 0.5222,
+    "severity": 3,
+    "severity_value": 5.2222,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: ilisi\n  Number of results: 86\n  Expected number of results: 180\n  Percentage missing: 52%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'clisi' % missing",
+    "value": 0.5222,
+    "severity": 3,
+    "severity_value": 5.2222,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: clisi\n  Number of results: 86\n  Expected number of results: 180\n  Percentage missing: 52%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'pcr' % missing",
+    "value": 0.6167,
+    "severity": 3,
+    "severity_value": 6.1667,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: pcr\n  Number of results: 69\n  Expected number of results: 180\n  Percentage missing: 62%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 848,
+    "severity": 1,
+    "severity_value": 1.5369,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: batch_integration\n  Succeeded processes: 848\n  Attempted processes: 1002\n  Percentage failed: 15%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % failed",
+    "value": 0.6667,
+    "severity": 3,
+    "severity_value": 6.6667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/hypomap\n  Succeeded processes: 6\n  Attempted processes: 18\n  Percentage failed: 67%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % failed",
+    "value": 0.3889,
+    "severity": 3,
+    "severity_value": 3.8889,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/pancreas\n  Succeeded processes: 11\n  Attempted processes: 18\n  Percentage failed: 39%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % failed",
+    "value": 0.6111,
+    "severity": 3,
+    "severity_value": 6.1111,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded processes: 7\n  Attempted processes: 18\n  Percentage failed: 61%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % failed",
+    "value": 0.6111,
+    "severity": 3,
+    "severity_value": 6.1111,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded processes: 7\n  Attempted processes: 18\n  Percentage failed: 61%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % failed",
+    "value": 0.7222,
+    "severity": 3,
+    "severity_value": 7.2222,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded processes: 5\n  Attempted processes: 18\n  Percentage failed: 72%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % failed",
+    "value": 0.3889,
+    "severity": 3,
+    "severity_value": 3.8889,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/zebrafish\n  Succeeded processes: 11\n  Attempted processes: 18\n  Percentage failed: 39%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % failed",
+    "value": 0.3889,
+    "severity": 3,
+    "severity_value": 3.8889,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/dkd\n  Succeeded processes: 11\n  Attempted processes: 18\n  Percentage failed: 39%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/cengen\n  Succeeded processes: 9\n  Attempted processes: 18\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % failed",
+    "value": 0.5556,
+    "severity": 3,
+    "severity_value": 5.5556,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded processes: 8\n  Attempted processes: 18\n  Percentage failed: 56%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % failed",
+    "value": 0.3889,
+    "severity": 3,
+    "severity_value": 3.8889,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/immune_cells\n  Succeeded processes: 11\n  Attempted processes: 18\n  Percentage failed: 39%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'embed_cell_types' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: embed_cell_types\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'embed_cell_types_jittered' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: no_integration\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration_batch' % failed",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: no_integration_batch\n  Succeeded processes: 9\n  Attempted processes: 10\n  Percentage failed: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration' % failed",
+    "value": 0.6,
+    "severity": 3,
+    "severity_value": 6,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: shuffle_integration\n  Succeeded processes: 4\n  Attempted processes: 10\n  Percentage failed: 60%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_batch' % failed",
+    "value": 0.3,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Succeeded processes: 7\n  Attempted processes: 10\n  Percentage failed: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_cell_type' % failed",
+    "value": 0.3,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Succeeded processes: 7\n  Attempted processes: 10\n  Percentage failed: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'bbknn' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: bbknn\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: combat\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn' % failed",
+    "value": 0.6,
+    "severity": 3,
+    "severity_value": 6,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: fastmnn\n  Succeeded processes: 4\n  Attempted processes: 10\n  Percentage failed: 60%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'liger' % failed",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: liger\n  Succeeded processes: 9\n  Attempted processes: 10\n  Percentage failed: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn_correct' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: mnn_correct\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnnpy' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: mnnpy\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'pyliger' % failed",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: pyliger\n  Succeeded processes: 6\n  Attempted processes: 10\n  Percentage failed: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scalex' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scalex\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanorama' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scanorama\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scanvi\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scvi' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scvi\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'clustering_overlap' % failed",
+    "value": 0.1395,
+    "severity": 1,
+    "severity_value": 1.3953,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: clustering_overlap\n  Succeeded processes: 74\n  Attempted processes: 86\n  Percentage failed: 14%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'graph_connectivity' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: graph_connectivity\n  Succeeded processes: 86\n  Attempted processes: 86\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'isolated_label_f1' % failed",
+    "value": 0.2093,
+    "severity": 2,
+    "severity_value": 2.093,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: isolated_label_f1\n  Succeeded processes: 68\n  Attempted processes: 86\n  Percentage failed: 21%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'lisi' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: lisi\n  Succeeded processes: 86\n  Attempted processes: 86\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'asw_batch' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: asw_batch\n  Succeeded processes: 76\n  Attempted processes: 76\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'asw_label' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: asw_label\n  Succeeded processes: 76\n  Attempted processes: 76\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'cell_cycle_conservation' % failed",
+    "value": 0.2368,
+    "severity": 2,
+    "severity_value": 2.3684,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: cell_cycle_conservation\n  Succeeded processes: 58\n  Attempted processes: 76\n  Percentage failed: 24%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'isolated_label_asw' % failed",
+    "value": 0.0132,
+    "severity": 0,
+    "severity_value": 0.1316,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: isolated_label_asw\n  Succeeded processes: 75\n  Attempted processes: 76\n  Percentage failed: 1%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'kbet' % failed",
+    "value": 0.1447,
+    "severity": 1,
+    "severity_value": 1.4474,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: kbet\n  Succeeded processes: 65\n  Attempted processes: 76\n  Percentage failed: 14%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'pcr' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: pcr\n  Succeeded processes: 76\n  Attempted processes: 76\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'hvg_overlap' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: hvg_overlap\n  Succeeded processes: 22\n  Attempted processes: 22\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hypomap' number of control methods",
+    "value": 4,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/hypomap\n  Succeeded control_methods: 4\n  Total control methods: 7\n  Percentage succeeded: 57%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/pancreas' number of control methods",
+    "value": 7,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/pancreas\n  Succeeded control_methods: 7\n  Total control methods: 7\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/immune_cell_atlas' number of control methods",
+    "value": 5,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded control_methods: 5\n  Total control methods: 7\n  Percentage succeeded: 71%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/mouse_pancreas_atlas' number of control methods",
+    "value": 5,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded control_methods: 5\n  Total control methods: 7\n  Percentage succeeded: 71%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/tabula_sapiens' number of control methods",
+    "value": 4,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded control_methods: 4\n  Total control methods: 7\n  Percentage succeeded: 57%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/zebrafish' number of control methods",
+    "value": 7,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/zebrafish\n  Succeeded control_methods: 7\n  Total control methods: 7\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/dkd' number of control methods",
+    "value": 7,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/dkd\n  Succeeded control_methods: 7\n  Total control methods: 7\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/cengen' number of control methods",
+    "value": 6,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/cengen\n  Succeeded control_methods: 6\n  Total control methods: 7\n  Percentage succeeded: 86%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/gtex_v9' number of control methods",
+    "value": 5,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded control_methods: 5\n  Total control methods: 7\n  Percentage succeeded: 71%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/immune_cells' number of control methods",
+    "value": 7,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/immune_cells\n  Succeeded control_methods: 7\n  Total control methods: 7\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_batch' number of control methods",
+    "value": 29,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: asw_batch\n  Control method scores: 29\n  Expected control method scores: 70\n  Percentage succeeded: 41%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_label' number of control methods",
+    "value": 29,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: asw_label\n  Control method scores: 29\n  Expected control method scores: 70\n  Percentage succeeded: 41%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cell_cycle_conservation' number of control methods",
+    "value": 44,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Control method scores: 44\n  Expected control method scores: 70\n  Percentage succeeded: 63%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ari' number of control methods",
+    "value": 52,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: ari\n  Control method scores: 52\n  Expected control method scores: 70\n  Percentage succeeded: 74%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'nmi' number of control methods",
+    "value": 52,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: nmi\n  Control method scores: 52\n  Expected control method scores: 70\n  Percentage succeeded: 74%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'graph_connectivity' number of control methods",
+    "value": 57,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: graph_connectivity\n  Control method scores: 57\n  Expected control method scores: 70\n  Percentage succeeded: 81%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'hvg_overlap' number of control methods",
+    "value": 18,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: hvg_overlap\n  Control method scores: 18\n  Expected control method scores: 70\n  Percentage succeeded: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_asw' number of control methods",
+    "value": 29,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Control method scores: 29\n  Expected control method scores: 70\n  Percentage succeeded: 41%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_f1' number of control methods",
+    "value": 50,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Control method scores: 50\n  Expected control method scores: 70\n  Percentage succeeded: 71%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'kbet' number of control methods",
+    "value": 48,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: kbet\n  Control method scores: 48\n  Expected control method scores: 70\n  Percentage succeeded: 69%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ilisi' number of control methods",
+    "value": 57,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: ilisi\n  Control method scores: 57\n  Expected control method scores: 70\n  Percentage succeeded: 81%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'clisi' number of control methods",
+    "value": 57,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: clisi\n  Control method scores: 57\n  Expected control method scores: 70\n  Percentage succeeded: 81%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'pcr' number of control methods",
+    "value": 50,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: pcr\n  Control method scores: 50\n  Expected control method scores: 70\n  Percentage succeeded: 71%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'asw_batch' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: asw_batch\n  Inside range: 48\n  Scaled scores: 48\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'asw_batch' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'asw_batch' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_batch' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' asw_batch'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_batch' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'asw_batch'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_batch' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' asw_batch'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_batch' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'asw_batch'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_batch' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' asw_batch'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_batch' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'asw_batch'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_batch' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' asw_batch'\n  Task: batch_integration\n  Method: liger\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_batch' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'asw_batch'\n  Task: batch_integration\n  Method: liger\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_batch' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' asw_batch'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_batch' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'asw_batch'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_batch' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' asw_batch'\n  Task: batch_integration\n  Method: pyliger\n  Metric: asw_batch\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_batch' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'asw_batch'\n  Task: batch_integration\n  Method: pyliger\n  Metric: asw_batch\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'asw_label' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: asw_label\n  Inside range: 48\n  Scaled scores: 48\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'asw_label' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'asw_label' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_label' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' asw_label'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_label' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'asw_label'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_label' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' asw_label'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_label' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'asw_label'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_label' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' asw_label'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_label' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'asw_label'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_label' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' asw_label'\n  Task: batch_integration\n  Method: liger\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_label' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'asw_label'\n  Task: batch_integration\n  Method: liger\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_label' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' asw_label'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_label' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'asw_label'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'asw_label' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' asw_label'\n  Task: batch_integration\n  Method: pyliger\n  Metric: asw_label\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'asw_label' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'asw_label'\n  Task: batch_integration\n  Method: pyliger\n  Metric: asw_label\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'cell_cycle_conservation' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Inside range: 58\n  Scaled scores: 58\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'cell_cycle_conservation' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'cell_cycle_conservation' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'embed_cell_types'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'embed_cell_types'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'embed_cell_types_jittered'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'embed_cell_types_jittered'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'fastmnn'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'fastmnn'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'liger'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: liger\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'liger'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: liger\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'no_integration'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: no_integration\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'no_integration'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: no_integration\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'no_integration_batch'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'no_integration_batch'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'pyliger'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: pyliger\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'pyliger'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: pyliger\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'shuffle_integration'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'shuffle_integration'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'shuffle_integration_by_batch'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'shuffle_integration_by_batch'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'cell_cycle_conservation' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' cell_cycle_conservation'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: cell_cycle_conservation\n  Worst score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'cell_cycle_conservation' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.9331,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'cell_cycle_conservation'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: cell_cycle_conservation\n  Best score: 0.933065427602662\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ari' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: ari\n  Inside range: 74\n  Scaled scores: 74\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ari' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ari' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'bbknn'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'bbknn' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: bbknn\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'bbknn'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'bbknn' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: bbknn\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'embed_cell_types'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'embed_cell_types'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'embed_cell_types_jittered'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'embed_cell_types_jittered'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'fastmnn'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'fastmnn'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'liger'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: liger\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'liger'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: liger\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'no_integration'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: no_integration\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'no_integration'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: no_integration\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'no_integration_batch'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'no_integration_batch'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'pyliger'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: pyliger\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'pyliger'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: pyliger\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'shuffle_integration'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'shuffle_integration'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'shuffle_integration_by_batch'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'shuffle_integration_by_batch'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ari' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' ari'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: ari\n  Worst score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ari' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.8271,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'ari'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: ari\n  Best score: 0.827082708270827\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'nmi' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: nmi\n  Inside range: 74\n  Scaled scores: 74\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'nmi' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'nmi' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'bbknn'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'bbknn' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: bbknn\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'bbknn'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'bbknn' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: bbknn\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'embed_cell_types'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'embed_cell_types'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'embed_cell_types_jittered'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'embed_cell_types_jittered'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'fastmnn'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'fastmnn'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'liger'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: liger\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'liger'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: liger\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'no_integration'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: no_integration\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'no_integration'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: no_integration\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'no_integration_batch'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'no_integration_batch'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'pyliger'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: pyliger\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'pyliger'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: pyliger\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'shuffle_integration'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'shuffle_integration'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'shuffle_integration_by_batch'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'shuffle_integration_by_batch'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'nmi' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' nmi'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: nmi\n  Worst score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'nmi' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.8455,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'nmi'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: nmi\n  Best score: 0.845474613686534\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'graph_connectivity' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: graph_connectivity\n  Inside range: 86\n  Scaled scores: 86\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'graph_connectivity' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'graph_connectivity' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'bbknn'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'bbknn' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: bbknn\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'bbknn'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'bbknn' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: bbknn\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'embed_cell_types'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'embed_cell_types'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'embed_cell_types_jittered'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'embed_cell_types_jittered'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'fastmnn'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'fastmnn'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'liger'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: liger\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'liger'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: liger\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'no_integration'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: no_integration\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'no_integration'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: no_integration\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'no_integration_batch'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'no_integration_batch'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'pyliger'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: pyliger\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'pyliger'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: pyliger\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'shuffle_integration'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'shuffle_integration'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'shuffle_integration_by_batch'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'shuffle_integration_by_batch'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'graph_connectivity' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' graph_connectivity'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: graph_connectivity\n  Worst score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'graph_connectivity' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.9785,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'graph_connectivity'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: graph_connectivity\n  Best score: 0.978491803278689\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'hvg_overlap' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: hvg_overlap\n  Inside range: 0\n  Scaled scores: 22\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'hvg_overlap' worst score % outside range",
+    "value": 1.4629,
+    "severity": 3,
+    "severity_value": 14.629,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: hvg_overlap\n  Worst score: -1.46290322580645\n  Percentage outside range: 146%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'hvg_overlap' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: hvg_overlap\n  Best score: -1.46290322580645\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'hvg_overlap' score for 'fastmnn'",
+    "value": -1.4629,
+    "severity": 1,
+    "severity_value": 1.4629,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' hvg_overlap'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: hvg_overlap\n  Worst score: -1.46290322580645\n  Percentage outside range: 146%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'hvg_overlap' score for 'fastmnn'",
+    "value": -1.4629,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'hvg_overlap'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: hvg_overlap\n  Best score: -1.46290322580645\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'hvg_overlap' score for 'shuffle_integration'",
+    "value": -1.4629,
+    "severity": 1,
+    "severity_value": 1.4629,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' hvg_overlap'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: hvg_overlap\n  Worst score: -1.46290322580645\n  Percentage outside range: 146%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'hvg_overlap' score for 'shuffle_integration'",
+    "value": -1.4629,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'hvg_overlap'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: hvg_overlap\n  Best score: -1.46290322580645\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'hvg_overlap' score for 'shuffle_integration_by_batch'",
+    "value": -1.4629,
+    "severity": 1,
+    "severity_value": 1.4629,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' hvg_overlap'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: hvg_overlap\n  Worst score: -1.46290322580645\n  Percentage outside range: 146%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'hvg_overlap' score for 'shuffle_integration_by_batch'",
+    "value": -1.4629,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'hvg_overlap'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: hvg_overlap\n  Best score: -1.46290322580645\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'hvg_overlap' score for 'shuffle_integration_by_cell_type'",
+    "value": -1.4629,
+    "severity": 1,
+    "severity_value": 1.4629,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' hvg_overlap'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: hvg_overlap\n  Worst score: -1.46290322580645\n  Percentage outside range: 146%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'hvg_overlap' score for 'shuffle_integration_by_cell_type'",
+    "value": -1.4629,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'hvg_overlap'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: hvg_overlap\n  Best score: -1.46290322580645\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'isolated_label_asw' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Inside range: 48\n  Scaled scores: 48\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'isolated_label_asw' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'isolated_label_asw' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_asw' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' isolated_label_asw'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_asw' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'isolated_label_asw'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_asw' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' isolated_label_asw'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_asw' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'isolated_label_asw'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_asw' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' isolated_label_asw'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_asw' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'isolated_label_asw'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_asw' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' isolated_label_asw'\n  Task: batch_integration\n  Method: liger\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_asw' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'isolated_label_asw'\n  Task: batch_integration\n  Method: liger\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_asw' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' isolated_label_asw'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_asw' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'isolated_label_asw'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_asw' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' isolated_label_asw'\n  Task: batch_integration\n  Method: pyliger\n  Metric: isolated_label_asw\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_asw' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'isolated_label_asw'\n  Task: batch_integration\n  Method: pyliger\n  Metric: isolated_label_asw\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'isolated_label_f1' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Inside range: 68\n  Scaled scores: 68\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'isolated_label_f1' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'isolated_label_f1' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'bbknn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'bbknn' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: bbknn\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'bbknn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'bbknn' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: bbknn\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: liger\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: liger\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'no_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: no_integration\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'no_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: no_integration\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: pyliger\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: pyliger\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'shuffle_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'shuffle_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'shuffle_integration_by_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'shuffle_integration_by_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'isolated_label_f1' score for 'shuffle_integration_by_cell_type'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' isolated_label_f1'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: isolated_label_f1\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'isolated_label_f1' score for 'shuffle_integration_by_cell_type'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'isolated_label_f1'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: isolated_label_f1\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'kbet' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: kbet\n  Inside range: 65\n  Scaled scores: 65\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'kbet' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'kbet' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'embed_cell_types'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'embed_cell_types_jittered'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'fastmnn'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: liger\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'liger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: liger\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'no_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: no_integration\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'no_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: no_integration\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'no_integration_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: pyliger\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'pyliger'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: pyliger\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'shuffle_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'shuffle_integration'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'shuffle_integration_by_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'shuffle_integration_by_batch'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'kbet' score for 'shuffle_integration_by_cell_type'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' kbet'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: kbet\n  Worst score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'kbet' score for 'shuffle_integration_by_cell_type'",
+    "value": 1,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'kbet'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: kbet\n  Best score: 1\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ilisi' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: ilisi\n  Inside range: 86\n  Scaled scores: 86\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ilisi' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'ilisi' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'bbknn'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'bbknn' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: bbknn\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'bbknn'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'bbknn' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: bbknn\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'embed_cell_types'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'embed_cell_types'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'embed_cell_types_jittered'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'embed_cell_types_jittered'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'fastmnn'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'fastmnn'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'liger'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: liger\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'liger'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: liger\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'no_integration'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: no_integration\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'no_integration'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: no_integration\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'no_integration_batch'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'no_integration_batch'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'pyliger'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: pyliger\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'pyliger'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: pyliger\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'shuffle_integration'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'shuffle_integration'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'shuffle_integration_by_batch'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'shuffle_integration_by_batch'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'ilisi' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' ilisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: ilisi\n  Worst score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'ilisi' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.7184,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'ilisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: ilisi\n  Best score: 0.718419940853401\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'clisi' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: clisi\n  Inside range: 86\n  Scaled scores: 86\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'clisi' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'clisi' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'bbknn'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'bbknn' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: bbknn\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'bbknn'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'bbknn' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: bbknn\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'embed_cell_types'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'embed_cell_types'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'embed_cell_types_jittered'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'embed_cell_types_jittered'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'fastmnn'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'fastmnn'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'liger'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: liger\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'liger'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: liger\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'no_integration'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: no_integration\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'no_integration'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: no_integration\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'no_integration_batch'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'no_integration_batch'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'pyliger'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: pyliger\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'pyliger'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: pyliger\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'shuffle_integration'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'shuffle_integration'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'shuffle_integration_by_batch'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'shuffle_integration_by_batch'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'clisi' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' clisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: clisi\n  Worst score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'clisi' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.9,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'clisi'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: clisi\n  Best score: 0.9\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'pcr' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: batch_integration\n  Metric: pcr\n  Inside range: 69\n  Scaled scores: 69\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'pcr' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'pcr' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: batch_integration\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'embed_cell_types'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'embed_cell_types'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: embed_cell_types\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'embed_cell_types_jittered'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'embed_cell_types_jittered' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'embed_cell_types_jittered'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'embed_cell_types_jittered' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: embed_cell_types_jittered\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'fastmnn'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'fastmnn'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: fastmnn\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'liger'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'liger' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: liger\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'liger'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'liger' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: liger\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'no_integration'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: no_integration\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'no_integration'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: no_integration\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'no_integration_batch'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'no_integration_batch' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'no_integration_batch'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'no_integration_batch' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: no_integration_batch\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'pyliger'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'pyliger' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: pyliger\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'pyliger'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'pyliger' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: pyliger\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'shuffle_integration'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'shuffle_integration'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: shuffle_integration\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'shuffle_integration_by_batch'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_batch' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'shuffle_integration_by_batch'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_batch' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: shuffle_integration_by_batch\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'pcr' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much worse than controls for metric' pcr'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: pcr\n  Worst score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'pcr' score for 'shuffle_integration_by_cell_type'",
+    "value": 0.7516,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'shuffle_integration_by_cell_type' performs much better than controls for metric 'pcr'\n  Task: batch_integration\n  Method: shuffle_integration_by_cell_type\n  Metric: pcr\n  Best score: 0.751599909877963\n  Percentage outside range: 0%\n"
+  }
+]

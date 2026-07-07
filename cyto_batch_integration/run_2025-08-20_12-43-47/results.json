@@ -1,0 +1,114 @@
+[
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "batchadjust_all_controls",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [66, 71],
+    "run_cpu_pct": [111.1, 111.8],
+    "run_peak_memory_mb": [6452, 6759],
+    "run_disk_read_mb": [728, 771],
+    "run_disk_write_mb": [617, 661],
+    "metric_names": ["emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz"],
+    "metric_values": [1.1355, 0.5641, 0.1434, 0.1162],
+    "metric_components": [
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 23.1],
+        "run_cpu_pct": [179.1, 142.3],
+        "run_peak_memory_mb": [806, 7168],
+        "run_disk_read_mb": [19, 425],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "human_blood_mass_cytometry",
+    "method_name": "batchadjust_one_control",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [70, 75],
+    "run_cpu_pct": [113, 111.1],
+    "run_peak_memory_mb": [6452, 6759],
+    "run_disk_read_mb": [688, 731],
+    "run_disk_write_mb": [617, 661],
+    "metric_names": ["emd_max_ct_horiz", "emd_max_global_horiz", "emd_mean_ct_horiz", "emd_mean_global_horiz"],
+    "metric_values": [1.1592, 0.5634, 0.1465, 0.1275],
+    "metric_components": [
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 22],
+        "run_cpu_pct": [178.6, 112.4],
+        "run_peak_memory_mb": [806, 3072],
+        "run_disk_read_mb": [19, 425],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "batchadjust_all_controls",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [372, 362],
+    "run_cpu_pct": [100.3, 100],
+    "run_peak_memory_mb": [14644, 12903],
+    "run_disk_read_mb": [2458, 2560],
+    "run_disk_write_mb": [2253, 2356],
+    "metric_names": ["emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert"],
+    "metric_values": [1.2071, 1.2124, 0.4554, 1.0137, 0.1668, 0.1697, 0.0847, 0.1815],
+    "metric_components": [
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.5, 244],
+        "run_cpu_pct": [122.3, 99.7],
+        "run_peak_memory_mb": [927, 9012],
+        "run_disk_read_mb": [32, 1844],
+        "run_disk_write_mb": [1, 12]
+      }
+    ]
+  },
+  {
+    "dataset_name": "mouse_spleen_flow_cytometry",
+    "method_name": "batchadjust_one_control",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0, 0],
+    "run_duration_secs": [392, 408],
+    "run_cpu_pct": [101.6, 101.5],
+    "run_peak_memory_mb": [14439, 15053],
+    "run_disk_read_mb": [2356, 2458],
+    "run_disk_write_mb": [2253, 2356],
+    "metric_names": ["emd_max_ct_horiz", "emd_max_ct_vert", "emd_max_global_horiz", "emd_max_global_vert", "emd_mean_ct_horiz", "emd_mean_ct_vert", "emd_mean_global_horiz", "emd_mean_global_vert"],
+    "metric_values": [1.2064, 1.1012, 0.3758, 0.9335, 0.1648, 0.1676, 0.0777, 0.1767],
+    "metric_components": [
+      {
+        "component_name": "emd",
+        "metric_names": ["emd_mean_ct_horiz", "emd_max_ct_horiz", "emd_mean_global_horiz", "emd_max_global_horiz", "emd_mean_global_vert", "emd_max_global_vert", "emd_mean_ct_vert", "emd_max_ct_vert"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.6, 255],
+        "run_cpu_pct": [203.9, 101.1],
+        "run_peak_memory_mb": [2970, 13108],
+        "run_disk_read_mb": [32, 1844],
+        "run_disk_write_mb": [1, 12]
+      }
+    ]
+  }
+]

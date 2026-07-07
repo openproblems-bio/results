@@ -1,0 +1,46 @@
+{
+  "name": "label_projection",
+  "commit": null,
+  "label": "Label projection",
+  "summary": "Automated cell type annotation from rich, labeled reference data",
+  "description": "To ensure that the cell type labels in newly generated datasets match\nexisting reference datasets, some methods align cells to a previously\nannotated [reference dataset](https://academic.oup.com/bioinformatics/article/35/22/4688/54802990)\nand then _project_ labels from the reference to the new dataset.\n\nHere, we compare methods for annotation based on a reference dataset.\nThe datasets consist of two or more samples of single cell profiles that\nhave been manually annotated with matching labels. These datasets are then\nsplit into training and test batches, and the task of each method is to\ntrain a cell type classifer on the training set and project those labels\nonto the test set.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Nikolay Markov",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "mxposed",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-02-05_13-38-02",
+  "is_prerelease": true,
+  "timestamp": "2024-02-05T13:38:02Z"
+}

@@ -1,0 +1,41 @@
+[
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [308],
+    "run_cpu_pct": [98.5],
+    "run_peak_memory_mb": [22221],
+    "run_disk_read_mb": [929],
+    "run_disk_write_mb": [115],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9549, 0.7977, 0.9549, 0.9529],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 14.3],
+        "run_cpu_pct": [195.6, 130.5],
+        "run_peak_memory_mb": [3175, 3380],
+        "run_disk_read_mb": [132, 356],
+        "run_disk_write_mb": [1, 115]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 14.5],
+        "run_cpu_pct": [168.7, 127.6],
+        "run_peak_memory_mb": [3175, 3380],
+        "run_disk_read_mb": [132, 357],
+        "run_disk_write_mb": [1, 115]
+      }
+    ]
+  }
+]

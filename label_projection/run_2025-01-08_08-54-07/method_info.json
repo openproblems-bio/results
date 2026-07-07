@@ -1,0 +1,461 @@
+[
+  {
+    "name": "majority_vote",
+    "label": "Majority Vote",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "A control-type method that predicts all cells to belong to the most abundant cell type in the dataset",
+    "description": "A control-type method that predicts all cells to belong to the most abundant cell type in the dataset",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_label_projection",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/control_methods/majority_vote",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/control_methods/majority_vote:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "random_labels",
+    "label": "Random Labels",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "a negative control, where the labels are randomly predicted.",
+    "description": "A negative control, where the labels are randomly predicted without training the data.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_label_projection",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/control_methods/random_labels",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/control_methods/random_labels:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "true_labels",
+    "label": "True labels",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "a positive control, solution labels are copied 1 to 1 to the predicted data.",
+    "description": "A positive control, where the solution labels are copied 1 to 1 to the predicted data.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_label_projection",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/control_methods/true_labels",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/control_methods/true_labels:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "geneformer",
+    "label": "Geneformer",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Geneformer is a foundational transformer model pretrained on a large-scale corpus of single cell transcriptomes to enable context-aware predictions in settings with limited data in network biology.",
+    "description": "Geneformer is a context-aware, attention-based deep learning model pretrained on a large-scale corpus of single-cell transcriptomes to enable context-specific predictions in settings with limited data in network biology. Here, a pre-trained Geneformer model is fine-tuned and used to predict cell type labels for an unlabelled dataset.",
+    "type": "method",
+    "link_code": "https://huggingface.co/ctheodoris/Geneformer",
+    "link_documentation": "https://geneformer.readthedocs.io/en/latest/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/geneformer",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/geneformer:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41586-023-06139-9", "10.1101/2024.08.16.608180"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "knn",
+    "label": "KNN",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Assumes cells with similar gene expression belong to the same cell type, and assigns an unlabelled cell the most common cell type among its k nearest neighbors in PCA space.",
+    "description": "Using the \"k-nearest neighbours\" approach, which is a\npopular machine learning algorithm for classification and regression tasks.\nThe assumption underlying KNN in this context is that cells with similar gene\nexpression profiles tend to belong to the same cell type. For each unlabelled\ncell, this method computes the $k$ labelled cells (in this case, 5) with the\nsmallest distance in PCA space, and assigns that cell the most common cell\ntype among its $k$ nearest neighbors.",
+    "type": "method",
+    "link_code": "https://github.com/scikit-learn/scikit-learn",
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.neighbors.KNeighborsClassifier.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/knn",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/knn:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1109/tit.1967.1053964"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/knn_classifier.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "knn_classifier_scran": {
+          "preferred_normalization": "log_scran_pooling"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "logistic_regression",
+    "label": "Logistic Regression",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Logistic Regression with 100-dimensional PCA coordinates estimates parameters for multivariate classification by minimizing cross entropy loss over cell type classes.",
+    "description": "Logistic Regression estimates parameters of a logistic function for\nmultivariate classification tasks. Here, we use 100-dimensional whitened PCA\ncoordinates as independent variables, and the model minimises the cross\nentropy loss over all cell type classes.",
+    "type": "method",
+    "link_code": "https://github.com/scikit-learn/scikit-learn",
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/logistic_regression",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/logistic_regression:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@book{hosmer2013applied,\n  title = {Applied logistic regression},\n  author = {Hosmer Jr, D.W. and Lemeshow, S. and Sturdivant, R.X.},\n  year = {2013},\n  publisher = {John Wiley \\& Sons},\n  volume = {398}\n}\n"]
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/logistic_regression.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "logistic_regression_scran": {
+          "preferred_normalization": "log_scran_pooling"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "mlp",
+    "label": "Multilayer perceptron",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "A neural network with 100-dimensional PCA input, two hidden layers, and gradient descent weight updates to minimize cross entropy loss.",
+    "description": "Multi-Layer Perceptron is a type of artificial neural network that\nconsists of multiple layers of interconnected neurons. Each neuron computes a\nweighted sum of all neurons in the previous layer and transforms it with\nnonlinear activation function. The output layer provides the final\nprediction, and network weights are updated by gradient descent to minimize\nthe cross entropy loss. Here, the input data is 100-dimensional whitened PCA\ncoordinates for each cell, and we use two hidden layers of 100 neurons each.",
+    "type": "method",
+    "link_code": "https://github.com/scikit-learn/scikit-learn",
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.neural_network.MLPClassifier.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/mlp",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/mlp:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/0004-3702(89)90049-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/mlp.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "mlp_scran": {
+          "preferred_normalization": "log_scran_pooling"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "naive_bayes",
+    "label": "Naive Bayesian Classifier",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Naive Bayes classification using feature probabilities to project cell type labels from a reference dataset.",
+    "description": "Naive Bayes classification leverages probabilistic models based on Bayes' theorem\nto classify cells into different types. In the context of single-cell datasets, this method\nutilizes the probabilities of features to project cell type labels from a reference dataset\nto new datasets. The algorithm assumes independence between features, making it computationally\nefficient and well-suited for high-dimensional data. It is particularly useful for annotating\ncells in atlas-scale datasets, ensuring consistency and alignment with existing reference annotations.",
+    "type": "method",
+    "link_code": "https://github.com/scikit-learn/scikit-learn",
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/naive_bayes",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/naive_bayes:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@book{hosmer2013applied,\n  title={Applied logistic regression},\n  author={Hosmer, David W and Lemeshow, Stanley and Sturdivant, Rodney X},\n  year={2013},\n  publisher={John Wiley \\& Sons}\n}\n"]
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "naive_bayes_scran": {
+          "preferred_normalization": "log_scran_pooling"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scanvi",
+    "label": "scANVI",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "scANVI predicts cell type labels for unlabelled test data by leveraging cell type labels, modelling uncertainty and using deep neural networks with stochastic optimization.",
+    "description": "single-cell ANnotation using Variational Inference is a\nsemi-supervised variant of the scVI(Lopez et al. 2018) algorithm. Like scVI,\nscANVI uses deep neural networks and stochastic optimization to model\nuncertainty caused by technical noise and bias in single - cell\ntranscriptomics measurements. However, scANVI also leverages cell type labels\nin the generative modelling. In this approach, scANVI is used to predict the\ncell type labels of the unlabelled test data.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools",
+    "link_documentation": "https://scarches.readthedocs.io/en/latest/scanvi_surgery_pipeline.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/scanvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/scanvi:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2020.07.16.205997"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/scvi_tools.py",
+        "commit": "e3be930c6d4bbd656ab1e656badb52bb50e6cdd6"
+      },
+      "preferred_normalization": "counts",
+      "variants": {
+        "scanvi_hvg": {
+          "num_hvg": 2000
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scanvi_scarches",
+    "label": "scANVI+scArches",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Query to reference single-cell integration with transfer learning with scANVI and scArches",
+    "description": "scArches+scANVI or \"Single-cell architecture surgery\" is a deep learning method for mapping new datasets onto a pre-existing reference model, using transfer learning and parameter optimization. It first uses scANVI to build a reference model from the training data, and then apply scArches to map the test data onto the reference model and make predictions.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools",
+    "link_documentation": "https://docs.scvi-tools.org",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/scanvi_scarches",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/scanvi_scarches:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2020.07.16.205997"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/scvi_tools.py",
+        "commit": "e3be930c6d4bbd656ab1e656badb52bb50e6cdd6"
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scgpt_zero_shot",
+    "label": "scGPT zero-shot",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Reference mapping using cell embedding by pretrained scGPT model.",
+    "description": "scGPT is a foundation model for single-cell biology based on a generative pre-trained transformer and trained on a repository of over 33 million cells. Following the zero-shot approach, a pre-trained scGPT model is used to embed cells and map unlabelled cells in a query set to the reference dataset with provided annotations based on a nearest neighbor similarity search.",
+    "type": "method",
+    "link_code": "https://github.com/bowang-lab/scGPT",
+    "link_documentation": "https://scgpt.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/scgpt_zero_shot",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/scgpt_zero_shot:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-024-02201-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scimilarity",
+    "label": "SCimilarity",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "SCimilarity provides unifying representation of single cell expression profiles",
+    "description": "SCimilarity is a unifying representation of single cell expression profiles\nthat quantifies similarity between expression states and generalizes to\nrepresent new studies without additional training.\n\nThis method uses the SCimilarity cell annotation module. As labels in the\nSCimilarity model are likely to be different to those in the dataset we use\na combination of exact string matching and iterative linear sum assignment to\nmatch generate a mapping between them using the training data.",
+    "type": "method",
+    "link_code": "https://github.com/Genentech/scimilarity",
+    "link_documentation": "https://genentech.github.io/scimilarity/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/scimilarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/scimilarity:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.07.18.549537"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scimilarity_knn",
+    "label": "SCimilarity (kNN)",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "SCimilarity provides unifying representation of single cell expression profiles",
+    "description": "SCimilarity is a unifying representation of single cell expression profiles\nthat quantifies similarity between expression states and generalizes to\nrepresent new studies without additional training.\n\nThis method trains a kNN classifier using cell embeddings from SCimilarity.\nThe classifier is trained on embeddings for the training data and used to\npredict labels for the test data. This does not use the SCimilarity cell\nannotation model but avoids needing to match SCimilarity labels to dataset\nlabels.",
+    "type": "method",
+    "link_code": "https://github.com/Genentech/scimilarity",
+    "link_documentation": "https://genentech.github.io/scimilarity/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/scimilarity_knn",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/scimilarity_knn:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.07.18.549537"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "scprint",
+    "label": "scPRINT",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "scPRINT is a large transformer model built for the inference of gene networks",
+    "description": "scPRINT is a large transformer model built for the inference of gene networks\n(connections between genes explaining the cell's expression profile) from\nscRNAseq data.\n\nIt uses novel encoding and decoding of the cell expression profile and new\npre-training methodologies to learn a cell model.\n\nscPRINT can be used to perform the following analyses:\n  - expression denoising: increase the resolution of your scRNAseq data\n  - cell embedding: generate a low-dimensional representation of your dataset\n  - label prediction: predict the cell type, disease, sequencer, sex, and\n    ethnicity of your cells\n  - gene network inference: generate a gene network from any cell or cell\n    cluster in your scRNAseq dataset\n\nThis method uses the zero-shot ability of scPRINT for cell type prediction. \nAs some predicted labels are likely to be different to those in the reference \ndataset, we use a combination of exact string matching and iterative linear sum \nassignment to generate a mapping between them using the training data.",
+    "type": "method",
+    "link_code": "https://github.com/cantinilab/scPRINT",
+    "link_documentation": "https://cantinilab.github.io/scPRINT/",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/scprint",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/scprint:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2024.07.29.605556"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "variants": {
+        "scprint_large": {
+          "model_name": "large"
+        },
+        "scprint_medium": {
+          "model_name": "medium"
+        },
+        "scprint_small": {
+          "model_name": "small"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "seurat_transferdata",
+    "label": "Seurat TransferData",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Seurat reference mapping predicts cell types for unlabelled cells using PCA distances, labelled anchors, and transfer anchors from Seurat, with SCTransform normalization.",
+    "description": "Seurat reference mapping is a cell type label transfer method provided by the\nSeurat package. Gene expression counts are first normalised by SCTransform\nbefore computing PCA. Then it finds mutual nearest neighbours, known as\ntransfer anchors, between the labelled and unlabelled part of the data in PCA\nspace, and computes each cell's distance to each of the anchor pairs.\nFinally, it uses the labelled anchors to predict cell types for unlabelled\ncells based on these distances.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat",
+    "link_documentation": "https://satijalab.org/seurat/articles/integration_mapping.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/seurat_transferdata",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/seurat_transferdata:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2021.04.048"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/seurat.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "singler",
+    "label": "SingleR",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "Reference-Based Single-Cell RNA-Seq Annotation",
+    "description": "Performs unbiased cell type recognition from single-cell RNA sequencing data,\nby leveraging reference transcriptomic datasets of pure cell types to infer the\ncell of origin of each single cell independently.",
+    "type": "method",
+    "link_code": "https://www.bioconductor.org/packages/release/bioc/html/SingleR.html",
+    "link_documentation": "https://www.bioconductor.org/packages/release/bioc/vignettes/SingleR/inst/doc/SingleR.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/singler",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/singler:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41590-018-0276-y"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "uce",
+    "label": "UCE",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "UCE offers a unified biological latent space that can represent any cell",
+    "description": "Universal Cell Embedding (UCE) is a single-cell foundation model that offers a\nunified biological latent space that can represent any cell, regardless of\ntissue or species.\n\nThis method trains a logistic regression classifier on the UCE embedding\nspace.",
+    "type": "method",
+    "link_code": "https://github.com/snap-stanford/UCE",
+    "link_documentation": "https://github.com/snap-stanford/UCE/blob/main/README.md",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/uce",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/uce:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.11.28.568918"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "xgboost",
+    "label": "XGBoost",
+    "commit": "0def7c62cbda5cdf52c7406a06f91d9e36a5535d",
+    "summary": "XGBoost is a decision tree model that averages multiple trees with gradient boosting.",
+    "description": "XGBoost is a gradient boosting decision tree model that learns multiple tree\nstructures in the form of a series of input features and their values,\nleading to a prediction decision, and averages predictions from all its\ntrees. Here, input features are normalised gene expression values.",
+    "type": "method",
+    "link_code": "https://github.com/dmlc/xgboost",
+    "link_documentation": "https://xgboost.readthedocs.io/en/stable/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_label_projection/blob/0def7c62cbda5cdf52c7406a06f91d9e36a5535d/src/methods/xgboost",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_label_projection/methods/xgboost:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1145/2939672.2939785"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/label_projection/methods/xgboost.py",
+        "commit": "e3be930c6d4bbd656ab1e656badb52bb50e6cdd6"
+      },
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "xgboost_scran": {
+          "preferred_normalization": "log_scran_pooling"
+        }
+      }
+    },
+    "version": "build_main"
+  }
+]

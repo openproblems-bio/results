@@ -1,0 +1,202 @@
+[
+  {
+    "name": "mean_per_gene",
+    "label": "Mean per gene",
+    "commit": "missing-sha",
+    "summary": "Returns the mean expression value per gene.",
+    "description": "Returns the mean expression value per gene.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "random_predict",
+    "label": "Random predictions",
+    "commit": "missing-sha",
+    "summary": "Returns random training profiles.",
+    "description": "Returns random training profiles.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "zeros",
+    "label": "Zeros",
+    "commit": "missing-sha",
+    "summary": "Returns a prediction consisting of all zeros.",
+    "description": "Returns a prediction consisting of all zeros.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "solution",
+    "label": "Solution",
+    "commit": "missing-sha",
+    "summary": "Returns the ground-truth solution.",
+    "description": "Returns the ground-truth solution.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "knnr_py",
+    "label": "KNNR (Py)",
+    "commit": "missing-sha",
+    "summary": "K-nearest neighbor regression in Python.",
+    "description": "K-nearest neighbor regression in Python.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "fix1989discriminatory",
+      "repository_url": "https://github.com/scikit-learn/scikit-learn",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "knnr_r",
+    "label": "KNNR (R)",
+    "commit": "missing-sha",
+    "summary": "K-nearest neighbor regression in R.",
+    "description": "K-nearest neighbor regression in R.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://cran.r-project.org/package=FNN",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "fix1989discriminatory",
+      "repository_url": "https://github.com/cran/FNN",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "lm",
+    "label": "Linear Model",
+    "commit": "missing-sha",
+    "summary": "Linear model regression.",
+    "description": "A linear model regression method.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://cran.r-project.org/package=RcppArmadillo",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "wilkinson1973symbolic",
+      "repository_url": "https://github.com/RcppCore/RcppArmadillo",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "lmds_irlba_rf",
+    "label": "LMDS + IRLBA + RF",
+    "commit": "missing-sha",
+    "summary": "A random forest regression using LMDS of modality 1 to predict a PCA embedding of modality 2, which is then reversed to predict the original modality 2.",
+    "description": "A random forest regression using LMDS of modality 1 to predict a PCA embedding of modality 2, which is then reversed to predict the original modality 2.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://github.com/openproblems-bio/openproblems-v2/tree/main/src/tasks/predict_modality/methods",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "lance2022multimodal",
+      "repository_url": "https://github.com/openproblems-bio/openproblems-v2",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "guanlab_dengkw_pm",
+    "label": "Guanlab-dengkw",
+    "commit": "missing-sha",
+    "summary": "A kernel ridge regression method with RBF kernel.",
+    "description": "This is a solution developed by Team Guanlab - dengkw in the Neurips 2021 competition to predict one modality\nfrom another using kernel ridge regression (KRR) with RBF kernel. Truncated SVD is applied on the combined\ntraining and test data from modality 1 followed by row-wise z-score normalization on the reduced matrix. The\ntruncated SVD of modality 2 is predicted by training a KRR model on the normalized training matrix of modality 1.\nPredictions on the normalized test matrix are then re-mapped to the modality 2 feature space via the right\nsingular vectors.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/Guanlab-dengkw",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "reference": "lance2022multimodal",
+      "repository_url": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/Guanlab-dengkw",
+      "competition_submission_id": 170636
+    },
+    "version": "main_build"
+  }
+]

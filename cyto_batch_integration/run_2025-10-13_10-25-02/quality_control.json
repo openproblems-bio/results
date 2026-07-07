@@ -1,0 +1,983 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: cyto_batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: cyto_batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: cyto_batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: cyto_batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: cyto_batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: cyto_batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: cyto_batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: cyto_batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: cyto_batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 65,
+    "severity": 3,
+    "severity_value": 9.2424,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: cyto_batch_integration\n  Number of results: 65\n  Number of datasets: 3\n  Number of methods: 26\n  Number of metrics: 11\n  Expected number of results: 858\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'mouse_spleen_flow_cytometry' % missing",
+    "value": 0.9126,
+    "severity": 3,
+    "severity_value": 9.1259,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: mouse_spleen_flow_cytometry\n  Number of results: 25\n  Expected number of results: 286\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'human_blood_mass_cytometry' % missing",
+    "value": 0.9301,
+    "severity": 3,
+    "severity_value": 9.3007,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: human_blood_mass_cytometry\n  Number of results: 20\n  Expected number of results: 286\n  Percentage missing: 93%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'human_cll_mass_cytometry' % missing",
+    "value": 0.9301,
+    "severity": 3,
+    "severity_value": 9.3007,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: human_cll_mass_cytometry\n  Number of results: 20\n  Expected number of results: 286\n  Percentage missing: 93%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: shuffle_integration\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_batch' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: shuffle_integration_by_batch\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_cell_type' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: shuffle_integration_by_cell_type\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonypy' % missing",
+    "value": 0.7273,
+    "severity": 3,
+    "severity_value": 7.2727,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: harmonypy\n  Number of results: 9\n  Expected number of results: 33\n  Percentage missing: 73%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'limma_remove_batch_effect' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: limma_remove_batch_effect\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: no_integration\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'perfect_integration' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: combat\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_goal' % missing",
+    "value": 0.5758,
+    "severity": 3,
+    "severity_value": 5.7576,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_goal\n  Number of results: 14\n  Expected number of results: 33\n  Percentage missing: 58%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_goal\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_goal' % missing",
+    "value": 0.5758,
+    "severity": 3,
+    "severity_value": 5.7576,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_goal\n  Number of results: 14\n  Expected number of results: 33\n  Percentage missing: 58%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gaussnorm' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: gaussnorm\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_one_control' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_one_control\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_all_controls' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_all_controls\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_goal' % missing",
+    "value": 0.5758,
+    "severity": 3,
+    "severity_value": 5.7576,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_goal\n  Number of results: 14\n  Expected number of results: 33\n  Percentage missing: 58%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_goal' % missing",
+    "value": 0.5758,
+    "severity": 3,
+    "severity_value": 5.7576,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_goal\n  Number of results: 14\n  Expected number of results: 33\n  Percentage missing: 58%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_goal\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_goal' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_goal\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_mid' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_mid\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytovi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytovi\n  Number of results: 0\n  Expected number of results: 33\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_horiz' % missing",
+    "value": 0.8205,
+    "severity": 3,
+    "severity_value": 8.2051,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Number of results: 14\n  Expected number of results: 78\n  Percentage missing: 82%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_vert' % missing",
+    "value": 0.8846,
+    "severity": 3,
+    "severity_value": 8.8462,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Number of results: 9\n  Expected number of results: 78\n  Percentage missing: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks' % missing",
+    "value": 0.8205,
+    "severity": 3,
+    "severity_value": 8.2051,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Number of results: 14\n  Expected number of results: 78\n  Percentage missing: 82%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks_ct' % missing",
+    "value": 0.8205,
+    "severity": 3,
+    "severity_value": 8.2051,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Number of results: 14\n  Expected number of results: 78\n  Percentage missing: 82%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ratio_inconsistent_peaks' % missing",
+    "value": 0.8205,
+    "severity": 3,
+    "severity_value": 8.2051,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: ratio_inconsistent_peaks\n  Number of results: 14\n  Expected number of results: 78\n  Percentage missing: 82%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_global' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_global\n  Number of results: 0\n  Expected number of results: 78\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_ct' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_ct\n  Number of results: 0\n  Expected number of results: 78\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'flowsom_mean_mapping_similarity' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: flowsom_mean_mapping_similarity\n  Number of results: 0\n  Expected number of results: 78\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'iLisi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: iLisi\n  Number of results: 0\n  Expected number of results: 78\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cLisi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: cLisi\n  Number of results: 0\n  Expected number of results: 78\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'bras' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: cyto_batch_integration\n  Metric: bras\n  Number of results: 0\n  Expected number of results: 78\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 56,
+    "severity": 0,
+    "severity_value": 0.1754,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: cyto_batch_integration\n  Succeeded processes: 56\n  Attempted processes: 57\n  Percentage failed: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'mouse_spleen_flow_cytometry' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: mouse_spleen_flow_cytometry\n  Succeeded processes: 5\n  Attempted processes: 5\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'human_blood_mass_cytometry' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: human_blood_mass_cytometry\n  Succeeded processes: 5\n  Attempted processes: 5\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'human_cll_mass_cytometry' % failed",
+    "value": 0.2,
+    "severity": 1,
+    "severity_value": 2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Dataset: human_cll_mass_cytometry\n  Succeeded processes: 4\n  Attempted processes: 5\n  Percentage failed: 20%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: shuffle_integration\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_batch' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: shuffle_integration_by_batch\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'shuffle_integration_by_cell_type' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: shuffle_integration_by_cell_type\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonypy' % failed",
+    "value": 0.3333,
+    "severity": 3,
+    "severity_value": 3.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: harmonypy\n  Succeeded processes: 2\n  Attempted processes: 3\n  Percentage failed: 33%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'limma_remove_batch_effect' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: limma_remove_batch_effect\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'no_integration' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: no_integration\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'perfect_integration' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: perfect_integration\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: combat\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_no_controls_to_goal' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_no_controls_to_goal\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_one_control_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_one_control_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cycombine_all_controls_to_goal' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cycombine_all_controls_to_goal\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gaussnorm' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: gaussnorm\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_one_control' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_one_control\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batchadjust_all_controls' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: batchadjust_all_controls\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_no_controls_to_goal' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_no_controls_to_goal\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_all_controls_to_goal' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_all_controls_to_goal\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytonorm_one_control_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytonorm_one_control_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_goal' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_goal\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rpca_to_mid' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: rpca_to_mid\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cytovi' % failed",
+    "value": -1,
+    "severity": 3,
+    "severity_value": -1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Method: cytovi\n  Succeeded processes: 0\n  Attempted processes: 0\n  Percentage failed: NaN%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'emd' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Metric component: emd\n  Succeeded processes: 14\n  Attempted processes: 14\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'n_inconsistent_peaks' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Metric component: n_inconsistent_peaks\n  Succeeded processes: 14\n  Attempted processes: 14\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'ratio_inconsistent_peaks' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: cyto_batch_integration\n  Metric component: ratio_inconsistent_peaks\n  Succeeded processes: 14\n  Attempted processes: 14\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `mouse_spleen_flow_cytometry' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: cyto_batch_integration\n  Dataset: mouse_spleen_flow_cytometry\n  Succeeded control_methods: 0\n  Total control methods: 5\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `human_blood_mass_cytometry' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: cyto_batch_integration\n  Dataset: human_blood_mass_cytometry\n  Succeeded control_methods: 0\n  Total control methods: 5\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `human_cll_mass_cytometry' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: cyto_batch_integration\n  Dataset: human_cll_mass_cytometry\n  Succeeded control_methods: 0\n  Total control methods: 5\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_horiz' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_horiz\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'emd_mean_ct_vert' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: emd_mean_ct_vert\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'n_inconsistent_peaks_ct' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: n_inconsistent_peaks_ct\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ratio_inconsistent_peaks' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: ratio_inconsistent_peaks\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_global' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_global\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'average_batch_r2_ct' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: average_batch_r2_ct\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'flowsom_mean_mapping_similarity' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: flowsom_mean_mapping_similarity\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'iLisi' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: iLisi\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cLisi' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: cLisi\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'bras' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: cyto_batch_integration\n  Metric: bras\n  Control method scores: 0\n  Expected control method scores: 15\n  Percentage succeeded: 0%\n"
+  }
+]

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "correlation",
+    "label": "correlation",
+    "commit": "missing-sha",
+    "summary": "Correlation represents the agreement of true and predicted spatial variability.",
+    "description": "Kendall rank correlation coefficient measures the ordinal association between two measured quantities. The best score and upper bound is 1 (observations have an identical rank), while the lower bound is -1 (observations have a completely different rank).",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "kendall1938new",
+      "documentation_url": "https://en.wikipedia.org/wiki/Kendall_rank_correlation_coefficient",
+      "repository_url": "https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.corr.html"
+    },
+    "version": "integration_build"
+  }
+]

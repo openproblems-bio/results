@@ -1,0 +1,956 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: spatial_decomposition\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: spatial_decomposition\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: spatial_decomposition\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: spatial_decomposition\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: spatial_decomposition\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: spatial_decomposition\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: spatial_decomposition\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: spatial_decomposition\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: spatial_decomposition\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: spatial_decomposition\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: spatial_decomposition\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: spatial_decomposition\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: spatial_decomposition\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: spatial_decomposition\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.8182,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: spatial_decomposition\n  Field: references\n  Percentage missing: 82"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: spatial_decomposition\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: spatial_decomposition\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: spatial_decomposition\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: spatial_decomposition\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: spatial_decomposition\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: spatial_decomposition\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 116,
+    "severity": 0,
+    "severity_value": 0.4132,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: spatial_decomposition\n  Number of results: 116\n  Number of datasets: 11\n  Number of methods: 11\n  Number of metrics: 1\n  Expected number of results: 121\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/immune_cells\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/zebrafish\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/pancreas\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % missing",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/hypomap\n  Number of results: 10\n  Expected number of results: 11\n  Percentage missing: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % missing",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/tabula_sapiens\n  Number of results: 10\n  Expected number of results: 11\n  Percentage missing: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hcla' % missing",
+    "value": 0.1818,
+    "severity": 1,
+    "severity_value": 1.8182,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/hcla\n  Number of results: 9\n  Expected number of results: 11\n  Percentage missing: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/cengen\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % missing",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/gtex_v9\n  Number of results: 10\n  Expected number of results: 11\n  Percentage missing: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/immune_cell_atlas\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/dkd\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_proportions' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: random_proportions\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_proportions' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: true_proportions\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cell2location' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: cell2location\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'destvi' % missing",
+    "value": 0.3636,
+    "severity": 3,
+    "severity_value": 3.6364,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: destvi\n  Number of results: 7\n  Expected number of results: 11\n  Percentage missing: 36%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nmfreg' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: nmfreg\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nnls' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: nnls\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rctd' % missing",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: rctd\n  Number of results: 10\n  Expected number of results: 11\n  Percentage missing: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'seurat' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: seurat\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'stereoscope' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: stereoscope\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'tangram' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: tangram\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'vanillanmf' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Method: vanillanmf\n  Number of results: 11\n  Expected number of results: 11\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'r2' % missing",
+    "value": 0.0413,
+    "severity": 0,
+    "severity_value": 0.4132,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatial_decomposition\n  Metric: r2\n  Number of results: 116\n  Expected number of results: 121\n  Percentage missing: 4%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 232,
+    "severity": 0,
+    "severity_value": 0.211,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: spatial_decomposition\n  Succeeded processes: 232\n  Attempted processes: 237\n  Percentage failed: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/immune_cells\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/zebrafish\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/pancreas\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % failed",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/hypomap\n  Succeeded processes: 10\n  Attempted processes: 11\n  Percentage failed: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % failed",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded processes: 10\n  Attempted processes: 11\n  Percentage failed: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hcla' % failed",
+    "value": 0.1818,
+    "severity": 1,
+    "severity_value": 1.8182,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/hcla\n  Succeeded processes: 9\n  Attempted processes: 11\n  Percentage failed: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/cengen\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % failed",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded processes: 10\n  Attempted processes: 11\n  Percentage failed: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/dkd\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_proportions' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: random_proportions\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_proportions' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: true_proportions\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cell2location' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: cell2location\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'destvi' % failed",
+    "value": 0.3636,
+    "severity": 3,
+    "severity_value": 3.6364,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: destvi\n  Succeeded processes: 7\n  Attempted processes: 11\n  Percentage failed: 36%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nmfreg' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: nmfreg\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nnls' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: nnls\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'rctd' % failed",
+    "value": 0.0909,
+    "severity": 0,
+    "severity_value": 0.9091,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: rctd\n  Succeeded processes: 10\n  Attempted processes: 11\n  Percentage failed: 9%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'seurat' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: seurat\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'stereoscope' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: stereoscope\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'tangram' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: tangram\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'vanillanmf' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Method: vanillanmf\n  Succeeded processes: 11\n  Attempted processes: 11\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'r2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatial_decomposition\n  Metric component: r2\n  Succeeded processes: 116\n  Attempted processes: 116\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/immune_cells' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/immune_cells\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/zebrafish' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/zebrafish\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/pancreas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/pancreas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hypomap' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/hypomap\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/tabula_sapiens' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hcla' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/hcla\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/cengen' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: openproblems_v1/cengen\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/gtex_v9' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/immune_cell_atlas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/mouse_pancreas_atlas' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/dkd' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatial_decomposition\n  Dataset: cellxgene_census/dkd\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'r2' number of control methods",
+    "value": 22,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatial_decomposition\n  Metric: r2\n  Control method scores: 22\n  Expected control method scores: 22\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'r2' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: spatial_decomposition\n  Metric: r2\n  Inside range: 116\n  Scaled scores: 116\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'r2' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: spatial_decomposition\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'r2' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: spatial_decomposition\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'cell2location'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell2location' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: cell2location\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'cell2location'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell2location' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: cell2location\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'destvi'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'destvi' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: destvi\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'destvi'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'destvi' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: destvi\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'nmfreg'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'nmfreg' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: nmfreg\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'nmfreg'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'nmfreg' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: nmfreg\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'nnls'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'nnls' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: nnls\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'nnls'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'nnls' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: nnls\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'random_proportions'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_proportions' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: random_proportions\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'random_proportions'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_proportions' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: random_proportions\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'rctd'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'rctd' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: rctd\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'rctd'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'rctd' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: rctd\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'seurat'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'seurat' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: seurat\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'seurat'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'seurat' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: seurat\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'stereoscope'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'stereoscope' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: stereoscope\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'stereoscope'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'stereoscope' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: stereoscope\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'tangram'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'tangram' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: tangram\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'tangram'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'tangram' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: tangram\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'true_proportions'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_proportions' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: true_proportions\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'true_proportions'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_proportions' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: true_proportions\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'r2' score for 'vanillanmf'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'vanillanmf' performs much worse than controls for metric' r2'\n  Task: spatial_decomposition\n  Method: vanillanmf\n  Metric: r2\n  Worst score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'r2' score for 'vanillanmf'",
+    "value": 0.7735,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'vanillanmf' performs much better than controls for metric 'r2'\n  Task: spatial_decomposition\n  Method: vanillanmf\n  Metric: r2\n  Best score: 0.773546006944444\n  Percentage outside range: 0%\n"
+  }
+]

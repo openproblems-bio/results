@@ -1,0 +1,272 @@
+[
+  {
+    "name": "emd_mean_ct_horiz",
+    "label": "EMD Mean CT Horizontal",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Mean Earth Mover Distance calculated horizontally across donors for each cell type and marker.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between paired samples from the same donor \nquantified across two different batches. \nFor each paired sample, cell type, and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the average of all these EMD values is computed and reported as the metric score.\n\nA high score indicates large overall differences in the distributions of marker expressions \nbetween the paired samples, suggesting poor batch integration.\nA low score means the small differences in marker expression distributions between batches, \nindicating good batch integration.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_max_ct_horiz",
+    "label": "EMD Max CT Horizontal",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Max Earth Mover Distance calculated horizontally across donors for each cell type and marker.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between paired samples from the same donor \nquantified across two different batches. \nFor each paired sample, cell type, and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the maximum of all these EMD values is computed and reported as the metric score.\n\nEMD Max CT score reflects the largest difference in marker expression distributions across all cell types, \nmarkers, and paired samples.\nA high score indicates that at least one marker, cell type, or sample pair has a large difference in \ndistribution after batch integration.\nA low score means that even the most poorly corrected marker expression is well integrated across batches.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_mean_global_horiz",
+    "label": "EMD Mean Global Horizontal",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Mean Earth Mover Distance calculated horizontally across donors for each marker.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between paired samples from the same donor \nquantified across two different batches. \nFor each paired sample and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every marker and paired sample.\nFinally, the average of all these EMD values is computed and reported as the metric score.\n\nThe key difference between this and `emd_mean_ct_horiz` is that the EMD values are\ncomputed agnostic of cell types.\n\nA high score indicates that at least one marker and cell type in a given sample pair has a \nlarge difference in distribution after batch integration.\nA low score means that the most poorly corrected marker expression is well integrated across batches.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_max_global_horiz",
+    "label": "EMD Max Global Horizontal",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Max Earth Mover Distance calculated horizontally across donors for each marker.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between paired samples from the same donor \nquantified across two different batches. \nFor each paired sample and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the maximum of all these EMD values is computed and reported as the metric score.\n\nThe key difference between this and `emd_max_ct_horiz` is that the EMD values are\ncomputed agnostic of cell types.\n\nA high score indicates that at least one marker in a given sample pair has a large difference in \ndistribution after batch integration.\nA low score means that the most poorly corrected marker expression is well integrated across batches.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_mean_global_vert",
+    "label": "EMD Mean Global Vertical",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Mean Earth Mover Distance across batch corrected samples and markers.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between all integrated \nsamples from the same group.\nFor each pair of samples and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the average of all these EMD values is computed and reported as the metric score.\n\nA high score indicates overall, there is a large difference in distribution of marker expression after batch integration.\nA low score means that overall, the samples are well integrated.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_max_global_vert",
+    "label": "EMD Max Global Vertical",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Max Earth Mover Distance across batch corrected samples and markers.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between all integrated \nsamples from the same group.\nFor each pair of samples and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the maximum of all these EMD values is computed and reported as the metric score.\n\nA high score indicates there is a pair of samples and marker which show large difference in distribution after batch integration.\nA low score means that, the worst integrated pair of samples and marker are well integrated.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_mean_ct_vert",
+    "label": "EMD Mean CT Vertical",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Mean Earth Mover Distance across batch corrected samples, cell types, and markers.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between all integrated \nsamples from the same group.\nFor each pair of samples, cell type, and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the average of all these EMD values is computed and reported as the metric score.\n\nA high score indicates overall, there is a large difference in distribution of marker expression after batch integration.\nA low score means that overall, the samples are well integrated.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "emd_max_ct_vert",
+    "label": "EMD Max CT Vertical",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Max Earth Mover Distance across batch corrected samples, cell types, and markers.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between all integrated \nsamples from the same group.\nFor each pair of samples, cell type, and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the maximum of all these EMD values is computed and reported as the metric score.\n\nA high score indicates there is a pair of samples and marker which show large difference in distribution after batch integration.\nA low score means that, the worst integrated pair of samples and marker are well integrated.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_fix_failed_stuff",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "n_inconsistent_peaks",
+    "label": "Number of inconsistent peaks Global",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Comparison of the number of marker‑expression peaks between validation and batch‑normalized data.",
+    "description": "The metric compares the number of marker expression peaks between batch integrated technical replicates (split 1 and split 2). \nThe metric is calculated as the absolute difference between the number of peaks in the technical replicates.\nThe marker expression profiles are first z-score scaled (with common mu and sigma) and then smoothed using kernel density estimation (KDE) (`scipy.stats.gaussian_kde`).\nFinally, peaks are identified using the `scipy.signal.find_peaks` function.\nFor peak calling, the `prominence` parameter is set to 0.01 and the `height` parameter is set to 0.1.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/n_inconsistent_peaks",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/n_inconsistent_peaks:build_fix_failed_stuff",
+    "component_name": "n_inconsistent_peaks",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0686-2"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "n_inconsistent_peaks_ct",
+    "label": "Number of inconsistent peaks (Cell Type)",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Comparison of the number of cell‑type marker‑expression peaks between validation and batch‑normalized data.",
+    "description": "The metric compares the number of cell type specific marker expression peaks between the validation and batch-normalized data. \nThe number of peaks is calculated using the `scipy.signal.find_peaks` function. \nThe metric is calculated as the absolute difference between the number of peaks in the validation and batch-normalized data.\nThe (cell type) marker expression profiles are first smoothed using kernel density estimation (KDE) (`scipy.stats.gaussian_kde`),\nand then peaks are then identified using the `scipy.signal.find_peaks` function.\nFor peak calling, the `prominence` parameter is set to 0.1 and the `height` parameter is set to 0.05*max_density.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/n_inconsistent_peaks",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/n_inconsistent_peaks:build_fix_failed_stuff",
+    "component_name": "n_inconsistent_peaks",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0686-2"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "average_batch_r2_global",
+    "label": "Average Batch R-squared Global",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Quantifies how strongly the batch covariate explains the variance in the data among technical replicates after correction.",
+    "description": "First, a simple linear model is fitted for each paired sample and marker to determine the fraction of variance ($R^{2}$) explained by the batch covariate $B$.\nThe average batch R-squared is then computed as the average of the $R^{2}$ values across all paired samples, markers.\nAs a result, $\\overline{R^2_B}_{global}$ quantifies how much of the total variability in the data is driven by batch effects. Consequently, lower values are desirable.\n\n$\\overline{R^2_B}_{global} = \\frac{1}{N*M}\\sum_{\\substack{(x_{\\mathrm{split1}},\\,x_{\\mathrm{split2}})\\\\ \\textit{paired samples}}}^{N} \\sum_{i=1}^{M} \\,R^2\\!\\bigl(\\mathrm{marker}_i \\mid B\\bigr)$ \n\nWhere:\n* $N$ is the number of paired samples, where $x_{\\mathrm{split1}}$ and $x_{\\mathrm{split2}}$ are the two technical replicates that have been batch-corrected. Technical replicates belong to different batches.\n* $M$ is the number of markers\n* $B$ is the batch covariate\n\nA higher value of $\\overline{R^2_B}_{global}$ indicates that the batch variable explains more of the variance in the data, which indicates a higher level of batch effects.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/average_batch_r2",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/average_batch_r2:build_fix_failed_stuff",
+    "component_name": "average_batch_r2",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@book{draper1998applied,\ntitle={Applied regression analysis},\nauthor={Draper, Norman R and Smith, Harry},\npublisher={John Wiley \\& Sons}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "average_batch_r2_ct",
+    "label": "Average Batch R-squared Cell Type",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Quantifies how strongly the batch covariate explains the variance in the data among technical replicates after correction (by taking into account cell type effect).",
+    "description": "First, a simple linear model is fitted for each paired sample and marker to determine the fraction of variance ($R^{2}$) explained by the batch covariate $B$.\nThe average batch R-squared is then computed as the average of the $R^{2}$ values across all paired samples, markers, cell types.\nAs a result, $\\overline{R^2_B}_{cell\\ type}$ quantifies how much of the total variability in the data is driven by batch effects. Consequently, lower values are desirable.\n\n$\\overline{R^2_B}_{cell\\ type} = \\frac{1}{N*C*M}\\sum_{\\substack{(x_{\\mathrm{split1}},\\,x_{\\mathrm{split2}})\\\\ \\textit{paired samples}}}^{N} \\sum_{j=1}^{C} \\sum_{i=1}^{M}\\,R^2\\!\\bigl(\\mathrm{marker}_i \\mid B\\bigr)$\n\nWhere:\n\n* $N$ is the number of paired samples, where $x_{\\mathrm{split1}}$ and $x_{\\mathrm{split2}}$ are the two technical replicates that have been batch-corrected. Technical replicates belong to different batches.\n* $M$ is the number of markers\n* $C$ is the number of cell types\n* $B$ is the batch covariate\n\n\nA high value of $\\overline{R^2_B}_{global}$ or $\\overline{R^2_B}_{cell\\ type}$ indicates that the batch variable explains a large portion of the variance in the data, which indicates a higher level of batch effects.\nA good performance on $\\overline{R^2_B}_{global}$ but not on $\\overline{R^2_B}_{cell\\ type}$ might indicate that the batch effect correction is not addressing cell type specific batch effects.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/average_batch_r2",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/average_batch_r2:build_fix_failed_stuff",
+    "component_name": "average_batch_r2",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@book{draper1998applied,\ntitle={Applied regression analysis},\nauthor={Draper, Norman R and Smith, Harry},\npublisher={John Wiley \\& Sons}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "flowsom_mean_mapping_similarity",
+    "label": "FlowSOM Mean Mapping Similarity",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Assess the similarity between FlowSOM trees of integrated and validation samples.",
+    "description": "The metric is based on the FlowSOM algorithm, a popular method which uses self-organizing maps for the viasualization/interpretation/clustering of cytometry data. \nThe FlowSOM algorithm creates a tree structure that represents the relationships between different cell populations in the data.\n\nFor each paired sample of technical replicates (where 'split1' are integrated technical replicates from split 1 and 'split2' are integrated technical replicates from split 2)\n1. A FlowSOM tree is created using cells in the sample from split 1.\n2. Cells from the sample in split 2 are mapped onto the FlowSOM tree created in step 1.\n3. A similarity measure is computed by comparing cell type proportions of 'split2' and 'split1' in each flowsom cluster.\n\nIdeally, the proportions of cell types in the flowsom clusters of the paired samples should be similar, as they are technical replicates.\n\nThe FlowSOM mapping similarity measure can be expressed as follows:\n$\\text{FlowSOM mapping similarity} = 100 - \\text{FlowSOM mapping dissimilarity}$\n\nThe $\\text{FlowSOM mapping dissimilarity}$ is:\n\n$\\text{FlowSOM mapping dissimilarity} = \\sum_{k=1}^{K}w_{k}\\sum_{c=1}^{C}\\abs{P^{split1}_{k,c} - P^{split2}_{k,c}}$\n\nWhere:\n- $K$ is the number of flowsom clusters\n- $C$ is the number of cell types\n- $w_{k}$ is the weight of flowsom cluster $k$. It refers to the number of cells in flowsom cluster $k$, divided by the total number of cells in the flowsom tree. Note: the flowsom tree contains all the cells of a sample pair (both integrated and validation). \n- $P^{split1}_{k,c}$ is the percentage of cell type $c$ in flowsom cluster $k$ of the split 1 sample\n- $P^{split2}_{k,c}$ is the percentage of cell type $c$ in flowsom cluster $k$ of the split 2 sample\n\nThe average FlowSOM mapping similarity among all paired samples is computed and reported as the final metric value.\nUnlabelled cells are excluded from the analysis.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/flowsom_mapping_similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/flowsom_mapping_similarity:build_fix_failed_stuff",
+    "component_name": "flowsom_mapping_similarity",
+    "authors": [],
+    "references": {
+      "doi": ["10.18129/B9.bioc.FlowSOM", "10.1002/cyto.a.22625"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "cms",
+    "label": "Cell Mixing Score",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Cellspecific Mixing Score (cms) quantifies batch effects at the cell level by computing batch-specific distance distributions towards k-nearest neighbouring cells.",
+    "description": "The cellspecific mixing score cms tests for each cell the hypothesis that batch-specific distance \ndistributions towards it's k-nearest neighbouring (knn) cells are derived from the same unspecified \nunderlying distribution using the Anderson-Darling test. The test considers differences in the number of cells \nfrom each batch, making the cms a robust metric when evaluating batch effects in datasets with unbalanced batch sizes.\nThis implementation uses k = 50 knn cells and the first 10 principal components for distance computations.\n\nThe cms for each cell can be interpreted as a P-value, that is, the probability of observing deviations \nin the batch specific distance distributions by chance (assuming they are all derived from the same distribution).\nTherefore, for a given cell:\n- A low cms score indicates that the batch-specific distance distributions towards its knn cells are significantly different, \n  suggesting that the cell is influenced by batch effects.\n- A high cms score indicates that the batch-specific distance distributions towards its knn cells are similar, \n  suggesting that the cell is not influenced by batch effects.\n\n\nTo characterize the overall batch mixing in a dataset, we use the medcouple statistic on the distribution of cms scores.\nThe medcouple is a robust measure of skewness, which is less sensitive to outliers than the traditional skewness measure.\nThe medcouple statistic returns values between -1 and 1, where:\n- A value close to -1 indicates a pronounced left-skewed distribution, reflecting abundance of cells with high cms scores\n- A value close to 1 indicates a pronounced right-skewed distribution, reflecting abundance of cells with low cms scores\n- A value around 0 indicates a symmetrical distribution of cms scores\n\nIt has been empirically observed that a uniform (thus, symmetrical) distribution of cms scores across cells in a dataset is indicative of good mixing\n(e.g. via random shuffling of batch labels in a dataset). Therefore, a medcouple around 0 or lower is considered a good mixing score.\n\nIn this implementation we subset to 60% of the total cells in each split of the technical replicates. The subset is stratified by cell type and sample.\nThe mean medcouple between the two splits of technical replicates is used as the final score.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/cms",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/cms:build_fix_failed_stuff",
+    "component_name": "cms",
+    "authors": [],
+    "references": {
+      "doi": ["10.26508/lsa.202001004"],
+      "bibtex": ["@article{lutge2021cellmixs,\n  title={CellMixS: quantifying and visualizing batch effects in single-cell RNA-seq data},\n  author={L{\\\"u}tge, Almut and Zyprych-Walczak, Joanna and Kunzmann, Urszula Brykczynska and Crowell, Helena L and Calini, Daniela and Malhotra, Dheeraj and Soneson, Charlotte and Robinson, Mark D},\n  journal={Life science alliance},\n  volume={4},\n  number={6},\n  year={2021},\n  publisher={Life Science Alliance}\n}\n", "@article{brys2004robust,\n  title={A robust measure of skewness},\n  author={Brys, Guy and Hubert, Mia and Struyf, Anja},\n  journal={Journal of Computational and Graphical Statistics},\n  volume={13},\n  number={4},\n  pages={996--1017},\n  year={2004},\n  publisher={Taylor \\& Francis}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  },
+  {
+    "name": "bras",
+    "label": "Bras",
+    "commit": "d5fcc03739bf79dc9878a0c3519f296726fe5162",
+    "summary": "Batch removal adapted silhouette (BRAS).",
+    "description": "BRAS evaluates batch effect removal with respect to batch ids within each label (cell type annotations derived from manual gating),\nusing a modified silhouette score that accounts for nested batch effects.\nUnlike standard silhouette, BRAS computes between-cluster distances using the between_cluster_distances method rather than nearest-cluster approach. \nThe implementation is based on the scib-metrics package. The final bras score is the average of the bras scores for both data splits.\nCosine similarity is used as a distance measure.\nA higher scores indicates better batch mixing.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/d5fcc03739bf79dc9878a0c3519f296726fe5162/src/metrics/bras",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/bras:build_fix_failed_stuff",
+    "component_name": "bras",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2025.01.21.634098"],
+      "bibtex": ["@article{rautenstrauch2025metrics,\n  title={Metrics Matter: Why We Need to Stop Using Silhouette in Single-Cell Benchmarking},\n  author={Rautenstrauch, Pia and Ohler, Uwe},\n  journal={bioRxiv},\n  pages={2025--01},\n  year={2025},\n  publisher={Cold Spring Harbor Laboratory}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_fix_failed_stuff"
+  }
+]

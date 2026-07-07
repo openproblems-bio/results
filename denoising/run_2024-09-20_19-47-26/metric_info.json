@@ -1,0 +1,48 @@
+[
+  {
+    "name": "mse",
+    "label": "Mean-squared error",
+    "commit": "f5021bb07bb8638aef9164cc64e742dde4c7fe76",
+    "summary": "The mean squared error between the denoised counts and the true counts.",
+    "description": "The mean squared error between the denoised counts of the training dataset and the true counts of the test dataset after reweighing by the train/test ratio",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/f5021bb07bb8638aef9164cc64e742dde4c7fe76/src/metrics/mse",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/metrics/mse:build_main",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/786269"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/metrics/mse.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "poisson",
+    "label": "Poisson Loss",
+    "commit": "f5021bb07bb8638aef9164cc64e742dde4c7fe76",
+    "summary": "The Poisson log likelihood of the true counts observed in the distribution of denoised counts",
+    "description": "The Poisson log likelihood of observing the true counts of the test dataset given the distribution given in the denoised dataset.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/f5021bb07bb8638aef9164cc64e742dde4c7fe76/src/metrics/poisson",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/metrics/poisson:build_main",
+    "component_name": "poisson",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/786269"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/metrics/poisson.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "build_main"
+  }
+]

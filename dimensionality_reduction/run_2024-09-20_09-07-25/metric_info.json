@@ -1,0 +1,236 @@
+[
+  {
+    "name": "normalized_mutual_information",
+    "label": "NMI",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "Normalized Mutual Information (NMI) is a measure of the concordance between clustering obtained from the reduced-dimensional embeddings and the cell labels.",
+    "description": "The Normalized Mutual Information (NMI) is a measure of the similarity between cluster labels obtained from the clustering of dimensionality reduction embeddings and the true cell labels. It is a normalization of the Mutual Information (MI) score to scale the results between 0 (no mutual information) and 1 (perfect correlation).\nMutual Information quantifies the \"amount of information\" obtained about one random variable by observing the other random variable. Assuming two label assignments X and Y, it is given by:\n  $MI(X,Y) = \\sum_{x=1}^{X}\\sum_{y=1}^{Y}p(x,y)log(\\frac{P(x,y)}{P(x)P'(y)})$,\nwhere P(x,y) is the joint probability mass function of X and Y, and P(x), P'(y) are the marginal probability mass functions of X and Y respectively. The mutual information is normalized by some generalized mean of H(X) and H(Y). Therefore, Normalized Mutual Information can be defined as:\n  $NMI(X,Y) = \\frac{MI(X,Y)}{mean(H(X),H(Y))}$,\nwhere H(X) and H(Y) are the entropies of X and Y respectively. Higher NMI score suggests that the method is effective in preserving relevant information.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/clustering_performance",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/clustering_performance:build_main",
+    "component_name": "clustering_performance",
+    "authors": [],
+    "references": {
+      "doi": ["10.1371/journal.pone.0159161"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "adjusted_rand_index",
+    "label": "ARI",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "Adjusted Rand Index (ARI) is a measure of the similarities between two cluster assignments of the reduced-dimensional embeddings and the true cell types.",
+    "description": "Adjusted Rand Index (ARI) is a measure of similarity between two clusterings by considering all pairs of samples and counting pairs that are assigned in the same or different clusters in the predicted (from the reduced dimensional embeddings) and true clusterings (cell type labels). It is the Rand Index (RI) adjusted for chance.\nAssuming the C as the cell type labels and K as the clustering of the reduced dimensional embedding, Rand Index can be defined as:\n  $RI = \\frac{a + b}{{C}_{2}^{n_{samples}}}$,\nwhere 'a' is the number of pairs of elements that are in the same set in C and in the same set in K, 'b' is the number of pairs of elements that are in different sets in C and in different sets in K, and ${C}_{2}^{n_{samples}}$ is the total number of possible pairs in the dataset. Random label assignments can be discounted as follows:\n  $ARI = \\frac{RI - E[RI]}{max(RI) - E[RI]}$,\nwhere E[RI] is the expected RI of random labellings.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/clustering_performance",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/clustering_performance:build_main",
+    "component_name": "clustering_performance",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@InProceedings{santos2009on,\n  author = {Santos, Jorge M. and Embrechts, Mark\"},\n  editor = {Alippi, Cesare and Polycarpou, Marios and Panayiotou, Christos and Ellinas, Georgios},\n  title = {On the Use of the Adjusted Rand Index as a Metric for Evaluating Supervised Classification},\n  booktitle = {Artificial Neural Networks -- ICANN 2009},\n  year = {2009},\n  publisher = {Springer Berlin Heidelberg},\n  address = {Berlin, Heidelberg},\n  pages = {175--184},\n  isbn = {978-3-642-04277-5},\n  doi = {10.1007/978-3-642-04277-5_18},\n  url = {https://doi.org/10.1007/978-3-642-04277-5_18}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "continuity_at_k30",
+    "label": "Continuity at k=30",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The continuity metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The continuity metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.neunet.2006.05.014"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "trustworthiness_at_k30",
+    "label": "Trustworthiness at k=30",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The trustworthiness metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The trustworthiness metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.neunet.2006.05.014"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "qnx_at_k30",
+    "label": "The value for QNX at k=30",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The QNX metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The QNX metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.neucom.2008.12.017"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "lcmc_at_k30",
+    "label": "The value for LCMC at k=30",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The LCMC metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The LCMC metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.1198/jasa.2009.0111"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "qnx_auc",
+    "label": "Area under the QNX curve",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The AU-QNX metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The AU-QNX metric at k=30 computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.48550/ARXIV.1110.3917"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "qlocal",
+    "label": "Local quality measure",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The local quality metric computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The local quality metric computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.48550/ARXIV.1110.3917"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "qglobal",
+    "label": "Global quality measure",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "The Global quality metric computed on the co-ranking matrix between expression matrix and embedding.",
+    "description": "The Global quality metric computed on the co-ranking matrix between expression matrix and embedding.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/coranking",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/coranking:build_main",
+    "component_name": "coranking",
+    "authors": [],
+    "references": {
+      "doi": ["10.48550/ARXIV.1110.3917"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "density_preservation",
+    "label": "Density preservation",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "Similarity between local densities in the high-dimensional data and the reduced data.",
+    "description": "Similarity between local densities in the high-dimensional data and the reduced data.\nThis is computed as the pearson correlation of local radii with the local radii in the original data space.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/density_preservation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/density_preservation:build_main",
+    "component_name": "density_preservation",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-020-00801-7"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "distance_correlation",
+    "label": "Distance Correlation",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "Calculates the distance correlation by computing Spearman correlations between distances.",
+    "description": "Calculates the distance correlation by computing Spearman correlations\nbetween distances on the full (or processed) data matrix and the\ndimensionally-reduced matrix.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/distance_correlation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/distance_correlation:build_main",
+    "component_name": "distance_correlation",
+    "authors": [],
+    "references": {
+      "doi": ["10.1007/bf02289565"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "distance_correlation_spectral",
+    "label": "Distance Correlation Spectral",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "Spearman correlation between all pairwise diffusion distances in the original and dimension-reduced data.",
+    "description": "Spearman correlation between all pairwise diffusion distances in the\noriginal and dimension-reduced data.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/distance_correlation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/distance_correlation:build_main",
+    "component_name": "distance_correlation",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.acha.2006.04.006"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "trustworthiness",
+    "label": "Trustworthiness at k=15",
+    "commit": "f87631f5c573582a2ca29cd5df74409b99a84187",
+    "summary": "A measurement of similarity between the rank of each point's nearest neighbors in the high-dimensional data and the reduced data.",
+    "description": "A measurement of similarity between the rank of each point's nearest neighbors in the high-dimensional data and the reduced data.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_dimensionality_reduction/blob/f87631f5c573582a2ca29cd5df74409b99a84187/src/metrics/trustworthiness",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_dimensionality_reduction/metrics/trustworthiness:build_main",
+    "component_name": "trustworthiness",
+    "authors": [],
+    "references": {
+      "doi": ["10.1007/3-540-44668-0_68"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]

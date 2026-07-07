@@ -1,0 +1,20 @@
+[
+  {
+    "name": "leomazzi_cyto_spleen",
+    "label": "Leomazzi Spleen Cytometry",
+    "commit": "missing-sha",
+    "summary": "Flow cytometry data of spleens of 8 mice. For each mouse, aliquotes of the same original sample were divided into 2 batches and measured with 2 different instrument settings to allow the creation of sample-paired replicates for benchmarking purposes.",
+    "description": "Flow cytometry data of spleens from 4 WT (IKK2 fl/fl CD11c-cre +/+) and 4 KO (IKK2 fl/fl CD11c-cre Tg/+) B6 mice, measured with a 22-color panel and 2 different instrument settings. Data has been preprocessed (compensated with a batch-specific compensation matrix, logicle transformed, cleaned with PeacoQC and pregated on live single CD45+ cells).",
+    "source_urls": ["https://saeyslab.sites.vib.be/en"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["Mus musculus"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "22-05-2025",
+    "file_size_mb": 467.0921
+  }
+]

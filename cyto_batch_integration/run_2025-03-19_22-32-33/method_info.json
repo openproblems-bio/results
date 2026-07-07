@@ -1,0 +1,173 @@
+[
+  {
+    "name": "shuffle_integration",
+    "label": "Shuffle integration",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Integrations are randomly permuted",
+    "description": "Integrations are randomly permuted",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/control_methods/shuffle_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/shuffle_integration:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "shuffle_integration_by_batch",
+    "label": "Shuffle integration by batch",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Integrations are randomly permuted within each batch",
+    "description": "Integrations are randomly permuted within each batch",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/control_methods/shuffle_integration_by_batch",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/shuffle_integration_by_batch:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "shuffle_integration_by_cell_type",
+    "label": "Shuffle integration by cell type",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Integrations are randomly permuted within each cell type",
+    "description": "Integrations are randomly permuted within each cell type",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/control_methods/shuffle_integration_by_cell_type",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/shuffle_integration_by_cell_type:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "harmonypy",
+    "label": "Harmonypy",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Harmonypy is a port of the harmony R package",
+    "description": "Harmony is a general-purpose R package with an efficient algorithm for integrating multiple data sets. \nIt is especially useful for large single-cell datasets such as single-cell RNA-seq.",
+    "type": "method",
+    "link_code": "https://github.com/slowkow/harmonypy",
+    "link_documentation": "https://portals.broadinstitute.org/harmony",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/methods/harmonypy",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/harmonypy:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0619-0"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "limma_remove_batch_effect",
+    "label": "Limma removeBatchEffect",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Uses a linear model and matrix decomposition to remove batch effects from a dataset",
+    "description": "Limma removeBatchEffect is a method that uses a linear model and matrix\ndecomposition to remove batch effects from a dataset. It first fits a linear\nmodel to the data, then decomposes the model matrix into a set of orthogonal\ncomponents. The batch effect is then removed by subtracting the component\ncorresponding to the batch effect from the data.",
+    "type": "method",
+    "link_code": "https://github.com/bioc/limma",
+    "link_documentation": "https://bioinf.wehi.edu.au/limma",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/methods/limma_remove_batch_effect",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/limma_remove_batch_effect:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/nar/gkv007"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "no_integration",
+    "label": "No Integration",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Control method returning the unintegrated data without performing batch correction.",
+    "description": "The component works by reading and writing back the 'unintegrated' data without performing any operation.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/control_methods/no_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/no_integration:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "perfect_integration",
+    "label": "Perfect Integration",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "Positive control method which imitates what perfect batch integration.",
+    "description": "The method actually just return the validation data but just changing the batch\nand sample ID to those that are in the unintegrated_censored.\nBecause the marker expression is the exactly same as the validation data, there won't\nbe any batch effect present.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_cyto_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/control_methods/perfect_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/control_methods/perfect_integration:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "combat",
+    "label": "Combat",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "ComBat batch correction for single-cell data, implemented in the scanpy package",
+    "description": "Corrects for batch effects by fitting linear models, gains statistical power via an EB framework where information is borrowed across genes. \nThis uses the implementation combat.py",
+    "type": "method",
+    "link_code": "https://github.com/brentp/combat.py",
+    "link_documentation": "https://scanpy.readthedocs.io/en/latest/api/generated/scanpy.pp.combat.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/methods/combat",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/combat:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/biostatistics/kxj037"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "cycombine_nocontrols",
+    "label": "cyCombine (no-controls)",
+    "commit": "24589bd4d6b6318aa15c07ef5214c2ff52204f5d",
+    "summary": "cyCombine perform batch correction by using self-organizing maps and ComBat.",
+    "description": "cyCombine perform batch integration by first using self-organizing maps (SOM) to \ngroup similar cells, then applies a ComBat-based method to correct batch effects within \neach group of similar cells. \n\nHere, we run cyCombine without control samples (replicates in cyCombine terminology).",
+    "type": "method",
+    "link_code": "https://github.com/biosurf/cyCombine",
+    "link_documentation": "https://biosurf.org/cyCombine.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/24589bd4d6b6318aa15c07ef5214c2ff52204f5d/src/methods/cycombine_nocontrols",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/methods/cycombine_nocontrols:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-29383-5"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]

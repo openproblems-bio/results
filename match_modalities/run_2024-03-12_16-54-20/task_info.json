@@ -1,0 +1,55 @@
+{
+  "name": "match_modalities",
+  "commit": null,
+  "label": "Match Modalities",
+  "summary": "Match cells across datasets of the same set of samples on different technologies / modalities.",
+  "description": "In this task, the goal is to learn a latent space where cells profiled by different\ntechnologies in different modalities are matched if they have the same state. We use\njointly profiled data as ground truth so that we can evaluate when the observations\nfrom the same cell acquired using different modalities are similar. A perfect result\nhas each of the paired observations sharing the same coordinates in the latent space.\nA method that can achieve this would be able to match datasets across modalities to\nenable multimodal cellular analysis from separately measured profiles.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Alex Tong",
+      "roles": [
+        "author"
+      ],
+      "github": "atong01",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": null,
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-03-12_16-54-20",
+  "is_prerelease": true,
+  "timestamp": "2024-03-12T16:54:20Z"
+}

@@ -1,0 +1,24 @@
+[
+  {
+    "name": "r2",
+    "label": "R2",
+    "commit": "missing-sha",
+    "summary": "R2 represents the proportion of variance in the true proportions which is explained by the predicted proportions.",
+    "description": "R2, or the “coefficient of determination”, reports the fraction of the true proportion values' variance that can be explained by the predicted proportion values. The best score, and upper bound, is 1.0. There is no fixed lower bound for the metric. The uniform/non-weighted average across all cell types/states is used to summarise performance. By default, cases resulting in a score of NaN (perfect predictions) or -Inf (imperfect predictions) are replaced with 1.0 (perfect predictions) or 0.0 (imperfect predictions) respectively.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "r2",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "miles2005rsquared",
+      "documentation_url": "https://scikit-learn.org/stable/modules/generated/sklearn.metrics.r2_score.html",
+      "repository_url": "https://github.com/scikit-learn/scikit-learn/tree/5c4aa5d0d90ba66247d675d4c3fc2fdfba3c39ff"
+    },
+    "version": "integration_build"
+  }
+]

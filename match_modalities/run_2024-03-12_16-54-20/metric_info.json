@@ -1,0 +1,50 @@
+[
+  {
+    "name": "knn_auc",
+    "label": "kNN Area Under the Curve",
+    "commit": "missing-sha",
+    "summary": "Compute the kNN Area Under the Curve",
+    "description": "Let $f(i) \\u2208 F$ be the scRNA-seq measurement of cell $i$, and $g(i) \\u2208 G$ be the scATAC- seq measurement of cell $i$. kNN-AUC calculates the average percentage overlap of neighborhoods of $f(i)$ in $F$ with neighborhoods of $g(i)$ in $G$. Higher is better.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "knn_auc",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "lance2022multimodal",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/metrics/knn_auc.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "mse",
+    "label": "Mean Squared Error",
+    "commit": "missing-sha",
+    "summary": "Compute the mean squared error.",
+    "description": "Mean squared error (MSE) is the average distance between each pair of matched observations of the same cell in the learned latent space. Lower is better.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "lance2022multimodal",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/metrics/mse.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  }
+]

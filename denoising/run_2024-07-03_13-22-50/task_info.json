@@ -1,0 +1,56 @@
+{
+  "name": "denoising",
+  "commit": null,
+  "label": "Denoising",
+  "summary": "Removing noise in sparse single-cell RNA-sequencing count data",
+  "description": "A key challenge in evaluating denoising methods is the general lack of a ground truth. A\nrecent benchmark study ([Hou et al.,\n2020](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02132-x))\nrelied on flow-sorted datasets, mixture control experiments ([Tian et al.,\n2019](https://www.nature.com/articles/s41592-019-0425-8)), and comparisons with bulk\nRNA-Seq data. Since each of these approaches suffers from specific limitations, it is\ndifficult to combine these different approaches into a single quantitative measure of\ndenoising accuracy. Here, we instead rely on an approach termed molecular\ncross-validation (MCV), which was specifically developed to quantify denoising accuracy\nin the absence of a ground truth ([Batson et al.,\n2019](https://www.biorxiv.org/content/10.1101/786269v1)). In MCV, the observed molecules\nin a given scRNA-Seq dataset are first partitioned between a *training* and a *test*\ndataset. Next, a denoising method is applied to the training dataset. Finally, denoising\naccuracy is measured by comparing the result to the test dataset. The authors show that\nboth in theory and in practice, the measured denoising accuracy is representative of the\naccuracy that would be obtained on a ground truth dataset.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Wesley Lewis",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "wes-lewis",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-07-03_13-22-50",
+  "is_prerelease": true,
+  "timestamp": "2024-07-03T13:22:50Z"
+}

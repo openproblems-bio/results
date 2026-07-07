@@ -1,0 +1,2279 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: predict_modality\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: predict_modality\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: predict_modality\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: predict_modality\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: predict_modality\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: predict_modality\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: predict_modality\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: predict_modality\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: predict_modality\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: predict_modality\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: predict_modality\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: predict_modality\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: predict_modality\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: predict_modality\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.6,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: predict_modality\n  Field: references\n  Percentage missing: 60"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: predict_modality\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: predict_modality\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: predict_modality\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: predict_modality\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: predict_modality\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: predict_modality\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 280,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: predict_modality\n  Number of results: 280\n  Number of datasets: 4\n  Number of methods: 10\n  Number of metrics: 8\n  Expected number of results: 320\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_cite/swap' % missing",
+    "value": 0.025,
+    "severity": 0,
+    "severity_value": 0.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_cite/swap\n  Number of results: 78\n  Expected number of results: 80\n  Percentage missing: 3%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_multiome/swap' % missing",
+    "value": 0.225,
+    "severity": 2,
+    "severity_value": 2.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_multiome/swap\n  Number of results: 62\n  Expected number of results: 80\n  Percentage missing: 22%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_cite/normal' % missing",
+    "value": 0.225,
+    "severity": 2,
+    "severity_value": 2.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_cite/normal\n  Number of results: 62\n  Expected number of results: 80\n  Percentage missing: 22%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_multiome/normal' % missing",
+    "value": 0.025,
+    "severity": 0,
+    "severity_value": 0.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_multiome/normal\n  Number of results: 78\n  Expected number of results: 80\n  Percentage missing: 3%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mean_per_gene' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: mean_per_gene\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_predict' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: random_predict\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'zeros' % missing",
+    "value": 0.25,
+    "severity": 2,
+    "severity_value": 2.5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: zeros\n  Number of results: 24\n  Expected number of results: 32\n  Percentage missing: 25%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'solution' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: solution\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knnr_py' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: knnr_py\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knnr_r' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: knnr_r\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'lm' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: lm\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'newwave_knnr' % missing",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: newwave_knnr\n  Number of results: 16\n  Expected number of results: 32\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_forest' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: random_forest\n  Number of results: 32\n  Expected number of results: 32\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'guanlab_dengkw_pm' % missing",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Number of results: 16\n  Expected number of results: 32\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_pearson_per_cell' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: mean_pearson_per_cell\n  Number of results: 36\n  Expected number of results: 40\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_spearman_per_cell' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: mean_spearman_per_cell\n  Number of results: 36\n  Expected number of results: 40\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_pearson_per_gene' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: mean_pearson_per_gene\n  Number of results: 36\n  Expected number of results: 40\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_spearman_per_gene' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: mean_spearman_per_gene\n  Number of results: 36\n  Expected number of results: 40\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'overall_pearson' % missing",
+    "value": 0.2,
+    "severity": 1,
+    "severity_value": 2,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: overall_pearson\n  Number of results: 32\n  Expected number of results: 40\n  Percentage missing: 20%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'overall_spearman' % missing",
+    "value": 0.2,
+    "severity": 1,
+    "severity_value": 2,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: overall_spearman\n  Number of results: 32\n  Expected number of results: 40\n  Percentage missing: 20%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rmse' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: rmse\n  Number of results: 36\n  Expected number of results: 40\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mae' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: predict_modality\n  Metric: mae\n  Number of results: 36\n  Expected number of results: 40\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 108,
+    "severity": 0,
+    "severity_value": 0.3571,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: predict_modality\n  Succeeded processes: 108\n  Attempted processes: 112\n  Percentage failed: 4%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_cite/swap' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_cite/swap\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_multiome/swap' % failed",
+    "value": 0.2,
+    "severity": 1,
+    "severity_value": 2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_multiome/swap\n  Succeeded processes: 8\n  Attempted processes: 10\n  Percentage failed: 20%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_cite/normal' % failed",
+    "value": 0.2,
+    "severity": 1,
+    "severity_value": 2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_cite/normal\n  Succeeded processes: 8\n  Attempted processes: 10\n  Percentage failed: 20%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_neurips2021/bmmc_multiome/normal' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_multiome/normal\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mean_per_gene' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: mean_per_gene\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_predict' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: random_predict\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'zeros' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: zeros\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'solution' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: solution\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knnr_py' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: knnr_py\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knnr_r' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: knnr_r\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'lm' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: lm\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'newwave_knnr' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: newwave_knnr\n  Succeeded processes: 2\n  Attempted processes: 4\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_forest' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: random_forest\n  Succeeded processes: 4\n  Attempted processes: 4\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'guanlab_dengkw_pm' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Succeeded processes: 2\n  Attempted processes: 4\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'correlation' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Metric component: correlation\n  Succeeded processes: 36\n  Attempted processes: 36\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'mse' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: predict_modality\n  Metric component: mse\n  Succeeded processes: 36\n  Attempted processes: 36\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_neurips2021/bmmc_cite/swap' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_cite/swap\n  Succeeded control_methods: 4\n  Total control methods: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_neurips2021/bmmc_multiome/swap' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_multiome/swap\n  Succeeded control_methods: 4\n  Total control methods: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_neurips2021/bmmc_cite/normal' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_cite/normal\n  Succeeded control_methods: 4\n  Total control methods: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_neurips2021/bmmc_multiome/normal' number of control methods",
+    "value": 4,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: predict_modality\n  Dataset: openproblems_neurips2021/bmmc_multiome/normal\n  Succeeded control_methods: 4\n  Total control methods: 4\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_pearson_per_cell' number of control methods",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: mean_pearson_per_cell\n  Control method scores: 16\n  Expected control method scores: 16\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_spearman_per_cell' number of control methods",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: mean_spearman_per_cell\n  Control method scores: 16\n  Expected control method scores: 16\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_pearson_per_gene' number of control methods",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: mean_pearson_per_gene\n  Control method scores: 16\n  Expected control method scores: 16\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mean_spearman_per_gene' number of control methods",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: mean_spearman_per_gene\n  Control method scores: 16\n  Expected control method scores: 16\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'overall_pearson' number of control methods",
+    "value": 12,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: overall_pearson\n  Control method scores: 12\n  Expected control method scores: 16\n  Percentage succeeded: 75%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'overall_spearman' number of control methods",
+    "value": 12,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: overall_spearman\n  Control method scores: 12\n  Expected control method scores: 16\n  Percentage succeeded: 75%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rmse' number of control methods",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: rmse\n  Control method scores: 16\n  Expected control method scores: 16\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mae' number of control methods",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: predict_modality\n  Metric: mae\n  Control method scores: 16\n  Expected control method scores: 16\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_pearson_per_cell' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: mean_pearson_per_cell\n  Inside range: 36\n  Scaled scores: 36\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_pearson_per_cell' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_pearson_per_cell' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'guanlab_dengkw_pm'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'guanlab_dengkw_pm'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'knnr_py'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'knnr_py'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'knnr_r'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'knnr_r'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'lm'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'lm'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'mean_per_gene'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'mean_per_gene'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'newwave_knnr'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'newwave_knnr'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'random_forest'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'random_forest'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'random_predict'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'random_predict'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'solution'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'solution'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_cell' score for 'zeros'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zeros' performs much worse than controls for metric' mean_pearson_per_cell'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_pearson_per_cell\n  Worst score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_cell' score for 'zeros'",
+    "value": 0.8398,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zeros' performs much better than controls for metric 'mean_pearson_per_cell'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_pearson_per_cell\n  Best score: 0.8398\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_spearman_per_cell' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: mean_spearman_per_cell\n  Inside range: 36\n  Scaled scores: 36\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_spearman_per_cell' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_spearman_per_cell' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'guanlab_dengkw_pm'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'guanlab_dengkw_pm'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'knnr_py'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'knnr_py'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'knnr_r'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'knnr_r'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'lm'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'lm'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'mean_per_gene'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'mean_per_gene'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'newwave_knnr'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'newwave_knnr'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'random_forest'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'random_forest'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'random_predict'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'random_predict'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'solution'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'solution'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_cell' score for 'zeros'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zeros' performs much worse than controls for metric' mean_spearman_per_cell'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_spearman_per_cell\n  Worst score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_cell' score for 'zeros'",
+    "value": 0.3437,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zeros' performs much better than controls for metric 'mean_spearman_per_cell'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_spearman_per_cell\n  Best score: 0.3437\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_pearson_per_gene' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: mean_pearson_per_gene\n  Inside range: 36\n  Scaled scores: 36\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_pearson_per_gene' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_pearson_per_gene' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'guanlab_dengkw_pm'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'guanlab_dengkw_pm'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'knnr_py'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'knnr_py'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'knnr_r'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'knnr_r'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'lm'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'lm'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'mean_per_gene'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'mean_per_gene'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'newwave_knnr'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'newwave_knnr'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'random_forest'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'random_forest'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'random_predict'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'random_predict'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'solution'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'solution'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_pearson_per_gene' score for 'zeros'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zeros' performs much worse than controls for metric' mean_pearson_per_gene'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_pearson_per_gene\n  Worst score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_pearson_per_gene' score for 'zeros'",
+    "value": 0.5846,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zeros' performs much better than controls for metric 'mean_pearson_per_gene'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_pearson_per_gene\n  Best score: 0.5846\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_spearman_per_gene' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: mean_spearman_per_gene\n  Inside range: 36\n  Scaled scores: 36\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_spearman_per_gene' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mean_spearman_per_gene' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'guanlab_dengkw_pm'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'guanlab_dengkw_pm'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'knnr_py'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'knnr_py'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'knnr_r'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'knnr_r'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'lm'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'lm'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: lm\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'mean_per_gene'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'mean_per_gene'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'newwave_knnr'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'newwave_knnr'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'random_forest'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'random_forest'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'random_predict'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'random_predict'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'solution'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'solution'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: solution\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mean_spearman_per_gene' score for 'zeros'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zeros' performs much worse than controls for metric' mean_spearman_per_gene'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_spearman_per_gene\n  Worst score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mean_spearman_per_gene' score for 'zeros'",
+    "value": 0.2253,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zeros' performs much better than controls for metric 'mean_spearman_per_gene'\n  Task: predict_modality\n  Method: zeros\n  Metric: mean_spearman_per_gene\n  Best score: 0.2253\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'overall_pearson' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: overall_pearson\n  Inside range: 32\n  Scaled scores: 32\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'overall_pearson' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'overall_pearson' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'guanlab_dengkw_pm'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'guanlab_dengkw_pm'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'knnr_py'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'knnr_py'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'knnr_r'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'knnr_r'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'lm'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: lm\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'lm'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: lm\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'mean_per_gene'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'mean_per_gene'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'newwave_knnr'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'newwave_knnr'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'random_forest'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: random_forest\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'random_forest'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: random_forest\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'random_predict'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: random_predict\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'random_predict'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: random_predict\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_pearson' score for 'solution'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' overall_pearson'\n  Task: predict_modality\n  Method: solution\n  Metric: overall_pearson\n  Worst score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_pearson' score for 'solution'",
+    "value": 0.7189,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'overall_pearson'\n  Task: predict_modality\n  Method: solution\n  Metric: overall_pearson\n  Best score: 0.718852844381758\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'overall_spearman' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: overall_spearman\n  Inside range: 32\n  Scaled scores: 32\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'overall_spearman' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'overall_spearman' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'guanlab_dengkw_pm'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'guanlab_dengkw_pm'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'knnr_py'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'knnr_py'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'knnr_r'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'knnr_r'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'lm'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: lm\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'lm'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: lm\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'mean_per_gene'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'mean_per_gene'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'newwave_knnr'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'newwave_knnr'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'random_forest'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: random_forest\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'random_forest'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: random_forest\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'random_predict'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: random_predict\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'random_predict'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: random_predict\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'overall_spearman' score for 'solution'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' overall_spearman'\n  Task: predict_modality\n  Method: solution\n  Metric: overall_spearman\n  Worst score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'overall_spearman' score for 'solution'",
+    "value": 0.732,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'overall_spearman'\n  Task: predict_modality\n  Method: solution\n  Metric: overall_spearman\n  Best score: 0.731995468522415\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rmse' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: rmse\n  Inside range: 36\n  Scaled scores: 36\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rmse' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rmse' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'guanlab_dengkw_pm'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'guanlab_dengkw_pm'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'knnr_py'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'knnr_py'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'knnr_r'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'knnr_r'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'lm'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: lm\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'lm'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: lm\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'mean_per_gene'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'mean_per_gene'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'newwave_knnr'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'newwave_knnr'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'random_forest'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: random_forest\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'random_forest'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: random_forest\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'random_predict'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: random_predict\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'random_predict'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: random_predict\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'solution'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: solution\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'solution'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: solution\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rmse' score for 'zeros'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zeros' performs much worse than controls for metric' rmse'\n  Task: predict_modality\n  Method: zeros\n  Metric: rmse\n  Worst score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rmse' score for 'zeros'",
+    "value": 0.7249,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zeros' performs much better than controls for metric 'rmse'\n  Task: predict_modality\n  Method: zeros\n  Metric: rmse\n  Best score: 0.724882149145226\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mae' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: predict_modality\n  Metric: mae\n  Inside range: 36\n  Scaled scores: 36\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mae' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mae' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: predict_modality\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'guanlab_dengkw_pm'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'guanlab_dengkw_pm' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'guanlab_dengkw_pm'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'guanlab_dengkw_pm' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: guanlab_dengkw_pm\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'knnr_py'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_py' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'knnr_py'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_py' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: knnr_py\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'knnr_r'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knnr_r' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'knnr_r'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knnr_r' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: knnr_r\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'lm'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'lm' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: lm\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'lm'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'lm' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: lm\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'mean_per_gene'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mean_per_gene' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'mean_per_gene'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mean_per_gene' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: mean_per_gene\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'newwave_knnr'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'newwave_knnr' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'newwave_knnr'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'newwave_knnr' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: newwave_knnr\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'random_forest'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_forest' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'random_forest'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_forest' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: random_forest\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'random_predict'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_predict' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'random_predict'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_predict' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: random_predict\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'solution'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'solution' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: solution\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'solution'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'solution' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: solution\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mae' score for 'zeros'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'zeros' performs much worse than controls for metric' mae'\n  Task: predict_modality\n  Method: zeros\n  Metric: mae\n  Worst score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mae' score for 'zeros'",
+    "value": 0.7653,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'zeros' performs much better than controls for metric 'mae'\n  Task: predict_modality\n  Method: zeros\n  Metric: mae\n  Best score: 0.765288461538462\n  Percentage outside range: 0%\n"
+  }
+]

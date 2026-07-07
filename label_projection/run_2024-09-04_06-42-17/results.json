@@ -1,0 +1,4966 @@
+[
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.4],
+    "run_cpu_pct": [76.1],
+    "run_peak_memory_mb": [2151],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9525, 0.881, 0.9525, 0.9471],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 2.4],
+        "run_cpu_pct": [614.1, 406.7],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.1, 2.5],
+        "run_cpu_pct": [294.6, 346.2],
+        "run_peak_memory_mb": [2868, 3584],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [110],
+    "run_cpu_pct": [82.7],
+    "run_peak_memory_mb": [5018],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9374, 0.8716, 0.9374, 0.936],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.4, 6.6],
+        "run_cpu_pct": [153.4, 172],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 8.8],
+        "run_cpu_pct": [345.6, 152.6],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.3],
+    "run_cpu_pct": [95.1],
+    "run_peak_memory_mb": [2151],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.1569, 0.0209, 0.1569, 0.0426],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 2.4],
+        "run_cpu_pct": [516.7, 337.2],
+        "run_peak_memory_mb": [2765, 3584],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 3.3],
+        "run_cpu_pct": [654.5, 213.2],
+        "run_peak_memory_mb": [5530, 3687],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [205],
+    "run_cpu_pct": [330.3],
+    "run_peak_memory_mb": [4916],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9455, 0.8667, 0.9455, 0.9419],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.3, 5.1],
+        "run_cpu_pct": [380.9, 287.7],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [281.3, 263.9],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [7.4],
+    "run_cpu_pct": [72],
+    "run_peak_memory_mb": [2151],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8941, 0.8339, 0.8941, 0.9141],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.8, 2.1],
+        "run_cpu_pct": [367.3, 454.6],
+        "run_peak_memory_mb": [5530, 3687],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 2.4],
+        "run_cpu_pct": [692.8, 316],
+        "run_peak_memory_mb": [2868, 3584],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [113],
+    "run_cpu_pct": [8.1],
+    "run_peak_memory_mb": [3482],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.1639, 0.0734, 0.1639, 0.1707],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.3, 5.1],
+        "run_cpu_pct": [369.9, 267.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5.1],
+        "run_cpu_pct": [385.9, 299.3],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [167],
+    "run_cpu_pct": [94],
+    "run_peak_memory_mb": [22221],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9443, 0.8915, 0.9443, 0.9457],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.2],
+        "run_cpu_pct": [310.9, 278.6],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 5.3],
+        "run_cpu_pct": [548.2, 185.1],
+        "run_peak_memory_mb": [1741, 5735],
+        "run_disk_read_mb": [17, 109],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1342],
+    "run_cpu_pct": [100.3],
+    "run_peak_memory_mb": [22016],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9521, 0.896, 0.9521, 0.9512],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 24.8],
+        "run_cpu_pct": [576.9, 36.2],
+        "run_peak_memory_mb": [2868, 5530],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.1],
+        "run_cpu_pct": [576.7, 363.8],
+        "run_peak_memory_mb": [2868, 2970],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [189],
+    "run_cpu_pct": [61.3],
+    "run_peak_memory_mb": [12288],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9548, 0.8689, 0.9548, 0.9488],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [408.5, 222.2],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.2],
+        "run_cpu_pct": [422.2, 242.9],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [871],
+    "run_cpu_pct": [89.8],
+    "run_peak_memory_mb": [9114],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.7839, 0.7807, 0.7839, 0.8375],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.1],
+        "run_cpu_pct": [579.2, 589.1],
+        "run_peak_memory_mb": [2868, 5530],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.2],
+        "run_cpu_pct": [791, 355.2],
+        "run_peak_memory_mb": [5530, 2970],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.2],
+    "run_cpu_pct": [75.6],
+    "run_peak_memory_mb": [824],
+    "run_disk_read_mb": [178],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 3],
+        "run_cpu_pct": [713.3, 240.6],
+        "run_peak_memory_mb": [2765, 3584],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.8, 2.4],
+        "run_cpu_pct": [331.1, 337.4],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/dkd",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [179],
+    "run_cpu_pct": [913],
+    "run_peak_memory_mb": [14439],
+    "run_disk_read_mb": [1332],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9486, 0.8928, 0.9486, 0.9465],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5.1],
+        "run_cpu_pct": [334.7, 253.2],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 107],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5.2],
+        "run_cpu_pct": [240.4, 211.7],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 108],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [11.5],
+    "run_cpu_pct": [256.1],
+    "run_peak_memory_mb": [7680],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8792, 0.3004, 0.8792, 0.8911],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 17.3],
+        "run_cpu_pct": [298.3, 79.5],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.7],
+        "run_cpu_pct": [331.5, 254.8],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [32.1],
+    "run_cpu_pct": [1384.9],
+    "run_peak_memory_mb": [6554],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8966, 0.3378, 0.8966, 0.906],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 6.3],
+        "run_cpu_pct": [404.2, 200.5],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.8, 5.9],
+        "run_cpu_pct": [495.9, 187.6],
+        "run_peak_memory_mb": [2765, 5632],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.1],
+    "run_cpu_pct": [77.5],
+    "run_peak_memory_mb": [4199],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0, 0, 0, 0],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 6],
+        "run_cpu_pct": [440.9, 214.9],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.8, 2.6],
+        "run_cpu_pct": [240.9, 365.8],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [410],
+    "run_cpu_pct": [1554.8],
+    "run_peak_memory_mb": [4711],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8615, 0.2775, 0.8615, 0.8732],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 10.9],
+        "run_cpu_pct": [313.9, 113.7],
+        "run_peak_memory_mb": [1741, 5837],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 10.9],
+        "run_cpu_pct": [329.1, 78.6],
+        "run_peak_memory_mb": [1741, 5837],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [11.7],
+    "run_cpu_pct": [80.5],
+    "run_peak_memory_mb": [6349],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8256, 0.3033, 0.8256, 0.8656],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.5],
+        "run_cpu_pct": [359.6, 372.1],
+        "run_peak_memory_mb": [1741, 3687],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 2.6],
+        "run_cpu_pct": [388.6, 270.8],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [6.9],
+    "run_cpu_pct": [120.6],
+    "run_peak_memory_mb": [5632],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0282, 0.0065, 0.0282, 0.0442],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.6, 2.5],
+        "run_cpu_pct": [528.3, 330.4],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 17.2],
+        "run_cpu_pct": [366.3, 70.6],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [736],
+    "run_cpu_pct": [99],
+    "run_peak_memory_mb": [39424],
+    "run_disk_read_mb": [3072],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8813, 0.288, 0.8813, 0.9057],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 3.4],
+        "run_cpu_pct": [557.7, 361.9],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.3],
+        "run_cpu_pct": [568.1, 197.3],
+        "run_peak_memory_mb": [2868, 1741],
+        "run_disk_read_mb": [17, 243],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2129],
+    "run_cpu_pct": [99.7],
+    "run_peak_memory_mb": [41370],
+    "run_disk_read_mb": [3072],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.898, 0.3409, 0.898, 0.9108],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 6.5],
+        "run_cpu_pct": [290.3, 140.7],
+        "run_peak_memory_mb": [1536, 5837],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 30.6],
+        "run_cpu_pct": [284, 29.3],
+        "run_peak_memory_mb": [1536, 5530],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [458],
+    "run_cpu_pct": [77.7],
+    "run_peak_memory_mb": [20173],
+    "run_disk_read_mb": [3072],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8345, 0.3306, 0.8345, 0.8559],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 2.6],
+        "run_cpu_pct": [324.1, 253.8],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 3],
+        "run_cpu_pct": [392.3, 170.9],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5320],
+    "run_cpu_pct": [100.2],
+    "run_peak_memory_mb": [15975],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5191, 0.1607, 0.5191, 0.6347],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 2.5],
+        "run_cpu_pct": [376.6, 235],
+        "run_peak_memory_mb": [1434, 2970],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 2.5],
+        "run_cpu_pct": [412.7, 217.8],
+        "run_peak_memory_mb": [1434, 2868],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.5],
+    "run_cpu_pct": [74.5],
+    "run_peak_memory_mb": [1844],
+    "run_disk_read_mb": [445],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.9],
+        "run_cpu_pct": [326.2, 274.8],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 2.9],
+        "run_cpu_pct": [614.2, 289.3],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/gtex_v9",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [599],
+    "run_cpu_pct": [2329.6],
+    "run_peak_memory_mb": [26829],
+    "run_disk_read_mb": [2970],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8294, 0.2844, 0.8294, 0.8509],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 10.8],
+        "run_cpu_pct": [606.7, 92.6],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [17, 241],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.4, 10.6],
+        "run_cpu_pct": [284.2, 142.5],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [24.5],
+    "run_cpu_pct": [302.3],
+    "run_peak_memory_mb": [23450],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9633, 0.7455, 0.9633, 0.9606],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 2.5],
+        "run_cpu_pct": [659, 393.9],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.6],
+        "run_cpu_pct": [544.1, 380.9],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [115],
+    "run_cpu_pct": [977.6],
+    "run_peak_memory_mb": [23962],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9345, 0.6663, 0.9345, 0.942],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [44.9, 2.2],
+        "run_cpu_pct": [20.2, 347.7],
+        "run_peak_memory_mb": [2765, 3072],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.5, 6.8],
+        "run_cpu_pct": [282.3, 129.3],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [189],
+    "run_cpu_pct": [25.5],
+    "run_peak_memory_mb": [21197],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0013, 0.0001, 0.0013, 3.3113e-06],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 2.6],
+        "run_cpu_pct": [291.7, 322.1],
+        "run_peak_memory_mb": [2868, 3584],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.5],
+        "run_cpu_pct": [274.9, 349.2],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2222],
+    "run_cpu_pct": [2814.6],
+    "run_peak_memory_mb": [23552],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9571, 0.6913, 0.9571, 0.9584],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.3, 7],
+        "run_cpu_pct": [295.7, 136.7],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 29.1],
+        "run_cpu_pct": [679.2, 30.4],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [23.1],
+    "run_cpu_pct": [130.7],
+    "run_peak_memory_mb": [23450],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9215, 0.5996, 0.9215, 0.9225],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 2.5],
+        "run_cpu_pct": [666.8, 330.8],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.2, 2.4],
+        "run_cpu_pct": [193.1, 258.6],
+        "run_peak_memory_mb": [2765, 3584],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [295],
+    "run_cpu_pct": [11],
+    "run_peak_memory_mb": [20992],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0813, 0.0128, 0.0813, 0.1167],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 3.4],
+        "run_cpu_pct": [450.6, 290.4],
+        "run_peak_memory_mb": [1741, 3789],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 1.9],
+        "run_cpu_pct": [378.8, 438.6],
+        "run_peak_memory_mb": [1741, 3482],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1071],
+    "run_cpu_pct": [100.5],
+    "run_peak_memory_mb": [107520],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9667, 0.7139, 0.9667, 0.9668],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.6],
+        "run_cpu_pct": [648.1, 250.5],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.7],
+        "run_cpu_pct": [480.3, 262.2],
+        "run_peak_memory_mb": [2765, 5632],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2584],
+    "run_cpu_pct": [99.9],
+    "run_peak_memory_mb": [102400],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9663, 0.6965, 0.9663, 0.9652],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 2.4],
+        "run_cpu_pct": [418.2, 277.2],
+        "run_peak_memory_mb": [2868, 2970],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 2.5],
+        "run_cpu_pct": [441, 223.7],
+        "run_peak_memory_mb": [2868, 2868],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4.7],
+    "run_cpu_pct": [175.3],
+    "run_peak_memory_mb": [5837],
+    "run_disk_read_mb": [393],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.1, 9],
+        "run_cpu_pct": [173.7, 143.3],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.5, 3.9],
+        "run_cpu_pct": [220, 322.8],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2578],
+    "run_cpu_pct": [4199.7],
+    "run_peak_memory_mb": [80999],
+    "run_disk_read_mb": [17613],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9386, 0.6541, 0.9386, 0.9418],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 3.2],
+        "run_cpu_pct": [487.1, 309.8],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 215],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3.1],
+        "run_cpu_pct": [535.4, 315.6],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 216],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [19.1],
+    "run_cpu_pct": [112.4],
+    "run_peak_memory_mb": [15668],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9938, 0.8158, 0.9938, 0.9931],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.2],
+        "run_cpu_pct": [391.1, 192.3],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.6, 5.1],
+        "run_cpu_pct": [301.2, 289.2],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [34.4],
+    "run_cpu_pct": [1447],
+    "run_peak_memory_mb": [16692],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9975, 0.8179, 0.9975, 0.9968],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 4.8],
+        "run_cpu_pct": [392.7, 295.4],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [193.2, 229.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [59.3],
+    "run_cpu_pct": [29.2],
+    "run_peak_memory_mb": [14234],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.7918, 0.1473, 0.7918, 0.6998],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [236.7, 249.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.2],
+        "run_cpu_pct": [403.8, 236],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [350],
+    "run_cpu_pct": [2367.5],
+    "run_peak_memory_mb": [16487],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9963, 0.8172, 0.9963, 0.9956],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.6, 9.1],
+        "run_cpu_pct": [203.6, 121.7],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 9.4],
+        "run_cpu_pct": [170.6, 119.6],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [19],
+    "run_cpu_pct": [82.2],
+    "run_peak_memory_mb": [14234],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9925, 0.6837, 0.9925, 0.9923],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5],
+        "run_cpu_pct": [416.7, 284.6],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 5.1],
+        "run_cpu_pct": [454.2, 288.9],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [165],
+    "run_cpu_pct": [17.7],
+    "run_peak_memory_mb": [16282],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.4925, 0.0754, 0.4925, 0.5677],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [428.5, 219],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 5.2],
+        "run_cpu_pct": [351, 122.3],
+        "run_peak_memory_mb": [1844, 5632],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1801],
+    "run_cpu_pct": [100.4],
+    "run_peak_memory_mb": [102196],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9938, 0.8158, 0.9938, 0.9931],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3],
+        "run_cpu_pct": [526.8, 372.7],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 51],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3.1],
+        "run_cpu_pct": [521.2, 310.3],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 52],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3285],
+    "run_cpu_pct": [100.3],
+    "run_peak_memory_mb": [106804],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9938, 0.8158, 0.9938, 0.9931],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.7],
+        "run_cpu_pct": [505.8, 354.3],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 2.9],
+        "run_cpu_pct": [697.1, 332.7],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [986],
+    "run_cpu_pct": [101],
+    "run_peak_memory_mb": [69530],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.995, 0.8165, 0.995, 0.9943],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.1],
+        "run_cpu_pct": [304.1, 211.9],
+        "run_peak_memory_mb": [1536, 1434],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.1],
+        "run_cpu_pct": [572.6, 365],
+        "run_peak_memory_mb": [2868, 2868],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3830],
+    "run_cpu_pct": [100.4],
+    "run_peak_memory_mb": [49869],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.4002, 0.4221, 0.4002, 0.5199],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.8],
+        "run_cpu_pct": [426.8, 385.9],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 3],
+        "run_cpu_pct": [441, 290.6],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.7],
+    "run_cpu_pct": [68.7],
+    "run_peak_memory_mb": [1536],
+    "run_disk_read_mb": [62],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 4.9],
+        "run_cpu_pct": [251.3, 294.4],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5],
+        "run_cpu_pct": [279.1, 284.9],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hypomap",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [729],
+    "run_cpu_pct": [2591.3],
+    "run_peak_memory_mb": [71476],
+    "run_disk_read_mb": [12800],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.995, 0.8165, 0.995, 0.9943],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 1.9],
+        "run_cpu_pct": [253.3, 392.2],
+        "run_peak_memory_mb": [775, 2868],
+        "run_disk_read_mb": [17, 49],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.2],
+        "run_cpu_pct": [591.5, 200.3],
+        "run_peak_memory_mb": [2868, 1639],
+        "run_disk_read_mb": [17, 50],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [31.6],
+    "run_cpu_pct": [229.2],
+    "run_peak_memory_mb": [15668],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8378, 0.7434, 0.8378, 0.8312],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.5],
+        "run_cpu_pct": [312.7, 195.5],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.4],
+        "run_cpu_pct": [344.5, 231.5],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [61],
+    "run_cpu_pct": [905.4],
+    "run_peak_memory_mb": [15872],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8867, 0.7567, 0.8867, 0.8829],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 10.7],
+        "run_cpu_pct": [334.2, 91.5],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 11.1],
+        "run_cpu_pct": [352.8, 115.2],
+        "run_peak_memory_mb": [1844, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [12.6],
+    "run_cpu_pct": [92.7],
+    "run_peak_memory_mb": [11060],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.1476, 0.0076, 0.1476, 0.038],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [332.3, 256.8],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.4],
+        "run_cpu_pct": [389.8, 289.6],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [915],
+    "run_cpu_pct": [2945.3],
+    "run_peak_memory_mb": [15668],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8748, 0.736, 0.8748, 0.875],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.4],
+        "run_cpu_pct": [299.7, 436.8],
+        "run_peak_memory_mb": [1536, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.3],
+        "run_cpu_pct": [838.9, 341],
+        "run_peak_memory_mb": [5530, 3175],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [18.7],
+    "run_cpu_pct": [91.2],
+    "run_peak_memory_mb": [15668],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.7966, 0.6944, 0.7966, 0.805],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 11.1],
+        "run_cpu_pct": [469.3, 108.8],
+        "run_peak_memory_mb": [1741, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.5],
+        "run_cpu_pct": [299.4, 243.8],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [46.5],
+    "run_cpu_pct": [25.4],
+    "run_peak_memory_mb": [6349],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0701, 0.0215, 0.0701, 0.0903],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 11],
+        "run_cpu_pct": [527, 118.3],
+        "run_peak_memory_mb": [1741, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 10.5],
+        "run_cpu_pct": [406.8, 111.5],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1018],
+    "run_cpu_pct": [99],
+    "run_peak_memory_mb": [59700],
+    "run_disk_read_mb": [9933],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9052, 0.7887, 0.9052, 0.9054],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.8],
+        "run_cpu_pct": [577.8, 567.2],
+        "run_peak_memory_mb": [2868, 5632],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 4.5],
+        "run_cpu_pct": [256.6, 166.4],
+        "run_peak_memory_mb": [775, 5940],
+        "run_disk_read_mb": [17, 301],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2453],
+    "run_cpu_pct": [99.7],
+    "run_peak_memory_mb": [62874],
+    "run_disk_read_mb": [9933],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8971, 0.8043, 0.8971, 0.8965],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.3],
+        "run_cpu_pct": [234.2, 198.4],
+        "run_peak_memory_mb": [5530, 1844],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 7.4],
+        "run_cpu_pct": [306.2, 155.3],
+        "run_peak_memory_mb": [1536, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [972],
+    "run_cpu_pct": [101.5],
+    "run_peak_memory_mb": [53863],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8207, 0.7153, 0.8207, 0.813],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.4],
+        "run_cpu_pct": [578.5, 187.7],
+        "run_peak_memory_mb": [2868, 1741],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.3],
+        "run_cpu_pct": [294.4, 339.8],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [65],
+    "run_cpu_pct": [20.5],
+    "run_peak_memory_mb": [2765],
+    "run_disk_read_mb": [562],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 10.5],
+        "run_cpu_pct": [238.1, 144],
+        "run_peak_memory_mb": [1741, 5837],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.1],
+        "run_cpu_pct": [360, 445.3],
+        "run_peak_memory_mb": [1741, 3892],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1525],
+    "run_cpu_pct": [2805.8],
+    "run_peak_memory_mb": [56628],
+    "run_disk_read_mb": [9831],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8445, 0.7583, 0.8445, 0.845],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.2],
+        "run_cpu_pct": [559.9, 202.9],
+        "run_peak_memory_mb": [2868, 1844],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 2.3],
+        "run_cpu_pct": [517.5, 327.7],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 300],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [21.5],
+    "run_cpu_pct": [214.3],
+    "run_peak_memory_mb": [18637],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9323, 0.8524, 0.9323, 0.932],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.7, 10.4],
+        "run_cpu_pct": [209.8, 88.7],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.7, 10.4],
+        "run_cpu_pct": [229.8, 91],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [39.1],
+    "run_cpu_pct": [1308.2],
+    "run_peak_memory_mb": [19149],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9283, 0.8577, 0.9283, 0.9271],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.3],
+        "run_cpu_pct": [286.6, 341],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 3.2],
+        "run_cpu_pct": [577.8, 382.5],
+        "run_peak_memory_mb": [2868, 5530],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [115],
+    "run_cpu_pct": [16.3],
+    "run_peak_memory_mb": [16794],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2209, 0.0278, 0.2209, 0.0799],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.2, 6.7],
+        "run_cpu_pct": [191.8, 191.5],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 2.6],
+        "run_cpu_pct": [462.9, 349.8],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [745],
+    "run_cpu_pct": [2695.8],
+    "run_peak_memory_mb": [19047],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9272, 0.8504, 0.9272, 0.9273],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.2],
+        "run_cpu_pct": [575, 360.5],
+        "run_peak_memory_mb": [2868, 3175],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 32],
+        "run_cpu_pct": [517.5, 34.7],
+        "run_peak_memory_mb": [2868, 5632],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [17.6],
+    "run_cpu_pct": [136.8],
+    "run_peak_memory_mb": [19047],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8467, 0.7987, 0.8467, 0.8534],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.2],
+        "run_cpu_pct": [290.4, 350.7],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.4],
+        "run_cpu_pct": [878.3, 493],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [115],
+    "run_cpu_pct": [15.8],
+    "run_peak_memory_mb": [16487],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.1416, 0.0665, 0.1416, 0.138],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 2.7],
+        "run_cpu_pct": [291, 356.6],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.4],
+        "run_cpu_pct": [684.7, 393.7],
+        "run_peak_memory_mb": [3482, 3789],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [894],
+    "run_cpu_pct": [98.7],
+    "run_peak_memory_mb": [56116],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9379, 0.864, 0.9379, 0.9367],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.2],
+        "run_cpu_pct": [302.2, 354.9],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.2],
+        "run_cpu_pct": [577.4, 208.1],
+        "run_peak_memory_mb": [2868, 1844],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2150],
+    "run_cpu_pct": [99.7],
+    "run_peak_memory_mb": [58573],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9326, 0.8534, 0.9326, 0.9294],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3, 5],
+        "run_cpu_pct": [398, 200.3],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 3.2],
+        "run_cpu_pct": [267.3, 282],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [817],
+    "run_cpu_pct": [101.5],
+    "run_peak_memory_mb": [71271],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8875, 0.774, 0.8875, 0.8882],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.2],
+        "run_cpu_pct": [559.7, 343],
+        "run_peak_memory_mb": [2868, 3175],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.4],
+        "run_cpu_pct": [528.7, 192.3],
+        "run_peak_memory_mb": [2868, 1844],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4.8],
+    "run_cpu_pct": [149.2],
+    "run_peak_memory_mb": [2868],
+    "run_disk_read_mb": [541],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.3],
+        "run_cpu_pct": [300.1, 292.8],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.3],
+        "run_cpu_pct": [367.9, 273.1],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [428],
+    "run_cpu_pct": [2287.5],
+    "run_peak_memory_mb": [58983],
+    "run_disk_read_mb": [13312],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9283, 0.8367, 0.9283, 0.9265],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.4],
+        "run_cpu_pct": [923.3, 320.7],
+        "run_peak_memory_mb": [5530, 3072],
+        "run_disk_read_mb": [17, 289],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.3],
+        "run_cpu_pct": [331.5, 342.4],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 290],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [28.8],
+    "run_cpu_pct": [210.6],
+    "run_peak_memory_mb": [25191],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5661, 0.1079, 0.5661, 0.589],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 10.7],
+        "run_cpu_pct": [372.6, 84.8],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 11.1],
+        "run_cpu_pct": [466.9, 96.5],
+        "run_peak_memory_mb": [1741, 5735],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [312],
+    "run_cpu_pct": [509.2],
+    "run_peak_memory_mb": [26522],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5758, 0.1188, 0.5758, 0.6066],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 23.4],
+        "run_cpu_pct": [570.4, 37.4],
+        "run_peak_memory_mb": [2868, 5530],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.3],
+        "run_cpu_pct": [290.6, 342.4],
+        "run_peak_memory_mb": [1536, 3175],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [267],
+    "run_cpu_pct": [18.3],
+    "run_peak_memory_mb": [25088],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.246, 0.0158, 0.246, 0.0971],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 8],
+        "run_cpu_pct": [302, 166.9],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.4, 17],
+        "run_cpu_pct": [456.3, 65.8],
+        "run_peak_memory_mb": [5530, 5428],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [2055],
+    "run_cpu_pct": [3020],
+    "run_peak_memory_mb": [25805],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5309, 0.1173, 0.5309, 0.5679],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3.2],
+        "run_cpu_pct": [533, 275.7],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 3.4],
+        "run_cpu_pct": [501.5, 340.7],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [25.2],
+    "run_cpu_pct": [104.2],
+    "run_peak_memory_mb": [22016],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5628, 0.1352, 0.5628, 0.6048],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.4, 5.3],
+        "run_cpu_pct": [109.6, 170.2],
+        "run_peak_memory_mb": [5530, 5940],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.6, 6],
+        "run_cpu_pct": [166.4, 156.8],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [153],
+    "run_cpu_pct": [36.7],
+    "run_peak_memory_mb": [25088],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0406, 0.0038, 0.0406, 0.0586],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 4.2],
+        "run_cpu_pct": [588.5, 194.8],
+        "run_peak_memory_mb": [2868, 5632],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 7.4],
+        "run_cpu_pct": [589.3, 121.1],
+        "run_peak_memory_mb": [2868, 5940],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1993],
+    "run_cpu_pct": [100.1],
+    "run_peak_memory_mb": [146023],
+    "run_disk_read_mb": [19559],
+    "run_disk_write_mb": [3],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5908, 0.1295, 0.5908, 0.6033],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 3.2],
+        "run_cpu_pct": [485.8, 310.8],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [17, 328],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3.3],
+        "run_cpu_pct": [548.4, 301],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [17, 329],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4734],
+    "run_cpu_pct": [100.1],
+    "run_peak_memory_mb": [154522],
+    "run_disk_read_mb": [19559],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.6053, 0.1326, 0.6053, 0.587],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3],
+        "run_cpu_pct": [521.5, 266],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 3],
+        "run_cpu_pct": [661.7, 284.4],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [42.7],
+    "run_cpu_pct": [14.6],
+    "run_peak_memory_mb": [4096],
+    "run_disk_read_mb": [616],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 10.5],
+        "run_cpu_pct": [492.4, 153.5],
+        "run_peak_memory_mb": [1741, 5940],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.2],
+        "run_cpu_pct": [333.9, 445],
+        "run_peak_memory_mb": [1741, 3892],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5662],
+    "run_cpu_pct": [4152.1],
+    "run_peak_memory_mb": [100045],
+    "run_disk_read_mb": [19456],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.5047, 0.115, 0.5047, 0.569],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 3],
+        "run_cpu_pct": [548.8, 328.2],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 326],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3],
+        "run_cpu_pct": [537.7, 328],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 327],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3.1],
+    "run_cpu_pct": [281.2],
+    "run_peak_memory_mb": [3482],
+    "run_disk_read_mb": [766],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8179, 0.3601, 0.8179, 0.8226],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.3],
+        "run_cpu_pct": [369.8, 289.7],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 4.4],
+        "run_cpu_pct": [367.8, 221.3],
+        "run_peak_memory_mb": [1844, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [36.9],
+    "run_cpu_pct": [1554.1],
+    "run_peak_memory_mb": [4301],
+    "run_disk_read_mb": [765],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.879, 0.4803, 0.879, 0.8692],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.6, 5.9],
+        "run_cpu_pct": [346.7, 218.3],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 6.5],
+        "run_cpu_pct": [464, 202.8],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5],
+    "run_cpu_pct": [90.8],
+    "run_peak_memory_mb": [1639],
+    "run_disk_read_mb": [754],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0222, 0.0005, 0.0222, 0.001],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 8.6],
+        "run_cpu_pct": [352.5, 152.4],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 4.3],
+        "run_cpu_pct": [309.8, 285.8],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [623],
+    "run_cpu_pct": [3392],
+    "run_peak_memory_mb": [4506],
+    "run_disk_read_mb": [765],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8484, 0.4155, 0.8484, 0.8468],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 7.5],
+        "run_cpu_pct": [592.9, 169.2],
+        "run_peak_memory_mb": [2868, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.1],
+        "run_cpu_pct": [579.6, 371.8],
+        "run_peak_memory_mb": [2868, 2868],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [88],
+    "run_cpu_pct": [16.2],
+    "run_peak_memory_mb": [5530],
+    "run_disk_read_mb": [764],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.7831, 0.4153, 0.7831, 0.8108],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [262.4, 203.8],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [339.3, 247.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.3],
+    "run_cpu_pct": [82.7],
+    "run_peak_memory_mb": [1536],
+    "run_disk_read_mb": [754],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0156, 0.0026, 0.0156, 0.0246],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 8.5],
+        "run_cpu_pct": [406, 142.9],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 6.5],
+        "run_cpu_pct": [192.7, 200.7],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [403],
+    "run_cpu_pct": [101.4],
+    "run_peak_memory_mb": [42394],
+    "run_disk_read_mb": [823],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8892, 0.5461, 0.8892, 0.8921],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.1],
+        "run_cpu_pct": [561.1, 360.6],
+        "run_peak_memory_mb": [2868, 2868],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.1],
+        "run_cpu_pct": [303.2, 206.4],
+        "run_peak_memory_mb": [1536, 1434],
+        "run_disk_read_mb": [17, 36],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1599],
+    "run_cpu_pct": [100.6],
+    "run_peak_memory_mb": [31232],
+    "run_disk_read_mb": [816],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9047, 0.6001, 0.9047, 0.8937],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 25.4],
+        "run_cpu_pct": [279, 34.6],
+        "run_peak_memory_mb": [824, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 5.6],
+        "run_cpu_pct": [421.1, 209.6],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [245],
+    "run_cpu_pct": [74.7],
+    "run_peak_memory_mb": [11776],
+    "run_disk_read_mb": [793],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8586, 0.4654, 0.8586, 0.8464],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5],
+        "run_cpu_pct": [365.3, 305],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.2],
+        "run_cpu_pct": [399.7, 246],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [985],
+    "run_cpu_pct": [87.5],
+    "run_peak_memory_mb": [11367],
+    "run_disk_read_mb": [785],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.6974, 0.2756, 0.6974, 0.7267],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.1],
+        "run_cpu_pct": [833.4, 510.5],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2],
+        "run_cpu_pct": [572.1, 373.2],
+        "run_peak_memory_mb": [2868, 2868],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [78],
+    "run_cpu_pct": [16.3],
+    "run_peak_memory_mb": [2765],
+    "run_disk_read_mb": [33],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5],
+        "run_cpu_pct": [353.5, 199.7],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5.1],
+        "run_cpu_pct": [308.8, 197.2],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/cengen",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1185],
+    "run_cpu_pct": [4481],
+    "run_peak_memory_mb": [21095],
+    "run_disk_read_mb": [765],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8382, 0.5006, 0.8382, 0.842],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 5.9],
+        "run_cpu_pct": [571.4, 218.7],
+        "run_peak_memory_mb": [2868, 5632],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.7],
+        "run_cpu_pct": [626.5, 159.9],
+        "run_peak_memory_mb": [2765, 1536],
+        "run_disk_read_mb": [17, 35],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3],
+    "run_cpu_pct": [289.1],
+    "run_peak_memory_mb": [3994],
+    "run_disk_read_mb": [825],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8627, 0.763, 0.8627, 0.859],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [327.9, 177.6],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [341.6, 251.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [7],
+    "run_cpu_pct": [1268.1],
+    "run_peak_memory_mb": [4506],
+    "run_disk_read_mb": [824],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9022, 0.8118, 0.9022, 0.9016],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.2, 5.7],
+        "run_cpu_pct": [324.9, 153.4],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [274.1, 273.6],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [115],
+    "run_cpu_pct": [7.8],
+    "run_peak_memory_mb": [5940],
+    "run_disk_read_mb": [812],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.4378, 0.0677, 0.4378, 0.2666],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.7, 10.2],
+        "run_cpu_pct": [220.5, 98.2],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 10.9],
+        "run_cpu_pct": [366.6, 123.6],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [29.6],
+    "run_cpu_pct": [2496.6],
+    "run_peak_memory_mb": [6452],
+    "run_disk_read_mb": [823],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8814, 0.7887, 0.8814, 0.8821],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 5],
+        "run_cpu_pct": [627.6, 286.6],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 6.6],
+        "run_cpu_pct": [364.4, 167.5],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3.1],
+    "run_cpu_pct": [217.4],
+    "run_peak_memory_mb": [3584],
+    "run_disk_read_mb": [822],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8747, 0.791, 0.8747, 0.8765],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5],
+        "run_cpu_pct": [345.2, 225.4],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5.1],
+        "run_cpu_pct": [363.3, 296.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.4],
+    "run_cpu_pct": [135.7],
+    "run_peak_memory_mb": [3687],
+    "run_disk_read_mb": [812],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2052, 0.0598, 0.2052, 0.2275],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 4.9],
+        "run_cpu_pct": [282, 248.5],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.4, 5.8],
+        "run_cpu_pct": [413.5, 171.1],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [111],
+    "run_cpu_pct": [90.3],
+    "run_peak_memory_mb": [19149],
+    "run_disk_read_mb": [882],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.901, 0.8191, 0.901, 0.9033],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 4.9],
+        "run_cpu_pct": [238.7, 242.1],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4, 6],
+        "run_cpu_pct": [275, 199.6],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [526],
+    "run_cpu_pct": [98.5],
+    "run_peak_memory_mb": [18740],
+    "run_disk_read_mb": [875],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9035, 0.818, 0.9035, 0.9066],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.1],
+        "run_cpu_pct": [817.9, 558.3],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 2],
+        "run_cpu_pct": [387.2, 374.3],
+        "run_peak_memory_mb": [2765, 2868],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [74],
+    "run_cpu_pct": [113.9],
+    "run_peak_memory_mb": [9933],
+    "run_disk_read_mb": [851],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.903, 0.9065, 0.903, 0.9035],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [300.9, 275],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [298.8, 184.8],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4.3],
+    "run_cpu_pct": [161.5],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [91],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 6.6],
+        "run_cpu_pct": [386.9, 174.6],
+        "run_peak_memory_mb": [1844, 5632],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 4.3],
+        "run_cpu_pct": [564.4, 325.3],
+        "run_peak_memory_mb": [2868, 5632],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [86],
+    "run_cpu_pct": [2056.8],
+    "run_peak_memory_mb": [13517],
+    "run_disk_read_mb": [824],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.891, 0.8061, 0.891, 0.8923],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5],
+        "run_cpu_pct": [315.1, 220.3],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.2],
+        "run_cpu_pct": [342.2, 227.8],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 64],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [9.5],
+    "run_cpu_pct": [82.8],
+    "run_peak_memory_mb": [4506],
+    "run_disk_read_mb": [884],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9483, 0.6335, 0.9483, 0.9379],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 1.8],
+        "run_cpu_pct": [348.8, 497.9],
+        "run_peak_memory_mb": [1741, 3482],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 10.3],
+        "run_cpu_pct": [365.3, 138.4],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [56.7],
+    "run_cpu_pct": [59.7],
+    "run_peak_memory_mb": [3584],
+    "run_disk_read_mb": [884],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2571, 0.3054, 0.2571, 0.3379],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 2.4],
+        "run_cpu_pct": [313.7, 381.6],
+        "run_peak_memory_mb": [2868, 3584],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 2.4],
+        "run_cpu_pct": [347.9, 292.6],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.5],
+    "run_cpu_pct": [140],
+    "run_peak_memory_mb": [6349],
+    "run_disk_read_mb": [872],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.3746, 0.0419, 0.3746, 0.2042],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.6, 5.1],
+        "run_cpu_pct": [277.4, 241.2],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 2.4],
+        "run_cpu_pct": [422.9, 405.8],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [10.3],
+    "run_cpu_pct": [848.5],
+    "run_peak_memory_mb": [6554],
+    "run_disk_read_mb": [883],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9451, 0.7083, 0.9451, 0.9396],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.5],
+        "run_cpu_pct": [297, 295.1],
+        "run_peak_memory_mb": [1741, 3584],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.2, 3.8],
+        "run_cpu_pct": [132.5, 348.2],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [3.5],
+    "run_cpu_pct": [204.7],
+    "run_peak_memory_mb": [6452],
+    "run_disk_read_mb": [882],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.6238, 0.5442, 0.6238, 0.5887],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 10.2],
+        "run_cpu_pct": [407.2, 115.5],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 5.3],
+        "run_cpu_pct": [479.7, 137.8],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.1],
+    "run_cpu_pct": [149.2],
+    "run_peak_memory_mb": [3072],
+    "run_disk_read_mb": [872],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2382, 0.078, 0.2382, 0.2607],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 5.2],
+        "run_cpu_pct": [425.4, 217.9],
+        "run_peak_memory_mb": [1844, 5530],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 10.4],
+        "run_cpu_pct": [499.1, 142.7],
+        "run_peak_memory_mb": [1844, 5530],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [72],
+    "run_cpu_pct": [98.7],
+    "run_peak_memory_mb": [35636],
+    "run_disk_read_mb": [942],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9279, 0.6252, 0.9279, 0.9228],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.6],
+        "run_cpu_pct": [525.6, 384.7],
+        "run_peak_memory_mb": [2765, 5632],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.2],
+        "run_cpu_pct": [876.6, 483.7],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [569],
+    "run_cpu_pct": [99.7],
+    "run_peak_memory_mb": [33280],
+    "run_disk_read_mb": [935],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.906, 0.6444, 0.906, 0.9103],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.1],
+        "run_cpu_pct": [560.8, 372.7],
+        "run_peak_memory_mb": [2868, 2868],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.2],
+        "run_cpu_pct": [307.2, 204.3],
+        "run_peak_memory_mb": [1536, 1639],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [55.1],
+    "run_cpu_pct": [102.7],
+    "run_peak_memory_mb": [8090],
+    "run_disk_read_mb": [911],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9765, 0.804, 0.9765, 0.9746],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.4, 3.7],
+        "run_cpu_pct": [627.3, 312.4],
+        "run_peak_memory_mb": [1844, 5632],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.2, 2.9],
+        "run_cpu_pct": [186.1, 270],
+        "run_peak_memory_mb": [2765, 3584],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [134],
+    "run_cpu_pct": [101.6],
+    "run_peak_memory_mb": [6964],
+    "run_disk_read_mb": [903],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.8903, 0.5334, 0.8903, 0.8743],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 5],
+        "run_cpu_pct": [710.8, 238.6],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.1],
+        "run_cpu_pct": [318.7, 280.2],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1.7],
+    "run_cpu_pct": [295.1],
+    "run_peak_memory_mb": [1741],
+    "run_disk_read_mb": [156],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.5],
+        "run_cpu_pct": [341.3, 201.9],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.4],
+        "run_cpu_pct": [409.3, 321],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/pancreas",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [73],
+    "run_cpu_pct": [1789.6],
+    "run_peak_memory_mb": [14439],
+    "run_disk_read_mb": [883],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.9561, 0.8257, 0.9561, 0.952],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.7, 2.9],
+        "run_cpu_pct": [170.8, 252.5],
+        "run_peak_memory_mb": [5530, 2868],
+        "run_disk_read_mb": [17, 96],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.8],
+        "run_cpu_pct": [352.2, 151.2],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 97],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "knn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.3],
+    "run_cpu_pct": [517.4],
+    "run_peak_memory_mb": [8807],
+    "run_disk_read_mb": [792],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2718, 0.1904, 0.2718, 0.2486],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 2.7],
+        "run_cpu_pct": [387.4, 264.7],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.7, 2.5],
+        "run_cpu_pct": [339.9, 297.5],
+        "run_peak_memory_mb": [2868, 3584],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "logistic_regression",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.3],
+    "run_cpu_pct": [339.4],
+    "run_peak_memory_mb": [6452],
+    "run_disk_read_mb": [792],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2821, 0.1736, 0.2821, 0.229],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 3.4],
+        "run_cpu_pct": [436.2, 284.3],
+        "run_peak_memory_mb": [1741, 3789],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.6],
+        "run_cpu_pct": [289.9, 285],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "majority_vote",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [5.5],
+    "run_cpu_pct": [143.5],
+    "run_peak_memory_mb": [3584],
+    "run_disk_read_mb": [780],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.0432, 0.0034, 0.0432, 0.0036],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.5],
+        "run_cpu_pct": [253.2, 276.3],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.7],
+        "run_cpu_pct": [242.3, 299.2],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "mlp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [19.8],
+    "run_cpu_pct": [2256.6],
+    "run_peak_memory_mb": [4404],
+    "run_disk_read_mb": [791],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2776, 0.203, 0.2776, 0.2463],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.5, 16.8],
+        "run_cpu_pct": [405.2, 85],
+        "run_peak_memory_mb": [5530, 2765],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 16.9],
+        "run_cpu_pct": [236.6, 60.8],
+        "run_peak_memory_mb": [5530, 5428],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "naive_bayes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [9.9],
+    "run_cpu_pct": [138.1],
+    "run_peak_memory_mb": [6349],
+    "run_disk_read_mb": [790],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.214, 0.1791, 0.214, 0.2182],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.6],
+        "run_cpu_pct": [240.6, 298.1],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 2.7],
+        "run_cpu_pct": [242.4, 363.7],
+        "run_peak_memory_mb": [5530, 3584],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "random_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.3],
+    "run_cpu_pct": [79.1],
+    "run_peak_memory_mb": [4199],
+    "run_disk_read_mb": [780],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.031, 0.0181, 0.031, 0.019],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.8, 2.7],
+        "run_cpu_pct": [331.7, 205.9],
+        "run_peak_memory_mb": [2868, 3584],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 10.5],
+        "run_cpu_pct": [434.9, 105.4],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "scanvi",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [113],
+    "run_cpu_pct": [100.3],
+    "run_peak_memory_mb": [36148],
+    "run_disk_read_mb": [849],
+    "run_disk_write_mb": [2],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.284, 0.1892, 0.284, 0.2388],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.2, 2.3],
+        "run_cpu_pct": [567.7, 340.7],
+        "run_peak_memory_mb": [2868, 3175],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 5.9],
+        "run_cpu_pct": [631.8, 191.1],
+        "run_peak_memory_mb": [2765, 5632],
+        "run_disk_read_mb": [17, 307],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "scanvi_scarches",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [643],
+    "run_cpu_pct": [98.8],
+    "run_peak_memory_mb": [18944],
+    "run_disk_read_mb": [842],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.2833, 0.2151, 0.2833, 0.2546],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.3, 2.2],
+        "run_cpu_pct": [1009.3, 355.2],
+        "run_peak_memory_mb": [5530, 3175],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.1],
+        "run_cpu_pct": [342.1, 372.9],
+        "run_peak_memory_mb": [1434, 3175],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [56.9],
+    "run_cpu_pct": [115.1],
+    "run_peak_memory_mb": [7066],
+    "run_disk_read_mb": [819],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.3436, 0.2637, 0.3436, 0.3013],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 3.8],
+        "run_cpu_pct": [245.5, 317.8],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [5.1, 9.2],
+        "run_cpu_pct": [158, 141.5],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "true_labels",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.3],
+    "run_cpu_pct": [62.4],
+    "run_peak_memory_mb": [3994],
+    "run_disk_read_mb": [573],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [1, 1, 1, 1],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.6, 10.2],
+        "run_cpu_pct": [239.3, 128.8],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 10.5],
+        "run_cpu_pct": [305.7, 119.4],
+        "run_peak_memory_mb": [1741, 5632],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "xgboost",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [101],
+    "run_cpu_pct": [3642.1],
+    "run_peak_memory_mb": [20890],
+    "run_disk_read_mb": [791],
+    "run_disk_write_mb": [1],
+    "metric_names": ["accuracy", "f1_macro", "f1_micro", "f1_weighted"],
+    "metric_values": [0.279, 0.2206, 0.279, 0.2525],
+    "metric_components": [
+      {
+        "component_name": "accuracy",
+        "metric_names": ["accuracy"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [3.5, 5.3],
+        "run_cpu_pct": [321.6, 271.3],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [17, 305],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "f1",
+        "metric_names": ["f1_weighted", "f1_macro", "f1_micro"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.4, 9.2],
+        "run_cpu_pct": [101, 151.7],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [17, 306],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [2320],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/hcla",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [14410],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/immune_cell_atlas",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [14410],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/mouse_pancreas_atlas",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [14410],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "seurat_transferdata",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [1260],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "cellxgene_census/tabula_sapiens",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [143],
+    "run_duration_secs": [14400],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_v1/immune_cells",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [20.1],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  },
+  {
+    "dataset_name": "openproblems_v1/zebrafish",
+    "method_name": "singler",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": false,
+    "run_exit_code": [1],
+    "run_duration_secs": [20],
+    "run_cpu_pct": [],
+    "run_peak_memory_mb": [],
+    "run_disk_read_mb": [],
+    "run_disk_write_mb": [],
+    "metric_names": [],
+    "metric_values": [],
+    "metric_components": []
+  }
+]

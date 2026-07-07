@@ -1,0 +1,162 @@
+[
+  {
+    "name": "mean_pearson_per_cell",
+    "label": "Mean pearson per cell",
+    "commit": "missing-sha",
+    "summary": "The mean of the pearson values of per-cell expression value vectors.",
+    "description": "The mean of the pearson values of per-cell expression value vectors.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "pearson1895regression"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "mean_spearman_per_cell",
+    "label": "Mean spearman per cell",
+    "commit": "missing-sha",
+    "summary": "The mean of the spearman values of per-cell expression value vectors.",
+    "description": "The mean of the spearman values of per-cell expression value vectors.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "kendall1938new"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "mean_pearson_per_gene",
+    "label": "Mean pearson per gene",
+    "commit": "missing-sha",
+    "summary": "The mean of the pearson values of per-gene expression value vectors.",
+    "description": "The mean of the pearson values of per-gene expression value vectors.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "pearson1895regression"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "mean_spearman_per_gene",
+    "label": "Mean spearman per gene",
+    "commit": "missing-sha",
+    "summary": "The mean of the spearman values of per-gene expression value vectors.",
+    "description": "The mean of the spearman values of per-gene expression value vectors.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "kendall1938new"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "overall_pearson",
+    "label": "Overall pearson",
+    "commit": "missing-sha",
+    "summary": "The mean of the pearson values of vectorized expression matrices.",
+    "description": "The mean of the pearson values of vectorized expression matrices.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "pearson1895regression"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "overall_spearman",
+    "label": "Overall spearman",
+    "commit": "missing-sha",
+    "summary": "The mean of the spearman values of vectorized expression matrices.",
+    "description": "The mean of the spearman values of vectorized expression matrices.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "correlation",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "kendall1938new"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "rmse",
+    "label": "RMSE",
+    "commit": "missing-sha",
+    "summary": "The root mean squared error.",
+    "description": "The square root of the mean of the square of all of the error.",
+    "maximize": false,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "chai2014root"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "mae",
+    "label": "MAE",
+    "commit": "missing-sha",
+    "summary": "The mean absolute error.",
+    "description": "The average difference between the expression values and the predicted expression values.",
+    "maximize": false,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "mse",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "chai2014root"
+    },
+    "version": "main_build"
+  }
+]

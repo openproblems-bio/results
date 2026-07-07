@@ -1,0 +1,866 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: spatially_variable_genes\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: spatially_variable_genes\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: spatially_variable_genes\n  Field: references\n  Percentage missing: 88"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: spatially_variable_genes\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: spatially_variable_genes\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 16,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: spatially_variable_genes\n  Number of results: 16\n  Number of datasets: 1\n  Number of methods: 16\n  Number of metrics: 1\n  Expected number of results: 16\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_olfactory_bulb' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_olfactory_bulb\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_ranking' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_ranking' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'boostgp' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: boostgp\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gpcounts' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'moran_i' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: moran_i\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nnsvg' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgco' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: scgco\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'sepal' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: sepal\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'somde' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: somde\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagcn' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagcn\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagft' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagft\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spanve' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spanve\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark_x' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark_x\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde2' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Number of results: 1\n  Expected number of results: 1\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'correlation' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Metric: correlation\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 32,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: spatially_variable_genes\n  Succeeded processes: 32\n  Attempted processes: 32\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_olfactory_bulb' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_olfactory_bulb\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_ranking' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_ranking' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'boostgp' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: boostgp\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gpcounts' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'moran_i' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: moran_i\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nnsvg' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgco' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: scgco\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'sepal' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: sepal\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'somde' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: somde\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagcn' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagcn\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagft' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagft\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spanve' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spanve\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark_x' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark_x\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Succeeded processes: 1\n  Attempted processes: 1\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'correlation' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Metric component: correlation\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/mouse_olfactory_bulb' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_olfactory_bulb\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'correlation' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatially_variable_genes\n  Metric: correlation\n  Control method scores: 2\n  Expected control method scores: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'correlation' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: spatially_variable_genes\n  Metric: correlation\n  Inside range: 16\n  Scaled scores: 16\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'correlation' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: spatially_variable_genes\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'correlation' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: spatially_variable_genes\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'boostgp'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'boostgp' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: boostgp\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'boostgp'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'boostgp' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: boostgp\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'gpcounts'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'gpcounts' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'gpcounts'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'gpcounts' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'moran_i'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'moran_i' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: moran_i\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'moran_i'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'moran_i' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: moran_i\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'nnsvg'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'nnsvg' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'nnsvg'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'nnsvg' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'random_ranking'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_ranking' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'random_ranking'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_ranking' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'scgco'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scgco' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: scgco\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'scgco'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scgco' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: scgco\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'sepal'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'sepal' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: sepal\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'sepal'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'sepal' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: sepal\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'somde'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'somde' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: somde\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'somde'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'somde' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: somde\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spagcn'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spagcn' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spagcn\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spagcn'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spagcn' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spagcn\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spagft'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spagft' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spagft\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spagft'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spagft' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spagft\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spanve'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spanve' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spanve\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spanve'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spanve' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spanve\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spark'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spark' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spark\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spark'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spark' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spark\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spark_x'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spark_x' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spark_x\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spark_x'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spark_x' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spark_x\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spatialde'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spatialde' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spatialde\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spatialde'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spatialde' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spatialde\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spatialde2'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spatialde2' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spatialde2'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spatialde2' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'true_ranking'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_ranking' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Metric: correlation\n  Worst score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'true_ranking'",
+    "value": 0.0188,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_ranking' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Metric: correlation\n  Best score: 0.0187891440501044\n  Percentage outside range: 0%\n"
+  }
+]

@@ -1,0 +1,55 @@
+{
+  "name": "batch_integration",
+  "commit": null,
+  "label": "Batch Integration",
+  "summary": "Remove unwanted batch effects from scRNA data while retaining biologically meaningful variation.",
+  "description": "In this task we evaluate batch integration methods on their ability to remove batch effects in the data while conserving variation attributed to biological effects.\nAs input, methods require either normalised or unnormalised data with multiple batches and consistent cell type labels.\nThe batch integrated output can be a feature matrix, a low dimensional embedding and/or a neighbourhood graph.\nThe respective batch-integrated representation is then evaluated using sets of metrics that capture how well batch effects are removed and whether biological variance is conserved.\nWe have based this particular task on the latest, and most extensive benchmark of single-cell data integration methods.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Michaela Mueller",
+      "roles": [
+        "maintainer",
+        "author"
+      ],
+      "github": "mumichae",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "contributor"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Daniel Strobl",
+      "roles": [
+        "author"
+      ],
+      "github": "danielStrobl",
+      "orcid": null,
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-06-28_13-20-27",
+  "is_prerelease": true,
+  "timestamp": "2024-06-28T13:20:27Z"
+}

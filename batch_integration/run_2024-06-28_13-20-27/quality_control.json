@@ -1,0 +1,1262 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: batch_integration\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.4828,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: batch_integration\n  Field: references\n  Percentage missing: 48"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: batch_integration\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: batch_integration\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: batch_integration\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: batch_integration\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: batch_integration\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: batch_integration\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 207,
+    "severity": 3,
+    "severity_value": 9.3511,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: batch_integration\n  Number of results: 207\n  Number of datasets: 10\n  Number of methods: 29\n  Number of metrics: 11\n  Expected number of results: 3190\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % missing",
+    "value": 0.9875,
+    "severity": 3,
+    "severity_value": 9.8746,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/tabula_sapiens\n  Number of results: 4\n  Expected number of results: 319\n  Percentage missing: 99%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % missing",
+    "value": 0.8997,
+    "severity": 3,
+    "severity_value": 8.9969,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/zebrafish\n  Number of results: 32\n  Expected number of results: 319\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % missing",
+    "value": 0.8997,
+    "severity": 3,
+    "severity_value": 8.9969,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/pancreas\n  Number of results: 32\n  Expected number of results: 319\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % missing",
+    "value": 0.9248,
+    "severity": 3,
+    "severity_value": 9.2476,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/cengen\n  Number of results: 24\n  Expected number of results: 319\n  Percentage missing: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % missing",
+    "value": 0.9781,
+    "severity": 3,
+    "severity_value": 9.7806,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/hypomap\n  Number of results: 7\n  Expected number of results: 319\n  Percentage missing: 98%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % missing",
+    "value": 0.9687,
+    "severity": 3,
+    "severity_value": 9.6865,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/immune_cell_atlas\n  Number of results: 10\n  Expected number of results: 319\n  Percentage missing: 97%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % missing",
+    "value": 0.9248,
+    "severity": 3,
+    "severity_value": 9.2476,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/gtex_v9\n  Number of results: 24\n  Expected number of results: 319\n  Percentage missing: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % missing",
+    "value": 0.9028,
+    "severity": 3,
+    "severity_value": 9.0282,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/dkd\n  Number of results: 31\n  Expected number of results: 319\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % missing",
+    "value": 0.8997,
+    "severity": 3,
+    "severity_value": 8.9969,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/immune_cells\n  Number of results: 32\n  Expected number of results: 319\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % missing",
+    "value": 0.9655,
+    "severity": 3,
+    "severity_value": 9.6552,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Number of results: 11\n  Expected number of results: 319\n  Percentage missing: 97%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'bbknn' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: bbknn\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: combat\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn_embedding' % missing",
+    "value": 0.3545,
+    "severity": 3,
+    "severity_value": 3.5455,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: fastmnn_embedding\n  Number of results: 71\n  Expected number of results: 110\n  Percentage missing: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn_feature' % missing",
+    "value": 0.7182,
+    "severity": 3,
+    "severity_value": 7.1818,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: fastmnn_feature\n  Number of results: 31\n  Expected number of results: 110\n  Percentage missing: 72%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'liger' % missing",
+    "value": 0.4818,
+    "severity": 3,
+    "severity_value": 4.8182,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: liger\n  Number of results: 57\n  Expected number of results: 110\n  Percentage missing: 48%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn_correct' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: mnn_correct\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnnpy' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: mnnpy\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'pyliger' % missing",
+    "value": 0.5636,
+    "severity": 3,
+    "severity_value": 5.6364,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: pyliger\n  Number of results: 48\n  Expected number of results: 110\n  Percentage missing: 56%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scalex_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scalex_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scalex_feature' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scalex_feature\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanorama_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scanorama_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanorama_feature' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scanorama_feature\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scanvi\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scvi' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: scvi\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: batch_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: global_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_feature' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: global_feature\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_graph' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: global_graph\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: celltype_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_jitter_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: celltype_jitter_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: batch_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_feature' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: batch_feature\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_graph' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: batch_graph\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: celltype_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_feature' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: celltype_feature\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_graph' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: celltype_graph\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_embed' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: global_embed\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_feature' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: global_feature\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_graph' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Method: global_graph\n  Number of results: 0\n  Expected number of results: 110\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_batch' % missing",
+    "value": 0.9034,
+    "severity": 3,
+    "severity_value": 9.0345,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: asw_batch\n  Number of results: 28\n  Expected number of results: 290\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_label' % missing",
+    "value": 0.9034,
+    "severity": 3,
+    "severity_value": 9.0345,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: asw_label\n  Number of results: 28\n  Expected number of results: 290\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cell_cycle_conservation' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Number of results: 0\n  Expected number of results: 290\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ari' % missing",
+    "value": 0.9172,
+    "severity": 3,
+    "severity_value": 9.1724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: ari\n  Number of results: 24\n  Expected number of results: 290\n  Percentage missing: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'nmi' % missing",
+    "value": 0.9172,
+    "severity": 3,
+    "severity_value": 9.1724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: nmi\n  Number of results: 24\n  Expected number of results: 290\n  Percentage missing: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'graph_connectivity' % missing",
+    "value": 0.9034,
+    "severity": 3,
+    "severity_value": 9.0345,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: graph_connectivity\n  Number of results: 28\n  Expected number of results: 290\n  Percentage missing: 90%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'hvg_overlap' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: hvg_overlap\n  Number of results: 0\n  Expected number of results: 290\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_asw' % missing",
+    "value": 0.9069,
+    "severity": 3,
+    "severity_value": 9.069,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Number of results: 27\n  Expected number of results: 290\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_f1' % missing",
+    "value": 0.9207,
+    "severity": 3,
+    "severity_value": 9.2069,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Number of results: 23\n  Expected number of results: 290\n  Percentage missing: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'kbet' % missing",
+    "value": 0.9138,
+    "severity": 3,
+    "severity_value": 9.1379,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: kbet\n  Number of results: 25\n  Expected number of results: 290\n  Percentage missing: 91%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'pcr' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: batch_integration\n  Metric: pcr\n  Number of results: 0\n  Expected number of results: 290\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 120,
+    "severity": 3,
+    "severity_value": 6.9072,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: batch_integration\n  Succeeded processes: 120\n  Attempted processes: 388\n  Percentage failed: 69%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % failed",
+    "value": 0.9583,
+    "severity": 3,
+    "severity_value": 9.5833,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded processes: 1\n  Attempted processes: 24\n  Percentage failed: 96%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/zebrafish' % failed",
+    "value": 0.8333,
+    "severity": 3,
+    "severity_value": 8.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/zebrafish\n  Succeeded processes: 4\n  Attempted processes: 24\n  Percentage failed: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/pancreas' % failed",
+    "value": 0.8333,
+    "severity": 3,
+    "severity_value": 8.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/pancreas\n  Succeeded processes: 4\n  Attempted processes: 24\n  Percentage failed: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/cengen' % failed",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/cengen\n  Succeeded processes: 3\n  Attempted processes: 24\n  Percentage failed: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % failed",
+    "value": 0.9583,
+    "severity": 3,
+    "severity_value": 9.5833,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/hypomap\n  Succeeded processes: 1\n  Attempted processes: 24\n  Percentage failed: 96%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % failed",
+    "value": 0.9167,
+    "severity": 3,
+    "severity_value": 9.1667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded processes: 2\n  Attempted processes: 24\n  Percentage failed: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % failed",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 8.75,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded processes: 3\n  Attempted processes: 24\n  Percentage failed: 88%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % failed",
+    "value": 0.8333,
+    "severity": 3,
+    "severity_value": 8.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/dkd\n  Succeeded processes: 4\n  Attempted processes: 24\n  Percentage failed: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1/immune_cells' % failed",
+    "value": 0.8333,
+    "severity": 3,
+    "severity_value": 8.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: openproblems_v1/immune_cells\n  Succeeded processes: 4\n  Attempted processes: 24\n  Percentage failed: 83%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % failed",
+    "value": 0.9167,
+    "severity": 3,
+    "severity_value": 9.1667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded processes: 2\n  Attempted processes: 24\n  Percentage failed: 92%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'bbknn' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: bbknn\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'combat' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: combat\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn_embedding' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: fastmnn_embedding\n  Succeeded processes: 10\n  Attempted processes: 10\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn_feature' % failed",
+    "value": 0.6,
+    "severity": 3,
+    "severity_value": 6,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: fastmnn_feature\n  Succeeded processes: 4\n  Attempted processes: 10\n  Percentage failed: 60%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'liger' % failed",
+    "value": 0.2,
+    "severity": 1,
+    "severity_value": 2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: liger\n  Succeeded processes: 8\n  Attempted processes: 10\n  Percentage failed: 20%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnn_correct' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: mnn_correct\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mnnpy' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: mnnpy\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'pyliger' % failed",
+    "value": 0.4,
+    "severity": 3,
+    "severity_value": 4,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: pyliger\n  Succeeded processes: 6\n  Attempted processes: 10\n  Percentage failed: 40%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scalex_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scalex_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scalex_feature' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scalex_feature\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanorama_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scanorama_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanorama_feature' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scanorama_feature\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scanvi\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scvi' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: scvi\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: batch_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: global_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_feature' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: global_feature\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_graph' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: global_graph\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: celltype_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_jitter_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: celltype_jitter_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: batch_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_feature' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: batch_feature\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'batch_graph' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: batch_graph\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: celltype_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_feature' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: celltype_feature\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'celltype_graph' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: celltype_graph\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_embed' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: global_embed\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_feature' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: global_feature\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'global_graph' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Method: global_graph\n  Succeeded processes: 0\n  Attempted processes: 10\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'asw_batch' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: asw_batch\n  Succeeded processes: 24\n  Attempted processes: 24\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'asw_label' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: asw_label\n  Succeeded processes: 24\n  Attempted processes: 24\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'cell_cycle_conservation' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: cell_cycle_conservation\n  Succeeded processes: 0\n  Attempted processes: 24\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'isolated_label_asw' % failed",
+    "value": 0.0417,
+    "severity": 0,
+    "severity_value": 0.4167,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: isolated_label_asw\n  Succeeded processes: 23\n  Attempted processes: 24\n  Percentage failed: 4%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'kbet' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: kbet\n  Succeeded processes: 21\n  Attempted processes: 24\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'pcr' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: pcr\n  Succeeded processes: 0\n  Attempted processes: 24\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'hvg_overlap' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: batch_integration\n  Metric component: hvg_overlap\n  Succeeded processes: 0\n  Attempted processes: 4\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/tabula_sapiens' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/zebrafish' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/zebrafish\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/pancreas' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/pancreas\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/cengen' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/cengen\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hypomap' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/hypomap\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/immune_cell_atlas' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/gtex_v9' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/dkd' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/dkd\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1/immune_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: openproblems_v1/immune_cells\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/mouse_pancreas_atlas' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: batch_integration\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded control_methods: 0\n  Total control methods: 15\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_batch' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: asw_batch\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'asw_label' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: asw_label\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'cell_cycle_conservation' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: cell_cycle_conservation\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'ari' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: ari\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'nmi' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: nmi\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'graph_connectivity' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: graph_connectivity\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'hvg_overlap' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: hvg_overlap\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_asw' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: isolated_label_asw\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'isolated_label_f1' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: isolated_label_f1\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'kbet' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: kbet\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'pcr' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: batch_integration\n  Metric: pcr\n  Control method scores: 0\n  Expected control method scores: 150\n  Percentage succeeded: 0%\n"
+  }
+]

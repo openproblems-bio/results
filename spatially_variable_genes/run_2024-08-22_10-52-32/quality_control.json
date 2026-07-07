@@ -1,0 +1,2189 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: spatially_variable_genes\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: spatially_variable_genes\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.875,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: spatially_variable_genes\n  Field: references\n  Percentage missing: 88"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: spatially_variable_genes\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: spatially_variable_genes\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: spatially_variable_genes\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: spatially_variable_genes\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: spatially_variable_genes\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: spatially_variable_genes\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 737,
+    "severity": 0,
+    "severity_value": 0.7875,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: spatially_variable_genes\n  Number of results: 737\n  Number of datasets: 50\n  Number of methods: 16\n  Number of metrics: 1\n  Expected number of results: 800\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e5_6' % missing",
+    "value": 0.1875,
+    "severity": 1,
+    "severity_value": 1.875,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e5_6\n  Number of results: 13\n  Expected number of results: 16\n  Percentage missing: 19%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e6_3' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e6_3\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e9_1' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e9_1\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_skin_melanoma' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_skin_melanoma\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e7' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e7\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_prostate_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_prostate_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e10' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e10\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_kidney' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_kidney\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_cervical_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_cervical_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_kidney_v1' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_kidney_v1\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_xenium/human_colon_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_xenium/human_colon_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_2' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_2\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_intestinal_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_intestinal_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_hippocampus_puck' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_hippocampus_puck\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_olfactory_bulb_puck' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_olfactory_bulb_puck\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_3' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_3\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_olfactory_bulb' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_olfactory_bulb\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/human_tonsil' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_tonsil\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_breast_cancer_2' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_breast_cancer_2\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/human_cortex' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_cortex\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_embryo' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_embryo\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_lung_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_lung_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e11_lower_body' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_lower_body\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_brain_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_brain_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_4' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_4\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_brain_coronal_section1' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_brain_coronal_section1\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_breast_cancer_1' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_breast_cancer_1\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e10_brain' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_brain\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/mouse_embryo' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/mouse_embryo\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_seqfish/mouse_organogenesis' % missing",
+    "value": 0.1875,
+    "severity": 1,
+    "severity_value": 1.875,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_seqfish/mouse_organogenesis\n  Number of results: 13\n  Expected number of results: 16\n  Percentage missing: 19%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_normal_prostate' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_normal_prostate\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e10_whole_body' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_whole_body\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_cerebellum' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_cerebellum\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e10_eye' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_eye\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_cerebellum' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_cerebellum\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e11_2' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_2\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_star_map/mouse_brain_2d_zstep10_0' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_star_map/mouse_brain_2d_zstep10_0\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_star_map/mouse_brain_2d_zstep15_0' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_star_map/mouse_brain_2d_zstep15_0\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e11_1' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_1\n  Number of results: 16\n  Expected number of results: 16\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_lymph_node' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_lymph_node\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_heart' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_1' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_1\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/mouse_cortex' % missing",
+    "value": 0.25,
+    "severity": 2,
+    "severity_value": 2.5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/mouse_cortex\n  Number of results: 12\n  Expected number of results: 16\n  Percentage missing: 25%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_xenium/mouse_brain' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_xenium/mouse_brain\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_somatosensory_cortex_puck' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_somatosensory_cortex_puck\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_cortex' % missing",
+    "value": 0.1875,
+    "severity": 1,
+    "severity_value": 1.875,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_cortex\n  Number of results: 13\n  Expected number of results: 16\n  Percentage missing: 19%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_heart_myocardial_infarction_1' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart_myocardial_infarction_1\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_heart_myocardial_infarction_2' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart_myocardial_infarction_2\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/human_skin_melanoma' % missing",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_skin_melanoma\n  Number of results: 14\n  Expected number of results: 16\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_colorectal_cancer' % missing",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_colorectal_cancer\n  Number of results: 15\n  Expected number of results: 16\n  Percentage missing: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_ranking' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_ranking' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'boostgp' % missing",
+    "value": 0.8,
+    "severity": 3,
+    "severity_value": 8,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: boostgp\n  Number of results: 10\n  Expected number of results: 50\n  Percentage missing: 80%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gpcounts' % missing",
+    "value": 0.04,
+    "severity": 0,
+    "severity_value": 0.4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Number of results: 48\n  Expected number of results: 50\n  Percentage missing: 4%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'moran_i' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: moran_i\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nnsvg' % missing",
+    "value": 0.02,
+    "severity": 0,
+    "severity_value": 0.2,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Number of results: 49\n  Expected number of results: 50\n  Percentage missing: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgco' % missing",
+    "value": 0.02,
+    "severity": 0,
+    "severity_value": 0.2,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: scgco\n  Number of results: 49\n  Expected number of results: 50\n  Percentage missing: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'sepal' % missing",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: sepal\n  Number of results: 45\n  Expected number of results: 50\n  Percentage missing: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'somde' % missing",
+    "value": 0.12,
+    "severity": 1,
+    "severity_value": 1.2,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: somde\n  Number of results: 44\n  Expected number of results: 50\n  Percentage missing: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagcn' % missing",
+    "value": 0.02,
+    "severity": 0,
+    "severity_value": 0.2,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagcn\n  Number of results: 49\n  Expected number of results: 50\n  Percentage missing: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagft' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagft\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spanve' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spanve\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark' % missing",
+    "value": 0.14,
+    "severity": 1,
+    "severity_value": 1.4,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark\n  Number of results: 43\n  Expected number of results: 50\n  Percentage missing: 14%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark_x' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark_x\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde2' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Number of results: 50\n  Expected number of results: 50\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'correlation' % missing",
+    "value": 0.0787,
+    "severity": 0,
+    "severity_value": 0.7875,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: spatially_variable_genes\n  Metric: correlation\n  Number of results: 737\n  Expected number of results: 800\n  Percentage missing: 8%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 1480,
+    "severity": 0,
+    "severity_value": 0.3896,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: spatially_variable_genes\n  Succeeded processes: 1480\n  Attempted processes: 1540\n  Percentage failed: 4%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e5_6' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e5_6\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e6_3' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e6_3\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e9_1' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e9_1\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_skin_melanoma' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_skin_melanoma\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e7' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e7\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_prostate_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_prostate_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_stereo_seq/drosophila_embryo_e10' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e10\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_kidney' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_kidney\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_cervical_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_cervical_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_kidney_v1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_kidney_v1\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_xenium/human_colon_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_xenium/human_colon_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_2' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_2\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_intestinal_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_intestinal_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_hippocampus_puck' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_hippocampus_puck\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_olfactory_bulb_puck' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_olfactory_bulb_puck\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_3' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_3\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_olfactory_bulb' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_olfactory_bulb\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/human_tonsil' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_tonsil\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_breast_cancer_2' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_breast_cancer_2\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/human_cortex' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_cortex\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_embryo' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_embryo\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_lung_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_lung_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e11_lower_body' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_lower_body\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_brain_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_brain_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_4' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_4\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/mouse_brain_coronal_section1' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_brain_coronal_section1\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_breast_cancer_1' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_breast_cancer_1\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e10_brain' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_brain\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/mouse_embryo' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/mouse_embryo\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_seqfish/mouse_organogenesis' % failed",
+    "value": 0.1875,
+    "severity": 1,
+    "severity_value": 1.875,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_seqfish/mouse_organogenesis\n  Succeeded processes: 13\n  Attempted processes: 16\n  Percentage failed: 19%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_normal_prostate' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_normal_prostate\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e10_whole_body' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_whole_body\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_cerebellum' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_cerebellum\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e10_eye' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_eye\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_cerebellum' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_cerebellum\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e11_2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_2\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_star_map/mouse_brain_2d_zstep10_0' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_star_map/mouse_brain_2d_zstep10_0\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_star_map/mouse_brain_2d_zstep15_0' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_star_map/mouse_brain_2d_zstep15_0\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_dbit_seq/mouse_e11_1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_1\n  Succeeded processes: 16\n  Attempted processes: 16\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_lymph_node' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_lymph_node\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_heart' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/human_cortex_1' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_1\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_merfish/mouse_cortex' % failed",
+    "value": 0.25,
+    "severity": 2,
+    "severity_value": 2.5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/mouse_cortex\n  Succeeded processes: 12\n  Attempted processes: 16\n  Percentage failed: 25%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_xenium/mouse_brain' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_xenium/mouse_brain\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_somatosensory_cortex_puck' % failed",
+    "value": 0.125,
+    "severity": 1,
+    "severity_value": 1.25,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_somatosensory_cortex_puck\n  Succeeded processes: 14\n  Attempted processes: 16\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slideseq_v2/mouse_cortex' % failed",
+    "value": 0.1875,
+    "severity": 1,
+    "severity_value": 1.875,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_cortex\n  Succeeded processes: 13\n  Attempted processes: 16\n  Percentage failed: 19%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_heart_myocardial_infarction_1' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart_myocardial_infarction_1\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_heart_myocardial_infarction_2' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart_myocardial_infarction_2\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_slide_tags/human_skin_melanoma' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_skin_melanoma\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'spatial_10x_visium/human_colorectal_cancer' % failed",
+    "value": 0.0625,
+    "severity": 0,
+    "severity_value": 0.625,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_colorectal_cancer\n  Succeeded processes: 15\n  Attempted processes: 16\n  Percentage failed: 6%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_ranking' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_ranking' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'boostgp' % failed",
+    "value": 0.76,
+    "severity": 3,
+    "severity_value": 7.6,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: boostgp\n  Succeeded processes: 12\n  Attempted processes: 50\n  Percentage failed: 76%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'gpcounts' % failed",
+    "value": 0.04,
+    "severity": 0,
+    "severity_value": 0.4,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Succeeded processes: 48\n  Attempted processes: 50\n  Percentage failed: 4%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'moran_i' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: moran_i\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'nnsvg' % failed",
+    "value": 0.02,
+    "severity": 0,
+    "severity_value": 0.2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Succeeded processes: 49\n  Attempted processes: 50\n  Percentage failed: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgco' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: scgco\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'sepal' % failed",
+    "value": 0.1,
+    "severity": 0,
+    "severity_value": 1,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: sepal\n  Succeeded processes: 45\n  Attempted processes: 50\n  Percentage failed: 10%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'somde' % failed",
+    "value": 0.12,
+    "severity": 1,
+    "severity_value": 1.2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: somde\n  Succeeded processes: 44\n  Attempted processes: 50\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagcn' % failed",
+    "value": 0.02,
+    "severity": 0,
+    "severity_value": 0.2,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagcn\n  Succeeded processes: 49\n  Attempted processes: 50\n  Percentage failed: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spagft' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spagft\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spanve' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spanve\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark' % failed",
+    "value": 0.14,
+    "severity": 1,
+    "severity_value": 1.4,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark\n  Succeeded processes: 43\n  Attempted processes: 50\n  Percentage failed: 14%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spark_x' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spark_x\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'spatialde2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Succeeded processes: 50\n  Attempted processes: 50\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'correlation' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: spatially_variable_genes\n  Metric component: correlation\n  Succeeded processes: 740\n  Attempted processes: 740\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_stereo_seq/drosophila_embryo_e5_6' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e5_6\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_stereo_seq/drosophila_embryo_e6_3' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e6_3\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_stereo_seq/drosophila_embryo_e9_1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e9_1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_skin_melanoma' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_skin_melanoma\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_stereo_seq/drosophila_embryo_e7' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e7\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_prostate_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_prostate_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_stereo_seq/drosophila_embryo_e10' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_stereo_seq/drosophila_embryo_e10\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_kidney' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_kidney\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_cervical_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_cervical_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/mouse_kidney_v1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_kidney_v1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_xenium/human_colon_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_xenium/human_colon_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_merfish/human_cortex_2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_intestinal_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_intestinal_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slideseq_v2/mouse_hippocampus_puck' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_hippocampus_puck\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slideseq_v2/mouse_olfactory_bulb_puck' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_olfactory_bulb_puck\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_merfish/human_cortex_3' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_3\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/mouse_olfactory_bulb' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_olfactory_bulb\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slide_tags/human_tonsil' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_tonsil\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_breast_cancer_2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_breast_cancer_2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slide_tags/human_cortex' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_cortex\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/mouse_embryo' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_embryo\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_lung_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_lung_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_dbit_seq/mouse_e11_lower_body' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_lower_body\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_brain_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_brain_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_merfish/human_cortex_4' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_4\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/mouse_brain_coronal_section1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/mouse_brain_coronal_section1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_breast_cancer_1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_breast_cancer_1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_dbit_seq/mouse_e10_brain' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_brain\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slide_tags/mouse_embryo' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/mouse_embryo\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_seqfish/mouse_organogenesis' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_seqfish/mouse_organogenesis\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_normal_prostate' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_normal_prostate\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_dbit_seq/mouse_e10_whole_body' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_whole_body\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slideseq_v2/mouse_cerebellum' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_cerebellum\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_dbit_seq/mouse_e10_eye' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e10_eye\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_cerebellum' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_cerebellum\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_dbit_seq/mouse_e11_2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_star_map/mouse_brain_2d_zstep10_0' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_star_map/mouse_brain_2d_zstep10_0\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_star_map/mouse_brain_2d_zstep15_0' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_star_map/mouse_brain_2d_zstep15_0\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_dbit_seq/mouse_e11_1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_dbit_seq/mouse_e11_1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_lymph_node' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_lymph_node\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_heart' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_merfish/human_cortex_1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/human_cortex_1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_merfish/mouse_cortex' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_merfish/mouse_cortex\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_xenium/mouse_brain' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_xenium/mouse_brain\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slideseq_v2/mouse_somatosensory_cortex_puck' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_somatosensory_cortex_puck\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slideseq_v2/mouse_cortex' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slideseq_v2/mouse_cortex\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_heart_myocardial_infarction_1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart_myocardial_infarction_1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_heart_myocardial_infarction_2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_heart_myocardial_infarction_2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_slide_tags/human_skin_melanoma' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_slide_tags/human_skin_melanoma\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `spatial_10x_visium/human_colorectal_cancer' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: spatially_variable_genes\n  Dataset: spatial_10x_visium/human_colorectal_cancer\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'correlation' number of control methods",
+    "value": 100,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: spatially_variable_genes\n  Metric: correlation\n  Control method scores: 100\n  Expected control method scores: 100\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'correlation' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: spatially_variable_genes\n  Metric: correlation\n  Inside range: 737\n  Scaled scores: 737\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'correlation' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: spatially_variable_genes\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'correlation' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: spatially_variable_genes\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'boostgp'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'boostgp' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: boostgp\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'boostgp'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'boostgp' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: boostgp\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'gpcounts'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'gpcounts' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'gpcounts'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'gpcounts' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: gpcounts\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'moran_i'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'moran_i' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: moran_i\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'moran_i'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'moran_i' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: moran_i\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'nnsvg'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'nnsvg' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'nnsvg'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'nnsvg' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: nnsvg\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'random_ranking'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_ranking' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'random_ranking'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_ranking' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: random_ranking\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'scgco'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scgco' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: scgco\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'scgco'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scgco' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: scgco\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'sepal'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'sepal' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: sepal\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'sepal'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'sepal' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: sepal\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'somde'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'somde' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: somde\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'somde'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'somde' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: somde\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spagcn'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spagcn' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spagcn\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spagcn'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spagcn' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spagcn\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spagft'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spagft' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spagft\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spagft'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spagft' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spagft\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spanve'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spanve' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spanve\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spanve'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spanve' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spanve\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spark'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spark' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spark\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spark'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spark' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spark\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spark_x'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spark_x' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spark_x\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spark_x'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spark_x' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spark_x\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spatialde'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spatialde' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spatialde\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spatialde'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spatialde' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spatialde\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'spatialde2'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'spatialde2' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'spatialde2'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'spatialde2' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: spatialde2\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'correlation' score for 'true_ranking'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_ranking' performs much worse than controls for metric' correlation'\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Metric: correlation\n  Worst score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'correlation' score for 'true_ranking'",
+    "value": 0.9246,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_ranking' performs much better than controls for metric 'correlation'\n  Task: spatially_variable_genes\n  Method: true_ranking\n  Metric: correlation\n  Best score: 0.924644596878417\n  Percentage outside range: 0%\n"
+  }
+]

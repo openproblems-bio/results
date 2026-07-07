@@ -1,0 +1,146 @@
+[
+  {
+    "name": "openproblems_neurips2022/pbmc_multiome/swap",
+    "label": "OpenProblems NeurIPS2022 Multiome (ATAC2GEX)",
+    "commit": "missing-sha",
+    "summary": "Single-cell Multiome (GEX+ATAC) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X Multiome Gene Expression and Chromatin Accessibility kit. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2022. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.kaggle.com/competitions/open-problems-multimodal/data"],
+    "common_dataset_names": ["openproblems_neurips2022/pbmc_multiome"],
+    "modalities": ["GEX"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@Article{lance2024predicting,\n  title = {Predicting cellular profiles across modalities in longitudinal single-cell data: An Open Problems competition},\n  author = {{...}},\n  year = {2024},\n  journal = {In preparation},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 17.85
+  },
+  {
+    "name": "openproblems_neurips2021/bmmc_multiome/swap",
+    "label": "NeurIPS2021 Multiome (ATAC2GEX)",
+    "commit": "missing-sha",
+    "summary": "Single-cell Multiome (GEX+ATAC) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X Multiome Gene Expression and Chromatin Accessibility kit. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2021. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122"],
+    "common_dataset_names": ["openproblems_neurips2021/bmmc_multiome"],
+    "modalities": ["GEX"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@InProceedings{luecken2021neurips,\n  author = {Malte Luecken and Daniel Burkhardt and Robrecht Cannoodt and Christopher Lance and Aditi Agrawal and Hananeh Aliee and Ann Chen and Louise Deconinck and Angela Detweiler and Alejandro Granados and Shelly Huynh and Laura Isacco and Yang Kim and Dominik Klein and BONY {DE KUMAR} and Sunil Kuppasani and Heiko Lickert and Aaron McGeever and Joaquin Melgarejo and Honey Mekonen and Maurizio Morri and Michaela Müller and Norma Neff and Sheryl Paul and Bastian Rieck and Kaylie Schneider and Scott Steelman and Michael Sterr and Daniel Treacy and Alexander Tong and Alexandra-Chloe Villani and Guilin Wang and Jia Yan and Ce Zhang and Angela Pisco and Smita Krishnaswamy and Fabian Theis and Jonathan M Bloom},\n  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},\n  editor = {J. Vanschoren and S. Yeung},\n  publisher = {Curran},\n  title = {A sandbox for prediction and integration of DNA, RNA, and proteins in single cells},\n  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/158f3069a435b314a80bdcb024f8e422-Paper-round2.pdf},\n  volume = {1},\n  year = {2021},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 7.5179
+  },
+  {
+    "name": "openproblems_neurips2021/bmmc_cite/normal",
+    "label": "NeurIPS2021 CITE-Seq (GEX2ADT)",
+    "commit": "missing-sha",
+    "summary": "Single-cell CITE-Seq (GEX+ADT) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X 3 prime Single-Cell Gene Expression kit with Feature Barcoding in combination with the BioLegend TotalSeq B Universal Human Panel v1.0. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2021. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122"],
+    "common_dataset_names": ["openproblems_neurips2021/bmmc_cite"],
+    "modalities": ["ADT"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@InProceedings{luecken2021neurips,\n  author = {Malte Luecken and Daniel Burkhardt and Robrecht Cannoodt and Christopher Lance and Aditi Agrawal and Hananeh Aliee and Ann Chen and Louise Deconinck and Angela Detweiler and Alejandro Granados and Shelly Huynh and Laura Isacco and Yang Kim and Dominik Klein and BONY {DE KUMAR} and Sunil Kuppasani and Heiko Lickert and Aaron McGeever and Joaquin Melgarejo and Honey Mekonen and Maurizio Morri and Michaela Müller and Norma Neff and Sheryl Paul and Bastian Rieck and Kaylie Schneider and Scott Steelman and Michael Sterr and Daniel Treacy and Alexander Tong and Alexandra-Chloe Villani and Guilin Wang and Jia Yan and Ce Zhang and Angela Pisco and Smita Krishnaswamy and Fabian Theis and Jonathan M Bloom},\n  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},\n  editor = {J. Vanschoren and S. Yeung},\n  publisher = {Curran},\n  title = {A sandbox for prediction and integration of DNA, RNA, and proteins in single cells},\n  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/158f3069a435b314a80bdcb024f8e422-Paper-round2.pdf},\n  volume = {1},\n  year = {2021},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 0.6723
+  },
+  {
+    "name": "openproblems_neurips2022/pbmc_cite/normal",
+    "label": "OpenProblems NeurIPS2022 CITE-Seq (GEX2ADT)",
+    "commit": "missing-sha",
+    "summary": "Single-cell CITE-Seq (GEX+ADT) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X 3 prime Single-Cell Gene Expression kit with Feature Barcoding in combination with the BioLegend TotalSeq B Universal Human Panel v1.0. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2022. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.kaggle.com/competitions/open-problems-multimodal/data"],
+    "common_dataset_names": ["openproblems_neurips2022/pbmc_cite"],
+    "modalities": ["ADT"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@Article{lance2024predicting,\n  title = {Predicting cellular profiles across modalities in longitudinal single-cell data: An Open Problems competition},\n  author = {{...}},\n  year = {2024},\n  journal = {In preparation},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 0.5645
+  },
+  {
+    "name": "openproblems_neurips2022/pbmc_cite/swap",
+    "label": "OpenProblems NeurIPS2022 CITE-Seq (ADT2GEX)",
+    "commit": "missing-sha",
+    "summary": "Single-cell CITE-Seq (GEX+ADT) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X 3 prime Single-Cell Gene Expression kit with Feature Barcoding in combination with the BioLegend TotalSeq B Universal Human Panel v1.0. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2022. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.kaggle.com/competitions/open-problems-multimodal/data"],
+    "common_dataset_names": ["openproblems_neurips2022/pbmc_cite"],
+    "modalities": ["GEX"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@Article{lance2024predicting,\n  title = {Predicting cellular profiles across modalities in longitudinal single-cell data: An Open Problems competition},\n  author = {{...}},\n  year = {2024},\n  journal = {In preparation},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 31.0438
+  },
+  {
+    "name": "openproblems_neurips2021/bmmc_cite/swap",
+    "label": "NeurIPS2021 CITE-Seq (ADT2GEX)",
+    "commit": "missing-sha",
+    "summary": "Single-cell CITE-Seq (GEX+ADT) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X 3 prime Single-Cell Gene Expression kit with Feature Barcoding in combination with the BioLegend TotalSeq B Universal Human Panel v1.0. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2021. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122"],
+    "common_dataset_names": ["openproblems_neurips2021/bmmc_cite"],
+    "modalities": ["GEX"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@InProceedings{luecken2021neurips,\n  author = {Malte Luecken and Daniel Burkhardt and Robrecht Cannoodt and Christopher Lance and Aditi Agrawal and Hananeh Aliee and Ann Chen and Louise Deconinck and Angela Detweiler and Alejandro Granados and Shelly Huynh and Laura Isacco and Yang Kim and Dominik Klein and BONY {DE KUMAR} and Sunil Kuppasani and Heiko Lickert and Aaron McGeever and Joaquin Melgarejo and Honey Mekonen and Maurizio Morri and Michaela Müller and Norma Neff and Sheryl Paul and Bastian Rieck and Kaylie Schneider and Scott Steelman and Michael Sterr and Daniel Treacy and Alexander Tong and Alexandra-Chloe Villani and Guilin Wang and Jia Yan and Ce Zhang and Angela Pisco and Smita Krishnaswamy and Fabian Theis and Jonathan M Bloom},\n  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},\n  editor = {J. Vanschoren and S. Yeung},\n  publisher = {Curran},\n  title = {A sandbox for prediction and integration of DNA, RNA, and proteins in single cells},\n  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/158f3069a435b314a80bdcb024f8e422-Paper-round2.pdf},\n  volume = {1},\n  year = {2021},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 12.844
+  },
+  {
+    "name": "openproblems_neurips2022/pbmc_multiome/normal",
+    "label": "OpenProblems NeurIPS2022 Multiome (GEX2ATAC)",
+    "commit": "missing-sha",
+    "summary": "Single-cell Multiome (GEX+ATAC) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X Multiome Gene Expression and Chromatin Accessibility kit. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2022. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.kaggle.com/competitions/open-problems-multimodal/data"],
+    "common_dataset_names": ["openproblems_neurips2022/pbmc_multiome"],
+    "modalities": ["ATAC"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@Article{lance2024predicting,\n  title = {Predicting cellular profiles across modalities in longitudinal single-cell data: An Open Problems competition},\n  author = {{...}},\n  year = {2024},\n  journal = {In preparation},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 4.1225
+  },
+  {
+    "name": "openproblems_neurips2021/bmmc_multiome/normal",
+    "label": "NeurIPS2021 Multiome (GEX2ATAC)",
+    "commit": "missing-sha",
+    "summary": "Single-cell Multiome (GEX+ATAC) data collected from bone marrow mononuclear cells of 12 healthy human donors.",
+    "description": "Single-cell CITE-Seq data collected from bone marrow mononuclear cells of 12 healthy human donors using the 10X Multiome Gene Expression and Chromatin Accessibility kit. The dataset was generated to support Multimodal Single-Cell Data Integration Challenge at NeurIPS 2021. Samples were prepared using a standard protocol at four sites. The resulting data was then annotated to identify cell types and remove doublets. The dataset was designed with a nested batch layout such that some donor samples were measured at multiple sites with some donors measured at a single site.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE194122"],
+    "common_dataset_names": ["openproblems_neurips2021/bmmc_multiome"],
+    "modalities": ["ATAC"],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@InProceedings{luecken2021neurips,\n  author = {Malte Luecken and Daniel Burkhardt and Robrecht Cannoodt and Christopher Lance and Aditi Agrawal and Hananeh Aliee and Ann Chen and Louise Deconinck and Angela Detweiler and Alejandro Granados and Shelly Huynh and Laura Isacco and Yang Kim and Dominik Klein and BONY {DE KUMAR} and Sunil Kuppasani and Heiko Lickert and Aaron McGeever and Joaquin Melgarejo and Honey Mekonen and Maurizio Morri and Michaela Müller and Norma Neff and Sheryl Paul and Bastian Rieck and Kaylie Schneider and Scott Steelman and Michael Sterr and Daniel Treacy and Alexander Tong and Alexandra-Chloe Villani and Guilin Wang and Jia Yan and Ce Zhang and Angela Pisco and Smita Krishnaswamy and Fabian Theis and Jonathan M Bloom},\n  booktitle = {Proceedings of the Neural Information Processing Systems Track on Datasets and Benchmarks},\n  editor = {J. Vanschoren and S. Yeung},\n  publisher = {Curran},\n  title = {A sandbox for prediction and integration of DNA, RNA, and proteins in single cells},\n  url = {https://datasets-benchmarks-proceedings.neurips.cc/paper_files/paper/2021/file/158f3069a435b314a80bdcb024f8e422-Paper-round2.pdf},\n  volume = {1},\n  year = {2021},\n}"]
+    },
+    "date_created": "09-01-2025",
+    "file_size_mb": 29.641
+  }
+]

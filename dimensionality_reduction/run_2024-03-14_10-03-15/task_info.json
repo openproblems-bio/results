@@ -1,0 +1,91 @@
+{
+  "name": "dimensionality_reduction",
+  "commit": null,
+  "label": "Dimensionality reduction for 2D visualization",
+  "summary": "Reduction of high-dimensional datasets to 2D for visualization & interpretation",
+  "description": "The dimensionality reduction task attempts to quantify the ability of methods to embed the\ninformation present in complex single-cell studies into a two-dimensional space. Thus, this task\nis specifically designed for dimensionality reduction for visualisation and does not consider other\nuses of dimensionality reduction in standard single-cell workflows such as improving the\nsignal-to-noise ratio (and in fact several of the methods use PCA as a pre-processing step for this\nreason). Unlike most tasks, methods for the dimensionality reduction task must accept a matrix\ncontaining expression values normalised to 10,000 counts per cell and log transformed (log-10k) and\nproduce a two-dimensional coordinate for each cell. Pre-normalised matrices are required to\nenforce consistency between the metric evaluation (which generally requires normalised data) and\nthe method runs. When these are not consistent, methods that use the same normalisation as used in\nthe metric tend to score more highly. For some methods we also evaluate the pre-processing\nrecommended by the method.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Luke Zappia",
+      "roles": [
+        "maintainer",
+        "author"
+      ],
+      "github": "lazappi",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Michal Klein",
+      "roles": [
+        "author"
+      ],
+      "github": "michalk8",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Ben DeMeo",
+      "roles": [
+        "author"
+      ],
+      "github": "bendemeo",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    },
+    {
+      "name": "Sai Nirmayi Yasa",
+      "roles": [
+        "contributor"
+      ],
+      "github": "sainirmayi",
+      "orcid": "0009-0003-6319-9803",
+      "info": {}
+    },
+    {
+      "name": "Juan A. Cordero Varela",
+      "roles": [
+        "contributor"
+      ],
+      "github": "jacorvar",
+      "orcid": "0000-0002-7373-5433",
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-03-14_10-03-15",
+  "is_prerelease": true,
+  "timestamp": "2024-03-14T10:03:15Z"
+}

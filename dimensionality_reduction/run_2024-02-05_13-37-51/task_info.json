@@ -1,0 +1,73 @@
+{
+  "name": "dimensionality_reduction",
+  "commit": null,
+  "label": "Dimensionality reduction for visualization",
+  "summary": "Reduction of high-dimensional datasets to 2D for visualization & interpretation",
+  "description": "Each *feature* in a dataset functions as a single dimension. While each of the ~30,000\ndimensions measured in each cell contribute to an underlying data structure, the overall\nstructure of the data is challenging to display in few dimensions due to data sparsity\nand the [*\"curse of dimensionality\"*](https://en.wikipedia.org/wiki/Curse_of_dimensionality)\n(distances in high dimensional data don't distinguish data points well). Thus, we need to find\na way to [dimensionally reduce](https://en.wikipedia.org/wiki/Dimensionality_reduction)\nthe data for visualization and interpretation.",
+  "repository": "https://github.com/openproblems-bio/openproblems",
+  "authors": [
+    {
+      "name": "Luke Zappia",
+      "roles": [
+        "maintainer",
+        "author"
+      ],
+      "github": "lazappi",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Michal Klein",
+      "roles": [
+        "author"
+      ],
+      "github": "michalk8",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Ben DeMeo",
+      "roles": [
+        "author"
+      ],
+      "github": "bendemeo",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Juan A. Cordero Varela",
+      "roles": [
+        "contributor"
+      ],
+      "github": "jacorvar",
+      "orcid": "0000-0002-7373-5433",
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "contributor"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    }
+  ],
+  "license": "Missing!",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-02-05_13-37-51",
+  "is_prerelease": true,
+  "timestamp": "2024-02-05T13:37:51Z"
+}

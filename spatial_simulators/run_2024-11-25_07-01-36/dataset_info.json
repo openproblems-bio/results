@@ -1,0 +1,182 @@
+[
+  {
+    "name": "hindlimbmuscle",
+    "label": "Hindlimbmuscle",
+    "commit": "missing-sha",
+    "summary": "Spatial RNA sequencing of regenerating mouse hindlimb muscle",
+    "description": "The spatial transcriptomics datasets regenerates mouse muscle tissue generated with the 10x Genomics Visium platform.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE161318"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2020.12.01.407460"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 19.1576
+  },
+  {
+    "name": "cortex",
+    "label": "Cortex",
+    "commit": "missing-sha",
+    "summary": "Scripts and source data for image processing, barcode calling, and cell type annotations in a seqFISH+ experiment.",
+    "description": "The dataset includes processed image data, cell type annotations with Louvain clusters, gene IDs for transcript locations, and mRNA point locations, with additional data available on Zenodo.",
+    "source_urls": ["https://zenodo.org/records/2669683"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41586-019-1049-y"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 19.3329
+  },
+  {
+    "name": "brain",
+    "label": "Brain",
+    "commit": "missing-sha",
+    "summary": "10X Visium spatial RNA-seq from adult mouse brain sections paired to single-nucleus RNA-seq",
+    "description": "This datasets were generated matched single nucleus (sn, this submission) and Visium spatial RNA-seq (10X Genomics) profiles of adjacent mouse brain sections that contain multiple regions from the telencephalon and diencephalon.",
+    "source_urls": ["https://github.com/BayraktarLab/cell2location"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-021-01139-4"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 42.6133
+  },
+  {
+    "name": "prostate",
+    "label": "Prostate",
+    "commit": "missing-sha",
+    "summary": "Spatially resolved gene expression of human protate tissue slices treated with steroid hormones for 8 hours",
+    "description": "Spatially resolved gene expression was prepard by dissociated hman prostate tissue to single cells, and collected & prepped for RNA-seq using the Visium Spatial Gene Expression kit.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE159697"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.isci.2021.102640"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 19.6893
+  },
+  {
+    "name": "breast",
+    "label": "Breast",
+    "commit": "missing-sha",
+    "summary": "A spatially resolved atlas of human breast cancers",
+    "description": "This study presents a spatially resolved transcriptomics analysis of human breast cancers.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41588-021-00911-1"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 22.6482
+  },
+  {
+    "name": "fibrosarcoma",
+    "label": "Fibrosarcoma",
+    "commit": "missing-sha",
+    "summary": "Multi-resolution deconvolution of spatial transcriptomics data reveals continuous patterns of Tumor A1 of Tissue 1",
+    "description": "Spatial transcriptomics of Tumor A1 of Tissue 1.",
+    "source_urls": ["https://github.com/romain-lopez/DestVI-reproducibility"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-022-01272-8"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 27.1576
+  },
+  {
+    "name": "pdac",
+    "label": "pancreatic ductal adenocarcinomas",
+    "commit": "missing-sha",
+    "summary": "Integrating microarray-based spatial transcriptomics and single-cell RNA-seq reveals tissue architecture in pancreatic ductal adenocarcinomas",
+    "description": "We developed a multimodal intersection analysis method combining scRNA-seq with spatial transcriptomics to map and characterize the spatial organization and interactions of distinct cell subpopulations in complex tissues, such as primary pancreatic tumors..",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE111672"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2020.12.01.407460"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 17.5534
+  },
+  {
+    "name": "olfactorybulb",
+    "label": "Olfactorybulb",
+    "commit": "missing-sha",
+    "summary": "Single-cell and spatial transcriptomic of mouse olfactory bulb",
+    "description": "Single-cell and spatial transcriptomic of mouse olfactory bulb",
+    "source_urls": ["http://ww1.spatialtranscriptomicsresearch.org/?usid=24&utid=8672855942"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1126/science.aaf2403"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 2.2329
+  },
+  {
+    "name": "osteosarcoma",
+    "label": "Osteosarcoma",
+    "commit": "missing-sha",
+    "summary": "Spatial profiling of human osteosarcoma cells.",
+    "description": "Spatial transcriptome profiling by MERFISH reveals subcellular RNA compartmentalization and cell cycle-dependent gene expression.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE176078"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1073/pnas.1912459116"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 20.1056
+  },
+  {
+    "name": "gastrulation",
+    "label": "Gastrulation",
+    "commit": "missing-sha",
+    "summary": "single-cell and spatial transcriptomic molecular map of mouse gastrulation",
+    "description": "Single-Cell omics Data across Mouse Gastrulation and Highly multiplexed spatially resolved gene expression profiling of Early Organogenesis.",
+    "source_urls": ["https://content.cruk.cam.ac.uk/jmlab/SpatialMouseAtlas2020/"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-021-01006-2"],
+      "bibtex": []
+    },
+    "date_created": "25-11-2024",
+    "file_size_mb": 14.9637
+  }
+]

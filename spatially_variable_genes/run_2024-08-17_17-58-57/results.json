@@ -1,0 +1,450 @@
+[
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "boostgp",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [31734],
+    "run_cpu_pct": [101],
+    "run_peak_memory_mb": [2765],
+    "run_disk_read_mb": [114],
+    "run_disk_write_mb": [27],
+    "metric_names": ["correlation"],
+    "metric_values": [0.013],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 2.2],
+        "run_cpu_pct": [218.7, 212],
+        "run_peak_memory_mb": [767, 1536],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "gpcounts",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [12110],
+    "run_cpu_pct": [2254.1],
+    "run_peak_memory_mb": [38503],
+    "run_disk_read_mb": [111],
+    "run_disk_write_mb": [521],
+    "metric_names": ["correlation"],
+    "metric_values": [0.5059],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 2.1],
+        "run_cpu_pct": [479.1, 367.8],
+        "run_peak_memory_mb": [1434, 1434],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "moran_i",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [19.2],
+    "run_cpu_pct": [271],
+    "run_peak_memory_mb": [2253],
+    "run_disk_read_mb": [109],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.6741],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.5],
+        "run_cpu_pct": [265.3, 192.9],
+        "run_peak_memory_mb": [778, 1536],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "nnsvg",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [83],
+    "run_cpu_pct": [1223.1],
+    "run_peak_memory_mb": [63386],
+    "run_disk_read_mb": [84],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.6787],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 3.4],
+        "run_cpu_pct": [737.6, 435.7],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "random_ranking",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1.9],
+    "run_cpu_pct": [417.9],
+    "run_peak_memory_mb": [1741],
+    "run_disk_read_mb": [45],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [-0.0059],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [4.1, 6.1],
+        "run_cpu_pct": [175.7, 119.9],
+        "run_peak_memory_mb": [1434, 2868],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "scgco",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [115],
+    "run_cpu_pct": [585.2],
+    "run_peak_memory_mb": [113767],
+    "run_disk_read_mb": [126],
+    "run_disk_write_mb": [59],
+    "metric_names": ["correlation"],
+    "metric_values": [0.5628],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 2.6],
+        "run_cpu_pct": [258.3, 195.3],
+        "run_peak_memory_mb": [775, 1536],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "sepal",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [76],
+    "run_cpu_pct": [100.7],
+    "run_peak_memory_mb": [4199],
+    "run_disk_read_mb": [109],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.1845],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 3.7],
+        "run_cpu_pct": [359.8, 291.3],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "somde",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [56.2],
+    "run_cpu_pct": [1468.9],
+    "run_peak_memory_mb": [2970],
+    "run_disk_read_mb": [73],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.1751],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 3.6],
+        "run_cpu_pct": [267.3, 251.1],
+        "run_peak_memory_mb": [779, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spagcn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [29.8],
+    "run_cpu_pct": [218],
+    "run_peak_memory_mb": [9524],
+    "run_disk_read_mb": [127],
+    "run_disk_write_mb": [2],
+    "metric_names": ["correlation"],
+    "metric_values": [-0.0625],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 3.1],
+        "run_cpu_pct": [221.5, 174.7],
+        "run_peak_memory_mb": [3482, 3482],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spagft",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [6.7],
+    "run_cpu_pct": [800.6],
+    "run_peak_memory_mb": [17101],
+    "run_disk_read_mb": [72],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.4808],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 3.5],
+        "run_cpu_pct": [383.4, 442.9],
+        "run_peak_memory_mb": [1741, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spanve",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [13.2],
+    "run_cpu_pct": [166.5],
+    "run_peak_memory_mb": [1844],
+    "run_disk_read_mb": [237],
+    "run_disk_write_mb": [57],
+    "metric_names": ["correlation"],
+    "metric_values": [0.9168],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 3.5],
+        "run_cpu_pct": [681.8, 400.6],
+        "run_peak_memory_mb": [5530, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spark",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [110],
+    "run_cpu_pct": [928.9],
+    "run_peak_memory_mb": [47104],
+    "run_disk_read_mb": [158],
+    "run_disk_write_mb": [101],
+    "metric_names": ["correlation"],
+    "metric_values": [0.3319],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 3.5],
+        "run_cpu_pct": [826.4, 403.7],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spark_x",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [4.9],
+    "run_cpu_pct": [362.9],
+    "run_peak_memory_mb": [6554],
+    "run_disk_read_mb": [58],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.9573],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 2.5],
+        "run_cpu_pct": [767.3, 190.7],
+        "run_peak_memory_mb": [2765, 1536],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spatialde",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [65],
+    "run_cpu_pct": [2707.9],
+    "run_peak_memory_mb": [6964],
+    "run_disk_read_mb": [73],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.317],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 2.6],
+        "run_cpu_pct": [218.9, 514.4],
+        "run_peak_memory_mb": [765, 5530],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "spatialde2",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [142],
+    "run_cpu_pct": [1241],
+    "run_peak_memory_mb": [8295],
+    "run_disk_read_mb": [94],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [0.3097],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.8, 2.4],
+        "run_cpu_pct": [229.7, 184],
+        "run_peak_memory_mb": [775, 1536],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "spatial_10x_visium/mouse_olfactory_bulb",
+    "method_name": "true_ranking",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1.5],
+    "run_cpu_pct": [478.7],
+    "run_peak_memory_mb": [1639],
+    "run_disk_read_mb": [19],
+    "run_disk_write_mb": [1],
+    "metric_names": ["correlation"],
+    "metric_values": [1],
+    "metric_components": [
+      {
+        "component_name": "correlation",
+        "metric_names": ["correlation"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 2],
+        "run_cpu_pct": [622.2, 362.2],
+        "run_peak_memory_mb": [2765, 1639],
+        "run_disk_read_mb": [19, 26],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  }
+]

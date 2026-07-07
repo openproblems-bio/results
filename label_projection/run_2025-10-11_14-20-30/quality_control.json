@@ -1,0 +1,2279 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: label_projection\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: label_projection\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: label_projection\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: label_projection\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: label_projection\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: label_projection\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: label_projection\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: label_projection\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: label_projection\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 388,
+    "severity": 2,
+    "severity_value": 2.971,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: label_projection\n  Number of results: 388\n  Number of datasets: 6\n  Number of methods: 23\n  Number of metrics: 4\n  Expected number of results: 552\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % missing",
+    "value": 0.2609,
+    "severity": 2,
+    "severity_value": 2.6087,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/immune_cell_atlas\n  Number of results: 68\n  Expected number of results: 92\n  Percentage missing: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % missing",
+    "value": 0.2609,
+    "severity": 2,
+    "severity_value": 2.6087,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/dkd\n  Number of results: 68\n  Expected number of results: 92\n  Percentage missing: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % missing",
+    "value": 0.3478,
+    "severity": 3,
+    "severity_value": 3.4783,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/tabula_sapiens\n  Number of results: 60\n  Expected number of results: 92\n  Percentage missing: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % missing",
+    "value": 0.3043,
+    "severity": 3,
+    "severity_value": 3.0435,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/hypomap\n  Number of results: 64\n  Expected number of results: 92\n  Percentage missing: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % missing",
+    "value": 0.3478,
+    "severity": 3,
+    "severity_value": 3.4783,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Number of results: 60\n  Expected number of results: 92\n  Percentage missing: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % missing",
+    "value": 0.2609,
+    "severity": 2,
+    "severity_value": 2.6087,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/gtex_v9\n  Number of results: 68\n  Expected number of results: 92\n  Percentage missing: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'majority_vote' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: majority_vote\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_labels' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: random_labels\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_labels' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: true_labels\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'geneformer' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: geneformer\n  Number of results: 0\n  Expected number of results: 24\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'geneformer_mlflow' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: geneformer_mlflow\n  Number of results: 0\n  Expected number of results: 24\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knn' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: knn\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'logistic_regression' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: logistic_regression\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mlp' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: mlp\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'naive_bayes' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: naive_bayes\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi' % missing",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scanvi\n  Number of results: 20\n  Expected number of results: 24\n  Percentage missing: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi_scarches' % missing",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scanvi_scarches\n  Number of results: 20\n  Expected number of results: 24\n  Percentage missing: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cellmapper_linear' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: cellmapper_linear\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cellmapper_scvi' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: cellmapper_scvi\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgpt_finetuned' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scgpt_finetuned\n  Number of results: 0\n  Expected number of results: 24\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgpt_zeroshot' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scgpt_zeroshot\n  Number of results: 0\n  Expected number of results: 24\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scimilarity' % missing",
+    "value": 0.3333,
+    "severity": 3,
+    "severity_value": 3.3333,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scimilarity\n  Number of results: 16\n  Expected number of results: 24\n  Percentage missing: 33%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scimilarity_knn' % missing",
+    "value": 0.3333,
+    "severity": 3,
+    "severity_value": 3.3333,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scimilarity_knn\n  Number of results: 16\n  Expected number of results: 24\n  Percentage missing: 33%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scprint' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scprint\n  Number of results: 0\n  Expected number of results: 24\n  Percentage missing: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scvi_mlflow' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: scvi_mlflow\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'seurat_transferdata' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: seurat_transferdata\n  Number of results: 24\n  Expected number of results: 24\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'singler' % missing",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: singler\n  Number of results: 12\n  Expected number of results: 24\n  Percentage missing: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'uce' % missing",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: uce\n  Number of results: 20\n  Expected number of results: 24\n  Percentage missing: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'xgboost' % missing",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Method: xgboost\n  Number of results: 20\n  Expected number of results: 24\n  Percentage missing: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'accuracy' % missing",
+    "value": 0.2971,
+    "severity": 2,
+    "severity_value": 2.971,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: accuracy\n  Number of results: 97\n  Expected number of results: 138\n  Percentage missing: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_weighted' % missing",
+    "value": 0.2971,
+    "severity": 2,
+    "severity_value": 2.971,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: f1_weighted\n  Number of results: 97\n  Expected number of results: 138\n  Percentage missing: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_macro' % missing",
+    "value": 0.2971,
+    "severity": 2,
+    "severity_value": 2.971,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: f1_macro\n  Number of results: 97\n  Expected number of results: 138\n  Percentage missing: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_micro' % missing",
+    "value": 0.2971,
+    "severity": 2,
+    "severity_value": 2.971,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: label_projection\n  Metric: f1_micro\n  Number of results: 97\n  Expected number of results: 138\n  Percentage missing: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 291,
+    "severity": 1,
+    "severity_value": 1.2349,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: label_projection\n  Succeeded processes: 291\n  Attempted processes: 332\n  Percentage failed: 12%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/immune_cell_atlas' % failed",
+    "value": 0.2609,
+    "severity": 2,
+    "severity_value": 2.6087,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded processes: 17\n  Attempted processes: 23\n  Percentage failed: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/dkd' % failed",
+    "value": 0.2609,
+    "severity": 2,
+    "severity_value": 2.6087,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/dkd\n  Succeeded processes: 17\n  Attempted processes: 23\n  Percentage failed: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/tabula_sapiens' % failed",
+    "value": 0.3478,
+    "severity": 3,
+    "severity_value": 3.4783,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded processes: 15\n  Attempted processes: 23\n  Percentage failed: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/hypomap' % failed",
+    "value": 0.3043,
+    "severity": 3,
+    "severity_value": 3.0435,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/hypomap\n  Succeeded processes: 16\n  Attempted processes: 23\n  Percentage failed: 30%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/mouse_pancreas_atlas' % failed",
+    "value": 0.3478,
+    "severity": 3,
+    "severity_value": 3.4783,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded processes: 15\n  Attempted processes: 23\n  Percentage failed: 35%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'cellxgene_census/gtex_v9' % failed",
+    "value": 0.2609,
+    "severity": 2,
+    "severity_value": 2.6087,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded processes: 17\n  Attempted processes: 23\n  Percentage failed: 26%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'majority_vote' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: majority_vote\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_labels' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: random_labels\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_labels' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: true_labels\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'geneformer' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: geneformer\n  Succeeded processes: 0\n  Attempted processes: 6\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'geneformer_mlflow' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: geneformer_mlflow\n  Succeeded processes: 0\n  Attempted processes: 6\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'knn' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: knn\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'logistic_regression' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: logistic_regression\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'mlp' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: mlp\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'naive_bayes' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: naive_bayes\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi' % failed",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scanvi\n  Succeeded processes: 5\n  Attempted processes: 6\n  Percentage failed: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scanvi_scarches' % failed",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scanvi_scarches\n  Succeeded processes: 5\n  Attempted processes: 6\n  Percentage failed: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cellmapper_linear' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: cellmapper_linear\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cellmapper_scvi' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: cellmapper_scvi\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgpt_finetuned' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scgpt_finetuned\n  Succeeded processes: 0\n  Attempted processes: 6\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scgpt_zeroshot' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scgpt_zeroshot\n  Succeeded processes: 0\n  Attempted processes: 6\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scimilarity' % failed",
+    "value": 0.3333,
+    "severity": 3,
+    "severity_value": 3.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scimilarity\n  Succeeded processes: 4\n  Attempted processes: 6\n  Percentage failed: 33%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scimilarity_knn' % failed",
+    "value": 0.3333,
+    "severity": 3,
+    "severity_value": 3.3333,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scimilarity_knn\n  Succeeded processes: 4\n  Attempted processes: 6\n  Percentage failed: 33%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scprint' % failed",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scprint\n  Succeeded processes: 0\n  Attempted processes: 6\n  Percentage failed: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scvi_mlflow' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: scvi_mlflow\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'seurat_transferdata' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: seurat_transferdata\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'singler' % failed",
+    "value": 0.5,
+    "severity": 3,
+    "severity_value": 5,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: singler\n  Succeeded processes: 3\n  Attempted processes: 6\n  Percentage failed: 50%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'uce' % failed",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: uce\n  Succeeded processes: 5\n  Attempted processes: 6\n  Percentage failed: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'xgboost' % failed",
+    "value": 0.1667,
+    "severity": 1,
+    "severity_value": 1.6667,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Method: xgboost\n  Succeeded processes: 5\n  Attempted processes: 6\n  Percentage failed: 17%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'accuracy' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Metric component: accuracy\n  Succeeded processes: 97\n  Attempted processes: 97\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'f1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: label_projection\n  Metric component: f1\n  Succeeded processes: 97\n  Attempted processes: 97\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/immune_cell_atlas' number of control methods",
+    "value": 3,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/immune_cell_atlas\n  Succeeded control_methods: 3\n  Total control methods: 3\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/dkd' number of control methods",
+    "value": 3,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/dkd\n  Succeeded control_methods: 3\n  Total control methods: 3\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/tabula_sapiens' number of control methods",
+    "value": 3,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/tabula_sapiens\n  Succeeded control_methods: 3\n  Total control methods: 3\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/hypomap' number of control methods",
+    "value": 3,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/hypomap\n  Succeeded control_methods: 3\n  Total control methods: 3\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/mouse_pancreas_atlas' number of control methods",
+    "value": 3,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/mouse_pancreas_atlas\n  Succeeded control_methods: 3\n  Total control methods: 3\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `cellxgene_census/gtex_v9' number of control methods",
+    "value": 3,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: label_projection\n  Dataset: cellxgene_census/gtex_v9\n  Succeeded control_methods: 3\n  Total control methods: 3\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'accuracy' number of control methods",
+    "value": 18,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: accuracy\n  Control method scores: 18\n  Expected control method scores: 18\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_weighted' number of control methods",
+    "value": 18,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: f1_weighted\n  Control method scores: 18\n  Expected control method scores: 18\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_macro' number of control methods",
+    "value": 18,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: f1_macro\n  Control method scores: 18\n  Expected control method scores: 18\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'f1_micro' number of control methods",
+    "value": 18,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: label_projection\n  Metric: f1_micro\n  Control method scores: 18\n  Expected control method scores: 18\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'accuracy' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: label_projection\n  Metric: accuracy\n  Inside range: 97\n  Scaled scores: 97\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'accuracy' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'accuracy' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'cellmapper_linear'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_linear' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'cellmapper_linear'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_linear' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'cellmapper_scvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_scvi' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'cellmapper_scvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_scvi' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knn' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: knn\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knn' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: knn\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'logistic_regression'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'logistic_regression' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'logistic_regression'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'logistic_regression' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'majority_vote'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'majority_vote' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: majority_vote\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'majority_vote'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'majority_vote' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: majority_vote\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'mlp'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mlp' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: mlp\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'mlp'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mlp' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: mlp\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'naive_bayes'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'naive_bayes' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'naive_bayes'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'naive_bayes' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'random_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_labels' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: random_labels\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'random_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_labels' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: random_labels\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'scanvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: scanvi\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'scanvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: scanvi\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'scanvi_scarches'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi_scarches' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'scanvi_scarches'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi_scarches' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'scimilarity'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: scimilarity\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'scimilarity'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: scimilarity\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'scimilarity_knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity_knn' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'scimilarity_knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity_knn' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'scvi_mlflow'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scvi_mlflow' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'scvi_mlflow'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scvi_mlflow' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'seurat_transferdata'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'seurat_transferdata' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'seurat_transferdata'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'seurat_transferdata' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'singler'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'singler' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: singler\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'singler'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'singler' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: singler\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'true_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_labels' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: true_labels\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'true_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_labels' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: true_labels\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'uce'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'uce' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: uce\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'uce'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'uce' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: uce\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'accuracy' score for 'xgboost'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'xgboost' performs much worse than controls for metric' accuracy'\n  Task: label_projection\n  Method: xgboost\n  Metric: accuracy\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'accuracy' score for 'xgboost'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'xgboost' performs much better than controls for metric 'accuracy'\n  Task: label_projection\n  Method: xgboost\n  Metric: accuracy\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_weighted' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: label_projection\n  Metric: f1_weighted\n  Inside range: 97\n  Scaled scores: 97\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_weighted' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_weighted' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'cellmapper_linear'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_linear' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'cellmapper_linear'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_linear' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'cellmapper_scvi'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_scvi' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'cellmapper_scvi'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_scvi' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'knn'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knn' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: knn\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'knn'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knn' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: knn\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'logistic_regression'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'logistic_regression' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'logistic_regression'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'logistic_regression' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'majority_vote'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'majority_vote' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: majority_vote\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'majority_vote'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'majority_vote' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: majority_vote\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'mlp'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mlp' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: mlp\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'mlp'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mlp' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: mlp\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'naive_bayes'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'naive_bayes' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'naive_bayes'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'naive_bayes' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'random_labels'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_labels' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: random_labels\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'random_labels'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_labels' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: random_labels\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'scanvi'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: scanvi\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'scanvi'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: scanvi\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'scanvi_scarches'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi_scarches' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'scanvi_scarches'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi_scarches' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'scimilarity'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: scimilarity\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'scimilarity'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: scimilarity\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'scimilarity_knn'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity_knn' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'scimilarity_knn'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity_knn' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'scvi_mlflow'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scvi_mlflow' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'scvi_mlflow'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scvi_mlflow' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'seurat_transferdata'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'seurat_transferdata' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'seurat_transferdata'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'seurat_transferdata' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'singler'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'singler' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: singler\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'singler'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'singler' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: singler\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'true_labels'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_labels' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: true_labels\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'true_labels'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_labels' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: true_labels\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'uce'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'uce' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: uce\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'uce'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'uce' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: uce\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_weighted' score for 'xgboost'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'xgboost' performs much worse than controls for metric' f1_weighted'\n  Task: label_projection\n  Method: xgboost\n  Metric: f1_weighted\n  Worst score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_weighted' score for 'xgboost'",
+    "value": 0.9461,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'xgboost' performs much better than controls for metric 'f1_weighted'\n  Task: label_projection\n  Method: xgboost\n  Metric: f1_weighted\n  Best score: 0.946145845371547\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_macro' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: label_projection\n  Metric: f1_macro\n  Inside range: 97\n  Scaled scores: 97\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_macro' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_macro' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'cellmapper_linear'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_linear' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'cellmapper_linear'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_linear' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'cellmapper_scvi'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_scvi' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'cellmapper_scvi'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_scvi' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'knn'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knn' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: knn\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'knn'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knn' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: knn\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'logistic_regression'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'logistic_regression' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'logistic_regression'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'logistic_regression' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'majority_vote'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'majority_vote' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: majority_vote\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'majority_vote'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'majority_vote' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: majority_vote\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'mlp'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mlp' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: mlp\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'mlp'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mlp' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: mlp\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'naive_bayes'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'naive_bayes' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'naive_bayes'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'naive_bayes' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'random_labels'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_labels' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: random_labels\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'random_labels'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_labels' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: random_labels\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'scanvi'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: scanvi\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'scanvi'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: scanvi\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'scanvi_scarches'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi_scarches' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'scanvi_scarches'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi_scarches' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'scimilarity'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: scimilarity\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'scimilarity'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: scimilarity\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'scimilarity_knn'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity_knn' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'scimilarity_knn'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity_knn' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'scvi_mlflow'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scvi_mlflow' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'scvi_mlflow'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scvi_mlflow' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'seurat_transferdata'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'seurat_transferdata' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'seurat_transferdata'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'seurat_transferdata' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'singler'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'singler' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: singler\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'singler'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'singler' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: singler\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'true_labels'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_labels' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: true_labels\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'true_labels'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_labels' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: true_labels\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'uce'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'uce' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: uce\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'uce'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'uce' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: uce\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_macro' score for 'xgboost'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'xgboost' performs much worse than controls for metric' f1_macro'\n  Task: label_projection\n  Method: xgboost\n  Metric: f1_macro\n  Worst score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_macro' score for 'xgboost'",
+    "value": 0.9304,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'xgboost' performs much better than controls for metric 'f1_macro'\n  Task: label_projection\n  Method: xgboost\n  Metric: f1_macro\n  Best score: 0.930355477251529\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_micro' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: label_projection\n  Metric: f1_micro\n  Inside range: 97\n  Scaled scores: 97\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_micro' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'f1_micro' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: label_projection\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'cellmapper_linear'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_linear' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'cellmapper_linear'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_linear' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: cellmapper_linear\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'cellmapper_scvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cellmapper_scvi' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'cellmapper_scvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cellmapper_scvi' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: cellmapper_scvi\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'knn' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: knn\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'knn' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: knn\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'logistic_regression'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'logistic_regression' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'logistic_regression'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'logistic_regression' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: logistic_regression\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'majority_vote'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'majority_vote' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: majority_vote\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'majority_vote'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'majority_vote' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: majority_vote\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'mlp'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'mlp' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: mlp\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'mlp'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'mlp' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: mlp\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'naive_bayes'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'naive_bayes' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'naive_bayes'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'naive_bayes' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: naive_bayes\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'random_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_labels' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: random_labels\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'random_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_labels' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: random_labels\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'scanvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: scanvi\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'scanvi'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: scanvi\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'scanvi_scarches'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scanvi_scarches' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'scanvi_scarches'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scanvi_scarches' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: scanvi_scarches\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'scimilarity'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: scimilarity\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'scimilarity'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: scimilarity\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'scimilarity_knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scimilarity_knn' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'scimilarity_knn'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scimilarity_knn' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: scimilarity_knn\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'scvi_mlflow'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scvi_mlflow' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'scvi_mlflow'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scvi_mlflow' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: scvi_mlflow\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'seurat_transferdata'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'seurat_transferdata' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'seurat_transferdata'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'seurat_transferdata' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: seurat_transferdata\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'singler'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'singler' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: singler\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'singler'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'singler' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: singler\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'true_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_labels' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: true_labels\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'true_labels'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_labels' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: true_labels\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'uce'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'uce' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: uce\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'uce'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'uce' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: uce\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'f1_micro' score for 'xgboost'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'xgboost' performs much worse than controls for metric' f1_micro'\n  Task: label_projection\n  Method: xgboost\n  Metric: f1_micro\n  Worst score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'f1_micro' score for 'xgboost'",
+    "value": 0.9421,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'xgboost' performs much better than controls for metric 'f1_micro'\n  Task: label_projection\n  Method: xgboost\n  Metric: f1_micro\n  Best score: 0.94208918753818\n  Percentage outside range: 0%\n"
+  }
+]

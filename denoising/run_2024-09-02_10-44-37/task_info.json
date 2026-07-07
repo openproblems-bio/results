@@ -1,0 +1,56 @@
+{
+  "name": "denoising",
+  "commit": null,
+  "label": "Denoising",
+  "summary": "Removing noise in sparse single-cell RNA-sequencing count data.",
+  "description": "Removing noise in sparse single-cell RNA-sequencing count data.",
+  "repository": "https://github.com/openproblems-bio/task_denoising",
+  "authors": [
+    {
+      "name": "Wesley Lewis",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "wes-lewis",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author",
+        "maintainer"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    }
+  ],
+  "license": "MIT",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-09-02_10-44-37",
+  "is_prerelease": true,
+  "timestamp": "2024-09-02T10:44:37Z"
+}

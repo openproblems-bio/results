@@ -1,0 +1,229 @@
+[
+  {
+    "name": "no_denoising",
+    "label": "No Denoising",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "negative control by copying train counts",
+    "description": "This method serves as a negative control, where the denoised data is a copy of the unaltered training data. This represents the scoring threshold if denoising was not performed on the data.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_denoising",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/control_methods/no_denoising",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/control_methods/no_denoising:build_update",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "perfect_denoising",
+    "label": "Perfect Denoising",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "Positive control by copying the test counts",
+    "description": "This method serves as a positive control, where the test data is copied 1-to-1 to the denoised data. This makes it seem as if the data is perfectly denoised as it will be compared to the test data in the metrics.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_denoising",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/control_methods/perfect_denoising",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/control_methods/perfect_denoising:build_update",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "alra",
+    "label": "ALRA",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "ALRA imputes missing values in scRNA-seq data by computing rank-k approximation, thresholding by gene, and rescaling the matrix.",
+    "description": "Adaptively-thresholded Low Rank Approximation (ALRA). \n\nALRA is a method for imputation of missing values in single cell RNA-sequencing data, \ndescribed in the preprint, \"Zero-preserving imputation of scRNA-seq data using low-rank approximation\" \navailable [here](https://www.biorxiv.org/content/early/2018/08/22/397588). Given a \nscRNA-seq expression matrix, ALRA first computes its rank-k approximation using randomized SVD. \nNext, each row (gene) is thresholded by the magnitude of the most negative value of that gene. \nFinally, the matrix is rescaled.",
+    "type": "method",
+    "link_code": "https://github.com/KlugerLab/ALRA",
+    "link_documentation": "https://github.com/KlugerLab/ALRA/blob/master/README.md",
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/methods/alra",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/methods/alra:build_update",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/397588"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/methods/alra.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "cellmapper",
+    "label": "CellMapper",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "CellMapper is a general framework for k-NN based mapping tasks in single-cell and spatial genomics",
+    "description": "k-NN-based mapping of cells across representations to transfer labels, embeddings and expression values. \nWorks for millions of cells, on CPU and GPU, across molecular modalities, between spatial and non-spatial data, \nfor arbitrary query and reference datasets. We treat data denoising as self-mapping, where the query and reference datasets are the same. \nBased on some joint representation (here: PCA), CellMapper computes a k-NN graph and applies a kernel function to compute edge weights. Here,\nwe use a kernel based on Jaccard similarity (as e.g. in HNOCA-tools) or UMAP's `fuzzy_simplicial_set` (as in scanpy). Given the row-normalized \nweighted adjacency matrix, we simulate a t-step random walk to smooth the data, similar to MAGIC. For large t-values, we also provide a spectral \napproximation of the application of the t-step transition matrix to the data (not used here).",
+    "type": "method",
+    "link_code": "https://github.com/quadbio/cellmapper",
+    "link_documentation": "https://cellmapper.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/methods/cellmapper",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/methods/cellmapper:build_update",
+    "authors": [],
+    "references": {
+      "doi": ["10.5281/zenodo.15683594"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "variants": {
+        "cellmapper_jaccard_log": {
+          "kernel_method": "jaccard",
+          "norm": "log"
+        },
+        "cellmapper_umap_log": {
+          "kernel_method": "umap",
+          "norm": "log"
+        },
+        "cellmapper_umap_sqrt": {
+          "kernel_method": "umap",
+          "norm": "sqrt"
+        }
+      }
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "dca",
+    "label": "DCA",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "A deep autoencoder with ZINB loss function to address the dropout effect in count data",
+    "description": "Deep Count Autoencoder\n\nRemoves the dropout effect by taking the count structure, overdispersed nature and sparsity of the data into account \nusing a deep autoencoder with zero-inflated negative binomial (ZINB) loss function.",
+    "type": "method",
+    "link_code": "https://github.com/theislab/dca",
+    "link_documentation": "https://github.com/theislab/dca#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/methods/dca",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/methods/dca:build_update",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-018-07931-2"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/methods/dca.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "knn_smoothing",
+    "label": "KNN Smoothing",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "Iterative kNN-smoothing denoises scRNA-seq data by iteratively increasing the size of neighbourhoods for smoothing until a maximum k value is reached.",
+    "description": "Iterative kNN-smoothing is a method to repair or denoise noisy scRNA-seq expression matrices. Given a scRNA-seq expression matrix, KNN-smoothing first applies initial normalisation and smoothing. Then, a chosen number of principal components is used to calculate Euclidean distances between cells. Minimally sized neighbourhoods are initially determined from these Euclidean distances, and expression profiles are shared between neighbouring cells. Then, the resultant smoothed matrix is used as input to the next step of smoothing, where the size (k) of the considered neighbourhoods is increased, leading to greater smoothing. This process continues until a chosen maximum k value has been reached, at which point the iteratively smoothed object is then optionally scaled to yield a final result.",
+    "type": "method",
+    "link_code": "https://github.com/yanailab/knn-smoothing",
+    "link_documentation": "https://github.com/yanailab/knn-smoothing#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/methods/knn_smoothing",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/methods/knn_smoothing:build_update",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/217737"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/methods/knn_smoothing.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "magic",
+    "label": "MAGIC",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "MAGIC imputes and denoises scRNA-seq data that is noisy or dropout-prone.",
+    "description": "MAGIC (Markov Affinity-based Graph Imputation of Cells) is a method for imputation and denoising of noisy or dropout-prone single cell RNA-sequencing data. Given a normalised scRNA-seq expression matrix, it first calculates Euclidean distances between each pair of cells in the dataset, which is then augmented using a Gaussian kernel (function) and row-normalised to give a normalised affinity matrix. A t-step markov process is then calculated, by powering this affinity matrix t times. Finally, the powered affinity matrix is right-multiplied by the normalised data, causing the final imputed values to take the value of a per-gene average weighted by the affinities of cells. The resultant imputed matrix is then rescaled, to more closely match the magnitude of measurements in the normalised (input) matrix.",
+    "type": "method",
+    "link_code": "https://github.com/KrishnaswamyLab/MAGIC",
+    "link_documentation": "https://github.com/KrishnaswamyLab/MAGIC#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/methods/magic",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/methods/magic:build_update",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2018.05.061"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/denoising/methods/magic.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "variants": {
+        "magic_approx": {
+          "solver": "approximate"
+        },
+        "magic_knn_naive": {
+          "norm": "log",
+          "decay": "none",
+          "t": 1
+        }
+      },
+      "preferred_normalization": "counts"
+    },
+    "version": "build_update"
+  },
+  {
+    "name": "scprint",
+    "label": "scPRINT",
+    "commit": "16c74d41f33ca3b66cbbe9ff21bdfeb831403136",
+    "summary": "scPRINT is a large transformer model built for the inference of gene networks",
+    "description": "scPRINT is a large transformer model built for the inference of gene networks\n(connections between genes explaining the cell's expression profile) from\nscRNAseq data.\n\nIt uses novel encoding and decoding of the cell expression profile and new\npre-training methodologies to learn a cell model.\n\nscPRINT can be used to perform the following analyses:\n\n- expression denoising: increase the resolution of your scRNAseq data\n- cell embedding: generate a low-dimensional representation of your dataset\n- label prediction: predict the cell type, disease, sequencer, sex, and\n  ethnicity of your cells\n- gene network inference: generate a gene network from any cell or cell\n  cluster in your scRNAseq dataset",
+    "type": "method",
+    "link_code": "https://github.com/cantinilab/scPRINT",
+    "link_documentation": "https://cantinilab.github.io/scPRINT/",
+    "link_implementation": "https://github.com/openproblems-bio/task_denoising/blob/16c74d41f33ca3b66cbbe9ff21bdfeb831403136/src/methods/scprint",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_denoising/methods/scprint:build_update",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2024.07.29.605556"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "variants": {
+        "scprint_large": {
+          "model_name": "large"
+        },
+        "scprint_medium": {
+          "model_name": "v2-medium"
+        },
+        "scprint_small": {
+          "model_name": "small"
+        }
+      }
+    },
+    "version": "build_update"
+  }
+]

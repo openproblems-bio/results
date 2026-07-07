@@ -1,0 +1,157 @@
+[
+  {
+    "name": "random_features",
+    "label": "Random Features",
+    "commit": "missing-sha",
+    "summary": "Randomly permutated features",
+    "description": "Randomly permuted twice, once for use as the output for each modality, producing random features with no correlation between modalities.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "true_features",
+    "label": "True Features",
+    "commit": "missing-sha",
+    "summary": "A 1 to 1 mapping of features between modalities",
+    "description": "use the same features for both modalities",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/methods/baseline.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "scot",
+    "label": "Single Cell Optimal Transport",
+    "commit": "missing-sha",
+    "summary": "Run Single Cell Optimal Transport",
+    "description": "Single Cell Optimal Transport (SCOT) is a method for integrating multimodal single-cell data. It is based on the idea of aligning the distributions of the two modalities using optimal transport.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://github.com/rsinghlab/SCOT#readme",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "reference": "Demetci2020scot",
+      "repository_url": "https://github.com/rsinghlab/SCOT"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "harmonic_alignment",
+    "label": "Harmonic Alignment",
+    "commit": "missing-sha",
+    "summary": "Harmonic Alignment",
+    "description": "Harmonic Alignment is a method for integrating multimodal single-cell data. It is based on the idea of aligning the eigenvectors of the Laplacian matrices of the two modalities. The alignment is achieved by solving a generalized eigenvalue problem. The method is described in the following paper: https://doi.org/10.1137/1.9781611976236.36",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://github.com/KrishnaswamyLab/harmonic-alignment#readme",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/methods/harmonic_alignment.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "reference": "stanley2020harmonic",
+      "repository_url": "https://github.com/KrishnaswamyLab/harmonic-alignment"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "fastmnn",
+    "label": "fastMNN",
+    "commit": "missing-sha",
+    "summary": "A simpler version of the original mnnCorrect algorithm.",
+    "description": "FastMNN is a simplified version of the mnnCorrect algorithm. Both use Mutual Nearest Neighbors to integrate multimodal single-cell data.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://github.com/LTLA/batchelor#readme",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "mnn_log_scran_pooling": {
+          "preferred_normalization": "log_scran_pooling"
+        }
+      },
+      "reference": "haghverdi2018batch",
+      "repository_url": "https://github.com/LTLA/batchelor"
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "procrustes",
+    "label": "Procrustes",
+    "commit": "missing-sha",
+    "summary": "Procrustes superimposition embeds cellular data from each modality into a common space.",
+    "description": "Procrustes superimposition embeds cellular data from each modality into a common space by aligning the 100-dimensional SVD embeddings to one another by using an isomorphic transformation that minimizes the root mean squared distance between points. The unmodified SVD embedding and the transformed second modality are used as output for the task.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.procrustes.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "v1": {
+        "path": "openproblems/tasks/matching_modalities/methods/procrustes.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      },
+      "reference": "gower1975generalized",
+      "repository_url": "https://github.com/scipy/scipy",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "main_build"
+  }
+]

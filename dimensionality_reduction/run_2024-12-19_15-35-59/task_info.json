@@ -1,0 +1,100 @@
+{
+  "name": "dimensionality_reduction",
+  "commit": null,
+  "label": "Dimensionality Reduction for Visualization",
+  "summary": "Reduction of high-dimensional datasets to 2D for visualization & interpretation.",
+  "description": "Data visualisation is an important part of all stages of single-cell analysis, from\ninitial quality control to interpretation and presentation of final results. For bulk RNA-seq\nstudies, linear dimensionality reduction techniques such as PCA and MDS are commonly used\nto visualise the variation between samples. While these methods are highly effective they\ncan only be used to show the first few components of variation which cannot fully represent\nthe increased complexity and number of observations in single-cell datasets. For this reason\nnon-linear techniques (most notably t-SNE and UMAP) have become the standard for visualising\nsingle-cell studies. These methods attempt to compress a dataset into a two-dimensional space\nwhile attempting to capture as much of the variance between observations as possible. Many\nmethods for solving this problem now exist. In general these methods try to preserve distances,\nwhile some additionally consider aspects such as density within the embedded space or conservation\nof continuous trajectories. Despite almost every single-cell study using one of these visualisations\nthere has been debate as to whether they can effectively capture the variation in single-cell\ndatasets [@chari2023speciousart].\n\nThe dimensionality reduction task attempts to quantify the ability of methods to embed the\ninformation present in complex single-cell studies into a two-dimensional space. Thus, this task\nis specifically designed for dimensionality reduction for visualisation and does not consider other\nuses of dimensionality reduction in standard single-cell workflows such as improving the\nsignal-to-noise ratio (and in fact several of the methods use PCA as a pre-processing step for this\nreason). Unlike most tasks, methods for the dimensionality reduction task must accept a matrix\ncontaining expression values normalised to 10,000 counts per cell and log transformed (log-10k) and\nproduce a two-dimensional coordinate for each cell. Pre-normalised matrices are required to\nenforce consistency between the metric evaluation (which generally requires normalised data) and\nthe method runs. When these are not consistent, methods that use the same normalisation as used in\nthe metric tend to score more highly. For some methods we also evaluate the pre-processing\nrecommended by the method.",
+  "repository": "https://github.com/openproblems-bio/task_dimensionality_reduction",
+  "authors": [
+    {
+      "name": "Luke Zappia",
+      "roles": [
+        "maintainer",
+        "author"
+      ],
+      "github": "lazappi",
+      "orcid": "0000-0001-7744-8565",
+      "info": {}
+    },
+    {
+      "name": "Michael Vinyard",
+      "roles": [
+        "author"
+      ],
+      "github": "mvinyard",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Michal Klein",
+      "roles": [
+        "author"
+      ],
+      "github": "michalk8",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Scott Gigante",
+      "roles": [
+        "author"
+      ],
+      "github": "scottgigante",
+      "orcid": "0000-0002-4544-2764",
+      "info": {}
+    },
+    {
+      "name": "Ben DeMeo",
+      "roles": [
+        "author"
+      ],
+      "github": "bendemeo",
+      "orcid": null,
+      "info": {}
+    },
+    {
+      "name": "Robrecht Cannoodt",
+      "roles": [
+        "author"
+      ],
+      "github": "rcannood",
+      "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Kai Waldrant",
+      "roles": [
+        "contributor"
+      ],
+      "github": "KaiWaldrant",
+      "orcid": "0009-0003-8555-1361",
+      "info": {}
+    },
+    {
+      "name": "Sai Nirmayi Yasa",
+      "roles": [
+        "contributor"
+      ],
+      "github": "sainirmayi",
+      "orcid": "0009-0003-6319-9803",
+      "info": {}
+    },
+    {
+      "name": "Juan A. Cordero Varela",
+      "roles": [
+        "contributor"
+      ],
+      "github": "jacorvar",
+      "orcid": "0000-0002-7373-5433",
+      "info": {}
+    }
+  ],
+  "license": "MIT",
+  "references": {
+    "doi": [],
+    "bibtex": []
+  },
+  "version": "run_2024-12-19_15-35-59",
+  "is_prerelease": true,
+  "timestamp": "2024-12-19T15:35:59Z"
+}

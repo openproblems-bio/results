@@ -1,0 +1,704 @@
+[
+  {
+    "dataset_name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "method_name": "fastmnn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [175],
+    "run_cpu_pct": [18.1],
+    "run_peak_memory_mb": [6452],
+    "run_disk_read_mb": [238],
+    "run_disk_write_mb": [58],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0383, 1.173],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 23.3],
+        "run_cpu_pct": [607.9, 98.8],
+        "run_peak_memory_mb": [2765, 6247],
+        "run_disk_read_mb": [13, 265],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 3],
+        "run_cpu_pct": [378.1, 389.5],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [13, 256],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "method_name": "harmonic_alignment",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [239],
+    "run_cpu_pct": [401.7],
+    "run_peak_memory_mb": [6042],
+    "run_disk_read_mb": [208],
+    "run_disk_write_mb": [69],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0043, 1],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 17.8],
+        "run_cpu_pct": [353, 203.1],
+        "run_peak_memory_mb": [2765, 9626],
+        "run_disk_read_mb": [13, 276],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 9.2],
+        "run_cpu_pct": [385, 133.5],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [13, 267],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "method_name": "procrustes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14],
+    "run_cpu_pct": [117.3],
+    "run_peak_memory_mb": [5735],
+    "run_disk_read_mb": [199],
+    "run_disk_write_mb": [58],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.1126, 1.0055],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 20.8],
+        "run_cpu_pct": [391.7, 109.6],
+        "run_peak_memory_mb": [2765, 6144],
+        "run_disk_read_mb": [13, 264],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 5.9],
+        "run_cpu_pct": [710.8, 140.5],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [13, 256],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [129],
+    "run_cpu_pct": [12.1],
+    "run_peak_memory_mb": [5632],
+    "run_disk_read_mb": [198],
+    "run_disk_write_mb": [57],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0502, 0.9859],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 14.8],
+        "run_cpu_pct": [523.1, 151.8],
+        "run_peak_memory_mb": [2765, 6144],
+        "run_disk_read_mb": [13, 264],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 9.6],
+        "run_cpu_pct": [508.5, 119.2],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [13, 255],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "method_name": "scot",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [6711],
+    "run_cpu_pct": [4835],
+    "run_peak_memory_mb": [14848],
+    "run_disk_read_mb": [219],
+    "run_disk_write_mb": [58],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.058, 1.2539],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 13.8],
+        "run_cpu_pct": [552.3, 131.2],
+        "run_peak_memory_mb": [2765, 6247],
+        "run_disk_read_mb": [13, 264],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 3.1],
+        "run_cpu_pct": [523.4, 280.9],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [13, 256],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [8.3],
+    "run_cpu_pct": [88.4],
+    "run_peak_memory_mb": [5735],
+    "run_disk_read_mb": [385],
+    "run_disk_write_mb": [3],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0183, 0],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 13.1],
+        "run_cpu_pct": [774.5, 155.8],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [13, 210],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.5, 1.9],
+        "run_cpu_pct": [762.2, 476.5],
+        "run_peak_memory_mb": [2765, 2765],
+        "run_disk_read_mb": [13, 201],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "method_name": "fastmnn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [37.2],
+    "run_cpu_pct": [112.4],
+    "run_peak_memory_mb": [6554],
+    "run_disk_read_mb": [217],
+    "run_disk_write_mb": [65],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0138, 1.0807],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 12.6],
+        "run_cpu_pct": [460.4, 189.7],
+        "run_peak_memory_mb": [2765, 8602],
+        "run_disk_read_mb": [13, 251],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 6.8],
+        "run_cpu_pct": [426.5, 131],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [13, 242],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "method_name": "harmonic_alignment",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [80],
+    "run_cpu_pct": [1538.7],
+    "run_peak_memory_mb": [9216],
+    "run_disk_read_mb": [187],
+    "run_disk_write_mb": [64],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0064, 1],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 9.8],
+        "run_cpu_pct": [530.8, 216.4],
+        "run_peak_memory_mb": [2765, 8090],
+        "run_disk_read_mb": [13, 250],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 6.9],
+        "run_cpu_pct": [435.8, 149.3],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [13, 241],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "method_name": "procrustes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14.9],
+    "run_cpu_pct": [143.9],
+    "run_peak_memory_mb": [5735],
+    "run_disk_read_mb": [178],
+    "run_disk_write_mb": [64],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.071, 1.0101],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 6.8],
+        "run_cpu_pct": [335.2, 362.5],
+        "run_peak_memory_mb": [2765, 8909],
+        "run_disk_read_mb": [13, 250],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.2, 3.3],
+        "run_cpu_pct": [366.4, 211.6],
+        "run_peak_memory_mb": [5530, 5837],
+        "run_disk_read_mb": [13, 241],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [14.1],
+    "run_cpu_pct": [62.4],
+    "run_peak_memory_mb": [5632],
+    "run_disk_read_mb": [178],
+    "run_disk_write_mb": [61],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0525, 0.999],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.9, 6.1],
+        "run_cpu_pct": [665.2, 398.5],
+        "run_peak_memory_mb": [2765, 9114],
+        "run_disk_read_mb": [13, 247],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 6.3],
+        "run_cpu_pct": [677.2, 147.3],
+        "run_peak_memory_mb": [2765, 5735],
+        "run_disk_read_mb": [13, 238],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "method_name": "scot",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [1157],
+    "run_cpu_pct": [4300.4],
+    "run_peak_memory_mb": [10445],
+    "run_disk_read_mb": [198],
+    "run_disk_write_mb": [64],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0517, 0.8547],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 8.7],
+        "run_cpu_pct": [459.9, 315.5],
+        "run_peak_memory_mb": [2765, 8909],
+        "run_disk_read_mb": [13, 250],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 3.5],
+        "run_cpu_pct": [496.3, 224.7],
+        "run_peak_memory_mb": [2765, 5837],
+        "run_disk_read_mb": [13, 241],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [117],
+    "run_cpu_pct": [10.1],
+    "run_peak_memory_mb": [5837],
+    "run_disk_read_mb": [343],
+    "run_disk_write_mb": [13],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0583, 0],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 88],
+        "run_cpu_pct": [372.9, 29.3],
+        "run_peak_memory_mb": [2765, 6144],
+        "run_disk_read_mb": [13, 199],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 5.9],
+        "run_cpu_pct": [433.6, 110.6],
+        "run_peak_memory_mb": [5530, 5632],
+        "run_disk_read_mb": [13, 190],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "method_name": "fastmnn",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [49],
+    "run_cpu_pct": [108.4],
+    "run_peak_memory_mb": [6861],
+    "run_disk_read_mb": [356],
+    "run_disk_write_mb": [119],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0432, 0.9472],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 22.3],
+        "run_cpu_pct": [454.7, 303.1],
+        "run_peak_memory_mb": [2765, 10036],
+        "run_disk_read_mb": [13, 444],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 10],
+        "run_cpu_pct": [400, 89.4],
+        "run_peak_memory_mb": [2765, 6144],
+        "run_disk_read_mb": [13, 435],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "method_name": "harmonic_alignment",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [203],
+    "run_cpu_pct": [706.8],
+    "run_peak_memory_mb": [6759],
+    "run_disk_read_mb": [326],
+    "run_disk_write_mb": [118],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0822, 1.0001],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 20.2],
+        "run_cpu_pct": [414, 453.7],
+        "run_peak_memory_mb": [2765, 10036],
+        "run_disk_read_mb": [13, 443],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 4],
+        "run_cpu_pct": [537.4, 265.1],
+        "run_peak_memory_mb": [2765, 6042],
+        "run_disk_read_mb": [13, 434],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "method_name": "procrustes",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [10.2],
+    "run_cpu_pct": [360.5],
+    "run_peak_memory_mb": [5940],
+    "run_disk_read_mb": [317],
+    "run_disk_write_mb": [118],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.3064, 1.0011],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 34.2],
+        "run_cpu_pct": [347.3, 261.4],
+        "run_peak_memory_mb": [2765, 10036],
+        "run_disk_read_mb": [13, 443],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 4.1],
+        "run_cpu_pct": [393.5, 279.5],
+        "run_peak_memory_mb": [2765, 6042],
+        "run_disk_read_mb": [13, 434],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "method_name": "random_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [16.6],
+    "run_cpu_pct": [88.9],
+    "run_peak_memory_mb": [5837],
+    "run_disk_read_mb": [316],
+    "run_disk_write_mb": [110],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0486, 1.0038],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 148],
+        "run_cpu_pct": [678.9, 77.1],
+        "run_peak_memory_mb": [2765, 10036],
+        "run_disk_read_mb": [13, 435],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [6.3, 56.9],
+        "run_cpu_pct": [186.7, 17.1],
+        "run_peak_memory_mb": [5530, 2765],
+        "run_disk_read_mb": [13, 426],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "method_name": "scot",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [9586],
+    "run_cpu_pct": [4558.5],
+    "run_peak_memory_mb": [19456],
+    "run_disk_read_mb": [337],
+    "run_disk_write_mb": [118],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0758, 0.9929],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.7, 173],
+        "run_cpu_pct": [730.5, 46.7],
+        "run_peak_memory_mb": [2765, 10036],
+        "run_disk_read_mb": [13, 443],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [1.6, 116],
+        "run_cpu_pct": [664.4, 11.3],
+        "run_peak_memory_mb": [2765, 5940],
+        "run_disk_read_mb": [13, 434],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  },
+  {
+    "dataset_name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "method_name": "true_features",
+    "paramset_name": null,
+    "paramset": null,
+    "succeeded": true,
+    "run_exit_code": [0],
+    "run_duration_secs": [113],
+    "run_cpu_pct": [10.1],
+    "run_peak_memory_mb": [5530],
+    "run_disk_read_mb": [621],
+    "run_disk_write_mb": [21],
+    "metric_names": ["knn_auc", "mse"],
+    "metric_values": [0.0936, 0],
+    "metric_components": [
+      {
+        "component_name": "knn_auc",
+        "metric_names": ["knn_auc"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2, 60],
+        "run_cpu_pct": [549.4, 148.2],
+        "run_peak_memory_mb": [2765, 9728],
+        "run_disk_read_mb": [13, 346],
+        "run_disk_write_mb": [1, 1]
+      },
+      {
+        "component_name": "mse",
+        "metric_names": ["mse"],
+        "succeeded": true,
+        "run_exit_code": [0, 0],
+        "run_duration_secs": [2.1, 7.3],
+        "run_cpu_pct": [300.5, 95.8],
+        "run_peak_memory_mb": [2765, 5530],
+        "run_disk_read_mb": [13, 337],
+        "run_disk_write_mb": [1, 1]
+      }
+    ]
+  }
+]

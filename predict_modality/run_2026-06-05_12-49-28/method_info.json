@@ -1,0 +1,320 @@
+[
+  {
+    "name": "mean_per_gene",
+    "label": "Mean per gene",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Returns the mean expression value per gene.",
+    "description": "Returns the mean expression value per gene.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/control_methods/mean_per_gene",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/mean_per_gene:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "random_predict",
+    "label": "Random predictions",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Returns random training profiles.",
+    "description": "Returns random training profiles.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/control_methods/random_predict",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/random_predict:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "zeros",
+    "label": "Zeros",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Returns a prediction consisting of all zeros.",
+    "description": "Returns a prediction consisting of all zeros.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/control_methods/zeros",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/zeros:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "solution",
+    "label": "Solution",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Returns the ground-truth solution.",
+    "description": "Returns the ground-truth solution.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/control_methods/solution",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/control_methods/solution:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "knnr_py",
+    "label": "KNNR (Py)",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "K-nearest neighbor regression in Python.",
+    "description": "K-nearest neighbor regression in Python.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": "https://scikit-learn.org/stable/modules/neighbors.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/knnr_py",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/knnr_py:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.2307/1403797"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "repository_url": "https://github.com/scikit-learn/scikit-learn",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "knnr_r",
+    "label": "KNNR (R)",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "K-nearest neighbor regression in R.",
+    "description": "K-nearest neighbor regression in R.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": "https://cran.r-project.org/package=FNN",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/knnr_r",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/knnr_r:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.2307/1403797"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "repository_url": "https://github.com/cran/FNN",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "cellmapper_linear",
+    "label": "CellMapper+PCA/CCA",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Modality prediction in a PCA/CCA space using CellMapper",
+    "description": "CellMapper is a general framework for k-NN based mapping tasks in single-cell and spatial genomics.\nThis variant uses CellMapper to project modalities from a reference dataset (train) onto a query dataset (test) in a PCA/CCA latent space.",
+    "type": "method",
+    "link_code": "https://github.com/quadbio/cellmapper",
+    "link_documentation": "https://cellmapper.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/cellmapper_linear",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/cellmapper_linear:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.5281/zenodo.15683594"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "cellmapper-pca": {
+          "fallback_representation": "joint_pca",
+          "mask_var": "None",
+          "kernel_method": "hnoca"
+        },
+        "cellmapper-pca-hvg": {
+          "fallback_representation": "joint_pca",
+          "mask_var": "hvg",
+          "kernel_method": "hnoca"
+        },
+        "cellmapper-pca-hvg-gauss": {
+          "fallback_representation": "joint_pca",
+          "mask_var": "hvg",
+          "kernel_method": "gauss"
+        },
+        "cellmapper-cca": {
+          "fallback_representation": "fast_cca",
+          "mask_var": "None",
+          "kernel_method": "hnoca"
+        },
+        "cellmapper-cca-hvg": {
+          "fallback_representation": "fast_cca",
+          "mask_var": "hvg",
+          "kernel_method": "hnoca"
+        },
+        "cellmapper-cca-hvg-gauss": {
+          "fallback_representation": "fast_cca",
+          "mask_var": "hvg",
+          "kernel_method": "gauss"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "cellmapper_scvi",
+    "label": "CellMapper+scVI",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Modality prediction in an scVI latent space using CellMapper",
+    "description": "CellMapper is a general framework for k-NN based mapping tasks in single-cell and spatial genomics.\nThis variant uses CellMapper to project modalities from a reference dataset (train) onto a query dataset \n(test) in a modality-specific latent space computed with suitable scvi-tools models. For gene expression data, \nwe use the scVI model on raw counts (nb likelihood), for ADT data, we use the scVI models on normalized counts \n(gaussian likelihood), and for ATAC data, we use the PeakVI model on raw counts. The actual CellMapper pipeline is \nmodality-agnostic.",
+    "type": "method",
+    "link_code": "https://github.com/quadbio/cellmapper",
+    "link_documentation": "https://cellmapper.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/cellmapper_scvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/cellmapper_scvi:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.5281/zenodo.15683594"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "cellmapper_hnoca_hvg": {
+          "kernel_method": "hnoca",
+          "use_hvg": true,
+          "adt_normalization": "clr"
+        },
+        "cellmapper_hnoca_all_genes": {
+          "kernel_method": "hnoca",
+          "use_hvg": false,
+          "adt_normalization": "clr"
+        },
+        "cellmapper_gauss_hvg": {
+          "kernel_method": "gauss",
+          "use_hvg": true,
+          "adt_normalization": "clr"
+        },
+        "cellmapper_gauss_hvg_log_cp10k": {
+          "kernel_method": "gauss",
+          "use_hvg": true,
+          "adt_normalization": "log_cp10k"
+        },
+        "cellmapper_gauss_all_genes": {
+          "kernel_method": "gauss",
+          "use_hvg": false,
+          "adt_normalization": "clr"
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "lm",
+    "label": "Linear Model",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Linear model regression.",
+    "description": "A linear model regression method.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": "https://cran.r-project.org/package=RcppArmadillo",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/lm",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/lm:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.2307/2346786"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "repository_url": "https://github.com/RcppCore/RcppArmadillo",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "guanlab_dengkw_pm",
+    "label": "Guanlab-dengkw",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "A kernel ridge regression method with RBF kernel.",
+    "description": "This is a solution developed by Team Guanlab - dengkw in the Neurips 2021 competition to predict one modality\nfrom another using kernel ridge regression (KRR) with RBF kernel. Truncated SVD is applied on the combined\ntraining and test data from modality 1 followed by row-wise z-score normalization on the reduced matrix. The\ntruncated SVD of modality 2 is predicted by training a KRR model on the normalized training matrix of modality 1.\nPredictions on the normalized test matrix are then re-mapped to the modality 2 feature space via the right\nsingular vectors.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_predict_modality",
+    "link_documentation": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/Guanlab-dengkw",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/guanlab_dengkw_pm",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_predict_modality/methods/guanlab_dengkw_pm:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2022.04.11.487796"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "repository_url": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/Guanlab-dengkw",
+      "competition_submission_id": 170636
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "novel",
+    "label": "Novel",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "A method using encoder-decoder MLP model",
+    "description": "This method trains an encoder-decoder MLP model with one output neuron per component in the target. As an input, the encoders use representations obtained from ATAC and GEX data via LSI transform and raw ADT data. The hyperparameters of the models were found via broad hyperparameter search using the Optuna framework.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/novel",
+    "link_documentation": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/novel#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/novel/novel",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=task_predict_modality&q=methods/novel/novel",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2022.04.11.487796"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "submission_id": "169769",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "simple_mlp",
+    "label": "Simple MLP",
+    "commit": "227295281678eca957eea4bf231e11a53ff91c27",
+    "summary": "Ensemble of MLPs trained on different sites (team AXX)",
+    "description": "This folder contains the AXX solution to the OpenProblems-NeurIPS2021 Single-Cell Multimodal Data Integration.\nTeam took the 4th place of the modality prediction task in terms of overall ranking of 4 subtasks: namely GEX\nto ADT, ADT to GEX, GEX to ATAC and ATAC to GEX. Specifically, our methods ranked 3rd in GEX to ATAC and 4th\nin GEX to ADT. More details about the task can be found in the\n[competition webpage](https://openproblems.bio/events/2021-09_neurips/documentation/about_tasks/task1_modality_prediction).",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/AXX",
+    "link_documentation": "https://github.com/openproblems-bio/neurips2021_multimodal_topmethods/tree/main/src/predict_modality/methods/AXX",
+    "link_implementation": "https://github.com/openproblems-bio/task_predict_modality/blob/227295281678eca957eea4bf231e11a53ff91c27/src/methods/simple_mlp/simple_mlp",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=task_predict_modality&q=methods/simple_mlp/simple_mlp",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2022.04.11.487796"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "competition_submission_id": 170812
+    },
+    "version": "build_main"
+  }
+]

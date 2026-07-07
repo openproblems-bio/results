@@ -1,0 +1,270 @@
+[
+  {
+    "name": "random_proportions",
+    "label": "Random Proportions",
+    "commit": "missing-sha",
+    "summary": "Negative control method that randomly assigns celltype proportions from a Dirichlet distribution.",
+    "description": "A negative control method with random assignment of predicted celltype proportions from a Dirichlet distribution.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "true_proportions",
+    "label": "True Proportions",
+    "commit": "missing-sha",
+    "summary": "Positive control method that assigns celltype proportions from the ground truth.",
+    "description": "A positive control method with perfect assignment of predicted celltype proportions from the ground truth.",
+    "type": "control_method",
+    "link_code": null,
+    "link_documentation": null,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "cell2location",
+    "label": "Cell2Location",
+    "commit": "missing-sha",
+    "summary": "Cell2location uses a Bayesian model to resolve cell types in spatial transcriptomic data and create comprehensive cellular maps of diverse tissues.",
+    "description": "Cell2location is a decomposition method based on Negative Binomial regression that is able to account for batch effects in estimating the single-cell gene expression signature used for the spatial decomposition step. \nNote that when batch information is unavailable for this task, we can use either a hard-coded reference, or a negative-binomial learned reference without batch labels. The parameter alpha refers to the detection efficiency prior.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://cell2location.readthedocs.io/en/latest/",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "variants": {
+        "cell2location_amortised_detection_alpha_20": {
+          "detection_alpha": 20,
+          "amortised": true
+        },
+        "cell2location_detection_alpha_1": {
+          "detection_alpha": 1
+        },
+        "cell2location_detection_alpha_20": {
+          "detection_alpha": 20
+        },
+        "cell2location_detection_alpha_20_nb": {
+          "detection_alpha": 20,
+          "hard_coded_reference": false
+        },
+        "cell2location_detection_alpha_200": {
+          "detection_alpha": 200
+        }
+      },
+      "reference": "kleshchevnikov2022cell2location",
+      "repository_url": "https://github.com/BayraktarLab/cell2location"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "destvi",
+    "label": "DestVI",
+    "commit": "missing-sha",
+    "summary": "DestVI is a probabilistic method for multi-resolution analysis for spatial transcriptomics that explicitly models continuous variation within cell types",
+    "description": "Deconvolution of Spatial Transcriptomics profiles using Variational Inference (DestVI) is a spatial decomposition method that leverages a conditional generative model of spatial transcriptomics down to the sub-cell-type variation level, which is then used to decompose the cell-type proportions determining the spatial organization of a tissue.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://docs.scvi-tools.org/en/stable/user_guide/models/destvi.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "lopez2022destvi",
+      "repository_url": "https://github.com/scverse/scvi-tools"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "nmfreg",
+    "label": "NMFreg",
+    "commit": "missing-sha",
+    "summary": "NMFreg reconstructs gene expression as a weighted combination of cell type signatures defined by scRNA-seq.",
+    "description": "Non-Negative Matrix Factorization regression (NMFreg) is a decomposition method that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It was originally developed for Slide-seq data. This is a re-implementation from https://github.com/tudaga/NMFreg_tutorial.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "rodriques2019slide",
+      "repository_url": "https://github.com/tudaga/NMFreg_tutorial/tree/master?tab=readme-ov-file"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "nnls",
+    "label": "NNLS",
+    "commit": "missing-sha",
+    "summary": "NNLS is a decomposition method based on Non-Negative Least Square Regression.",
+    "description": "NonNegative Least Squares (NNLS), is a convex optimization problem with convex constraints. It was used by the AutoGeneS method to infer cellular proporrtions by solvong a multi-objective optimization problem.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.nnls.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "aliee2021autogenes",
+      "repository_url": "https://github.com/scipy/scipy"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "rctd",
+    "label": "RCTD",
+    "commit": "missing-sha",
+    "summary": "RCTD learns cell type profiles from scRNA-seq to decompose cell type mixtures while correcting for differences across sequencing technologies.",
+    "description": "RCTD (Robust Cell Type Decomposition) is a decomposition method that uses signatures learnt from single-cell data to decompose spatial expression of tissues. It is able to use a platform effect normalization step, which normalizes the scRNA-seq cell type profiles to match the platform effects of the spatial transcriptomics dataset.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://raw.githack.com/dmcable/spacexr/master/vignettes/spatial-transcriptomics.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "cable2021robust",
+      "repository_url": "https://github.com/dmcable/spacexr"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "seurat",
+    "label": "Seurat",
+    "commit": "missing-sha",
+    "summary": "Seurat method that is based on Canonical Correlation Analysis (CCA).",
+    "description": "This method applies the 'anchor'-based integration workflow introduced in Seurat v3, that enables the probabilistic transfer of annotations from a reference to a query set. First, mutual nearest neighbors (anchors) are identified from the reference scRNA-seq and query spatial datasets. Then, annotations are transfered from the single cell reference data to the sptial data along with prediction scores for each spot.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://satijalab.org/seurat/articles/spatial_vignette",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "stuart2019comprehensive",
+      "repository_url": "https://github.com/satijalab/seurat"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "stereoscope",
+    "label": "Stereoscope",
+    "commit": "missing-sha",
+    "summary": "Stereoscope is a decomposition method based on Negative Binomial regression.",
+    "description": "Stereoscope is a decomposition method based on Negative Binomial regression. It is similar in scope and implementation to cell2location but less flexible to incorporate additional covariates such as batch effects and other type of experimental design annotations.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://docs.scvi-tools.org/en/stable/user_guide/models/stereoscope.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "andersson2020single",
+      "repository_url": "https://github.com/scverse/scvi-tools"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "tangram",
+    "label": "Tangram",
+    "commit": "missing-sha",
+    "summary": "Tanagram maps single-cell gene expression data onto spatial gene expression data by fitting gene expression on shared genes",
+    "description": "Tangram is a method to map gene expression signatures from scRNA-seq data to spatial data. It performs the cell type mapping by learning a similarity matrix between single-cell and spatial locations based on gene expression profiles.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://tangram-sc.readthedocs.io/en/latest/index.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "biancalani2021deep",
+      "repository_url": "https://github.com/broadinstitute/Tangram"
+    },
+    "version": "integration_build"
+  },
+  {
+    "name": "vanillanmf",
+    "label": "NMF",
+    "commit": "missing-sha",
+    "summary": "NMF reconstructs gene expression as a weighted combination of cell type signatures defined by scRNA-seq.",
+    "description": "NMF is a decomposition method based on Non-negative Matrix Factorization (NMF) that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It is a simpler baseline than NMFreg as it only performs the NMF step based on mean expression signatures of cell types, returning the weights loading of the NMF as (normalized) cell type proportions, without the regression step.",
+    "type": "method",
+    "link_code": null,
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html",
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "reference": "cichocki2009fast",
+      "repository_url": "https://github.com/scikit-learn/scikit-learn/blob/92c9b1866/sklearn/decomposition/"
+    },
+    "version": "integration_build"
+  }
+]

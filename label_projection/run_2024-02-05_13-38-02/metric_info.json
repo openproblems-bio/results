@@ -1,0 +1,98 @@
+[
+  {
+    "name": "accuracy",
+    "label": "Accuracy",
+    "commit": "missing-sha",
+    "summary": "The percentage of correctly predicted labels.",
+    "description": "The percentage of correctly predicted labels.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "accuracy",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "grandini2020metrics",
+      "v1": {
+        "path": "openproblems/tasks/label_projection/metrics/accuracy.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "f1_weighted",
+    "label": "F1 weighted",
+    "commit": "missing-sha",
+    "summary": "Average weigthed support between each labels F1 score",
+    "description": "Calculates the F1 score for each label, and find their average weighted by support (the number of true instances for each label). This alters 'macro' to account for label imbalance; it can result in an F-score that is not between precision and recall.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "f1",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "grandini2020metrics",
+      "v1": {
+        "path": "openproblems/tasks/label_projection/metrics/f1.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "f1_macro",
+    "label": "F1 macro",
+    "commit": "missing-sha",
+    "summary": "Unweighted mean of each label F1-score",
+    "description": "Calculates the F1 score for each label, and find their unweighted mean. This does not take label imbalance into account.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "f1",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "grandini2020metrics",
+      "v1": {
+        "path": "openproblems/tasks/label_projection/metrics/f1.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  },
+  {
+    "name": "f1_micro",
+    "label": "F1 micro",
+    "commit": "missing-sha",
+    "summary": "Calculation of TP, FN and FP.",
+    "description": "Calculates the F1 score globally by counting the total true positives, false negatives and false positives.",
+    "maximize": true,
+    "link_implementation": "/blob//",
+    "link_container_image": "https://github.com/orgs/openproblems-bio/packages?repo_name=&q=",
+    "component_name": "f1",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "reference": "grandini2020metrics",
+      "v1": {
+        "path": "openproblems/tasks/label_projection/metrics/f1.py",
+        "commit": "b3456fd73c04c28516f6df34c57e6e3e8b0dab32"
+      }
+    },
+    "version": "main_build"
+  }
+]

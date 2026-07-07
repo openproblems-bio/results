@@ -1,0 +1,722 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: match_modalities\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: match_modalities\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: match_modalities\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: match_modalities\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: match_modalities\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: match_modalities\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: match_modalities\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: match_modalities\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: match_modalities\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: match_modalities\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: match_modalities\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: match_modalities\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: match_modalities\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: match_modalities\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.6667,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: match_modalities\n  Field: references\n  Percentage missing: 67"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: match_modalities\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: match_modalities\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: match_modalities\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: match_modalities\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: match_modalities\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: match_modalities\n  Field: references\n  Percentage missing: 100"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 36,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: match_modalities\n  Number of results: 36\n  Number of datasets: 3\n  Number of methods: 6\n  Number of metrics: 2\n  Expected number of results: 36\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1_multimodal/scicar_cell_lines' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/scicar_cell_lines\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1_multimodal/scicar_mouse_kidney' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/scicar_mouse_kidney\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1_multimodal/citeseq_cbmc' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/citeseq_cbmc\n  Number of results: 12\n  Expected number of results: 12\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_features' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Method: random_features\n  Number of results: 6\n  Expected number of results: 6\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_features' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Method: true_features\n  Number of results: 6\n  Expected number of results: 6\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scot' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Method: scot\n  Number of results: 6\n  Expected number of results: 6\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonic_alignment' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Method: harmonic_alignment\n  Number of results: 6\n  Expected number of results: 6\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Method: fastmnn\n  Number of results: 6\n  Expected number of results: 6\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'procrustes' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Method: procrustes\n  Number of results: 6\n  Expected number of results: 6\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_auc' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Metric: knn_auc\n  Number of results: 18\n  Expected number of results: 18\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mse' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: match_modalities\n  Metric: mse\n  Number of results: 18\n  Expected number of results: 18\n  Percentage missing: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 54,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: match_modalities\n  Succeeded processes: 54\n  Attempted processes: 54\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1_multimodal/scicar_cell_lines' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/scicar_cell_lines\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1_multimodal/scicar_mouse_kidney' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/scicar_mouse_kidney\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'openproblems_v1_multimodal/citeseq_cbmc' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/citeseq_cbmc\n  Succeeded processes: 6\n  Attempted processes: 6\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'random_features' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Method: random_features\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'true_features' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Method: true_features\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'scot' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Method: scot\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'harmonic_alignment' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Method: harmonic_alignment\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'fastmnn' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Method: fastmnn\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'procrustes' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Method: procrustes\n  Succeeded processes: 3\n  Attempted processes: 3\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'knn_auc' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Metric component: knn_auc\n  Succeeded processes: 18\n  Attempted processes: 18\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'mse' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: match_modalities\n  Metric component: mse\n  Succeeded processes: 18\n  Attempted processes: 18\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1_multimodal/scicar_cell_lines' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/scicar_cell_lines\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1_multimodal/scicar_mouse_kidney' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/scicar_mouse_kidney\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `openproblems_v1_multimodal/citeseq_cbmc' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: match_modalities\n  Dataset: openproblems_v1_multimodal/citeseq_cbmc\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_auc' number of control methods",
+    "value": 6,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: match_modalities\n  Metric: knn_auc\n  Control method scores: 6\n  Expected control method scores: 6\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'mse' number of control methods",
+    "value": 6,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: match_modalities\n  Metric: mse\n  Control method scores: 6\n  Expected control method scores: 6\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_auc' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: match_modalities\n  Metric: knn_auc\n  Inside range: 18\n  Scaled scores: 18\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_auc' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: match_modalities\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_auc' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: match_modalities\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_auc' score for 'fastmnn'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' knn_auc'\n  Task: match_modalities\n  Method: fastmnn\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_auc' score for 'fastmnn'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'knn_auc'\n  Task: match_modalities\n  Method: fastmnn\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_auc' score for 'harmonic_alignment'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'harmonic_alignment' performs much worse than controls for metric' knn_auc'\n  Task: match_modalities\n  Method: harmonic_alignment\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_auc' score for 'harmonic_alignment'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'harmonic_alignment' performs much better than controls for metric 'knn_auc'\n  Task: match_modalities\n  Method: harmonic_alignment\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_auc' score for 'procrustes'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'procrustes' performs much worse than controls for metric' knn_auc'\n  Task: match_modalities\n  Method: procrustes\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_auc' score for 'procrustes'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'procrustes' performs much better than controls for metric 'knn_auc'\n  Task: match_modalities\n  Method: procrustes\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_auc' score for 'random_features'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_features' performs much worse than controls for metric' knn_auc'\n  Task: match_modalities\n  Method: random_features\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_auc' score for 'random_features'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_features' performs much better than controls for metric 'knn_auc'\n  Task: match_modalities\n  Method: random_features\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_auc' score for 'scot'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scot' performs much worse than controls for metric' knn_auc'\n  Task: match_modalities\n  Method: scot\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_auc' score for 'scot'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scot' performs much better than controls for metric 'knn_auc'\n  Task: match_modalities\n  Method: scot\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_auc' score for 'true_features'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_features' performs much worse than controls for metric' knn_auc'\n  Task: match_modalities\n  Method: true_features\n  Metric: knn_auc\n  Worst score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_auc' score for 'true_features'",
+    "value": 0.627,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_features' performs much better than controls for metric 'knn_auc'\n  Task: match_modalities\n  Method: true_features\n  Metric: knn_auc\n  Best score: 0.626959247648903\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mse' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: match_modalities\n  Metric: mse\n  Inside range: 0\n  Scaled scores: 18\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mse' worst score % outside range",
+    "value": 0.1898,
+    "severity": 1,
+    "severity_value": 1.8978,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: match_modalities\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'mse' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: match_modalities\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'fastmnn'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'fastmnn' performs much worse than controls for metric' mse'\n  Task: match_modalities\n  Method: fastmnn\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'fastmnn'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'fastmnn' performs much better than controls for metric 'mse'\n  Task: match_modalities\n  Method: fastmnn\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'harmonic_alignment'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'harmonic_alignment' performs much worse than controls for metric' mse'\n  Task: match_modalities\n  Method: harmonic_alignment\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'harmonic_alignment'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'harmonic_alignment' performs much better than controls for metric 'mse'\n  Task: match_modalities\n  Method: harmonic_alignment\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'procrustes'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'procrustes' performs much worse than controls for metric' mse'\n  Task: match_modalities\n  Method: procrustes\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'procrustes'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'procrustes' performs much better than controls for metric 'mse'\n  Task: match_modalities\n  Method: procrustes\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'random_features'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'random_features' performs much worse than controls for metric' mse'\n  Task: match_modalities\n  Method: random_features\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'random_features'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'random_features' performs much better than controls for metric 'mse'\n  Task: match_modalities\n  Method: random_features\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'scot'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'scot' performs much worse than controls for metric' mse'\n  Task: match_modalities\n  Method: scot\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'scot'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'scot' performs much better than controls for metric 'mse'\n  Task: match_modalities\n  Method: scot\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'mse' score for 'true_features'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'true_features' performs much worse than controls for metric' mse'\n  Task: match_modalities\n  Method: true_features\n  Metric: mse\n  Worst score: -0.189775839334618\n  Percentage outside range: 19%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'mse' score for 'true_features'",
+    "value": -0.1898,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'true_features' performs much better than controls for metric 'mse'\n  Task: match_modalities\n  Method: true_features\n  Metric: mse\n  Best score: -0.189775839334618\n  Percentage outside range: 0%\n"
+  }
+]
