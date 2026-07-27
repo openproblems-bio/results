@@ -1,0 +1,252 @@
+[
+  {
+    "name": "random_proportions",
+    "label": "Random Proportions",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "Negative control method that randomly assigns celltype proportions from a Dirichlet distribution.",
+    "description": "A negative control method with random assignment of predicted celltype proportions from a Dirichlet distribution.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_spatial_decomposition",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/control_methods/random_proportions",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/control_methods/random_proportions:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "true_proportions",
+    "label": "True Proportions",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "Positive control method that assigns celltype proportions from the ground truth.",
+    "description": "A positive control method with perfect assignment of predicted celltype proportions from the ground truth.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_spatial_decomposition",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/control_methods/true_proportions",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/control_methods/true_proportions:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "cell2location",
+    "label": "Cell2Location",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "Cell2location uses a Bayesian model to resolve cell types in spatial transcriptomic data and create comprehensive cellular maps of diverse tissues.",
+    "description": "Cell2location is a decomposition method based on Negative Binomial regression that is able to account for batch effects in estimating the single-cell gene expression signature used for the spatial decomposition step. \nNote that when batch information is unavailable for this task, we can use either a hard-coded reference, or a negative-binomial learned reference without batch labels. The parameter alpha refers to the detection efficiency prior.",
+    "type": "method",
+    "link_code": "https://github.com/BayraktarLab/cell2location",
+    "link_documentation": "https://cell2location.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/cell2location",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/cell2location:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-021-01139-4"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "variants": {
+        "cell2location_amortised_detection_alpha_20": {
+          "detection_alpha": 20,
+          "amortised": true
+        },
+        "cell2location_detection_alpha_1": {
+          "detection_alpha": 1
+        },
+        "cell2location_detection_alpha_20": {
+          "detection_alpha": 20
+        },
+        "cell2location_detection_alpha_20_nb": {
+          "detection_alpha": 20,
+          "hard_coded_reference": false
+        },
+        "cell2location_detection_alpha_200": {
+          "detection_alpha": 200
+        }
+      }
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "destvi",
+    "label": "DestVI",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "DestVI is a probabilistic method for multi-resolution analysis for spatial transcriptomics that explicitly models continuous variation within cell types",
+    "description": "Deconvolution of Spatial Transcriptomics profiles using Variational Inference (DestVI) is a spatial decomposition method that leverages a conditional generative model of spatial transcriptomics down to the sub-cell-type variation level, which is then used to decompose the cell-type proportions determining the spatial organization of a tissue.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools",
+    "link_documentation": "https://docs.scvi-tools.org/en/stable/user_guide/models/destvi.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/destvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/destvi:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-022-01272-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "nmfreg",
+    "label": "NMFreg",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "NMFreg reconstructs gene expression as a weighted combination of cell type signatures defined by scRNA-seq.",
+    "description": "Non-Negative Matrix Factorization regression (NMFreg) is a decomposition method that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It was originally developed for Slide-seq data. This is a re-implementation from https://github.com/tudaga/NMFreg_tutorial.",
+    "type": "method",
+    "link_code": "https://github.com/tudaga/NMFreg_tutorial/tree/master?tab=readme-ov-file",
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/nmfreg",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/nmfreg:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1126/science.aaw1219"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "nnls",
+    "label": "NNLS",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "NNLS is a decomposition method based on Non-Negative Least Square Regression.",
+    "description": "NonNegative Least Squares (NNLS), is a convex optimization problem with convex constraints. It was used by the AutoGeneS method to infer cellular proporrtions by solvong a multi-objective optimization problem.",
+    "type": "method",
+    "link_code": "https://github.com/scipy/scipy",
+    "link_documentation": "https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.nnls.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/nnls",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/nnls:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cels.2021.05.006"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "rctd",
+    "label": "RCTD",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "RCTD learns cell type profiles from scRNA-seq to decompose cell type mixtures while correcting for differences across sequencing technologies.",
+    "description": "RCTD (Robust Cell Type Decomposition) is a decomposition method that uses signatures learnt from single-cell data to decompose spatial expression of tissues. It is able to use a platform effect normalization step, which normalizes the scRNA-seq cell type profiles to match the platform effects of the spatial transcriptomics dataset.",
+    "type": "method",
+    "link_code": "https://github.com/dmcable/spacexr",
+    "link_documentation": "https://raw.githack.com/dmcable/spacexr/master/vignettes/spatial-transcriptomics.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/rctd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/rctd:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-021-00830-w"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "seurat",
+    "label": "Seurat",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "Seurat method that is based on Canonical Correlation Analysis (CCA).",
+    "description": "This method applies the 'anchor'-based integration workflow introduced in Seurat v3, that enables the probabilistic transfer of annotations from a reference to a query set. First, mutual nearest neighbors (anchors) are identified from the reference scRNA-seq and query spatial datasets. Then, annotations are transfered from the single cell reference data to the sptial data along with prediction scores for each spot.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat",
+    "link_documentation": "https://satijalab.org/seurat/articles/spatial_vignette",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/seurat",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/seurat:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2019.05.031"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "stereoscope",
+    "label": "Stereoscope",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "Stereoscope is a decomposition method based on Negative Binomial regression.",
+    "description": "Stereoscope is a decomposition method based on Negative Binomial regression. It is similar in scope and implementation to cell2location but less flexible to incorporate additional covariates such as batch effects and other type of experimental design annotations.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools",
+    "link_documentation": "https://docs.scvi-tools.org/en/stable/user_guide/models/stereoscope.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/stereoscope",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/stereoscope:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s42003-020-01247-y"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "tangram",
+    "label": "Tangram",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "Tanagram maps single-cell gene expression data onto spatial gene expression data by fitting gene expression on shared genes",
+    "description": "Tangram is a method to map gene expression signatures from scRNA-seq data to spatial data. It performs the cell type mapping by learning a similarity matrix between single-cell and spatial locations based on gene expression profiles.",
+    "type": "method",
+    "link_code": "https://github.com/broadinstitute/Tangram",
+    "link_documentation": "https://tangram-sc.readthedocs.io/en/latest/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/tangram",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/tangram:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01264-7"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  },
+  {
+    "name": "vanillanmf",
+    "label": "NMF",
+    "commit": "9f32dec1f8fe366abd433021fe0d2e0cab492aac",
+    "summary": "NMF reconstructs gene expression as a weighted combination of cell type signatures defined by scRNA-seq.",
+    "description": "NMF is a decomposition method based on Non-negative Matrix Factorization (NMF) that reconstructs expression of each spatial location as a weighted combination of cell-type signatures defined by scRNA-seq. It is a simpler baseline than NMFreg as it only performs the NMF step based on mean expression signatures of cell types, returning the weights loading of the NMF as (normalized) cell type proportions, without the regression step.",
+    "type": "method",
+    "link_code": "https://github.com/scikit-learn/scikit-learn/blob/92c9b1866/sklearn/decomposition/",
+    "link_documentation": "https://scikit-learn.org/stable/modules/generated/sklearn.decomposition.NMF.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_decomposition/blob/9f32dec1f8fe366abd433021fe0d2e0cab492aac/src/methods/vanillanmf",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_decomposition/methods/vanillanmf:build_main",
+    "authors": [],
+    "references": {
+      "doi": ["10.1587/transfun.e92.a.708"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts"
+    },
+    "version": "build_main"
+  }
+]

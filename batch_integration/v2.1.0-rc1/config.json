@@ -2,8 +2,13 @@
   "qc_silenced": [
     {
       "category": "Raw results",
-      "label": "Metric 'hvg_overlap' % missing",
-      "reason": "v2.0.0 bundles the embed, graph and feature sub-tasks. hvg_overlap only applies to feature-output methods, so it is missing for embed and graph methods by design."
+      "labelPattern": "^Metric 'hvg_overlap' % missing$",
+      "reason": "v3.0.0 bundles the embed, graph and feature sub-tasks. hvg_overlap only applies to feature-output methods, so it is missing for embed and graph methods by design."
+    },
+    {
+      "category": "Raw results",
+      "labelPattern": "^Metric 'hvg_overlap' number of control methods$",
+      "reason": "Only the feature-output control methods produce a corrected feature matrix, so hvg_overlap sees fewer controls than datasets x control methods."
     }
   ],
   "presets": [
@@ -14,15 +19,14 @@
       "metrics": [
         "graph_connectivity",
         "ari",
+        "ari_batch",
         "nmi",
-        "kbet",
+        "nmi_batch",
+        "kbet_pg",
+        "kbet_pg_label",
         "ilisi",
         "clisi",
         "isolated_label_f1"
-      ],
-      "paramsets": [
-        "best",
-        "worst"
       ]
     },
     {
@@ -37,40 +41,46 @@
         "pcr",
         "graph_connectivity",
         "ari",
+        "ari_batch",
         "nmi",
-        "kbet",
+        "nmi_batch",
+        "kbet_pg",
+        "kbet_pg_label",
         "ilisi",
         "clisi",
         "isolated_label_f1"
       ],
       "methods": [
         "batchelor_fastmnn",
-        "batchelor_mnncorrect",
+        "batchelor_mnn_correct",
         "combat",
         "embed_cell_types",
+        "embed_cell_types_jittered",
         "geneformer",
+        "geneformer_mlflow",
         "harmony",
         "harmonypy",
         "liger",
         "mnnpy",
         "no_integration",
-        "no_integration_by_batch",
-        "perfect_embedding_by_celltype_with_jitter",
+        "no_integration_batch",
         "pyliger",
         "scalex",
         "scanorama",
         "scanvi",
-        "scgpt",
+        "scgpt_finetuned",
+        "scgpt_mlflow",
+        "scgpt_zeroshot",
         "scimilarity",
+        "scprint",
         "scvi",
+        "scvi_mlflow",
         "shuffle_integration",
         "shuffle_integration_by_batch",
         "shuffle_integration_by_cell_type",
-        "uce"
-      ],
-      "paramsets": [
-        "best",
-        "worst"
+        "transcriptformer_mlflow",
+        "uce",
+        "uce_mlflow"
       ]
     },
     {
@@ -78,6 +88,7 @@
       "label": "Feature",
       "description": "Feature-based metrics (HVG overlap). Applicable only to methods that output a corrected feature matrix; embedding-only and graph-only methods are hidden.",
       "metrics": [
+        "hvg_overlap",
         "asw_batch",
         "asw_label",
         "isolated_label_asw",
@@ -85,15 +96,17 @@
         "pcr",
         "graph_connectivity",
         "ari",
+        "ari_batch",
         "nmi",
-        "kbet",
+        "nmi_batch",
+        "kbet_pg",
+        "kbet_pg_label",
         "ilisi",
         "clisi",
-        "isolated_label_f1",
-        "hvg_overlap"
+        "isolated_label_f1"
       ],
       "methods": [
-        "batchelor_mnncorrect",
+        "batchelor_mnn_correct",
         "combat",
         "mnnpy",
         "scalex",
@@ -101,10 +114,6 @@
         "shuffle_integration",
         "shuffle_integration_by_batch",
         "shuffle_integration_by_cell_type"
-      ],
-      "paramsets": [
-        "best",
-        "worst"
       ]
     },
     {

@@ -1,0 +1,56 @@
+[
+  {
+    "name": "openproblems_v1_multimodal/scicar_mouse_kidney",
+    "label": "sci-CAR Mouse Kidney",
+    "commit": "missing-sha",
+    "summary": "sci-CAR profiles of 11k mouse kidney cells",
+    "description": "Single cell RNA-seq and ATAC-seq co-profiling of 11k mouse kidney cells.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117089"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1126/science.aau0730"],
+      "bibtex": []
+    },
+    "date_created": "20-03-2024",
+    "file_size_mb": 96.6656
+  },
+  {
+    "name": "openproblems_v1_multimodal/citeseq_cbmc",
+    "label": "CITE-Seq CBMC",
+    "commit": "missing-sha",
+    "summary": "CITE-seq profiles of 8k Cord Blood Mononuclear Cells",
+    "description": "8k cord blood mononuclear cells profiled by CITEsequsing a panel of 13 antibodies.",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE100866"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/nmeth.4380"],
+      "bibtex": []
+    },
+    "date_created": "20-03-2024",
+    "file_size_mb": 182.2505
+  },
+  {
+    "name": "openproblems_v1_multimodal/scicar_cell_lines",
+    "label": "sci-CAR Cell Lines",
+    "commit": "missing-sha",
+    "summary": "sci-CAR profiles of 5k cell line cells (HEK293T, NIH/3T3, A549) across three treatment conditions (DEX 0h, 1h and 3h)",
+    "description": "Single cell RNA-seq and ATAC-seq co-profiling for HEK293T cells, NIH/3T3 cells, A549 cells across three treatment conditions (DEX 0 hour, 1 hour and 3 hour treatment).",
+    "source_urls": ["https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE117089"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["[homo_sapiens, mus_musculus]"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1126/science.aau0730"],
+      "bibtex": []
+    },
+    "date_created": "20-03-2024",
+    "file_size_mb": 118.0469
+  }
+]
