@@ -35,6 +35,7 @@ jobs:
           GH_TOKEN: ${{ secrets.OP_BOT_TOKEN }}
           WEBSITE: openproblems-bio/website-v3
           PR: ${{ github.event.pull_request.number }}
+          PR_TITLE: ${{ github.event.pull_request.title }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
           set -euo pipefail
@@ -65,15 +66,18 @@ jobs:
           fi
           git push --force --quiet origin "$BRANCH"
 
-          # The force-push already refreshed any existing preview PR, so create one only
-          # if it's missing. "already exists" is a success, not a failure.
-          if gh pr create -R "$WEBSITE" --base main --head "$BRANCH" \
-              --title "Preview: results#${PR}" \
-              --body "Automated preview build for [openproblems-bio/results#${PR}](https://github.com/openproblems-bio/results/pull/${PR}). Bumps the \`data/results\` submodule to that PR's head. **Do not merge** — this is a throwaway preview branch." 2> create.err; then
-            echo "Opened website preview PR for $BRANCH."
-          elif grep -q "already exists" create.err; then
-            echo "Website preview PR already open for $BRANCH (refreshed by force-push)."
+          # Carry this PR's title over so the website PR says what it is previewing.
+          TITLE="Preview: results#${PR} - ${PR_TITLE}"
+          BODY="$(printf 'Automated preview build for [openproblems-bio/results#%s](%s): %s\n\nBumps the `data/results` submodule to the head of that PR. **Do not merge**, this is a throwaway preview branch.\n' \
+            "$PR" "https://github.com/openproblems-bio/results/pull/${PR}" "$PR_TITLE")"
+
+          # The force-push already refreshed any existing preview PR's contents, but the
+          # title and body still have to be re-applied in case this PR was renamed.
+          NUM="$(gh pr list -R "$WEBSITE" --head "$BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$NUM" ]; then
+            gh pr edit -R "$WEBSITE" "$NUM" --title "$TITLE" --body "$BODY" >/dev/null
+            echo "Refreshed website preview PR ${WEBSITE}#${NUM} for $BRANCH."
           else
-            cat create.err >&2
-            exit 1
+            gh pr create -R "$WEBSITE" --base main --head "$BRANCH" --title "$TITLE" --body "$BODY"
+            echo "Opened website preview PR for $BRANCH."
           fi
