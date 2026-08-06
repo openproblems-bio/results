@@ -14,26 +14,8 @@
       "doi": ["10.1101/2020.12.01.407460"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 19.1576
-  },
-  {
-    "name": "brain",
-    "label": "Brain",
-    "commit": "missing-sha",
-    "summary": "10X Visium spatial RNA-seq from adult mouse brain sections paired to single-nucleus RNA-seq",
-    "description": "This datasets were generated matched single nucleus (sn, this submission) and Visium spatial RNA-seq (10X Genomics) profiles of adjacent mouse brain sections that contain multiple regions from the telencephalon and diencephalon.",
-    "source_urls": ["https://github.com/BayraktarLab/cell2location"],
-    "common_dataset_names": null,
-    "modalities": [],
-    "organisms": ["homo_sapiens"],
-    "authors": [],
-    "references": {
-      "doi": ["10.1038/s41587-021-01139-4"],
-      "bibtex": []
-    },
-    "date_created": "14-03-2025",
-    "file_size_mb": 42.6133
   },
   {
     "name": "cortex",
@@ -50,8 +32,26 @@
       "doi": ["10.1038/s41586-019-1049-y"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 19.3329
+  },
+  {
+    "name": "brain",
+    "label": "Brain",
+    "commit": "missing-sha",
+    "summary": "10X Visium spatial RNA-seq from adult mouse brain sections paired to single-nucleus RNA-seq",
+    "description": "This datasets were generated matched single nucleus (sn, this submission) and Visium spatial RNA-seq (10X Genomics) profiles of adjacent mouse brain sections that contain multiple regions from the telencephalon and diencephalon.",
+    "source_urls": ["https://github.com/BayraktarLab/cell2location"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["homo_sapiens"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-021-01139-4"],
+      "bibtex": []
+    },
+    "date_created": "27-08-2025",
+    "file_size_mb": 42.6133
   },
   {
     "name": "prostate",
@@ -68,7 +68,7 @@
       "doi": ["10.1016/j.isci.2021.102640"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 19.6893
   },
   {
@@ -86,7 +86,7 @@
       "doi": ["10.1038/s41588-021-00911-1"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 22.6482
   },
   {
@@ -104,26 +104,8 @@
       "doi": ["10.1101/2020.12.01.407460"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 17.5534
-  },
-  {
-    "name": "olfactorybulb",
-    "label": "Olfactorybulb",
-    "commit": "missing-sha",
-    "summary": "Single-cell and spatial transcriptomic of mouse olfactory bulb",
-    "description": "Single-cell and spatial transcriptomic of mouse olfactory bulb",
-    "source_urls": ["http://ww1.spatialtranscriptomicsresearch.org/?usid=24&utid=8672855942"],
-    "common_dataset_names": null,
-    "modalities": [],
-    "organisms": ["mus_musculus"],
-    "authors": [],
-    "references": {
-      "doi": ["10.1126/science.aaf2403"],
-      "bibtex": []
-    },
-    "date_created": "14-03-2025",
-    "file_size_mb": 2.2329
   },
   {
     "name": "fibrosarcoma",
@@ -140,26 +122,26 @@
       "doi": ["10.1038/s41587-022-01272-8"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 27.1576
   },
   {
-    "name": "gastrulation",
-    "label": "Gastrulation",
+    "name": "olfactorybulb",
+    "label": "Olfactorybulb",
     "commit": "missing-sha",
-    "summary": "single-cell and spatial transcriptomic molecular map of mouse gastrulation",
-    "description": "Single-Cell omics Data across Mouse Gastrulation and Highly multiplexed spatially resolved gene expression profiling of Early Organogenesis.",
-    "source_urls": ["https://content.cruk.cam.ac.uk/jmlab/SpatialMouseAtlas2020/"],
+    "summary": "Single-cell and spatial transcriptomic of mouse olfactory bulb",
+    "description": "Single-cell and spatial transcriptomic of mouse olfactory bulb",
+    "source_urls": ["http://ww1.spatialtranscriptomicsresearch.org/?usid=24&utid=8672855942"],
     "common_dataset_names": null,
     "modalities": [],
     "organisms": ["mus_musculus"],
     "authors": [],
     "references": {
-      "doi": ["10.1038/s41587-021-01006-2"],
+      "doi": ["10.1126/science.aaf2403"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
-    "file_size_mb": 14.9637
+    "date_created": "27-08-2025",
+    "file_size_mb": 2.2329
   },
   {
     "name": "osteosarcoma",
@@ -176,7 +158,25 @@
       "doi": ["10.1073/pnas.1912459116"],
       "bibtex": []
     },
-    "date_created": "14-03-2025",
+    "date_created": "27-08-2025",
     "file_size_mb": 20.1056
+  },
+  {
+    "name": "gastrulation",
+    "label": "Gastrulation",
+    "commit": "missing-sha",
+    "summary": "single-cell and spatial transcriptomic molecular map of mouse gastrulation",
+    "description": "Single-Cell omics Data across Mouse Gastrulation and Highly multiplexed spatially resolved gene expression profiling of Early Organogenesis.",
+    "source_urls": ["https://content.cruk.cam.ac.uk/jmlab/SpatialMouseAtlas2020/"],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": ["mus_musculus"],
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-021-01006-2"],
+      "bibtex": []
+    },
+    "date_created": "27-08-2025",
+    "file_size_mb": 14.9637
   }
 ]

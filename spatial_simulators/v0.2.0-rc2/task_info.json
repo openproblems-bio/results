@@ -47,7 +47,7 @@
     "doi": ["10.1101/2024.05.29.596418"],
     "bibtex": []
   },
-  "version": "v0.0.1-rc3",
+  "version": "v0.2.0-rc2",
   "is_prerelease": true,
   "timestamp": "2026-07-29T13:06:59Z"
 }

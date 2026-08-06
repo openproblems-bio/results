@@ -8,46 +8,35 @@
   "authors": [
     {
       "name": "Xiaoqi Liang",
-      "roles": [
-        "author",
-        "maintainer"
-      ],
+      "roles": ["author"],
       "github": "littlecabiria",
       "orcid": "0009-0004-9625-1441",
       "info": {}
     },
     {
       "name": "Yue Cao",
-      "roles": [
-        "author"
-      ],
+      "roles": ["author", "maintainer"],
       "github": "ycao6928",
       "orcid": "0000-0002-2356-4031",
       "info": {}
     },
     {
       "name": "Jean Yang",
-      "roles": [
-        "author"
-      ],
+      "roles": ["author"],
       "github": "jeany21",
       "orcid": "0000-0002-5271-2603",
       "info": {}
     },
     {
       "name": "Robrecht Cannoodt",
-      "roles": [
-        "contributor"
-      ],
+      "roles": ["contributor"],
       "github": "rcannood",
       "orcid": "0000-0003-3641-729X",
       "info": {}
     },
     {
       "name": "Sai Nirmayi Yasa",
-      "roles": [
-        "contributor"
-      ],
+      "roles": ["contributor"],
       "github": "sainirmayi",
       "orcid": "0009-0003-6319-9803",
       "info": {}
@@ -55,12 +44,10 @@
   ],
   "license": "MIT",
   "references": {
-    "doi": [
-      "10.1101/2024.05.29.596418"
-    ],
+    "doi": ["10.1101/2024.05.29.596418"],
     "bibtex": []
   },
-  "version": "v0.0.1-rc2",
+  "version": "v0.2.0-rc1",
   "is_prerelease": true,
-  "timestamp": "2025-03-14T14:11:21Z"
+  "timestamp": "2026-07-12T00:10:22Z"
 }
