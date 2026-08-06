@@ -1,0 +1,416 @@
+[
+  {
+    "name": "svg_recall",
+    "label": "SVG recall",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Recall measures the proportion of real SVG correctly identified in the simulated dataset.",
+    "description": "Recall used in identifying spatial variable genes, measuring the true positive rate.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/downstream",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/downstream:build_main",
+    "component_name": "downstream",
+    "authors": [],
+    "references": {
+      "doi": ["10.9735/2229-3981"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "svg_precision",
+    "label": "SVG precision",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Precision measures the proportion of correctly identified items in simulated datasets.",
+    "description": "Precision used in identifying spatial variable genes, measuring the accuracy of positive predictions.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/downstream",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/downstream:build_main",
+    "component_name": "downstream",
+    "authors": [],
+    "references": {
+      "doi": ["10.9735/2229-3981"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ctdeconvolute_rmse",
+    "label": "Cell type deconvolution RMSE",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Root Mean Square deviation is calculated between the true and predicted proportion of per cell type.",
+    "description": "Root Mean Squared Error used in cell type deconvolution to measure the difference between observed and predicted values.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/downstream",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/downstream:build_main",
+    "component_name": "downstream",
+    "authors": [],
+    "references": {
+      "doi": ["10.5194/gmd-15-5481-2022"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ctdeconvolute_jsd",
+    "label": "Cell type deconvolution JSD",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Jensen-Shannon divergence (JSD) is calculated between the true and predicted proportion per cell type in all spots.",
+    "description": "Jensen-Shannon Divergence used in cell type deconvolution to measure the similarity between two probability distributions.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/downstream",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/downstream:build_main",
+    "component_name": "downstream",
+    "authors": [],
+    "references": {
+      "doi": ["10.21105/joss.00765"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "crosscor_mantel",
+    "label": "Mantel statistic",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Mantel statistic is the test statistic for the Mantel test, which is a correlation coefficient calculated between bivariate Moran’s I of real dataset and that of in simulation dataset.",
+    "description": "Mantel statistic used in spatial cross-correlation to test the correlation between two distance matrices.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/downstream",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/downstream:build_main",
+    "component_name": "downstream",
+    "authors": [],
+    "references": {
+      "doi": ["10.1111/2041-210X.12425"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "crosscor_cosine",
+    "label": "Cosine similarity",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Cosine similarity measures similarity between bivariate Moran’s I of real dataset and that of in simulation dataset.",
+    "description": "Cosine similarity used in spatial cross-correlation to measure the cosine of the angle between two non-zero vectors.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/downstream",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/downstream:build_main",
+    "component_name": "downstream",
+    "authors": [],
+    "references": {
+      "doi": ["10.1002/asi.20130"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_frac_zero_genes_tstat",
+    "label": "Fraction of zeros per gene",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the fraction of zeros per gene.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the fraction of zeros per gene in the real datasets versus the fraction of zeros per gene in the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_frac_zero_cells_tstat",
+    "label": "Fraction of zeros per cell",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the fraction of zeros per spot (cell).",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the fraction of zeros per spot (cell) in the real datasets versus the fraction of zeros per spot (cell) in the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_lib_size_cells_tstat",
+    "label": "Library size",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the library size.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the total sum of UMI counts across all genes in the real datasets versus the total sum of UMI counts across all genes in the simmulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_efflib_size_cells_tstat",
+    "label": "Effective library size",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the effective library size.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the effective library size of the real datasets versus the effective library size of the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_tmm_cells_tstat",
+    "label": "TMM",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the weight trimmed mean of M-values normalization factor (TMM).",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the weight trimmed mean of M-values normalization factor for the real datasets versus the weight trimmed mean of M-values normalization factor for the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_scaled_var_cells_tstat",
+    "label": "Scaled variance cell",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the spot- (or cell-) level scaled variance of the expression matrix.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the spot-level z-score standardization of the variance of expression matrix in terms of log2(CPM) in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_scaled_mean_cells_tstat",
+    "label": "Scaled mean cells",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the spot- (or cell-) level scaled mean of the expression matrix.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the z-score standardization of the mean of expression matrix in terms of log2(CPM) in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_lib_fraczero_cells_tstat",
+    "label": "Library size vs fraction zero",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the relationship between library size and the proportion of zeros per spot (cell).",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the relationship between library size and the proportion of zeros per spot (cell) in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_pearson_cells_tstat",
+    "label": "Sample Pearson correlation",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the sample Pearson correlation.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the sample Pearson correlation of the real datasets versus the sample Pearson correlation of the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_scaled_var_genes_tstat",
+    "label": "Scaled variance genes",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the gene-level scaled variance of the expression matrix.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the gene-level z-score standardization of the variance of expression matrix in terms of log2(CPM) in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_scaled_mean_genes_tstat",
+    "label": "Scaled mean genes",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the gene-level scaled mean of the expression matrix.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the gene-level z-score standardization of the mean of expression matrix in terms of log2(CPM) in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_pearson_genes_tstat",
+    "label": "Gene Pearson correlation",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the gene Pearson correlation.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the gene Pearson correlation of the real datasets versus the gene Pearson correlation of the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_mean_var_genes_tstat",
+    "label": "Mean vs variance",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the relationship between mean expression and variance expression.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the relationship between mean expression and variance expression in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_mean_fraczero_genes_tstat",
+    "label": "Mean vs fraction zero",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the relationship between mean expression and the proportion of zero per gene.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the relationship between mean expression and the proportion of zero per gene in the real datasets versus the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_gene_cell",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_gene_cell:build_main",
+    "component_name": "ks_statistic_gene_cell",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_L_stats",
+    "label": "L statistics",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the L statistics",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the L statistics in the real datasets versus the L statistics in the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_sc_features",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_sc_features:build_main",
+    "component_name": "ks_statistic_sc_features",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_nn_correlation",
+    "label": "Nearest-neighbour correlation",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of the nearest-neighbour correlation.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the nn correlation in the real datasets versus the nn correlation in the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_sc_features",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_sc_features:build_main",
+    "component_name": "ks_statistic_sc_features",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ks_statistic_morans_I",
+    "label": "Moran's I",
+    "commit": "8a1466a505d6c6aed4cc2b70f078210afb92832c",
+    "summary": "Kernel density two-sample statistic of Moran's I.",
+    "description": "The kernel density based global two-sample statistic (`ks::kde.test`) comparing the Moran's I of the real datasets versus the Moran's I of the simulated datasets.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_spatial_simulators/blob/8a1466a505d6c6aed4cc2b70f078210afb92832c/src/metrics/ks_statistic_sc_features",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_spatial_simulators/metrics/ks_statistic_sc_features:build_main",
+    "component_name": "ks_statistic_sc_features",
+    "authors": [],
+    "references": {
+      "doi": ["10.1201/9780429485572"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]
