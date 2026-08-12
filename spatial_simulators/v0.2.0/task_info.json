@@ -48,6 +48,6 @@
     "bibtex": []
   },
   "version": "v0.2.0",
-  "is_prerelease": true,
+  "is_prerelease": false,
   "timestamp": "2026-08-11T15:05:23Z"
 }
