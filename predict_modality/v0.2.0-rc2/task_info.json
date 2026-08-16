@@ -102,7 +102,7 @@
     "doi": ["10.1101/2022.04.11.487796"],
     "bibtex": ["@inproceedings{luecken2021sandbox,\n  title={A sandbox for prediction and integration of DNA, RNA, and proteins in single cells},\n  author={Luecken, Malte D and Burkhardt, Daniel Bernard and Cannoodt, Robrecht and Lance, Christopher and Agrawal, Aditi and Aliee, Hananeh and Chen, Ann T and Deconinck, Louise and Detweiler, Angela M and Granados, Alejandro A and others},\n  booktitle={Thirty-fifth conference on neural information processing systems datasets and benchmarks track (Round 2)},\n  year={2021}\n}\n"]
   },
-  "version": "v0.1.1-rc2",
+  "version": "v0.2.0-rc2",
   "is_prerelease": true,
   "timestamp": "2026-08-03T01:25:47Z"
 }
