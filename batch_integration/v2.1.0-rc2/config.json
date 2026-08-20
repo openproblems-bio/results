@@ -1,0 +1,127 @@
+{
+  "qc_silenced": [
+    {
+      "category": "Raw results",
+      "labelPattern": "^Metric 'hvg_overlap' % missing$",
+      "reason": "This release bundles the embed, graph and feature sub-tasks. hvg_overlap only applies to feature-output methods, so it is missing for embed and graph methods by design."
+    },
+    {
+      "category": "Raw results",
+      "labelPattern": "^Metric 'hvg_overlap' number of control methods$",
+      "reason": "Only the feature-output control methods produce a corrected feature matrix, so hvg_overlap sees fewer controls than datasets x control methods."
+    }
+  ],
+  "presets": [
+    {
+      "name": "graph",
+      "label": "Graph",
+      "description": "Graph-based metrics (graph connectivity, ARI, NMI, kBET, iLISI, cLISI, isolated label F1). These are applicable to all batch integration methods, regardless of whether they output a graph, an embedding or corrected features.",
+      "metrics": [
+        "graph_connectivity",
+        "ari",
+        "ari_batch",
+        "nmi",
+        "nmi_batch",
+        "kbet",
+        "kbet_pg_label",
+        "ilisi",
+        "clisi",
+        "isolated_label_f1"
+      ]
+    },
+    {
+      "name": "embed",
+      "label": "Embedding",
+      "description": "Embedding-based metrics (ASW batch, ASW label, isolated label ASW, cell cycle conservation, PCR). Applicable only to methods that output an embedding or corrected features; graph-only methods are hidden.",
+      "metrics": [
+        "asw_batch",
+        "asw_label",
+        "isolated_label_asw",
+        "cell_cycle_conservation",
+        "pcr",
+        "graph_connectivity",
+        "ari",
+        "ari_batch",
+        "nmi",
+        "nmi_batch",
+        "kbet",
+        "kbet_pg_label",
+        "ilisi",
+        "clisi",
+        "isolated_label_f1"
+      ],
+      "methods": [
+        "batchelor_fastmnn",
+        "batchelor_mnn_correct",
+        "cellplm",
+        "combat",
+        "density_adaptive",
+        "embed_cell_types",
+        "embed_cell_types_jittered",
+        "fadvi",
+        "geneformer",
+        "harmony",
+        "harmonypy",
+        "liger",
+        "mnnpy",
+        "no_integration",
+        "no_integration_batch",
+        "pyliger",
+        "sca",
+        "scalex",
+        "scanorama_correct",
+        "scanorama_integrate",
+        "scanvi",
+        "scgpt_finetuned",
+        "scgpt_zeroshot",
+        "scimilarity",
+        "scprint",
+        "scvi",
+        "shuffle_integration",
+        "shuffle_integration_by_batch",
+        "shuffle_integration_by_cell_type",
+        "uce"
+      ]
+    },
+    {
+      "name": "feature",
+      "label": "Feature",
+      "description": "Feature-based metrics (HVG overlap). Applicable only to methods that output a corrected feature matrix; embedding-only and graph-only methods are hidden.",
+      "metrics": [
+        "hvg_overlap",
+        "asw_batch",
+        "asw_label",
+        "isolated_label_asw",
+        "cell_cycle_conservation",
+        "pcr",
+        "graph_connectivity",
+        "ari",
+        "ari_batch",
+        "nmi",
+        "nmi_batch",
+        "kbet",
+        "kbet_pg_label",
+        "ilisi",
+        "clisi",
+        "isolated_label_f1"
+      ],
+      "methods": [
+        "batchelor_mnn_correct",
+        "combat",
+        "mnnpy",
+        "scalex",
+        "scanorama_correct",
+        "shuffle_integration",
+        "shuffle_integration_by_batch",
+        "shuffle_integration_by_cell_type"
+      ]
+    },
+    {
+      "name": "all",
+      "label": "All results",
+      "description": "Every method and metric in this release. Some metrics do not apply to every method output type, so cells are empty where a metric could not be computed.",
+      "default": true,
+      "paramsets": "all"
+    }
+  ]
+}
