@@ -1,0 +1,164 @@
+[
+  {
+    "name": "emd_mean_ct_horiz",
+    "label": "EMD Mean Horizontal",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Mean Earth Mover Distance calculated horizontally across donors for each cell type and marker.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between paired samples from the same donor \nquantified across two different batches. \nFor each paired sample, cell type, and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the average of all these EMD values is computed and reported as the metric score.\n\nA high score indicates large overall differences in the distributions of marker expressions \nbetween the paired samples, suggesting poor batch integration.\nA low score means the small differences in marker expression distributions between batches, \nindicating good batch integration.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_main",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "emd_mean_ct_vert",
+    "label": "EMD Mean Vertical",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Mean Earth Mover Distance across batch corrected samples, cell types, and markers.",
+    "description": "Earth Mover Distance (EMD), also known as the Wasserstein metric, measures the difference \nbetween two probability distributions. \n\nHere, EMD is used to compare marker expression distributions between all integrated \nsamples from the same group.\nFor each pair of samples, cell type, and marker, the marker expression values are first converted into \nprobability distributions. \nThis is done by binning the expression values into a range from -100 to 100 with a bin width of 0.1.\nThe `wasserstein_distance` function from SciPy is then used to calculate the EMD between the two \nprobability distributions belonging to the same cell type, marker, and a given paired samples.\nThis is then repeated for every cell type, marker, and paired sample.\nFinally, the average of all these EMD values is computed and reported as the metric score.\n\nA high score indicates overall, there is a large difference in distribution of marker expression after batch integration.\nA low score means that overall, the samples are well integrated.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/emd",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/emd:build_main",
+    "component_name": "emd",
+    "authors": [],
+    "references": {
+      "doi": ["10.1023/A:1026543900054"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "ratio_consistent_peaks",
+    "label": "Ratio Consistent Peaks",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Ratio of the number of cell‑type marker‑expression peaks between unintegrated and batch-integrated data.",
+    "description": "The metric compares the number of cell type specific marker expression peaks between unintegrated and batch integrated data.\nThe number of peaks is calculated using the `scipy.signal.find_peaks` function.\nThe (cell type) marker expression values of the two splits are first standardised together,\nusing the pooled mean and standard deviation of the two splits, so that the peak calling\nthresholds mean the same thing for every marker.\nThey are then smoothed using kernel density estimation (KDE) (`scipy.stats.gaussian_kde`,\nevaluated on a grid of 100 points), and peaks are identified using the\n`scipy.signal.find_peaks` function.\nFor peak calling, the `height` parameter is set to 0.1 and the `prominence` parameter is set to 0.01.\n\nCase Definitions:\n- Case 1: Consistent peaks in both unintegrated AND integrated data (ideal outcome).\n  Example: A marker shows 2 peaks for both splits in unintegrated AND integrated data.\n- Case 2: Consistent peaks in unintegrated data but inconsistent between integrated data and unintegrated data\n  in each split (problematic - batch integration introduced inconsistency).\n  Batch correction broke the consistency. \n  Example 1: A marker shows 2 peaks in both unintegrated splits, but after integration shows 2 peaks in split 1 \n  and 1 peak in split 2. \n  Example 2: A marker shows 2 peaks in both unintegrated splits, but after integration shows 1 peak in both splits\n- Case NGT: Inconsistent peaks in unintegrated data, consistent in integrated data (excluded from metric) \n  OR inconsistent peaks in both unintegrated AND integrated data (excluded from metric).\n  These cases are excluded from calculation because there are differences in unintegrated that cannot be accounted for.\n  Example: A marker is inconsistent in unintegrated data (2 and 3 peaks in split 1 and split 2) and \n  is either inconsistent after integration (1 and 2 peaks in split 1 and split 2) or \n  consistent after integration (2 peaks in both split 1 and split 2).\n\nRatio of consistent peaks is defined as the number of Case 1 occurrences divided by the total of Case 1 and Case 2 occurrences.\nCases NGT (where unintegrated data has inconsistent peaks) are excluded from the denominator, but is reported\nin the final anndata output for diagnostic.\nA higher score indicates better performance, meaning there are fewer cases with inconsistent peaks after batch integration.\n\nFor edge cases where methods return only zero values for a given marker/donor/cell type, but is not the \ncase in the unintegrated data, it is automatically assigned as Case 2.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/ratio_consistent_peaks",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/ratio_consistent_peaks:build_main",
+    "component_name": "ratio_consistent_peaks",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0686-2"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "average_batch_r2_ct",
+    "label": "Average Batch R-squared",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Quantifies how strongly the batch covariate explains the variance in the data among technical replicates after correction (by taking into account cell type effect).",
+    "description": "First, a simple linear model is fitted for each paired sample and marker to determine the fraction of variance ($R^{2}$) explained by the batch covariate $B$.\nThe average batch R-squared is then computed as the average of the $R^{2}$ values across all paired samples, markers, cell types.\nAs a result, $\\overline{R^2_B}_{cell\\ type}$ quantifies how much of the total variability in the data is driven by batch effects. Consequently, lower values are desirable.\n\n$\\overline{R^2_B}_{cell\\ type} = \\frac{1}{N*C*M}\\sum_{\\substack{(x_{\\mathrm{split1}},\\,x_{\\mathrm{split2}})\\\\ \\textit{paired samples}}}^{N} \\sum_{j=1}^{C} \\sum_{i=1}^{M}\\,R^2\\!\\bigl(\\mathrm{marker}_i \\mid B\\bigr)$\n\nWhere:\n\n* $N$ is the number of paired samples, where $x_{\\mathrm{split1}}$ and $x_{\\mathrm{split2}}$ are the two technical replicates that have been batch-corrected. Technical replicates belong to different batches.\n* $M$ is the number of markers\n* $C$ is the number of cell types\n* $B$ is the batch covariate\n\n\nA high value of $\\overline{R^2_B}_{global}$ or $\\overline{R^2_B}_{cell\\ type}$ indicates that the batch variable explains a large portion of the variance in the data, which indicates a higher level of batch effects.\nA good performance on $\\overline{R^2_B}_{global}$ but not on $\\overline{R^2_B}_{cell\\ type}$ might indicate that the batch effect correction is not addressing cell type specific batch effects.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/average_batch_r2",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/average_batch_r2:build_main",
+    "component_name": "average_batch_r2",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@book{draper1998applied,\ntitle={Applied regression analysis},\nauthor={Draper, Norman R and Smith, Harry},\npublisher={John Wiley \\& Sons}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "flowsom_mean_mapping_similarity",
+    "label": "FlowSOM Mean Mapping Similarity",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Assess bidirectional FlowSOM tree similarity between splits.",
+    "description": "The metric is based on the FlowSOM algorithm, a popular method which uses self-organizing maps for the viasualization/interpretation/clustering of cytometry data. \nThe FlowSOM algorithm creates a tree structure that represents the relationships between different cell populations in the data.\n\nFor each paired sample of technical replicates (where 'split1' are integrated technical replicates from split 1 and 'split2' are integrated technical replicates from split 2)\n1. A FlowSOM tree is created using cells in the sample from split 1 and cells from split 2 are mapped onto it.\n2. A FlowSOM tree is created using cells in the sample from split 2 and cells from split 1 are mapped onto it.\n3. For each direction, a similarity measure is computed by comparing cell type proportions of the two splits in each flowsom cluster.\n\nIdeally, the proportions of cell types in the flowsom clusters of the paired samples should be similar, as they are technical replicates.\n\nThe FlowSOM mapping similarity measure can be expressed as follows:\n$\\text{FlowSOM mapping similarity} = 100 - \\text{FlowSOM mapping dissimilarity}$\n\nThe $\\text{FlowSOM mapping dissimilarity}$ is:\n\n$\\text{FlowSOM mapping dissimilarity} = \\sum_{k=1}^{K}w_{k}\\sum_{c=1}^{C}\\abs{P^{split1}_{k,c} - P^{split2}_{k,c}}$\n\nWhere:\n- $K$ is the number of flowsom clusters\n- $C$ is the number of cell types\n- $w_{k}$ is the weight of flowsom cluster $k$. It refers to the number of cells in flowsom cluster $k$, divided by the total number of cells in the flowsom tree. Note: the flowsom tree contains all the cells of a sample pair (both integrated and validation). \n- $P^{split1}_{k,c}$ is the percentage of cell type $c$ in flowsom cluster $k$ of the split 1 sample\n- $P^{split2}_{k,c}$ is the percentage of cell type $c$ in flowsom cluster $k$ of the split 2 sample\n\nThe average FlowSOM mapping similarity among all donors and both mapping directions is computed and reported as the final metric value.\nUnlabelled cells are excluded from the analysis.\n\nAdditionally, for debugging and inspection, the component outputs the per-donor cluster-by-cell-type absolute difference matrices in the output AnnData `uns`.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/flowsom_mapping_similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/flowsom_mapping_similarity:build_main",
+    "component_name": "flowsom_mapping_similarity",
+    "authors": [],
+    "references": {
+      "doi": ["10.18129/B9.bioc.FlowSOM", "10.1002/cyto.a.22625"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "iLisi",
+    "label": "iLisi",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Integration Lisi score.",
+    "description": "Compute the integration local inverse simpson index (iLISI) for each cell, then return the median \nas the final score.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/lisi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/lisi:build_main",
+    "component_name": "lisi",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0619-0"],
+      "bibtex": ["@article{korsunsky2019fast,\ntitle={Fast, sensitive and accurate integration of single-cell data with Harmony},\nauthor={Korsunsky, Ilya and Millard, Nghia and Fan, Jean and Slowikowski, Kamil and Zhang, Fan and Wei, Kevin and Baglaenko, Yuriy and Brenner, Michael and Loh, Po-ru and Raychaudhuri, Soumya},\njournal={Nature methods},\nvolume={16},\nnumber={12},\npages={1289--1296},\nyear={2019},\npublisher={Nature Publishing Group US New York}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "cLisi",
+    "label": "cLisi",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Cell type Lisi score.",
+    "description": "Compute the cell type local inverse simpson index (cLISI) for each cell, then return the median \nas the final score.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/lisi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/lisi:build_main",
+    "component_name": "lisi",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0619-0"],
+      "bibtex": ["@article{korsunsky2019fast,\ntitle={Fast, sensitive and accurate integration of single-cell data with Harmony},\nauthor={Korsunsky, Ilya and Millard, Nghia and Fan, Jean and Slowikowski, Kamil and Zhang, Fan and Wei, Kevin and Baglaenko, Yuriy and Brenner, Michael and Loh, Po-ru and Raychaudhuri, Soumya},\njournal={Nature methods},\nvolume={16},\nnumber={12},\npages={1289--1296},\nyear={2019},\npublisher={Nature Publishing Group US New York}\n}\n"]
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "functional_marker_preservation_wilcoxon",
+    "label": "Functional Marker Preservation (Wilcoxon)",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Proportion of biologically significant functional marker group differences preserved after batch integration.",
+    "description": "Assesses whether batch integration preserves biologically meaningful differences in\nfunctional marker expression between biological groups (e.g. WT vs KO).\n\nPer-sample mean expression is computed for each (functional marker, cell type) pair.\nA two-sided Wilcoxon rank-sum test compares the two biological groups. Raw p-values\nare used without FDR correction, as the minimum achievable p-value with n=3 samples\nper group is 0.10, making FDR adjustment counterproductive.\n\nGroup A and group B are determined once from the unintegrated data's obs[\"group\"]\nvalues, sorted alphabetically, and reused for every batch and split. This keeps\n\"group A\" and \"group B\" referring to the same biological group throughout, rather\nthan being re-derived independently per batch/split.\n\nBaseline (unintegrated data):\n- Tests are run separately within each batch.\n- A pair enters the baseline only if significant (p ≤ 0.1) in BOTH batches.\n\nPreservation (integrated data):\n- The same test is run per split, ignoring batch labels.\n- A pair is counted as preserved if significant in BOTH split 1 and split 2.\n\nScore = number of preserved pairs / number of baseline pairs.\nA higher score indicates more biologically relevant group differences were maintained.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/functional_marker_preservation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/functional_marker_preservation:build_main",
+    "component_name": "functional_marker_preservation",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0686-2"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "functional_marker_preservation_cohens_d",
+    "label": "Functional Marker Preservation (Cohen's d)",
+    "commit": "3321360501b960b4dd82c013d3dfd00e470a15b1",
+    "summary": "Mean absolute change in effect size between unintegrated and integrated functional marker group differences.",
+    "description": "Measures how much batch integration shifts the effect size of biological group\ndifferences in functional marker expression.\n\nCohen's d = (mean_A − mean_B) / pooled SD is computed per (functional marker,\ncell type) pair using per-sample mean expressions, restricted to the pairs in\nsig_unintegrated (i.e. those found significant in both unintegrated batches by\nthe Wilcoxon metric above). This covers every pair with a genuine baseline group\ndifference, including ones where that difference no longer reached significance\nafter integration — that loss of significance is itself a form of effect size\ndrift this metric is meant to capture.\n\nGroup A and group B are determined once from the unintegrated data's obs[\"group\"]\nvalues, sorted alphabetically, and reused for every batch and split. Since Cohen's\nd is signed, this is what keeps a positive value meaning \"group A higher than group\nB\" consistently across batches and splits, rather than the sign flipping depending\non which group happened to be labelled A in a given batch or split.\n\nGround truth (unintegrated):\n- Cohen's d is computed per batch, then averaged across the two batches.\n\nIntegrated:\n- Cohen's d is computed separately for split 1 and split 2 (batch-agnostic).\n- The absolute deviation from the unintegrated ground truth is computed per split,\n  then averaged: mean(|d_s1 − d_unintegrated|, |d_s2 − d_unintegrated|).\n- Taking abs() before averaging prevents opposite-direction errors in the two splits\n  from cancelling each other out.\n\nScore = mean of the above across all (marker, cell type) pairs.\nA lower score indicates that integration better preserved the original effect sizes.",
+    "maximize": false,
+    "link_implementation": "https://github.com/openproblems-bio/task_cyto_batch_integration/blob/3321360501b960b4dd82c013d3dfd00e470a15b1/src/metrics/functional_marker_preservation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_cyto_batch_integration/metrics/functional_marker_preservation:build_main",
+    "component_name": "functional_marker_preservation",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0686-2"],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]
