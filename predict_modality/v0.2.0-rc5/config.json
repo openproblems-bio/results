@@ -1,0 +1,49 @@
+{
+  "qc_silenced": [
+  ],
+  "presets": [
+    {
+      "name": "gex2adt",
+      "label": "GEX → ADT",
+      "description": "Predicting protein abundance (ADT) from gene expression (GEX) on the NeurIPS2021 and NeurIPS2022 CITE-seq datasets.",
+      "datasets": [
+        "openproblems_neurips2021/bmmc_cite/normal",
+        "openproblems_neurips2022/pbmc_cite/normal"
+      ]
+    },
+    {
+      "name": "adt2gex",
+      "label": "ADT → GEX",
+      "description": "Predicting gene expression (GEX) from protein abundance (ADT) on the NeurIPS2021 and NeurIPS2022 CITE-seq datasets.",
+      "datasets": [
+        "openproblems_neurips2021/bmmc_cite/swap",
+        "openproblems_neurips2022/pbmc_cite/swap"
+      ]
+    },
+    {
+      "name": "gex2atac",
+      "label": "GEX → ATAC",
+      "description": "Predicting chromatin accessibility (ATAC) from gene expression (GEX) on the NeurIPS2021 and NeurIPS2022 Multiome datasets.",
+      "datasets": [
+        "openproblems_neurips2021/bmmc_multiome/normal",
+        "openproblems_neurips2022/pbmc_multiome/normal"
+      ]
+    },
+    {
+      "name": "atac2gex",
+      "label": "ATAC → GEX",
+      "description": "Predicting gene expression (GEX) from chromatin accessibility (ATAC) on the NeurIPS2021 and NeurIPS2022 Multiome datasets.",
+      "datasets": [
+        "openproblems_neurips2021/bmmc_multiome/swap",
+        "openproblems_neurips2022/pbmc_multiome/swap"
+      ]
+    },
+    {
+      "name": "all",
+      "label": "All results",
+      "description": "Every method and metric in this release.",
+      "default": true,
+      "paramsets": "all"
+    }
+  ]
+}
