@@ -13,11 +13,18 @@
       "orcid": "0000-0002-9193-1243",
       "info": {}
     },
-    {
-      "name": "Malte D. Luecken",
+      {
+      "name": "Daria Romanovskaia",
+      "roles": ["author", "maintainer"],
+      "github": "dariarom94",
+      "orcid": "0000-0003-2831-0919",
+      "info": {}
+    },
+      {
+      "name": "Habib Rehman",
       "roles": ["author"],
-      "github": "LuckyMD",
-      "orcid": "0000-0001-7464-7921",
+      "github": "habibrehman2002",
+      "orcid": "",
       "info": {}
     },
     {
@@ -32,6 +39,13 @@
       "roles": ["author"],
       "github": "rcannood",
       "orcid": "0000-0003-3641-729X",
+      "info": {}
+    },
+    {
+      "name": "Malte D. Luecken",
+      "roles": ["author"],
+      "github": "LuckyMD",
+      "orcid": "0000-0001-7464-7921",
       "info": {}
     }
   ],
