@@ -1,0 +1,3629 @@
+[
+  {
+    "category": "Task info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'name' should be defined\n  Task: ist_preprocessing\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'label' should be defined\n  Task: ist_preprocessing\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'summary' should be defined\n  Task: ist_preprocessing\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Task info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Task info field 'description' should be defined\n  Task: ist_preprocessing\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'name' should be defined\n  Task: ist_preprocessing\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'label' should be defined\n  Task: ist_preprocessing\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'summary' should be defined\n  Task: ist_preprocessing\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'description' should be defined\n  Task: ist_preprocessing\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Dataset info",
+    "label": "Info field 'references' % missing",
+    "value": 0.5806,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Dataset info field 'references' should be defined\n  Task: ist_preprocessing\n  Field: references\n  Percentage missing: 58"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'name' should be defined\n  Task: ist_preprocessing\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'label' should be defined\n  Task: ist_preprocessing\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'commit' should be defined\n  Task: ist_preprocessing\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'summary' should be defined\n  Task: ist_preprocessing\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'description' should be defined\n  Task: ist_preprocessing\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Method info",
+    "label": "Info field 'references' % missing",
+    "value": 0.7143,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "pct_missing <= 0",
+    "message": "Method info field 'references' should be defined\n  Task: ist_preprocessing\n  Field: references\n  Percentage missing: 71"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'name' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'name' should be defined\n  Task: ist_preprocessing\n  Field: name\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'label' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'label' should be defined\n  Task: ist_preprocessing\n  Field: label\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'commit' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'commit' should be defined\n  Task: ist_preprocessing\n  Field: commit\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'summary' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'summary' should be defined\n  Task: ist_preprocessing\n  Field: summary\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'description' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'description' should be defined\n  Task: ist_preprocessing\n  Field: description\n  Percentage missing: 0"
+  },
+  {
+    "category": "Metric info",
+    "label": "Info field 'references' % missing",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_missing <= 0",
+    "message": "Metric info field 'references' should be defined\n  Task: ist_preprocessing\n  Field: references\n  Percentage missing: 0"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of results",
+    "value": 13819,
+    "severity": 3,
+    "severity_value": -27.46,
+    "condition": "length(dataset_info) * length(results) == length(method_info) * length(metric_info)",
+    "message": "Number of results should be equal to #datasets × #methods × #metrics \n  Task: ist_preprocessing\n  Number of results: 13819\n  Number of datasets: 31\n  Number of methods: 7\n  Number of metrics: 17\n  Expected number of results: 3689\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung6' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung6\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_mouse_brain_xenium_combined/rep3' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep3\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_lung_xenium_combined' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_lung_xenium_combined\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_lung_cancer_merfish_combined/rep2' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_lung_cancer_merfish_combined/rep2\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_colon_cancer_merfish_combined/rep1' % missing",
+    "value": -2.6639,
+    "severity": 3,
+    "severity_value": -26.6387,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_colon_cancer_merfish_combined/rep1\n  Number of results: 436\n  Expected number of results: 119\n  Percentage missing: -266%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'mpii_human_lung_xenium_combined/978_reg1' % missing",
+    "value": -3.0924,
+    "severity": 3,
+    "severity_value": -30.9244,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: mpii_human_lung_xenium_combined/978_reg1\n  Number of results: 487\n  Expected number of results: 119\n  Percentage missing: -309%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_mouse_brain_xenium_combined/rep2' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep2\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_lung_cancer_merfish_combined/rep1' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_lung_cancer_merfish_combined/rep1\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'ltx_human_lung_xenium_combined/B_AK-16-12103' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: ltx_human_lung_xenium_combined/B_AK-16-12103\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'kuppe_kidney_healthy_merfish_combined/rep1' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: kuppe_kidney_healthy_merfish_combined/rep1\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung13' % missing",
+    "value": -2.521,
+    "severity": 3,
+    "severity_value": -25.2101,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung13\n  Number of results: 419\n  Expected number of results: 119\n  Percentage missing: -252%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung5_rep2' % missing",
+    "value": -2.6639,
+    "severity": 3,
+    "severity_value": -26.6387,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung5_rep2\n  Number of results: 436\n  Expected number of results: 119\n  Percentage missing: -266%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_lung_cancer_xenium_combined' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_lung_cancer_xenium_combined\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_colon_cancer_xenium_combined' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_colon_cancer_xenium_combined\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2024_10x_human_liver_xenium_combined' % missing",
+    "value": -3.0924,
+    "severity": 3,
+    "severity_value": -30.9244,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_liver_xenium_combined\n  Number of results: 487\n  Expected number of results: 119\n  Percentage missing: -309%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_liver_cancer_merfish_combined/rep2' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_liver_cancer_merfish_combined/rep2\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2024_10x_human_liver_cancer_xenium_combined' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_liver_cancer_xenium_combined\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2026_10x_human_breast_cancer_atera_combined' % missing",
+    "value": -0.7563,
+    "severity": 3,
+    "severity_value": -7.563,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2026_10x_human_breast_cancer_atera_combined\n  Number of results: 209\n  Expected number of results: 119\n  Percentage missing: -76%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung9_rep2' % missing",
+    "value": -2.521,
+    "severity": 3,
+    "severity_value": -25.2101,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung9_rep2\n  Number of results: 419\n  Expected number of results: 119\n  Percentage missing: -252%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'kuppe_kidney_cancer_merfish_combined/rep1' % missing",
+    "value": -2.9748,
+    "severity": 3,
+    "severity_value": -29.7479,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: kuppe_kidney_cancer_merfish_combined/rep1\n  Number of results: 473\n  Expected number of results: 119\n  Percentage missing: -297%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'ltx_human_lung_xenium_combined/L_AK14_14254' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: ltx_human_lung_xenium_combined/L_AK14_14254\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_colon_cancer_merfish_combined/rep2' % missing",
+    "value": -2.6639,
+    "severity": 3,
+    "severity_value": -26.6387,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_colon_cancer_merfish_combined/rep2\n  Number of results: 436\n  Expected number of results: 119\n  Percentage missing: -266%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_liver_cosmx_combined' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_liver_cosmx_combined\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung9_rep1' % missing",
+    "value": -2.6639,
+    "severity": 3,
+    "severity_value": -26.6387,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung9_rep1\n  Number of results: 436\n  Expected number of results: 119\n  Percentage missing: -266%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2024_10x_human_skin_xenium_combined' % missing",
+    "value": -2.521,
+    "severity": 3,
+    "severity_value": -25.2101,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_skin_xenium_combined\n  Number of results: 419\n  Expected number of results: 119\n  Percentage missing: -252%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_liver_cancer_merfish_combined/rep1' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_liver_cancer_merfish_combined/rep1\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_breast_cancer_xenium_combined' % missing",
+    "value": -2.9496,
+    "severity": 3,
+    "severity_value": -29.4958,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_breast_cancer_xenium_combined\n  Number of results: 470\n  Expected number of results: 119\n  Percentage missing: -295%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung12' % missing",
+    "value": -2.6639,
+    "severity": 3,
+    "severity_value": -26.6387,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung12\n  Number of results: 436\n  Expected number of results: 119\n  Percentage missing: -266%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung5_rep1' % missing",
+    "value": -2.6639,
+    "severity": 3,
+    "severity_value": -26.6387,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung5_rep1\n  Number of results: 436\n  Expected number of results: 119\n  Percentage missing: -266%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_breast_cancer_merfish_combined/rep1' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_breast_cancer_merfish_combined/rep1\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_mouse_brain_xenium_combined/rep1' % missing",
+    "value": -2.8067,
+    "severity": 3,
+    "severity_value": -28.0672,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep1\n  Number of results: 453\n  Expected number of results: 119\n  Percentage missing: -281%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'segmentation' % missing",
+    "value": -4.8691,
+    "severity": 3,
+    "severity_value": -48.6907,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: segmentation\n  Number of results: 3093\n  Expected number of results: 527\n  Percentage missing: -487%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'assignment' % missing",
+    "value": -5.2903,
+    "severity": 3,
+    "severity_value": -52.9032,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: assignment\n  Number of results: 3315\n  Expected number of results: 527\n  Percentage missing: -529%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'normalization' % missing",
+    "value": -1.8729,
+    "severity": 3,
+    "severity_value": -18.7287,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: normalization\n  Number of results: 1514\n  Expected number of results: 527\n  Percentage missing: -187%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cell_type_assignment' % missing",
+    "value": -5.6395,
+    "severity": 3,
+    "severity_value": -56.3947,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Number of results: 3499\n  Expected number of results: 527\n  Percentage missing: -564%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'expression_correction' % missing",
+    "value": -1.9032,
+    "severity": 3,
+    "severity_value": -19.0323,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: expression_correction\n  Number of results: 1530\n  Expected number of results: 527\n  Percentage missing: -190%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'identity' % missing",
+    "value": 0.1765,
+    "severity": 1,
+    "severity_value": 1.7647,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: identity\n  Number of results: 434\n  Expected number of results: 527\n  Percentage missing: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'permute_celltype_annotations' % missing",
+    "value": 0.1765,
+    "severity": 1,
+    "severity_value": 1.7647,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Number of results: 434\n  Expected number of results: 527\n  Percentage missing: 18%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_reads' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_cells' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity_celltype' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_ct_expr_sim' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_gene_expr_sim' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_mixing' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: knn_mixing\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_reads_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_cells_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity_celltype_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_ct_expr_sim_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_gene_expr_sim_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_mixing_qc_filtered' % missing",
+    "value": -2.7972,
+    "severity": 3,
+    "severity_value": -27.9724,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: knn_mixing_qc_filtered\n  Number of results: 824\n  Expected number of results: 217\n  Percentage missing: -280%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'proportion_of_assigned_reads' % missing",
+    "value": -2.4885,
+    "severity": 3,
+    "severity_value": -24.8848,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: proportion_of_assigned_reads\n  Number of results: 757\n  Expected number of results: 217\n  Percentage missing: -249%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'proportion_of_annotated_cells' % missing",
+    "value": -2.5161,
+    "severity": 3,
+    "severity_value": -25.1613,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: proportion_of_annotated_cells\n  Number of results: 763\n  Expected number of results: 217\n  Percentage missing: -252%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'number_of_cells' % missing",
+    "value": -2.5161,
+    "severity": 3,
+    "severity_value": -25.1613,
+    "condition": "pct_missing <= 0.1",
+    "message": "Percentage of missing results should be less than 10%\n  Task: ist_preprocessing\n  Metric: number_of_cells\n  Number of results: 763\n  Expected number of results: 217\n  Percentage missing: -252%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Task number of successful processes",
+    "value": 867,
+    "severity": 0,
+    "severity_value": 0.2255,
+    "condition": "sum(results$succeeded) + sum(metric_component_results$succeeded) == nrow(results) + nrow(metric_component_results)",
+    "message": "Number of successful processes should be equal to the number of attempted processes\n  Task: ist_preprocessing\n  Succeeded processes: 867\n  Attempted processes: 887\n  Percentage failed: 2%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung6' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung6\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_mouse_brain_xenium_combined/rep3' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep3\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_lung_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_lung_xenium_combined\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_lung_cancer_merfish_combined/rep2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_lung_cancer_merfish_combined/rep2\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_colon_cancer_merfish_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_colon_cancer_merfish_combined/rep1\n  Succeeded processes: 26\n  Attempted processes: 26\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'mpii_human_lung_xenium_combined/978_reg1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: mpii_human_lung_xenium_combined/978_reg1\n  Succeeded processes: 29\n  Attempted processes: 29\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_mouse_brain_xenium_combined/rep2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep2\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_lung_cancer_merfish_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_lung_cancer_merfish_combined/rep1\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'ltx_human_lung_xenium_combined/B_AK-16-12103' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: ltx_human_lung_xenium_combined/B_AK-16-12103\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'kuppe_kidney_healthy_merfish_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: kuppe_kidney_healthy_merfish_combined/rep1\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung13' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung13\n  Succeeded processes: 25\n  Attempted processes: 25\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung5_rep2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung5_rep2\n  Succeeded processes: 26\n  Attempted processes: 26\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_lung_cancer_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_lung_cancer_xenium_combined\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_colon_cancer_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_colon_cancer_xenium_combined\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2024_10x_human_liver_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_liver_xenium_combined\n  Succeeded processes: 29\n  Attempted processes: 29\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_liver_cancer_merfish_combined/rep2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_liver_cancer_merfish_combined/rep2\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2024_10x_human_liver_cancer_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_liver_cancer_xenium_combined\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2026_10x_human_breast_cancer_atera_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2026_10x_human_breast_cancer_atera_combined\n  Succeeded processes: 13\n  Attempted processes: 13\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung9_rep2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung9_rep2\n  Succeeded processes: 25\n  Attempted processes: 25\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'kuppe_kidney_cancer_merfish_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: kuppe_kidney_cancer_merfish_combined/rep1\n  Succeeded processes: 29\n  Attempted processes: 29\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'ltx_human_lung_xenium_combined/L_AK14_14254' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: ltx_human_lung_xenium_combined/L_AK14_14254\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_colon_cancer_merfish_combined/rep2' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_colon_cancer_merfish_combined/rep2\n  Succeeded processes: 26\n  Attempted processes: 26\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_liver_cosmx_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_liver_cosmx_combined\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung9_rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung9_rep1\n  Succeeded processes: 26\n  Attempted processes: 26\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2024_10x_human_skin_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_skin_xenium_combined\n  Succeeded processes: 25\n  Attempted processes: 25\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_liver_cancer_merfish_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_liver_cancer_merfish_combined/rep1\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_human_breast_cancer_xenium_combined' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_breast_cancer_xenium_combined\n  Succeeded processes: 28\n  Attempted processes: 28\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung12' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung12\n  Succeeded processes: 26\n  Attempted processes: 26\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset 'bruker_human_lung_cancer_cosmx_combined/lung5_rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung5_rep1\n  Succeeded processes: 26\n  Attempted processes: 26\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2022_vizgen_human_breast_cancer_merfish_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_breast_cancer_merfish_combined/rep1\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset '2023_10x_mouse_brain_xenium_combined/rep1' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep1\n  Succeeded processes: 27\n  Attempted processes: 27\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'segmentation' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: segmentation\n  Succeeded processes: 182\n  Attempted processes: 182\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'assignment' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: assignment\n  Succeeded processes: 195\n  Attempted processes: 195\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'normalization' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: normalization\n  Succeeded processes: 90\n  Attempted processes: 90\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'cell_type_assignment' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Succeeded processes: 206\n  Attempted processes: 206\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'expression_correction' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: expression_correction\n  Succeeded processes: 90\n  Attempted processes: 90\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'identity' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: identity\n  Succeeded processes: 31\n  Attempted processes: 31\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Method 'permute_celltype_annotations' % failed",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Succeeded processes: 31\n  Attempted processes: 31\n  Percentage failed: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric component 'similarity' % failed",
+    "value": 0.3226,
+    "severity": 3,
+    "severity_value": 3.2258,
+    "condition": "pct_failed <= 0.1",
+    "message": "Percentage of failed processes should be less than 10%\n  Task: ist_preprocessing\n  Metric component: similarity\n  Succeeded processes: 42\n  Attempted processes: 62\n  Percentage failed: 32%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung6' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung6\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_mouse_brain_xenium_combined/rep3' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep3\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_human_lung_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_lung_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_lung_cancer_merfish_combined/rep2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_lung_cancer_merfish_combined/rep2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_colon_cancer_merfish_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_colon_cancer_merfish_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `mpii_human_lung_xenium_combined/978_reg1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: mpii_human_lung_xenium_combined/978_reg1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_mouse_brain_xenium_combined/rep2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_lung_cancer_merfish_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_lung_cancer_merfish_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `ltx_human_lung_xenium_combined/B_AK-16-12103' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: ltx_human_lung_xenium_combined/B_AK-16-12103\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `kuppe_kidney_healthy_merfish_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: kuppe_kidney_healthy_merfish_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung13' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung13\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung5_rep2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung5_rep2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_human_lung_cancer_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_lung_cancer_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_human_colon_cancer_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_colon_cancer_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2024_10x_human_liver_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_liver_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_liver_cancer_merfish_combined/rep2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_liver_cancer_merfish_combined/rep2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2024_10x_human_liver_cancer_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_liver_cancer_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2026_10x_human_breast_cancer_atera_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2026_10x_human_breast_cancer_atera_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung9_rep2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung9_rep2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `kuppe_kidney_cancer_merfish_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: kuppe_kidney_cancer_merfish_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `ltx_human_lung_xenium_combined/L_AK14_14254' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: ltx_human_lung_xenium_combined/L_AK14_14254\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_colon_cancer_merfish_combined/rep2' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_colon_cancer_merfish_combined/rep2\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_liver_cosmx_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_liver_cosmx_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung9_rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung9_rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2024_10x_human_skin_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2024_10x_human_skin_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_liver_cancer_merfish_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_liver_cancer_merfish_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_human_breast_cancer_xenium_combined' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_human_breast_cancer_xenium_combined\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung12' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung12\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `bruker_human_lung_cancer_cosmx_combined/lung5_rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: bruker_human_lung_cancer_cosmx_combined/lung5_rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2022_vizgen_human_breast_cancer_merfish_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2022_vizgen_human_breast_cancer_merfish_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Dataset `2023_10x_mouse_brain_xenium_combined/rep1' number of control methods",
+    "value": 2,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(control_methods)",
+    "message": "Number of successful control methods for a dataset should equal the number of controls\n  Task: ist_preprocessing\n  Dataset: 2023_10x_mouse_brain_xenium_combined/rep1\n  Succeeded control_methods: 2\n  Total control methods: 2\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_reads' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_cells' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: coexpr_similarity\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity_celltype' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_ct_expr_sim' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_gene_expr_sim' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_mixing' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: knn_mixing\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_reads_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'negative_marker_purity_cells_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'coexpr_similarity_celltype_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_ct_expr_sim_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'rel_pairwise_gene_expr_sim_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'knn_mixing_qc_filtered' number of control methods",
+    "value": 62,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: knn_mixing_qc_filtered\n  Control method scores: 62\n  Expected control method scores: 62\n  Percentage succeeded: 100%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'proportion_of_assigned_reads' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: proportion_of_assigned_reads\n  Control method scores: 0\n  Expected control method scores: 62\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'proportion_of_annotated_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: proportion_of_annotated_cells\n  Control method scores: 0\n  Expected control method scores: 62\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Raw results",
+    "label": "Metric 'number_of_cells' number of control methods",
+    "value": 0,
+    "severity": 3,
+    "severity_value": 3,
+    "condition": "n_controls != length(datasets) * length(control_methods)",
+    "message": "Number of metric scores for control methods should be equal to #datasets × #control_methods\n  Task: ist_preprocessing\n  Metric: number_of_cells\n  Control method scores: 0\n  Expected control method scores: 62\n  Percentage succeeded: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_reads' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads\n  Inside range: 824\n  Scaled scores: 824\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_reads' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_reads' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'assignment'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'assignment'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'cell_type_assignment'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'cell_type_assignment'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'expression_correction'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'expression_correction'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'identity'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'identity'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'normalization'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'normalization'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'permute_celltype_annotations'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'permute_celltype_annotations'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads' score for 'segmentation'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_reads\n  Worst score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads' score for 'segmentation'",
+    "value": 0.3668,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'negative_marker_purity_reads'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_reads\n  Best score: 0.366788321167883\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_cells' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_cells' worst score % outside range",
+    "value": 2.3992,
+    "severity": 3,
+    "severity_value": 23.9916,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_cells' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'assignment'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'assignment'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'cell_type_assignment'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'cell_type_assignment'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'expression_correction'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'expression_correction'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'identity'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'identity'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'normalization'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'normalization'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'permute_celltype_annotations'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'permute_celltype_annotations'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells' score for 'segmentation'",
+    "value": -2.3992,
+    "severity": 2,
+    "severity_value": 2.3992,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_cells\n  Worst score: -2.39915966386554\n  Percentage outside range: 240%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells' score for 'segmentation'",
+    "value": -2.3992,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'negative_marker_purity_cells'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_cells\n  Best score: -2.39915966386554\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity' worst score % outside range",
+    "value": 1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'assignment'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'assignment'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'cell_type_assignment'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'cell_type_assignment'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'expression_correction'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'expression_correction'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'identity'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'identity'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'normalization'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'normalization'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'permute_celltype_annotations'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'permute_celltype_annotations'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity' score for 'segmentation'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' coexpr_similarity'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity' score for 'segmentation'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'coexpr_similarity'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_celltype' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_celltype' worst score % outside range",
+    "value": 3.2689,
+    "severity": 3,
+    "severity_value": 32.6891,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_celltype' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'assignment'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'assignment'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'cell_type_assignment'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'cell_type_assignment'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'expression_correction'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'expression_correction'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'identity'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'identity'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'normalization'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'normalization'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'permute_celltype_annotations'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'permute_celltype_annotations'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype' score for 'segmentation'",
+    "value": -3.2689,
+    "severity": 3,
+    "severity_value": 3.2689,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity_celltype\n  Worst score: -3.2689075630252\n  Percentage outside range: 327%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype' score for 'segmentation'",
+    "value": -3.2689,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'coexpr_similarity_celltype'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity_celltype\n  Best score: -3.2689075630252\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_ct_expr_sim' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim\n  Inside range: 824\n  Scaled scores: 824\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_ct_expr_sim' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_ct_expr_sim' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'assignment'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'assignment'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'cell_type_assignment'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'cell_type_assignment'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'expression_correction'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'expression_correction'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'identity'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'identity'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'normalization'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'normalization'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'permute_celltype_annotations'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'permute_celltype_annotations'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim' score for 'segmentation'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_ct_expr_sim\n  Worst score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim' score for 'segmentation'",
+    "value": 0.2859,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'rel_pairwise_ct_expr_sim'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_ct_expr_sim\n  Best score: 0.28588143525741\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_gene_expr_sim' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_gene_expr_sim' worst score % outside range",
+    "value": 0.3983,
+    "severity": 3,
+    "severity_value": 3.9827,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_gene_expr_sim' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'cell_type_assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'cell_type_assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'expression_correction'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'expression_correction'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'identity'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'identity'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'normalization'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'normalization'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'permute_celltype_annotations'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'permute_celltype_annotations'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim' score for 'segmentation'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_gene_expr_sim\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim' score for 'segmentation'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'rel_pairwise_gene_expr_sim'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_gene_expr_sim\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_mixing' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: knn_mixing\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_mixing' worst score % outside range",
+    "value": 0.2637,
+    "severity": 2,
+    "severity_value": 2.6372,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_mixing' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'assignment'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'assignment'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'cell_type_assignment'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'cell_type_assignment'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'expression_correction'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'expression_correction'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'identity'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'identity'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'normalization'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'normalization'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'permute_celltype_annotations'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'permute_celltype_annotations'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing' score for 'segmentation'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' knn_mixing'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: knn_mixing\n  Worst score: -0.263718484562492\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing' score for 'segmentation'",
+    "value": -0.2637,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'knn_mixing'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: knn_mixing\n  Best score: -0.263718484562492\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_reads_qc_filtered' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads_qc_filtered\n  Inside range: 824\n  Scaled scores: 824\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_reads_qc_filtered' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_reads_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'assignment'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'assignment'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'cell_type_assignment'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'cell_type_assignment'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'expression_correction'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'expression_correction'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'identity'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'identity'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'normalization'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'normalization'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_reads_qc_filtered' score for 'segmentation'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_reads_qc_filtered\n  Worst score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_reads_qc_filtered' score for 'segmentation'",
+    "value": 0.3586,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'negative_marker_purity_reads_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_reads_qc_filtered\n  Best score: 0.358576642335766\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_cells_qc_filtered' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells_qc_filtered\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_cells_qc_filtered' worst score % outside range",
+    "value": 2.6261,
+    "severity": 3,
+    "severity_value": 26.2605,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'negative_marker_purity_cells_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'assignment'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'assignment'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'cell_type_assignment'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'cell_type_assignment'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'expression_correction'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'expression_correction'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'identity'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'identity'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'normalization'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'normalization'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'negative_marker_purity_cells_qc_filtered' score for 'segmentation'",
+    "value": -2.6261,
+    "severity": 2,
+    "severity_value": 2.6261,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_cells_qc_filtered\n  Worst score: -2.62605042016806\n  Percentage outside range: 263%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'negative_marker_purity_cells_qc_filtered' score for 'segmentation'",
+    "value": -2.6261,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'negative_marker_purity_cells_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: negative_marker_purity_cells_qc_filtered\n  Best score: -2.62605042016806\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_qc_filtered' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_qc_filtered\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_qc_filtered' worst score % outside range",
+    "value": 1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'assignment'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'assignment'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'cell_type_assignment'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'cell_type_assignment'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'expression_correction'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'expression_correction'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'identity'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'identity'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'normalization'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'normalization'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_qc_filtered' score for 'segmentation'",
+    "value": -1000000,
+    "severity": 3,
+    "severity_value": 1000000,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity_qc_filtered\n  Worst score: -Inf\n  Percentage outside range: Inf%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_qc_filtered' score for 'segmentation'",
+    "value": -1000000,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'coexpr_similarity_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity_qc_filtered\n  Best score: -Inf\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_celltype_qc_filtered' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_celltype_qc_filtered' worst score % outside range",
+    "value": 3.0714,
+    "severity": 3,
+    "severity_value": 30.7143,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'coexpr_similarity_celltype_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'assignment'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'assignment'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'cell_type_assignment'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'cell_type_assignment'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'expression_correction'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'expression_correction'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'identity'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'identity'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'normalization'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'normalization'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'coexpr_similarity_celltype_qc_filtered' score for 'segmentation'",
+    "value": -3.0714,
+    "severity": 3,
+    "severity_value": 3.0714,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Worst score: -3.07142857142856\n  Percentage outside range: 307%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'coexpr_similarity_celltype_qc_filtered' score for 'segmentation'",
+    "value": -3.0714,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'coexpr_similarity_celltype_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: coexpr_similarity_celltype_qc_filtered\n  Best score: -3.07142857142856\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_ct_expr_sim_qc_filtered' % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Inside range: 824\n  Scaled scores: 824\n  Percentage outside: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_ct_expr_sim_qc_filtered' worst score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_ct_expr_sim_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'assignment'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'assignment'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'cell_type_assignment'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'cell_type_assignment'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'expression_correction'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'expression_correction'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'identity'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'identity'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'normalization'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'normalization'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'segmentation'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Worst score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_ct_expr_sim_qc_filtered' score for 'segmentation'",
+    "value": 0.2895,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'rel_pairwise_ct_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_ct_expr_sim_qc_filtered\n  Best score: 0.289521580863235\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_gene_expr_sim_qc_filtered' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_gene_expr_sim_qc_filtered' worst score % outside range",
+    "value": 0.3983,
+    "severity": 3,
+    "severity_value": 3.9827,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'rel_pairwise_gene_expr_sim_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'cell_type_assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'cell_type_assignment'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'expression_correction'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'expression_correction'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'identity'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'identity'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'normalization'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'normalization'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'segmentation'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Worst score: -0.398274987316083\n  Percentage outside range: 40%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'rel_pairwise_gene_expr_sim_qc_filtered' score for 'segmentation'",
+    "value": -0.3983,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'rel_pairwise_gene_expr_sim_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: rel_pairwise_gene_expr_sim_qc_filtered\n  Best score: -0.398274987316083\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_mixing_qc_filtered' % outside range",
+    "value": 1,
+    "severity": 3,
+    "severity_value": 10,
+    "condition": "pct_outside <= 0.1",
+    "message": "Percentage of scaled scores outside control range should be less than 10%\n  Task: ist_preprocessing\n  Metric: knn_mixing_qc_filtered\n  Inside range: 0\n  Scaled scores: 824\n  Percentage outside: 100%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_mixing_qc_filtered' worst score % outside range",
+    "value": 0.2605,
+    "severity": 2,
+    "severity_value": 2.6048,
+    "condition": "worst_pct_outside <= 0.1",
+    "message": "The worst scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Metric 'knn_mixing_qc_filtered' best score % outside range",
+    "value": 0,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_pct_outside <= 0.1",
+    "message": "The best scaled score should be less than 10% outside the control range\n  Task: ist_preprocessing\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'assignment'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'assignment' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'assignment'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'assignment' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: assignment\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'cell_type_assignment'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'cell_type_assignment' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'cell_type_assignment'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'cell_type_assignment' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: cell_type_assignment\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'expression_correction'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'expression_correction' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'expression_correction'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'expression_correction' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: expression_correction\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'identity'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'identity' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'identity'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'identity' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: identity\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'normalization'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'normalization' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'normalization'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'normalization' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: normalization\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'permute_celltype_annotations' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'permute_celltype_annotations'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'permute_celltype_annotations' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: permute_celltype_annotations\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Worst 'knn_mixing_qc_filtered' score for 'segmentation'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "worst_score < -1",
+    "message": "Method 'segmentation' performs much worse than controls for metric' knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: knn_mixing_qc_filtered\n  Worst score: -0.260482674935958\n  Percentage outside range: 26%\n"
+  },
+  {
+    "category": "Scaling",
+    "label": "Best 'knn_mixing_qc_filtered' score for 'segmentation'",
+    "value": -0.2605,
+    "severity": 0,
+    "severity_value": 0,
+    "condition": "best_score > 2",
+    "message": "Method 'segmentation' performs much better than controls for metric 'knn_mixing_qc_filtered'\n  Task: ist_preprocessing\n  Method: segmentation\n  Metric: knn_mixing_qc_filtered\n  Best score: -0.260482674935958\n  Percentage outside range: 0%\n"
+  }
+]

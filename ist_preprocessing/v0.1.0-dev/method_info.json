@@ -1,0 +1,135 @@
+[
+  {
+    "name": "segmentation",
+    "label": "Segmentation",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Pipeline variants that differ from the baseline only in the segmentation step.",
+    "description": "Each parameter set is a full preprocessing pipeline in which only the segmentation step is swapped (binning, cellpose, cellposev4, custom_segmentation, stardist, watershed). All other steps are fixed to the baseline: segmentation: custom_segmentation → assignment: basic_transcript_assignment → count_aggregation: basic_count_aggregation → qc_filter: basic_qc_filter → calculate_cell_volume: alpha_shapes → normalization: normalize_by_volume → cell_type_assignment: tacco → expression_correction: no_correction → gene_efficiency_correction: no_correction.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_documentation": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_segmentation/custom_segmentation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_segmentation/custom_segmentation:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "assignment",
+    "label": "Transcript assignment",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Pipeline variants that differ from the baseline only in the assignment step.",
+    "description": "Each parameter set is a full preprocessing pipeline in which only the assignment step is swapped (basic_transcript_assignment, baysor, clustermap, comseg, fastreseg, proseg, segger). All other steps are fixed to the baseline: segmentation: custom_segmentation → assignment: basic_transcript_assignment → count_aggregation: basic_count_aggregation → qc_filter: basic_qc_filter → calculate_cell_volume: alpha_shapes → normalization: normalize_by_volume → cell_type_assignment: tacco → expression_correction: no_correction → gene_efficiency_correction: no_correction.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_documentation": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_transcript_assignment/basic_transcript_assignment",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_transcript_assignment/basic_transcript_assignment:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "normalization",
+    "label": "Normalization",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Pipeline variants that differ from the baseline only in the normalization step.",
+    "description": "Each parameter set is a full preprocessing pipeline in which only the normalization step is swapped (normalize_by_counts, normalize_by_volume, spanorm). All other steps are fixed to the baseline: segmentation: custom_segmentation → assignment: basic_transcript_assignment → count_aggregation: basic_count_aggregation → qc_filter: basic_qc_filter → calculate_cell_volume: alpha_shapes → normalization: normalize_by_volume → cell_type_assignment: tacco → expression_correction: no_correction → gene_efficiency_correction: no_correction.",
+    "type": "method",
+    "link_code": "https://github.com/theislab/txsim",
+    "link_documentation": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_normalization/normalize_by_volume",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_normalization/normalize_by_volume:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "cell_type_assignment",
+    "label": "Cell type assignment",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Pipeline variants that differ from the baseline only in the cell_type_assignment step.",
+    "description": "Each parameter set is a full preprocessing pipeline in which only the cell_type_assignment step is swapped (mapmycells, moscot, rctd, singler, ssam, tacco, tangram). All other steps are fixed to the baseline: segmentation: custom_segmentation → assignment: basic_transcript_assignment → count_aggregation: basic_count_aggregation → qc_filter: basic_qc_filter → calculate_cell_volume: alpha_shapes → normalization: normalize_by_volume → cell_type_assignment: tacco → expression_correction: no_correction → gene_efficiency_correction: no_correction.",
+    "type": "method",
+    "link_code": "https://github.com/simonwm/tacco",
+    "link_documentation": "https://simonwm.github.io/tacco/",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_cell_type_annotation/tacco",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_cell_type_annotation/tacco:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "expression_correction",
+    "label": "Expression correction",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Pipeline variants that differ from the baseline only in the expression_correction step.",
+    "description": "Each parameter set is a full preprocessing pipeline in which only the expression_correction step is swapped (no_correction, resolvi_correction, split). All other steps are fixed to the baseline: segmentation: custom_segmentation → assignment: basic_transcript_assignment → count_aggregation: basic_count_aggregation → qc_filter: basic_qc_filter → calculate_cell_volume: alpha_shapes → normalization: normalize_by_volume → cell_type_assignment: tacco → expression_correction: no_correction → gene_efficiency_correction: no_correction.",
+    "type": "method",
+    "link_code": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_documentation": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_expression_correction/no_correction",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_expression_correction/no_correction:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "identity",
+    "label": "Identity",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Positive control: uses the ground-truth single-cell reference.",
+    "description": "Positive control: uses the ground-truth single-cell reference.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_documentation": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_segmentation/custom_segmentation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_segmentation/custom_segmentation:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "permute_celltype_annotations",
+    "label": "Permuted cell type annotations",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Negative control: cell type annotations are randomly permuted.",
+    "description": "Negative control: cell type annotations are randomly permuted.",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_documentation": "https://github.com/openproblems-bio/task_ist_preprocessing",
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/methods_segmentation/custom_segmentation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/methods_segmentation/custom_segmentation:build_main",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]

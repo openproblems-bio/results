@@ -1,0 +1,38 @@
+{
+  "presets": [
+    {
+      "name": "similarity",
+      "label": "Similarity (all cells)",
+      "description": "Ranked on the similarity metrics against the scRNA-seq reference, computed on all cells. Quality metrics (number of cells, assigned reads, annotated cells) are not used for ranking.",
+      "default": true,
+      "metrics": [
+        "negative_marker_purity_reads",
+        "negative_marker_purity_cells",
+        "coexpr_similarity",
+        "coexpr_similarity_celltype",
+        "rel_pairwise_ct_expr_sim",
+        "rel_pairwise_gene_expr_sim",
+        "knn_mixing"
+      ]
+    },
+    {
+      "name": "similarity_qc",
+      "label": "Similarity (QC filtered)",
+      "description": "The same similarity metrics, computed on cells that pass QC.",
+      "metrics": [
+        "negative_marker_purity_reads_qc_filtered",
+        "negative_marker_purity_cells_qc_filtered",
+        "coexpr_similarity_qc_filtered",
+        "coexpr_similarity_celltype_qc_filtered",
+        "rel_pairwise_ct_expr_sim_qc_filtered",
+        "rel_pairwise_gene_expr_sim_qc_filtered",
+        "knn_mixing_qc_filtered"
+      ]
+    },
+    {
+      "name": "all",
+      "label": "All metrics",
+      "description": "All metrics, including the quality metrics."
+    }
+  ]
+}

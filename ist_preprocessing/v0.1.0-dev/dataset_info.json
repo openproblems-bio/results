@@ -1,0 +1,720 @@
+[
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung6",
+    "label": "CosMx lung cancer L6",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung6 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung6 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "2023_10x_mouse_brain_xenium_combined/rep3",
+    "label": "Xenium mouse brain r3",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 Fresh Frozen Mouse Brain rep3 + ABCA Mouse Brain scRNAseq",
+    "description": "Xenium V1 Fresh Frozen Mouse Brain rep3 + ABCA Mouse Brain scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/fresh-frozen-mouse-brain-replicates-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "mus_musculus"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 228.289
+  },
+  {
+    "name": "2023_10x_human_lung_xenium_combined",
+    "label": "Xenium lung",
+    "commit": "missing-sha",
+    "summary": "Xenium Preview Human Non diseased Lung FFPE + 2020 Travaglini scRNAseq",
+    "description": "Xenium Preview Human Non diseased Lung FFPE + 2020 Travaglini scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/xenium-human-lung-preview-data-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41586-020-2922-4"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 69.6825
+  },
+  {
+    "name": "2022_vizgen_human_lung_cancer_merfish_combined/rep2",
+    "label": "MERFISH lung cancer r2",
+    "commit": "missing-sha",
+    "summary": "Vizgen Human Lung Cancer MERFISH Patient2 + 2024 Zuani scRNAseq",
+    "description": "Vizgen Human Lung Cancer MERFISH Patient2 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 657.5505
+  },
+  {
+    "name": "2022_vizgen_human_colon_cancer_merfish_combined/rep1",
+    "label": "MERFISH colon cancer r1",
+    "commit": "missing-sha",
+    "summary": "2022 Vizgen Human Colon Cancer MERFISH Patient1 + 2020 Lee scRNAseq",
+    "description": "2022 Vizgen Human Colon Cancer MERFISH Patient1 + 2020 Lee scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41588-020-0636-z"
+      ],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 41.213
+  },
+  {
+    "name": "mpii_human_lung_xenium_combined/978_reg1",
+    "label": "Xenium lung MPII 978",
+    "commit": "missing-sha",
+    "summary": "MPII Xenium human lung (sample 978, region 1) + MPII human lung scRNAseq reference",
+    "description": "MPII Xenium human lung (sample 978, region 1) + MPII human lung scRNAseq reference",
+    "source_urls": [
+      ""
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 68.2571
+  },
+  {
+    "name": "2023_10x_mouse_brain_xenium_combined/rep2",
+    "label": "Xenium mouse brain r2",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 Fresh Frozen Mouse Brain rep2 + ABCA Mouse Brain scRNAseq",
+    "description": "Xenium V1 Fresh Frozen Mouse Brain rep2 + ABCA Mouse Brain scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/fresh-frozen-mouse-brain-replicates-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "mus_musculus"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 228.289
+  },
+  {
+    "name": "2022_vizgen_human_lung_cancer_merfish_combined/rep1",
+    "label": "MERFISH lung cancer r1",
+    "commit": "missing-sha",
+    "summary": "Vizgen Human Lung Cancer MERFISH Patient1 + 2024 Zuani scRNAseq",
+    "description": "Vizgen Human Lung Cancer MERFISH Patient1 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 657.5505
+  },
+  {
+    "name": "ltx_human_lung_xenium_combined/B_AK-16-12103",
+    "label": "Xenium lung LTX B",
+    "commit": "missing-sha",
+    "summary": "LTX Xenium human lung (sample B_AK-16-12103) + LTX human lung scRNAseq reference",
+    "description": "LTX Xenium human lung (sample B_AK-16-12103) + LTX human lung scRNAseq reference (ltx_full_annotation_2026_04_25)",
+    "source_urls": [
+      ""
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 72.1409
+  },
+  {
+    "name": "kuppe_kidney_healthy_merfish_combined/rep1",
+    "label": "MERFISH kidney healthy r1",
+    "commit": "missing-sha",
+    "summary": "Kuppe healthy kidney MERFISH (Vizgen MERSCOPE, 140-gene Spapros panel) + Kuppe kidney healthy snRNAseq reference",
+    "description": "Kuppe lab healthy kidney FFPE sample (MERFISH, Vizgen MERSCOPE, 140-gene Spapros panel) paired with the Kuppe kidney healthy Flex snRNA-seq reference.",
+    "source_urls": [
+      ""
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 6.886
+  },
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung13",
+    "label": "CosMx lung cancer L13",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung13 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung13 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung5_rep2",
+    "label": "CosMx lung cancer L5 r2",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung5 Rep2 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung5 Rep2 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "2023_10x_human_lung_cancer_xenium_combined",
+    "label": "Xenium lung cancer",
+    "commit": "missing-sha",
+    "summary": "Xenium Preview Human Lung Cancer FFPE + 2024 Zuani scRNAseq",
+    "description": "Xenium Preview Human Lung Cancer FFPE + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/xenium-human-lung-preview-data-1-standard",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 650.7029
+  },
+  {
+    "name": "2023_10x_human_colon_cancer_xenium_combined",
+    "label": "Xenium colon cancer",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 hColon Cancer FFPE + 2020 Lee scRNAseq",
+    "description": "Xenium V1 hColon Cancer FFPE + 2020 Lee scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-colon-preview-data-xenium-human-colon-gene-expression-panel-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41588-020-0636-z"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 37.7195
+  },
+  {
+    "name": "2024_10x_human_liver_xenium_combined",
+    "label": "Xenium liver",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 hLiver FFPE + 2022 Andrews scRNAseq",
+    "description": "Xenium V1 hLiver FFPE + 2022 Andrews scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-liver-data-xenium-human-multi-tissue-and-cancer-panel-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1002/hep4.1854"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 15.214
+  },
+  {
+    "name": "2022_vizgen_human_liver_cancer_merfish_combined/rep2",
+    "label": "MERFISH liver cancer r2",
+    "commit": "missing-sha",
+    "summary": "Vizgen Human Liver Cancer MERFISH Patient2 + 2022 Lu scRNAseq",
+    "description": "Vizgen Human Liver Cancer MERFISH Patient2 + 2022 Lu scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41467-022-32283-3"
+      ],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 50.1694
+  },
+  {
+    "name": "2024_10x_human_liver_cancer_xenium_combined",
+    "label": "Xenium liver cancer",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 hLiver cancer FFPE + 2022 Lu scRNAseq",
+    "description": "Xenium V1 hLiver cancer FFPE + 2022 Lu scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-liver-data-xenium-human-multi-tissue-and-cancer-panel-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41467-022-32283-3"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 50.7072
+  },
+  {
+    "name": "2026_10x_human_breast_cancer_atera_combined",
+    "label": "Atera breast cancer",
+    "commit": "missing-sha",
+    "summary": "Atera WTA FFPE Human Breast Cancer (DCIS Grade 3) + 2021 Wu scRNAseq",
+    "description": "Atera WTA FFPE Human Breast Cancer (DCIS Grade 3) + 2021 Wu scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/atera-wta-ffpe-human-breast-cancer"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41588-021-00911-1"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 634.1998
+  },
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung9_rep2",
+    "label": "CosMx lung cancer L9 r2",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung9 Rep2 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung9 Rep2 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "kuppe_kidney_cancer_merfish_combined/rep1",
+    "label": "MERFISH kidney cancer r1",
+    "commit": "missing-sha",
+    "summary": "Kuppe Clear Cell Kidney Carcinoma MERFISH (Vizgen MERSCOPE, 500-gene Pan-Cancer panel) + Kuppe kidney cancer snRNAseq reference",
+    "description": "Kuppe lab Clear Cell Kidney Carcinoma FFPE sample (MERFISH, Vizgen MERSCOPE, 500-gene Pan-Cancer panel) paired with the Kuppe kidney cancer Flex snRNA-seq reference. Note: the Pan-Cancer panel does not separate NKT vs T cells or pericytes vs vSMC.",
+    "source_urls": [
+      ""
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 9.1703
+  },
+  {
+    "name": "ltx_human_lung_xenium_combined/L_AK14_14254",
+    "label": "Xenium lung LTX L",
+    "commit": "missing-sha",
+    "summary": "LTX Xenium human lung (sample L_AK14_14254) + LTX human lung scRNAseq reference",
+    "description": "LTX Xenium human lung (sample L_AK14_14254) + LTX human lung scRNAseq reference (ltx_full_annotation_2026_04_25)",
+    "source_urls": [
+      ""
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 72.1409
+  },
+  {
+    "name": "2022_vizgen_human_colon_cancer_merfish_combined/rep2",
+    "label": "MERFISH colon cancer r2",
+    "commit": "missing-sha",
+    "summary": "2022 Vizgen Human Colon Cancer MERFISH Patient2 + 2020 Lee scRNAseq",
+    "description": "2022 Vizgen Human Colon Cancer MERFISH Patient2 + 2020 Lee scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41588-020-0636-z"
+      ],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 41.213
+  },
+  {
+    "name": "bruker_human_liver_cosmx_combined",
+    "label": "CosMx liver",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Liver + 2022 Andrews scRNAseq",
+    "description": "Bruker CosMx Human Liver + 2022 Andrews scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/human-liver-rna-ffpe-dataset/"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1002/hep4.1854"
+      ],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 24.6942
+  },
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung9_rep1",
+    "label": "CosMx lung cancer L9 r1",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung9 Rep1 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung9 Rep1 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "2024_10x_human_skin_xenium_combined",
+    "label": "Xenium skin",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 hSkin nondiseased FFPE + 2024 Ganier scRNAseq",
+    "description": "Xenium V1 hSkin nondiseased FFPE + 2024 Ganier scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/human-skin-data-xenium-human-multi-tissue-and-cancer-panel-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1073/pnas.2313326120"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 360.721
+  },
+  {
+    "name": "2022_vizgen_human_liver_cancer_merfish_combined/rep1",
+    "label": "MERFISH liver cancer r1",
+    "commit": "missing-sha",
+    "summary": "Vizgen Human Liver Cancer MERFISH Patient1 + 2022 Lu scRNAseq",
+    "description": "Vizgen Human Liver Cancer MERFISH Patient1 + 2022 Lu scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41467-022-32283-3"
+      ],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 50.1694
+  },
+  {
+    "name": "2023_10x_human_breast_cancer_xenium_combined",
+    "label": "Xenium breast cancer",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 FFPE Human Breast IDC + 2021 Wu scRNAseq",
+    "description": "Xenium V1 FFPE Human Breast IDC + 2021 Wu scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/xenium-ffpe-human-breast-with-custom-add-on-panel-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41588-021-00911-1"
+      ],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 58.2324
+  },
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung12",
+    "label": "CosMx lung cancer L12",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung12 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung12 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "bruker_human_lung_cancer_cosmx_combined/lung5_rep1",
+    "label": "CosMx lung cancer L5 r1",
+    "commit": "missing-sha",
+    "summary": "Bruker CosMx Human Lung Cancer Lung5 Rep1 + 2024 Zuani scRNAseq",
+    "description": "Bruker CosMx Human Lung Cancer Lung5 Rep1 + 2024 Zuani scRNAseq",
+    "source_urls": [
+      "https://nanostring.com/products/cosmx-spatial-molecular-imager/ffpe-dataset/nsclc-ffpe-dataset/",
+      "https://www.ebi.ac.uk/biostudies/arrayexpress/studies/E-MTAB-13526"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 693.5836
+  },
+  {
+    "name": "2022_vizgen_human_breast_cancer_merfish_combined/rep1",
+    "label": "MERFISH breast cancer r1",
+    "commit": "missing-sha",
+    "summary": "Vizgen Human Breast Cancer MERFISH Patient1 + 2021 Wu scRNAseq",
+    "description": "Vizgen Human Breast Cancer MERFISH Patient1 + 2021 Wu scRNAseq",
+    "source_urls": [
+      "https://info.vizgen.com/ffpe-showcase"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "homo_sapiens"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1038/s41588-021-00911-1"
+      ],
+      "bibtex": []
+    },
+    "date_created": "06-08-2026",
+    "file_size_mb": 62.6528
+  },
+  {
+    "name": "2023_10x_mouse_brain_xenium_combined/rep1",
+    "label": "Xenium mouse brain r1",
+    "commit": "missing-sha",
+    "summary": "Xenium V1 Fresh Frozen Mouse Brain rep1 + ABCA Mouse Brain scRNAseq",
+    "description": "Xenium V1 Fresh Frozen Mouse Brain rep1 + ABCA Mouse Brain scRNAseq",
+    "source_urls": [
+      "https://www.10xgenomics.com/datasets/fresh-frozen-mouse-brain-replicates-1-standard"
+    ],
+    "common_dataset_names": null,
+    "modalities": [],
+    "organisms": [
+      "mus_musculus"
+    ],
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "date_created": "05-08-2026",
+    "file_size_mb": 228.289
+  }
+]
