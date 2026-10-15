@@ -1,0 +1,342 @@
+[
+  {
+    "name": "negative_marker_purity_reads",
+    "label": "Neg. marker purity (reads)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The percentage of negative marker reads assigned to the correct cell types.",
+    "description": "The percentage of negative marker reads assigned to the correct cell types.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "negative_marker_purity_cells",
+    "label": "Neg. marker purity (cells)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The percentage of cells that do not contain counts of negative markers of their specific cell type.",
+    "description": "The percentage of cells that do not contain counts of negative markers of their specific cell type.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "coexpr_similarity",
+    "label": "Co-expr. sim.",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The similarity between the co-expression patterns of spatial and scRNA-seq data.",
+    "description": "The similarity is calculated as the absolute difference between the correlation matrices of spatial and \nscRNA-seq data. The correlation matrices contain pair-wise correlations between all genes in the dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "coexpr_similarity_celltype",
+    "label": "Co-expr. sim. (CT)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The similarity between the within cell type co-expression patterns of spatial and scRNA-seq data.",
+    "description": "The similarity is calculated as the absolute difference between the correlation matrices of spatial and \nscRNA-seq data for each cell type. The final score is the mean over cell types. The correlation matrices contain\npair-wise correlations between all genes in the dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "rel_pairwise_ct_expr_sim",
+    "label": "Rel. CT expr. sim.",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Similarity of the mean expression difference between cell type pairs between spatial and scRNA-seq data.",
+    "description": "todo",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "rel_pairwise_gene_expr_sim",
+    "label": "Rel. gene expr. sim.",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Similarity of the mean expression difference between gene pairs between spatial and scRNA-seq data.",
+    "description": "todo",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "knn_mixing",
+    "label": "kNN mixing",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Measure of the modality mixing within the joint knn graph of spatial and scRNA-seq data.",
+    "description": "todo",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "negative_marker_purity_reads_qc_filtered",
+    "label": "Neg. marker purity (reads) (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The percentage of negative marker reads assigned to the correct cell types. Computed on QC-filtered cells.",
+    "description": "The percentage of negative marker reads assigned to the correct cell types.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "negative_marker_purity_cells_qc_filtered",
+    "label": "Neg. marker purity (cells) (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The percentage of cells that do not contain counts of negative markers of their specific cell type. Computed on QC-filtered cells.",
+    "description": "The percentage of cells that do not contain counts of negative markers of their specific cell type.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "coexpr_similarity_qc_filtered",
+    "label": "Co-expr. sim. (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The similarity between the co-expression patterns of spatial and scRNA-seq data. Computed on QC-filtered cells.",
+    "description": "The similarity is calculated as the absolute difference between the correlation matrices of spatial and \nscRNA-seq data. The correlation matrices contain pair-wise correlations between all genes in the dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "coexpr_similarity_celltype_qc_filtered",
+    "label": "Co-expr. sim. (CT) (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The similarity between the within cell type co-expression patterns of spatial and scRNA-seq data. Computed on QC-filtered cells.",
+    "description": "The similarity is calculated as the absolute difference between the correlation matrices of spatial and \nscRNA-seq data for each cell type. The final score is the mean over cell types. The correlation matrices contain\npair-wise correlations between all genes in the dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "rel_pairwise_ct_expr_sim_qc_filtered",
+    "label": "Rel. CT expr. sim. (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Similarity of the mean expression difference between cell type pairs between spatial and scRNA-seq data. Computed on QC-filtered cells.",
+    "description": "todo",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "rel_pairwise_gene_expr_sim_qc_filtered",
+    "label": "Rel. gene expr. sim. (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Similarity of the mean expression difference between gene pairs between spatial and scRNA-seq data. Computed on QC-filtered cells.",
+    "description": "todo",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "knn_mixing_qc_filtered",
+    "label": "kNN mixing (QC)",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "Measure of the modality mixing within the joint knn graph of spatial and scRNA-seq data. Computed on QC-filtered cells.",
+    "description": "todo",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/similarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/similarity:build_main",
+    "component_name": "similarity",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "proportion_of_assigned_reads",
+    "label": "Assigned reads",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The proportion of assigned reads.",
+    "description": "The proportion of assigned reads.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/quality",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/quality:build_main",
+    "component_name": "quality",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "proportion_of_annotated_cells",
+    "label": "Annotated cells",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The proportion of cells that are annotated with cell types.",
+    "description": "The proportion of cells that are annotated with cell types.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/quality",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/quality:build_main",
+    "component_name": "quality",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  },
+  {
+    "name": "number_of_cells",
+    "label": "No. of cells",
+    "commit": "82b211dfe70ca3ff67888e2cf3c790962356630e",
+    "summary": "The number of cells in the spatial dataset.",
+    "description": "The number of cells in the spatial dataset.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_ist_preprocessing/blob/82b211dfe70ca3ff67888e2cf3c790962356630e/src/metrics/quality",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_ist_preprocessing/metrics/quality:build_main",
+    "component_name": "quality",
+    "authors": [],
+    "references": {
+      "doi": [
+        "10.1101/2023.02.13.528102"
+      ],
+      "bibtex": []
+    },
+    "additional_info": {},
+    "version": "build_main"
+  }
+]
