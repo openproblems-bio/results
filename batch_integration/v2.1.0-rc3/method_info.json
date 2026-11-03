@@ -1,0 +1,959 @@
+[
+  {
+    "name": "embed_cell_types",
+    "label": "Embed cell types",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Cells are embedded as a one-hot encoding of celltype labels",
+    "description": "Cells are embedded as a one-hot encoding of celltype labels",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/embed_cell_types",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/embed_cell_types:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "embed_cell_types_jittered",
+    "label": "Perfect embedding by celltype with jitter",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Cells are embedded as a one-hot encoding of celltype labels, with a small amount of random noise added to the embedding",
+    "description": "Cells are embedded as a one-hot encoding of celltype labels, with a small amount of random noise added to the embedding",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/embed_cell_types_jittered",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/embed_cell_types_jittered:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "no_integration",
+    "label": "No integration",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Original feature space is not modified",
+    "description": "Original feature space is not modified",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/no_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/no_integration:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "no_integration_batch",
+    "label": "No integration by Batch",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Cells are embedded by computing PCA independently on each batch",
+    "description": "Cells are embedded by computing PCA independently on each batch",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/no_integration_batch",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/no_integration_batch:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "shuffle_integration",
+    "label": "Shuffle integration",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Integrations are randomly permuted",
+    "description": "Integrations are randomly permuted",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/shuffle_integration",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/shuffle_integration:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "shuffle_integration_by_batch",
+    "label": "Shuffle integration by batch",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Integrations are randomly permuted within each batch",
+    "description": "Integrations are randomly permuted within each batch",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/shuffle_integration_by_batch",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/shuffle_integration_by_batch:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "shuffle_integration_by_cell_type",
+    "label": "Shuffle integration by cell type",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Integrations are randomly permuted within each cell type",
+    "description": "Integrations are randomly permuted within each cell type",
+    "type": "control_method",
+    "link_code": "https://github.com/openproblems-bio/task_batch_integration",
+    "link_documentation": null,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/control_methods/shuffle_integration_by_cell_type",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/control_methods/shuffle_integration_by_cell_type:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "batchelor_fastmnn",
+    "label": "batchelor fastMNN",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Fast mutual nearest neighbors correction",
+    "description": "The fastMNN() approach is much simpler than the original mnnCorrect() algorithm, and proceeds in several steps.\n\n1. Perform a multi-sample PCA on the (cosine-)normalized expression values to reduce dimensionality.\n2. Identify MNN pairs in the low-dimensional space between a reference batch and a target batch.\n3. Remove variation along the average batch vector in both reference and target batches.\n4. Correct the cells in the target batch towards the reference, using locally weighted correction vectors.\n5. Merge the corrected target batch with the reference, and repeat with the next target batch.",
+    "type": "method",
+    "link_code": "https://github.com/LTLA/batchelor",
+    "link_documentation": "https://bioconductor.org/packages/batchelor/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/batchelor_fastmnn",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/batchelor_fastmnn:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/nbt.4091"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "batchelor_mnn_correct",
+    "label": "batchelor mnnCorrect",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Mutual nearest neighbors correction",
+    "description": "Correct for batch effects in single-cell expression data using the mutual nearest neighbors method.",
+    "type": "method",
+    "link_code": "https://github.com/LTLA/batchelor",
+    "link_documentation": "https://bioconductor.org/packages/batchelor/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/batchelor_mnn_correct",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/batchelor_mnn_correct:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/nbt.4091"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "bbknn",
+    "label": "BBKNN",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "BBKNN creates k nearest neighbours graph by identifying neighbours within batches, then combining and processing them with UMAP for visualization.",
+    "description": "BBKNN or batch balanced k nearest neighbours graph is built for each cell by\nidentifying its k nearest neighbours within each defined batch separately,\ncreating independent neighbour sets for each cell in each batch. These sets\nare then combined and processed with the UMAP algorithm for visualisation.",
+    "type": "method",
+    "link_code": "https://github.com/Teichlab/bbknn",
+    "link_documentation": "https://github.com/Teichlab/bbknn#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/bbknn",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/bbknn:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/bioinformatics/btz625"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "graph",
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "bbknn_full_scaled": {
+          "preferred_normalization": "log_cp10k_scaled"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "cellplm",
+    "label": "CellPLM",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "A foundation model pre-trained with cells as tokens.",
+    "description": "CellPLM is a pre-trained language model specifically designed for single-cell analysis that leverages the principles of natural language processing (NLP) to understand and process single-cell gene expression data.",
+    "type": "method",
+    "link_code": "https://github.com/OmicsML/CellPLM",
+    "link_documentation": "https://github.com/OmicsML/CellPLM/tree/main/tutorials",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/cellplm",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/cellplm:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.10.03.560734"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "combat",
+    "label": "Combat",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Adjusting batch effects in microarray expression data using empirical Bayes methods",
+    "description": "An Empirical Bayes (EB) approach to correct for batch effects. It\nestimates batch-specific parameters by pooling information across genes in\neach batch and shrinks the estimates towards the overall mean of the batch\neffect estimates across all genes. These parameters are then used to adjust\nthe data for batch effects, leading to more accurate and reproducible\nresults.",
+    "type": "method",
+    "link_code": "https://scanpy.readthedocs.io/en/stable/api/scanpy.pp.combat.html",
+    "link_documentation": "https://scanpy.readthedocs.io/en/stable/api/scanpy.pp.combat.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/combat",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/combat:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/biostatistics/kxj037"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "combat_full_scaled": {
+          "preferred_normalization": "log_cp10k_scaled"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "combat_seq",
+    "label": "ComBat-Seq",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Adjusting batch effects in RNA-Seq expression data using empirical Bayes methods",
+    "description": "ComBat-Seq extends the ComBat method for batch correction in RNA-Seq data.\nWhile ComBat assumes normally distributed data, ComBat-Seq uses a negative\nbinomial distribution to model the data.  While initially developed for\nRNA-Seq data, ComBat-Seq can be applied to single-cell RNA-Seq data as well.\n\nThe method is implemented in Python as a part of the inmoose package.  It is\nbased on the original R implementation, distributed through the sva package.",
+    "type": "method",
+    "link_code": "https://github.com/epigenelabs/inmoose",
+    "link_documentation": "https://inmoose.readthedocs.io/en/stable/pycombatseq.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/combat_seq",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/combat_seq:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/nargab/lqaa078", "10.1186/s12859-023-05578-5"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "method_types": "feature"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "condo",
+    "label": "ConDo",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "ConDo is a feature transformation method for batch correction based on matching conditional distributions.",
+    "description": "Confounded Domain Adaptation (ConDo) is a batch correction method that\nperforms a linear transformation of the features to match their\nconditional distribution given biological variables of interest. The\nintegrator walks a compatibility graph (batches sharing at least one\ncell type are connected), seeding at the batch with the highest\npre-integration silhouette of cell_type, and iteratively merges each\nbest-scoring neighbour by fitting one ConDo adapter conditioned on\ncell_type. Batches in disconnected components are passed through.",
+    "type": "method",
+    "link_code": "https://github.com/calvinmccarter/condo-adapter",
+    "link_documentation": "https://github.com/calvinmccarter/condo-adapter?tab=readme-ov-file#usage",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/condo",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/condo:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.5281/zenodo.17066563"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "condo_mmd_affine": {
+          "transform_type": "affine",
+          "weight_decay": 0.0001
+        },
+        "condo_mmd_location_scale": {
+          "transform_type": "location-scale",
+          "weight_decay": 1e-05
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "density_adaptive",
+    "label": "Density-Adaptive BBSG",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Density-adaptive batch-balanced similarity graph with variance-weighted features",
+    "description": "A batch integration method using variance-weighted PCA, Combat residualization,\nand a density-adaptive batch-balanced similarity graph (BBSG) that adjusts\ncross-batch connectivity based on local density patterns.",
+    "type": "method",
+    "link_code": "https://github.com/dualverse-ai/station",
+    "link_documentation": "https://github.com/dualverse-ai/station/tree/cdbb4511239a33585e173715eec86def26688538/example/research_batch_integration/misc/station_sota",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/density_adaptive",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/density_adaptive:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@article{chung2025station,\n  title={The Station: An Open-World Environment for AI-Driven Discovery},\n  author={Chung, Stephen and Du, Wenyu},\n  journal={arXiv preprint arXiv:2511.06309},\n  year={2025}\n}\n"]
+    },
+    "additional_info": {
+      "method_types": ["embedding", "graph"],
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "drvi",
+    "label": "DRVI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "DrVI is an unsupervised generative model capable of learning non-linear interpretable disentangled latent representations from single-cell count data.",
+    "description": "Disentangled Representation Variational Inference (DRVI) is an unsupervised deep generative model designed for integrating single-cell RNA sequencing (scRNA-seq) data across different batches.\nIt extends the variational autoencoder (VAE) framework by learning a latent representation that captures biological variation while disentangling and correcting for batch effects.\nDRVI conditions both the encoder and decoder on batch covariates, allowing it to explicitly model and mitigate batch-specific variations during training.\nBy incorporating a KL-divergence regularization term, it balances data reconstruction with latent space structure, resulting in a unified embedding where similar cells cluster together regardless of batch.",
+    "type": "method",
+    "link_code": "https://github.com/theislab/DRVI?tab=readme-ov-file",
+    "link_documentation": "https://drvi.readthedocs.io/latest/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/drvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/drvi:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2024.11.06.622266"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "era_combat_bbknn",
+    "label": "ERA ComBat BBKNN",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "A combination of ComBat and BBKNN discovered and implemented by Gemini.",
+    "description": "The ERA ComBat BBKNN solution (named \"BBKNN (TS)\" in the associated publication) applies standard scRNA-seq preprocessing steps, including total count normalization, log-transformation, and scaling of gene expression data. Batch effect correction is performed using scanpy.pp.combat directly on the gene expression matrix (before dimensionality reduction). Dimensionality reduction is then applied using PCA on the ComBat-corrected data, and this PCA embedding (adata.obsm['X_pca']) is designated as the integrated embedding (adata.obsm['X_emb']). A custom batch-aware nearest neighbors graph is constructed based on this integrated embedding; for each cell, neighbors are independently identified within its own batch and other batches, up to n_neighbors_per_batch. These candidate neighbors are merged, keeping the minimum distance for duplicate entries, and the top total_k_neighbors are selected for each cell. Finally, a symmetric sparse distance matrix and a binary connectivities matrix are generated to represent the integrated neighborhood graph. This code was entirely written by the AI system described in the associated publication.",
+    "type": "method",
+    "link_code": "https://github.com/google-research/era",
+    "link_documentation": "https://google-research.github.io/era",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/era_combat_bbknn",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/era_combat_bbknn:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41586-026-10658-6"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": ["embedding", "graph"],
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "fadvi",
+    "label": "FADVI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "FADVI is a disentangled representation learning VAE method for batch integration.",
+    "description": "FADVI (Factor Disentanglement Variational Inference) is a deep learning method for single-cell omics and spatial transcriptomics analysis that disentangles batch-related variation, label-related variation, and residual variation using adversarial training and cross-correlation penalties.",
+    "type": "method",
+    "link_code": "https://github.com/liuwd15/fadvi",
+    "link_documentation": "https://fadvi.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/fadvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/fadvi:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2025.11.03.683998"],
+      "bibtex": ["@article{fadvi2025,\n  title={FADVI: disentangled representation learning for robust integration of single-cell and spatial omics data},\n  author={Wendao Liu, Gang Qu, Lukas M. Simon, Fabian J. Theis, Zhongming Zhao},\n  journal={bioRxiv},\n  year={2025}\n}\n"]
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "geneformer",
+    "label": "Geneformer",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Geneformer is a foundation transformer model pretrained on a large-scale corpus of single cell transcriptomes",
+    "description": "Geneformer is a foundation transformer model pretrained on a large-scale\ncorpus of single cell transcriptomes to enable context-aware predictions in\nnetwork biology. For this task, Geneformer is used to create a batch-corrected\ncell embedding.",
+    "type": "method",
+    "link_code": "https://huggingface.co/ctheodoris/Geneformer",
+    "link_documentation": "https://geneformer.readthedocs.io/en/latest/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/geneformer",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/geneformer:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41586-023-06139-9", "10.1101/2024.08.16.608180"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "method_types": "embedding",
+      "variants": {
+        "geneformer_12L_95M_i4096": {
+          "model": "gf-12L-95M-i4096"
+        },
+        "geneformer_6L_30M_i2048": {
+          "model": "gf-6L-30M-i2048"
+        },
+        "geneformer_12L_30M_i2048": {
+          "model": "gf-12L-30M-i2048"
+        },
+        "geneformer_20L_95M_i4096": {
+          "model": "gf-20L-95M-i4096"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "harmony",
+    "label": "Harmony",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Fast, sensitive and accurate integration of single-cell data with Harmony",
+    "description": "Harmony is a general-purpose R package with an efficient algorithm for integrating multiple data sets.\nIt is especially useful for large single-cell datasets such as single-cell RNA-seq.",
+    "type": "method",
+    "link_code": "https://github.com/immunogenomics/harmony",
+    "link_documentation": "https://portals.broadinstitute.org/harmony",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/harmony",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/harmony:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0619-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "harmonypy",
+    "label": "Harmonypy",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "harmonypy is a port of the harmony R package by Ilya Korsunsky.",
+    "description": "Harmony is a general-purpose R package with an efficient algorithm for integrating multiple data sets.\nIt is especially useful for large single-cell datasets such as single-cell RNA-seq.",
+    "type": "method",
+    "link_code": "https://github.com/slowkow/harmonypy",
+    "link_documentation": "https://portals.broadinstitute.org/harmony",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/harmonypy",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/harmonypy:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-019-0619-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "liger",
+    "label": "LIGER",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Linked Inference of Genomic Experimental Relationships",
+    "description": "LIGER or linked inference of genomic experimental relationships uses iNMF\nderiving and implementing a novel coordinate descent algorithm to efficiently\ndo the factorization. Joint clustering is performed and factor loadings are\nnormalised.",
+    "type": "method",
+    "link_code": "https://github.com/welch-lab/liger",
+    "link_documentation": "https://github.com/welch-lab/liger",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/liger",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/liger:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2019.05.006"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "limma_removebatcheffect",
+    "label": "limma removeBatchEffect",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Classical linear model-based batch correction from the limma package",
+    "description": "The removeBatchEffect function from the limma package performs linear model-based batch correction. \nIt fits a linear model to remove batch effects while preserving the biological effects of interest.\nThis is a classical approach that works at the feature level to directly correct the expression values.\n\nThe method fits a linear model with batch as a covariate and removes the batch effects from the data \nwhile preserving biological variation. It is particularly useful for microarray and bulk RNA-seq data,\nand has been adapted for single-cell RNA-seq applications.",
+    "type": "method",
+    "link_code": "https://bioconductor.org/packages/limma/",
+    "link_documentation": "https://bioconductor.org/packages/limma/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/limma_removebatcheffect",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/limma_removebatcheffect:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1093/nar/gkv007"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "mnnpy",
+    "label": "mnnpy",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Batch effect correction by matching mutual nearest neighbors, Python implementation.",
+    "description": "An implementation of MNN correct in python featuring low memory usage, full multicore support and compatibility with the scanpy framework.\n\nBatch effect correction by matching mutual nearest neighbors (Haghverdi et al, 2018) has been implemented as a function 'mnnCorrect' in the R package scran. Sadly it's extremely slow for big datasets and doesn't make full use of the parallel architecture of modern CPUs.\n\nThis project is a python implementation of the MNN correct algorithm which takes advantage of python's extendability and hackability. It seamlessly integrates with the scanpy framework and has multicore support in its bones.",
+    "type": "method",
+    "link_code": "https://github.com/chriscainx/mnnpy",
+    "link_documentation": "https://github.com/chriscainx/mnnpy#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/mnnpy",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/mnnpy:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": [],
+      "bibtex": ["@misc{Kang2022,\n  author = {Kang, Chris},\n  title = {mnnpy},\n  year = {Kang2022},\n  publisher = {GitHub},\n  journal = {GitHub repository},\n  howpublished = {\\url{https://github.com/chriscainx/mnnpy}},\n  commit = {2097dec30c193f036c5ed7e1c3d1e3a6270e102b}\n}\n"]
+    },
+    "additional_info": {
+      "method_types": "feature",
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "mnn_full_scaled": {
+          "preferred_normalization": "log_cp10k_scaled"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "pyliger",
+    "label": "pyliger",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Python implementation of LIGER (Linked Inference of Genomic Experimental Relationships",
+    "description": "LIGER (installed as rliger) is a package for integrating and analyzing multiple\nsingle-cell datasets, developed by the Macosko lab and maintained/extended by the\nWelch lab. It relies on integrative non-negative matrix factorization to identify\nshared and dataset-specific factors.",
+    "type": "method",
+    "link_code": "https://github.com/welch-lab/pyliger",
+    "link_documentation": "https://github.com/welch-lab/pyliger",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/pyliger",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/pyliger:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2019.05.006"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "liger_scaled": {
+          "preferred_normalization": "log_cp10k_scaled"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "sca",
+    "label": "SCA",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "SCA: recovering single-cell heterogeneity through information-based dimensionality reduction",
+    "description": "Surprisal Component Analysis (SCA) is a dimensionality reduction technique \nfor single-cell data which leverages mathematical information theory to \nidentify biologically informative axes of variation in single-cell\ntranscriptomic data, enabling recovery of rare and common cell types",
+    "type": "method",
+    "link_code": "https://github.com/bendemeo/shannonca",
+    "link_documentation": "https://shannonca.readthedocs.io/en/latest/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/sca",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/sca:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1186/s13059-023-02998-7"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scalex",
+    "label": "SCALEX",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Online single-cell data integration through projecting heterogeneous datasets into a common cell-embedding space",
+    "description": "SCALEX is a method for integrating heterogeneous single-cell data online using a VAE framework. Its generalised encoder disentangles batch-related components from batch-invariant biological components, which are then projected into a common cell-embedding space.",
+    "type": "method",
+    "link_code": "https://github.com/jsxlei/SCALEX",
+    "link_documentation": "https://scalex.readthedocs.io",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scalex",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scalex:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-022-33758-z"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": ["feature", "embedding"],
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "scanorama_feature_scaled": {
+          "preferred_normalization": "log_cp10k_scaled"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scanorama",
+    "label": "Scanorama",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Efficient integration of heterogeneous single-cell transcriptomes using Scanorama",
+    "description": "Scanorama enables batch-correction and integration of heterogeneous scRNA-seq datasets.\nIt is designed to be used in scRNA-seq pipelines downstream of noise-reduction methods,\nincluding those for imputation and highly-variable gene filtering. The results from\nScanorama integration and batch correction can then be used as input to other tools\nfor scRNA-seq clustering, visualization, and analysis.\n\nA single run returns both the batch-corrected expression matrix and the integrated\nembedding it is assembled from.",
+    "type": "method",
+    "link_code": "https://github.com/brianhie/scanorama",
+    "link_documentation": "https://github.com/brianhie/scanorama#readme",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scanorama",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scanorama:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41587-019-0113-3"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": ["feature", "embedding"],
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scanvi",
+    "label": "scANVI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "scANVI is a deep learning method that considers cell type labels.",
+    "description": "scANVI (single-cell ANnotation using Variational Inference; Python class SCANVI) is a semi-supervised model for single-cell transcriptomics data. In a sense, it can be seen as a scVI extension that can leverage the cell type knowledge for a subset of the cells present in the data sets to infer the states of the rest of the cells.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools",
+    "link_documentation": "https://docs.scvi-tools.org/en/stable/user_guide/models/scanvi.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scanvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scanvi:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-018-0229-2"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scmerge2",
+    "label": "scMerge2",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "scMerge2 integrates single-cell RNA-seq datasets by removing unwanted variation estimated from stably expressed genes and pseudo-replicates.",
+    "description": "scMerge2 corrects batch effects while preserving biological signal. It identifies a set of stably\nexpressed genes (SEGs), which are assumed to remain consistent across datasets, and uses them as\nnegative controls in a factor analysis model that estimates and removes unwanted variation.\nPseudo-replicates, constructed from pseudo-bulk profiles of cells grouped within each batch, serve\nas anchors for the alignment.\n\nCell type labels are optional. When they are supplied the pseudo-replicates are built per cell\ntype; when they are not, scMerge2 identifies the groupings itself with a mutual nearest cluster\nprocedure. Both modes are exposed through `--cell_type_aware`.",
+    "type": "method",
+    "link_code": "https://github.com/SydneyBioX/scMerge",
+    "link_documentation": "https://sydneybiox.github.io/scMerge/articles/scMerge2.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scmerge2",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scmerge2:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1073/pnas.1820006116"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k",
+      "variants": {
+        "scmerge2_semisupervised": {
+          "cell_type_aware": true
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scgpt_finetuned",
+    "label": "scGPT (fine-tuned)",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "A foundation model for single-cell biology (fine-tuned)",
+    "description": "scGPT is a foundation model for single-cell biology based on a generative\npre-trained transformer and trained on a repository of over 33 million cells.\n\nHere, we fine-tune the pre-trained model for the batch integration task.",
+    "type": "method",
+    "link_code": "https://github.com/bowang-lab/scGPT",
+    "link_documentation": "https://scgpt.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scgpt_finetuned",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scgpt_finetuned:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-024-02201-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scgpt_zeroshot",
+    "label": "scGPT (zero shot)",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "A foundation model for single-cell biology (zero shot)",
+    "description": "scGPT is a foundation model for single-cell biology based on a generative\npre-trained transformer and trained on a repository of over 33 million cells.\n\nHere, we use zero-shot output from a pre-trained model to get an integrated\nembedding for the batch integration task.",
+    "type": "method",
+    "link_code": "https://github.com/bowang-lab/scGPT",
+    "link_documentation": "https://scgpt.readthedocs.io/en/latest/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scgpt_zeroshot",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scgpt_zeroshot:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-024-02201-0"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts",
+      "variants": {
+        "scgpt_zeroshot_cp": {
+          "model_name": "scGPT_CP"
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scimilarity",
+    "label": "SCimilarity",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "SCimilarity provides unifying representation of single cell expression profiles",
+    "description": "SCimilarity is a unifying representation of single cell expression profiles that quantifies similarity between expression states and generalizes to represent new studies without additional training",
+    "type": "method",
+    "link_code": "https://github.com/Genentech/scimilarity",
+    "link_documentation": "https://genentech.github.io/scimilarity/index.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scimilarity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scimilarity:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.07.18.549537"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scprint",
+    "label": "scPRINT",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "scPRINT is a large transformer model built for the inference of gene networks",
+    "description": "scPRINT is a large transformer model built for the inference of gene networks\n(connections between genes explaining the cell's expression profile) from\nscRNAseq data.\n\nIt uses novel encoding and decoding of the cell expression profile and new\npre-training methodologies to learn a cell model.\n\nscPRINT can be used to perform the following analyses:\n\n- expression denoising: increase the resolution of your scRNAseq data\n- cell embedding: generate a low-dimensional representation of your dataset\n- label prediction: predict the cell type, disease, sequencer, sex, and\n  ethnicity of your cells\n- gene network inference: generate a gene network from any cell or cell\n  cluster in your scRNAseq dataset",
+    "type": "method",
+    "link_code": "https://github.com/cantinilab/scPRINT",
+    "link_documentation": "https://cantinilab.github.io/scPRINT/",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scprint",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scprint:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2024.07.29.605556"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "counts",
+      "method_types": "embedding",
+      "variants": {
+        "scprint_large": {
+          "model_name": "large-v1"
+        },
+        "scprint_medium": {
+          "model_name": "medium-v1.5"
+        },
+        "scprint_small": {
+          "model_name": "small-v1"
+        }
+      },
+      "test_setup": {
+        "run": {
+          "model_name": "small-v1",
+          "batch_size": 16,
+          "max_len": 100
+        }
+      }
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "scvi",
+    "label": "scVI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "scVI combines a variational autoencoder with a hierarchical Bayesian model.",
+    "description": "scVI combines a variational autoencoder with a hierarchical Bayesian model. It uses the negative binomial distribution to describe gene expression of each cell, conditioned on unobserved factors and the batch variable. ScVI is run as implemented in Luecken et al.",
+    "type": "method",
+    "link_code": "https://github.com/scverse/scvi-tools",
+    "link_documentation": "https://docs.scvi-tools.org/en/stable/user_guide/models/scvi.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/scvi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/scvi:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-018-0229-2"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "seurat_cca",
+    "label": "Seurat CCA",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Seurat v5 anchor-based integration using canonical correlation analysis",
+    "description": "Seurat's anchor-based integration identifies pairs of mutual nearest neighbours\n(\"anchors\") between batches in a shared low-dimensional space and uses them to\ncorrect the PCA embedding. Here the shared space is found with canonical\ncorrelation analysis (CCA), which is recommended when cell types are largely\nshared across batches but there are strong batch effects.\n\nThis component runs the Seurat v5 workflow: the expression matrix is split\ninto one layer per batch, scaled and reduced with PCA, and then integrated\nwith `IntegrateLayers(method = CCAIntegration)`. The corrected embedding\n(`integrated.cca`) is returned.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat",
+    "link_documentation": "https://satijalab.org/seurat/articles/seurat5_integration",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/seurat_cca",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/seurat_cca:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2019.05.031"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "seurat_rpca",
+    "label": "Seurat RPCA",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Seurat v5 anchor-based integration using reciprocal PCA",
+    "description": "Seurat's anchor-based integration identifies pairs of mutual nearest neighbours\n(\"anchors\") between batches in a shared low-dimensional space and uses them to\ncorrect the PCA embedding. Here the shared space is found with reciprocal PCA\n(RPCA), where each batch is projected into the others' PCA space. RPCA is faster\nand more conservative than CCA, and is recommended for large datasets or when\na substantial fraction of cells in one batch has no match in another.\n\nThis component runs the Seurat v5 workflow: the expression matrix is split\ninto one layer per batch, scaled and reduced with PCA, and then integrated\nwith `IntegrateLayers(method = RPCAIntegration)`. The corrected embedding\n(`integrated.rpca`) is returned.",
+    "type": "method",
+    "link_code": "https://github.com/satijalab/seurat",
+    "link_documentation": "https://satijalab.org/seurat/articles/seurat5_integration",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/seurat_rpca",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/seurat_rpca:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1016/j.cell.2021.04.048", "10.1016/j.cell.2019.05.031"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "log_cp10k"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "ss_stacas",
+    "label": "ssSTACAS",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Accurate semi-supervised integration of single-cell transcriptomics data",
+    "description": "STACAS is a method for scRNA-seq integration,\nespecially suited to accurately integrate datasets with large cell type imbalance\n(e.g. in terms of proportions of distinct cell populations).\nPrior cell type knowledge, given as cell type labels, can be provided to the algorithm to perform\nsemi-supervised integration, leading to increased preservation of biological variability\nin the resulting integrated space.\nSTACAS is robust to incomplete cell type labels and can be applied to large-scale integration tasks.",
+    "type": "method",
+    "link_code": "https://github.com/carmonalab/STACAS",
+    "link_documentation": "https://carmonalab.github.io/STACAS.demo/STACAS.demo.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/ss_stacas",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/ss_stacas:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-024-45240-z"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "method_types": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "stacas",
+    "label": "STACAS",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Accurate semi-supervised integration of single-cell transcriptomics data",
+    "description": "STACAS is a method for scRNA-seq integration,\nespecially suited to accurately integrate datasets with large cell type imbalance\n(e.g. in terms of proportions of distinct cell populations).\nPrior cell type knowledge, given as cell type labels, can be provided to the algorithm to perform\nsemi-supervised integration, leading to increased preservation of biological variability\nin the resulting integrated space.\nSTACAS is robust to incomplete cell type labels and can be applied to large-scale integration tasks.",
+    "type": "method",
+    "link_code": "https://github.com/carmonalab/STACAS",
+    "link_documentation": "https://carmonalab.github.io/STACAS.demo/STACAS.demo.html",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/stacas",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/stacas:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-024-45240-z"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "preferred_normalization": "log_cp10k",
+      "method_types": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "uce",
+    "label": "UCE",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "UCE offers a unified biological latent space that can represent any cell",
+    "description": "Universal Cell Embedding (UCE) is a single-cell foundation model that offers a\nunified biological latent space that can represent any cell, regardless of\ntissue or species",
+    "type": "method",
+    "link_code": "https://github.com/snap-stanford/UCE",
+    "link_documentation": "https://github.com/snap-stanford/UCE/blob/main/README.md",
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/methods/uce",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/methods/uce:2.1.0-rc3",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2023.11.28.568918"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "method_types": "embedding",
+      "preferred_normalization": "counts"
+    },
+    "version": "2.1.0-rc3"
+  }
+]

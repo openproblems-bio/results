@@ -1,0 +1,442 @@
+[
+  {
+    "name": "asw_batch",
+    "label": "ASW batch",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Modified average silhouette width (ASW) of batch",
+    "description": "We consider the absolute silhouette width, s(i), on\nbatch labels per cell i. Here, 0 indicates that batches are well mixed, and any\ndeviation from 0 indicates a batch effect:\n𝑠batch(𝑖)=|𝑠(𝑖)|.\n\nTo ensure higher scores indicate better batch mixing, these scores are scaled by\nsubtracting them from 1. As we expect batches to integrate within cell identity\nclusters, we compute the batchASWj score for each cell label j separately,\nusing the equation:\nbatchASW𝑗=1|𝐶𝑗|∑𝑖∈𝐶𝑗1−𝑠batch(𝑖),\n\nwhere Cj is the set of cells with the cell label j and |Cj| denotes the number of cells\nin that set.\n\nTo obtain the final batchASW score, the label-specific batchASWj scores are averaged:\nbatchASW=1|𝑀|∑𝑗∈𝑀batchASW𝑗.\n\nHere, M is the set of unique cell labels.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/asw_batch",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/asw_batch:2.1.0-rc3",
+    "component_name": "asw_batch",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "asw_label",
+    "label": "ASW Label",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Average silhouette of cell identity labels (cell types)",
+    "description": "For the bio-conservation score, the ASW was computed on cell identity labels and\nscaled to a value between 0 and 1 using the equation:\ncelltypeASW=(ASW_C+1)/2,\n\nwhere C denotes the set of all cell identity labels.\nFor information about the batch silhouette score, check sil_batch.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/asw_label",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/asw_label:2.1.0-rc3",
+    "component_name": "asw_label",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "bras",
+    "label": "BRAS",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Modified ASW metric for batch removal",
+    "description": "The BRAS (Batch Removal Adapted Silhouette) metric modifies the standard silhouette score to account for batch effects in single-cell data integration benchmarking.\nInstead of measuring how well a cell matches its biological label cluster compared to other clusters (as in regular silhouette), BRAS compares how well it matches its biological cluster in its own batch versus the same biological cluster in other batches.\nFor each cells, BRAS computes the ai = average distance to cells with the same label in the same batch, and bi = the average distance to cells with the same label in different batches.\nIt then uses ai and bi for the standard silhoueette formula.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/bras",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/bras:2.1.0-rc3",
+    "component_name": "bras",
+    "authors": [],
+    "references": {
+      "doi": ["10.1101/2025.01.21.634098"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "cell_cycle_conservation",
+    "label": "Cell Cycle Conservation",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Cell cycle conservation score based on principle component regression on cell cycle gene scores",
+    "description": "The cell-cycle conservation score evaluates how well the cell-cycle effect can be\ncaptured before and after integration. We computed cell-cycle scores using Scanpy's\nscore_cell_cycle function with a reference gene set from Tirosh et al for the\nrespective cell-cycle phases. We used the same set of cell-cycle genes for mouse and\nhuman data (using capitalization to convert between the gene symbols). We then computed\nthe variance contribution of the resulting S and G2/M phase scores using principal\ncomponent regression (Principal component regression), which was performed for each\nbatch separately. The differences in variance before, Varbefore, and after, Varafter,\nintegration were aggregated into a final score between 0 and 1, using the equation:\nCCconservation=1−|Varafter−Varbefore|/Varbefore.\n\nIn this equation, values close to 0 indicate lower conservation and 1 indicates complete\nconservation of the variance explained by cell cycle. In other words, the variance\nremains unchanged within each batch for complete conservation, while any deviation from\nthe preintegration variance contribution reduces the score.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/cell_cycle_conservation",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/cell_cycle_conservation:2.1.0-rc3",
+    "component_name": "cell_cycle_conservation",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "cilisi",
+    "label": "CiLISI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Cell-type aware version of iLISI (Local inverse Simpson's Index). iLISI is computed separately for each cell type or cluster, normalized between 0 and 1, and averaged across all cells (global mean). By default, CiLISI is calculated only for groups with at least 10 cells and 2 distinct batch labels (configurable).",
+    "description": "ciLISI measures batch mixing in a cell type-aware manner by computing iLISI within each cell type and normalizing\nthe scores between 0 and 1. Unlike iLISI, ciLISI preserves sensitivity to biological variance and avoids favoring\novercorrected datasets with removed cell type signals.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/cilisi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/cilisi:2.1.0-rc3",
+    "component_name": "cilisi",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-024-45240-z"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "cilisi_means",
+    "label": "CiLISI_means",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "As CiLISI, but returns mean of per-group CiLISI values (i.e., average of the means per group). instead of a global average.",
+    "description": "ciLISI measures batch mixing in a cell type-aware manner by computing iLISI within each cell type and normalizing\nthe scores between 0 and 1. Unlike iLISI, ciLISI preserves sensitivity to biological variance and avoids favoring\novercorrected datasets with removed cell type signals.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/cilisi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/cilisi:2.1.0-rc3",
+    "component_name": "cilisi",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41467-024-45240-z"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "ari",
+    "label": "ARI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Adjusted Rand Index compares clustering overlap, correcting for random labels and considering correct overlaps and disagreements.",
+    "description": "The Adjusted Rand Index (ARI) compares the overlap of two clusterings;\nit considers both correct clustering overlaps while also counting correct\ndisagreements between two clusterings.\nWe compared the cell-type labels with the NMI-optimized\nLouvain clustering computed on the integrated dataset.\nThe adjustment of the Rand index corrects for randomly correct labels.\nAn ARI of 0 or 1 corresponds to random labeling or a perfect match,\nrespectively.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/clustering_overlap",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/clustering_overlap:2.1.0-rc3",
+    "component_name": "clustering_overlap",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8", "10.1007/bf01908075"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "nmi",
+    "label": "NMI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "NMI compares overlap by scaling using mean entropy terms and optimizing Louvain clustering to obtain the best match between clusters and labels.",
+    "description": "Normalized Mutual Information (NMI) compares the overlap of two clusterings.\nWe used NMI to compare the cell-type labels with Louvain clusters computed on\nthe integrated dataset. The overlap was scaled using the mean of the entropy terms\nfor cell-type and cluster labels. Thus, NMI scores of 0 or 1 correspond to uncorrelated\nclustering or a perfect match, respectively. We performed optimized Louvain clustering\nfor this metric to obtain the best match between clusters and labels.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/clustering_overlap",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/clustering_overlap:2.1.0-rc3",
+    "component_name": "clustering_overlap",
+    "authors": [],
+    "references": {
+      "doi": ["10.1145/2808797.2809344", "10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "ari_batch",
+    "label": "ARI_batch",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "This version of Adjusted Rand Index compares clustering overlap, correcting for batches and considering correct overlaps and disagreements.",
+    "description": "The Adjusted Rand Index (ARI) compares the overlap of two clusterings;\nit considers both correct clustering overlaps while also counting correct\ndisagreements between two clusterings. We compared the batches with the \nNMI-optimized Louvain clustering computed on the integrated dataset.\nThe adjustment of the Rand index corrects for randomly correct labels.\nAn ARI_batch of 0 or 1 corresponds to no batch correction or well corrected batches,\nrespectively.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/clustering_overlap",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/clustering_overlap:2.1.0-rc3",
+    "component_name": "clustering_overlap",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8", "10.1007/bf01908075"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "nmi_batch",
+    "label": "NMI_batch",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "This version of NMI compares overlap by scaling using mean entropy terms and optimizing Louvain clustering to obtain the best outcome of batch correction.",
+    "description": "Normalized Mutual Information (NMI) compares the overlap of two clusterings.\nWe used NMI to compare the batches with Louvain clusters computed on\nthe integrated dataset. The overlap was scaled using the mean of the entropy terms\nfor cell-type and cluster labels, then subracted from 1. Thus, NMI_batch scores of 0 or 1 correspond to no batch correction \nor well corrected batches, respectively. We performed optimized Louvain clustering\nfor this metric to obtain the best outcome of batch correction.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/clustering_overlap",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/clustering_overlap:2.1.0-rc3",
+    "component_name": "clustering_overlap",
+    "authors": [],
+    "references": {
+      "doi": ["10.1145/2808797.2809344", "10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "graph_connectivity",
+    "label": "Graph Connectivity",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Connectivity of the subgraph per cell type label",
+    "description": "The graph connectivity metric assesses whether the kNN graph representation,\nG, of the integrated data directly connects all cells with the same cell\nidentity label. For each cell identity label c, we created the subset kNN\ngraph G(Nc;Ec) to contain only cells from a given label. Using these subset\nkNN graphs, we computed the graph connectivity score using the equation:\n\ngc =1/|C| Σc∈C |LCC(G(Nc;Ec))|/|Nc|.\n\nHere, C represents the set of cell identity labels, |LCC()| is the number\nof nodes in the largest connected component of the graph, and |Nc| is the\nnumber of nodes with cell identity c. The resultant score has a range\nof (0;1], where 1 indicates that all cells with the same cell identity\nare connected in the integrated kNN graph, and the lowest possible score\nindicates a graph where no cell is connected. As this score is computed\non the kNN graph, it can be used to evaluate all integration outputs.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/graph_connectivity",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/graph_connectivity:2.1.0-rc3",
+    "component_name": "graph_connectivity",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "hvg_overlap",
+    "label": "HVG overlap",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Overlap of highly variable genes per batch before and after integration.",
+    "description": "The HVG conservation score is a proxy for the preservation of\nthe biological signal. If the data integration method returned\na corrected data matrix, we computed the number of HVGs before\nand after correction for each batch via Scanpy's\nhighly_variable_genes function (using the 'cell ranger' flavor).\nIf available, we computed 500 HVGs per batch. If fewer than 500\ngenes were present in the integrated object for a batch,\nthe number of HVGs was set to half the total genes in that batch.\nThe overlap coefficient is as follows:\noverlap(𝑋,𝑌)=|𝑋∩𝑌|/min(|𝑋|,|𝑌|),\n\nwhere X and Y denote the fraction of preserved informative genes.\nThe overall HVG score is the mean of the per-batch HVG overlap\ncoefficients.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/hvg_overlap",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/hvg_overlap:2.1.0-rc3",
+    "component_name": "hvg_overlap",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "feature"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "isolated_label_asw",
+    "label": "Isolated label ASW",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Evaluate how well isolated labels separate by average silhouette width",
+    "description": "Isolated cell labels are defined as the labels present in the least number\nof batches in the integration task. The score evaluates how well these isolated labels\nseparate from other cell identities.\n\nThe isolated label ASW score is obtained by computing the\nASW of isolated versus non-isolated labels on the PCA embedding (ASW metric above) and\nscaling this score to be between 0 and 1. The final score for each metric version\nconsists of the mean isolated score of all isolated labels.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/isolated_label_asw",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/isolated_label_asw:2.1.0-rc3",
+    "component_name": "isolated_label_asw",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "isolated_label_f1",
+    "label": "Isolated label F1 score",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Evaluate how well isolated labels coincide with clusters",
+    "description": "We developed two isolated label scores to evaluate how well the data integration methods\ndealt with cell identity labels shared by few batches. Specifically, we identified\nisolated cell labels as the labels present in the least number of batches in the\nintegration task.\nThe score evaluates how well these isolated labels separate from other cell identities.\nWe implemented the isolated label metric in two versions:\n(1) the best clustering of the isolated label (F1 score) and\n(2) the global ASW of the isolated label. For the cluster-based score,\nwe first optimize the cluster assignment of the isolated label using the F1 score˚\nacross louvain clustering resolutions ranging from 0.1 to 2 in resolution steps of 0.1.\nThe optimal F1 score for the isolated label is then used as the metric score.\nThe F1 score is a weighted mean of precision and recall given by the equation:\n𝐹1=2×(precision×recall)/(precision+recall).\n\nIt returns a value between 0 and 1,\nwhere 1 shows that all of the isolated label cells and no others are captured in\nthe cluster. For the isolated label ASW score, we compute the ASW of isolated\nversus nonisolated labels on the PCA embedding (ASW metric above) and scale this\nscore to be between 0 and 1. The final score for each metric version consists of\nthe mean isolated score of all isolated labels.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/isolated_label_f1",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/isolated_label_f1:2.1.0-rc3",
+    "component_name": "isolated_label_f1",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "kbet",
+    "label": "kBET",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "kBET algorithm to determine how well batches are mixed within a cell type",
+    "description": "The kBET algorithm (v.0.99.6, release 4c9dafa) determines whether the label composition\nof a k nearest neighborhood of a cell is similar to the expected (global) label\ncomposition (Buettner et al., Nat Meth 2019). The test is repeated for a random subset\nof cells, and the results are summarized as a rejection rate over all tested\nneighborhoods. Thus, kBET works on a kNN graph.\n\nWe compute kNN graphs where k = 50 for joint embeddings and corrected feature outputs\nvia Scanpy preprocessing steps. To test for technical effects and to account for\ncell-type frequency shifts across datasets, we applied kBET\nseparately on the batch variable for each cell identity label. Using the kBET defaults,\na k equal to the median of the number of cells per batch within each label is used for\nthis computation. Additionally, we set the minimum and maximum thresholds of k to 10 and\n100, respectively. As kNN graphs that have been subset by cell identity labels may no\nlonger be connected, we compute kBET per connected component. If >25% of cells were\nassigned to connected components too small for kBET computation (smaller than k × 3),\nwe assigned a kBET score of 1 to denote poor batch removal. Subsequently, kBET scores\nfor each label were averaged and subtracted from 1 to give a final kBET score.\n\nIn Open Problems we do not run kBET on graph outputs to avoid computation-intensive\ndiffusion processes being run.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/kbet",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/kbet:2.1.0-rc3",
+    "component_name": "kbet",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "kbet_pg",
+    "label": "kBET pegasus",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "kBET algorithm to determine how well batches are mixed within a cell type",
+    "description": "The kBET algorithm (v.0.99.6, release 4c9dafa) determines whether the label composition\nof a k nearest neighborhood of a cell is similar to the expected (global) label\ncomposition (Buettner et al., Nat Meth 2019). The test is repeated for a random subset\nof cells, and the results are summarized as a rejection rate over all tested\nneighborhoods.\n\nThis implementation uses the `pegasus.calc_kBET` function.\n\nIn Open Problems we do not run kBET on graph outputs to avoid computation-intensive\ndiffusion processes being run.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/kbet_pg",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/kbet_pg:2.1.0-rc3",
+    "component_name": "kbet_pg",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "kbet_pg_label",
+    "label": "kBET pegasus label",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "kBET algorithm to determine how well batches are mixed within a cell type",
+    "description": "The kBET algorithm (v.0.99.6, release 4c9dafa) determines whether the label composition\nof a k nearest neighborhood of a cell is similar to the expected (global) label\ncomposition (Buettner et al., Nat Meth 2019). The test is repeated for a random subset\nof cells, and the results are summarized as a rejection rate over all tested\nneighborhoods.\n\nThis implementation uses the `pegasus.calc_kBET` function per cell type and the rejection\nrate is averaged over all cell types.\n\nIn Open Problems we do not run kBET on graph outputs to avoid computation-intensive\ndiffusion processes being run.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/kbet_pg_label",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/kbet_pg_label:2.1.0-rc3",
+    "component_name": "kbet_pg_label",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "ksim_mean",
+    "label": "kSIM mean",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Mean fraction of each cell's nearest neighbours that share its cell type after batch correction.",
+    "description": "The kSIM metric uses prior knowledge of cell type labels to assess whether local\nneighbourhoods remain biologically consistent after batch correction (Li et al.,\nNat Methods 2020). For each cell, its K nearest neighbours in the integrated\nembedding are retrieved (the cell itself counts as its own first neighbour) and the\nfraction of those neighbours that carry the same cell type label is recorded.\nkSIM mean is the average of these per-cell fractions over the whole dataset.\n\nA high value means that cells of the same type stay locally grouped after\ncorrection, whereas a low value indicates that the correction has disrupted true\nbiological structure, for example by overcorrecting batch effects. This variant is\ncontinuous and therefore separates methods across the whole range of the scale.\n\nThis implementation uses the `pegasus.calc_kSIM` function with its default\nneighbourhood size of K=25.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/ksim",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/ksim:2.1.0-rc3",
+    "component_name": "ksim",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-020-0905-x"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "ksim_accept_rate",
+    "label": "kSIM acceptance rate",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Fraction of cells whose neighbourhood is almost entirely made up of their own cell type after batch correction.",
+    "description": "The kSIM acceptance rate is the thresholded companion of kSIM mean (Li et al.,\nNat Methods 2020). The same per-cell fractions of same-cell-type nearest neighbours\nare computed, but a cell is then counted as accepted only if that fraction reaches\nat least `min_rate`. The acceptance rate is the proportion of accepted cells in the\ndataset.\n\nBecause it is a thresholded quantity, this variant is more stringent than kSIM mean:\nit reports how many cells retain an essentially pure neighbourhood rather than how\npure neighbourhoods are on average. It can saturate near 0 for poorly separated\nintegrations, so it is best read alongside kSIM mean.\n\nThis implementation uses the `pegasus.calc_kSIM` function with its defaults of\nK=25 and min_rate=0.9, meaning that at least 23 of a cell's 25 neighbours must\nshare its cell type.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/ksim",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/ksim:2.1.0-rc3",
+    "component_name": "ksim",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-020-0905-x"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "ilisi",
+    "label": "iLISI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Local inverse Simpson's Index",
+    "description": "Local Inverse Simpson's Index metrics adapted from Korsunsky et al. 2019 to run on\nall full feature, embedding and kNN integration outputs via shortest path-based\ndistance computation on single-cell kNN graphs. The metric assesses whether clusters\nof cells in a single-cell RNA-seq dataset are well-mixed across a categorical batch\nvariable.\n\nThe original LISI score ranges from 0 to the number of categories, with the latter\nindicating good cell mixing. This is rescaled to a score between 0 and 1, where 0 \nrepresents bad batch mixing and 1 represents good batch mixing.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/lisi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/lisi:2.1.0-rc3",
+    "component_name": "lisi",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "clisi",
+    "label": "cLISI",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Local inverse Simpson's Index",
+    "description": "Local Inverse Simpson's Index metrics adapted from Korsunsky et al. 2019 to run on\nall full feature, embedding and kNN integration outputs via shortest path-based\ndistance computation on single-cell kNN graphs. The metric assesses whether clusters\nof cells in a single-cell RNA-seq dataset are well-mixed across a categorical cell type variable.\n\nThe original LISI score ranges from 0 to the number of categories, with the latter\nindicating good cell mixing. This is inverted and rescaled to a score between 0 and 1,\nwhere 0 represents bad cell type separation and 1 represents good cell type separation.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/lisi",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/lisi:2.1.0-rc3",
+    "component_name": "lisi",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "graph"
+    },
+    "version": "2.1.0-rc3"
+  },
+  {
+    "name": "pcr",
+    "label": "PCR",
+    "commit": "b3da9d64e97045127b1abcc4e9b319af71da9069",
+    "summary": "Compare explained variance by batch before and after integration",
+    "description": "Principal component regression, derived from PCA, has previously been used to quantify\nbatch removal. Briefly, the R2 was calculated from a linear regression of the\ncovariate of interest (for example, the batch variable B) onto each principal component.\nThe variance contribution of the batch effect per principal component was then\ncalculated as the product of the variance explained by the ith principal component (PC)\nand the corresponding R2(PCi|B). The sum across all variance contributions by the batch\neffects in all principal components gives the total variance explained by the batch\nvariable as follows:\nVar(𝐶|𝐵)=∑𝑖=1𝐺Var(𝐶|PC𝑖)×𝑅2(PC𝑖|𝐵),\n\nwhere Var(C|PCi) is the variance of the data matrix C explained by the ith principal\ncomponent.",
+    "maximize": true,
+    "link_implementation": "https://github.com/openproblems-bio/task_batch_integration/blob/b3da9d64e97045127b1abcc4e9b319af71da9069/src/metrics/pcr",
+    "link_container_image": "https://ghcr.io/openproblems-bio/task_batch_integration/metrics/pcr:2.1.0-rc3",
+    "component_name": "pcr",
+    "authors": [],
+    "references": {
+      "doi": ["10.1038/s41592-021-01336-8"],
+      "bibtex": []
+    },
+    "additional_info": {
+      "component_metric_type": "embedding"
+    },
+    "version": "2.1.0-rc3"
+  }
+]
